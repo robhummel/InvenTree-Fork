@@ -1,0 +1,18 @@
+---
+source_file: "/Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/generic/states/states.py"
+type: "rationale"
+community: "Community 4"
+location: "L19"
+tags:
+  - graphify/rationale
+  - graphify/EXTRACTED
+  - community/Community_4
+---
+
+# Assign values on creation.
+
+## Connections
+- [[.__new__()]] - `rationale_for` [EXTRACTED]
+- [[InvenTreeCustomUserStateModel]] - `uses` [INFERRED]
+
+#graphify/rationale #graphify/EXTRACTED #community/Community_4

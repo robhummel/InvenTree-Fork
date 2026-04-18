@@ -1,0 +1,23 @@
+---
+source_file: "inventree/src/backend/InvenTree/plugin/base/supplier/api.py"
+type: "code"
+community: "Community 2"
+location: "L34"
+tags:
+  - graphify/code
+  - graphify/EXTRACTED
+  - community/Community_2
+---
+
+# get_supplier_plugin()
+
+## Connections
+- [[.get_suppliers()_1]] - `calls` [INFERRED]
+- [[Custom view class for handling a barcode scan.]] - `rationale_for` [EXTRACTED]
+- [[NotFound()]] - `calls` [INFERRED]
+- [[api.py_6]] - `contains` [EXTRACTED]
+- [[get()_1]] - `calls` [EXTRACTED]
+- [[post()_1]] - `calls` [EXTRACTED]
+- [[with_mixin()]] - `calls` [INFERRED]
+
+#graphify/code #graphify/EXTRACTED #community/Community_2

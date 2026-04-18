@@ -1,0 +1,307 @@
+---
+type: community
+members: 273
+---
+
+# Deployment & Docker Architecture
+
+**Members:** 273 nodes
+
+## Members
+- [[Backup the database and media files.]] - rationale - inventree/tasks.py
+- [[Build frontend.      Args         c Context variable]] - rationale - inventree/tasks.py
+- [[Build the required documents for building the docs. Optionally build the documen]] - rationale - inventree/tasks.py
+- [[Check if frontend is available.]] - rationale - inventree/tasks.py
+- [[Check if the InvenTree environment is running in a debug environment.]] - rationale - inventree/tasks.py
+- [[Check if the InvenTree environment is running in a development container.]] - rationale - inventree/tasks.py
+- [[Check if the InvenTree environment is running on ReadTheDocs.]] - rationale - inventree/tasks.py
+- [[Check if the current environment is a package installer by VERSIONenvironment.]] - rationale - inventree/tasks.py
+- [[Check if the current environment is a package installer by checking the path.]] - rationale - inventree/tasks.py
+- [[Check that the installed invoke version meets minimum requirements.]] - rationale - inventree/tasks.py
+- [[Check that the installed python version meets minimum requirements.      If the]] - rationale - inventree/tasks.py
+- [[Checks if a file exists and asks the user if it should be overwritten.      Args]] - rationale - inventree/tasks.py
+- [[Checks if the frontend environment (ie node and yarn in bash) is available.]] - rationale - inventree/tasks.py
+- [[Checks if the rights invoke command for the current environment is used.]] - rationale - inventree/tasks.py
+- [[Clean the setting tables of old settings.]] - rationale - inventree/tasks.py
+- [[Clear generated files from `invoke update`.]] - rationale - inventree/tasks.py
+- [[Compile backend Django translation files.]] - rationale - inventree/tasks.py
+- [[Compile frontend translations.      Args         c Context variable         ex]] - rationale - inventree/tasks.py
+- [[Copies required static files to the STATIC_ROOT directory, as per Django require]] - rationale - inventree/tasks.py
+- [[Create a superuseradmin account for the database.]] - rationale - inventree/tasks.py
+- [[Decorator to log state markers beforeafter function execution, optionally accep]] - rationale - inventree/tasks.py
+- [[Delete all database records!      Warning This will REALLY delete all records i]] - rationale - inventree/tasks.py
+- [[Download a pre-build frontend from GitHub if you dont want to install nodejs on]] - rationale - inventree/tasks.py
+- [[Export all database records to a file.]] - rationale - inventree/tasks.py
+- [[Export current API schema.]] - rationale - inventree/tasks.py
+- [[Export settings definition to a JSON file.]] - rationale - inventree/tasks.py
+- [[Export various definitions.]] - rationale - inventree/tasks.py
+- [[Generate react frontend.      Arguments         c Context variable         ext]] - rationale - inventree/tasks.py
+- [[Generate schema documentation for the API.]] - rationale - inventree/tasks.py
+- [[Get the installer for the current environment or a content dict.]] - rationale - inventree/tasks.py
+- [[Get values from the VERSION file.]] - rationale - inventree/tasks.py
+- [[Helper function to safely get value from function, catching import exceptions.]] - rationale - inventree/tasks.py
+- [[Import database records from a file.]] - rationale - inventree/tasks.py
+- [[Import fixture data into the database.      This command imports all existing te]] - rationale - inventree/tasks.py
+- [[Install frontend requirements.      Args         c Context variable]] - rationale - inventree/tasks.py
+- [[Installs all plugins as specified in 'plugins.txt'.]] - rationale - inventree/tasks.py
+- [[Launch a (development) server using Django's in-built webserver.      - This is]] - rationale - inventree/tasks.py
+- [[Launch a Django shell.]] - rationale - inventree/tasks.py
+- [[Launch a gunicorn webserver.      Note This server will not auto-reload in resp]] - rationale - inventree/tasks.py
+- [[Library()]] - code - inventree/docs/docs/javascripts/fontawesome.js
+- [[List available backup files.]] - rationale - inventree/tasks.py
+- [[Main function to check the execution environment.]] - rationale - inventree/tasks.py
+- [[MissingIcon()]] - code - inventree/docs/docs/javascripts/fontawesome.js
+- [[Monitor the worker performance.]] - rationale - inventree/tasks.py
+- [[P()]] - code - inventree/docs/docs/javascripts/fontawesome.js
+- [[Performs database migrations.      This is a critical step if the database schem]] - rationale - inventree/tasks.py
+- [[Print a success message to the console.]] - rationale - inventree/tasks.py
+- [[Print an error message to the console.]] - rationale - inventree/tasks.py
+- [[Rebuild database models with MPTT structures.]] - rationale - inventree/tasks.py
+- [[Rebuild missing image thumbnails.]] - rationale - inventree/tasks.py
+- [[Rebuild translation source files. Advanced use only!      Note This command sho]] - rationale - inventree/tasks.py
+- [[Remove MFA for a user.]] - rationale - inventree/tasks.py
+- [[Remove old stock tracking entries before a certain date.]] - rationale - inventree/src/backend/InvenTree/stock/tasks.py
+- [[Restore the database and media files.]] - rationale - inventree/tasks.py
+- [[Return the absolute path for the 'media' directory (where uploaded files are sto]] - rationale - inventree/src/backend/InvenTree/InvenTree/config.py
+- [[Return the absolute path for the 'static' directory (where static files are stor]] - rationale - inventree/src/backend/InvenTree/InvenTree/config.py
+- [[Return the current Django version.]] - rationale - inventree/tasks.py
+- [[Return the current InvenTree version.]] - rationale - inventree/tasks.py
+- [[Return the current git commit date.]] - rationale - inventree/tasks.py
+- [[Return the current git commit hash.]] - rationale - inventree/tasks.py
+- [[Return the path of the SHA version file.]] - rationale - inventree/tasks.py
+- [[Return the path of the frontend info directory.]] - rationale - inventree/tasks.py
+- [[Return the path of the manage.py file.]] - rationale - inventree/tasks.py
+- [[Return the path of the source version file.]] - rationale - inventree/tasks.py
+- [[Return the path of the target version file.]] - rationale - inventree/tasks.py
+- [[Returns a list of all installed apps, including plugins.]] - rationale - inventree/tasks.py
+- [[Returns a list of content types to exclude from import  export.      Arguments]] - rationale - inventree/tasks.py
+- [[Returns a list of installed apps.]] - rationale - inventree/tasks.py
+- [[Returns the directory of THIS file.      Used to ensure that the various scrip]] - rationale - inventree/tasks.py
+- [[Returns the directory of the manage.py file.]] - rationale - inventree/tasks.py
+- [[Run the InvenTree background worker process.]] - rationale - inventree/tasks.py
+- [[Run the installation of python packages from a requirements file.      Arguments]] - rationale - inventree/tasks.py
+- [[Run unit-tests for InvenTree codebase.      To run only certain test, use the ar]] - rationale - inventree/tasks.py
+- [[Runs a given command a given path.      Args         c Command line context.]] - rationale - inventree/tasks.py
+- [[Runs a given command against django's manage.py script.      Args         c]] - rationale - inventree/tasks.py
+- [[Sets up everything needed for the dev environment.]] - rationale - inventree/tasks.py
+- [[Setup a testing environment.]] - rationale - inventree/tasks.py
+- [[Show the current version of InvenTree.]] - rationale - inventree/tasks.py
+- [[Show the migration status of the database.]] - rationale - inventree/tasks.py
+- [[Start a local mkdocs server to view the documentation.]] - rationale - inventree/tasks.py
+- [[Start frontend development server.      Args         c Context variable]] - rationale - inventree/tasks.py
+- [[Start the playwright test runner for the frontend code.]] - rationale - inventree/tasks.py
+- [[Update InvenTree installation.      This command should be invoked after source]] - rationale - inventree/tasks.py
+- [[Validate the metadata associated with an import file.      Arguments         c]] - rationale - inventree/tasks.py
+- [[Wait until the database connection is ready.]] - rationale - inventree/tasks.py
+- [[Wrap text in a color code.]] - rationale - inventree/tasks.py
+- [[_arrayWithHoles()]] - code - inventree/docs/docs/javascripts/fontawesome.js
+- [[_arrayWithoutHoles()]] - code - inventree/docs/docs/javascripts/fontawesome.js
+- [[_classCallCheck()]] - code - inventree/docs/docs/javascripts/fontawesome.js
+- [[_createClass()]] - code - inventree/docs/docs/javascripts/fontawesome.js
+- [[_defineProperties()]] - code - inventree/docs/docs/javascripts/fontawesome.js
+- [[_defineProperty()_2]] - code - inventree/docs/docs/javascripts/fontawesome.js
+- [[_frontend_info()]] - code - inventree/tasks.py
+- [[_iterableToArray()]] - code - inventree/docs/docs/javascripts/fontawesome.js
+- [[_iterableToArrayLimit()]] - code - inventree/docs/docs/javascripts/fontawesome.js
+- [[_nonIterableRest()]] - code - inventree/docs/docs/javascripts/fontawesome.js
+- [[_nonIterableSpread()]] - code - inventree/docs/docs/javascripts/fontawesome.js
+- [[_objectSpread()_2]] - code - inventree/docs/docs/javascripts/fontawesome.js
+- [[_slicedToArray()]] - code - inventree/docs/docs/javascripts/fontawesome.js
+- [[_toConsumableArray()]] - code - inventree/docs/docs/javascripts/fontawesome.js
+- [[_typeof()]] - code - inventree/docs/docs/javascripts/fontawesome.js
+- [[apiObject()]] - code - inventree/docs/docs/javascripts/fontawesome.js
+- [[asFoundIcon()]] - code - inventree/docs/docs/javascripts/fontawesome.js
+- [[asIcon()]] - code - inventree/docs/docs/javascripts/fontawesome.js
+- [[asSymbol()]] - code - inventree/docs/docs/javascripts/fontawesome.js
+- [[asyncCall()]] - code - inventree/docs/docs/javascripts/fontawesome.js
+- [[asyncFlush()]] - code - inventree/docs/docs/javascripts/fontawesome.js
+- [[attributesParser()]] - code - inventree/docs/docs/javascripts/fontawesome.js
+- [[backend_trans()]] - code - inventree/tasks.py
+- [[backup()]] - code - inventree/tasks.py
+- [[blankMeta()]] - code - inventree/docs/docs/javascripts/fontawesome.js
+- [[bootstrap()]] - code - inventree/docs/docs/javascripts/fontawesome.js
+- [[build_docs()]] - code - inventree/tasks.py
+- [[builtin_apps()]] - code - inventree/tasks.py
+- [[byLigature()]] - code - inventree/docs/docs/javascripts/fontawesome.js
+- [[byOldName()]] - code - inventree/docs/docs/javascripts/fontawesome.js
+- [[byUnicode()]] - code - inventree/docs/docs/javascripts/fontawesome.js
+- [[check_file_existence()]] - code - inventree/tasks.py
+- [[classArray()]] - code - inventree/docs/docs/javascripts/fontawesome.js
+- [[classParser()]] - code - inventree/docs/docs/javascripts/fontawesome.js
+- [[clean_settings()]] - code - inventree/tasks.py
+- [[clear_generated()]] - code - inventree/tasks.py
+- [[coerce()]] - code - inventree/docs/docs/javascripts/fontawesome.js
+- [[content_excludes()]] - code - inventree/tasks.py
+- [[css()]] - code - inventree/docs/docs/javascripts/fontawesome.js
+- [[deGroup()]] - code - inventree/docs/docs/javascripts/fontawesome.js
+- [[defineIcons()_2]] - code - inventree/docs/docs/javascripts/fontawesome.js
+- [[delete_data()]] - code - inventree/tasks.py
+- [[disableObservation()]] - code - inventree/docs/docs/javascripts/fontawesome.js
+- [[disconnect()]] - code - inventree/docs/docs/javascripts/fontawesome.js
+- [[doc_schema()]] - code - inventree/tasks.py
+- [[docs_server()]] - code - inventree/tasks.py
+- [[domready()]] - code - inventree/docs/docs/javascripts/fontawesome.js
+- [[enableObservation()]] - code - inventree/docs/docs/javascripts/fontawesome.js
+- [[end()_1]] - code - inventree/docs/docs/javascripts/splide.js
+- [[ensureCss()]] - code - inventree/docs/docs/javascripts/fontawesome.js
+- [[envcheck_invoke_cmd()]] - code - inventree/tasks.py
+- [[envcheck_invoke_path()]] - code - inventree/tasks.py
+- [[envcheck_invoke_version()]] - code - inventree/tasks.py
+- [[envcheck_python_version()]] - code - inventree/tasks.py
+- [[error()]] - code - inventree/tasks.py
+- [[export_definitions()]] - code - inventree/tasks.py
+- [[export_records()]] - code - inventree/tasks.py
+- [[export_settings_definitions()]] - code - inventree/tasks.py
+- [[externalLinks()]] - code - inventree/docs/docs/javascripts/extra.js
+- [[extra.js]] - code - inventree/docs/docs/javascripts/extra.js
+- [[fillBlack()]] - code - inventree/docs/docs/javascripts/fontawesome.js
+- [[findIcon()]] - code - inventree/docs/docs/javascripts/fontawesome.js
+- [[findIconDefinition()]] - code - inventree/docs/docs/javascripts/fontawesome.js
+- [[fontawesome.js]] - code - inventree/docs/docs/javascripts/fontawesome.js
+- [[frontend_build()]] - code - inventree/tasks.py
+- [[frontend_check()]] - code - inventree/tasks.py
+- [[frontend_compile()]] - code - inventree/tasks.py
+- [[frontend_download()]] - code - inventree/tasks.py
+- [[frontend_install()]] - code - inventree/tasks.py
+- [[frontend_server()]] - code - inventree/tasks.py
+- [[frontend_test()]] - code - inventree/tasks.py
+- [[frontend_trans()]] - code - inventree/tasks.py
+- [[fulfill()]] - code - inventree/docs/docs/javascripts/fontawesome.js
+- [[generateLayersText()]] - code - inventree/docs/docs/javascripts/fontawesome.js
+- [[generateMutation()]] - code - inventree/docs/docs/javascripts/fontawesome.js
+- [[generateSvgReplacementMutation()]] - code - inventree/docs/docs/javascripts/fontawesome.js
+- [[getAttrConfig()]] - code - inventree/docs/docs/javascripts/fontawesome.js
+- [[getAttribute()_2]] - code - inventree/docs/docs/javascripts/splide.esm.js
+- [[getCanonicalIcon()]] - code - inventree/docs/docs/javascripts/fontawesome.js
+- [[getIconName()]] - code - inventree/docs/docs/javascripts/fontawesome.js
+- [[getMutator()]] - code - inventree/docs/docs/javascripts/fontawesome.js
+- [[get_commit_date()]] - code - inventree/tasks.py
+- [[get_commit_hash()]] - code - inventree/tasks.py
+- [[get_django_version()]] - code - inventree/tasks.py
+- [[get_installer()]] - code - inventree/tasks.py
+- [[get_inventree_api_version()]] - code - inventree/tasks.py
+- [[get_inventree_version()]] - code - inventree/tasks.py
+- [[get_media_dir()]] - code - inventree/src/backend/InvenTree/InvenTree/config.py
+- [[get_static_dir()]] - code - inventree/src/backend/InvenTree/InvenTree/config.py
+- [[get_version_vals()]] - code - inventree/tasks.py
+- [[gunicorn()]] - code - inventree/tasks.py
+- [[handleThenable()]] - code - inventree/docs/docs/javascripts/fontawesome.js
+- [[htmlEscape()]] - code - inventree/docs/docs/javascripts/fontawesome.js
+- [[iconFromMapping()]] - code - inventree/docs/docs/javascripts/fontawesome.js
+- [[import_fixtures()]] - code - inventree/tasks.py
+- [[import_records()]] - code - inventree/tasks.py
+- [[insertCss()]] - code - inventree/docs/docs/javascripts/fontawesome.js
+- [[install()]] - code - inventree/tasks.py
+- [[installed_apps()]] - code - inventree/tasks.py
+- [[invokeCallback()]] - code - inventree/docs/docs/javascripts/fontawesome.js
+- [[invokeResolver()]] - code - inventree/docs/docs/javascripts/fontawesome.js
+- [[isReserved()]] - code - inventree/docs/docs/javascripts/fontawesome.js
+- [[isWatched()]] - code - inventree/docs/docs/javascripts/fontawesome.js
+- [[is_debug_environment()]] - code - inventree/tasks.py
+- [[is_devcontainer_environment()]] - code - inventree/tasks.py
+- [[is_docker_environment()]] - code - inventree/tasks.py
+- [[is_pkg_installer()]] - code - inventree/tasks.py
+- [[is_pkg_installer_by_path()]] - code - inventree/tasks.py
+- [[is_rtd_environment()]] - code - inventree/tasks.py
+- [[is_true()]] - code - inventree/tasks.py
+- [[joinAttributes()]] - code - inventree/docs/docs/javascripts/fontawesome.js
+- [[joinStyles()]] - code - inventree/docs/docs/javascripts/fontawesome.js
+- [[listbackups()]] - code - inventree/tasks.py
+- [[local_dir()]] - code - inventree/tasks.py
+- [[main()]] - code - inventree/tasks.py
+- [[makeIconMasking()]] - code - inventree/docs/docs/javascripts/fontawesome.js
+- [[makeIconStandard()]] - code - inventree/docs/docs/javascripts/fontawesome.js
+- [[makeInlineSvgAbstract()]] - code - inventree/docs/docs/javascripts/fontawesome.js
+- [[makeLayersCounterAbstract()]] - code - inventree/docs/docs/javascripts/fontawesome.js
+- [[makeLayersTextAbstract()]] - code - inventree/docs/docs/javascripts/fontawesome.js
+- [[manage()]] - code - inventree/tasks.py
+- [[manage_py_dir()]] - code - inventree/tasks.py
+- [[manage_py_path()]] - code - inventree/tasks.py
+- [[maskParser()]] - code - inventree/docs/docs/javascripts/fontawesome.js
+- [[migrate()]] - code - inventree/tasks.py
+- [[monitor()]] - code - inventree/tasks.py
+- [[nextUniqueId()]] - code - inventree/docs/docs/javascripts/fontawesome.js
+- [[node_available()]] - code - inventree/tasks.py
+- [[notifyRejectionHandled()]] - code - inventree/docs/docs/javascripts/fontawesome.js
+- [[observe()]] - code - inventree/docs/docs/javascripts/fontawesome.js
+- [[onNode()]] - code - inventree/docs/docs/javascripts/fontawesome.js
+- [[onTree()]] - code - inventree/docs/docs/javascripts/fontawesome.js
+- [[parseMeta()]] - code - inventree/docs/docs/javascripts/fontawesome.js
+- [[perform()]] - code - inventree/docs/docs/javascripts/fontawesome.js
+- [[performOperationSync()]] - code - inventree/docs/docs/javascripts/fontawesome.js
+- [[plugins()]] - code - inventree/tasks.py
+- [[processable()]] - code - inventree/docs/docs/javascripts/fontawesome.js
+- [[publish()]] - code - inventree/docs/docs/javascripts/fontawesome.js
+- [[publishFulfillment()]] - code - inventree/docs/docs/javascripts/fontawesome.js
+- [[publishRejection()]] - code - inventree/docs/docs/javascripts/fontawesome.js
+- [[rebuild_models()]] - code - inventree/tasks.py
+- [[rebuild_thumbnails()]] - code - inventree/tasks.py
+- [[reject()]] - code - inventree/docs/docs/javascripts/fontawesome.js
+- [[remove_mfa()]] - code - inventree/tasks.py
+- [[replace()]] - code - inventree/docs/docs/javascripts/fontawesome.js
+- [[replaceForPosition()]] - code - inventree/docs/docs/javascripts/fontawesome.js
+- [[resolve()]] - code - inventree/docs/docs/javascripts/fontawesome.js
+- [[resolveIcons()]] - code - inventree/docs/docs/javascripts/fontawesome.js
+- [[resolver()]] - code - inventree/docs/docs/javascripts/fontawesome.js
+- [[restore()]] - code - inventree/tasks.py
+- [[run()]] - code - inventree/tasks.py
+- [[run_install()]] - code - inventree/tasks.py
+- [[safe_value()]] - code - inventree/tasks.py
+- [[schema()]] - code - inventree/tasks.py
+- [[searchPseudoElements()]] - code - inventree/docs/docs/javascripts/fontawesome.js
+- [[server()]] - code - inventree/tasks.py
+- [[setAttribute()_2]] - code - inventree/docs/docs/javascripts/splide.esm.js
+- [[setup_dev()]] - code - inventree/tasks.py
+- [[setup_test()]] - code - inventree/tasks.py
+- [[shell()]] - code - inventree/tasks.py
+- [[showmigrations()]] - code - inventree/tasks.py
+- [[state_logger()]] - code - inventree/tasks.py
+- [[static()]] - code - inventree/tasks.py
+- [[styleParser()]] - code - inventree/docs/docs/javascripts/fontawesome.js
+- [[success()]] - code - inventree/tasks.py
+- [[superuser()]] - code - inventree/tasks.py
+- [[symbolParser()]] - code - inventree/docs/docs/javascripts/fontawesome.js
+- [[tasks.py]] - code - inventree/tasks.py
+- [[test()]] - code - inventree/tasks.py
+- [[toArray()_1]] - code - inventree/docs/docs/javascripts/fontawesome.js
+- [[toHex()]] - code - inventree/docs/docs/javascripts/fontawesome.js
+- [[toHtml()]] - code - inventree/docs/docs/javascripts/fontawesome.js
+- [[transformForCss()]] - code - inventree/docs/docs/javascripts/fontawesome.js
+- [[transformForSvg()]] - code - inventree/docs/docs/javascripts/fontawesome.js
+- [[transformIsMeaningful()]] - code - inventree/docs/docs/javascripts/fontawesome.js
+- [[transformParser()]] - code - inventree/docs/docs/javascripts/fontawesome.js
+- [[translate()]] - code - inventree/tasks.py
+- [[update()]] - code - inventree/tasks.py
+- [[validate_import_metadata()]] - code - inventree/tasks.py
+- [[version()]] - code - inventree/tasks.py
+- [[version_sha_pth()]] - code - inventree/tasks.py
+- [[version_source_pth()]] - code - inventree/tasks.py
+- [[version_target_pth()]] - code - inventree/tasks.py
+- [[wait()]] - code - inventree/tasks.py
+- [[worker()]] - code - inventree/tasks.py
+- [[wrap_color()]] - code - inventree/tasks.py
+- [[yarn()]] - code - inventree/tasks.py
+
+## Live Query (requires Dataview plugin)
+
+```dataview
+TABLE source_file, type FROM #community/Deployment_&_Docker_Architecture
+SORT file.name ASC
+```
+
+## Connections to other communities
+- 157 edges to [[_COMMUNITY_Data Migrations & Schema]]
+- 101 edges to [[_COMMUNITY_Community 1]]
+- 7 edges to [[_COMMUNITY_Part Management & Archetypes]]
+- 3 edges to [[_COMMUNITY_Documentation & FAQ]]
+- 2 edges to [[_COMMUNITY_Community 2]]
+- 2 edges to [[_COMMUNITY_Community 7]]
+- 1 edge to [[_COMMUNITY_System Configuration & Settings]]
+- 1 edge to [[_COMMUNITY_Community 11]]
+
+## Top bridge nodes
+- [[resolve()]] - degree 46, connects to 5 communities
+- [[Remove old stock tracking entries before a certain date.]] - degree 5, connects to 3 communities
+- [[tasks.py]] - degree 91, connects to 2 communities
+- [[success()]] - degree 23, connects to 2 communities
+- [[run()]] - degree 20, connects to 2 communities

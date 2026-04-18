@@ -1,0 +1,88 @@
+---
+source_file: "/Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/templatetags/report.py"
+type: "code"
+community: "Community 10"
+location: "L1117"
+tags:
+  - graphify/code
+  - graphify/INFERRED
+  - community/Community_10
+---
+
+# split()
+
+## Connections
+- [[.__call__()]] - `calls` [INFERRED]
+- [[._reregister_contrib_apps()]] - `calls` [INFERRED]
+- [[.clean()_10]] - `calls` [INFERRED]
+- [[.clean()_17]] - `calls` [INFERRED]
+- [[.clean_email()]] - `calls` [INFERRED]
+- [[.extract_barcode_fields()]] - `calls` [INFERRED]
+- [[.extract_barcode_fields()_2]] - `calls` [INFERRED]
+- [[.filter_items()]] - `calls` [INFERRED]
+- [[.filter_mixin()]] - `calls` [INFERRED]
+- [[.filter_queryset()_3]] - `calls` [INFERRED]
+- [[.get_choices()_1]] - `calls` [INFERRED]
+- [[.get_choices()_3]] - `calls` [INFERRED]
+- [[.get_nested_value()]] - `calls` [INFERRED]
+- [[.get_search_results()]] - `calls` [INFERRED]
+- [[.has_permission()_2]] - `calls` [INFERRED]
+- [[.hashed_file_lookup()]] - `calls` [INFERRED]
+- [[.model_class()]] - `calls` [INFERRED]
+- [[.plugin_dirs()]] - `calls` [INFERRED]
+- [[.process_event()_2]] - `calls` [INFERRED]
+- [[.test_commit_info()]] - `calls` [INFERRED]
+- [[.test_currency_migration()]] - `calls` [INFERRED]
+- [[.test_date()]] - `calls` [INFERRED]
+- [[.test_existing_image()]] - `calls` [INFERRED]
+- [[.test_generation()]] - `calls` [INFERRED]
+- [[.test_spa_bundle()]] - `calls` [INFERRED]
+- [[.test_string_tags()]] - `calls` [INFERRED]
+- [[.to_internal_value()_5]] - `calls` [INFERRED]
+- [[.validate_existing_image()]] - `calls` [INFERRED]
+- [[Split a string into a list, using the provided separator (default = ',').      A]] - `rationale_for` [EXTRACTED]
+- [[_deactivate_mixin()]] - `calls` [INFERRED]
+- [[_get_package_metadata()]] - `calls` [INFERRED]
+- [[_get_plugin_path()]] - `calls` [INFERRED]
+- [[assignRole()]] - `calls` [INFERRED]
+- [[checkMinPythonVersion()]] - `calls` [INFERRED]
+- [[currency_codes()]] - `calls` [INFERRED]
+- [[determine_content_type()]] - `calls` [INFERRED]
+- [[discover_filters()]] - `calls` [INFERRED]
+- [[discover_tags()]] - `calls` [INFERRED]
+- [[extract_serial_numbers()]] - `calls` [INFERRED]
+- [[filter_db_model()]] - `calls` [EXTRACTED]
+- [[generate_permission_dict()]] - `calls` [INFERRED]
+- [[getNewestMigrationFile()]] - `calls` [INFERRED]
+- [[getOldestMigrationFile()]] - `calls` [INFERRED]
+- [[get_git_log()]] - `calls` [INFERRED]
+- [[get_install_info()]] - `calls` [INFERRED]
+- [[get_last_used_printers()]] - `calls` [INFERRED]
+- [[get_setting()_1]] - `calls` [INFERRED]
+- [[get_token_from_request()]] - `calls` [INFERRED]
+- [[handle_pip_error()]] - `calls` [INFERRED]
+- [[inventreeCommitDate()]] - `calls` [INFERRED]
+- [[inventreePythonVersion()]] - `calls` [INFERRED]
+- [[is_editable()]] - `calls` [INFERRED]
+- [[load_data_file()]] - `calls` [INFERRED]
+- [[offload_task()]] - `calls` [INFERRED]
+- [[parse_docstring()]] - `calls` [INFERRED]
+- [[parse_version_text()]] - `calls` [INFERRED]
+- [[plugin_static_file()]] - `calls` [INFERRED]
+- [[rename_company_image()]] - `calls` [INFERRED]
+- [[render_currency()_1]] - `calls` [INFERRED]
+- [[report.py]] - `contains` [EXTRACTED]
+- [[set_currencies()]] - `calls` [INFERRED]
+- [[split_fields()]] - `calls` [INFERRED]
+- [[split_model()]] - `calls` [INFERRED]
+- [[split_permission()]] - `calls` [INFERRED]
+- [[str]] - `calls` [INFERRED]
+- [[strip()]] - `calls` [EXTRACTED]
+- [[sub_component_name()]] - `calls` [INFERRED]
+- [[to_list()]] - `calls` [INFERRED]
+- [[validateFilterString()]] - `calls` [INFERRED]
+- [[validate_currency_codes()]] - `calls` [INFERRED]
+- [[validate_email_domains()]] - `calls` [INFERRED]
+- [[validate_icon()]] - `calls` [INFERRED]
+
+#graphify/code #graphify/INFERRED #community/Community_10

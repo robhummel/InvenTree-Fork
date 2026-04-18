@@ -1,0 +1,284 @@
+---
+type: community
+cohesion: 0.02
+members: 232
+---
+
+# Community 12
+
+**Cohesion:** 0.02 - loosely connected
+**Members:** 232 nodes
+
+## Members
+- [[.__init__()_71]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[._create_admin_user()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/apps.py
+- [[.add_price_break()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/models.py
+- [[.calculate_total_price()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/models.py
+- [[.check_ownership()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/models.py
+- [[.cleanup()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/data_exporter/apps.py
+- [[.cleanup()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/apps.py
+- [[.create()_11]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/api.py
+- [[.create_default_reports()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/apps.py
+- [[.ensure_migrations_done()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/apps.py
+- [[.file_from_template()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/apps.py
+- [[.filter_queryset()_3]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/api.py
+- [[.get()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/api.py
+- [[.get_object()_11]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/api.py
+- [[.get_queryset()_19]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/api.py
+- [[.get_rates()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/exchange.py
+- [[.get_related_owners()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/models.py
+- [[.is_field_included()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[.is_user_allowed()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/models.py
+- [[.perform_update()_3]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/api.py
+- [[.ready()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/apps.py
+- [[.ready()_8]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/apps.py
+- [[.ready()_5]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/data_exporter/apps.py
+- [[.ready()_7]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/apps.py
+- [[.ready()_2]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/apps.py
+- [[.ready()_6]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/apps.py
+- [[.ready()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/apps.py
+- [[.ready()_4]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/apps.py
+- [[.ready()_3]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/apps.py
+- [[.reset_part_pricing_flags()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/apps.py
+- [[.schedule_for_update()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/models.py
+- [[.schedule_pricing_update()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/models.py
+- [[.send_notification()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/integration/core_notifications.py
+- [[.set_ready()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/registry.py
+- [[.test_delete()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/test_tasks.py
+- [[.test_display_name()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/tests.py
+- [[.test_duplicate_tasks()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_tasks.py
+- [[.test_offload_tasks()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[.test_owner()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/tests.py
+- [[.test_pending_tasks()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[.test_purchase_price()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/tests.py
+- [[.test_rates()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[.test_task_check_for_updates()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_tasks.py
+- [[.test_task_delete_old_error_logs()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_tasks.py
+- [[.test_task_delete_successful_tasks()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_tasks.py
+- [[.test_task_detail()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[.update_owners()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/apps.py
+- [[.update_trackable_status()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/apps.py
+- [[AppConfig]] - code
+- [[AppConfig class for the machine app.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/apps.py
+- [[AppConfig for inventree app.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/apps.py
+- [[Callback function to create a new owner instance after either a new group or use]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/models.py
+- [[Callback function to delete an owner instance after either a new group or user i]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/models.py
+- [[Callback function when base currency is changed.      - Update exchange rates]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/currency.py
+- [[Check for any instances where a trackable part is used in the BOM for a non-trac]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/apps.py
+- [[Check if email backend is configured.      Fails on tests nominally, if no bypas]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/helpers_email.py
+- [[Check that the InvenTree system is running OK.      Returns True if all system c]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/status.py
+- [[Cleanup any old export files.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/data_exporter/apps.py
+- [[Cleanup old label and report outputs.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/apps.py
+- [[Clear the set of loaded apps.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/ready.py
+- [[Code for managing email functionality in InvenTree.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/helpers_email.py
+- [[CommonConfig]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/apps.py
+- [[CompanyConfig]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/apps.py
+- [[Config class for the 'company' app.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/apps.py
+- [[Config class for the 'part' app.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/apps.py
+- [[Config class for the 'users' app.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/apps.py
+- [[Config for the 'company' app.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/apps.py
+- [[Configuration class for the report app.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/apps.py
+- [[Construct a new ContentFile from a template file.          Args             dir]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/apps.py
+- [[Create an 'owner' object for each user and group instance.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/apps.py
+- [[Create default report templates.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/apps.py
+- [[Create or update user profile when user is saved.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/models.py
+- [[DataExporterConfig]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/data_exporter/apps.py
+- [[Decorator to ignore 'AppRegistryNotReady' warnings in functions called during ap]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/ready.py
+- [[Django runserver starts two processes, one for the actual dev server and the oth]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/ready.py
+- [[Ensures that the plugin registry is already loaded.      The plugin registry rel]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/ready.py
+- [[Ensures there are no open migrations, stop if inconsistent state.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/apps.py
+- [[Enumeration for user types.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/models.py
+- [[Exception]] - code
+- [[Functions to check if certain parts of InvenTree are ready.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/ready.py
+- [[Get all owners related to an owner.          This method is useful to retrieve]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/models.py
+- [[Gunicorn configuration script for InvenTree web server.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/gunicorn.conf.py
+- [[Helper functions for currency support.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/currency.py
+- [[If a django user is from LDAP and has an email attached to it, create an allauth]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/models.py
+- [[ImporterConfig]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/importer/apps.py
+- [[Initialization method for the machine app.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/apps.py
+- [[Initialize restart flag clearance on startup.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/apps.py
+- [[Initialize the currency serializer.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[InvenTreeConfig]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/apps.py
+- [[MachineConfig_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/apps.py
+- [[Mark an app as loaded.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/ready.py
+- [[OpenTelemetry setup functions.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tracing.py
+- [[OrderConfig]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/apps.py
+- [[PartConfig]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/apps.py
+- [[Performed on startup, to ensure that all pricing objects are in a good state.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/apps.py
+- [[PluginAppConfig]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/apps.py
+- [[Post-fork hook to set up logging for each worker.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/gunicorn.conf.py
+- [[Provides system status functionality checks.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/status.py
+- [[Register the event with any interested plugins.      Note This function is proc]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/event/events.py
+- [[ReportConfig]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/apps.py
+- [[Return True if it is appropriate to cache the unit registry.      Prevent cachin]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/conversion.py
+- [[Return True if the 'collectplugins' command is being executed.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/ready.py
+- [[Return True if the app has been marked as loaded.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/ready.py
+- [[Return True if the background worker process is operational.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/status.py
+- [[Return True if the current command is a read-only command, which should not trig]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/ready.py
+- [[Return True if the database is currently running migrations.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/ready.py
+- [[Return True if we are currently waiting for the database to be ready.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/ready.py
+- [[Return a comma-separated list of default currency codes.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/currency.py
+- [[Return a list of plugin choices which can be used for currency exchange.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/currency.py
+- [[Return a list of read-only management commands which should not trigger database]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/ready.py
+- [[Return true if any of the backup commands are being executed.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/ready.py
+- [[Return true if any of the rebuilding commands are being executed.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/ready.py
+- [[Return true if schema generation is being executed.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/ready.py
+- [[Returns True if the apps.py file can access database records.      Arguments]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/ready.py
+- [[Returns True if the current thread is a background worker thread.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/ready.py
+- [[Returns True if the current thread is a server thread.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/ready.py
+- [[Returns True if the database is currently importing (or exporting) data, e.g. 'l]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/ready.py
+- [[Returns True if the database is in testing mode.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/ready.py
+- [[Returns the current currency choices.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/currency.py
+- [[Returns the current currency codes.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/currency.py
+- [[Returns the default currency code (or USD if not specified).]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/currency.py
+- [[Run any code that needs to be executed when the app is loaded.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/data_exporter/apps.py
+- [[Run auto-instrumentation for OpenTelemetry tracing.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tracing.py
+- [[Run system wide setup init steps.          Like         - Checking if migration]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/apps.py
+- [[Send an email with the specified subject and body, to the specified recipients l_1]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/helpers_email.py
+- [[Set the requested currency codes and get rates.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/exchange.py
+- [[Set the value of the isGeneratingSchema variable.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/ready.py
+- [[Set up tracing for the application in the current context.      Args         en]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tracing.py
+- [[StockConfig]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/apps.py
+- [[This function is called whenever the Company app is loaded.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/apps.py
+- [[This function is called whenever the Part app is loaded.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/apps.py
+- [[This function is called whenever the app is loaded.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/apps.py
+- [[UserType]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/models.py
+- [[UsersConfig]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/apps.py
+- [[Validate the currency codes.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/currency.py
+- [[_setGeneratingSchema()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/ready.py
+- [[active()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/models.py
+- [[add_heartbeat()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/apps.py
+- [[add_user_from_file()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/apps.py
+- [[add_user_on_startup()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/apps.py
+- [[after_change_currency()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/currency.py
+- [[after_delete_stock_item()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/models.py
+- [[after_delete_supplier_price()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/models.py
+- [[after_save_sales_order()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/models.py
+- [[after_save_stock_item()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/models.py
+- [[after_save_supplier_price()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/models.py
+- [[apps.py_3]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/apps.py
+- [[apps.py_11]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/apps.py
+- [[apps.py_7]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/data_exporter/apps.py
+- [[apps.py_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/importer/apps.py
+- [[apps.py_10]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/apps.py
+- [[apps.py_4]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/apps.py
+- [[apps.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/apps.py
+- [[apps.py_8]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/apps.py
+- [[apps.py_2]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/apps.py
+- [[apps.py_6]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/apps.py
+- [[apps.py_9]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/apps.py
+- [[apps.py_5]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/apps.py
+- [[canAppAccessDatabase()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/ready.py
+- [[can_cache_registry()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/conversion.py
+- [[check_reload()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/registry.py
+- [[check_system_health()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/status.py
+- [[clearLoadedApps()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/ready.py
+- [[clear_restart_flag()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/apps.py
+- [[collect_tasks()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/apps.py
+- [[create()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/models.py
+- [[create_email_address()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/models.py
+- [[create_or_update_user_profile()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/models.py
+- [[create_owner()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/models.py
+- [[currency.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/currency.py
+- [[currency_code()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/models.py
+- [[currency_code_default()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/currency.py
+- [[currency_code_mappings()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/currency.py
+- [[currency_codes()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/currency.py
+- [[currency_codes_default_list()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/currency.py
+- [[currency_exchange_plugins()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/currency.py
+- [[default_token()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/models.py
+- [[delete_owner()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/models.py
+- [[expired()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/models.py
+- [[generate_key()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/models.py
+- [[get_email_for_user()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/helpers_email.py
+- [[get_owner()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/models.py
+- [[get_owners_matching_user()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/models.py
+- [[gunicorn.conf.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/gunicorn.conf.py
+- [[handle_inbound()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/models.py
+- [[helpers_email.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/helpers_email.py
+- [[ignore_ready_warning()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/ready.py
+- [[initialize_registry()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/apps.py
+- [[isAppLoaded()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/ready.py
+- [[isCollectingPlugins()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/ready.py
+- [[isGeneratingSchema()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/ready.py
+- [[isImportingData()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/ready.py
+- [[isInMainThread()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/ready.py
+- [[isInServerThread()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/ready.py
+- [[isInTestMode()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/ready.py
+- [[isInWorkerThread()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/ready.py
+- [[isPluginRegistryLoaded()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/ready.py
+- [[isReadOnlyCommand()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/ready.py
+- [[isRebuildingData()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/ready.py
+- [[isRunningBackup()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/ready.py
+- [[isRunningMigrations()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/ready.py
+- [[isWaitingForDatabase()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/ready.py
+- [[is_email_configured()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/helpers_email.py
+- [[is_worker_running()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/status.py
+- [[label()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/models.py
+- [[load_unit_registry()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/apps.py
+- [[models.py_5]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/models.py
+- [[name()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/models.py
+- [[offload_task()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tasks.py
+- [[post_fork()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/gunicorn.conf.py
+- [[post_save_parameter_template()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/models.py
+- [[readOnlyCommands()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/ready.py
+- [[ready.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/ready.py
+- [[register_event()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/event/events.py
+- [[reload_plugin_registry()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/apps.py
+- [[remove_obsolete_tasks()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/apps.py
+- [[send_email()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/helpers_email.py
+- [[setAppLoaded()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/ready.py
+- [[set_setting()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/models.py
+- [[setup_instruments()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tracing.py
+- [[setup_tracing()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tracing.py
+- [[start_background_tasks()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/apps.py
+- [[status.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/status.py
+- [[token()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/models.py
+- [[tracing.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tracing.py
+- [[update_bom_build_lines()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/models.py
+- [[update_exchange_rates()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tasks.py
+- [[update_pricing_after_delete()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/models.py
+- [[update_pricing_after_edit()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/models.py
+- [[update_rates()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/exchange.py
+- [[update_site_url()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/apps.py
+- [[validate_currency_codes()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/currency.py
+
+## Live Query (requires Dataview plugin)
+
+```dataview
+TABLE source_file, type FROM #community/Community_12
+SORT file.name ASC
+```
+
+## Connections to other communities
+- 61 edges to [[_COMMUNITY_Community 4]]
+- 44 edges to [[_COMMUNITY_Utilities & Auth]]
+- 44 edges to [[_COMMUNITY_Community 6]]
+- 43 edges to [[_COMMUNITY_Community 13]]
+- 34 edges to [[_COMMUNITY_Core Models & Admin]]
+- 33 edges to [[_COMMUNITY_Inventory & Order Logic]]
+- 31 edges to [[_COMMUNITY_Community 3]]
+- 26 edges to [[_COMMUNITY_Community 2]]
+- 26 edges to [[_COMMUNITY_Community 15]]
+- 24 edges to [[_COMMUNITY_Community 10]]
+- 22 edges to [[_COMMUNITY_Community 14]]
+- 18 edges to [[_COMMUNITY_Community 19]]
+- 16 edges to [[_COMMUNITY_Community 5]]
+- 13 edges to [[_COMMUNITY_Community 16]]
+- 10 edges to [[_COMMUNITY_Community 1]]
+- 5 edges to [[_COMMUNITY_Community 17]]
+- 4 edges to [[_COMMUNITY_Community 22]]
+- 4 edges to [[_COMMUNITY_Community 7]]
+- 3 edges to [[_COMMUNITY_Community 23]]
+- 3 edges to [[_COMMUNITY_Community 11]]
+- 3 edges to [[_COMMUNITY_Community 21]]
+- 2 edges to [[_COMMUNITY_Community 25]]
+- 2 edges to [[_COMMUNITY_Community 20]]
+- 1 edge to [[_COMMUNITY_Community 18]]
+
+## Top bridge nodes
+- [[offload_task()]] - degree 51, connects to 12 communities
+- [[Exception]] - degree 46, connects to 12 communities
+- [[canAppAccessDatabase()]] - degree 35, connects to 8 communities
+- [[currency_code_default()]] - degree 28, connects to 8 communities
+- [[isImportingData()]] - degree 38, connects to 6 communities

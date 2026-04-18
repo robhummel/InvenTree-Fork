@@ -1,0 +1,584 @@
+---
+type: community
+cohesion: 0.01
+members: 525
+---
+
+# Community 6
+
+**Cohesion:** 0.01 - loosely connected
+**Members:** 525 nodes
+
+## Members
+- [[.__call__()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/api.py
+- [[.activate()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/models.py
+- [[.api_build_url_args()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/APICallMixin.py
+- [[.api_call()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/APICallMixin.py
+- [[.assign()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/barcodes/test_inventree_barcode.py
+- [[.basicAuth()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_api.py
+- [[.check_path()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_middleware.py
+- [[.create_machine()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/tests.py
+- [[.create_test_image()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[.do_positive_test()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_middleware.py
+- [[.do_request()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/tests.py
+- [[.export_data()_5]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/unit_test.py
+- [[.filter()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/test_api.py
+- [[.generate_exchange_rates()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/unit_test.py
+- [[.get_errors()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/serializers.py
+- [[.get_external_url()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/api_caller.py
+- [[.get_index_page()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_views.py
+- [[.get_object()_4]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/api.py
+- [[.get_object()_9]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/api.py
+- [[.get_object()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/api.py
+- [[.get_object()_2]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/api.py
+- [[.get_object()_3]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/api.py
+- [[.get_object()_5]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/api.py
+- [[.get_parameter()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/models.py
+- [[.get_redirect_url()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/api.py
+- [[.get_url()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[.get_user()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/magic_login.py
+- [[.helper()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/unit_test.py
+- [[.helper_file()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/importer/tests.py
+- [[.login()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/auth_overrides.py
+- [[.logout()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/unit_test.py
+- [[.not_found()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/api.py
+- [[.options()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/api.py
+- [[.patch()_2]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/api.py
+- [[.post()_6]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/magic_login.py
+- [[.postBarcode()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/barcodes/test_barcode.py
+- [[.process_csv()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/unit_test.py
+- [[.put()_2]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/api.py
+- [[.run_print_test()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/tests.py
+- [[.send_notification()_2]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/integration/core_notifications.py
+- [[.setUp()_4]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/test_api.py
+- [[.setUp()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/test_api.py
+- [[.setUp()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/test_api.py
+- [[.setUp()_23]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[.setUp()_2]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/tests.py
+- [[.set_plugin_state()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/test_simpleactionplugin.py
+- [[.stock_entries()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/models.py
+- [[.test_AuthRequiredMiddleware()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_middleware.py
+- [[.test_Check2FAMiddleware()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_middleware.py
+- [[.test_action()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_active()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/test_api.py
+- [[.test_add_attachment()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_add_bom_item()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_add_categories()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_admin()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/tests.py
+- [[.test_allocate_variant()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_api()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[.test_api()_5]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/generic/states/tests.py
+- [[.test_api()_4]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/tests.py
+- [[.test_api()_3]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/tests.py
+- [[.test_api()_2]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[.test_api_detail()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[.test_api_license()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_api.py
+- [[.test_api_list()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[.test_api_list()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[.test_api_locked()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[.test_api_update()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[.test_api_url()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/test_api.py
+- [[.test_api_version()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_api.py
+- [[.test_assign_to_location()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/barcodes/test_inventree_barcode.py
+- [[.test_assign_to_part()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/barcodes/test_inventree_barcode.py
+- [[.test_assign_to_stock_item()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/barcodes/test_inventree_barcode.py
+- [[.test_association()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/barcodes/test_barcode.py
+- [[.test_auth_request()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_auth.py
+- [[.test_available()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/test_api.py
+- [[.test_bad_json()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[.test_basic_setup()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_serializers.py
+- [[.test_batch_code()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_bom_export()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_bom_list_ordering()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_bom_list_search()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_build_api()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_api.py
+- [[.test_buildin_token()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_auth.py
+- [[.test_bulk_batch_change()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_bulk_create()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_bulk_create_params()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_param.py
+- [[.test_cast()_2]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[.test_cast()_3]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[.test_cat_detail()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_category()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_category_detail()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_check_plugin()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/test_api.py
+- [[.test_choices()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_company_active()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/test_api.py
+- [[.test_company_create()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/test_api.py
+- [[.test_company_detail()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/test_api.py
+- [[.test_company_list()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/test_api.py
+- [[.test_company_list()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_api.py
+- [[.test_company_name()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[.test_company_notes()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/test_api.py
+- [[.test_company_parameters()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/test_api.py
+- [[.test_company_search()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/test_api.py
+- [[.test_convert_to_variant()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_count()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_create()_3]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/test_api.py
+- [[.test_create()_2]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/test_api.py
+- [[.test_create()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_create()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_create_default_location()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_create_endpoint()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/tests.py
+- [[.test_create_param()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_param.py
+- [[.test_creation_with_serials()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_currency_settings()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[.test_custom_status()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_date_filters()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_delete()_7]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/test_api.py
+- [[.test_delete()_6]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/test_api.py
+- [[.test_detail()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_detail()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[.test_detail_endpoint()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/tests.py
+- [[.test_detail_endpoint_actions()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_api.py
+- [[.test_details()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_digikey_2_barcode()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/suppliers/test_supplier_barcodes.py
+- [[.test_digikey_3_barcode()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/suppliers/test_supplier_barcodes.py
+- [[.test_digikey_barcode()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/suppliers/test_supplier_barcodes.py
+- [[.test_download_csv()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_download_csv()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_download_fail()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_download_line_items()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_download_wrong_format()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_download_xlsx()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_duplicate_code()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[.test_duplicates()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_edit()_2]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/test_api.py
+- [[.test_edit()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/test_api.py
+- [[.test_edit()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[.test_empty()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_empty()_2]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_api.py
+- [[.test_error_exceptions()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_middleware.py
+- [[.test_exchange_endpoint()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[.test_exclude_id()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_exclude_related()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_existing_image()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_export()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_export()_2]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_export_data()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_failed_task_notification()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_tasks.py
+- [[.test_filter_by_allocated()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_filter_by_bom_valid()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_filter_by_convert()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_filter_by_in_bom()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_filter_by_related()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_filter_by_starred()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_filter_is_variant()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_filter_list()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/test_api.py
+- [[.test_filter_parts()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_filterable_fields()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/test_api.py
+- [[.test_find_part()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/barcodes/test_barcode.py
+- [[.test_find_stock_item()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/barcodes/test_barcode.py
+- [[.test_function()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/test_simpleactionplugin.py
+- [[.test_generation()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[.test_get()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/test_api.py
+- [[.test_get_bom_detail()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_get_categories()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_get_icons_api()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/icons/test_icon_sample.py
+- [[.test_get_parameter()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_param.py
+- [[.test_get_thumbs()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_global_settings_api_list()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[.test_group_api()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/test_api.py
+- [[.test_group_list()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/test_api.py
+- [[.test_health_api()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[.test_image_upload()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_import()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/importer/tests.py
+- [[.test_include_children()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_info_view()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_api.py
+- [[.test_initial_stock()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_install()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_installed()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/ui/tests.py
+- [[.test_invalid()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_invalid()_2]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_invalid_barcodes()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_invalid_data()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_invalid_files()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[.test_invalid_filters()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/test_api.py
+- [[.test_invalid_items()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_invalid_status()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_invisible_chars()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_large_export()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_lcsc_barcode()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/suppliers/test_supplier_barcodes.py
+- [[.test_list()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_list()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_list()_9]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_list()_10]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_list()_5]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[.test_list()_6]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[.test_list_endpoint()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/tests.py
+- [[.test_list_endpoint_actions()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_api.py
+- [[.test_list_params()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_param.py
+- [[.test_locate_fail()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/locate/test_locate.py
+- [[.test_location_detail()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_login_redirect()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/test_api.py
+- [[.test_long_notes()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_machine_detail()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/test_api.py
+- [[.test_machine_detail_settings()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/test_api.py
+- [[.test_machine_driver_list()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/test_api.py
+- [[.test_machine_lifecycle()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/tests.py
+- [[.test_machine_list()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/test_api.py
+- [[.test_machine_restart()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/test_api.py
+- [[.test_machine_settings_list()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/test_api.py
+- [[.test_machine_status()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/test_api.py
+- [[.test_machine_type_list()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/test_api.py
+- [[.test_manufacturer_part_detail()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/test_api.py
+- [[.test_manufacturer_part_list()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/test_api.py
+- [[.test_manufacturer_part_search()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/test_api.py
+- [[.test_me_endpoint()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/test_api.py
+- [[.test_mismatched_items()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_missing_data()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_model()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/test_api.py
+- [[.test_mouser_barcode()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/suppliers/test_supplier_barcodes.py
+- [[.test_no_auto_allocate()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/suppliers/test_supplier_barcodes.py
+- [[.test_no_items()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_null_barcode()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_old_mouser_barcode()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/suppliers/test_supplier_barcodes.py
+- [[.test_options()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_options()_2]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_options()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_output_options()_7]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_output_options()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_output_options()_14]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/test_api.py
+- [[.test_overdue()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_overdue()_2]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_packaging()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_paginate()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_param_detail()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_param.py
+- [[.test_parameter_annotation()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/test_api.py
+- [[.test_parameter_api()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/test_api.py
+- [[.test_parameter_delete()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/test_api.py
+- [[.test_parameter_options()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/test_api.py
+- [[.test_parameters_info()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_part_api()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_api.py
+- [[.test_part_category_default_location()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_part_category_tree()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_part_download()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_part_label_translation()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_part_notes()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_part_operations()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_part_requirements()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_path_detail()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_permissions()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_api.py
+- [[.test_plugin_config_delete()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/test_api.py
+- [[.test_plugin_deactivate_mandatory()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/test_api.py
+- [[.test_plugin_install()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/test_api.py
+- [[.test_plugin_list()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[.test_plugin_metadata()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/test_api.py
+- [[.test_plugin_settings()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/test_api.py
+- [[.test_plugin_uninstall()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/test_api.py
+- [[.test_plugin_user_settings()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/test_api.py
+- [[.test_po_attachments()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_po_calendar()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_po_calendar_auth()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_po_calendar_noauth()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_po_cancel()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_po_complete()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_po_create()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_po_creation_date()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_po_detail()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_po_duplicate()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_po_issue()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_po_line_bulk_delete()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_po_line_merge_pricing()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_po_list()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_po_operations()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_po_reference()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_po_reference_wildcard_default()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_post()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_post_bitmap()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_post_fail()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_price_breaks()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_pricing_info()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_primary()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/test_api.py
+- [[.test_primary_constraint()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/tests.py
+- [[.test_project_code()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_purchase_price()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_query_count()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_receive()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_receive()_2]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/suppliers/test_supplier_barcodes.py
+- [[.test_receive_custom_order_number()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/suppliers/test_supplier_barcodes.py
+- [[.test_receive_default_line_item_location()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/suppliers/test_supplier_barcodes.py
+- [[.test_receive_default_part_location()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/suppliers/test_supplier_barcodes.py
+- [[.test_receive_large_quantity()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_receive_missing_quantity()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/suppliers/test_supplier_barcodes.py
+- [[.test_receive_specific_order_and_location()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/suppliers/test_supplier_barcodes.py
+- [[.test_receive_stock_location()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/suppliers/test_supplier_barcodes.py
+- [[.test_receive_untracked()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_registration()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/tests.py
+- [[.test_registration_email()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_auth.py
+- [[.test_registry()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/test_api.py
+- [[.test_report_template_permissions()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/tests.py
+- [[.test_results()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_api.py
+- [[.test_return_from_customer()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_return_order()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/generic/states/test_transition.py
+- [[.test_ro_calendar()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_ro_issue()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_role_view()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_api.py
+- [[.test_run_event()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/event/test_event_sample.py
+- [[.test_sales_order_complete()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_sanitizer()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_search_filters()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_api.py
+- [[.test_serial_generate_api()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_serial_numbers()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_session_list()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/importer/tests.py
+- [[.test_settings()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/test_api.py
+- [[.test_settings_objects()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[.test_settings_validator()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/test_sample.py
+- [[.test_shipment_delivery_date()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_site_lax_protocol()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_middleware.py
+- [[.test_site_url_checks()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_middleware.py
+- [[.test_site_url_checks_fails()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_middleware.py
+- [[.test_site_url_checks_multi()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_middleware.py
+- [[.test_site_url_port()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_middleware.py
+- [[.test_so_attachments()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_so_calendar()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_so_cancel()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_so_create()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_so_duplicate()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_so_line_allocated_filters()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_so_line_list()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_so_operations()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_stock_api()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_api.py
+- [[.test_stock_count()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/tests.py
+- [[.test_stock_item_and_include_installed_filters()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_stock_item_create()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_stock_item_create_with_supplier_part()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_stock_location_tree()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_stocktake_exporter()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/exporter/test_exporter.py
+- [[.test_str()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_param.py
+- [[.test_str()_2]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_part.py
+- [[.test_strange_chars()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_success()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[.test_success_hmac()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[.test_success_no_token_check()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[.test_supplier_part_create()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/test_api.py
+- [[.test_supplier_part_list()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/test_api.py
+- [[.test_template_api()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/test_api.py
+- [[.test_template_extended_filters()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/test_api.py
+- [[.test_template_filters()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/test_api.py
+- [[.test_template_filters()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_template_options()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/test_api.py
+- [[.test_test_templates()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_tme_barcode2d()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/suppliers/test_supplier_barcodes.py
+- [[.test_tme_qrcode()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/suppliers/test_supplier_barcodes.py
+- [[.test_token()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/tests.py
+- [[.test_token_api()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/test_api.py
+- [[.test_token_auth()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/test_api.py
+- [[.test_token_auth()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_middleware.py
+- [[.test_token_failure()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_api.py
+- [[.test_token_generation()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/test_api.py
+- [[.test_token_security()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/test_api.py
+- [[.test_token_success()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_api.py
+- [[.test_total_price()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_total_price()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_transfer()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_ui_dashboard_items()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/ui/tests.py
+- [[.test_ui_navigation_items()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/ui/tests.py
+- [[.test_ui_panels()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/ui/tests.py
+- [[.test_ui_template_editors()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/ui/tests.py
+- [[.test_unassign_endpoint()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/barcodes/test_barcode.py
+- [[.test_unassign_errors()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/barcodes/test_inventree_barcode.py
+- [[.test_unauthenticated_user()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[.test_uninitialized_setting()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[.test_update()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_update()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_update()_2]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_update_existing_image()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_upload_via_api()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[.test_url_login()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_views.py
+- [[.test_user_api()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/test_api.py
+- [[.test_user_detail()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/test_api.py
+- [[.test_user_options()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/test_api.py
+- [[.test_user_password_set()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/test_api.py
+- [[.test_user_roles()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/test_api.py
+- [[.test_user_setting_boolean()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[.test_user_setting_caching()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[.test_user_setting_choice()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[.test_user_setting_init()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[.test_user_setting_integer()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[.test_user_setting_invalid()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[.test_user_setting_list()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[.test_user_settings_api_list()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[.test_valid()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_valid_plugin_slug()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[.test_validation()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[.test_value_choices()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_variant_stock()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_variant_stock()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/tests.py
+- [[.test_virtual()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_with_roles()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_api.py
+- [[.test_with_superuser()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_api.py
+- [[.test_write_access()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[.to_native_value()_3]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/models.py
+- [[.tokenAuth()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_api.py
+- [[.unassign()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/barcodes/test_inventree_barcode.py
+- [[.update()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/serializers.py
+- [[ApiAccessTests]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_api.py
+- [[Assign some roles to the user.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_api.py
+- [[CompanyTest]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/test_api.py
+- [[Find the user with this email address.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/magic_login.py
+- [[GeneralApiTests]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_api.py
+- [[Generate active TOTP and recovery codes for a user.      Args         user Use]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/helpers_mfa.py
+- [[Get the token for the current user or fail.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/magic_login.py
+- [[GroupDetailTests]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/test_api.py
+- [[HTMLAPITests]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_api.py
+- [[Helper function to check for positive test results.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_middleware.py
+- [[Helper function to run a request.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_middleware.py
+- [[Helper function to use basic auth.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_api.py
+- [[Helper function to use token auth.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_api.py
+- [[Helper functions for allauth MFA testing.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/helpers_mfa.py
+- [[MachineAPITest]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/test_api.py
+- [[MiddlewareTests]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_middleware.py
+- [[OwnerModelTest]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/tests.py
+- [[ParameterAPITests]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/test_api.py
+- [[PartAPITest]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[Perform a 'barcode assign' request.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/barcodes/test_inventree_barcode.py
+- [[Perform a 'barcode unassign' request.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/barcodes/test_inventree_barcode.py
+- [[Perform login action.          First check that         - A valid user has been]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/auth_overrides.py
+- [[PluginDetailAPITest]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/test_api.py
+- [[PurchaseOrderReceiveTest]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/test_api.py
+- [[PurchaseOrderTest]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/test_api.py
+- [[Retrieve the index page (used for subsequent unit tests).]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_views.py
+- [[Return the first item in a list, or a default value if the list is empty.      A]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/templatetags/report.py
+- [[Return the last item in a list, or a default value if the list is empty.      Ar]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/templatetags/report.py
+- [[Run reverse migrations.          - Delete any LabelTemplate instances in the dat]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/migrations/0026_auto_20240422_1301.py
+- [[SearchTests]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_api.py
+- [[SuperuserAPITests]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/test_api.py
+- [[SupplierBarcodePOReceiveTests]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/suppliers/test_supplier_barcodes.py
+- [[SupplierBarcodeTests]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/suppliers/test_supplier_barcodes.py
+- [[SupplierPartTest]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/test_api.py
+- [[Test auth with token auth.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_middleware.py
+- [[Test for middleware functions.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_middleware.py
+- [[Test logging in via arguments.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_views.py
+- [[Test that ignored errors are not logged.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_middleware.py
+- [[Test that the site URL check is correctly failing.          Important for securi]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_middleware.py
+- [[Test that the site URL check is correctly working in a multi-site setup.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_middleware.py
+- [[Test that the site URL check is correctly working withwithout lax protocol chec]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_middleware.py
+- [[Test that the site URL check is correctly working.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_middleware.py
+- [[Test that token generation is only available to users with the correct permissio]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/test_api.py
+- [[Test that we can assign a unique barcode to a Part instance.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/barcodes/test_inventree_barcode.py
+- [[Test that we can assign a unique barcode to a StockItem object.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/barcodes/test_inventree_barcode.py
+- [[Test that we can assign a unique barcode to a StockLocation instance.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/barcodes/test_inventree_barcode.py
+- [[Test the 'api_url' attribute in related API endpoints.          Ref httpsgit]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/test_api.py
+- [[Test the 2FA middleware.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_middleware.py
+- [[Test the GroupDetail API endpoint.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/test_api.py
+- [[Test the UserDetail API endpoint.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/test_api.py
+- [[Test the auth middleware.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_middleware.py
+- [[Test the set-password endpoint.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/test_api.py
+- [[Test the user 'roles' API endpoint.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/test_api.py
+- [[Test token auth works.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_api.py
+- [[Test transition of a return order.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/generic/states/test_transition.py
+- [[Test user token authentication.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/test_api.py
+- [[Test user token generation.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/test_api.py
+- [[Test various error conditions for the barcode unassign endpoint.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/barcodes/test_inventree_barcode.py
+- [[TestMachineRegistryMixin]] - code
+- [[Tests for User API endpoints.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/test_api.py
+- [[Tests for detail API endpoint actions.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_api.py
+- [[Tests for middleware functions.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_middleware.py
+- [[Tests for the Group API endpoints.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/test_api.py
+- [[Tests for the GroupDetail API endpoint.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/test_api.py
+- [[Tests for the OPTIONS method for API endpoints.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_api.py
+- [[Tests for the User OPTIONS request.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/test_api.py
+- [[Tests for user API endpoints.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/test_api.py
+- [[Tests for user token functionality.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/test_api.py
+- [[Tests for various access scenarios with the InvenTree API.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_api.py
+- [[Tests for various top-level views.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_views.py
+- [[URL checks with different ports.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_middleware.py
+- [[UserAPITests]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/test_api.py
+- [[UserInterfaceMixinTests]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/ui/tests.py
+- [[UserTokenTests]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/test_api.py
+- [[ViewTests]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_views.py
+- [[assertNumQueriesLessThan()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/unit_test.py
+- [[assignRole()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/unit_test.py
+- [[check_plugin()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/api.py
+- [[first()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/templatetags/report.py
+- [[from_task()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/serializers.py
+- [[get()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/api.py
+- [[get_codes()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/helpers_mfa.py
+- [[get_config_type()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/models.py
+- [[get_content_type()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/models.py
+- [[get_driver_instance()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/registry.py
+- [[get_driver_types()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/registry.py
+- [[get_machine()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/api.py
+- [[get_queued_task()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tasks.py
+- [[get_setting_object()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/models.py
+- [[helpers_mfa.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/helpers_mfa.py
+- [[last()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/templatetags/report.py
+- [[machine_config()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/machine_type.py
+- [[patch()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/api.py
+- [[printing_url()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/label/test_label_mixin.py
+- [[put()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/api.py
+- [[read_license_file()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/api.py
+- [[reverse()_2]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/migrations/0026_auto_20240422_1301.py
+- [[setUpTestData()_7]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_category.py
+- [[setUpTestData()_3]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/suppliers/test_supplier_barcodes.py
+- [[str]] - code
+- [[test_admin_action()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/test_api.py
+- [[test_allowed_hosts()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[test_allowed_hosts_2()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[test_api.py_7]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_api.py
+- [[test_api.py_3]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/test_api.py
+- [[test_api.py_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/test_api.py
+- [[test_api.py_4]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/test_api.py
+- [[test_api_call()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/test_mixins.py
+- [[test_api_doc()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_views.py
+- [[test_api_part_list()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[test_api_stock_list()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[test_email_api()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/test_emails.py
+- [[test_full_process()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/test_api.py
+- [[test_function_errors()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/test_mixins.py
+- [[test_index_redirect()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_views.py
+- [[test_legacy_urls()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[test_middleware.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_middleware.py
+- [[test_return()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/test_api_caller.py
+- [[test_supplier_barcodes.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/suppliers/test_supplier_barcodes.py
+- [[test_views.py_2]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_views.py
+- [[update_instance_name()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/setting/system.py
+- [[url()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+
+## Live Query (requires Dataview plugin)
+
+```dataview
+TABLE source_file, type FROM #community/Community_6
+SORT file.name ASC
+```
+
+## Connections to other communities
+- 621 edges to [[_COMMUNITY_Core Models & Admin]]
+- 365 edges to [[_COMMUNITY_Inventory & Order Logic]]
+- 236 edges to [[_COMMUNITY_Community 3]]
+- 157 edges to [[_COMMUNITY_Community 10]]
+- 117 edges to [[_COMMUNITY_Community 1]]
+- 113 edges to [[_COMMUNITY_Community 4]]
+- 102 edges to [[_COMMUNITY_Utilities & Auth]]
+- 96 edges to [[_COMMUNITY_Community 14]]
+- 92 edges to [[_COMMUNITY_Community 15]]
+- 86 edges to [[_COMMUNITY_Community 13]]
+- 85 edges to [[_COMMUNITY_Community 2]]
+- 59 edges to [[_COMMUNITY_Community 5]]
+- 56 edges to [[_COMMUNITY_Community 7]]
+- 45 edges to [[_COMMUNITY_Community 19]]
+- 44 edges to [[_COMMUNITY_Community 12]]
+- 41 edges to [[_COMMUNITY_Community 22]]
+- 38 edges to [[_COMMUNITY_Community 16]]
+- 37 edges to [[_COMMUNITY_Community 21]]
+- 37 edges to [[_COMMUNITY_Community 17]]
+- 30 edges to [[_COMMUNITY_Community 20]]
+- 16 edges to [[_COMMUNITY_Community 26]]
+- 8 edges to [[_COMMUNITY_Community 23]]
+- 6 edges to [[_COMMUNITY_Community 25]]
+- 5 edges to [[_COMMUNITY_Community 11]]
+- 4 edges to [[_COMMUNITY_Community 18]]
+- 1 edge to [[_COMMUNITY_Community 24]]
+- 1 edge to [[_COMMUNITY_Community 40]]
+- 1 edge to [[_COMMUNITY_Community 44]]
+- 1 edge to [[_COMMUNITY_Community 27]]
+- 1 edge to [[_COMMUNITY_Community 37]]
+- 1 edge to [[_COMMUNITY_Community 33]]
+
+## Top bridge nodes
+- [[get()]] - degree 875, connects to 27 communities
+- [[str]] - degree 382, connects to 26 communities
+- [[first()]] - degree 196, connects to 20 communities
+- [[reverse()_2]] - degree 388, connects to 17 communities
+- [[.post()_6]] - degree 187, connects to 11 communities

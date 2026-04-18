@@ -1,0 +1,68 @@
+---
+source_file: "/Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/api.py"
+type: "rationale"
+community: "Community 2"
+location: "L227"
+tags:
+  - graphify/rationale
+  - graphify/INFERRED
+  - community/Community_2
+---
+
+# Serializer for InfoApiSerializer.
+
+## Connections
+- [[ApiToken]] - `uses` [INFERRED]
+- [[ApiTokenSerializer]] - `uses` [INFERRED]
+- [[BomItem]] - `uses` [INFERRED]
+- [[BomItemSubstitute]] - `uses` [INFERRED]
+- [[BulkDeleteMixin_1]] - `uses` [INFERRED]
+- [[BulkUpdateMixin_1]] - `uses` [INFERRED]
+- [[CategoryList]] - `rationale_for` [EXTRACTED]
+- [[CreateAPI_1]] - `uses` [INFERRED]
+- [[CustomRetrieveUpdateDestroyAPI_1]] - `uses` [INFERRED]
+- [[DataExportViewMixin_1]] - `uses` [INFERRED]
+- [[DataOutput]] - `uses` [INFERRED]
+- [[ExtendedUserSerializer]] - `uses` [INFERRED]
+- [[GetAuthTokenSerializer]] - `uses` [INFERRED]
+- [[GroupSerializer]] - `uses` [INFERRED]
+- [[InvenTreeDateFilter]] - `uses` [INFERRED]
+- [[InvenTreeOutputOption]] - `uses` [INFERRED]
+- [[InvenTreeSearchFilter]] - `uses` [INFERRED]
+- [[ListAPI_1]] - `uses` [INFERRED]
+- [[ListCreateAPI_1]] - `uses` [INFERRED]
+- [[ListCreateDestroyAPIView_1]] - `uses` [INFERRED]
+- [[MeUserDetail]] - `rationale_for` [EXTRACTED]
+- [[MeUserSerializer]] - `uses` [INFERRED]
+- [[MetadataSerializer]] - `uses` [INFERRED]
+- [[NumberOrNullFilter]] - `uses` [INFERRED]
+- [[NumericInFilter]] - `uses` [INFERRED]
+- [[OutputConfiguration_1]] - `uses` [INFERRED]
+- [[OutputOptionsMixin_1]] - `uses` [INFERRED]
+- [[Owner]] - `uses` [INFERRED]
+- [[OwnerSerializer]] - `uses` [INFERRED]
+- [[ParameterListMixin_1]] - `uses` [INFERRED]
+- [[Part]] - `uses` [INFERRED]
+- [[PartCategory]] - `uses` [INFERRED]
+- [[PartCategoryParameterTemplate]] - `uses` [INFERRED]
+- [[PartInternalPriceBreak]] - `uses` [INFERRED]
+- [[PartRelated]] - `uses` [INFERRED]
+- [[PartSellPriceBreak]] - `uses` [INFERRED]
+- [[PartStocktake]] - `uses` [INFERRED]
+- [[PartTestTemplate]] - `uses` [INFERRED]
+- [[RetrieveAPI_1]] - `uses` [INFERRED]
+- [[RetrieveUpdateAPI_1]] - `uses` [INFERRED]
+- [[RetrieveUpdateDestroyAPI_1]] - `uses` [INFERRED]
+- [[RoleSerializer]] - `uses` [INFERRED]
+- [[RuleSet]] - `uses` [INFERRED]
+- [[RuleSetSerializer]] - `uses` [INFERRED]
+- [[SerializerContextMixin_1]] - `uses` [INFERRED]
+- [[SettingsSerializer_1]] - `rationale_for` [EXTRACTED]
+- [[StockLocation]] - `uses` [INFERRED]
+- [[UpdateAPI_1]] - `uses` [INFERRED]
+- [[UserCreateSerializer]] - `uses` [INFERRED]
+- [[UserProfile]] - `uses` [INFERRED]
+- [[UserProfileSerializer]] - `uses` [INFERRED]
+- [[UserSetPasswordSerializer]] - `uses` [INFERRED]
+
+#graphify/rationale #graphify/INFERRED #community/Community_2

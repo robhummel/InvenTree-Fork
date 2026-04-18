@@ -1,0 +1,18 @@
+---
+source_file: "inventree/src/backend/InvenTree/InvenTree/config.py"
+type: "rationale"
+community: "Data Migrations & Schema"
+location: "L314"
+tags:
+  - graphify/rationale
+  - graphify/EXTRACTED
+  - community/Data_Migrations_&_Schema
+---
+
+# Helper function for retrieving a boolean configuration setting.
+
+## Connections
+- [[GlobalWarningCode]] - `uses` [INFERRED]
+- [[get_boolean_setting()]] - `rationale_for` [EXTRACTED]
+
+#graphify/rationale #graphify/EXTRACTED #community/Data_Migrations_&_Schema

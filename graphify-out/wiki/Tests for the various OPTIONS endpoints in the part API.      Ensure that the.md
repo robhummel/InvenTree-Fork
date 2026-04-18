@@ -1,0 +1,35 @@
+---
+source_file: "inventree/src/backend/InvenTree/part/test_api.py"
+type: "rationale"
+community: "Documentation & FAQ"
+location: "L622"
+tags:
+  - graphify/rationale
+  - graphify/INFERRED
+  - community/Documentation_&_FAQ
+---
+
+# Tests for the various OPTIONS endpoints in the /part/ API.      Ensure that the
+
+## Connections
+- [[BomItem]] - `uses` [INFERRED]
+- [[BomItemSubstitute]] - `uses` [INFERRED]
+- [[Company]] - `uses` [INFERRED]
+- [[InvenTreeAPIPerformanceTestCase_1]] - `uses` [INFERRED]
+- [[InvenTreeAPITestCase_1]] - `uses` [INFERRED]
+- [[InvenTreeSetting]] - `uses` [INFERRED]
+- [[ParameterTemplate]] - `uses` [INFERRED]
+- [[Part]] - `uses` [INFERRED]
+- [[PartCategory]] - `uses` [INFERRED]
+- [[PartCategoryParameterTemplate]] - `uses` [INFERRED]
+- [[PartOptionsAPITest]] - `rationale_for` [EXTRACTED]
+- [[PartRelated]] - `uses` [INFERRED]
+- [[PartSellPriceBreak]] - `uses` [INFERRED]
+- [[PartTestTemplate]] - `uses` [INFERRED]
+- [[PurchaseOrderStatusGroups]] - `uses` [INFERRED]
+- [[StockItem]] - `uses` [INFERRED]
+- [[StockLocation]] - `uses` [INFERRED]
+- [[StockStatus]] - `uses` [INFERRED]
+- [[SupplierPart]] - `uses` [INFERRED]
+
+#graphify/rationale #graphify/INFERRED #community/Documentation_&_FAQ

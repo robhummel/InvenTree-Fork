@@ -1,0 +1,23 @@
+---
+source_file: "/Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/staticfiles.py"
+type: "code"
+community: "Community 15"
+location: "L38"
+tags:
+  - graphify/code
+  - graphify/INFERRED
+  - community/Community_15
+---
+
+# collect_plugins_static_files()
+
+## Connections
+- [[.handle()_3]] - `calls` [INFERRED]
+- [[Copy static files from all installed plugins into the static directory.]] - `rationale_for` [EXTRACTED]
+- [[check_reload()]] - `calls` [INFERRED]
+- [[copy_plugin_static_files()]] - `calls` [EXTRACTED]
+- [[install_plugin()]] - `calls` [INFERRED]
+- [[install_plugins_file()]] - `calls` [INFERRED]
+- [[staticfiles.py]] - `contains` [EXTRACTED]
+
+#graphify/code #graphify/INFERRED #community/Community_15

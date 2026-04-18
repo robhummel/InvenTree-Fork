@@ -1,0 +1,18 @@
+---
+source_file: "/Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/test_migrations.py"
+type: "rationale"
+community: "Community 7"
+location: "L204"
+tags:
+  - graphify/rationale
+  - graphify/EXTRACTED
+  - community/Community_7
+---
+
+# Test data migration which fixes empty 'shipment date' on SalesOrder model.
+
+## Connections
+- [[SalesOrderStatus]] - `uses` [INFERRED]
+- [[TestShipmentDateMigration]] - `rationale_for` [EXTRACTED]
+
+#graphify/rationale #graphify/EXTRACTED #community/Community_7

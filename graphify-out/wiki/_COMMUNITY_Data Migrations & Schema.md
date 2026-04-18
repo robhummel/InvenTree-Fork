@@ -1,0 +1,3434 @@
+---
+type: community
+members: 3385
+---
+
+# Data Migrations & Schema
+
+**Members:** 3385 nodes
+
+## Members
+- [[TODO Check if the field is a model field]] - rationale - inventree/src/backend/InvenTree/importer/operations.py
+- [[TODO Supported starting in PSQL 11]] - rationale - inventree/src/backend/InvenTree/InvenTree/setting/db_backend.py
+- [[.__call__()]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[.__call__()_1]] - code - inventree/src/backend/InvenTree/common/setting/system.py
+- [[.__call__()_3]] - code - inventree/src/backend/InvenTree/InvenTree/validators.py
+- [[.__call__()_2]] - code - inventree/src/backend/InvenTree/generic/states/validators.py
+- [[.__get_mixin_order()]] - code - inventree/src/backend/InvenTree/plugin/registry.py
+- [[.__init__()_77]] - code - inventree/src/backend/InvenTree/InvenTree/auth_overrides.py
+- [[.__init__()_76]] - code - inventree/src/backend/InvenTree/InvenTree/backends.py
+- [[.__init__()_65]] - code - inventree/src/backend/InvenTree/InvenTree/fields.py
+- [[.__init__()_63]] - code - inventree/src/backend/InvenTree/InvenTree/fields.py
+- [[.__init__()_64]] - code - inventree/src/backend/InvenTree/InvenTree/fields.py
+- [[.__init__()_66]] - code - inventree/src/backend/InvenTree/InvenTree/fields.py
+- [[.__init__()_67]] - code - inventree/src/backend/InvenTree/InvenTree/fields.py
+- [[.__init__()_61]] - code - inventree/src/backend/InvenTree/InvenTree/fields.py
+- [[.__init__()_43]] - code - inventree/src/backend/InvenTree/machine/machine_type.py
+- [[.__init__()_50]] - code - inventree/src/backend/InvenTree/report/models.py
+- [[.__init__()_35]] - code - inventree/src/backend/InvenTree/plugin/base/barcodes/serializers.py
+- [[.__init__()_75]] - code - inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[.__init__()_54]] - code - inventree/src/backend/InvenTree/data_exporter/serializers.py
+- [[.__init__()_68]] - code - inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[.__init__()_71]] - code - inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[.__init__()_73]] - code - inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[.__init__()_70]] - code - inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[.__init__()_74]] - code - inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[.__init__()_58]] - code - inventree/src/backend/InvenTree/stock/serializers.py
+- [[.__init__()_69]] - code - inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[.__init_subclass__()]] - code - inventree/src/backend/InvenTree/plugin/plugin.py
+- [[.__post_init__()_1]] - code - inventree/src/backend/InvenTree/plugin/base/supplier/helpers.py
+- [[.__post_init__()]] - code - inventree/src/backend/InvenTree/plugin/base/supplier/helpers.py
+- [[.__str__()_32]] - code - inventree/src/backend/InvenTree/company/models.py
+- [[.__str__()_17]] - code - inventree/src/backend/InvenTree/users/models.py
+- [[.__str__()_30]] - code - inventree/src/backend/InvenTree/InvenTree/models.py
+- [[.__str__()_16]] - code - inventree/src/backend/InvenTree/users/models.py
+- [[._action_cancel()]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[._action_cancel()_2]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[._action_cancel()_1]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[._action_complete()]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[._action_complete()_1]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[._action_hold()]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[._action_hold()_2]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[._action_hold()_1]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[._action_place()]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[._action_place()_2]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[._action_place()_1]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[._activate_plugins()]] - code - inventree/src/backend/InvenTree/plugin/registry.py
+- [[._calculate_registry_hash()]] - code - inventree/src/backend/InvenTree/machine/registry.py
+- [[._check_reload()]] - code - inventree/src/backend/InvenTree/machine/registry.py
+- [[._clean_installed_apps()]] - code - inventree/src/backend/InvenTree/plugin/registry.py
+- [[._clean_registry()]] - code - inventree/src/backend/InvenTree/plugin/registry.py
+- [[._create_admin_user()]] - code - inventree/src/backend/InvenTree/InvenTree/apps.py
+- [[._deactivate_plugins()]] - code - inventree/src/backend/InvenTree/plugin/registry.py
+- [[._get_related_part_ids()]] - code - inventree/src/backend/InvenTree/part/api.py
+- [[._get_serializer()]] - code - inventree/src/backend/InvenTree/part/api.py
+- [[._get_value()]] - code - inventree/src/backend/InvenTree/plugin/plugin.py
+- [[._init_plugin()]] - code - inventree/src/backend/InvenTree/plugin/registry.py
+- [[._init_plugins()]] - code - inventree/src/backend/InvenTree/plugin/registry.py
+- [[._load_plugins()]] - code - inventree/src/backend/InvenTree/plugin/registry.py
+- [[._process_payload()]] - code - inventree/src/backend/InvenTree/common/api.py
+- [[._process_result()]] - code - inventree/src/backend/InvenTree/common/api.py
+- [[._reload_apps()]] - code - inventree/src/backend/InvenTree/plugin/registry.py
+- [[._reregister_contrib_apps()]] - code - inventree/src/backend/InvenTree/plugin/base/integration/AppMixin.py
+- [[._try_reload()]] - code - inventree/src/backend/InvenTree/plugin/registry.py
+- [[._unload_plugins()]] - code - inventree/src/backend/InvenTree/plugin/registry.py
+- [[._update_registry_hash()]] - code - inventree/src/backend/InvenTree/machine/registry.py
+- [[._update_urls()]] - code - inventree/src/backend/InvenTree/plugin/registry.py
+- [[.accept_mapping()]] - code - inventree/src/backend/InvenTree/importer/models.py
+- [[.activate()]] - code - inventree/src/backend/InvenTree/plugin/models.py
+- [[.add_field()]] - code - inventree/src/backend/InvenTree/generic/states/fields.py
+- [[.add_price_break()]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[.add_price_break()_1]] - code - inventree/src/backend/InvenTree/company/models.py
+- [[.add_test_result()]] - code - inventree/src/backend/InvenTree/stock/models.py
+- [[.add_tracking_entry()]] - code - inventree/src/backend/InvenTree/stock/models.py
+- [[.allocateToCustomer()]] - code - inventree/src/backend/InvenTree/stock/models.py
+- [[.allocate_stock()]] - code - inventree/src/backend/InvenTree/order/test_sales_order.py
+- [[.allocated_quantity()]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[.allocation_count()]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[.allocation_count()_1]] - code - inventree/src/backend/InvenTree/stock/models.py
+- [[.allocations()]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[.api_build_url_args()]] - code - inventree/src/backend/InvenTree/plugin/base/integration/APICallMixin.py
+- [[.api_call()]] - code - inventree/src/backend/InvenTree/plugin/base/integration/APICallMixin.py
+- [[.api_url()]] - code - inventree/src/backend/InvenTree/common/models.py
+- [[.assert_api_change()]] - code - inventree/src/backend/InvenTree/stock/test_views.py
+- [[.assign()]] - code - inventree/src/backend/InvenTree/plugin/builtin/barcodes/test_inventree_barcode.py
+- [[.assign_barcode()]] - code - inventree/src/backend/InvenTree/InvenTree/models.py
+- [[.attachments_for_model()]] - code - inventree/src/backend/InvenTree/InvenTree/models.py
+- [[.authenticate_credentials()]] - code - inventree/src/backend/InvenTree/users/authentication.py
+- [[.authentication_error()]] - code - inventree/src/backend/InvenTree/InvenTree/auth_overrides.py
+- [[.available_fields()]] - code - inventree/src/backend/InvenTree/importer/models.py
+- [[.base_context()]] - code - inventree/src/backend/InvenTree/report/models.py
+- [[.base_quantity()]] - code - inventree/src/backend/InvenTree/company/models.py
+- [[.basicAuth()]] - code - inventree/src/backend/InvenTree/InvenTree/test_api.py
+- [[.build_allocation_count()]] - code - inventree/src/backend/InvenTree/stock/models.py
+- [[.build_order_allocation_count()]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[.build_order_allocations()]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[.calculate_numeric_value()]] - code - inventree/src/backend/InvenTree/common/models.py
+- [[.calculate_plugin_hash()]] - code - inventree/src/backend/InvenTree/plugin/registry.py
+- [[.calculate_total_price()]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[.can_build_quantity()]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[.can_complete()]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[.can_delete()]] - code - inventree/src/backend/InvenTree/stock/models.py
+- [[.can_merge()]] - code - inventree/src/backend/InvenTree/stock/models.py
+- [[.check_add_to_bom()]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[.check_auth_header()]] - code - inventree/src/backend/InvenTree/InvenTree/api.py
+- [[.check_can_complete()]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[.check_complete()_1]] - code - inventree/src/backend/InvenTree/importer/models.py
+- [[.check_if_part_in_bom()]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[.check_ownership()_1]] - code - inventree/src/backend/InvenTree/stock/models.py
+- [[.check_ownership()]] - code - inventree/src/backend/InvenTree/stock/models.py
+- [[.check_part_lock()]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[.check_path()]] - code - inventree/src/backend/InvenTree/InvenTree/test_middleware.py
+- [[.check_permission()]] - code - inventree/src/backend/InvenTree/common/models.py
+- [[.check_permission()_1]] - code - inventree/src/backend/InvenTree/common/models.py
+- [[.check_response()]] - code - inventree/src/backend/InvenTree/InvenTree/unit_test.py
+- [[.check_settings()_1]] - code - inventree/src/backend/InvenTree/machine/machine_type.py
+- [[.check_settings()]] - code - inventree/src/backend/InvenTree/plugin/base/integration/SettingsMixin.py
+- [[.check_token()]] - code - inventree/src/backend/InvenTree/InvenTree/middleware.py
+- [[.clean()_24]] - code - inventree/src/backend/InvenTree/InvenTree/auth_overrides.py
+- [[.clean()_18]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[.clean()_8]] - code - inventree/src/backend/InvenTree/common/models.py
+- [[.clean()_6]] - code - inventree/src/backend/InvenTree/importer/models.py
+- [[.clean()_9]] - code - inventree/src/backend/InvenTree/common/models.py
+- [[.clean()_11]] - code - inventree/src/backend/InvenTree/common/models.py
+- [[.clean()_10]] - code - inventree/src/backend/InvenTree/common/models.py
+- [[.clean()_16]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[.clean()_14]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[.clean()_15]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[.clean()_19]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[.clean()_17]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[.clean()_4]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[.clean()_21]] - code - inventree/src/backend/InvenTree/stock/models.py
+- [[.clean()_22]] - code - inventree/src/backend/InvenTree/stock/models.py
+- [[.clean()_20]] - code - inventree/src/backend/InvenTree/stock/models.py
+- [[.clean()_25]] - code - inventree/src/backend/InvenTree/company/models.py
+- [[.clean_data()]] - code - inventree/src/backend/InvenTree/InvenTree/mixins.py
+- [[.clean_email()]] - code - inventree/src/backend/InvenTree/InvenTree/auth_overrides.py
+- [[.clean_string()]] - code - inventree/src/backend/InvenTree/InvenTree/mixins.py
+- [[.cleanup()]] - code - inventree/src/backend/InvenTree/report/apps.py
+- [[.clearAllocations()]] - code - inventree/src/backend/InvenTree/stock/models.py
+- [[.close()]] - code - inventree/src/backend/InvenTree/InvenTree/backends.py
+- [[.collect_plugins()]] - code - inventree/src/backend/InvenTree/plugin/registry.py
+- [[.compare_status()]] - code - inventree/src/backend/InvenTree/generic/states/states.py
+- [[.complete_allocation()]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[.completed_line_items()]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[.completed_line_items()_1]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[.completed_shipments()]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[.construct_pathstring()]] - code - inventree/src/backend/InvenTree/InvenTree/models.py
+- [[.construct_serializer()]] - code - inventree/src/backend/InvenTree/importer/models.py
+- [[.convert()]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[.convert_date_field()]] - code - inventree/src/backend/InvenTree/importer/models.py
+- [[.convert_to()]] - code - inventree/src/backend/InvenTree/common/models.py
+- [[.create()_6]] - code - inventree/src/backend/InvenTree/plugin/base/barcodes/api.py
+- [[.create()_7]] - code - inventree/src/backend/InvenTree/plugin/base/barcodes/api.py
+- [[.create()_5]] - code - inventree/src/backend/InvenTree/plugin/base/barcodes/api.py
+- [[.create()_17]] - code - inventree/src/backend/InvenTree/InvenTree/api.py
+- [[.create()_9]] - code - inventree/src/backend/InvenTree/common/api.py
+- [[.create()]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[.create()_4]] - code - inventree/src/backend/InvenTree/plugin/api.py
+- [[.create()_2]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[.create()_1]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[.create()_12]] - code - inventree/src/backend/InvenTree/stock/api.py
+- [[.create()_13]] - code - inventree/src/backend/InvenTree/stock/api.py
+- [[.create()_14]] - code - inventree/src/backend/InvenTree/stock/api.py
+- [[.create()_15]] - code - inventree/src/backend/InvenTree/InvenTree/mixins.py
+- [[.create()_18]] - code - inventree/src/backend/InvenTree/company/serializers.py
+- [[.create()_10]] - code - inventree/src/backend/InvenTree/users/serializers.py
+- [[.create_default_labels()]] - code - inventree/src/backend/InvenTree/report/apps.py
+- [[.create_default_reports()]] - code - inventree/src/backend/InvenTree/report/apps.py
+- [[.create_link()]] - code - inventree/src/backend/InvenTree/InvenTree/magic_login.py
+- [[.create_machine()]] - code - inventree/src/backend/InvenTree/machine/tests.py
+- [[.create_mails()]] - code - inventree/src/backend/InvenTree/InvenTree/test_tasks.py
+- [[.create_price_breaks()]] - code - inventree/src/backend/InvenTree/part/test_pricing.py
+- [[.create_stock_items_with_expiry()]] - code - inventree/src/backend/InvenTree/part/test_notification_stale.py
+- [[.create_test_image()]] - code - inventree/src/backend/InvenTree/part/test_api.py
+- [[.define_package()]] - code - inventree/src/backend/InvenTree/plugin/plugin.py
+- [[.delete()_2]] - code - inventree/src/backend/InvenTree/plugin/api.py
+- [[.delete()_9]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[.delete()_1]] - code - inventree/src/backend/InvenTree/importer/models.py
+- [[.delete()_14]] - code - inventree/src/backend/InvenTree/InvenTree/models.py
+- [[.delete()_17]] - code - inventree/src/backend/InvenTree/InvenTree/models.py
+- [[.delete()_13]] - code - inventree/src/backend/InvenTree/InvenTree/models.py
+- [[.delete()_15]] - code - inventree/src/backend/InvenTree/InvenTree/models.py
+- [[.delete()_8]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[.delete()_7]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[.delete()_16]] - code - inventree/src/backend/InvenTree/InvenTree/models.py
+- [[.delete()_12]] - code - inventree/src/backend/InvenTree/InvenTree/models.py
+- [[.delete()_10]] - code - inventree/src/backend/InvenTree/stock/models.py
+- [[.delete()_18]] - code - inventree/src/backend/InvenTree/InvenTree/unit_test.py
+- [[.destroy()]] - code - inventree/src/backend/InvenTree/common/api.py
+- [[.determine_actions()]] - code - inventree/src/backend/InvenTree/InvenTree/metadata.py
+- [[.determine_metadata()]] - code - inventree/src/backend/InvenTree/InvenTree/metadata.py
+- [[.discover_drivers()]] - code - inventree/src/backend/InvenTree/machine/registry.py
+- [[.discover_machine_types()]] - code - inventree/src/backend/InvenTree/machine/registry.py
+- [[.discover_mixins()]] - code - inventree/src/backend/InvenTree/plugin/registry.py
+- [[.do_positive_test()]] - code - inventree/src/backend/InvenTree/InvenTree/test_middleware.py
+- [[.do_request()]] - code - inventree/src/backend/InvenTree/users/tests.py
+- [[.download_file()]] - code - inventree/src/backend/InvenTree/InvenTree/unit_test.py
+- [[.download_image()]] - code - inventree/src/backend/InvenTree/plugin/base/supplier/mixins.py
+- [[.email_args()]] - code - inventree/src/backend/InvenTree/InvenTree/test_auth.py
+- [[.email_submitted()]] - code - inventree/src/backend/InvenTree/InvenTree/magic_login.py
+- [[.enable_plugin()]] - code - inventree/src/backend/InvenTree/plugin/samples/integration/test_validation_sample.py
+- [[.ensurePluginsLoaded()]] - code - inventree/src/backend/InvenTree/InvenTree/unit_test.py
+- [[.ensure_migrations_done()]] - code - inventree/src/backend/InvenTree/InvenTree/apps.py
+- [[.ensure_trackable()]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[.export_data()]] - code - inventree/src/backend/InvenTree/plugin/builtin/exporter/bom_exporter.py
+- [[.export_data()_3]] - code - inventree/src/backend/InvenTree/plugin/base/integration/DataExport.py
+- [[.export_data()_4]] - code - inventree/src/backend/InvenTree/data_exporter/mixins.py
+- [[.export_data()_2]] - code - inventree/src/backend/InvenTree/plugin/builtin/exporter/parameter_exporter.py
+- [[.export_data()_1]] - code - inventree/src/backend/InvenTree/plugin/builtin/exporter/stocktake_exporter.py
+- [[.export_data()_5]] - code - inventree/src/backend/InvenTree/InvenTree/unit_test.py
+- [[.export_to_file()]] - code - inventree/src/backend/InvenTree/data_exporter/mixins.py
+- [[.extract_barcode_fields()]] - code - inventree/src/backend/InvenTree/plugin/builtin/suppliers/lcsc.py
+- [[.extract_barcode_fields()_4]] - code - inventree/src/backend/InvenTree/plugin/base/barcodes/mixins.py
+- [[.extract_columns()]] - code - inventree/src/backend/InvenTree/importer/models.py
+- [[.extract_data()]] - code - inventree/src/backend/InvenTree/importer/models.py
+- [[.file_from_template()]] - code - inventree/src/backend/InvenTree/report/apps.py
+- [[.filter()_1]] - code - inventree/src/backend/InvenTree/InvenTree/filters.py
+- [[.filter()_2]] - code - inventree/src/backend/InvenTree/InvenTree/filters.py
+- [[.filter()_3]] - code - inventree/src/backend/InvenTree/InvenTree/filters.py
+- [[.filter()]] - code - inventree/src/backend/InvenTree/order/test_api.py
+- [[.filter_allocated()]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[.filter_assigned_to_me()]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[.filter_builtin()]] - code - inventree/src/backend/InvenTree/plugin/api.py
+- [[.filter_company()]] - code - inventree/src/backend/InvenTree/company/api.py
+- [[.filter_completed()]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[.filter_depth()]] - code - inventree/src/backend/InvenTree/part/api.py
+- [[.filter_depth()_1]] - code - inventree/src/backend/InvenTree/stock/api.py
+- [[.filter_exclude_related_parts()]] - code - inventree/src/backend/InvenTree/part/api.py
+- [[.filter_exclude_tree()]] - code - inventree/src/backend/InvenTree/stock/api.py
+- [[.filter_exists_for_model()]] - code - inventree/src/backend/InvenTree/common/api.py
+- [[.filter_exists_for_model_id()]] - code - inventree/src/backend/InvenTree/common/api.py
+- [[.filter_exists_for_related_model_id()]] - code - inventree/src/backend/InvenTree/common/api.py
+- [[.filter_expired()]] - code - inventree/src/backend/InvenTree/stock/api.py
+- [[.filter_has_batch()]] - code - inventree/src/backend/InvenTree/stock/api.py
+- [[.filter_has_choices()]] - code - inventree/src/backend/InvenTree/common/api.py
+- [[.filter_has_ipn()]] - code - inventree/src/backend/InvenTree/part/api.py
+- [[.filter_has_pricing()_2]] - code - inventree/src/backend/InvenTree/part/api.py
+- [[.filter_has_pricing()_1]] - code - inventree/src/backend/InvenTree/part/api.py
+- [[.filter_has_project_code()]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[.filter_has_stock()_1]] - code - inventree/src/backend/InvenTree/company/api.py
+- [[.filter_has_units()]] - code - inventree/src/backend/InvenTree/common/api.py
+- [[.filter_has_units()_1]] - code - inventree/src/backend/InvenTree/part/api.py
+- [[.filter_installed()]] - code - inventree/src/backend/InvenTree/plugin/api.py
+- [[.filter_is_file()]] - code - inventree/src/backend/InvenTree/common/api.py
+- [[.filter_is_link()]] - code - inventree/src/backend/InvenTree/common/api.py
+- [[.filter_items()]] - code - inventree/src/backend/InvenTree/report/api.py
+- [[.filter_low_stock()]] - code - inventree/src/backend/InvenTree/part/api.py
+- [[.filter_max_date()]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[.filter_min_date()]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[.filter_mixin()]] - code - inventree/src/backend/InvenTree/plugin/api.py
+- [[.filter_order_status()]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[.filter_outstanding()]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[.filter_overdue()]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[.filter_parent()]] - code - inventree/src/backend/InvenTree/part/api.py
+- [[.filter_parent()_1]] - code - inventree/src/backend/InvenTree/stock/api.py
+- [[.filter_queryset()_3]] - code - inventree/src/backend/InvenTree/users/api.py
+- [[.filter_queryset()_4]] - code - inventree/src/backend/InvenTree/InvenTree/api.py
+- [[.filter_received()]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[.filter_related_parts()]] - code - inventree/src/backend/InvenTree/part/api.py
+- [[.filter_sample()]] - code - inventree/src/backend/InvenTree/plugin/api.py
+- [[.filter_serialized()]] - code - inventree/src/backend/InvenTree/stock/api.py
+- [[.filter_stale()]] - code - inventree/src/backend/InvenTree/stock/api.py
+- [[.filter_starred()]] - code - inventree/src/backend/InvenTree/part/api.py
+- [[.filter_starred()_1]] - code - inventree/src/backend/InvenTree/part/api.py
+- [[.filter_status()]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[.filter_status()_1]] - code - inventree/src/backend/InvenTree/stock/api.py
+- [[.filter_stock_item()]] - code - inventree/src/backend/InvenTree/stock/api.py
+- [[.filter_test_name()]] - code - inventree/src/backend/InvenTree/stock/api.py
+- [[.filter_tracked()]] - code - inventree/src/backend/InvenTree/stock/api.py
+- [[.find_conflicting_serial_numbers()]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[.find_optional_fields()]] - code - inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[.fmt_string()]] - code - inventree/src/backend/InvenTree/common/models.py
+- [[.format_barcode()]] - code - inventree/src/backend/InvenTree/InvenTree/models.py
+- [[.format_matched_response()_1]] - code - inventree/src/backend/InvenTree/InvenTree/models.py
+- [[.formfield_for_dbfield()]] - code - inventree/src/backend/InvenTree/importer/admin.py
+- [[.formfield_for_dbfield()_3]] - code - inventree/src/backend/InvenTree/report/admin.py
+- [[.fulfilled_quantity()]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[.full_clean()]] - code - inventree/src/backend/InvenTree/InvenTree/models.py
+- [[.gather_optional_fields()]] - code - inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[.generate()_1]] - code - inventree/src/backend/InvenTree/plugin/builtin/barcodes/inventree_barcode.py
+- [[.generate()]] - code - inventree/src/backend/InvenTree/plugin/builtin/barcodes/test_inventree_barcode.py
+- [[.generateBarcode()]] - code - inventree/src/backend/InvenTree/plugin/base/barcodes/test_barcode.py
+- [[.generate_batch_code()]] - code - inventree/src/backend/InvenTree/plugin/samples/integration/validation_sample.py
+- [[.generate_exchange_rates()]] - code - inventree/src/backend/InvenTree/InvenTree/unit_test.py
+- [[.generate_filename()_2]] - code - inventree/src/backend/InvenTree/report/models.py
+- [[.generate_headers()]] - code - inventree/src/backend/InvenTree/data_exporter/mixins.py
+- [[.generate_page_style()]] - code - inventree/src/backend/InvenTree/report/models.py
+- [[.get()]] - code - inventree/src/backend/InvenTree/importer/api.py
+- [[.get()_2]] - code - inventree/src/backend/InvenTree/data_exporter/mixins.py
+- [[.get()_4]] - code - inventree/src/backend/InvenTree/InvenTree/unit_test.py
+- [[.getActions()]] - code - inventree/src/backend/InvenTree/InvenTree/unit_test.py
+- [[.getRequiredParts()]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[.getRequiredTests()]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[.getTestResults()]] - code - inventree/src/backend/InvenTree/stock/models.py
+- [[.getTestTemplateMap()]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[.getTestTemplates()]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[.getUniqueChildren()]] - code - inventree/src/backend/InvenTree/InvenTree/models.py
+- [[.get_absolute_url()_9]] - code - inventree/src/backend/InvenTree/company/models.py
+- [[.get_admin_source()]] - code - inventree/src/backend/InvenTree/plugin/plugin.py
+- [[.get_all_variants()]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[.get_assemblies()]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[.get_bom_hash()]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[.get_bom_item_filter()]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[.get_bom_items()]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[.get_bom_price_range()]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[.get_bulk_queryset()]] - code - inventree/src/backend/InvenTree/InvenTree/api.py
+- [[.get_child()]] - code - inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[.get_child_fields()]] - code - inventree/src/backend/InvenTree/data_exporter/mixins.py
+- [[.get_choices()_1]] - code - inventree/src/backend/InvenTree/common/models.py
+- [[.get_choices()_3]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[.get_choices()]] - code - inventree/src/backend/InvenTree/common/models.py
+- [[.get_connect_redirect_url()]] - code - inventree/src/backend/InvenTree/InvenTree/auth_overrides.py
+- [[.get_context()_2]] - code - inventree/src/backend/InvenTree/report/models.py
+- [[.get_context()_1]] - code - inventree/src/backend/InvenTree/report/models.py
+- [[.get_conversion_options()]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[.get_custom_status()]] - code - inventree/src/backend/InvenTree/generic/states/states.py
+- [[.get_db_instance()]] - code - inventree/src/backend/InvenTree/InvenTree/models.py
+- [[.get_default_location()]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[.get_dirs()]] - code - inventree/src/backend/InvenTree/plugin/template.py
+- [[.get_errors()_1]] - code - inventree/src/backend/InvenTree/machine/serializers.py
+- [[.get_export_options_serializer()]] - code - inventree/src/backend/InvenTree/plugin/base/integration/DataExport.py
+- [[.get_exportable_fields()]] - code - inventree/src/backend/InvenTree/data_exporter/mixins.py
+- [[.get_external_url()]] - code - inventree/src/backend/InvenTree/plugin/samples/integration/api_caller.py
+- [[.get_field_info()]] - code - inventree/src/backend/InvenTree/generic/states/fields.py
+- [[.get_field_info()_1]] - code - inventree/src/backend/InvenTree/InvenTree/metadata.py
+- [[.get_filters()]] - code - inventree/src/backend/InvenTree/report/models.py
+- [[.get_frontend_url()]] - code - inventree/src/backend/InvenTree/InvenTree/auth_overrides.py
+- [[.get_generated_file()]] - code - inventree/src/backend/InvenTree/plugin/builtin/labels/inventree_label.py
+- [[.get_installed_items()]] - code - inventree/src/backend/InvenTree/stock/models.py
+- [[.get_installed_part_options()]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[.get_inventree_extensions()]] - code - inventree/src/backend/InvenTree/InvenTree/schema.py
+- [[.get_item_hash()]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[.get_items()]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[.get_latest_serial_number()_1]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[.get_line_item()]] - code - inventree/src/backend/InvenTree/plugin/base/barcodes/api.py
+- [[.get_manufacturer_data()]] - code - inventree/src/backend/InvenTree/plugin/builtin/exporter/bom_exporter.py
+- [[.get_manufacturer_part()]] - code - inventree/src/backend/InvenTree/plugin/base/barcodes/mixins.py
+- [[.get_metadata()]] - code - inventree/src/backend/InvenTree/InvenTree/models.py
+- [[.get_model()]] - code - inventree/src/backend/InvenTree/report/models.py
+- [[.get_models()]] - code - inventree/src/backend/InvenTree/users/models.py
+- [[.get_nested_value()]] - code - inventree/src/backend/InvenTree/data_exporter/mixins.py
+- [[.get_next_serial_number()]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[.get_next_serialized_item()]] - code - inventree/src/backend/InvenTree/stock/models.py
+- [[.get_object()_6]] - code - inventree/src/backend/InvenTree/common/api.py
+- [[.get_object()_7]] - code - inventree/src/backend/InvenTree/common/api.py
+- [[.get_object()_4]] - code - inventree/src/backend/InvenTree/common/api.py
+- [[.get_object()_9]] - code - inventree/src/backend/InvenTree/machine/api.py
+- [[.get_object()_14]] - code - inventree/src/backend/InvenTree/part/api.py
+- [[.get_object()_1]] - code - inventree/src/backend/InvenTree/plugin/api.py
+- [[.get_object()_2]] - code - inventree/src/backend/InvenTree/plugin/api.py
+- [[.get_object()_3]] - code - inventree/src/backend/InvenTree/plugin/api.py
+- [[.get_object()_5]] - code - inventree/src/backend/InvenTree/common/api.py
+- [[.get_operation()]] - code - inventree/src/backend/InvenTree/InvenTree/schema.py
+- [[.get_ordering()]] - code - inventree/src/backend/InvenTree/InvenTree/filters.py
+- [[.get_parameter()]] - code - inventree/src/backend/InvenTree/InvenTree/models.py
+- [[.get_parameter_data()]] - code - inventree/src/backend/InvenTree/plugin/builtin/exporter/bom_exporter.py
+- [[.get_parameters()_2]] - code - inventree/src/backend/InvenTree/InvenTree/models.py
+- [[.get_part_data()]] - code - inventree/src/backend/InvenTree/part/test_api.py
+- [[.get_parts()]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[.get_parts_in_bom()]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[.get_parts_parameters()]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[.get_path()]] - code - inventree/src/backend/InvenTree/InvenTree/models.py
+- [[.get_permission_model()_1]] - code - inventree/src/backend/InvenTree/InvenTree/api.py
+- [[.get_permissions()]] - code - inventree/src/backend/InvenTree/users/serializers.py
+- [[.get_plugin()_1]] - code - inventree/src/backend/InvenTree/data_exporter/mixins.py
+- [[.get_plugin()]] - code - inventree/src/backend/InvenTree/plugin/samples/integration/test_validation_sample.py
+- [[.get_plugin_class()]] - code - inventree/src/backend/InvenTree/report/api.py
+- [[.get_plugin_config()]] - code - inventree/src/backend/InvenTree/plugin/registry.py
+- [[.get_plugin_context()]] - code - inventree/src/backend/InvenTree/report/models.py
+- [[.get_price_info()]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[.get_price_range()]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[.get_purchase_order()]] - code - inventree/src/backend/InvenTree/plugin/base/barcodes/mixins.py
+- [[.get_purchase_price()]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[.get_queryset()_9]] - code - inventree/src/backend/InvenTree/importer/api.py
+- [[.get_queryset()_35]] - code - inventree/src/backend/InvenTree/InvenTree/api.py
+- [[.get_rates()]] - code - inventree/src/backend/InvenTree/InvenTree/exchange.py
+- [[.get_redirect_url()_1]] - code - inventree/src/backend/InvenTree/InvenTree/api.py
+- [[.get_related_owners()]] - code - inventree/src/backend/InvenTree/users/models.py
+- [[.get_related_parts()]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[.get_report_context()]] - code - inventree/src/backend/InvenTree/report/models.py
+- [[.get_report_size()]] - code - inventree/src/backend/InvenTree/report/models.py
+- [[.get_required_alternate_scopes()]] - code - inventree/src/backend/InvenTree/InvenTree/permissions.py
+- [[.get_required_quantity()]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[.get_roles()]] - code - inventree/src/backend/InvenTree/users/serializers.py
+- [[.get_routes()]] - code - inventree/src/backend/InvenTree/InvenTree/helpers_api.py
+- [[.get_sales_order_allocations()]] - code - inventree/src/backend/InvenTree/stock/models.py
+- [[.get_search_fields()]] - code - inventree/src/backend/InvenTree/InvenTree/filters.py
+- [[.get_search_results()]] - code - inventree/src/backend/InvenTree/plugin/samples/supplier/supplier_sample.py
+- [[.get_search_terms()]] - code - inventree/src/backend/InvenTree/InvenTree/filters.py
+- [[.get_serializer()_5]] - code - inventree/src/backend/InvenTree/InvenTree/api.py
+- [[.get_serializer()]] - code - inventree/src/backend/InvenTree/report/api.py
+- [[.get_serializer()_2]] - code - inventree/src/backend/InvenTree/part/api.py
+- [[.get_serializer()_1]] - code - inventree/src/backend/InvenTree/data_exporter/mixins.py
+- [[.get_serializer_class()]] - code - inventree/src/backend/InvenTree/machine/api.py
+- [[.get_serializer_info()]] - code - inventree/src/backend/InvenTree/InvenTree/metadata.py
+- [[.get_setting()]] - code - inventree/src/backend/InvenTree/plugin/base/integration/SettingsMixin.py
+- [[.get_settings_dict()]] - code - inventree/src/backend/InvenTree/plugin/base/integration/SettingsMixin.py
+- [[.get_shipment()_1]] - code - inventree/src/backend/InvenTree/plugin/base/barcodes/api.py
+- [[.get_shipment()]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[.get_static_path()]] - code - inventree/src/backend/InvenTree/plugin/plugin.py
+- [[.get_status()_1]] - code - inventree/src/backend/InvenTree/generic/states/states.py
+- [[.get_status_class()]] - code - inventree/src/backend/InvenTree/common/models.py
+- [[.get_stock_count()]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[.get_stock_filter()]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[.get_subscribers()_1]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[.get_subscribers()]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[.get_substitute_data()]] - code - inventree/src/backend/InvenTree/plugin/builtin/exporter/bom_exporter.py
+- [[.get_supplier()]] - code - inventree/src/backend/InvenTree/plugin/base/barcodes/mixins.py
+- [[.get_supplier_data()]] - code - inventree/src/backend/InvenTree/plugin/builtin/exporter/bom_exporter.py
+- [[.get_supplier_part()_1]] - code - inventree/src/backend/InvenTree/plugin/base/barcodes/api.py
+- [[.get_supplier_part()]] - code - inventree/src/backend/InvenTree/plugin/base/barcodes/mixins.py
+- [[.get_supplier_price_range()]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[.get_target()]] - code - inventree/src/backend/InvenTree/common/serializers.py
+- [[.get_task_name()]] - code - inventree/src/backend/InvenTree/plugin/base/integration/ScheduleMixin.py
+- [[.get_task_names()]] - code - inventree/src/backend/InvenTree/plugin/base/integration/ScheduleMixin.py
+- [[.get_template()]] - code - inventree/src/backend/InvenTree/InvenTree/template.py
+- [[.get_template_part()]] - code - inventree/src/backend/InvenTree/plugin/base/supplier/mixins.py
+- [[.get_test_keys()]] - code - inventree/src/backend/InvenTree/stock/models.py
+- [[.get_trackable_parts()]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[.get_ui_dashboard_items()]] - code - inventree/src/backend/InvenTree/plugin/samples/integration/user_interface_sample.py
+- [[.get_ui_features()]] - code - inventree/src/backend/InvenTree/plugin/base/ui/mixins.py
+- [[.get_ui_panels()]] - code - inventree/src/backend/InvenTree/plugin/samples/integration/user_interface_sample.py
+- [[.get_ui_template_editors()]] - code - inventree/src/backend/InvenTree/plugin/samples/integration/user_interface_sample.py
+- [[.get_unique_parameters()]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[.get_unit()]] - code - inventree/src/backend/InvenTree/common/api.py
+- [[.get_url()_1]] - code - inventree/src/backend/InvenTree/stock/test_api.py
+- [[.get_used_in()]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[.get_used_in_bom_item_filter()]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[.get_user()]] - code - inventree/src/backend/InvenTree/InvenTree/magic_login.py
+- [[.get_user_setting()]] - code - inventree/src/backend/InvenTree/plugin/base/integration/SettingsMixin.py
+- [[.get_valid_parts_for_allocation()]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[.get_value()]] - code - inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[.handle()_10]] - code - inventree/src/backend/InvenTree/InvenTree/management/commands/check_migrations.py
+- [[.handle()_7]] - code - inventree/src/backend/InvenTree/InvenTree/management/commands/clean_settings.py
+- [[.handle()_3]] - code - inventree/src/backend/InvenTree/InvenTree/management/commands/collectplugins.py
+- [[.handle()_4]] - code - inventree/src/backend/InvenTree/InvenTree/management/commands/export_filters.py
+- [[.handle()_1]] - code - inventree/src/backend/InvenTree/InvenTree/management/commands/export_report_context.py
+- [[.handle()]] - code - inventree/src/backend/InvenTree/InvenTree/management/commands/export_settings_definitions.py
+- [[.handle()_13]] - code - inventree/src/backend/InvenTree/InvenTree/management/commands/export_tags.py
+- [[.handle()_11]] - code - inventree/src/backend/InvenTree/InvenTree/management/commands/list_apps.py
+- [[.handle()_6]] - code - inventree/src/backend/InvenTree/InvenTree/management/commands/migrate_icons.py
+- [[.handle()_2]] - code - inventree/src/backend/InvenTree/InvenTree/management/commands/rebuild_thumbnails.py
+- [[.handle()_5]] - code - inventree/src/backend/InvenTree/InvenTree/management/commands/remove_mfa.py
+- [[.handle()_9]] - code - inventree/src/backend/InvenTree/InvenTree/management/commands/runmigrations.py
+- [[.handle()_14]] - code - inventree/src/backend/InvenTree/InvenTree/management/commands/schema.py
+- [[.handle()_12]] - code - inventree/src/backend/InvenTree/InvenTree/management/commands/wait_for_db.py
+- [[.handle_attachment()]] - code - inventree/src/backend/InvenTree/report/models.py
+- [[.handle_barcode()_2]] - code - inventree/src/backend/InvenTree/plugin/base/barcodes/api.py
+- [[.handle_barcode()_3]] - code - inventree/src/backend/InvenTree/plugin/base/barcodes/api.py
+- [[.handle_barcode()_4]] - code - inventree/src/backend/InvenTree/plugin/base/barcodes/api.py
+- [[.handle_barcode()_1]] - code - inventree/src/backend/InvenTree/plugin/base/barcodes/api.py
+- [[.handle_barcode()_5]] - code - inventree/src/backend/InvenTree/plugin/base/barcodes/api.py
+- [[.handle_error()_2]] - code - inventree/src/backend/InvenTree/machine/machine_type.py
+- [[.handle_error()]] - code - inventree/src/backend/InvenTree/machine/registry.py
+- [[.handle_transition()]] - code - inventree/src/backend/InvenTree/generic/states/transition.py
+- [[.has_choice()]] - code - inventree/src/backend/InvenTree/common/models.py
+- [[.has_object_permission()_2]] - code - inventree/src/backend/InvenTree/InvenTree/permissions.py
+- [[.has_permission()_2]] - code - inventree/src/backend/InvenTree/InvenTree/permissions.py
+- [[.hash_fields()]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[.hashed_file_lookup()]] - code - inventree/src/backend/InvenTree/plugin/plugin.py
+- [[.helper()]] - code - inventree/src/backend/InvenTree/InvenTree/unit_test.py
+- [[.helper_file()]] - code - inventree/src/backend/InvenTree/importer/tests.py
+- [[.import_data()]] - code - inventree/src/backend/InvenTree/importer/models.py
+- [[.import_part()]] - code - inventree/src/backend/InvenTree/plugin/samples/supplier/supplier_sample.py
+- [[.increment_serial_number()]] - code - inventree/src/backend/InvenTree/plugin/samples/integration/validation_sample.py
+- [[.initialize()]] - code - inventree/src/backend/InvenTree/machine/machine_type.py
+- [[.install_plugin_file()]] - code - inventree/src/backend/InvenTree/plugin/registry.py
+- [[.installed_item_count()]] - code - inventree/src/backend/InvenTree/stock/models.py
+- [[.is_allocated()]] - code - inventree/src/backend/InvenTree/stock/models.py
+- [[.is_auto_signup_allowed()]] - code - inventree/src/backend/InvenTree/InvenTree/auth_overrides.py
+- [[.is_bom_valid()]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[.is_checked()]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[.is_complete()]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[.is_completed()]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[.is_completed()_2]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[.is_expired()]] - code - inventree/src/backend/InvenTree/stock/models.py
+- [[.is_fully_allocated()]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[.is_fully_allocated()_1]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[.is_in_stock()]] - code - inventree/src/backend/InvenTree/stock/models.py
+- [[.is_open_for_signup()]] - code - inventree/src/backend/InvenTree/InvenTree/auth_overrides.py
+- [[.is_overallocated()]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[.is_overallocated()_1]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[.is_part_low_on_stock()]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[.is_stale()]] - code - inventree/src/backend/InvenTree/stock/models.py
+- [[.is_user_allowed()]] - code - inventree/src/backend/InvenTree/users/models.py
+- [[.item_link()]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[.label()_1]] - code - inventree/src/backend/InvenTree/stock/models.py
+- [[.list()_2]] - code - inventree/src/backend/InvenTree/part/api.py
+- [[.list()_3]] - code - inventree/src/backend/InvenTree/stock/api.py
+- [[.list()_4]] - code - inventree/src/backend/InvenTree/InvenTree/api.py
+- [[.locate_stock_item()]] - code - inventree/src/backend/InvenTree/plugin/samples/locate/locate_sample.py
+- [[.locate_stock_location()]] - code - inventree/src/backend/InvenTree/plugin/samples/locate/locate_sample.py
+- [[.log_scan()]] - code - inventree/src/backend/InvenTree/plugin/base/barcodes/api.py
+- [[.login()_1]] - code - inventree/src/backend/InvenTree/InvenTree/auth_overrides.py
+- [[.logout()]] - code - inventree/src/backend/InvenTree/InvenTree/unit_test.py
+- [[.lookup_related_field()]] - code - inventree/src/backend/InvenTree/importer/models.py
+- [[.mark_complete()]] - code - inventree/src/backend/InvenTree/common/models.py
+- [[.mark_failure()]] - code - inventree/src/backend/InvenTree/common/models.py
+- [[.member_func()]] - code - inventree/src/backend/InvenTree/plugin/samples/integration/scheduled_task.py
+- [[.metatester()]] - code - inventree/src/backend/InvenTree/stock/test_api.py
+- [[.mixins()]] - code - inventree/src/backend/InvenTree/plugin/models.py
+- [[.mockDir()]] - code - inventree/src/backend/InvenTree/plugin/test_plugin.py
+- [[.model_class()]] - code - inventree/src/backend/InvenTree/common/models.py
+- [[.not_found()]] - code - inventree/src/backend/InvenTree/InvenTree/api.py
+- [[.notify()]] - code - inventree/src/backend/InvenTree/plugin/builtin/integration/test_core_notifications.py
+- [[.notify_plugins()]] - code - inventree/src/backend/InvenTree/report/models.py
+- [[.open()]] - code - inventree/src/backend/InvenTree/InvenTree/backends.py
+- [[.options()_1]] - code - inventree/src/backend/InvenTree/InvenTree/api.py
+- [[.options()]] - code - inventree/src/backend/InvenTree/InvenTree/unit_test.py
+- [[.parameters_map()]] - code - inventree/src/backend/InvenTree/InvenTree/models.py
+- [[.partcount()]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[.partial_rebuild()]] - code - inventree/src/backend/InvenTree/InvenTree/models.py
+- [[.passedAllRequiredTests()]] - code - inventree/src/backend/InvenTree/stock/models.py
+- [[.patch()_2]] - code - inventree/src/backend/InvenTree/InvenTree/api.py
+- [[.pending_allocations()]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[.pending_line_items()]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[.pending_line_items()_1]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[.pending_shipments()]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[.perform_create()_1]] - code - inventree/src/backend/InvenTree/plugin/api.py
+- [[.perform_create()_4]] - code - inventree/src/backend/InvenTree/stock/api.py
+- [[.perform_update()_2]] - code - inventree/src/backend/InvenTree/plugin/api.py
+- [[.perform_update()]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[.perform_update()_3]] - code - inventree/src/backend/InvenTree/users/api.py
+- [[.place_order()_1]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[.plugin_dirs()]] - code - inventree/src/backend/InvenTree/plugin/registry.py
+- [[.plugin_settings_keys()]] - code - inventree/src/backend/InvenTree/plugin/registry.py
+- [[.plugin_slug()]] - code - inventree/src/backend/InvenTree/plugin/broken/bad_actor.py
+- [[.post()_5]] - code - inventree/src/backend/InvenTree/InvenTree/api.py
+- [[.post()_2]] - code - inventree/src/backend/InvenTree/stock/api.py
+- [[.post()_3]] - code - inventree/src/backend/InvenTree/stock/api.py
+- [[.post()]] - code - inventree/src/backend/InvenTree/plugin/base/locate/api.py
+- [[.post()_1]] - code - inventree/src/backend/InvenTree/part/api.py
+- [[.post()_6]] - code - inventree/src/backend/InvenTree/InvenTree/magic_login.py
+- [[.post()_4]] - code - inventree/src/backend/InvenTree/InvenTree/unit_test.py
+- [[.postBarcode()]] - code - inventree/src/backend/InvenTree/plugin/base/barcodes/test_barcode.py
+- [[.postBarcode()_1]] - code - inventree/src/backend/InvenTree/plugin/base/barcodes/test_barcode.py
+- [[.prefetch_parts_parameters()]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[.prefetch_queryset()]] - code - inventree/src/backend/InvenTree/plugin/builtin/exporter/bom_exporter.py
+- [[.prefetch_queryset()_3]] - code - inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[.prepare()_8]] - code - inventree/src/backend/InvenTree/users/test_migrations.py
+- [[.prepare()_11]] - code - inventree/src/backend/InvenTree/part/test_migrations.py
+- [[.prepare()_2]] - code - inventree/src/backend/InvenTree/order/test_migrations.py
+- [[.prepare()_25]] - code - inventree/src/backend/InvenTree/company/test_migrations.py
+- [[.prepare()_7]] - code - inventree/src/backend/InvenTree/users/test_migrations.py
+- [[.prepare()_19]] - code - inventree/src/backend/InvenTree/stock/test_migrations.py
+- [[.prepare()_20]] - code - inventree/src/backend/InvenTree/stock/test_migrations.py
+- [[.prepare()_9]] - code - inventree/src/backend/InvenTree/part/test_migrations.py
+- [[.prepare()_5]] - code - inventree/src/backend/InvenTree/company/test_migrations.py
+- [[.prepare()_6]] - code - inventree/src/backend/InvenTree/common/test_migrations.py
+- [[.prepare()_4]] - code - inventree/src/backend/InvenTree/company/test_migrations.py
+- [[.prepare()_23]] - code - inventree/src/backend/InvenTree/company/test_migrations.py
+- [[.prepare()_24]] - code - inventree/src/backend/InvenTree/company/test_migrations.py
+- [[.prepare()_27]] - code - inventree/src/backend/InvenTree/company/test_migrations.py
+- [[.prepare()_10]] - code - inventree/src/backend/InvenTree/part/test_migrations.py
+- [[.prepare()_14]] - code - inventree/src/backend/InvenTree/part/test_migrations.py
+- [[.prepare()_12]] - code - inventree/src/backend/InvenTree/part/test_migrations.py
+- [[.prepare()_13]] - code - inventree/src/backend/InvenTree/part/test_migrations.py
+- [[.prepare()_21]] - code - inventree/src/backend/InvenTree/stock/test_migrations.py
+- [[.prepare()_18]] - code - inventree/src/backend/InvenTree/stock/test_migrations.py
+- [[.prepare()]] - code - inventree/src/backend/InvenTree/order/test_migrations.py
+- [[.prepare()_16]] - code - inventree/src/backend/InvenTree/stock/test_migrations.py
+- [[.prepare()_15]] - code - inventree/src/backend/InvenTree/stock/test_migrations.py
+- [[.prepare()_3]] - code - inventree/src/backend/InvenTree/order/test_migrations.py
+- [[.prepare()_1]] - code - inventree/src/backend/InvenTree/order/test_migrations.py
+- [[.prepare()_22]] - code - inventree/src/backend/InvenTree/stock/test_migrations.py
+- [[.prepare()_26]] - code - inventree/src/backend/InvenTree/company/test_migrations.py
+- [[.prepare()_17]] - code - inventree/src/backend/InvenTree/stock/test_migrations.py
+- [[.print()_3]] - code - inventree/src/backend/InvenTree/report/api.py
+- [[.print()_1]] - code - inventree/src/backend/InvenTree/report/models.py
+- [[.print()]] - code - inventree/src/backend/InvenTree/report/models.py
+- [[.print_label()_5]] - code - inventree/src/backend/InvenTree/plugin/builtin/labels/inventree_label.py
+- [[.print_label()]] - code - inventree/src/backend/InvenTree/plugin/samples/integration/label_sample.py
+- [[.print_labels()_1]] - code - inventree/src/backend/InvenTree/plugin/builtin/labels/inventree_machine.py
+- [[.print_labels()]] - code - inventree/src/backend/InvenTree/plugin/builtin/labels/label_sheet.py
+- [[.print_labels()_2]] - code - inventree/src/backend/InvenTree/plugin/base/label/mixins.py
+- [[.print_page()]] - code - inventree/src/backend/InvenTree/plugin/builtin/labels/label_sheet.py
+- [[.proccess_refs()]] - code - inventree/src/backend/InvenTree/InvenTree/management/commands/schema.py
+- [[.process_bom_row()]] - code - inventree/src/backend/InvenTree/plugin/builtin/exporter/bom_exporter.py
+- [[.process_build()]] - code - inventree/src/backend/InvenTree/plugin/builtin/events/auto_create_builds.py
+- [[.process_csv()]] - code - inventree/src/backend/InvenTree/InvenTree/unit_test.py
+- [[.process_event()_2]] - code - inventree/src/backend/InvenTree/plugin/builtin/integration/part_notifications.py
+- [[.process_exception()]] - code - inventree/src/backend/InvenTree/InvenTree/middleware.py
+- [[.process_payload()]] - code - inventree/src/backend/InvenTree/common/models.py
+- [[.process_request()_2]] - code - inventree/src/backend/InvenTree/InvenTree/middleware.py
+- [[.process_response()_1]] - code - inventree/src/backend/InvenTree/InvenTree/middleware.py
+- [[.purchase_orders()]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[.purchase_orders()_1]] - code - inventree/src/backend/InvenTree/company/models.py
+- [[.query()]] - code - inventree/src/backend/InvenTree/InvenTree/unit_test.py
+- [[.raise_error()]] - code - inventree/src/backend/InvenTree/plugin/base/integration/ValidationMixin.py
+- [[.ready()_1]] - code - inventree/src/backend/InvenTree/common/apps.py
+- [[.ready()_7]] - code - inventree/src/backend/InvenTree/InvenTree/apps.py
+- [[.ready()_2]] - code - inventree/src/backend/InvenTree/machine/apps.py
+- [[.ready()_6]] - code - inventree/src/backend/InvenTree/part/apps.py
+- [[.ready()]] - code - inventree/src/backend/InvenTree/plugin/apps.py
+- [[.ready()_4]] - code - inventree/src/backend/InvenTree/report/apps.py
+- [[.ready()_3]] - code - inventree/src/backend/InvenTree/users/apps.py
+- [[.rebuild_lower_nodes()]] - code - inventree/src/backend/InvenTree/InvenTree/models.py
+- [[.rebuild_thumbnail()]] - code - inventree/src/backend/InvenTree/InvenTree/management/commands/rebuild_thumbnails.py
+- [[.register_tasks()]] - code - inventree/src/backend/InvenTree/plugin/base/integration/ScheduleMixin.py
+- [[.reload_machines()]] - code - inventree/src/backend/InvenTree/machine/registry.py
+- [[.remaining()]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[.render()]] - code - inventree/src/backend/InvenTree/report/models.py
+- [[.render_as_string()]] - code - inventree/src/backend/InvenTree/report/models.py
+- [[.render_to_html()]] - code - inventree/src/backend/InvenTree/plugin/base/label/mixins.py
+- [[.render_to_pdf()]] - code - inventree/src/backend/InvenTree/plugin/base/label/mixins.py
+- [[.render_to_png()]] - code - inventree/src/backend/InvenTree/plugin/base/label/mixins.py
+- [[.report_context()_5]] - code - inventree/src/backend/InvenTree/report/mixins.py
+- [[.report_context()_9]] - code - inventree/src/backend/InvenTree/company/models.py
+- [[.report_context()_6]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[.report_context()_8]] - code - inventree/src/backend/InvenTree/stock/models.py
+- [[.requiredTestStatus()]] - code - inventree/src/backend/InvenTree/stock/models.py
+- [[.required_build_order_quantity()]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[.required_fields()]] - code - inventree/src/backend/InvenTree/importer/models.py
+- [[.required_order_quantity()]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[.required_sales_order_quantity()]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[.requires_restart()]] - code - inventree/src/backend/InvenTree/common/models.py
+- [[.requiring_build_orders()]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[.requiring_sales_orders()]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[.reset_part_pricing_flags()]] - code - inventree/src/backend/InvenTree/part/apps.py
+- [[.restart_machine()_1]] - code - inventree/src/backend/InvenTree/machine/machine_type.py
+- [[.run_output_test()]] - code - inventree/src/backend/InvenTree/InvenTree/unit_test.py
+- [[.run_package_test()]] - code - inventree/src/backend/InvenTree/plugin/test_plugin.py
+- [[.run_plugin_validation()]] - code - inventree/src/backend/InvenTree/InvenTree/models.py
+- [[.run_print_test()]] - code - inventree/src/backend/InvenTree/report/tests.py
+- [[.run_validation()]] - code - inventree/src/backend/InvenTree/InvenTree/fields.py
+- [[.run_validation()_1]] - code - inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[.sales_order_allocation_count()]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[.sales_order_allocation_count()_1]] - code - inventree/src/backend/InvenTree/stock/models.py
+- [[.sales_order_allocations()]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[.sales_orders()]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[.save()_71]] - code - inventree/src/backend/InvenTree/company/models.py
+- [[.save()_45]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[.save()_46]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[.save()_19]] - code - inventree/src/backend/InvenTree/importer/models.py
+- [[.save()_20]] - code - inventree/src/backend/InvenTree/importer/models.py
+- [[.save()_18]] - code - inventree/src/backend/InvenTree/importer/models.py
+- [[.save()_27]] - code - inventree/src/backend/InvenTree/common/models.py
+- [[.save()_68]] - code - inventree/src/backend/InvenTree/InvenTree/models.py
+- [[.save()_34]] - code - inventree/src/backend/InvenTree/machine/models.py
+- [[.save()_35]] - code - inventree/src/backend/InvenTree/machine/models.py
+- [[.save()_1]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[.save()_2]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[.save()_42]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[.save()_43]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[.save()_47]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[.save()_44]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[.save()_69]] - code - inventree/src/backend/InvenTree/InvenTree/models.py
+- [[.save()_36]] - code - inventree/src/backend/InvenTree/users/models.py
+- [[.save()_52]] - code - inventree/src/backend/InvenTree/stock/models.py
+- [[.save()_54]] - code - inventree/src/backend/InvenTree/stock/models.py
+- [[.save()_53]] - code - inventree/src/backend/InvenTree/stock/models.py
+- [[.save()_72]] - code - inventree/src/backend/InvenTree/company/models.py
+- [[.save()_37]] - code - inventree/src/backend/InvenTree/users/models.py
+- [[.save()_32]] - code - inventree/src/backend/InvenTree/common/serializers.py
+- [[.save()_73]] - code - inventree/src/backend/InvenTree/company/serializers.py
+- [[.save()_33]] - code - inventree/src/backend/InvenTree/common/serializers.py
+- [[.save()_23]] - code - inventree/src/backend/InvenTree/plugin/serializers.py
+- [[.save()_13]] - code - inventree/src/backend/InvenTree/order/serializers.py
+- [[.save()_55]] - code - inventree/src/backend/InvenTree/stock/serializers.py
+- [[.save()_62]] - code - inventree/src/backend/InvenTree/stock/serializers.py
+- [[.save()_59]] - code - inventree/src/backend/InvenTree/stock/serializers.py
+- [[.save()_61]] - code - inventree/src/backend/InvenTree/stock/serializers.py
+- [[.save()_60]] - code - inventree/src/backend/InvenTree/stock/serializers.py
+- [[.save()_63]] - code - inventree/src/backend/InvenTree/stock/serializers.py
+- [[.save()_65]] - code - inventree/src/backend/InvenTree/stock/serializers.py
+- [[.save()_64]] - code - inventree/src/backend/InvenTree/stock/serializers.py
+- [[.save()_39]] - code - inventree/src/backend/InvenTree/generic/states/states.py
+- [[.save_data()]] - code - inventree/src/backend/InvenTree/common/models.py
+- [[.save_user()_1]] - code - inventree/src/backend/InvenTree/InvenTree/auth_overrides.py
+- [[.save_user()]] - code - inventree/src/backend/InvenTree/InvenTree/test_auth.py
+- [[.scan()_1]] - code - inventree/src/backend/InvenTree/plugin/builtin/barcodes/inventree_barcode.py
+- [[.scan()_3]] - code - inventree/src/backend/InvenTree/plugin/base/barcodes/mixins.py
+- [[.scan()]] - code - inventree/src/backend/InvenTree/plugin/builtin/barcodes/test_inventree_barcode.py
+- [[.scan_barcode()]] - code - inventree/src/backend/InvenTree/plugin/base/barcodes/api.py
+- [[.scan_receive_item()]] - code - inventree/src/backend/InvenTree/plugin/base/barcodes/mixins.py
+- [[.schedule_for_update()]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[.schedule_pricing_update()]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[.send_mail()]] - code - inventree/src/backend/InvenTree/InvenTree/auth_overrides.py
+- [[.send_messages()_1]] - code - inventree/src/backend/InvenTree/InvenTree/backends.py
+- [[.send_messages()]] - code - inventree/src/backend/InvenTree/InvenTree/backends.py
+- [[.send_notification()_1]] - code - inventree/src/backend/InvenTree/plugin/builtin/integration/core_notifications.py
+- [[.send_notification()_2]] - code - inventree/src/backend/InvenTree/plugin/builtin/integration/core_notifications.py
+- [[.send_notification()]] - code - inventree/src/backend/InvenTree/plugin/builtin/integration/core_notifications.py
+- [[.send_password_reset_mail()]] - code - inventree/src/backend/InvenTree/InvenTree/auth_overrides.py
+- [[.serializer_data()]] - code - inventree/src/backend/InvenTree/importer/models.py
+- [[.setUp()_35]] - code - inventree/src/backend/InvenTree/stock/test_api.py
+- [[.setUp()_25]] - code - inventree/src/backend/InvenTree/machine/test_api.py
+- [[.setUp()_4]] - code - inventree/src/backend/InvenTree/plugin/test_api.py
+- [[.setUp()]] - code - inventree/src/backend/InvenTree/order/test_api.py
+- [[.setUp()_1]] - code - inventree/src/backend/InvenTree/order/test_api.py
+- [[.setUp()_36]] - code - inventree/src/backend/InvenTree/stock/test_api.py
+- [[.setUp()_39]] - code - inventree/src/backend/InvenTree/InvenTree/test_auth.py
+- [[.setUp()_16]] - code - inventree/src/backend/InvenTree/plugin/base/barcodes/test_barcode.py
+- [[.setUp()_17]] - code - inventree/src/backend/InvenTree/plugin/base/barcodes/test_barcode.py
+- [[.setUp()_31]] - code - inventree/src/backend/InvenTree/part/test_bom_item.py
+- [[.setUp()_8]] - code - inventree/src/backend/InvenTree/plugin/builtin/barcodes/test_inventree_barcode.py
+- [[.setUp()_32]] - code - inventree/src/backend/InvenTree/part/test_notification_stale.py
+- [[.setUp()_33]] - code - inventree/src/backend/InvenTree/part/test_pricing.py
+- [[.setUp()_6]] - code - inventree/src/backend/InvenTree/plugin/builtin/suppliers/test_supplier_barcodes.py
+- [[.setUp()_18]] - code - inventree/src/backend/InvenTree/common/test_tasks.py
+- [[.setUp()_5]] - code - inventree/src/backend/InvenTree/plugin/samples/integration/test_validation_sample.py
+- [[.setUp()_42]] - code - inventree/src/backend/InvenTree/company/tests.py
+- [[.setUp()_2]] - code - inventree/src/backend/InvenTree/order/tests.py
+- [[.setUp()_26]] - code - inventree/src/backend/InvenTree/machine/tests.py
+- [[.setUp()_38]] - code - inventree/src/backend/InvenTree/InvenTree/unit_test.py
+- [[.set_metadata()]] - code - inventree/src/backend/InvenTree/InvenTree/models.py
+- [[.set_plugin_setting()]] - code - inventree/src/backend/InvenTree/plugin/builtin/barcodes/test_inventree_barcode.py
+- [[.set_plugin_state()]] - code - inventree/src/backend/InvenTree/plugin/samples/integration/test_simpleactionplugin.py
+- [[.set_ready()]] - code - inventree/src/backend/InvenTree/plugin/registry.py
+- [[.set_setting()_1]] - code - inventree/src/backend/InvenTree/machine/machine_type.py
+- [[.set_setting()]] - code - inventree/src/backend/InvenTree/plugin/base/integration/SettingsMixin.py
+- [[.set_starred()_1]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[.set_starred()]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[.set_status()_1]] - code - inventree/src/backend/InvenTree/generic/states/states.py
+- [[.set_user_setting()]] - code - inventree/src/backend/InvenTree/plugin/base/integration/SettingsMixin.py
+- [[.stock_entries()]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[.stock_item_count()]] - code - inventree/src/backend/InvenTree/stock/models.py
+- [[.subscribed_users()]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[.subscribed_users()_2]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[.subscribed_users()_1]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[.supports_export()_1]] - code - inventree/src/backend/InvenTree/plugin/builtin/exporter/bom_exporter.py
+- [[.tearDown()]] - code - inventree/src/backend/InvenTree/common/test_tasks.py
+- [[.testDecimal2String()]] - code - inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[.testResultList()]] - code - inventree/src/backend/InvenTree/stock/models.py
+- [[.testResultMap()]] - code - inventree/src/backend/InvenTree/stock/models.py
+- [[.test_AuthRequiredMiddleware()]] - code - inventree/src/backend/InvenTree/InvenTree/test_middleware.py
+- [[.test_Check2FAMiddleware()]] - code - inventree/src/backend/InvenTree/InvenTree/test_middleware.py
+- [[.test_absolute_url()]] - code - inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[.test_action()]] - code - inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_active()]] - code - inventree/src/backend/InvenTree/company/test_api.py
+- [[.test_add_attachment()]] - code - inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_add_categories()]] - code - inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_add_duplicate_line_item()]] - code - inventree/src/backend/InvenTree/order/test_sales_order.py
+- [[.test_add_items()]] - code - inventree/src/backend/InvenTree/order/tests.py
+- [[.test_add_stock()]] - code - inventree/src/backend/InvenTree/stock/tests.py
+- [[.test_address_migration()]] - code - inventree/src/backend/InvenTree/company/test_migrations.py
+- [[.test_admin()]] - code - inventree/src/backend/InvenTree/stock/tests.py
+- [[.test_all_states()]] - code - inventree/src/backend/InvenTree/generic/states/tests.py
+- [[.test_allocate()]] - code - inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_allocate_full()]] - code - inventree/src/backend/InvenTree/order/test_sales_order.py
+- [[.test_allocate_partial()]] - code - inventree/src/backend/InvenTree/order/test_sales_order.py
+- [[.test_allocate_to_customer()]] - code - inventree/src/backend/InvenTree/stock/tests.py
+- [[.test_allocate_variant()_1]] - code - inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_allocate_variant()]] - code - inventree/src/backend/InvenTree/order/test_sales_order.py
+- [[.test_allocation_annotations()]] - code - inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_api()]] - code - inventree/src/backend/InvenTree/plugin/base/label/test_label_mixin.py
+- [[.test_api()_5]] - code - inventree/src/backend/InvenTree/generic/states/tests.py
+- [[.test_api()_4]] - code - inventree/src/backend/InvenTree/users/tests.py
+- [[.test_api()_3]] - code - inventree/src/backend/InvenTree/users/tests.py
+- [[.test_api_batch()]] - code - inventree/src/backend/InvenTree/plugin/samples/integration/test_validation_sample.py
+- [[.test_api_detail()]] - code - inventree/src/backend/InvenTree/common/tests.py
+- [[.test_api_license()]] - code - inventree/src/backend/InvenTree/InvenTree/test_api.py
+- [[.test_api_list()_1]] - code - inventree/src/backend/InvenTree/common/tests.py
+- [[.test_api_list()]] - code - inventree/src/backend/InvenTree/common/tests.py
+- [[.test_api_read()]] - code - inventree/src/backend/InvenTree/common/tests.py
+- [[.test_api_update()]] - code - inventree/src/backend/InvenTree/common/tests.py
+- [[.test_api_url()]] - code - inventree/src/backend/InvenTree/users/test_api.py
+- [[.test_api_version()]] - code - inventree/src/backend/InvenTree/InvenTree/test_api.py
+- [[.test_array_barcode()]] - code - inventree/src/backend/InvenTree/plugin/base/barcodes/test_barcode.py
+- [[.test_assign_to_location()]] - code - inventree/src/backend/InvenTree/plugin/builtin/barcodes/test_inventree_barcode.py
+- [[.test_assign_to_part()]] - code - inventree/src/backend/InvenTree/plugin/builtin/barcodes/test_inventree_barcode.py
+- [[.test_assign_to_stock_item()]] - code - inventree/src/backend/InvenTree/plugin/builtin/barcodes/test_inventree_barcode.py
+- [[.test_association()]] - code - inventree/src/backend/InvenTree/plugin/base/barcodes/test_barcode.py
+- [[.test_attrition()]] - code - inventree/src/backend/InvenTree/part/test_bom_item.py
+- [[.test_auth_request()]] - code - inventree/src/backend/InvenTree/InvenTree/test_auth.py
+- [[.test_available()]] - code - inventree/src/backend/InvenTree/company/test_api.py
+- [[.test_backfill_user_profiles()]] - code - inventree/src/backend/InvenTree/users/test_migrations.py
+- [[.test_backup_command_e2e()]] - code - inventree/src/backend/InvenTree/InvenTree/test_commands.py
+- [[.test_backup_metadata()]] - code - inventree/src/backend/InvenTree/InvenTree/test_commands.py
+- [[.test_barcode_generation()]] - code - inventree/src/backend/InvenTree/plugin/base/barcodes/test_barcode.py
+- [[.test_barcode_generation_invalid()]] - code - inventree/src/backend/InvenTree/plugin/base/barcodes/test_barcode.py
+- [[.test_barcode_mixin()]] - code - inventree/src/backend/InvenTree/part/test_part.py
+- [[.test_barcode_scan()]] - code - inventree/src/backend/InvenTree/plugin/base/barcodes/test_barcode.py
+- [[.test_basic_setup()]] - code - inventree/src/backend/InvenTree/InvenTree/test_serializers.py
+- [[.test_basics()]] - code - inventree/src/backend/InvenTree/order/tests.py
+- [[.test_batch_code()]] - code - inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_batch_generate_api()]] - code - inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_big_serials()]] - code - inventree/src/backend/InvenTree/stock/tests.py
+- [[.test_bom_export()]] - code - inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_bom_item_uses()]] - code - inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_bom_list()]] - code - inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_bom_variant_stock()]] - code - inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_broken_samples()]] - code - inventree/src/backend/InvenTree/plugin/test_plugin.py
+- [[.test_broken_transition_plugin()]] - code - inventree/src/backend/InvenTree/generic/states/test_transition.py
+- [[.test_build_api()]] - code - inventree/src/backend/InvenTree/InvenTree/test_api.py
+- [[.test_buildin_token()]] - code - inventree/src/backend/InvenTree/InvenTree/test_auth.py
+- [[.test_building()]] - code - inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_builtin_mandatory_plugins()]] - code - inventree/src/backend/InvenTree/plugin/test_plugin.py
+- [[.test_bulk_batch_change()]] - code - inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_bulk_create()]] - code - inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_bulk_create_params()]] - code - inventree/src/backend/InvenTree/part/test_param.py
+- [[.test_bulk_delete()_1]] - code - inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_bulk_delete()]] - code - inventree/src/backend/InvenTree/common/tests.py
+- [[.test_call_function()]] - code - inventree/src/backend/InvenTree/machine/tests.py
+- [[.test_calling()]] - code - inventree/src/backend/InvenTree/plugin/samples/integration/test_scheduled_task.py
+- [[.test_can_build()]] - code - inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_cast()]] - code - inventree/src/backend/InvenTree/common/tests.py
+- [[.test_cast()_2]] - code - inventree/src/backend/InvenTree/common/tests.py
+- [[.test_cast()_3]] - code - inventree/src/backend/InvenTree/common/tests.py
+- [[.test_cast()_1]] - code - inventree/src/backend/InvenTree/common/tests.py
+- [[.test_cat_detail()]] - code - inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_category()]] - code - inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_category()_1]] - code - inventree/src/backend/InvenTree/part/test_part.py
+- [[.test_category_delete()]] - code - inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_category_detail()]] - code - inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_category_list()]] - code - inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_category_parameters()]] - code - inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_category_parameters()_1]] - code - inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_category_tree()]] - code - inventree/src/backend/InvenTree/part/test_category.py
+- [[.test_check_plugin()]] - code - inventree/src/backend/InvenTree/plugin/test_api.py
+- [[.test_check_reload()]] - code - inventree/src/backend/InvenTree/plugin/test_plugin.py
+- [[.test_check_stale_stock_disabled_expiry()]] - code - inventree/src/backend/InvenTree/part/test_notification_stale.py
+- [[.test_check_stale_stock_filtering()]] - code - inventree/src/backend/InvenTree/part/test_notification_stale.py
+- [[.test_check_stale_stock_no_stale_items()]] - code - inventree/src/backend/InvenTree/part/test_notification_stale.py
+- [[.test_check_stale_stock_zero_stale_days()]] - code - inventree/src/backend/InvenTree/part/test_notification_stale.py
+- [[.test_child_items()]] - code - inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_children()]] - code - inventree/src/backend/InvenTree/stock/tests.py
+- [[.test_children_count()]] - code - inventree/src/backend/InvenTree/part/test_category.py
+- [[.test_choice_validation()]] - code - inventree/src/backend/InvenTree/part/test_param.py
+- [[.test_choices()]] - code - inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_code_functions()]] - code - inventree/src/backend/InvenTree/generic/states/tests.py
+- [[.test_combinations()]] - code - inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[.test_commit_info()]] - code - inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[.test_company_active()]] - code - inventree/src/backend/InvenTree/company/test_api.py
+- [[.test_company_detail()]] - code - inventree/src/backend/InvenTree/company/test_api.py
+- [[.test_company_list()]] - code - inventree/src/backend/InvenTree/InvenTree/test_api.py
+- [[.test_company_name()]] - code - inventree/src/backend/InvenTree/common/tests.py
+- [[.test_company_notes()]] - code - inventree/src/backend/InvenTree/company/test_api.py
+- [[.test_company_objects()]] - code - inventree/src/backend/InvenTree/company/test_migrations.py
+- [[.test_company_url()]] - code - inventree/src/backend/InvenTree/company/tests.py
+- [[.test_complete_order()]] - code - inventree/src/backend/InvenTree/order/test_sales_order.py
+- [[.test_complex_tree()]] - code - inventree/src/backend/InvenTree/part/test_part.py
+- [[.test_config_api()]] - code - inventree/src/backend/InvenTree/common/tests.py
+- [[.test_config_attributes()]] - code - inventree/src/backend/InvenTree/plugin/test_plugin.py
+- [[.test_connection_error()]] - code - inventree/src/backend/InvenTree/common/test_tasks.py
+- [[.test_consumable()]] - code - inventree/src/backend/InvenTree/part/test_bom_item.py
+- [[.test_convert_currency()]] - code - inventree/src/backend/InvenTree/report/test_tags.py
+- [[.test_convert_to_variant()]] - code - inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_count()]] - code - inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_create()_3]] - code - inventree/src/backend/InvenTree/company/test_api.py
+- [[.test_create()_2]] - code - inventree/src/backend/InvenTree/company/test_api.py
+- [[.test_create()]] - code - inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_create()_1]] - code - inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_create_currency()]] - code - inventree/src/backend/InvenTree/report/test_tags.py
+- [[.test_create_default_location()]] - code - inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_create_endpoint()]] - code - inventree/src/backend/InvenTree/report/tests.py
+- [[.test_create_param()]] - code - inventree/src/backend/InvenTree/part/test_param.py
+- [[.test_create_price_breaks()]] - code - inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_creation_with_serials()]] - code - inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_currency_migration()]] - code - inventree/src/backend/InvenTree/company/test_migrations.py
+- [[.test_currency_migration()_1]] - code - inventree/src/backend/InvenTree/common/test_migrations.py
+- [[.test_currency_settings()]] - code - inventree/src/backend/InvenTree/common/tests.py
+- [[.test_custom()]] - code - inventree/src/backend/InvenTree/part/test_part.py
+- [[.test_custom_loading()]] - code - inventree/src/backend/InvenTree/plugin/test_plugin.py
+- [[.test_custom_status()]] - code - inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_custom_units()]] - code - inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[.test_daily_holdoff()]] - code - inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[.test_data_migration()]] - code - inventree/src/backend/InvenTree/part/test_migrations.py
+- [[.test_data_output_list()]] - code - inventree/src/backend/InvenTree/common/test_api.py
+- [[.test_date_filters()]] - code - inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_default_expiry()]] - code - inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_default_group_without_sso_group()]] - code - inventree/src/backend/InvenTree/InvenTree/test_auth.py
+- [[.test_default_locations()]] - code - inventree/src/backend/InvenTree/part/test_category.py
+- [[.test_default_shipment()]] - code - inventree/src/backend/InvenTree/order/test_sales_order.py
+- [[.test_default_values()]] - code - inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_defaults()]] - code - inventree/src/backend/InvenTree/part/test_part.py
+- [[.test_delete()_7]] - code - inventree/src/backend/InvenTree/company/test_api.py
+- [[.test_delete()_6]] - code - inventree/src/backend/InvenTree/company/test_api.py
+- [[.test_delete()_5]] - code - inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_delete()_4]] - code - inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_delete()_2]] - code - inventree/src/backend/InvenTree/part/test_category.py
+- [[.test_delete()_3]] - code - inventree/src/backend/InvenTree/part/test_part.py
+- [[.test_delete()]] - code - inventree/src/backend/InvenTree/common/test_tasks.py
+- [[.test_delete()_9]] - code - inventree/src/backend/InvenTree/company/tests.py
+- [[.test_delete()_8]] - code - inventree/src/backend/InvenTree/company/tests.py
+- [[.test_delete()_10]] - code - inventree/src/backend/InvenTree/company/tests.py
+- [[.test_delete()_1]] - code - inventree/src/backend/InvenTree/common/tests.py
+- [[.test_delete_location()]] - code - inventree/src/backend/InvenTree/stock/tests.py
+- [[.test_delete_old_emails()]] - code - inventree/src/backend/InvenTree/InvenTree/test_tasks.py
+- [[.test_deplete_stock()]] - code - inventree/src/backend/InvenTree/stock/tests.py
+- [[.test_detail()_1]] - code - inventree/src/backend/InvenTree/common/tests.py
+- [[.test_detail_endpoint()]] - code - inventree/src/backend/InvenTree/report/tests.py
+- [[.test_detail_endpoint_actions()]] - code - inventree/src/backend/InvenTree/InvenTree/test_api.py
+- [[.test_details()]] - code - inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_display_name()]] - code - inventree/src/backend/InvenTree/users/tests.py
+- [[.test_download_csv()]] - code - inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_download_csv()_1]] - code - inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_download_fail()]] - code - inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_download_wrong_format()]] - code - inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_duplicate()]] - code - inventree/src/backend/InvenTree/part/test_part.py
+- [[.test_duplicate_ipn()]] - code - inventree/src/backend/InvenTree/part/test_part.py
+- [[.test_duplicate_item_tests()]] - code - inventree/src/backend/InvenTree/stock/tests.py
+- [[.test_duplicate_tasks()]] - code - inventree/src/backend/InvenTree/InvenTree/test_tasks.py
+- [[.test_duplicates()]] - code - inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_duplication()]] - code - inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_edit()_2]] - code - inventree/src/backend/InvenTree/company/test_api.py
+- [[.test_edit()_1]] - code - inventree/src/backend/InvenTree/company/test_api.py
+- [[.test_edit()]] - code - inventree/src/backend/InvenTree/common/tests.py
+- [[.test_email()]] - code - inventree/src/backend/InvenTree/plugin/builtin/integration/test_core_notifications.py
+- [[.test_email_model_delete()]] - code - inventree/src/backend/InvenTree/common/test_emails.py
+- [[.test_empty()]] - code - inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_empty()_2]] - code - inventree/src/backend/InvenTree/InvenTree/test_api.py
+- [[.test_empty()_1]] - code - inventree/src/backend/InvenTree/plugin/base/barcodes/test_barcode.py
+- [[.test_empty_order()]] - code - inventree/src/backend/InvenTree/order/test_sales_order.py
+- [[.test_encode_svg_image()]] - code - inventree/src/backend/InvenTree/report/test_tags.py
+- [[.test_error_exceptions()]] - code - inventree/src/backend/InvenTree/InvenTree/test_middleware.py
+- [[.test_error_list()]] - code - inventree/src/backend/InvenTree/common/tests.py
+- [[.test_errors()]] - code - inventree/src/backend/InvenTree/InvenTree/test_api.py
+- [[.test_exclude_id()]] - code - inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_exclude_related()]] - code - inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_existing_image()]] - code - inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_expiry()]] - code - inventree/src/backend/InvenTree/stock/tests.py
+- [[.test_export()_1]] - code - inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_export()]] - code - inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_export()_2]] - code - inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_export_data()]] - code - inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_extract_value()]] - code - inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[.test_failed_task_notification()]] - code - inventree/src/backend/InvenTree/InvenTree/test_tasks.py
+- [[.test_file_access()]] - code - inventree/src/backend/InvenTree/report/test_tags.py
+- [[.test_filename_validation()]] - code - inventree/src/backend/InvenTree/common/tests.py
+- [[.test_filter_by_allocated()]] - code - inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_filter_by_bom_valid()]] - code - inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_filter_by_convert()]] - code - inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_filter_by_expired()]] - code - inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_filter_by_in_bom()]] - code - inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_filter_by_related()]] - code - inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_filter_by_starred()]] - code - inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_filter_db_model()]] - code - inventree/src/backend/InvenTree/report/test_tags.py
+- [[.test_filter_is_variant()]] - code - inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_filter_parts()]] - code - inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_filter_queryset()]] - code - inventree/src/backend/InvenTree/report/test_tags.py
+- [[.test_filterable_fields()]] - code - inventree/src/backend/InvenTree/company/test_api.py
+- [[.test_filters()]] - code - inventree/src/backend/InvenTree/report/tests.py
+- [[.test_find_location()]] - code - inventree/src/backend/InvenTree/plugin/base/barcodes/test_barcode.py
+- [[.test_find_part()]] - code - inventree/src/backend/InvenTree/plugin/base/barcodes/test_barcode.py
+- [[.test_find_stock_item()]] - code - inventree/src/backend/InvenTree/plugin/base/barcodes/test_barcode.py
+- [[.test_flag_api()]] - code - inventree/src/backend/InvenTree/common/tests.py
+- [[.test_folder_loading()]] - code - inventree/src/backend/InvenTree/plugin/test_plugin.py
+- [[.test_function()]] - code - inventree/src/backend/InvenTree/plugin/samples/integration/test_scheduled_task.py
+- [[.test_function()_1]] - code - inventree/src/backend/InvenTree/plugin/samples/integration/test_simpleactionplugin.py
+- [[.test_generation()]] - code - inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[.test_generation_inventree_json()]] - code - inventree/src/backend/InvenTree/plugin/builtin/barcodes/test_inventree_barcode.py
+- [[.test_generation_inventree_short()]] - code - inventree/src/backend/InvenTree/plugin/builtin/barcodes/test_inventree_barcode.py
+- [[.test_get()]] - code - inventree/src/backend/InvenTree/company/test_api.py
+- [[.test_get_bom_detail()]] - code - inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_get_categories()]] - code - inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_get_icons_api()]] - code - inventree/src/backend/InvenTree/plugin/samples/icons/test_icon_sample.py
+- [[.test_get_parameter()]] - code - inventree/src/backend/InvenTree/part/test_param.py
+- [[.test_get_thumbs()]] - code - inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_global_setting_caching()]] - code - inventree/src/backend/InvenTree/common/tests.py
+- [[.test_global_settings_api_list()]] - code - inventree/src/backend/InvenTree/common/tests.py
+- [[.test_group_added_to_user()]] - code - inventree/src/backend/InvenTree/InvenTree/test_auth.py
+- [[.test_group_already_exists()]] - code - inventree/src/backend/InvenTree/InvenTree/test_auth.py
+- [[.test_group_api()]] - code - inventree/src/backend/InvenTree/users/test_api.py
+- [[.test_group_list()]] - code - inventree/src/backend/InvenTree/users/test_api.py
+- [[.test_helpers_cfg_file()]] - code - inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[.test_helpers_get_oidc_private_key()]] - code - inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[.test_helpers_plugin_file()]] - code - inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[.test_helpers_secret_key()]] - code - inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[.test_helpers_setting()]] - code - inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[.test_icon()_1]] - code - inventree/src/backend/InvenTree/part/test_category.py
+- [[.test_icon()_2]] - code - inventree/src/backend/InvenTree/stock/tests.py
+- [[.test_ignore_event()]] - code - inventree/src/backend/InvenTree/plugin/samples/event/test_filtered_event_sample.py
+- [[.test_image_renamer()]] - code - inventree/src/backend/InvenTree/company/tests.py
+- [[.test_image_upload()]] - code - inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_import()]] - code - inventree/src/backend/InvenTree/importer/tests.py
+- [[.test_import_part()]] - code - inventree/src/backend/InvenTree/plugin/samples/supplier/test_supplier_sample.py
+- [[.test_import_session()]] - code - inventree/src/backend/InvenTree/importer/tests.py
+- [[.test_in_bom()]] - code - inventree/src/backend/InvenTree/part/test_bom_item.py
+- [[.test_inbound_event()]] - code - inventree/src/backend/InvenTree/common/test_emails.py
+- [[.test_include_children()]] - code - inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_info_view()]] - code - inventree/src/backend/InvenTree/InvenTree/test_api.py
+- [[.test_initial_stock()]] - code - inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_install()]] - code - inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_installed()]] - code - inventree/src/backend/InvenTree/plugin/base/ui/tests.py
+- [[.test_installed_tests()]] - code - inventree/src/backend/InvenTree/stock/tests.py
+- [[.test_instance_id()]] - code - inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[.test_instance_name()]] - code - inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[.test_integer_barcode()]] - code - inventree/src/backend/InvenTree/plugin/base/barcodes/test_barcode.py
+- [[.test_integer_quantity()]] - code - inventree/src/backend/InvenTree/part/test_bom_item.py
+- [[.test_internal_link()]] - code - inventree/src/backend/InvenTree/report/test_tags.py
+- [[.test_invalid()]] - code - inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_invalid()_2]] - code - inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_invalid()_1]] - code - inventree/src/backend/InvenTree/plugin/base/barcodes/test_barcode.py
+- [[.test_invalid_barcode()]] - code - inventree/src/backend/InvenTree/plugin/base/barcodes/test_barcode.py
+- [[.test_invalid_barcodes()]] - code - inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_invalid_bom()]] - code - inventree/src/backend/InvenTree/part/test_bom_item.py
+- [[.test_invalid_data()]] - code - inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_invalid_files()]] - code - inventree/src/backend/InvenTree/common/tests.py
+- [[.test_invalid_filters()]] - code - inventree/src/backend/InvenTree/common/test_api.py
+- [[.test_invalid_item()]] - code - inventree/src/backend/InvenTree/plugin/base/barcodes/test_barcode.py
+- [[.test_invalid_items()]] - code - inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_invalid_location()]] - code - inventree/src/backend/InvenTree/plugin/base/barcodes/test_barcode.py
+- [[.test_invalid_numbers()]] - code - inventree/src/backend/InvenTree/part/test_param.py
+- [[.test_invalid_part()]] - code - inventree/src/backend/InvenTree/plugin/base/barcodes/test_barcode.py
+- [[.test_invalid_sales_order()]] - code - inventree/src/backend/InvenTree/plugin/base/barcodes/test_barcode.py
+- [[.test_invalid_status()]] - code - inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_inventree_api_text_fnc()]] - code - inventree/src/backend/InvenTree/InvenTree/test_api.py
+- [[.test_is_building()]] - code - inventree/src/backend/InvenTree/stock/tests.py
+- [[.test_item_hash()]] - code - inventree/src/backend/InvenTree/part/test_bom_item.py
+- [[.test_items()]] - code - inventree/src/backend/InvenTree/stock/tests.py
+- [[.test_items_exist()]] - code - inventree/src/backend/InvenTree/common/test_migrations.py
+- [[.test_key_field()]] - code - inventree/src/backend/InvenTree/part/test_migrations.py
+- [[.test_large_export()]] - code - inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_lcsc_barcode()]] - code - inventree/src/backend/InvenTree/plugin/builtin/suppliers/test_supplier_barcodes.py
+- [[.test_link()]] - code - inventree/src/backend/InvenTree/stock/tests.py
+- [[.test_list()_1]] - code - inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_list()]] - code - inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_list()_9]] - code - inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_list()_10]] - code - inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_list()_2]] - code - inventree/src/backend/InvenTree/plugin/samples/supplier/test_supplier_sample.py
+- [[.test_list()_5]] - code - inventree/src/backend/InvenTree/common/tests.py
+- [[.test_list_endpoint()]] - code - inventree/src/backend/InvenTree/report/tests.py
+- [[.test_list_endpoint_actions()]] - code - inventree/src/backend/InvenTree/InvenTree/test_api.py
+- [[.test_list_params()]] - code - inventree/src/backend/InvenTree/part/test_param.py
+- [[.test_list_tags()]] - code - inventree/src/backend/InvenTree/report/test_tags.py
+- [[.test_loc_count()]] - code - inventree/src/backend/InvenTree/stock/tests.py
+- [[.test_locate_fail()]] - code - inventree/src/backend/InvenTree/plugin/base/locate/test_locate.py
+- [[.test_locate_item()]] - code - inventree/src/backend/InvenTree/plugin/base/locate/test_locate.py
+- [[.test_locate_location()]] - code - inventree/src/backend/InvenTree/plugin/base/locate/test_locate.py
+- [[.test_location_barcode_basics()]] - code - inventree/src/backend/InvenTree/stock/tests.py
+- [[.test_location_tree()]] - code - inventree/src/backend/InvenTree/stock/tests.py
+- [[.test_locked_assembly()]] - code - inventree/src/backend/InvenTree/part/test_bom_item.py
+- [[.test_locked_part()]] - code - inventree/src/backend/InvenTree/part/test_param.py
+- [[.test_locking()]] - code - inventree/src/backend/InvenTree/order/tests.py
+- [[.test_login_redirect()]] - code - inventree/src/backend/InvenTree/users/test_api.py
+- [[.test_long_notes()]] - code - inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_low_stock_notification()]] - code - inventree/src/backend/InvenTree/part/test_part.py
+- [[.test_machine_detail()]] - code - inventree/src/backend/InvenTree/machine/test_api.py
+- [[.test_machine_detail_settings()]] - code - inventree/src/backend/InvenTree/machine/test_api.py
+- [[.test_machine_driver_list()]] - code - inventree/src/backend/InvenTree/machine/test_api.py
+- [[.test_machine_lifecycle()]] - code - inventree/src/backend/InvenTree/machine/tests.py
+- [[.test_machine_list()]] - code - inventree/src/backend/InvenTree/machine/test_api.py
+- [[.test_machine_restart()]] - code - inventree/src/backend/InvenTree/machine/test_api.py
+- [[.test_machine_settings_list()]] - code - inventree/src/backend/InvenTree/machine/test_api.py
+- [[.test_machine_status()]] - code - inventree/src/backend/InvenTree/machine/test_api.py
+- [[.test_machine_type_list()]] - code - inventree/src/backend/InvenTree/machine/test_api.py
+- [[.test_mandatory_plugins()]] - code - inventree/src/backend/InvenTree/plugin/test_plugin.py
+- [[.test_manufacturer_part_detail()]] - code - inventree/src/backend/InvenTree/company/test_api.py
+- [[.test_manufacturer_part_list()]] - code - inventree/src/backend/InvenTree/company/test_api.py
+- [[.test_manufacturer_part_objects()]] - code - inventree/src/backend/InvenTree/company/test_migrations.py
+- [[.test_manufacturer_part_parameter_migration()]] - code - inventree/src/backend/InvenTree/company/test_migrations.py
+- [[.test_me_endpoint()]] - code - inventree/src/backend/InvenTree/users/test_api.py
+- [[.test_merge()]] - code - inventree/src/backend/InvenTree/stock/tests.py
+- [[.test_metadata()_6]] - code - inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_metadata()_3]] - code - inventree/src/backend/InvenTree/part/test_bom_item.py
+- [[.test_metadata()_4]] - code - inventree/src/backend/InvenTree/part/test_param.py
+- [[.test_metadata()_5]] - code - inventree/src/backend/InvenTree/part/test_part.py
+- [[.test_metadata()]] - code - inventree/src/backend/InvenTree/order/test_sales_order.py
+- [[.test_metadata()_8]] - code - inventree/src/backend/InvenTree/company/tests.py
+- [[.test_metadata()_9]] - code - inventree/src/backend/InvenTree/company/tests.py
+- [[.test_metadata()_1]] - code - inventree/src/backend/InvenTree/order/tests.py
+- [[.test_metadata()_2]] - code - inventree/src/backend/InvenTree/report/tests.py
+- [[.test_metadata()_7]] - code - inventree/src/backend/InvenTree/stock/tests.py
+- [[.test_mfa_change()]] - code - inventree/src/backend/InvenTree/common/tests.py
+- [[.test_migration()_4]] - code - inventree/src/backend/InvenTree/stock/test_migrations.py
+- [[.test_migration()_5]] - code - inventree/src/backend/InvenTree/stock/test_migrations.py
+- [[.test_migration()_6]] - code - inventree/src/backend/InvenTree/stock/test_migrations.py
+- [[.test_migration()_3]] - code - inventree/src/backend/InvenTree/stock/test_migrations.py
+- [[.test_migration()_1]] - code - inventree/src/backend/InvenTree/stock/test_migrations.py
+- [[.test_migration()]] - code - inventree/src/backend/InvenTree/order/test_migrations.py
+- [[.test_migration()_7]] - code - inventree/src/backend/InvenTree/stock/test_migrations.py
+- [[.test_migration()_2]] - code - inventree/src/backend/InvenTree/stock/test_migrations.py
+- [[.test_migrations()_1]] - code - inventree/src/backend/InvenTree/company/test_migrations.py
+- [[.test_migrations()]] - code - inventree/src/backend/InvenTree/stock/test_migrations.py
+- [[.test_mismatched_items()]] - code - inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_model()]] - code - inventree/src/backend/InvenTree/plugin/test_api.py
+- [[.test_model_names()]] - code - inventree/src/backend/InvenTree/users/tests.py
+- [[.test_models_exist()]] - code - inventree/src/backend/InvenTree/part/test_migrations.py
+- [[.test_move()]] - code - inventree/src/backend/InvenTree/stock/tests.py
+- [[.test_multiline_formatting()]] - code - inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_new_po_notification()]] - code - inventree/src/backend/InvenTree/order/tests.py
+- [[.test_new_so_notification()]] - code - inventree/src/backend/InvenTree/order/test_sales_order.py
+- [[.test_no_auto_allocate()]] - code - inventree/src/backend/InvenTree/plugin/builtin/suppliers/test_supplier_barcodes.py
+- [[.test_no_data()]] - code - inventree/src/backend/InvenTree/plugin/base/barcodes/test_barcode.py
+- [[.test_no_items()]] - code - inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_notify_low_stock()]] - code - inventree/src/backend/InvenTree/stock/tests.py
+- [[.test_notify_stale_stock_multiple_items()]] - code - inventree/src/backend/InvenTree/part/test_notification_stale.py
+- [[.test_notify_stale_stock_single_item()]] - code - inventree/src/backend/InvenTree/part/test_notification_stale.py
+- [[.test_notify_stale_stock_with_empty_list()]] - code - inventree/src/backend/InvenTree/part/test_notification_stale.py
+- [[.test_null_barcode()]] - code - inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_offload_tasks()]] - code - inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[.test_offloading()]] - code - inventree/src/backend/InvenTree/InvenTree/test_tasks.py
+- [[.test_old_mouser_barcode()]] - code - inventree/src/backend/InvenTree/plugin/builtin/suppliers/test_supplier_barcodes.py
+- [[.test_on_order()_1]] - code - inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_options()]] - code - inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_options()_2]] - code - inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_options()_1]] - code - inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_order_cancel()]] - code - inventree/src/backend/InvenTree/order/test_sales_order.py
+- [[.test_order_parts_by_param()]] - code - inventree/src/backend/InvenTree/part/test_param.py
+- [[.test_output_options()_7]] - code - inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_output_options()_1]] - code - inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_output_options()]] - code - inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_output_options()_5]] - code - inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_output_options()_2]] - code - inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_output_options()_10]] - code - inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_output_options()_9]] - code - inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_output_options()_11]] - code - inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_output_options()_12]] - code - inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_output_options()_14]] - code - inventree/src/backend/InvenTree/company/test_api.py
+- [[.test_output_options()_15]] - code - inventree/src/backend/InvenTree/company/test_api.py
+- [[.test_over_allocate()]] - code - inventree/src/backend/InvenTree/order/test_sales_order.py
+- [[.test_overdue()_1]] - code - inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_overdue()_2]] - code - inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_overdue()]] - code - inventree/src/backend/InvenTree/order/test_sales_order.py
+- [[.test_overdue_notification()]] - code - inventree/src/backend/InvenTree/order/test_sales_order.py
+- [[.test_overdue_notification()_1]] - code - inventree/src/backend/InvenTree/order/tests.py
+- [[.test_override_default_group_with_sso_group()]] - code - inventree/src/backend/InvenTree/InvenTree/test_auth.py
+- [[.test_owner()]] - code - inventree/src/backend/InvenTree/users/tests.py
+- [[.test_ownership_functions()]] - code - inventree/src/backend/InvenTree/stock/test_views.py
+- [[.test_pack_quantity()]] - code - inventree/src/backend/InvenTree/company/test_supplier_parts.py
+- [[.test_pack_quantity_dimensionless()]] - code - inventree/src/backend/InvenTree/company/test_supplier_parts.py
+- [[.test_packaging()]] - code - inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_paginate()]] - code - inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_pagination()]] - code - inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_param_detail()]] - code - inventree/src/backend/InvenTree/part/test_param.py
+- [[.test_param_template_validation()]] - code - inventree/src/backend/InvenTree/part/test_param.py
+- [[.test_param_unit_conversion()]] - code - inventree/src/backend/InvenTree/part/test_param.py
+- [[.test_param_unit_validation()]] - code - inventree/src/backend/InvenTree/part/test_param.py
+- [[.test_parameter()]] - code - inventree/src/backend/InvenTree/common/tests.py
+- [[.test_parameter_annotation()]] - code - inventree/src/backend/InvenTree/common/test_api.py
+- [[.test_parameter_api()]] - code - inventree/src/backend/InvenTree/common/test_api.py
+- [[.test_parameter_delete()]] - code - inventree/src/backend/InvenTree/common/test_api.py
+- [[.test_parameter_deletion()]] - code - inventree/src/backend/InvenTree/part/test_migrations.py
+- [[.test_parameter_options()]] - code - inventree/src/backend/InvenTree/common/test_api.py
+- [[.test_parameters()]] - code - inventree/src/backend/InvenTree/part/test_category.py
+- [[.test_parameters_info()]] - code - inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_parent_locations()]] - code - inventree/src/backend/InvenTree/stock/tests.py
+- [[.test_parse_version_text_fnc()]] - code - inventree/src/backend/InvenTree/InvenTree/test_api.py
+- [[.test_part()]] - code - inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_part_api()]] - code - inventree/src/backend/InvenTree/InvenTree/test_api.py
+- [[.test_part_category_default_location()]] - code - inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_part_category_tree()]] - code - inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_part_count()_1]] - code - inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_part_count()]] - code - inventree/src/backend/InvenTree/part/test_category.py
+- [[.test_part_creation()]] - code - inventree/src/backend/InvenTree/part/test_part.py
+- [[.test_part_download()]] - code - inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_part_image()]] - code - inventree/src/backend/InvenTree/report/test_tags.py
+- [[.test_part_label_translation()]] - code - inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_part_notes()]] - code - inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_part_operations()]] - code - inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_part_parameter()]] - code - inventree/src/backend/InvenTree/report/test_tags.py
+- [[.test_part_pricing()]] - code - inventree/src/backend/InvenTree/company/tests.py
+- [[.test_part_requirements()]] - code - inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_partial_move()]] - code - inventree/src/backend/InvenTree/stock/tests.py
+- [[.test_path_detail()]] - code - inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_path_string()]] - code - inventree/src/backend/InvenTree/part/test_category.py
+- [[.test_pathstring()]] - code - inventree/src/backend/InvenTree/stock/tests.py
+- [[.test_pending_tasks()]] - code - inventree/src/backend/InvenTree/common/tests.py
+- [[.test_permission_assign()]] - code - inventree/src/backend/InvenTree/users/tests.py
+- [[.test_permissions()]] - code - inventree/src/backend/InvenTree/InvenTree/test_api.py
+- [[.test_plugin_activate()]] - code - inventree/src/backend/InvenTree/plugin/test_api.py
+- [[.test_plugin_config_delete()]] - code - inventree/src/backend/InvenTree/plugin/test_api.py
+- [[.test_plugin_deactivate_mandatory()]] - code - inventree/src/backend/InvenTree/plugin/test_api.py
+- [[.test_plugin_filter_by_mixin()]] - code - inventree/src/backend/InvenTree/plugin/test_api.py
+- [[.test_plugin_filters()]] - code - inventree/src/backend/InvenTree/plugin/test_api.py
+- [[.test_plugin_install()]] - code - inventree/src/backend/InvenTree/plugin/test_api.py
+- [[.test_plugin_install_errors()]] - code - inventree/src/backend/InvenTree/plugin/test_plugin.py
+- [[.test_plugin_metadata()]] - code - inventree/src/backend/InvenTree/plugin/test_api.py
+- [[.test_plugin_override_active()]] - code - inventree/src/backend/InvenTree/plugin/test_plugin.py
+- [[.test_plugin_override_mandatory()]] - code - inventree/src/backend/InvenTree/plugin/test_plugin.py
+- [[.test_plugin_settings()]] - code - inventree/src/backend/InvenTree/plugin/test_api.py
+- [[.test_plugin_static_file_lookup()]] - code - inventree/src/backend/InvenTree/plugin/test_plugin.py
+- [[.test_plugin_uninstall()]] - code - inventree/src/backend/InvenTree/plugin/test_api.py
+- [[.test_plugin_user_settings()]] - code - inventree/src/backend/InvenTree/plugin/test_api.py
+- [[.test_po_attachments()]] - code - inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_po_calendar()]] - code - inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_po_calendar_auth()]] - code - inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_po_calendar_noauth()]] - code - inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_po_cancel()]] - code - inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_po_complete()]] - code - inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_po_create()]] - code - inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_po_creation_date()]] - code - inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_po_detail()]] - code - inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_po_duplicate()]] - code - inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_po_issue()]] - code - inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_po_line_bulk_delete()]] - code - inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_po_line_merge_pricing()]] - code - inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_po_list()]] - code - inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_po_migration()]] - code - inventree/src/backend/InvenTree/order/test_migrations.py
+- [[.test_po_operations()]] - code - inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_po_reference()]] - code - inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_po_reference_wildcard_default()]] - code - inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_post()]] - code - inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_post_bitmap()]] - code - inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_post_fail()]] - code - inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_price_breaks()]] - code - inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_pricing()_1]] - code - inventree/src/backend/InvenTree/part/test_bom_item.py
+- [[.test_pricing()]] - code - inventree/src/backend/InvenTree/order/tests.py
+- [[.test_pricing_info()]] - code - inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_primary()]] - code - inventree/src/backend/InvenTree/company/test_api.py
+- [[.test_primary_constraint()]] - code - inventree/src/backend/InvenTree/company/tests.py
+- [[.test_primary_group_validation()]] - code - inventree/src/backend/InvenTree/users/tests.py
+- [[.test_print()_1]] - code - inventree/src/backend/InvenTree/report/tests.py
+- [[.test_print()]] - code - inventree/src/backend/InvenTree/report/tests.py
+- [[.test_print()_2]] - code - inventree/src/backend/InvenTree/report/tests.py
+- [[.test_print_label()]] - code - inventree/src/backend/InvenTree/machine/tests.py
+- [[.test_printing_options()]] - code - inventree/src/backend/InvenTree/plugin/base/label/test_label_mixin.py
+- [[.test_printing_process()]] - code - inventree/src/backend/InvenTree/plugin/base/label/test_label_mixin.py
+- [[.test_project_code()]] - code - inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_purchase_price()]] - code - inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_purchase_price()_1]] - code - inventree/src/backend/InvenTree/stock/tests.py
+- [[.test_query_count()]] - code - inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_query_count()_1]] - code - inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_rates()]] - code - inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[.test_rebuild_reference()]] - code - inventree/src/backend/InvenTree/order/test_sales_order.py
+- [[.test_receive()]] - code - inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_receive()_2]] - code - inventree/src/backend/InvenTree/plugin/builtin/suppliers/test_supplier_barcodes.py
+- [[.test_receive()_1]] - code - inventree/src/backend/InvenTree/order/tests.py
+- [[.test_receive_convert_currency()]] - code - inventree/src/backend/InvenTree/order/tests.py
+- [[.test_receive_custom_order_number()]] - code - inventree/src/backend/InvenTree/plugin/builtin/suppliers/test_supplier_barcodes.py
+- [[.test_receive_default_line_item_location()]] - code - inventree/src/backend/InvenTree/plugin/builtin/suppliers/test_supplier_barcodes.py
+- [[.test_receive_default_part_location()]] - code - inventree/src/backend/InvenTree/plugin/builtin/suppliers/test_supplier_barcodes.py
+- [[.test_receive_large_quantity()]] - code - inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_receive_missing_quantity()]] - code - inventree/src/backend/InvenTree/plugin/builtin/suppliers/test_supplier_barcodes.py
+- [[.test_receive_pack_size()]] - code - inventree/src/backend/InvenTree/order/tests.py
+- [[.test_receive_specific_order_and_location()]] - code - inventree/src/backend/InvenTree/plugin/builtin/suppliers/test_supplier_barcodes.py
+- [[.test_receive_stock_location()]] - code - inventree/src/backend/InvenTree/plugin/builtin/suppliers/test_supplier_barcodes.py
+- [[.test_receive_untracked()]] - code - inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_recent()]] - code - inventree/src/backend/InvenTree/common/tests.py
+- [[.test_ref_field()]] - code - inventree/src/backend/InvenTree/order/test_migrations.py
+- [[.test_refresh_endpoint()]] - code - inventree/src/backend/InvenTree/common/tests.py
+- [[.test_registration()_1]] - code - inventree/src/backend/InvenTree/InvenTree/test_auth.py
+- [[.test_registration()]] - code - inventree/src/backend/InvenTree/machine/tests.py
+- [[.test_registration_email()]] - code - inventree/src/backend/InvenTree/InvenTree/test_auth.py
+- [[.test_registry()]] - code - inventree/src/backend/InvenTree/plugin/test_api.py
+- [[.test_related()]] - code - inventree/src/backend/InvenTree/part/test_part.py
+- [[.test_remove_mfa()]] - code - inventree/src/backend/InvenTree/InvenTree/test_commands.py
+- [[.test_report_template_permissions()]] - code - inventree/src/backend/InvenTree/report/tests.py
+- [[.test_restart_flag()]] - code - inventree/src/backend/InvenTree/common/tests.py
+- [[.test_restore_validation()]] - code - inventree/src/backend/InvenTree/InvenTree/test_commands.py
+- [[.test_results()]] - code - inventree/src/backend/InvenTree/InvenTree/test_api.py
+- [[.test_return_from_customer()]] - code - inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_return_from_customer()_1]] - code - inventree/src/backend/InvenTree/stock/tests.py
+- [[.test_return_order()]] - code - inventree/src/backend/InvenTree/generic/states/test_transition.py
+- [[.test_revisions()]] - code - inventree/src/backend/InvenTree/part/test_part.py
+- [[.test_ro_calendar()]] - code - inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_ro_issue()]] - code - inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_role_view()]] - code - inventree/src/backend/InvenTree/InvenTree/test_api.py
+- [[.test_root_delete()]] - code - inventree/src/backend/InvenTree/part/test_category.py
+- [[.test_round_up()]] - code - inventree/src/backend/InvenTree/part/test_bom_item.py
+- [[.test_ruleset_models()]] - code - inventree/src/backend/InvenTree/users/tests.py
+- [[.test_run_event()]] - code - inventree/src/backend/InvenTree/plugin/samples/event/test_event_sample.py
+- [[.test_run_event()_1]] - code - inventree/src/backend/InvenTree/plugin/samples/event/test_filtered_event_sample.py
+- [[.test_run_locator()]] - code - inventree/src/backend/InvenTree/plugin/samples/locate/test_locate_sample.py
+- [[.test_sales_order_complete()]] - code - inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_sales_order_shipment_list()]] - code - inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_sanitizer()]] - code - inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_scan_inventree_json()]] - code - inventree/src/backend/InvenTree/plugin/builtin/barcodes/test_inventree_barcode.py
+- [[.test_scan_inventree_short()]] - code - inventree/src/backend/InvenTree/plugin/builtin/barcodes/test_inventree_barcode.py
+- [[.test_scan_third_party()]] - code - inventree/src/backend/InvenTree/plugin/builtin/barcodes/test_inventree_barcode.py
+- [[.test_scheduled_tasks()]] - code - inventree/src/backend/InvenTree/common/tests.py
+- [[.test_schema()]] - code - inventree/src/backend/InvenTree/InvenTree/test_commands.py
+- [[.test_search()]] - code - inventree/src/backend/InvenTree/plugin/samples/supplier/test_supplier_sample.py
+- [[.test_search_filters()]] - code - inventree/src/backend/InvenTree/InvenTree/test_api.py
+- [[.test_self_as_parent()]] - code - inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[.test_self_move()]] - code - inventree/src/backend/InvenTree/stock/tests.py
+- [[.test_self_reference()]] - code - inventree/src/backend/InvenTree/part/test_bom_item.py
+- [[.test_serial_generate_api()]] - code - inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_serial_numbers()]] - code - inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_serial_numbers()_1]] - code - inventree/src/backend/InvenTree/stock/tests.py
+- [[.test_serial_numbers()_2]] - code - inventree/src/backend/InvenTree/stock/tests.py
+- [[.test_serialize()]] - code - inventree/src/backend/InvenTree/stock/tests.py
+- [[.test_serialize_stock_invalid()]] - code - inventree/src/backend/InvenTree/stock/tests.py
+- [[.test_serialize_stock_valid()]] - code - inventree/src/backend/InvenTree/stock/tests.py
+- [[.test_serials()]] - code - inventree/src/backend/InvenTree/stock/tests.py
+- [[.test_session_list()]] - code - inventree/src/backend/InvenTree/importer/tests.py
+- [[.test_set_custom_status()]] - code - inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_set_global_warning()]] - code - inventree/src/backend/InvenTree/common/tests.py
+- [[.test_set_status()]] - code - inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_settings()]] - code - inventree/src/backend/InvenTree/plugin/test_api.py
+- [[.test_settings()_1]] - code - inventree/src/backend/InvenTree/plugin/samples/integration/test_sample.py
+- [[.test_settings_objects()]] - code - inventree/src/backend/InvenTree/common/tests.py
+- [[.test_settings_validator()]] - code - inventree/src/backend/InvenTree/plugin/samples/integration/test_sample.py
+- [[.test_setup_quantity()]] - code - inventree/src/backend/InvenTree/part/test_bom_item.py
+- [[.test_shipment_address()]] - code - inventree/src/backend/InvenTree/order/test_sales_order.py
+- [[.test_shipment_complete()]] - code - inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_shipment_creation()]] - code - inventree/src/backend/InvenTree/order/test_migrations.py
+- [[.test_shipment_delivery_date()]] - code - inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_shipment_many_items()]] - code - inventree/src/backend/InvenTree/order/test_sales_order.py
+- [[.test_site_lax_protocol()]] - code - inventree/src/backend/InvenTree/InvenTree/test_middleware.py
+- [[.test_site_url_checks()]] - code - inventree/src/backend/InvenTree/InvenTree/test_middleware.py
+- [[.test_site_url_checks_fails()]] - code - inventree/src/backend/InvenTree/InvenTree/test_middleware.py
+- [[.test_site_url_checks_multi()]] - code - inventree/src/backend/InvenTree/InvenTree/test_middleware.py
+- [[.test_site_url_port()]] - code - inventree/src/backend/InvenTree/InvenTree/test_middleware.py
+- [[.test_so_attachments()]] - code - inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_so_calendar()]] - code - inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_so_cancel()]] - code - inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_so_create()]] - code - inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_so_detail()]] - code - inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_so_duplicate()]] - code - inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_so_line_allocated_filters()]] - code - inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_so_line_list()]] - code - inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_so_list()]] - code - inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_so_operations()]] - code - inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_so_reference()]] - code - inventree/src/backend/InvenTree/order/test_sales_order.py
+- [[.test_spa_bundle()]] - code - inventree/src/backend/InvenTree/web/tests.py
+- [[.test_split_stock()]] - code - inventree/src/backend/InvenTree/stock/tests.py
+- [[.test_sso_group_created_if_not_exists()]] - code - inventree/src/backend/InvenTree/InvenTree/test_auth.py
+- [[.test_stock_api()]] - code - inventree/src/backend/InvenTree/InvenTree/test_api.py
+- [[.test_stock_count()]] - code - inventree/src/backend/InvenTree/stock/tests.py
+- [[.test_stock_history()]] - code - inventree/src/backend/InvenTree/part/test_part.py
+- [[.test_stock_item_create()]] - code - inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_stock_item_create_with_supplier_part()]] - code - inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_stock_location_delete()]] - code - inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_stock_location_icon()]] - code - inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_stock_location_list_filter()]] - code - inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_stock_location_structural()]] - code - inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_stock_location_tree()]] - code - inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_stock_quantity()]] - code - inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_stock_split()]] - code - inventree/src/backend/InvenTree/stock/tests.py
+- [[.test_stocktake()]] - code - inventree/src/backend/InvenTree/stock/tests.py
+- [[.test_stocktake_exporter()]] - code - inventree/src/backend/InvenTree/plugin/builtin/exporter/test_exporter.py
+- [[.test_str()]] - code - inventree/src/backend/InvenTree/part/test_bom_item.py
+- [[.test_str()_1]] - code - inventree/src/backend/InvenTree/part/test_param.py
+- [[.test_string_tags()]] - code - inventree/src/backend/InvenTree/report/test_tags.py
+- [[.test_strings()]] - code - inventree/src/backend/InvenTree/stock/tests.py
+- [[.test_structural()]] - code - inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_subfolder_loading()]] - code - inventree/src/backend/InvenTree/plugin/test_plugin.py
+- [[.test_submit()]] - code - inventree/src/backend/InvenTree/plugin/base/barcodes/test_barcode.py
+- [[.test_substitutes()_1]] - code - inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_substitutes()]] - code - inventree/src/backend/InvenTree/part/test_bom_item.py
+- [[.test_success()]] - code - inventree/src/backend/InvenTree/common/tests.py
+- [[.test_success_hmac()]] - code - inventree/src/backend/InvenTree/common/tests.py
+- [[.test_success_no_token_check()]] - code - inventree/src/backend/InvenTree/common/tests.py
+- [[.test_supplier_part_list()]] - code - inventree/src/backend/InvenTree/company/test_api.py
+- [[.test_supplier_part_quantity()]] - code - inventree/src/backend/InvenTree/company/test_migrations.py
+- [[.test_supplier_price_break_list()]] - code - inventree/src/backend/InvenTree/company/test_api.py
+- [[.test_tag_status_label()]] - code - inventree/src/backend/InvenTree/generic/states/tests.py
+- [[.test_take_stock()]] - code - inventree/src/backend/InvenTree/stock/tests.py
+- [[.test_task_check_for_migrations()]] - code - inventree/src/backend/InvenTree/InvenTree/test_tasks.py
+- [[.test_task_check_for_updates()]] - code - inventree/src/backend/InvenTree/InvenTree/test_tasks.py
+- [[.test_task_delete_old_error_logs()]] - code - inventree/src/backend/InvenTree/InvenTree/test_tasks.py
+- [[.test_task_delete_successful_tasks()]] - code - inventree/src/backend/InvenTree/InvenTree/test_tasks.py
+- [[.test_task_detail()]] - code - inventree/src/backend/InvenTree/common/tests.py
+- [[.test_task_heartbeat()]] - code - inventree/src/backend/InvenTree/InvenTree/test_tasks.py
+- [[.test_template_api()]] - code - inventree/src/backend/InvenTree/common/test_api.py
+- [[.test_template_count()]] - code - inventree/src/backend/InvenTree/part/test_part.py
+- [[.test_template_extended_filters()]] - code - inventree/src/backend/InvenTree/common/test_api.py
+- [[.test_template_filters()]] - code - inventree/src/backend/InvenTree/common/test_api.py
+- [[.test_template_filters()_1]] - code - inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_template_options()]] - code - inventree/src/backend/InvenTree/common/test_api.py
+- [[.test_test_count()]] - code - inventree/src/backend/InvenTree/stock/tests.py
+- [[.test_test_key()]] - code - inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[.test_test_results()]] - code - inventree/src/backend/InvenTree/stock/tests.py
+- [[.test_test_templates()]] - code - inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_timestamp()]] - code - inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[.test_tme_qrcode()]] - code - inventree/src/backend/InvenTree/plugin/builtin/suppliers/test_supplier_barcodes.py
+- [[.test_token()]] - code - inventree/src/backend/InvenTree/users/tests.py
+- [[.test_token_api()]] - code - inventree/src/backend/InvenTree/users/test_api.py
+- [[.test_token_auth()]] - code - inventree/src/backend/InvenTree/users/test_api.py
+- [[.test_token_auth()_1]] - code - inventree/src/backend/InvenTree/InvenTree/test_middleware.py
+- [[.test_token_failure()]] - code - inventree/src/backend/InvenTree/InvenTree/test_api.py
+- [[.test_token_generation()]] - code - inventree/src/backend/InvenTree/users/test_api.py
+- [[.test_token_security()]] - code - inventree/src/backend/InvenTree/users/test_api.py
+- [[.test_token_success()]] - code - inventree/src/backend/InvenTree/InvenTree/test_api.py
+- [[.test_top_level_filtering()]] - code - inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_total_price()]] - code - inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_total_price()_1]] - code - inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_transfer()]] - code - inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_tree()]] - code - inventree/src/backend/InvenTree/part/test_part.py
+- [[.test_tree_rebuild()]] - code - inventree/src/backend/InvenTree/stock/tests.py
+- [[.test_tuple()]] - code - inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[.test_ui_dashboard_items()]] - code - inventree/src/backend/InvenTree/plugin/base/ui/tests.py
+- [[.test_ui_navigation_items()]] - code - inventree/src/backend/InvenTree/plugin/base/ui/tests.py
+- [[.test_ui_panels()]] - code - inventree/src/backend/InvenTree/plugin/base/ui/tests.py
+- [[.test_ui_template_editors()]] - code - inventree/src/backend/InvenTree/plugin/base/ui/tests.py
+- [[.test_unassign_endpoint()]] - code - inventree/src/backend/InvenTree/plugin/base/barcodes/test_barcode.py
+- [[.test_unassign_errors()]] - code - inventree/src/backend/InvenTree/plugin/builtin/barcodes/test_inventree_barcode.py
+- [[.test_unauthenticated_user()]] - code - inventree/src/backend/InvenTree/common/tests.py
+- [[.test_uninitialized_setting()]] - code - inventree/src/backend/InvenTree/common/tests.py
+- [[.test_unique_children()]] - code - inventree/src/backend/InvenTree/part/test_category.py
+- [[.test_uniqueness()]] - code - inventree/src/backend/InvenTree/part/test_part.py
+- [[.test_units_migration()]] - code - inventree/src/backend/InvenTree/part/test_migrations.py
+- [[.test_units_migration()_1]] - code - inventree/src/backend/InvenTree/part/test_migrations.py
+- [[.test_unknown_mail()]] - code - inventree/src/backend/InvenTree/common/test_emails.py
+- [[.test_unset_url()]] - code - inventree/src/backend/InvenTree/common/test_tasks.py
+- [[.test_update()_1]] - code - inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_update()]] - code - inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_update()_2]] - code - inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_update_existing_image()]] - code - inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_updated()]] - code - inventree/src/backend/InvenTree/part/test_param.py
+- [[.test_upload_via_api()]] - code - inventree/src/backend/InvenTree/common/tests.py
+- [[.test_url()]] - code - inventree/src/backend/InvenTree/part/test_category.py
+- [[.test_url()_1]] - code - inventree/src/backend/InvenTree/stock/tests.py
+- [[.test_url_validation()]] - code - inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[.test_user_api()]] - code - inventree/src/backend/InvenTree/users/test_api.py
+- [[.test_user_detail()]] - code - inventree/src/backend/InvenTree/users/test_api.py
+- [[.test_user_options()]] - code - inventree/src/backend/InvenTree/users/test_api.py
+- [[.test_user_password_set()]] - code - inventree/src/backend/InvenTree/users/test_api.py
+- [[.test_user_roles()]] - code - inventree/src/backend/InvenTree/users/test_api.py
+- [[.test_user_setting_boolean()]] - code - inventree/src/backend/InvenTree/common/tests.py
+- [[.test_user_setting_caching()]] - code - inventree/src/backend/InvenTree/common/tests.py
+- [[.test_user_setting_choice()]] - code - inventree/src/backend/InvenTree/common/tests.py
+- [[.test_user_setting_init()]] - code - inventree/src/backend/InvenTree/common/tests.py
+- [[.test_user_setting_integer()]] - code - inventree/src/backend/InvenTree/common/tests.py
+- [[.test_users_exist()_1]] - code - inventree/src/backend/InvenTree/users/test_migrations.py
+- [[.test_users_exist()]] - code - inventree/src/backend/InvenTree/users/test_migrations.py
+- [[.test_valid()]] - code - inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_valid()_1]] - code - inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_valid_image()]] - code - inventree/src/backend/InvenTree/common/tests.py
+- [[.test_valid_merge()]] - code - inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_valid_plugin_slug()]] - code - inventree/src/backend/InvenTree/common/tests.py
+- [[.test_valid_url()]] - code - inventree/src/backend/InvenTree/common/test_tasks.py
+- [[.test_validate()_1]] - code - inventree/src/backend/InvenTree/part/test_param.py
+- [[.test_validate()]] - code - inventree/src/backend/InvenTree/part/test_param.py
+- [[.test_validate_address()]] - code - inventree/src/backend/InvenTree/order/test_sales_order.py
+- [[.test_validate_contact()]] - code - inventree/src/backend/InvenTree/order/tests.py
+- [[.test_validate_dates()]] - code - inventree/src/backend/InvenTree/order/tests.py
+- [[.test_validate_generate_batch_code()]] - code - inventree/src/backend/InvenTree/plugin/samples/integration/test_validation_sample.py
+- [[.test_validate_ipn()]] - code - inventree/src/backend/InvenTree/plugin/samples/integration/test_validation_sample.py
+- [[.test_validate_model_instance()]] - code - inventree/src/backend/InvenTree/plugin/samples/integration/test_validation_sample.py
+- [[.test_validate_part_name()]] - code - inventree/src/backend/InvenTree/plugin/samples/integration/test_validation_sample.py
+- [[.test_validate_primary_group_on_delete()]] - code - inventree/src/backend/InvenTree/users/tests.py
+- [[.test_validate_primary_group_on_save()]] - code - inventree/src/backend/InvenTree/users/tests.py
+- [[.test_validated_field()]] - code - inventree/src/backend/InvenTree/part/test_migrations.py
+- [[.test_validation()_1]] - code - inventree/src/backend/InvenTree/common/tests.py
+- [[.test_validation()]] - code - inventree/src/backend/InvenTree/common/tests.py
+- [[.test_value_choices()]] - code - inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_variant_stock()]] - code - inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_variant_stock()_1]] - code - inventree/src/backend/InvenTree/stock/tests.py
+- [[.test_variants()]] - code - inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_version()]] - code - inventree/src/backend/InvenTree/plugin/test_plugin.py
+- [[.test_virtual()]] - code - inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_virtual_parts()]] - code - inventree/src/backend/InvenTree/order/test_sales_order.py
+- [[.test_with_mixin()]] - code - inventree/src/backend/InvenTree/plugin/test_plugin.py
+- [[.test_with_roles()]] - code - inventree/src/backend/InvenTree/InvenTree/test_api.py
+- [[.test_with_superuser()]] - code - inventree/src/backend/InvenTree/InvenTree/test_api.py
+- [[.test_write_access()]] - code - inventree/src/backend/InvenTree/common/tests.py
+- [[.test_wrong_obj()]] - code - inventree/src/backend/InvenTree/common/tests.py
+- [[.test_wrong_target()]] - code - inventree/src/backend/InvenTree/common/tests.py
+- [[.title()]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[.to_dict()]] - code - inventree/src/backend/InvenTree/machine/models.py
+- [[.to_internal_value()_5]] - code - inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[.to_internal_value()_3]] - code - inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[.to_internal_value()_4]] - code - inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[.to_internal_value()]] - code - inventree/src/backend/InvenTree/plugin/serializers.py
+- [[.to_native_value()_3]] - code - inventree/src/backend/InvenTree/machine/models.py
+- [[.to_representation()_2]] - code - inventree/src/backend/InvenTree/common/serializers.py
+- [[.to_representation()_3]] - code - inventree/src/backend/InvenTree/common/serializers.py
+- [[.to_representation()_8]] - code - inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[.to_representation()_9]] - code - inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[.tokenAuth()]] - code - inventree/src/backend/InvenTree/InvenTree/test_api.py
+- [[.trigger_data_import()]] - code - inventree/src/backend/InvenTree/importer/models.py
+- [[.unallocated_quantity()]] - code - inventree/src/backend/InvenTree/stock/models.py
+- [[.unassign()]] - code - inventree/src/backend/InvenTree/plugin/builtin/barcodes/test_inventree_barcode.py
+- [[.unassign_barcode()]] - code - inventree/src/backend/InvenTree/InvenTree/models.py
+- [[.unregister_tasks()]] - code - inventree/src/backend/InvenTree/plugin/base/integration/ScheduleMixin.py
+- [[.update()_9]] - code - inventree/src/backend/InvenTree/part/api.py
+- [[.update()_7]] - code - inventree/src/backend/InvenTree/part/api.py
+- [[.update()_8]] - code - inventree/src/backend/InvenTree/part/api.py
+- [[.update()_4]] - code - inventree/src/backend/InvenTree/machine/machine_type.py
+- [[.update()_11]] - code - inventree/src/backend/InvenTree/InvenTree/mixins.py
+- [[.update()_13]] - code - inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[.update()_1]] - code - inventree/src/backend/InvenTree/plugin/serializers.py
+- [[.update()_2]] - code - inventree/src/backend/InvenTree/plugin/serializers.py
+- [[.update()_3]] - code - inventree/src/backend/InvenTree/common/serializers.py
+- [[.update()_14]] - code - inventree/src/backend/InvenTree/company/serializers.py
+- [[.update_assemblies()]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[.update_available_quantity()]] - code - inventree/src/backend/InvenTree/company/models.py
+- [[.update_bom_cost()]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[.update_exchange_rates()_1]] - code - inventree/src/backend/InvenTree/plugin/builtin/integration/currency_exchange.py
+- [[.update_headers()]] - code - inventree/src/backend/InvenTree/plugin/builtin/exporter/bom_exporter.py
+- [[.update_headers()_2]] - code - inventree/src/backend/InvenTree/plugin/builtin/exporter/parameter_exporter.py
+- [[.update_headers()_1]] - code - inventree/src/backend/InvenTree/plugin/builtin/exporter/stocktake_exporter.py
+- [[.update_internal_cost()]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[.update_machine()]] - code - inventree/src/backend/InvenTree/machine/machine_type.py
+- [[.update_overall_cost()]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[.update_owners()]] - code - inventree/src/backend/InvenTree/users/apps.py
+- [[.update_plugin_hash()]] - code - inventree/src/backend/InvenTree/plugin/registry.py
+- [[.update_pricing()_2]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[.update_pricing()]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[.update_purchase_cost()]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[.update_sale_cost()]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[.update_serial_number()]] - code - inventree/src/backend/InvenTree/stock/models.py
+- [[.update_supplier_cost()]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[.update_templates()]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[.update_trackable_status()]] - code - inventree/src/backend/InvenTree/part/apps.py
+- [[.update_variant_cost()]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[.url()]] - code - inventree/src/backend/InvenTree/part/test_api.py
+- [[.validate()_9]] - code - inventree/src/backend/InvenTree/importer/models.py
+- [[.validate()_15]] - code - inventree/src/backend/InvenTree/part/serializers.py
+- [[.validate()_16]] - code - inventree/src/backend/InvenTree/part/serializers.py
+- [[.validate()_10]] - code - inventree/src/backend/InvenTree/plugin/serializers.py
+- [[.validate()_1]] - code - inventree/src/backend/InvenTree/order/serializers.py
+- [[.validate()_6]] - code - inventree/src/backend/InvenTree/order/serializers.py
+- [[.validate()_18]] - code - inventree/src/backend/InvenTree/stock/serializers.py
+- [[.validate()_23]] - code - inventree/src/backend/InvenTree/stock/serializers.py
+- [[.validate()_21]] - code - inventree/src/backend/InvenTree/stock/serializers.py
+- [[.validate()_17]] - code - inventree/src/backend/InvenTree/stock/serializers.py
+- [[.validate()_22]] - code - inventree/src/backend/InvenTree/stock/serializers.py
+- [[.validate_barcode()]] - code - inventree/src/backend/InvenTree/order/serializers.py
+- [[.validate_batch_code()_2]] - code - inventree/src/backend/InvenTree/stock/models.py
+- [[.validate_batch_code()]] - code - inventree/src/backend/InvenTree/plugin/samples/integration/validation_sample.py
+- [[.validate_delete()]] - code - inventree/src/backend/InvenTree/common/api.py
+- [[.validate_existing_image()]] - code - inventree/src/backend/InvenTree/part/serializers.py
+- [[.validate_hash()]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[.validate_ipn()]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[.validate_model()]] - code - inventree/src/backend/InvenTree/plugin/base/barcodes/serializers.py
+- [[.validate_model_instance()]] - code - inventree/src/backend/InvenTree/plugin/samples/integration/validation_sample.py
+- [[.validate_name()]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[.validate_parameter()]] - code - inventree/src/backend/InvenTree/plugin/samples/integration/validation_sample.py
+- [[.validate_part_ipn()]] - code - inventree/src/backend/InvenTree/plugin/samples/integration/validation_sample.py
+- [[.validate_part_name()]] - code - inventree/src/backend/InvenTree/plugin/samples/integration/validation_sample.py
+- [[.validate_remote_image()]] - code - inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[.validate_revision()]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[.validate_scheduled_tasks()]] - code - inventree/src/backend/InvenTree/plugin/base/integration/ScheduleMixin.py
+- [[.validate_serial_number()_2]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[.validate_serial_number()]] - code - inventree/src/backend/InvenTree/plugin/samples/integration/validation_sample.py
+- [[.validate_stock_item()]] - code - inventree/src/backend/InvenTree/stock/serializers.py
+- [[.validate_token()]] - code - inventree/src/backend/InvenTree/common/models.py
+- [[.validate_unique()_1]] - code - inventree/src/backend/InvenTree/common/models.py
+- [[.validate_unique()_7]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[.validate_unique()_2]] - code - inventree/src/backend/InvenTree/common/models.py
+- [[.validate_unique()]] - code - inventree/src/backend/InvenTree/importer/models.py
+- [[.validate_unique()_3]] - code - inventree/src/backend/InvenTree/common/models.py
+- [[.validate_unique()_5]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[.validate_unique()_6]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[.validate_unique()_9]] - code - inventree/src/backend/InvenTree/InvenTree/models.py
+- [[.validate_unique()_8]] - code - inventree/src/backend/InvenTree/stock/models.py
+- [[.worker_pending_tasks()]] - code - inventree/src/backend/InvenTree/InvenTree/api.py
+- [[.wrap_pages()]] - code - inventree/src/backend/InvenTree/plugin/builtin/labels/label_sheet.py
+- [[0013_migrate_mfa_20240408_1659.py]] - code - inventree/src/backend/InvenTree/users/migrations/0013_migrate_mfa_20240408_1659.py
+- [[0014_userprofile.py]] - code - inventree/src/backend/InvenTree/users/migrations/0014_userprofile.py
+- [[0019_auto_20200413_0642.py]] - code - inventree/src/backend/InvenTree/company/migrations/0019_auto_20200413_0642.py
+- [[0023_auto_20240421_0455.py]] - code - inventree/src/backend/InvenTree/report/migrations/0023_auto_20240421_0455.py
+- [[0023_auto_20240602_1332.py]] - code - inventree/src/backend/InvenTree/common/migrations/0023_auto_20240602_1332.py
+- [[0024_unique_name_email_constraint.py]] - code - inventree/src/backend/InvenTree/company/migrations/0024_unique_name_email_constraint.py
+- [[0026_auto_20201110_1011.py]] - code - inventree/src/backend/InvenTree/company/migrations/0026_auto_20201110_1011.py
+- [[0026_auto_20240422_1301.py]] - code - inventree/src/backend/InvenTree/report/migrations/0026_auto_20240422_1301.py
+- [[0026_auto_20240608_1238.py]] - code - inventree/src/backend/InvenTree/common/migrations/0026_auto_20240608_1238.py
+- [[0028_colortheme_user_obj.py]] - code - inventree/src/backend/InvenTree/common/migrations/0028_colortheme_user_obj.py
+- [[0036_supplierpart_update_2.py]] - code - inventree/src/backend/InvenTree/company/migrations/0036_supplierpart_update_2.py
+- [[0041_auto_20251203_1244.py]] - code - inventree/src/backend/InvenTree/common/migrations/0041_auto_20251203_1244.py
+- [[0052_auto_20211014_0631.py]] - code - inventree/src/backend/InvenTree/order/migrations/0052_auto_20211014_0631.py
+- [[0055_auto_20211025_0645.py]] - code - inventree/src/backend/InvenTree/order/migrations/0055_auto_20211025_0645.py
+- [[0056_auto_20201110_1125.py]] - code - inventree/src/backend/InvenTree/part/migrations/0056_auto_20201110_1125.py
+- [[0058_auto_20211126_1210.py]] - code - inventree/src/backend/InvenTree/order/migrations/0058_auto_20211126_1210.py
+- [[0060_auto_20230519_0344.py]] - code - inventree/src/backend/InvenTree/company/migrations/0060_auto_20230519_0344.py
+- [[0061_auto_20210511_0911.py]] - code - inventree/src/backend/InvenTree/stock/migrations/0061_auto_20210511_0911.py
+- [[0064_auto_20210621_1724.py]] - code - inventree/src/backend/InvenTree/stock/migrations/0064_auto_20210621_1724.py
+- [[0064_move_address_field_to_address_model.py]] - code - inventree/src/backend/InvenTree/company/migrations/0064_move_address_field_to_address_model.py
+- [[0064_purchaseorderextraline_salesorderextraline.py]] - code - inventree/src/backend/InvenTree/order/migrations/0064_purchaseorderextraline_salesorderextraline.py
+- [[0069_auto_20211109_2347.py]] - code - inventree/src/backend/InvenTree/stock/migrations/0069_auto_20211109_2347.py
+- [[0071_auto_20211205_1733.py]] - code - inventree/src/backend/InvenTree/stock/migrations/0071_auto_20211205_1733.py
+- [[0074_auto_20220709_0108.py]] - code - inventree/src/backend/InvenTree/order/migrations/0074_auto_20220709_0108.py
+- [[0079_auto_20230304_0904.py]] - code - inventree/src/backend/InvenTree/order/migrations/0079_auto_20230304_0904.py
+- [[0079_auto_20260212_1054.py]] - code - inventree/src/backend/InvenTree/company/migrations/0079_auto_20260212_1054.py
+- [[0081_auto_20220801_0044.py]] - code - inventree/src/backend/InvenTree/stock/migrations/0081_auto_20220801_0044.py
+- [[0083_auto_20220731_2357.py]] - code - inventree/src/backend/InvenTree/part/migrations/0083_auto_20220731_2357.py
+- [[0085_auto_20220903_0225.py]] - code - inventree/src/backend/InvenTree/stock/migrations/0085_auto_20220903_0225.py
+- [[0094_auto_20230220_0025.py]] - code - inventree/src/backend/InvenTree/stock/migrations/0094_auto_20230220_0025.py
+- [[0096_auto_20230330_1121.py]] - code - inventree/src/backend/InvenTree/stock/migrations/0096_auto_20230330_1121.py
+- [[0102_auto_20230314_0112.py]] - code - inventree/src/backend/InvenTree/part/migrations/0102_auto_20230314_0112.py
+- [[0105_auto_20241128_0431.py]] - code - inventree/src/backend/InvenTree/order/migrations/0105_auto_20241128_0431.py
+- [[0106_auto_20240207_0353.py]] - code - inventree/src/backend/InvenTree/stock/migrations/0106_auto_20240207_0353.py
+- [[0108_auto_20240219_0252.py]] - code - inventree/src/backend/InvenTree/stock/migrations/0108_auto_20240219_0252.py
+- [[0109_auto_20230517_1048.py]] - code - inventree/src/backend/InvenTree/part/migrations/0109_auto_20230517_1048.py
+- [[0111_auto_20230521_1350.py]] - code - inventree/src/backend/InvenTree/part/migrations/0111_auto_20230521_1350.py
+- [[0116_auto_20231023_0332.py]] - code - inventree/src/backend/InvenTree/part/migrations/0116_auto_20231023_0332.py
+- [[0118_auto_20260205_1218.py]] - code - inventree/src/backend/InvenTree/stock/migrations/0118_auto_20260205_1218.py
+- [[0121_auto_20240207_0344.py]] - code - inventree/src/backend/InvenTree/part/migrations/0121_auto_20240207_0344.py
+- [[0129_auto_20240815_0214.py]] - code - inventree/src/backend/InvenTree/part/migrations/0129_auto_20240815_0214.py
+- [[0138_auto_20250718_2342.py]] - code - inventree/src/backend/InvenTree/part/migrations/0138_auto_20250718_2342.py
+- [[0141_auto_20250722_0303.py]] - code - inventree/src/backend/InvenTree/part/migrations/0141_auto_20250722_0303.py
+- [[0144_auto_20251203_1045.py]] - code - inventree/src/backend/InvenTree/part/migrations/0144_auto_20251203_1045.py
+- [[0145_auto_20251203_1238.py]] - code - inventree/src/backend/InvenTree/part/migrations/0145_auto_20251203_1238.py
+- [[Add 'primary' SupplierPart for each Part.]] - rationale - inventree/src/backend/InvenTree/company/migrations/0079_auto_20260212_1054.py
+- [[Add a fictional language to test if each component is ready for translations.]] - rationale - inventree/tasks.py
+- [[Add a plugin to the plugins file.]] - rationale - inventree/src/backend/InvenTree/plugin/installer.py
+- [[Add links to the Part model for all existing StockItemTracking entries.]] - rationale - inventree/src/backend/InvenTree/stock/migrations/0118_auto_20260205_1218.py
+- [[Adds additional checks to the default token authentication method.]] - rationale - inventree/src/backend/InvenTree/users/authentication.py
+- [[Annotate the 'on_order' quantity for each SupplierPart in a queryset.      - Thi]] - rationale - inventree/src/backend/InvenTree/company/filters.py
+- [[ApiAccessTests]] - code - inventree/src/backend/InvenTree/InvenTree/test_api.py
+- [[ApiIcon()]] - code - inventree/src/frontend/src/components/items/ApiIcon.tsx
+- [[ApiIcon.tsx]] - code - inventree/src/frontend/src/components/items/ApiIcon.tsx
+- [[AppConfig for inventree app.]] - rationale - inventree/src/backend/InvenTree/InvenTree/apps.py
+- [[AppMixin.py]] - code - inventree/src/backend/InvenTree/plugin/base/integration/AppMixin.py
+- [[Apply any prefetching to the queryset based on the optionally included fields.]] - rationale - inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[AttachmentLink()]] - code - inventree/src/frontend/src/components/items/AttachmentLink.tsx
+- [[AttachmentLink.tsx]] - code - inventree/src/frontend/src/components/items/AttachmentLink.tsx
+- [[Attempt to convert a value to a specified unit.      Arguments         value T]] - rationale - inventree/src/backend/InvenTree/InvenTree/conversion.py
+- [[Attempt to introspect the 'model' type for an API view.]] - rationale - inventree/src/backend/InvenTree/InvenTree/permissions.py
+- [[Attempt to typecast a value.      Arguments         value Value to typecast]] - rationale - inventree/src/backend/InvenTree/InvenTree/config.py
+- [[Backend that logs send mails to the database.]] - rationale - inventree/src/backend/InvenTree/InvenTree/backends.py
+- [[BarcodeAPITest]] - code - inventree/src/backend/InvenTree/plugin/base/barcodes/test_barcode.py
+- [[Base classes and functions for notifications.]] - rationale - inventree/src/backend/InvenTree/common/notifications.py
+- [[BaseEmailBackend]] - code
+- [[Benchmark the API search performance.]] - rationale - inventree/src/performance/tests.py
+- [[BomExporterPlugin]] - code - inventree/src/backend/InvenTree/plugin/builtin/exporter/bom_exporter.py
+- [[BomItemTest]] - code - inventree/src/backend/InvenTree/part/test_bom_item.py
+- [[BooleanField()]] - code - inventree/src/frontend/src/components/forms/fields/BooleanField.tsx
+- [[BooleanField.tsx]] - code - inventree/src/frontend/src/components/forms/fields/BooleanField.tsx
+- [[Build and run a pip command using using the current python executable.      Retu]] - rationale - inventree/src/backend/InvenTree/plugin/installer.py
+- [[Calculate 'total_price' field for each PurchaseOrder]] - rationale - inventree/src/backend/InvenTree/order/migrations/0079_auto_20230304_0904.py
+- [[Calculate 'total_price' field for each SalesOrder]] - rationale - inventree/src/backend/InvenTree/order/migrations/0079_auto_20230304_0904.py
+- [[Calculate and cache the BOM validity for all parts.          Procedure      - F]] - rationale - inventree/src/backend/InvenTree/part/migrations/0141_auto_20250722_0303.py
+- [[Callback function to create a new owner instance after either a new group or use]] - rationale - inventree/src/backend/InvenTree/users/models.py
+- [[Callback function to delete an owner instance after either a new group or user i]] - rationale - inventree/src/backend/InvenTree/users/models.py
+- [[Callback method for authentication errors.]] - rationale - inventree/src/backend/InvenTree/InvenTree/auth_overrides.py
+- [[Called after a Group object is saved.      As the linked RuleSet instances are]] - rationale - inventree/src/backend/InvenTree/users/models.py
+- [[Capture a snapshot of stock-on-hand and stock value.      Arguments         par]] - rationale - inventree/src/backend/InvenTree/part/stocktake.py
+- [[CategoryTest]] - code - inventree/src/backend/InvenTree/part/test_category.py
+- [[Check for any instances where a trackable part is used in the BOM for a non-trac]] - rationale - inventree/src/backend/InvenTree/part/apps.py
+- [[Check for any pending database migrations._1]] - rationale - inventree/src/backend/InvenTree/InvenTree/management/commands/check_migrations.py
+- [[Check for any pending database migrations.]] - rationale - inventree/src/backend/InvenTree/InvenTree/management/commands/runmigrations.py
+- [[Check if a default group is set in settings.]] - rationale - inventree/src/backend/InvenTree/InvenTree/auth_overrides.py
+- [[Check if a user has a particular rolepermission combination.      Arguments]] - rationale - inventree/src/backend/InvenTree/users/permissions.py
+- [[Check if auto signup is enabled in settings.]] - rationale - inventree/src/backend/InvenTree/InvenTree/auth_overrides.py
+- [[Check if email backend is configured.      Fails on tests nominally, if no bypas]] - rationale - inventree/src/backend/InvenTree/InvenTree/helpers_email.py
+- [[Check if signup is enabled in settings.          Configure the class variable `R]] - rationale - inventree/src/backend/InvenTree/InvenTree/auth_overrides.py
+- [[Check if the given provider is correctly configured.      To be correctly config]] - rationale - inventree/src/backend/InvenTree/InvenTree/sso.py
+- [[Check if the global cache is enabled.      - Test if the user has enabled and co]] - rationale - inventree/src/backend/InvenTree/InvenTree/cache.py
+- [[Check if the mail is valid to the pattern in LOGIN_SIGNUP_MAIL_RESTRICTION (if e]] - rationale - inventree/src/backend/InvenTree/InvenTree/auth_overrides.py
+- [[Check if the user has a particular permission against a given model type.      A]] - rationale - inventree/src/backend/InvenTree/users/permissions.py
+- [[Check if the user has permission to access the imported object.]] - rationale - inventree/src/backend/InvenTree/InvenTree/permissions.py
+- [[Check settings to influence which fields are needed.]] - rationale - inventree/src/backend/InvenTree/InvenTree/auth_overrides.py
+- [[Check that a given code is a valid currency code.]] - rationale - inventree/src/backend/InvenTree/InvenTree/validators.py
+- [[Check that a provided URL is valid.      We allow a number attempts and a length]] - rationale - inventree/docs/main.py
+- [[Check that the InvenTree system is running OK.      Returns True if all system c]] - rationale - inventree/src/backend/InvenTree/InvenTree/status.py
+- [[Check that the Python version meets the minimum requirements.]] - rationale - inventree/src/backend/InvenTree/InvenTree/version.py
+- [[Clean refs of unwanted parameters.      We don't use them in our API, we only su]] - rationale - inventree/src/backend/InvenTree/InvenTree/management/commands/schema.py
+- [[Clean up component references.]] - rationale - inventree/src/backend/InvenTree/InvenTree/management/commands/schema.py
+- [[Cleanup old label and report outputs.]] - rationale - inventree/src/backend/InvenTree/report/apps.py
+- [[Clear out static files for plugins which are no longer active.]] - rationale - inventree/src/backend/InvenTree/plugin/staticfiles.py
+- [[Clear static files for the specified plugin.]] - rationale - inventree/src/backend/InvenTree/plugin/staticfiles.py
+- [[Clear the set of loaded apps.]] - rationale - inventree/src/backend/InvenTree/InvenTree/ready.py
+- [[Clear the specified directory from the 'static' output directory.      Arguments]] - rationale - inventree/src/backend/InvenTree/plugin/staticfiles.py
+- [[Close the email backend connection.]] - rationale - inventree/src/backend/InvenTree/InvenTree/backends.py
+- [[Code for managing email functionality in InvenTree.]] - rationale - inventree/src/backend/InvenTree/InvenTree/helpers_email.py
+- [[Command_14]] - code - inventree/src/backend/InvenTree/InvenTree/management/commands/schema.py
+- [[CommandTestCase]] - code - inventree/src/backend/InvenTree/InvenTree/test_commands.py
+- [[CommonConfig]] - code - inventree/src/backend/InvenTree/common/apps.py
+- [[Config class for the 'part' app.]] - rationale - inventree/src/backend/InvenTree/part/apps.py
+- [[Configuration for Sentry.io error reporting.]] - rationale - inventree/src/backend/InvenTree/InvenTree/sentry.py
+- [[Configuration options for InvenTree backup  restore functionality.  We use the]] - rationale - inventree/src/backend/InvenTree/InvenTree/backup.py
+- [[Configuration options for InvenTree external cache.]] - rationale - inventree/src/backend/InvenTree/InvenTree/cache.py
+- [[Configuration options for drf-spectacular.]] - rationale - inventree/src/backend/InvenTree/InvenTree/setting/spectacular.py
+- [[Configuration settings specific to a particular database backend.]] - rationale - inventree/src/backend/InvenTree/InvenTree/setting/db_backend.py
+- [[Configure default initial values for this field.]] - rationale - inventree/src/backend/InvenTree/InvenTree/fields.py
+- [[Construct (or attempt to construct) an absolute URL from a relative URL.      Ar]] - rationale - inventree/src/backend/InvenTree/InvenTree/helpers_model.py
+- [[Construct a new ContentFile from a template file.          Args             dir]] - rationale - inventree/src/backend/InvenTree/report/apps.py
+- [[Construct a queryset annotation which returns the number of stock items in a par]] - rationale - inventree/src/backend/InvenTree/stock/filters.py
+- [[Construct a queryset annotation which returns the number of sub-locations below]] - rationale - inventree/src/backend/InvenTree/stock/filters.py
+- [[Construct pathstring for all existing PartCategory objects]] - rationale - inventree/src/backend/InvenTree/part/migrations/0083_auto_20220731_2357.py
+- [[Construct pathstring for all existing StockLocation objects]] - rationale - inventree/src/backend/InvenTree/stock/migrations/0081_auto_20220801_0044.py
+- [[Convert 'overage' field to 'setup_quantity' and 'attrition' fields.          - T]] - rationale - inventree/src/backend/InvenTree/part/migrations/0138_auto_20250718_2342.py
+- [[Convert ExtraLine instances back to OrderLineItem instances]] - rationale - inventree/src/backend/InvenTree/order/migrations/0064_purchaseorderextraline_salesorderextraline.py
+- [[Convert a provided value to 'natural' representation from 'engineering' notation]] - rationale - inventree/src/backend/InvenTree/InvenTree/conversion.py
+- [[Convert a value (with units) to a numeric value.      Defaults to zero if the va]] - rationale - inventree/src/backend/InvenTree/common/migrations/0041_auto_20251203_1244.py
+- [[Convert a value (with units) to a numeric value.      Defaults to zero if the va_1]] - rationale - inventree/src/backend/InvenTree/part/migrations/0109_auto_20230517_1048.py
+- [[Convert an image into HTML renderable data.      Returns a string ``dataimageF]] - rationale - inventree/src/backend/InvenTree/report/templatetags/barcode.py
+- [[Convert string representation back to ContentType instance.]] - rationale - inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[Convert the OrderLineItem instances if applicable to new ExtraLine instances]] - rationale - inventree/src/backend/InvenTree/order/migrations/0064_purchaseorderextraline_salesorderextraline.py
+- [[Convert to python type.]] - rationale - inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[Copy ManufacturerPartParameter to Parameter.]] - rationale - inventree/src/backend/InvenTree/common/migrations/0041_auto_20251203_1244.py
+- [[Copy existing part.responsible field to part.responsible_owner]] - rationale - inventree/src/backend/InvenTree/part/migrations/0116_auto_20231023_0332.py
+- [[Copy static files for the specified plugin.]] - rationale - inventree/src/backend/InvenTree/plugin/staticfiles.py
+- [[Copy static files from all installed plugins into the static directory.]] - rationale - inventree/src/backend/InvenTree/plugin/staticfiles.py
+- [[Copy the 'parameter_template' field to the new 'template' field.]] - rationale - inventree/src/backend/InvenTree/part/migrations/0145_auto_20251203_1238.py
+- [[Copy the 'template' field back to the 'parameter_template' field.]] - rationale - inventree/src/backend/InvenTree/part/migrations/0145_auto_20251203_1238.py
+- [[Create a 'key' value for existing PartTestTemplate objects.]] - rationale - inventree/src/backend/InvenTree/part/migrations/0121_auto_20240207_0344.py
+- [[Create a SalesOrderShipment for each existing SalesOrder instance.      Any all]] - rationale - inventree/src/backend/InvenTree/order/migrations/0055_auto_20211025_0645.py
+- [[Create a login link for this user.]] - rationale - inventree/src/backend/InvenTree/InvenTree/magic_login.py
+- [[Create an 'owner' object for each user and group instance.]] - rationale - inventree/src/backend/InvenTree/users/apps.py
+- [[Create an initial SalesOrder.]] - rationale - inventree/src/backend/InvenTree/order/test_migrations.py
+- [[Create default label templates.]] - rationale - inventree/src/backend/InvenTree/report/apps.py
+- [[Create default report templates.]] - rationale - inventree/src/backend/InvenTree/report/apps.py
+- [[Create initial data for this migration.]] - rationale - inventree/src/backend/InvenTree/stock/test_migrations.py
+- [[Create initial data set.]] - rationale - inventree/src/backend/InvenTree/order/test_migrations.py
+- [[Create initial dataset.]] - rationale - inventree/src/backend/InvenTree/part/test_migrations.py
+- [[Create or update user profile when user is saved.]] - rationale - inventree/src/backend/InvenTree/users/models.py
+- [[Create some existing data before migration.]] - rationale - inventree/src/backend/InvenTree/company/test_migrations.py
+- [[Create some initial stock items.]] - rationale - inventree/src/backend/InvenTree/stock/test_migrations.py
+- [[Create some parts, and templates with parameters.]] - rationale - inventree/src/backend/InvenTree/part/test_migrations.py
+- [[Create some simple Company data, and ensure that it migrates OK.]] - rationale - inventree/src/backend/InvenTree/company/test_migrations.py
+- [[Custom OrderingFilter class which allows aliased filtering of related fields.]] - rationale - inventree/src/backend/InvenTree/InvenTree/filters.py
+- [[Custom __init__ routine to ensure that default values (as specified in the ORM]] - rationale - inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[Custom exception handler for DRF framework.      Ref httpswww.django-rest-fr]] - rationale - inventree/src/backend/InvenTree/InvenTree/exceptions.py
+- [[Custom exception handling for the DRF API.]] - rationale - inventree/src/backend/InvenTree/InvenTree/exceptions.py
+- [[Custom field validators for InvenTree.]] - rationale - inventree/src/backend/InvenTree/InvenTree/validators.py
+- [[Custom login form to override default allauth behaviour.]] - rationale - inventree/src/backend/InvenTree/InvenTree/auth_overrides.py
+- [[Custom mkdocs hooks, using the mkdocs-simple-hooks plugin.]] - rationale - inventree/docs/docs/hooks.py
+- [[Custom query filters for the Company app.]] - rationale - inventree/src/backend/InvenTree/company/filters.py
+- [[Custom save method for StatusCodeMixin.          - Ensure custom status code val]] - rationale - inventree/src/backend/InvenTree/generic/states/states.py
+- [[CustomAccountAdapter]] - code - inventree/src/backend/InvenTree/InvenTree/auth_overrides.py
+- [[CustomHeadlessAdapter]] - code - inventree/src/backend/InvenTree/InvenTree/auth_overrides.py
+- [[CustomLoginForm]] - code - inventree/src/backend/InvenTree/InvenTree/auth_overrides.py
+- [[CustomSignupForm]] - code - inventree/src/backend/InvenTree/InvenTree/auth_overrides.py
+- [[CustomSocialAccountAdapter]] - code - inventree/src/backend/InvenTree/InvenTree/auth_overrides.py
+- [[Data class to represent a parameter for a part during import.      Attributes]] - rationale - inventree/src/backend/InvenTree/plugin/base/supplier/helpers.py
+- [[Data import operational functions.]] - rationale - inventree/src/backend/InvenTree/importer/operations.py
+- [[Data migration for fixing historical issue with StockItem.purchase_price field.]] - rationale - inventree/src/backend/InvenTree/stock/migrations/0094_auto_20230220_0025.py
+- [[Data migration for making the PartParameterTemplate and PartParameter models gen]] - rationale - inventree/src/backend/InvenTree/part/migrations/0144_auto_20251203_1045.py
+- [[Data migration to fix a 'shortcoming' in the implementation of StockTracking his]] - rationale - inventree/src/backend/InvenTree/stock/migrations/0096_auto_20230330_1121.py
+- [[Data migration to switch to django-allauth's new built-in MFA.]] - rationale - inventree/src/backend/InvenTree/users/migrations/0013_migrate_mfa_20240408_1659.py
+- [[Data migration to update existing PartParameter records.          - Set 'model_t]] - rationale - inventree/src/backend/InvenTree/part/migrations/0144_auto_20251203_1045.py
+- [[DataImportColumnMap]] - code - inventree/src/backend/InvenTree/importer/models.py
+- [[Decorator to ignore 'AppRegistryNotReady' warnings in functions called during ap]] - rationale - inventree/src/backend/InvenTree/InvenTree/ready.py
+- [[DefaultAccountAdapter]] - code
+- [[DefaultHeadlessAdapter]] - code
+- [[DefaultSocialAccountAdapter]] - code
+- [[Define custom environment variables for the documentation build process.]] - rationale - inventree/docs/main.py
+- [[Defines the owner string representation.]] - rationale - inventree/src/backend/InvenTree/users/models.py
+- [[Delete all stock items which are marked as 'scheduled_for_deletion'.      The is]] - rationale - inventree/src/backend/InvenTree/stock/migrations/0071_auto_20211205_1733.py
+- [[Determine if an automatic event should be fired for a given table.      We do n]] - rationale - inventree/src/backend/InvenTree/plugin/base/event/events.py
+- [[Determine if the current status matches the provided status code.          Argum]] - rationale - inventree/src/backend/InvenTree/generic/states/states.py
+- [[Determine if the current user has the specified permissions.]] - rationale - inventree/src/backend/InvenTree/InvenTree/permissions.py
+- [[Determine if the provided value is 'dimensionless'.      A dimensionless value m]] - rationale - inventree/src/backend/InvenTree/InvenTree/conversion.py
+- [[Determine the install information for a particular package.      - Uses 'pip sho]] - rationale - inventree/src/backend/InvenTree/plugin/installer.py
+- [[Determine whether user registration is enabled.]] - rationale - inventree/src/backend/InvenTree/InvenTree/auth_overrides.py
+- [[Discover all available filters.      This function is a copy of a function from]] - rationale - inventree/src/backend/InvenTree/InvenTree/management/commands/export_filters.py
+- [[Discover all available tags.      This function is a copy of a function from the]] - rationale - inventree/src/backend/InvenTree/InvenTree/management/commands/export_tags.py
+- [[Django runserver starts two processes, one for the actual dev server and the oth]] - rationale - inventree/src/backend/InvenTree/InvenTree/ready.py
+- [[Download an image file from a remote URL.      This is a potentially dangerous o]] - rationale - inventree/src/backend/InvenTree/InvenTree/helpers_model.py
+- [[Dummy]] - code - inventree/src/backend/InvenTree/InvenTree/test_auth.py
+- [[Ensure primary_group is a group that the user is a member of.]] - rationale - inventree/src/backend/InvenTree/users/models.py
+- [[Ensure that a directory exists.      If it does not exist, create it.]] - rationale - inventree/src/backend/InvenTree/InvenTree/config.py
+- [[Ensure that the provided attachment model is valid.]] - rationale - inventree/src/backend/InvenTree/common/validators.py
+- [[Ensure that the provided model type is valid.      The provided value must map t]] - rationale - inventree/src/backend/InvenTree/common/validators.py
+- [[Ensure that the provided value is uppercase.]] - rationale - inventree/src/backend/InvenTree/common/validators.py
+- [[Ensure that the selected model type is valid.]] - rationale - inventree/src/backend/InvenTree/report/validators.py
+- [[Ensures that the plugin registry is already loaded.      The plugin registry rel]] - rationale - inventree/src/backend/InvenTree/InvenTree/ready.py
+- [[Ensures there are no open migrations, stop if inconsistent state.]] - rationale - inventree/src/backend/InvenTree/InvenTree/apps.py
+- [[Enumeration for user types.]] - rationale - inventree/src/backend/InvenTree/users/models.py
+- [[Exception]] - code
+- [[Exception raised when a part is not found during import.]] - rationale - inventree/src/backend/InvenTree/plugin/base/supplier/helpers.py
+- [[Exception raised when an error occurs during part import.]] - rationale - inventree/src/backend/InvenTree/plugin/base/supplier/helpers.py
+- [[Export filter information to a YAML file.]] - rationale - inventree/src/backend/InvenTree/InvenTree/management/commands/export_filters.py
+- [[Export tag information to a YAML file.]] - rationale - inventree/src/backend/InvenTree/InvenTree/management/commands/export_tags.py
+- [[Extended schema generation that patches in django-allauth schemas.]] - rationale - inventree/src/backend/InvenTree/InvenTree/management/commands/schema.py
+- [[Extract API schema and split into smaller subsections.]] - rationale - inventree/docs/extract_schema.py
+- [[Extract a dict of refs from the provided paths dict.      The refs are located l]] - rationale - inventree/docs/extract_schema.py
+- [[Extract a named value from the provided string, given the provided format string]] - rationale - inventree/src/backend/InvenTree/InvenTree/format.py
+- [[Extract column names from a data file.      Uses the tablib library to extract c]] - rationale - inventree/src/backend/InvenTree/importer/operations.py
+- [[Extract formatting information from the provided format string.      Returns a d]] - rationale - inventree/src/backend/InvenTree/InvenTree/format.py
+- [[Extract values from class meta or package info.          Args             meta_]] - rationale - inventree/src/backend/InvenTree/plugin/plugin.py
+- [[Filter the queryset based on numeric values only.]] - rationale - inventree/src/backend/InvenTree/InvenTree/filters.py
+- [[Find an email address for the specified user.]] - rationale - inventree/src/backend/InvenTree/InvenTree/helpers_email.py
+- [[Find instances of StockItem which do not have a purchase price set,     but wh]] - rationale - inventree/src/backend/InvenTree/stock/migrations/0064_auto_20210621_1724.py
+- [[Find the user with this email address.]] - rationale - inventree/src/backend/InvenTree/InvenTree/magic_login.py
+- [[Format a Decimal number as Money.      Args         d A python Decimal object]] - rationale - inventree/src/backend/InvenTree/InvenTree/helpers.py
+- [[Function to override the default Django User __str__.]] - rationale - inventree/src/backend/InvenTree/users/models.py
+- [[Functions for magic login.]] - rationale - inventree/src/backend/InvenTree/InvenTree/magic_login.py
+- [[Functions to check if certain parts of InvenTree are ready.]] - rationale - inventree/src/backend/InvenTree/InvenTree/ready.py
+- [[Gather metadata about the current environment to be stored with the backup.]] - rationale - inventree/src/backend/InvenTree/InvenTree/backup.py
+- [[GeneralApiTests]] - code - inventree/src/backend/InvenTree/InvenTree/test_api.py
+- [[Generate a barcode for a given model instance.]] - rationale - inventree/src/backend/InvenTree/plugin/builtin/barcodes/test_inventree_barcode.py
+- [[Generate a dict of context data to provide to the reporting framework._1]] - rationale - inventree/src/backend/InvenTree/report/mixins.py
+- [[Generate a file attachment object for test upload.]] - rationale - inventree/src/backend/InvenTree/common/test_migrations.py
+- [[Generate a list of URL patterns for compatibility with old (CUI) URLs.      Thes]] - rationale - inventree/src/backend/InvenTree/web/urls.py
+- [[Generate a permission string for a given model and permission type.      Argumen]] - rationale - inventree/src/backend/InvenTree/users/permissions.py
+- [[Generate a schema file for the provided key.]] - rationale - inventree/docs/extract_schema.py
+- [[Generate active TOTP and recovery codes for a user.      Args         user Use]] - rationale - inventree/src/backend/InvenTree/InvenTree/helpers_mfa.py
+- [[Generate an expiry date for a newly created token.]] - rationale - inventree/src/backend/InvenTree/users/models.py
+- [[Generate the index file for the API schema.]] - rationale - inventree/docs/extract_schema.py
+- [[Generic implementation of status for InvenTree models.]] - rationale - inventree/src/backend/InvenTree/generic/states/states.py
+- [[Get a list of RTD docs versions to build the version selector.]] - rationale - inventree/docs/docs/hooks.py
+- [[Get all classes in a given module.]] - rationale - inventree/src/backend/InvenTree/plugin/helpers.py
+- [[Get all modules in a package.]] - rationale - inventree/src/backend/InvenTree/plugin/helpers.py
+- [[Get all owners related to an owner.          This method is useful to retrieve]] - rationale - inventree/src/backend/InvenTree/users/models.py
+- [[Get dict with info of the last commit to file named in path.]] - rationale - inventree/src/backend/InvenTree/plugin/helpers.py
+- [[Get the frontend URL for the given URL name respecting the request.]] - rationale - inventree/src/backend/InvenTree/InvenTree/auth_overrides.py
+- [[Get the token for the current user or fail.]] - rationale - inventree/src/backend/InvenTree/InvenTree/magic_login.py
+- [[GetExportFormats()]] - code - inventree/src/backend/InvenTree/InvenTree/helpers.py
+- [[GetExportOptions()]] - code - inventree/src/backend/InvenTree/InvenTree/helpers.py
+- [[GetSimpleLoginSerializer]] - code - inventree/src/backend/InvenTree/InvenTree/magic_login.py
+- [[GetSimpleLoginView]] - code - inventree/src/backend/InvenTree/InvenTree/magic_login.py
+- [[HTMLAPITests]] - code - inventree/src/backend/InvenTree/InvenTree/test_api.py
+- [[Handles an error and casts it as an IntegrationPluginError.]] - rationale - inventree/src/backend/InvenTree/plugin/helpers.py
+- [[Helper function for retrieving a boolean configuration setting.]] - rationale - inventree/src/backend/InvenTree/InvenTree/config.py
+- [[Helper function for retrieving a configuration setting value.      - First prefe]] - rationale - inventree/src/backend/InvenTree/InvenTree/config.py
+- [[Helper functions for Single Sign On functionality.]] - rationale - inventree/src/backend/InvenTree/InvenTree/sso.py
+- [[Helper functions for allauth MFA testing.]] - rationale - inventree/src/backend/InvenTree/InvenTree/helpers_mfa.py
+- [[Helper functions for converting between units.]] - rationale - inventree/src/backend/InvenTree/InvenTree/conversion.py
+- [[Helper functions for loading InvenTree configuration options.]] - rationale - inventree/src/backend/InvenTree/InvenTree/config.py
+- [[If a django user is from LDAP and has an email attached to it, create an allauth]] - rationale - inventree/src/backend/InvenTree/users/models.py
+- [[ImportParameter]] - code - inventree/src/backend/InvenTree/plugin/base/supplier/helpers.py
+- [[ImportPartWizard.tsx]] - code - inventree/src/frontend/src/components/wizards/ImportPartWizard.tsx
+- [[In migration 0057 we added a new field 'shipped' to the SalesOrderLineItem model]] - rationale - inventree/src/backend/InvenTree/order/migrations/0058_auto_20211126_1210.py
+- [[Information needed to create a notification.      Attributes         name (str)]] - rationale - inventree/src/backend/InvenTree/common/notifications.py
+- [[Initialization method for the machine app.]] - rationale - inventree/src/backend/InvenTree/machine/apps.py
+- [[Initialization routine for the serializer. This gathers and applies filters thro]] - rationale - inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[Initialize restart flag clearance on startup.]] - rationale - inventree/src/backend/InvenTree/common/apps.py
+- [[Initialize sentry.io error reporting.]] - rationale - inventree/src/backend/InvenTree/InvenTree/sentry.py
+- [[Initialize storage backend settings.]] - rationale - inventree/src/backend/InvenTree/InvenTree/setting/storages.py
+- [[Initialize the ContentTypeField.          Args             mixin_class Optiona]] - rationale - inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[Initialize the TreePathSerializer.]] - rationale - inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[Initialize the currency serializer.]] - rationale - inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[Initialize the email backend.]] - rationale - inventree/src/backend/InvenTree/InvenTree/backends.py
+- [[Initialize the output option.]] - rationale - inventree/src/backend/InvenTree/InvenTree/fields.py
+- [[Install a plugin into the python virtual environment.]] - rationale - inventree/src/backend/InvenTree/plugin/installer.py
+- [[Install a plugin into the python virtual environment.      Args         package]] - rationale - inventree/src/backend/InvenTree/plugin/installer.py
+- [[Install plugins from the plugins file.]] - rationale - inventree/src/backend/InvenTree/plugin/installer.py
+- [[Intercept the 'save' functionality to make additional permission changes.]] - rationale - inventree/src/backend/InvenTree/users/models.py
+- [[InvenTree API version information.]] - rationale - inventree/src/backend/InvenTree/InvenTree/api_version.py
+- [[InvenTreeConfig]] - code - inventree/src/backend/InvenTree/InvenTree/apps.py
+- [[InvenTreeMailLoggingBackend]] - code - inventree/src/backend/InvenTree/InvenTree/backends.py
+- [[InvenTreeOrderingFilter]] - code - inventree/src/backend/InvenTree/InvenTree/filters.py
+- [[InvenTreeReportMixin]] - code - inventree/src/backend/InvenTree/report/mixins.py
+- [[InvenTreeTaskTests]] - code - inventree/src/backend/InvenTree/InvenTree/test_tasks.py
+- [[Is the mixin registered and configured in the plugin]] - rationale - inventree/src/backend/InvenTree/plugin/templatetags/plugin_extras.py
+- [[Issues an error when sending email messages.]] - rationale - inventree/src/backend/InvenTree/InvenTree/backends.py
+- [[Join a list of items into a string, using the provided separator (default = ',')]] - rationale - inventree/src/backend/InvenTree/report/templatetags/report.py
+- [[List all installed apps.          Note that this function outputs in a particula]] - rationale - inventree/src/backend/InvenTree/InvenTree/management/commands/list_apps.py
+- [[Load configuration data from the config file.      Arguments         set_cache(]] - rationale - inventree/src/backend/InvenTree/InvenTree/config.py
+- [[Load data file into a tablib dataset.      Arguments         data_file django]] - rationale - inventree/src/backend/InvenTree/importer/operations.py
+- [[Load the VERSION file if it exists and place the contents into the general execu]] - rationale - inventree/src/backend/InvenTree/InvenTree/config.py
+- [[Log an error to the database.      - Uses python exception handling to extract e]] - rationale - inventree/src/backend/InvenTree/InvenTree/exceptions.py
+- [[LoginForm]] - code
+- [[MFAMigrations]] - code - inventree/src/backend/InvenTree/users/test_migrations.py
+- [[MachineAPITest]] - code - inventree/src/backend/InvenTree/machine/test_api.py
+- [[MachineRegistry]] - code - inventree/src/backend/InvenTree/machine/registry.py
+- [[Main entry point for the documentation build process.]] - rationale - inventree/docs/main.py
+- [[Make sure the supplied emails match if enabled in settings.]] - rationale - inventree/src/backend/InvenTree/InvenTree/auth_overrides.py
+- [[Map labels from an existing table to a new model type          Arguments]] - rationale - inventree/src/backend/InvenTree/report/migrations/0026_auto_20240422_1301.py
+- [[Map legacy label template models to model_type values.]] - rationale - inventree/src/backend/InvenTree/report/migrations/0026_auto_20240422_1301.py
+- [[Mark 'primary' SupplierPart for each Part, if one exists.]] - rationale - inventree/src/backend/InvenTree/company/migrations/0079_auto_20260212_1054.py
+- [[Mark an app as loaded.]] - rationale - inventree/src/backend/InvenTree/InvenTree/ready.py
+- [[Matching existing StockItemTestResult objects to their associated template.]] - rationale - inventree/src/backend/InvenTree/stock/migrations/0106_auto_20240207_0353.py
+- [[Mgrate text-based user references to ForeignKey references.]] - rationale - inventree/src/backend/InvenTree/common/migrations/0028_colortheme_user_obj.py
+- [[MiddlewareTests]] - code - inventree/src/backend/InvenTree/InvenTree/test_middleware.py
+- [[Migrate any existing attachment models to the new attachment table.]] - rationale - inventree/src/backend/InvenTree/common/migrations/0026_auto_20240608_1238.py
+- [[Migrate existing supplier part units to new field]] - rationale - inventree/src/backend/InvenTree/company/migrations/0060_auto_20230519_0344.py
+- [[Migrate new 'barcode_hash' field to old 'uid' field]] - rationale - inventree/src/backend/InvenTree/stock/migrations/0085_auto_20220903_0225.py
+- [[Migrate old 'uid' field to new 'barcode_hash' field]] - rationale - inventree/src/backend/InvenTree/stock/migrations/0085_auto_20220903_0225.py
+- [[Migrate the reference pattern for the PurchaseOrder model]] - rationale - inventree/src/backend/InvenTree/order/migrations/0074_auto_20220709_0108.py
+- [[Migrate the reference pattern for the SalesOrder model]] - rationale - inventree/src/backend/InvenTree/order/migrations/0074_auto_20220709_0108.py
+- [[Migration_173]] - code - inventree/src/backend/InvenTree/users/migrations/0013_migrate_mfa_20240408_1659.py
+- [[Migration_177]] - code - inventree/src/backend/InvenTree/users/migrations/0014_userprofile.py
+- [[Migration_504]] - code - inventree/src/backend/InvenTree/company/migrations/0019_auto_20200413_0642.py
+- [[Migration_190]] - code - inventree/src/backend/InvenTree/report/migrations/0023_auto_20240421_0455.py
+- [[Migration_151]] - code - inventree/src/backend/InvenTree/common/migrations/0023_auto_20240602_1332.py
+- [[Migration_535]] - code - inventree/src/backend/InvenTree/company/migrations/0024_unique_name_email_constraint.py
+- [[Migration_203]] - code - inventree/src/backend/InvenTree/report/migrations/0026_auto_20240422_1301.py
+- [[Migration_140]] - code - inventree/src/backend/InvenTree/common/migrations/0026_auto_20240608_1238.py
+- [[Migration_139]] - code - inventree/src/backend/InvenTree/common/migrations/0028_colortheme_user_obj.py
+- [[Migration_515]] - code - inventree/src/backend/InvenTree/company/migrations/0036_supplierpart_update_2.py
+- [[Migration_157]] - code - inventree/src/backend/InvenTree/common/migrations/0041_auto_20251203_1244.py
+- [[Migration_13]] - code - inventree/src/backend/InvenTree/order/migrations/0052_auto_20211014_0631.py
+- [[Migration_59]] - code - inventree/src/backend/InvenTree/order/migrations/0055_auto_20211025_0645.py
+- [[Migration_37]] - code - inventree/src/backend/InvenTree/order/migrations/0058_auto_20211126_1210.py
+- [[Migration_539]] - code - inventree/src/backend/InvenTree/company/migrations/0060_auto_20230519_0344.py
+- [[Migration_465]] - code - inventree/src/backend/InvenTree/stock/migrations/0061_auto_20210511_0911.py
+- [[Migration_463]] - code - inventree/src/backend/InvenTree/stock/migrations/0064_auto_20210621_1724.py
+- [[Migration_554]] - code - inventree/src/backend/InvenTree/company/migrations/0064_move_address_field_to_address_model.py
+- [[Migration_112]] - code - inventree/src/backend/InvenTree/order/migrations/0064_purchaseorderextraline_salesorderextraline.py
+- [[Migration_416]] - code - inventree/src/backend/InvenTree/stock/migrations/0069_auto_20211109_2347.py
+- [[Migration_454]] - code - inventree/src/backend/InvenTree/stock/migrations/0071_auto_20211205_1733.py
+- [[Migration_80]] - code - inventree/src/backend/InvenTree/order/migrations/0074_auto_20220709_0108.py
+- [[Migration_82]] - code - inventree/src/backend/InvenTree/order/migrations/0079_auto_20230304_0904.py
+- [[Migration_536]] - code - inventree/src/backend/InvenTree/company/migrations/0079_auto_20260212_1054.py
+- [[Migration_368]] - code - inventree/src/backend/InvenTree/stock/migrations/0081_auto_20220801_0044.py
+- [[Migration_219]] - code - inventree/src/backend/InvenTree/part/migrations/0083_auto_20220731_2357.py
+- [[Migration_427]] - code - inventree/src/backend/InvenTree/stock/migrations/0085_auto_20220903_0225.py
+- [[Migration_461]] - code - inventree/src/backend/InvenTree/stock/migrations/0094_auto_20230220_0025.py
+- [[Migration_473]] - code - inventree/src/backend/InvenTree/stock/migrations/0096_auto_20230330_1121.py
+- [[Migration_351]] - code - inventree/src/backend/InvenTree/part/migrations/0102_auto_20230314_0112.py
+- [[Migration_92]] - code - inventree/src/backend/InvenTree/order/migrations/0105_auto_20241128_0431.py
+- [[Migration_420]] - code - inventree/src/backend/InvenTree/stock/migrations/0106_auto_20240207_0353.py
+- [[Migration_411]] - code - inventree/src/backend/InvenTree/stock/migrations/0108_auto_20240219_0252.py
+- [[Migration_240]] - code - inventree/src/backend/InvenTree/part/migrations/0109_auto_20230517_1048.py
+- [[Migration_228]] - code - inventree/src/backend/InvenTree/part/migrations/0111_auto_20230521_1350.py
+- [[Migration_246]] - code - inventree/src/backend/InvenTree/part/migrations/0116_auto_20231023_0332.py
+- [[Migration_369]] - code - inventree/src/backend/InvenTree/stock/migrations/0118_auto_20260205_1218.py
+- [[Migration_340]] - code - inventree/src/backend/InvenTree/part/migrations/0121_auto_20240207_0344.py
+- [[Migration_335]] - code - inventree/src/backend/InvenTree/part/migrations/0129_auto_20240815_0214.py
+- [[Migration_224]] - code - inventree/src/backend/InvenTree/part/migrations/0138_auto_20250718_2342.py
+- [[Migration_260]] - code - inventree/src/backend/InvenTree/part/migrations/0141_auto_20250722_0303.py
+- [[Migration_236]] - code - inventree/src/backend/InvenTree/part/migrations/0144_auto_20251203_1045.py
+- [[Migration_348]] - code - inventree/src/backend/InvenTree/part/migrations/0145_auto_20251203_1238.py
+- [[MigratorTestCase]] - code
+- [[MockRegistrationMixin]] - code - inventree/src/backend/InvenTree/InvenTree/test_auth.py
+- [[ModelType.tsx_1]] - code - inventree/src/frontend/src/components/render/ModelType.tsx
+- [[NewsFeedTests]] - code - inventree/src/backend/InvenTree/common/test_tasks.py
+- [[NotAuthenticated()]] - code - inventree/src/frontend/src/components/errors/NotAuthenticated.tsx
+- [[NotAuthenticated.tsx]] - code - inventree/src/frontend/src/components/errors/NotAuthenticated.tsx
+- [[NotFound()]] - code - inventree/src/frontend/src/components/errors/NotFound.tsx
+- [[NotFound.tsx]] - code - inventree/src/frontend/src/components/errors/NotFound.tsx
+- [[NotificationBody]] - code - inventree/src/backend/InvenTree/common/notifications.py
+- [[Notify all passed users or groups.      Parses the supplied content with the pro]] - rationale - inventree/src/backend/InvenTree/InvenTree/helpers_model.py
+- [[Notify all responsible parties of a change in an instance.      Parses the suppl]] - rationale - inventree/src/backend/InvenTree/InvenTree/helpers_model.py
+- [[Notify user about link.]] - rationale - inventree/src/backend/InvenTree/InvenTree/magic_login.py
+- [[Only send mail if backend configured.]] - rationale - inventree/src/backend/InvenTree/InvenTree/auth_overrides.py
+- [[Open the email backend connection.]] - rationale - inventree/src/backend/InvenTree/InvenTree/backends.py
+- [[OpenTelemetry setup functions.]] - rationale - inventree/src/backend/InvenTree/InvenTree/tracing.py
+- [[Options which are specific to the selected backup connector.      These options]] - rationale - inventree/src/backend/InvenTree/InvenTree/backup.py
+- [[Override default validation behavior for this field type.]] - rationale - inventree/src/backend/InvenTree/InvenTree/fields.py
+- [[Override default values.]] - rationale - inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[Override initial values with the real info from database.]] - rationale - inventree/src/backend/InvenTree/InvenTree/fields.py
+- [[Override of adapter to use dynamic settings.]] - rationale - inventree/src/backend/InvenTree/InvenTree/auth_overrides.py
+- [[Override of adapter to use dynamic settings._1]] - rationale - inventree/src/backend/InvenTree/InvenTree/auth_overrides.py
+- [[Override of adapter to use dynamic settings._2]] - rationale - inventree/src/backend/InvenTree/InvenTree/auth_overrides.py
+- [[Override ordering for supporting aliases.]] - rationale - inventree/src/backend/InvenTree/InvenTree/filters.py
+- [[Override the choices for the column field.]] - rationale - inventree/src/backend/InvenTree/importer/admin.py
+- [[Override the default get_routes method to add bulk delete support.]] - rationale - inventree/src/backend/InvenTree/InvenTree/helpers_api.py
+- [[Override the filter method to handle timezones correctly.]] - rationale - inventree/src/backend/InvenTree/InvenTree/filters.py
+- [[Override to use dynamic settings.]] - rationale - inventree/src/backend/InvenTree/InvenTree/auth_overrides.py
+- [[Overrides for allauth and adjacent packages to enforce InvenTree specific auth s]] - rationale - inventree/src/backend/InvenTree/InvenTree/auth_overrides.py
+- [[Overwrite default values and validators.]] - rationale - inventree/src/backend/InvenTree/InvenTree/fields.py
+- [[Overwrite the metadata to adapt to the request user.]] - rationale - inventree/src/backend/InvenTree/InvenTree/metadata.py
+- [[Overwritten command to include django-allauth schemas.]] - rationale - inventree/src/backend/InvenTree/InvenTree/management/commands/schema.py
+- [[OwnerModelTest]] - code - inventree/src/backend/InvenTree/users/tests.py
+- [[ParameterAPITests]] - code - inventree/src/backend/InvenTree/common/test_api.py
+- [[ParameterTest]] - code - inventree/src/backend/InvenTree/part/test_param.py
+- [[Parse backup metadata to extract environment information.]] - rationale - inventree/src/backend/InvenTree/InvenTree/backup.py
+- [[Parse the input API file, and split into smaller sections.      The intent is to]] - rationale - inventree/docs/extract_schema.py
+- [[Parse the version text to structured data.]] - rationale - inventree/src/backend/InvenTree/InvenTree/version.py
+- [[PartAPITest]] - code - inventree/src/backend/InvenTree/part/test_api.py
+- [[PartConfig]] - code - inventree/src/backend/InvenTree/part/apps.py
+- [[PartImportError]] - code - inventree/src/backend/InvenTree/plugin/base/supplier/helpers.py
+- [[PartNotFoundError]] - code - inventree/src/backend/InvenTree/plugin/base/supplier/helpers.py
+- [[PartThumbComponent()]] - code - inventree/src/frontend/src/tables/part/PartThumbTable.tsx
+- [[PartThumbTable.tsx]] - code - inventree/src/frontend/src/tables/part/PartThumbTable.tsx
+- [[PartUnitsMigrationTest]] - code - inventree/src/backend/InvenTree/part/test_migrations.py
+- [[PathStringMixin]] - code - inventree/src/backend/InvenTree/InvenTree/models.py
+- [[Perform a 'barcode assign' request.]] - rationale - inventree/src/backend/InvenTree/plugin/builtin/barcodes/test_inventree_barcode.py
+- [[Perform a 'barcode unassign' request.]] - rationale - inventree/src/backend/InvenTree/plugin/builtin/barcodes/test_inventree_barcode.py
+- [[Perform a 'scan' operation.]] - rationale - inventree/src/backend/InvenTree/plugin/builtin/barcodes/test_inventree_barcode.py
+- [[Perform custom validation for the remote image URL.          - Attempt to downlo]] - rationale - inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[Perform data migration for the ManufacturerPartParameter model.]] - rationale - inventree/src/backend/InvenTree/common/migrations/0041_auto_20251203_1244.py
+- [[Perform login action.          First check that         - A valid user has been]] - rationale - inventree/src/backend/InvenTree/InvenTree/auth_overrides.py
+- [[Perform serializer validation.          In addition to running validators on the]] - rationale - inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[Perform the data export task using the provided parameters.      Arguments]] - rationale - inventree/src/backend/InvenTree/data_exporter/tasks.py
+- [[Performed on startup, to ensure that all pricing objects are in a good state.]] - rationale - inventree/src/backend/InvenTree/part/apps.py
+- [[Periodically remove old import sessions.      Every 5 days, remove any importer]] - rationale - inventree/src/backend/InvenTree/importer/tasks.py
+- [[Permission set for InvenTree.]] - rationale - inventree/src/backend/InvenTree/InvenTree/permissions.py
+- [[PermissionDenied()]] - code - inventree/src/frontend/src/components/errors/PermissionDenied.tsx
+- [[PermissionDenied.tsx]] - code - inventree/src/frontend/src/components/errors/PermissionDenied.tsx
+- [[PluginDetailAPITest]] - code - inventree/src/backend/InvenTree/plugin/test_api.py
+- [[PluginRegistryMixin]] - code
+- [[Plugins.tsx_1]] - code - inventree/src/frontend/lib/functions/Plugins.tsx
+- [[PluginsRegistry]] - code - inventree/src/backend/InvenTree/plugin/registry.py
+- [[Post-initialization to fetch the parameter template if not provided.]] - rationale - inventree/src/backend/InvenTree/plugin/base/supplier/helpers.py
+- [[Prepare a number of SupplierPart objects.]] - rationale - inventree/src/backend/InvenTree/company/test_migrations.py
+- [[Prepare some data.          Changes         - A part to buy         - A supplie]] - rationale - inventree/src/backend/InvenTree/company/test_migrations.py
+- [[Prepare some parts and parameters.]] - rationale - inventree/src/backend/InvenTree/part/test_migrations.py
+- [[Prepare some parts with units.]] - rationale - inventree/src/backend/InvenTree/part/test_migrations.py
+- [[Prepare some parts with units._1]] - rationale - inventree/src/backend/InvenTree/part/test_migrations.py
+- [[Prepare the database by adding some test data 'before' the change.          Chan]] - rationale - inventree/src/backend/InvenTree/company/test_migrations.py
+- [[Prepare the database by adding some test data 'before' the change.          Chan_1]] - rationale - inventree/src/backend/InvenTree/company/test_migrations.py
+- [[Prepare the environment for the currency migration tests.]] - rationale - inventree/src/backend/InvenTree/common/test_migrations.py
+- [[Prepare the environment for the migration test.]] - rationale - inventree/src/backend/InvenTree/common/test_migrations.py
+- [[Prepare the environment for the migration test._1]] - rationale - inventree/src/backend/InvenTree/common/test_migrations.py
+- [[Prepend django-allauth to all ref names.]] - rationale - inventree/src/backend/InvenTree/InvenTree/management/commands/schema.py
+- [[Print a warning message to the console.]] - rationale - inventree/tasks.py
+- [[Print an informational message to the console.]] - rationale - inventree/tasks.py
+- [[Print label with the provided plugin.      This task is nominally handled by the]] - rationale - inventree/src/backend/InvenTree/plugin/base/label/label.py
+- [[Provides helper functions used throughout the InvenTree project that access the]] - rationale - inventree/src/backend/InvenTree/InvenTree/helpers_model.py
+- [[Provides helper functions used throughout the InvenTree project.]] - rationale - inventree/src/backend/InvenTree/InvenTree/helpers.py
+- [[Provides system status functionality checks.]] - rationale - inventree/src/backend/InvenTree/InvenTree/status.py
+- [[PurchaseOrderReceiveTest]] - code - inventree/src/backend/InvenTree/order/test_api.py
+- [[PurchaseOrderTest]] - code - inventree/src/backend/InvenTree/order/test_api.py
+- [[Raise a ValidationError when the pip command fails.      - Log the error to the]] - rationale - inventree/src/backend/InvenTree/plugin/installer.py
+- [[Rebuild the entire StockItem tree structure.      This may be necessary if the t]] - rationale - inventree/src/backend/InvenTree/stock/tasks.py
+- [[Rebuild the integer reference fields for existing Build objects]] - rationale - inventree/src/backend/InvenTree/order/migrations/0052_auto_20211014_0631.py
+- [[Rebuild the integer serial number field for existing StockItem objects]] - rationale - inventree/src/backend/InvenTree/stock/migrations/0069_auto_20211109_2347.py
+- [[Recompile the template for rendering the 'full_name' attribute of a Part.      T]] - rationale - inventree/src/backend/InvenTree/part/helpers.py
+- [[Redirect to the frontend after connecting an account.]] - rationale - inventree/src/backend/InvenTree/InvenTree/auth_overrides.py
+- [[RegistrationMixin]] - code
+- [[RegistryTests]] - code - inventree/src/backend/InvenTree/plugin/test_plugin.py
+- [[Reload the icon packs.]] - rationale - inventree/src/backend/InvenTree/common/icons.py
+- [[Reload the unit registry from the database.      This function is called at star]] - rationale - inventree/src/backend/InvenTree/InvenTree/conversion.py
+- [[Remove 'notes' field from list views.]] - rationale - inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[Remove MFA for the supplied user (by mail or username).]] - rationale - inventree/src/backend/InvenTree/InvenTree/management/commands/remove_mfa.py
+- [[Remove template links from existing StockItemTestResult objects.]] - rationale - inventree/src/backend/InvenTree/stock/migrations/0106_auto_20240207_0353.py
+- [[Render a 1D barcode.      Arguments         data Data to encode         barcod]] - rationale - inventree/src/backend/InvenTree/report/templatetags/barcode.py
+- [[Render a DataMatrix barcode.      Arguments         data Data to encode      K]] - rationale - inventree/src/backend/InvenTree/report/templatetags/barcode.py
+- [[Render a currency  Money object to a formatted string (e.g. for reports).]] - rationale - inventree/src/backend/InvenTree/InvenTree/helpers_model.py
+- [[Render a currency  Money object.]] - rationale - inventree/src/backend/InvenTree/report/templatetags/report.py
+- [[Render a status label.]] - rationale - inventree/src/backend/InvenTree/generic/states/tags.py
+- [[Render the 'full_name' attribute of a Part.      To improve render efficiency, w]] - rationale - inventree/src/backend/InvenTree/part/helpers.py
+- [[RenderAddress()]] - code - inventree/src/frontend/src/components/render/Company.tsx
+- [[Report an exception to sentry.io.]] - rationale - inventree/src/backend/InvenTree/InvenTree/sentry.py
+- [[ReportConfig]] - code - inventree/src/backend/InvenTree/report/apps.py
+- [[Return InvenTree release information.      - First look to see if 'releases.json]] - rationale - inventree/docs/docs/hooks.py
+- [[Return True if current InvenTree version is a development version.]] - rationale - inventree/src/backend/InvenTree/InvenTree/version.py
+- [[Return True if it is appropriate to cache the unit registry.      Prevent cachin]] - rationale - inventree/src/backend/InvenTree/InvenTree/conversion.py
+- [[Return True if the 'collectplugins' command is being executed.]] - rationale - inventree/src/backend/InvenTree/InvenTree/ready.py
+- [[Return True if the app has been marked as loaded.]] - rationale - inventree/src/backend/InvenTree/InvenTree/ready.py
+- [[Return True if the background worker process is operational.]] - rationale - inventree/src/backend/InvenTree/InvenTree/status.py
+- [[Return True if the current command is a read-only command, which should not trig]] - rationale - inventree/src/backend/InvenTree/InvenTree/ready.py
+- [[Return True if the database is currently running migrations.]] - rationale - inventree/src/backend/InvenTree/InvenTree/ready.py
+- [[Return True if we are currently waiting for the database to be ready.]] - rationale - inventree/src/backend/InvenTree/InvenTree/ready.py
+- [[Return URL for InvenTree app site.]] - rationale - inventree/src/backend/InvenTree/InvenTree/version.py
+- [[Return URL for InvenTree documentation site.]] - rationale - inventree/src/backend/InvenTree/InvenTree/version.py
+- [[Return URL for InvenTree github site.]] - rationale - inventree/src/backend/InvenTree/InvenTree/version.py
+- [[Return a 'cleaned' string for encoding into a barcode  qrcode.      - This func]] - rationale - inventree/src/backend/InvenTree/report/templatetags/barcode.py
+- [[Return a base-64 encoded image which can be rendered in an img tag.      Argum]] - rationale - inventree/src/backend/InvenTree/report/helpers.py
+- [[Return a byte-encoded QR code image.      Arguments         data Data to encod]] - rationale - inventree/src/backend/InvenTree/report/templatetags/barcode.py
+- [[Return a cached value from the session cache.]] - rationale - inventree/src/backend/InvenTree/InvenTree/cache.py
+- [[Return a custom instance of the Pint UnitRegistry.]] - rationale - inventree/src/backend/InvenTree/InvenTree/conversion.py
+- [[Return a dictionary of settings for the frontend interface.]] - rationale - inventree/src/backend/InvenTree/InvenTree/config.py
+- [[Return a hash representing the current state of the unit registry.      We use t]] - rationale - inventree/src/backend/InvenTree/InvenTree/conversion.py
+- [[Return a list of all ContentType objects, using session cache if possible.]] - rationale - inventree/src/backend/InvenTree/InvenTree/cache.py
+- [[Return a list of all modules under a given package.      - Modules must be a sub]] - rationale - inventree/src/backend/InvenTree/plugin/helpers.py
+- [[Return a list of database models for which reports can be generated.]] - rationale - inventree/src/backend/InvenTree/report/helpers.py
+- [[Return a list of database models that inherit from the given mixin class.      A]] - rationale - inventree/src/backend/InvenTree/InvenTree/helpers_model.py
+- [[Return a list of error types to ignore.      These error types will not be rep]] - rationale - inventree/src/backend/InvenTree/InvenTree/sentry.py
+- [[Return a list of options for models which support attachments.]] - rationale - inventree/src/backend/InvenTree/common/validators.py
+- [[Return a list of options for models which support parameters.]] - rationale - inventree/src/backend/InvenTree/common/validators.py
+- [[Return a list of options for models which support report printing.]] - rationale - inventree/src/backend/InvenTree/report/helpers.py
+- [[Return a list of read-only management commands which should not trigger database]] - rationale - inventree/src/backend/InvenTree/InvenTree/ready.py
+- [[Return a list of valid attachment model choices.]] - rationale - inventree/src/backend/InvenTree/common/validators.py
+- [[Return a list of valid parameter model choices.]] - rationale - inventree/src/backend/InvenTree/common/validators.py
+- [[Return a map of model_type report_type keys.]] - rationale - inventree/src/backend/InvenTree/report/migrations/0023_auto_20240421_0455.py
+- [[Return a path to a JavaScript file which contains custom UI settings.          T]] - rationale - inventree/src/backend/InvenTree/plugin/plugin.py
+- [[Return a queryset of groups with prefetched rule sets for the given user.      A]] - rationale - inventree/src/backend/InvenTree/users/permissions.py
+- [[Return a reversed version of the provided list.      Arguments         value T]] - rationale - inventree/src/backend/InvenTree/report/templatetags/report.py
+- [[Return a set of legacy attachment models._1]] - rationale - inventree/src/backend/InvenTree/common/migrations/0026_auto_20240608_1238.py
+- [[Return a set of legacy attachment models.]] - rationale - inventree/src/backend/InvenTree/common/test_migrations.py
+- [[Return a set of search fields for the request, adjusted based on request params.]] - rationale - inventree/src/backend/InvenTree/InvenTree/filters.py
+- [[Return a template object for the given template name.          Any custom report]] - rationale - inventree/src/backend/InvenTree/InvenTree/template.py
+- [[Return configuration dictionary for drf-spectacular.]] - rationale - inventree/src/backend/InvenTree/InvenTree/setting/spectacular.py
+- [[Return queryset filtered by value or NULL if 'null' is passed.]] - rationale - inventree/src/backend/InvenTree/InvenTree/filters.py
+- [[Return the 'display name' for the given provider.]] - rationale - inventree/src/backend/InvenTree/InvenTree/sso.py
+- [[Return the GPG recipient for encrypted backups.]] - rationale - inventree/src/backend/InvenTree/InvenTree/backup.py
+- [[Return the InvenTree database backend e.g. 'postgresql'.]] - rationale - inventree/src/backend/InvenTree/InvenTree/version.py
+- [[Return the InvenTree instance ID.]] - rationale - inventree/src/backend/InvenTree/InvenTree/version.py
+- [[Return the InvenTree version string as (maj, min, sub) tuple.]] - rationale - inventree/src/backend/InvenTree/InvenTree/version.py
+- [[Return the SocialApp object for the given provider.]] - rationale - inventree/src/backend/InvenTree/InvenTree/sso.py
+- [[Return the absolute path for the backup directory.]] - rationale - inventree/src/backend/InvenTree/InvenTree/config.py
+- [[Return the backup storage backend string.]] - rationale - inventree/src/backend/InvenTree/InvenTree/backup.py
+- [[Return the backup storage options dictionary.]] - rationale - inventree/src/backend/InvenTree/InvenTree/backup.py
+- [[Return the base URL for the InvenTree server.      The base URL is determined in]] - rationale - inventree/src/backend/InvenTree/InvenTree/helpers_model.py
+- [[Return the cache configuration options.      Args       global_cache True if t]] - rationale - inventree/src/backend/InvenTree/InvenTree/cache.py
+- [[Return the cache database index.]] - rationale - inventree/src/backend/InvenTree/InvenTree/cache.py
+- [[Return the cache host address.]] - rationale - inventree/src/backend/InvenTree/InvenTree/cache.py
+- [[Return the cache password.]] - rationale - inventree/src/backend/InvenTree/InvenTree/cache.py
+- [[Return the cache port.]] - rationale - inventree/src/backend/InvenTree/InvenTree/cache.py
+- [[Return the cash username.]] - rationale - inventree/src/backend/InvenTree/InvenTree/cache.py
+- [[Return the custom status code for this object.]] - rationale - inventree/src/backend/InvenTree/generic/states/states.py
+- [[Return the database tables  models that this ruleset covers.]] - rationale - inventree/src/backend/InvenTree/users/models.py
+- [[Return the date format string for database backups.]] - rationale - inventree/src/backend/InvenTree/InvenTree/backup.py
+- [[Return the default Sentry.io DSN for InvenTree.]] - rationale - inventree/src/backend/InvenTree/InvenTree/sentry.py
+- [[Return the directory where part images are stored.      Returns         str Di]] - rationale - inventree/src/backend/InvenTree/part/helpers.py
+- [[Return the email subject prefix for backup emails.]] - rationale - inventree/src/backend/InvenTree/InvenTree/backup.py
+- [[Return the file hash for the plugins file.]] - rationale - inventree/src/backend/InvenTree/plugin/installer.py
+- [[Return the filename template for database backups.]] - rationale - inventree/src/backend/InvenTree/InvenTree/backup.py
+- [[Return the filename template for media backups.]] - rationale - inventree/src/backend/InvenTree/InvenTree/backup.py
+- [[Return the label for a field in a serializer class.      Check for labels in the]] - rationale - inventree/src/backend/InvenTree/importer/operations.py
+- [[Return the page size associated with a particular page code.]] - rationale - inventree/src/backend/InvenTree/report/helpers.py
+- [[Return the private key for OIDC authentication.      Following options are teste]] - rationale - inventree/src/backend/InvenTree/InvenTree/config.py
+- [[Return the repository URL for the current project.]] - rationale - inventree/docs/main.py
+- [[Return the required scopes for the current request.]] - rationale - inventree/src/backend/InvenTree/InvenTree/permissions.py
+- [[Return the search terms for this search request.          Depending on the reque]] - rationale - inventree/src/backend/InvenTree/InvenTree/filters.py
+- [[Return the secret key value which will be used by django.      Following options]] - rationale - inventree/src/backend/InvenTree/InvenTree/config.py
+- [[Return the status code for this object.]] - rationale - inventree/src/backend/InvenTree/generic/states/states.py
+- [[Return the timezone of the server as a string.      e.g. UTC  AustraliaSydn]] - rationale - inventree/src/backend/InvenTree/InvenTree/helpers.py
+- [[Return the top level path of the input path.]] - rationale - inventree/docs/extract_schema.py
+- [[Return the value of a particular cache setting.      Arguments         name Th]] - rationale - inventree/src/backend/InvenTree/InvenTree/cache.py
+- [[Return the version string matching the latest documentation.      Development -]] - rationale - inventree/src/backend/InvenTree/InvenTree/version.py
+- [[Return true if any of the backup commands are being executed.]] - rationale - inventree/src/backend/InvenTree/InvenTree/ready.py
+- [[Return true if any of the rebuilding commands are being executed.]] - rationale - inventree/src/backend/InvenTree/InvenTree/ready.py
+- [[Return true if schema generation is being executed.]] - rationale - inventree/src/backend/InvenTree/InvenTree/ready.py
+- [[Return whether to send emails to admins on backup failure.]] - rationale - inventree/src/backend/InvenTree/InvenTree/backup.py
+- [[ReturnOrderTests]] - code - inventree/src/backend/InvenTree/order/test_api.py
+- [[Returns API version descriptors.      Args         versions Number of versions]] - rationale - inventree/src/backend/InvenTree/InvenTree/version.py
+- [[Returns True if the apps.py file can access database records.      Arguments]] - rationale - inventree/src/backend/InvenTree/InvenTree/ready.py
+- [[Returns True if the current thread is a background worker thread.]] - rationale - inventree/src/backend/InvenTree/InvenTree/ready.py
+- [[Returns True if the current thread is a server thread.]] - rationale - inventree/src/backend/InvenTree/InvenTree/ready.py
+- [[Returns True if the database is currently importing (or exporting) data, e.g. 'l]] - rationale - inventree/src/backend/InvenTree/InvenTree/ready.py
+- [[Returns True if the database is in testing mode.]] - rationale - inventree/src/backend/InvenTree/InvenTree/ready.py
+- [[Returns a dict of page sizes for PDF reports.]] - rationale - inventree/src/backend/InvenTree/report/helpers.py
+- [[Returns a list of page size options for PDF reports.]] - rationale - inventree/src/backend/InvenTree/report/helpers.py
+- [[Returns all template dir paths in plugins.]] - rationale - inventree/src/backend/InvenTree/plugin/template.py
+- [[Returns current API version of InvenTree.]] - rationale - inventree/src/backend/InvenTree/InvenTree/version.py
+- [[Returns list for entrypoints for InvenTree plugins.]] - rationale - inventree/src/backend/InvenTree/plugin/helpers.py
+- [[Returns the InstanceName settings for the current database.]] - rationale - inventree/src/backend/InvenTree/InvenTree/version.py
+- [[Returns the InstanceTitle for the current database.]] - rationale - inventree/src/backend/InvenTree/InvenTree/version.py
+- [[Returns the InvenTree configuration directory depending on the install type.]] - rationale - inventree/src/backend/InvenTree/InvenTree/config.py
+- [[Returns the InvenTree root directory.]] - rationale - inventree/src/backend/InvenTree/InvenTree/config.py
+- [[Returns the InvenTree test folder directory.]] - rationale - inventree/src/backend/InvenTree/InvenTree/config.py
+- [[Returns the InvenTree version string.]] - rationale - inventree/src/backend/InvenTree/InvenTree/version.py
+- [[Returns the base (top-level) InvenTree directory.]] - rationale - inventree/src/backend/InvenTree/InvenTree/config.py
+- [[Returns the branch for the running codebase - if set.]] - rationale - inventree/src/backend/InvenTree/InvenTree/version.py
+- [[Returns the branch we are currently building on, based on the environment variab]] - rationale - inventree/docs/main.py
+- [[Returns the checked path to a custom file.      Set lookup_media to True to also]] - rationale - inventree/src/backend/InvenTree/InvenTree/config.py
+- [[Returns the database settings for MoneyFields.]] - rationale - inventree/src/backend/InvenTree/InvenTree/fields.py
+- [[Returns the default page size for PDF reports.]] - rationale - inventree/src/backend/InvenTree/report/helpers.py
+- [[Returns the default value for the 'assembly' field of a Part object.]] - rationale - inventree/src/backend/InvenTree/part/settings.py
+- [[Returns the default value for the 'component' field of a Part object.]] - rationale - inventree/src/backend/InvenTree/part/settings.py
+- [[Returns the default value for the 'is_template' field of a Part object.]] - rationale - inventree/src/backend/InvenTree/part/settings.py
+- [[Returns the default value for the 'is_virtual' field of Part object.]] - rationale - inventree/src/backend/InvenTree/part/settings.py
+- [[Returns the default value for the 'purchasable' field for a Part object.]] - rationale - inventree/src/backend/InvenTree/part/settings.py
+- [[Returns the default value for the 'salable' field for a Part object.]] - rationale - inventree/src/backend/InvenTree/part/settings.py
+- [[Returns the default value for the 'trackable' field for a Part object.]] - rationale - inventree/src/backend/InvenTree/part/settings.py
+- [[Returns the git commit date for the running codebase.]] - rationale - inventree/src/backend/InvenTree/InvenTree/version.py
+- [[Returns the git commit hash for the running codebase.]] - rationale - inventree/src/backend/InvenTree/InvenTree/version.py
+- [[Returns the installer for the running codebase - if set or detectable.]] - rationale - inventree/src/backend/InvenTree/InvenTree/config.py
+- [[Returns the internal model class from the provided name.]] - rationale - inventree/src/backend/InvenTree/report/helpers.py
+- [[Returns the path of the InvenTree VERSION file. This does not ensure that the fi]] - rationale - inventree/src/backend/InvenTree/InvenTree/config.py
+- [[Returns the path of the InvenTree configuration file.      Note It will be crea]] - rationale - inventree/src/backend/InvenTree/InvenTree/config.py
+- [[Returns the path of the InvenTree plugins specification file.      Note It will]] - rationale - inventree/src/backend/InvenTree/InvenTree/config.py
+- [[Returns the path of the custom plugins directory.]] - rationale - inventree/src/backend/InvenTree/InvenTree/config.py
+- [[Returns the platform for the instance.]] - rationale - inventree/src/backend/InvenTree/InvenTree/version.py
+- [[Returns the target platform for the running codebase - if set.]] - rationale - inventree/src/backend/InvenTree/InvenTree/version.py
+- [[Returns the version of Django library.]] - rationale - inventree/src/backend/InvenTree/InvenTree/version.py
+- [[Returns the version of python.]] - rationale - inventree/src/backend/InvenTree/InvenTree/version.py
+- [[Reverse data migration to restore existing PartParameter records.          - Set]] - rationale - inventree/src/backend/InvenTree/part/migrations/0144_auto_20251203_1045.py
+- [[Reverse data migration, and map new Attachment model back to legacy models.]] - rationale - inventree/src/backend/InvenTree/common/migrations/0026_auto_20240608_1238.py
+- [[Reverse migration - remove any StockItemTracking entries which have a null item]] - rationale - inventree/src/backend/InvenTree/stock/migrations/0118_auto_20260205_1218.py
+- [[Reverse the migration, delete and SalesOrderShipment instances]] - rationale - inventree/src/backend/InvenTree/order/migrations/0055_auto_20211025_0645.py
+- [[Reverse the migrations]] - rationale - inventree/src/backend/InvenTree/company/migrations/0060_auto_20230519_0344.py
+- [[Reverse the owner migration      - Set the 'responsible' field to a selected us]] - rationale - inventree/src/backend/InvenTree/part/migrations/0116_auto_20231023_0332.py
+- [[Revert the 'setup_quantity' and 'attrition' fields back to 'overage'.          -]] - rationale - inventree/src/backend/InvenTree/part/migrations/0138_auto_20250718_2342.py
+- [[RoleTable.tsx]] - code - inventree/src/frontend/src/components/items/RoleTable.tsx
+- [[Ruleset string representation.]] - rationale - inventree/src/backend/InvenTree/users/models.py
+- [[Run after the build is complete.      Here we check that all global settings and]] - rationale - inventree/docs/docs/hooks.py
+- [[Run auto-instrumentation for OpenTelemetry tracing.]] - rationale - inventree/src/backend/InvenTree/InvenTree/tracing.py
+- [[Run data migration to fix potentially mis-applied data migration.          Ref]] - rationale - inventree/src/backend/InvenTree/stock/migrations/0108_auto_20240219_0252.py
+- [[Run forwards migration.           - Create a new ReportTemplate instance for eac]] - rationale - inventree/src/backend/InvenTree/report/migrations/0023_auto_20240421_0455.py
+- [[Run forwards migrations.          - Create a new LabelTemplate instance for each]] - rationale - inventree/src/backend/InvenTree/report/migrations/0026_auto_20240422_1301.py
+- [[Run reverse migration.      - Delete any ReportTemplate instances in the databas]] - rationale - inventree/src/backend/InvenTree/report/migrations/0023_auto_20240421_0455.py
+- [[Run reverse migrations.          - Delete any LabelTemplate instances in the dat]] - rationale - inventree/src/backend/InvenTree/report/migrations/0026_auto_20240422_1301.py
+- [[Run system wide setup init steps.          Like         - Checking if migration]] - rationale - inventree/src/backend/InvenTree/InvenTree/apps.py
+- [[Run the management command.]] - rationale - inventree/src/backend/InvenTree/InvenTree/management/commands/collectplugins.py
+- [[Run when the mkdocs config is loaded.      We want to be able to provide a dyna]] - rationale - inventree/docs/docs/hooks.py
+- [[SOAllocateTest]] - code - inventree/src/backend/InvenTree/plugin/base/barcodes/test_barcode.py
+- [[SalesOrderTest_1]] - code - inventree/src/backend/InvenTree/order/test_api.py
+- [[SalesOrderTest]] - code - inventree/src/backend/InvenTree/order/test_sales_order.py
+- [[SampleValidatorPlugin]] - code - inventree/src/backend/InvenTree/plugin/samples/integration/validation_sample.py
+- [[SampleValidatorPluginTest]] - code - inventree/src/backend/InvenTree/plugin/samples/integration/test_validation_sample.py
+- [[Save the hash representing the current state of the unit registry.      Because]] - rationale - inventree/src/backend/InvenTree/InvenTree/conversion.py
+- [[ScheduleMixin.py]] - code - inventree/src/backend/InvenTree/plugin/base/integration/ScheduleMixin.py
+- [[SearchResult]] - code - inventree/src/backend/InvenTree/plugin/base/supplier/helpers.py
+- [[SearchTests]] - code - inventree/src/backend/InvenTree/InvenTree/test_api.py
+- [[Self that the key field is created and correctly filled.]] - rationale - inventree/src/backend/InvenTree/part/test_migrations.py
+- [[Send an email with the login link to this user.]] - rationale - inventree/src/backend/InvenTree/InvenTree/magic_login.py
+- [[Send an email with the specified subject and body, to the specified recipients l_1]] - rationale - inventree/src/backend/InvenTree/InvenTree/helpers_email.py
+- [[Send email messages and log them to the database.          Args             ema]] - rationale - inventree/src/backend/InvenTree/InvenTree/backends.py
+- [[Send the password reset mail.]] - rationale - inventree/src/backend/InvenTree/InvenTree/auth_overrides.py
+- [[Serializer for the simple login view.]] - rationale - inventree/src/backend/InvenTree/InvenTree/magic_login.py
+- [[Set a cached value in the session cache.]] - rationale - inventree/src/backend/InvenTree/InvenTree/cache.py
+- [[Set backup metadata for the current backup operation.]] - rationale - inventree/src/backend/InvenTree/InvenTree/backup.py
+- [[Set database options specific to mysql backend.]] - rationale - inventree/src/backend/InvenTree/InvenTree/setting/db_backend.py
+- [[Set database options specific to postgres backend.]] - rationale - inventree/src/backend/InvenTree/InvenTree/setting/db_backend.py
+- [[Set database options specific to sqlite backend.      References     - https]] - rationale - inventree/src/backend/InvenTree/InvenTree/setting/db_backend.py
+- [[Set the 'testable' status to True for certain parts.      Prior to migration par]] - rationale - inventree/src/backend/InvenTree/part/migrations/0129_auto_20240815_0214.py
+- [[Set the default currency codes.          Ref httpsgithub.cominventreeInven]] - rationale - inventree/src/backend/InvenTree/common/migrations/0023_auto_20240602_1332.py
+- [[Set the internal barcode format for the plugin.]] - rationale - inventree/src/backend/InvenTree/plugin/builtin/barcodes/test_inventree_barcode.py
+- [[Set the status code for this object.          Arguments             status The]] - rationale - inventree/src/backend/InvenTree/generic/states/states.py
+- [[Set the value of the isGeneratingSchema variable.]] - rationale - inventree/src/backend/InvenTree/InvenTree/ready.py
+- [[Set up custom values.]] - rationale - inventree/src/backend/InvenTree/InvenTree/fields.py
+- [[Set up some companies with addresses.]] - rationale - inventree/src/backend/InvenTree/company/test_migrations.py
+- [[Set up the test case._1]] - rationale - inventree/src/backend/InvenTree/plugin/builtin/barcodes/test_inventree_barcode.py
+- [[Set up tracing for the application in the current context.      Args         en]] - rationale - inventree/src/backend/InvenTree/InvenTree/tracing.py
+- [[Setup initial database state.]] - rationale - inventree/src/backend/InvenTree/part/test_migrations.py
+- [[Setup the initial state of the database before migrations.]] - rationale - inventree/src/backend/InvenTree/users/test_migrations.py
+- [[Shortcut function to determine if a value looks like a boolean.]] - rationale - inventree/src/backend/InvenTree/InvenTree/config.py
+- [[SignupForm]] - code
+- [[Split a model string into its component parts.      Arguments         model_lab]] - rationale - inventree/src/backend/InvenTree/users/permissions.py
+- [[Split the permission string into its component parts.      Arguments         ap]] - rationale - inventree/src/backend/InvenTree/users/permissions.py
+- [[StaleStockNotificationTests]] - code - inventree/src/backend/InvenTree/part/test_notification_stale.py
+- [[Static files management for InvenTree plugins.]] - rationale - inventree/src/backend/InvenTree/plugin/staticfiles.py
+- [[Stock history functionality.]] - rationale - inventree/src/backend/InvenTree/part/stocktake.py
+- [[StockItemTest]] - code - inventree/src/backend/InvenTree/stock/test_api.py
+- [[StockTest]] - code - inventree/src/backend/InvenTree/stock/tests.py
+- [[SupplierBarcodePOReceiveTests]] - code - inventree/src/backend/InvenTree/plugin/builtin/suppliers/test_supplier_barcodes.py
+- [[Sync SSO groups when new SocialAccount is added.      Since the allauth `social_]] - rationale - inventree/src/backend/InvenTree/InvenTree/sso.py
+- [[Sync groups from IdP each time a SSO user logs on.      This event listener is r]] - rationale - inventree/src/backend/InvenTree/InvenTree/sso.py
+- [[Take a configuration setting and make sure it is a dict.      For example, we mi]] - rationale - inventree/src/backend/InvenTree/InvenTree/config.py
+- [[Take a configuration setting and make sure it is a list.      For example, we mi]] - rationale - inventree/src/backend/InvenTree/InvenTree/config.py
+- [[Template tags for rendering various barcodes.]] - rationale - inventree/src/backend/InvenTree/report/templatetags/barcode.py
+- [[Test JSON barcode generation.]] - rationale - inventree/src/backend/InvenTree/plugin/builtin/barcodes/test_inventree_barcode.py
+- [[Test case for custom management commands.]] - rationale - inventree/src/backend/InvenTree/InvenTree/test_commands.py
+- [[Test currency migration.]] - rationale - inventree/src/backend/InvenTree/common/test_migrations.py
+- [[Test currency migration._1]] - rationale - inventree/src/backend/InvenTree/common/test_migrations.py
+- [[Test data migration for the SalesOrderShipment model.]] - rationale - inventree/src/backend/InvenTree/order/test_migrations.py
+- [[Test data migration which fixes empty 'shipment date' on SalesOrder model.]] - rationale - inventree/src/backend/InvenTree/order/test_migrations.py
+- [[Test data migration which updates serial numbers.]] - rationale - inventree/src/backend/InvenTree/stock/test_migrations.py
+- [[Test database state after applying migrations.]] - rationale - inventree/src/backend/InvenTree/company/test_migrations.py
+- [[Test database state after applying the migration.]] - rationale - inventree/src/backend/InvenTree/company/test_migrations.py
+- [[Test entire schema migration sequence for the common app.]] - rationale - inventree/src/backend/InvenTree/common/test_migrations.py
+- [[Test entire schema migration sequence for the users app.]] - rationale - inventree/src/backend/InvenTree/users/test_migrations.py
+- [[Test for PartParameter deletion migration.      Ref httpsgithub.cominventre]] - rationale - inventree/src/backend/InvenTree/part/test_migrations.py
+- [[Test for data migration of Part.units field.]] - rationale - inventree/src/backend/InvenTree/part/test_migrations.py
+- [[Test for data migration of PartParameterTemplate.      Ref httpsgithub.comi]] - rationale - inventree/src/backend/InvenTree/part/test_migrations.py
+- [[Test if the InvenTree instance is up to date with the latest version.      A b]] - rationale - inventree/src/backend/InvenTree/InvenTree/version.py
+- [[Test migration of ManufacturerPartParameter data.      Ref httpsgithub.comi]] - rationale - inventree/src/backend/InvenTree/company/test_migrations.py
+- [[Test moving address data into Address model.]] - rationale - inventree/src/backend/InvenTree/company/test_migrations.py
+- [[Test scanning of first-party json barcodes.]] - rationale - inventree/src/backend/InvenTree/plugin/builtin/barcodes/test_inventree_barcode.py
+- [[Test scanning of first-party short barcodes.]] - rationale - inventree/src/backend/InvenTree/plugin/builtin/barcodes/test_inventree_barcode.py
+- [[Test scanning of third-party barcodes.]] - rationale - inventree/src/backend/InvenTree/plugin/builtin/barcodes/test_inventree_barcode.py
+- [[Test short barcode generation.]] - rationale - inventree/src/backend/InvenTree/plugin/builtin/barcodes/test_inventree_barcode.py
+- [[Test that ManufacturerPartParameter data has been migrated correctly.]] - rationale - inventree/src/backend/InvenTree/company/test_migrations.py
+- [[Test that PartParameter objects have been deleted.]] - rationale - inventree/src/backend/InvenTree/part/test_migrations.py
+- [[Test that all stock items were actually removed.]] - rationale - inventree/src/backend/InvenTree/stock/test_migrations.py
+- [[Test that no currency migration occurs if wrong currencies are set.]] - rationale - inventree/src/backend/InvenTree/common/test_migrations.py
+- [[Test that the 'reference_int' field has been created and is filled out correctly]] - rationale - inventree/src/backend/InvenTree/order/test_migrations.py
+- [[Test that the Category parameters are correctly fetched.]] - rationale - inventree/src/backend/InvenTree/part/test_category.py
+- [[Test that the Part model can still be accessed at the end of schema migration.]] - rationale - inventree/src/backend/InvenTree/part/test_migrations.py
+- [[Test that the migration has correctly updated the SalesOrder objects.]] - rationale - inventree/src/backend/InvenTree/order/test_migrations.py
+- [[Test that the migrations have been applied correctly.]] - rationale - inventree/src/backend/InvenTree/stock/test_migrations.py
+- [[Test that the migrations were applied as expected.]] - rationale - inventree/src/backend/InvenTree/stock/test_migrations.py
+- [[Test that the migrations were applied as expected._1]] - rationale - inventree/src/backend/InvenTree/stock/test_migrations.py
+- [[Test that the migrations were applied as expected._2]] - rationale - inventree/src/backend/InvenTree/stock/test_migrations.py
+- [[Test that the migrations were applied as expected._3]] - rationale - inventree/src/backend/InvenTree/stock/test_migrations.py
+- [[Test that the migrations were applied as expected._4]] - rationale - inventree/src/backend/InvenTree/stock/test_migrations.py
+- [[Test that the new companies have been created successfully.]] - rationale - inventree/src/backend/InvenTree/company/test_migrations.py
+- [[Test that the new companies have been created successfully._1]] - rationale - inventree/src/backend/InvenTree/company/test_migrations.py
+- [[Test that the new fields have been added correctly.]] - rationale - inventree/src/backend/InvenTree/part/test_migrations.py
+- [[Test that the supplier part quantity is correctly migrated.]] - rationale - inventree/src/backend/InvenTree/company/test_migrations.py
+- [[Test that the supplier part quantity is correctly migrated._1]] - rationale - inventree/src/backend/InvenTree/company/test_migrations.py
+- [[Test that the template units and values have been updated correctly.]] - rationale - inventree/src/backend/InvenTree/part/test_migrations.py
+- [[Test that the units have migrated OK.]] - rationale - inventree/src/backend/InvenTree/part/test_migrations.py
+- [[Test that user profiles are created during the migration.]] - rationale - inventree/src/backend/InvenTree/users/test_migrations.py
+- [[Test that users exist in the database.]] - rationale - inventree/src/backend/InvenTree/users/test_migrations.py
+- [[Test that we can assign a unique barcode to a Part instance.]] - rationale - inventree/src/backend/InvenTree/plugin/builtin/barcodes/test_inventree_barcode.py
+- [[Test that we can assign a unique barcode to a StockItem object.]] - rationale - inventree/src/backend/InvenTree/plugin/builtin/barcodes/test_inventree_barcode.py
+- [[Test that we can assign a unique barcode to a StockLocation instance.]] - rationale - inventree/src/backend/InvenTree/plugin/builtin/barcodes/test_inventree_barcode.py
+- [[Test the 'unique_children' functionality.]] - rationale - inventree/src/backend/InvenTree/part/test_category.py
+- [[Test the backup command.]] - rationale - inventree/src/backend/InvenTree/InvenTree/test_commands.py
+- [[Test the backup metadata functions.]] - rationale - inventree/src/backend/InvenTree/InvenTree/test_commands.py
+- [[Test the database state after applying all migrations.]] - rationale - inventree/src/backend/InvenTree/company/test_migrations.py
+- [[Test the remove_mfa command.]] - rationale - inventree/src/backend/InvenTree/InvenTree/test_commands.py
+- [[Test the restore validation functions.]] - rationale - inventree/src/backend/InvenTree/InvenTree/test_commands.py
+- [[Test the schema generation command.]] - rationale - inventree/src/backend/InvenTree/InvenTree/test_commands.py
+- [[Test to ensure that the attachments are correctly migrated.]] - rationale - inventree/src/backend/InvenTree/common/test_migrations.py
+- [[Test various error conditions for the barcode unassign endpoint.]] - rationale - inventree/src/backend/InvenTree/plugin/builtin/barcodes/test_inventree_barcode.py
+- [[TestAdditionalLineMigration]] - code - inventree/src/backend/InvenTree/order/test_migrations.py
+- [[TestAddressMigration]] - code - inventree/src/backend/InvenTree/company/test_migrations.py
+- [[TestAuth]] - code - inventree/src/backend/InvenTree/InvenTree/test_auth.py
+- [[TestBackfillUserProfiles]] - code - inventree/src/backend/InvenTree/users/test_migrations.py
+- [[TestBarcodeToUiReversedMigration]] - code - inventree/src/backend/InvenTree/stock/test_migrations.py
+- [[TestBarcodeToUidMigration]] - code - inventree/src/backend/InvenTree/stock/test_migrations.py
+- [[TestBomItemMigrations]] - code - inventree/src/backend/InvenTree/part/test_migrations.py
+- [[TestCurrencyMigration]] - code - inventree/src/backend/InvenTree/company/test_migrations.py
+- [[TestCurrencyMigrationNo]] - code - inventree/src/backend/InvenTree/common/test_migrations.py
+- [[TestForwardMigrations]] - code - inventree/src/backend/InvenTree/company/test_migrations.py
+- [[TestIfImage()]] - code - inventree/src/backend/InvenTree/InvenTree/helpers.py
+- [[TestInvenTreeBarcode]] - code - inventree/src/backend/InvenTree/plugin/builtin/barcodes/test_inventree_barcode.py
+- [[TestMachineRegistryMixin]] - code
+- [[TestManufacturerField]] - code - inventree/src/backend/InvenTree/company/test_migrations.py
+- [[TestManufacturerPart]] - code - inventree/src/backend/InvenTree/company/test_migrations.py
+- [[TestManufacturerPartParameterMigration]] - code - inventree/src/backend/InvenTree/company/test_migrations.py
+- [[TestParameterMigrations]] - code - inventree/src/backend/InvenTree/part/test_migrations.py
+- [[TestParams]] - code - inventree/src/backend/InvenTree/part/test_param.py
+- [[TestPartParameterDeletion]] - code - inventree/src/backend/InvenTree/part/test_migrations.py
+- [[TestPartParameterTemplateMigration]] - code - inventree/src/backend/InvenTree/part/test_migrations.py
+- [[TestPartTestParameterMigration]] - code - inventree/src/backend/InvenTree/part/test_migrations.py
+- [[TestPartTestTemplateTreeFixMigration]] - code - inventree/src/backend/InvenTree/stock/test_migrations.py
+- [[TestPathstringMigration]] - code - inventree/src/backend/InvenTree/stock/test_migrations.py
+- [[TestQueryMixin]] - code
+- [[TestRefIntMigrations]] - code - inventree/src/backend/InvenTree/order/test_migrations.py
+- [[TestScheduledForDeletionMigration]] - code - inventree/src/backend/InvenTree/stock/test_migrations.py
+- [[TestSerialNumberMigration]] - code - inventree/src/backend/InvenTree/stock/test_migrations.py
+- [[TestShipmentDateMigration]] - code - inventree/src/backend/InvenTree/order/test_migrations.py
+- [[TestShipmentMigration]] - code - inventree/src/backend/InvenTree/order/test_migrations.py
+- [[TestSsoGroupSync]] - code - inventree/src/backend/InvenTree/InvenTree/test_auth.py
+- [[TestStockItemTrackingMigration]] - code - inventree/src/backend/InvenTree/stock/test_migrations.py
+- [[TestSupplierPartQuantity]] - code - inventree/src/backend/InvenTree/company/test_migrations.py
+- [[TestTestResultMigration]] - code - inventree/src/backend/InvenTree/stock/test_migrations.py
+- [[Tests for BomItem migrations.]] - rationale - inventree/src/backend/InvenTree/part/test_migrations.py
+- [[Tests for custom InvenTree management commands.]] - rationale - inventree/src/backend/InvenTree/InvenTree/test_commands.py
+- [[Tests for migration 0019 which migrates from old 'manufacturer_name' field to ne]] - rationale - inventree/src/backend/InvenTree/company/test_migrations.py
+- [[Tests for migration 0034-0037 which added and transitioned to the ManufacturerPa]] - rationale - inventree/src/backend/InvenTree/company/test_migrations.py
+- [[Tests for the company model database migrations.]] - rationale - inventree/src/backend/InvenTree/company/test_migrations.py
+- [[Tests for the integrated InvenTreeBarcode barcode plugin.]] - rationale - inventree/src/backend/InvenTree/plugin/builtin/barcodes/test_inventree_barcode.py
+- [[Tests for upgrade from basic currency support to django-money.]] - rationale - inventree/src/backend/InvenTree/company/test_migrations.py
+- [[The passed value must be a valid variable identifier string.]] - rationale - inventree/src/backend/InvenTree/common/validators.py
+- [[This function is called whenever the Part app is loaded.]] - rationale - inventree/src/backend/InvenTree/part/apps.py
+- [[This function is called whenever the app is loaded.]] - rationale - inventree/src/backend/InvenTree/report/apps.py
+- [[This is the 'reverse' operation of the manufacturer reversal.     This operation]] - rationale - inventree/src/backend/InvenTree/company/migrations/0019_auto_20200413_0642.py
+- [[This method tries to convert the data to an internal representation based on the]] - rationale - inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[This method tries to extract the child based on the provided data in the request]] - rationale - inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[This migration is the middle step in migration of the manufacturer field for]] - rationale - inventree/src/backend/InvenTree/company/migrations/0019_auto_20200413_0642.py
+- [[To json-serializable type.]] - rationale - inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[To json-serializable type._1]] - rationale - inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[Trigger an event whenever a database entry is deleted.]] - rationale - inventree/src/backend/InvenTree/plugin/base/event/events.py
+- [[Trigger an event whenever a database entry is saved.]] - rationale - inventree/src/backend/InvenTree/plugin/base/event/events.py
+- [[Uninstall a plugin from the python virtual environment.      - The plugin must n]] - rationale - inventree/src/backend/InvenTree/plugin/installer.py
+- [[Unit test for part parameter migrations.]] - rationale - inventree/src/backend/InvenTree/part/test_migrations.py
+- [[Unit testing class for testing 'company' app migrations.]] - rationale - inventree/src/backend/InvenTree/company/test_migrations.py
+- [[Unit tests for StockItemTestResult data migrations.]] - rationale - inventree/src/backend/InvenTree/stock/test_migrations.py
+- [[Unit tests for StockItemTracking code migrations.]] - rationale - inventree/src/backend/InvenTree/stock/test_migrations.py
+- [[Unit tests for StockLocation.Pathstring data migrations.]] - rationale - inventree/src/backend/InvenTree/stock/test_migrations.py
+- [[Unit tests for barcode to uid data migrations.]] - rationale - inventree/src/backend/InvenTree/stock/test_migrations.py
+- [[Unit tests for barcode to uid data migrations._1]] - rationale - inventree/src/backend/InvenTree/stock/test_migrations.py
+- [[Unit tests for fixing issues with PartTestTemplate tree branch confusion migrati]] - rationale - inventree/src/backend/InvenTree/stock/test_migrations.py
+- [[Unit tests for the PartCategory model.]] - rationale - inventree/src/backend/InvenTree/part/test_category.py
+- [[Update all existing BomItem instances, and cache the 'validated' field.      The]] - rationale - inventree/src/backend/InvenTree/part/migrations/0102_auto_20230314_0112.py
+- [[Update all references of the given model, with the specified prefix]] - rationale - inventree/src/backend/InvenTree/order/migrations/0074_auto_20220709_0108.py
+- [[Update database options based on the specified database backend.      Arguments]] - rationale - inventree/src/backend/InvenTree/InvenTree/setting/db_backend.py
+- [[Update each existing StockItemTracking object,     convert the recorded quantit]] - rationale - inventree/src/backend/InvenTree/stock/migrations/0061_auto_20210511_0911.py
+- [[Update global setting key from PART_PARAMETER_ENFORCE_UNITS to PARAMETER_ENFORCE]] - rationale - inventree/src/backend/InvenTree/common/migrations/0041_auto_20251203_1244.py
+- [[Update the parameter values for all parts      - Calculate the 'data_numeric' v]] - rationale - inventree/src/backend/InvenTree/part/migrations/0109_auto_20230517_1048.py
+- [[Update the shipment date for existing SalesOrderAllocation objects]] - rationale - inventree/src/backend/InvenTree/order/migrations/0105_auto_20241128_0431.py
+- [[Update the units field for each Part object      - Check if the units are valid]] - rationale - inventree/src/backend/InvenTree/part/migrations/0111_auto_20230521_1350.py
+- [[Update the units for each parameter template      - Check if the units are vali]] - rationale - inventree/src/backend/InvenTree/part/migrations/0109_auto_20230517_1048.py
+- [[UserAPITests]] - code - inventree/src/backend/InvenTree/users/test_api.py
+- [[UserInterfaceMixinTests]] - code - inventree/src/backend/InvenTree/plugin/base/ui/tests.py
+- [[UserTokenTests]] - code - inventree/src/backend/InvenTree/users/test_api.py
+- [[UserType]] - code - inventree/src/backend/InvenTree/users/models.py
+- [[Validate a package plugin for update or removal.]] - rationale - inventree/src/backend/InvenTree/plugin/installer.py
+- [[Validate primary_group on user profiles when a group is added or removed.]] - rationale - inventree/src/backend/InvenTree/users/models.py
+- [[Validate primary_group on user profiles when a group is deleted.]] - rationale - inventree/src/backend/InvenTree/users/models.py
+- [[Validate that a URL does not point to a privateinternal network address.      R]] - rationale - inventree/src/backend/InvenTree/InvenTree/helpers_model.py
+- [[Validate that the given model type is supported for importing.]] - rationale - inventree/src/backend/InvenTree/importer/validators.py
+- [[Validate that the provided model filters are valid.]] - rationale - inventree/src/backend/InvenTree/report/validators.py
+- [[Validate that the provided value is a valid dict.]] - rationale - inventree/src/backend/InvenTree/importer/validators.py
+- [[Validate that the provided value is a valid physical quantity.      Arguments]] - rationale - inventree/src/backend/InvenTree/InvenTree/conversion.py
+- [[Validate the email domains setting.]] - rationale - inventree/src/backend/InvenTree/common/validators.py
+- [[Validate the provided data file.]] - rationale - inventree/src/backend/InvenTree/importer/validators.py
+- [[Validate the provided icon name, and ignore if empty.]] - rationale - inventree/src/backend/InvenTree/common/validators.py
+- [[Validate whether a backup restore operation should proceed, based on the provide]] - rationale - inventree/src/backend/InvenTree/InvenTree/backup.py
+- [[ValidationMixin]] - code
+- [[Validator for PRICING_DECIMAL_PLACES_MAX setting.]] - rationale - inventree/src/backend/InvenTree/common/validators.py
+- [[Validator for PRICING_DECIMAL_PLACES_MIN setting.]] - rationale - inventree/src/backend/InvenTree/common/validators.py
+- [[ValueError]] - code
+- [[View to send a simple login link.]] - rationale - inventree/src/backend/InvenTree/InvenTree/magic_login.py
+- [[Wait till the database is ready.]] - rationale - inventree/src/backend/InvenTree/InvenTree/management/commands/wait_for_db.py
+- [[Warn if the config directory is not used.]] - rationale - inventree/src/backend/InvenTree/InvenTree/config.py
+- [[_()]] - code - inventree/docs/docs/javascripts/splide.min.js
+- [[__init__.py_9]] - code - inventree/src/backend/InvenTree/plugin/__init__.py
+- [[_action_complete()]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[_activate_mixin()_2]] - code - inventree/src/backend/InvenTree/plugin/base/integration/AppMixin.py
+- [[_activate_mixin()_4]] - code - inventree/src/backend/InvenTree/plugin/base/icons/mixins.py
+- [[_activate_mixin()_1]] - code - inventree/src/backend/InvenTree/plugin/base/integration/ScheduleMixin.py
+- [[_activate_mixin()]] - code - inventree/src/backend/InvenTree/plugin/base/integration/UrlsMixin.py
+- [[_convert_model()]] - code - inventree/src/backend/InvenTree/order/migrations/0064_purchaseorderextraline_salesorderextraline.py
+- [[_create_serial_numbers()]] - code - inventree/src/backend/InvenTree/stock/models.py
+- [[_deactivate_mixin()]] - code - inventree/src/backend/InvenTree/plugin/base/integration/AppMixin.py
+- [[_gather_environment_metadata()]] - code - inventree/src/backend/InvenTree/InvenTree/backup.py
+- [[_get_package_commit()]] - code - inventree/src/backend/InvenTree/plugin/plugin.py
+- [[_get_package_metadata()]] - code - inventree/src/backend/InvenTree/plugin/plugin.py
+- [[_get_plugin_path()]] - code - inventree/src/backend/InvenTree/plugin/base/integration/AppMixin.py
+- [[_is_element()]] - code - inventree/src/backend/InvenTree/generic/states/states.py
+- [[_is_package()]] - code - inventree/src/backend/InvenTree/plugin/plugin.py
+- [[_load_source()]] - code - inventree/src/backend/InvenTree/plugin/registry.py
+- [[_parse_environment_metadata()]] - code - inventree/src/backend/InvenTree/InvenTree/backup.py
+- [[_reconvert_model()]] - code - inventree/src/backend/InvenTree/order/migrations/0064_purchaseorderextraline_salesorderextraline.py
+- [[_setGeneratingSchema()]] - code - inventree/src/backend/InvenTree/InvenTree/ready.py
+- [[_touch_order_updated_at()]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[activateLocale()]] - code - inventree/src/frontend/src/contexts/LanguageContext.tsx
+- [[active()_1]] - code - inventree/src/backend/InvenTree/users/models.py
+- [[active_builds()]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[add()_1]] - code - inventree/src/backend/InvenTree/report/templatetags/report.py
+- [[addUserPermission()]] - code - inventree/src/backend/InvenTree/InvenTree/unit_test.py
+- [[add_heartbeat()]] - code - inventree/src/backend/InvenTree/InvenTree/apps.py
+- [[add_line_item()]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[add_machine()]] - code - inventree/src/backend/InvenTree/machine/registry.py
+- [[add_part_links()]] - code - inventree/src/backend/InvenTree/stock/migrations/0118_auto_20260205_1218.py
+- [[add_shipment()]] - code - inventree/src/backend/InvenTree/order/migrations/0055_auto_20211025_0645.py
+- [[add_stock()]] - code - inventree/src/backend/InvenTree/stock/models.py
+- [[add_user_from_file()]] - code - inventree/src/backend/InvenTree/InvenTree/apps.py
+- [[add_user_on_startup()]] - code - inventree/src/backend/InvenTree/InvenTree/apps.py
+- [[address()]] - code - inventree/src/backend/InvenTree/company/models.py
+- [[admin_context()]] - code - inventree/src/backend/InvenTree/plugin/models.py
+- [[admin_source()]] - code - inventree/src/backend/InvenTree/plugin/models.py
+- [[after_change_currency()]] - code - inventree/src/backend/InvenTree/common/currency.py
+- [[after_delete()]] - code - inventree/src/backend/InvenTree/plugin/base/event/events.py
+- [[after_delete_stock_item()]] - code - inventree/src/backend/InvenTree/stock/models.py
+- [[after_delete_supplier_price()]] - code - inventree/src/backend/InvenTree/company/models.py
+- [[after_error_logged()]] - code - inventree/src/backend/InvenTree/InvenTree/models.py
+- [[after_failed_task()]] - code - inventree/src/backend/InvenTree/InvenTree/models.py
+- [[after_save()]] - code - inventree/src/backend/InvenTree/plugin/base/event/events.py
+- [[after_save_part()]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[after_save_sales_order()]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[after_save_stock_item()]] - code - inventree/src/backend/InvenTree/stock/models.py
+- [[after_save_supplier_price()]] - code - inventree/src/backend/InvenTree/company/models.py
+- [[all()_1]] - code - inventree/src/backend/InvenTree/common/api.py
+- [[allValues()]] - code - inventree/src/backend/InvenTree/common/models.py
+- [[all_settings()]] - code - inventree/src/backend/InvenTree/common/models.py
+- [[allow_table_event()]] - code - inventree/src/backend/InvenTree/plugin/base/event/events.py
+- [[allowable_url_schemes()]] - code - inventree/src/backend/InvenTree/InvenTree/validators.py
+- [[annotate_bom_item_can_build()]] - code - inventree/src/backend/InvenTree/part/filters.py
+- [[annotate_build_order_allocations()]] - code - inventree/src/backend/InvenTree/part/filters.py
+- [[annotate_build_order_requirements()]] - code - inventree/src/backend/InvenTree/part/filters.py
+- [[annotate_category_parts()]] - code - inventree/src/backend/InvenTree/part/filters.py
+- [[annotate_default_location()]] - code - inventree/src/backend/InvenTree/part/filters.py
+- [[annotate_in_production_quantity()]] - code - inventree/src/backend/InvenTree/part/filters.py
+- [[annotate_location_items()]] - code - inventree/src/backend/InvenTree/stock/filters.py
+- [[annotate_on_order_quantity()]] - code - inventree/src/backend/InvenTree/company/filters.py
+- [[annotate_queryset()]] - code - inventree/src/backend/InvenTree/company/serializers.py
+- [[annotate_sales_order_allocations()]] - code - inventree/src/backend/InvenTree/part/filters.py
+- [[annotate_sales_order_requirements()]] - code - inventree/src/backend/InvenTree/part/filters.py
+- [[annotate_scheduled_to_build_quantity()]] - code - inventree/src/backend/InvenTree/part/filters.py
+- [[annotate_sub_categories()]] - code - inventree/src/backend/InvenTree/part/filters.py
+- [[annotate_sub_locations()]] - code - inventree/src/backend/InvenTree/stock/filters.py
+- [[annotate_total_stock()]] - code - inventree/src/backend/InvenTree/part/filters.py
+- [[annotate_variant_quantity()]] - code - inventree/src/backend/InvenTree/part/filters.py
+- [[api_defaults()]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[api_version.py]] - code - inventree/src/backend/InvenTree/InvenTree/api_version.py
+- [[append()_1]] - code - inventree/docs/docs/javascripts/splide.esm.js
+- [[apps.py_3]] - code - inventree/src/backend/InvenTree/common/apps.py
+- [[apps.py_10]] - code - inventree/src/backend/InvenTree/InvenTree/apps.py
+- [[assertNumQueriesLessThan()]] - code - inventree/src/backend/InvenTree/InvenTree/unit_test.py
+- [[asset()]] - code - inventree/src/backend/InvenTree/report/templatetags/report.py
+- [[assignRole()]] - code - inventree/src/backend/InvenTree/InvenTree/unit_test.py
+- [[associate_manufacturers()]] - code - inventree/src/backend/InvenTree/company/migrations/0019_auto_20200413_0642.py
+- [[async()]] - code - inventree/src/frontend/src/components/wizards/ImportPartWizard.tsx
+- [[attachmentIcon()]] - code - inventree/src/frontend/src/components/items/AttachmentLink.tsx
+- [[attachment_model_class_from_label()]] - code - inventree/src/backend/InvenTree/common/validators.py
+- [[attachment_model_options()]] - code - inventree/src/backend/InvenTree/common/validators.py
+- [[attachment_model_types()]] - code - inventree/src/backend/InvenTree/common/validators.py
+- [[attachments()]] - code - inventree/src/backend/InvenTree/InvenTree/models.py
+- [[auth_overrides.py]] - code - inventree/src/backend/InvenTree/InvenTree/auth_overrides.py
+- [[author()]] - code - inventree/src/backend/InvenTree/plugin/plugin.py
+- [[available_fields()]] - code - inventree/src/backend/InvenTree/importer/models.py
+- [[available_stock()]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[backfill_user_profiles()]] - code - inventree/src/backend/InvenTree/users/migrations/0014_userprofile.py
+- [[backup.py]] - code - inventree/src/backend/InvenTree/InvenTree/backup.py
+- [[backup_date_format()]] - code - inventree/src/backend/InvenTree/InvenTree/backup.py
+- [[backup_email_on_error()]] - code - inventree/src/backend/InvenTree/InvenTree/backup.py
+- [[backup_email_prefix()]] - code - inventree/src/backend/InvenTree/InvenTree/backup.py
+- [[backup_filename_template()]] - code - inventree/src/backend/InvenTree/InvenTree/backup.py
+- [[backup_gpg_recipient()]] - code - inventree/src/backend/InvenTree/InvenTree/backup.py
+- [[backup_media_filename_template()]] - code - inventree/src/backend/InvenTree/InvenTree/backup.py
+- [[barcode()]] - code - inventree/src/backend/InvenTree/report/templatetags/barcode.py
+- [[barcode()_1]] - code - inventree/src/backend/InvenTree/InvenTree/models.py
+- [[barcode.py]] - code - inventree/src/backend/InvenTree/report/templatetags/barcode.py
+- [[barcode_model_type()]] - code - inventree/src/backend/InvenTree/InvenTree/models.py
+- [[barcode_model_type_code()]] - code - inventree/src/backend/InvenTree/company/models.py
+- [[barcode_plugins()]] - code - inventree/src/backend/InvenTree/common/setting/system.py
+- [[barcode_to_uid()]] - code - inventree/src/backend/InvenTree/stock/migrations/0085_auto_20220903_0225.py
+- [[bom_count()]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[build_default_values()]] - code - inventree/src/backend/InvenTree/common/models.py
+- [[build_refs()]] - code - inventree/src/backend/InvenTree/order/migrations/0052_auto_20211014_0631.py
+- [[cache.py]] - code - inventree/src/backend/InvenTree/InvenTree/cache.py
+- [[cache_bom_valid()]] - code - inventree/src/backend/InvenTree/part/migrations/0141_auto_20250722_0303.py
+- [[cache_db()]] - code - inventree/src/backend/InvenTree/InvenTree/cache.py
+- [[cache_host()]] - code - inventree/src/backend/InvenTree/InvenTree/cache.py
+- [[cache_password()]] - code - inventree/src/backend/InvenTree/InvenTree/cache.py
+- [[cache_port()]] - code - inventree/src/backend/InvenTree/InvenTree/cache.py
+- [[cache_setting()]] - code - inventree/src/backend/InvenTree/InvenTree/cache.py
+- [[cache_user()]] - code - inventree/src/backend/InvenTree/InvenTree/cache.py
+- [[calculate_shipped_quantity()]] - code - inventree/src/backend/InvenTree/order/migrations/0058_auto_20211126_1210.py
+- [[call_machine_function()]] - code - inventree/src/backend/InvenTree/machine/registry.py
+- [[call_plugin_function()]] - code - inventree/src/backend/InvenTree/plugin/registry.py
+- [[canAppAccessDatabase()]] - code - inventree/src/backend/InvenTree/InvenTree/ready.py
+- [[can_adjust_location()]] - code - inventree/src/backend/InvenTree/stock/models.py
+- [[can_build()]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[can_cache_registry()]] - code - inventree/src/backend/InvenTree/InvenTree/conversion.py
+- [[can_cancel()]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[can_convert()]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[can_hold()]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[can_issue()]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[category_path()]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[check()]] - code - inventree/docs/docs/javascripts/splide.js
+- [[checkMinPythonVersion()]] - code - inventree/src/backend/InvenTree/InvenTree/version.py
+- [[checkPluginVersion()]] - code - inventree/src/frontend/lib/functions/Plugins.tsx
+- [[checkStaticFile()]] - code - inventree/src/backend/InvenTree/InvenTree/helpers.py
+- [[check_all_settings()]] - code - inventree/src/backend/InvenTree/common/models.py
+- [[check_bom_valid()]] - code - inventree/src/backend/InvenTree/part/tasks.py
+- [[check_config_dir()]] - code - inventree/src/backend/InvenTree/InvenTree/config.py
+- [[check_daily_holdoff()]] - code - inventree/src/backend/InvenTree/InvenTree/tasks.py
+- [[check_existing_task()]] - code - inventree/src/backend/InvenTree/InvenTree/tasks.py
+- [[check_for_migrations()]] - code - inventree/src/backend/InvenTree/InvenTree/tasks.py
+- [[check_for_updates()]] - code - inventree/src/backend/InvenTree/InvenTree/tasks.py
+- [[check_is_builtin()]] - code - inventree/src/backend/InvenTree/plugin/plugin.py
+- [[check_is_package()]] - code - inventree/src/backend/InvenTree/plugin/plugin.py
+- [[check_is_sample()]] - code - inventree/src/backend/InvenTree/plugin/plugin.py
+- [[check_link()]] - code - inventree/docs/main.py
+- [[check_missing_pricing()]] - code - inventree/src/backend/InvenTree/part/tasks.py
+- [[check_nulls()]] - code - inventree/src/backend/InvenTree/report/templatetags/report.py
+- [[check_overdue_purchase_orders()]] - code - inventree/src/backend/InvenTree/order/tasks.py
+- [[check_overdue_return_orders()]] - code - inventree/src/backend/InvenTree/order/tasks.py
+- [[check_overdue_sales_orders()]] - code - inventree/src/backend/InvenTree/order/tasks.py
+- [[check_package_install_name()]] - code - inventree/src/backend/InvenTree/plugin/plugin.py
+- [[check_package_path()]] - code - inventree/src/backend/InvenTree/plugin/plugin.py
+- [[check_plugin()]] - code - inventree/src/backend/InvenTree/plugin/api.py
+- [[check_provider()]] - code - inventree/src/backend/InvenTree/InvenTree/sso.py
+- [[check_recent()]] - code - inventree/src/backend/InvenTree/common/models.py
+- [[check_related_permission()]] - code - inventree/src/backend/InvenTree/InvenTree/models.py
+- [[check_reload()]] - code - inventree/src/backend/InvenTree/plugin/registry.py
+- [[check_stale_stock()]] - code - inventree/src/backend/InvenTree/part/tasks.py
+- [[check_system_health()]] - code - inventree/src/backend/InvenTree/InvenTree/status.py
+- [[check_user_permission()]] - code - inventree/src/backend/InvenTree/users/permissions.py
+- [[check_user_role()]] - code - inventree/src/backend/InvenTree/users/permissions.py
+- [[check_version()]] - code - inventree/src/backend/InvenTree/plugin/plugin.py
+- [[child_count()]] - code - inventree/src/backend/InvenTree/stock/models.py
+- [[children()_3]] - code - inventree/src/backend/InvenTree/stock/models.py
+- [[clean_barcode()]] - code - inventree/src/backend/InvenTree/report/templatetags/barcode.py
+- [[clean_decimal()]] - code - inventree/src/backend/InvenTree/InvenTree/helpers.py
+- [[clean_markdown()]] - code - inventree/src/backend/InvenTree/InvenTree/helpers.py
+- [[clean_params()]] - code - inventree/src/backend/InvenTree/InvenTree/management/commands/schema.py
+- [[cleanup_import_sessions()]] - code - inventree/src/backend/InvenTree/importer/tasks.py
+- [[cleanup_old_data_outputs()]] - code - inventree/src/backend/InvenTree/common/tasks.py
+- [[clear()_1]] - code - inventree/src/backend/InvenTree/company/migrations/0019_auto_20200413_0642.py
+- [[clearLoadedApps()]] - code - inventree/src/backend/InvenTree/InvenTree/ready.py
+- [[clearRoles()]] - code - inventree/src/backend/InvenTree/InvenTree/unit_test.py
+- [[clear_bom()]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[clear_plugin_static_files()]] - code - inventree/src/backend/InvenTree/plugin/staticfiles.py
+- [[clear_plugins_static_files()]] - code - inventree/src/backend/InvenTree/plugin/staticfiles.py
+- [[clear_restart_flag()]] - code - inventree/src/backend/InvenTree/common/apps.py
+- [[clear_static_dir()]] - code - inventree/src/backend/InvenTree/plugin/staticfiles.py
+- [[clear_test_results()]] - code - inventree/src/backend/InvenTree/stock/models.py
+- [[collect_plugins_static_files()]] - code - inventree/src/backend/InvenTree/plugin/staticfiles.py
+- [[collect_tasks()]] - code - inventree/src/backend/InvenTree/InvenTree/apps.py
+- [[company_image()]] - code - inventree/src/backend/InvenTree/report/templatetags/report.py
+- [[compile_full_name_template()]] - code - inventree/src/backend/InvenTree/part/helpers.py
+- [[complete_order()]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[complete_sales_order_shipment()]] - code - inventree/src/backend/InvenTree/order/tasks.py
+- [[complete_shipment()]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[completed_line_count()]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[completed_row_count()]] - code - inventree/src/backend/InvenTree/importer/models.py
+- [[completed_shipment_count()]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[config.py]] - code - inventree/src/backend/InvenTree/InvenTree/config.py
+- [[constructPathString()]] - code - inventree/src/backend/InvenTree/InvenTree/helpers.py
+- [[construct_absolute_url()]] - code - inventree/src/backend/InvenTree/InvenTree/helpers_model.py
+- [[conversion.py]] - code - inventree/src/backend/InvenTree/InvenTree/conversion.py
+- [[convert_currency()]] - code - inventree/src/backend/InvenTree/report/templatetags/report.py
+- [[convert_legacy_labels()]] - code - inventree/src/backend/InvenTree/report/migrations/0026_auto_20240422_1301.py
+- [[convert_line_items()]] - code - inventree/src/backend/InvenTree/order/migrations/0064_purchaseorderextraline_salesorderextraline.py
+- [[convert_overage()]] - code - inventree/src/backend/InvenTree/part/migrations/0138_auto_20250718_2342.py
+- [[convert_physical_value()]] - code - inventree/src/backend/InvenTree/InvenTree/conversion.py
+- [[convert_serial_to_int()]] - code - inventree/src/backend/InvenTree/stock/models.py
+- [[convert_to_numeric_value()]] - code - inventree/src/backend/InvenTree/common/migrations/0041_auto_20251203_1244.py
+- [[convert_to_numeric_value()_1]] - code - inventree/src/backend/InvenTree/part/migrations/0109_auto_20230517_1048.py
+- [[convert_to_variant()]] - code - inventree/src/backend/InvenTree/stock/models.py
+- [[convert_value()]] - code - inventree/src/backend/InvenTree/InvenTree/conversion.py
+- [[copyHistoryFrom()]] - code - inventree/src/backend/InvenTree/stock/models.py
+- [[copyTestResultsFrom()]] - code - inventree/src/backend/InvenTree/stock/models.py
+- [[copy_bom_from()]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[copy_category_parameters()]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[copy_manufacturer_part_parameters()]] - code - inventree/src/backend/InvenTree/common/migrations/0041_auto_20251203_1244.py
+- [[copy_parameters_from()]] - code - inventree/src/backend/InvenTree/InvenTree/models.py
+- [[copy_plugin_static_files()]] - code - inventree/src/backend/InvenTree/plugin/staticfiles.py
+- [[copy_tests_from()]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[count()]] - code - inventree/docs/docs/javascripts/mermaid.min.js
+- [[count_queries()]] - code - inventree/src/backend/InvenTree/InvenTree/unit_test.py
+- [[create()_4]] - code - inventree/src/backend/InvenTree/company/models.py
+- [[create()_3]] - code - inventree/src/backend/InvenTree/part/serializers.py
+- [[create_cache_key()]] - code - inventree/src/backend/InvenTree/common/models.py
+- [[create_currency()]] - code - inventree/src/backend/InvenTree/report/templatetags/report.py
+- [[create_email_address()]] - code - inventree/src/backend/InvenTree/users/models.py
+- [[create_missing_rule_sets()]] - code - inventree/src/backend/InvenTree/users/models.py
+- [[create_or_update_user_profile()]] - code - inventree/src/backend/InvenTree/users/models.py
+- [[create_owner()]] - code - inventree/src/backend/InvenTree/users/models.py
+- [[cui_compatibility_urls()]] - code - inventree/src/backend/InvenTree/web/urls.py
+- [[currency()]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[currency.py]] - code - inventree/src/backend/InvenTree/common/currency.py
+- [[currency_code()]] - code - inventree/src/backend/InvenTree/company/models.py
+- [[currency_code_default()]] - code - inventree/src/backend/InvenTree/common/currency.py
+- [[currency_code_mappings()]] - code - inventree/src/backend/InvenTree/common/currency.py
+- [[currency_codes()]] - code - inventree/src/backend/InvenTree/common/currency.py
+- [[currency_codes_default_list()]] - code - inventree/src/backend/InvenTree/common/currency.py
+- [[currency_exchange_plugins()]] - code - inventree/src/backend/InvenTree/common/currency.py
+- [[current_date()]] - code - inventree/src/backend/InvenTree/InvenTree/helpers.py
+- [[current_time()]] - code - inventree/src/backend/InvenTree/InvenTree/helpers.py
+- [[custom_queryset()]] - code - inventree/src/backend/InvenTree/generic/states/states.py
+- [[custom_values()]] - code - inventree/src/backend/InvenTree/generic/states/states.py
+- [[datamatrix()]] - code - inventree/src/backend/InvenTree/report/templatetags/barcode.py
+- [[db_backend.py]] - code - inventree/src/backend/InvenTree/InvenTree/setting/db_backend.py
+- [[decimal()]] - code - inventree/src/backend/InvenTree/InvenTree/templatetags/inventree_extras.py
+- [[decimal2money()]] - code - inventree/src/backend/InvenTree/InvenTree/helpers.py
+- [[decimal2string()]] - code - inventree/src/backend/InvenTree/InvenTree/helpers.py
+- [[default_delete_on_deplete()]] - code - inventree/src/backend/InvenTree/stock/models.py
+- [[default_sentry_dsn()]] - code - inventree/src/backend/InvenTree/InvenTree/sentry.py
+- [[default_supplier()]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[default_token()]] - code - inventree/src/backend/InvenTree/users/models.py
+- [[default_token_expiry()]] - code - inventree/src/backend/InvenTree/users/models.py
+- [[default_uuid4()]] - code - inventree/src/backend/InvenTree/common/setting/system.py
+- [[default_values()]] - code - inventree/src/backend/InvenTree/importer/models.py
+- [[define()]] - code - inventree/src/backend/InvenTree/InvenTree/templatetags/inventree_extras.py
+- [[define_env()]] - code - inventree/docs/main.py
+- [[delete()_1]] - code - inventree/src/backend/InvenTree/InvenTree/api.py
+- [[deletePart()]] - code - inventree/src/frontend/tests/helpers.ts
+- [[delete_failed_tasks()]] - code - inventree/src/backend/InvenTree/InvenTree/tasks.py
+- [[delete_old_emails()]] - code - inventree/src/backend/InvenTree/InvenTree/tasks.py
+- [[delete_old_error_logs()]] - code - inventree/src/backend/InvenTree/InvenTree/tasks.py
+- [[delete_old_notes_images()]] - code - inventree/src/backend/InvenTree/common/tasks.py
+- [[delete_old_notifications()]] - code - inventree/src/backend/InvenTree/InvenTree/tasks.py
+- [[delete_old_stock_tracking()]] - code - inventree/src/backend/InvenTree/stock/tasks.py
+- [[delete_owner()]] - code - inventree/src/backend/InvenTree/users/models.py
+- [[delete_scheduled()]] - code - inventree/src/backend/InvenTree/stock/migrations/0071_auto_20211205_1733.py
+- [[delete_successful_tasks()]] - code - inventree/src/backend/InvenTree/InvenTree/tasks.py
+- [[description()_1]] - code - inventree/src/backend/InvenTree/plugin/plugin.py
+- [[determine_content_type()]] - code - inventree/src/backend/InvenTree/common/filters.py
+- [[dict()]] - code - inventree/src/backend/InvenTree/generic/states/states.py
+- [[discover_filters()]] - code - inventree/src/backend/InvenTree/InvenTree/management/commands/export_filters.py
+- [[discover_tags()]] - code - inventree/src/backend/InvenTree/InvenTree/management/commands/export_tags.py
+- [[distinct()]] - code - inventree/docs/docs/javascripts/mermaid.min.js
+- [[do_typecast()]] - code - inventree/src/backend/InvenTree/InvenTree/config.py
+- [[download_image_from_url()]] - code - inventree/src/backend/InvenTree/InvenTree/helpers_model.py
+- [[email_user()]] - code - inventree/src/backend/InvenTree/InvenTree/tasks.py
+- [[encode_image_base64()]] - code - inventree/src/backend/InvenTree/report/helpers.py
+- [[encode_svg_image()]] - code - inventree/src/backend/InvenTree/report/templatetags/report.py
+- [[enforce_mfa()]] - code - inventree/src/backend/InvenTree/common/setting/system.py
+- [[ensure_dir()]] - code - inventree/src/backend/InvenTree/InvenTree/config.py
+- [[ensure_sso_groups()]] - code - inventree/src/backend/InvenTree/InvenTree/sso.py
+- [[errors()_2]] - code - inventree/src/backend/InvenTree/machine/registry.py
+- [[events.py_2]] - code - inventree/src/backend/InvenTree/plugin/base/event/events.py
+- [[exception_handler()]] - code - inventree/src/backend/InvenTree/InvenTree/exceptions.py
+- [[exceptions.py]] - code - inventree/src/backend/InvenTree/InvenTree/exceptions.py
+- [[exchange()]] - code - inventree/src/backend/InvenTree/common/api.py
+- [[exclude()]] - code - inventree/docs/docs/javascripts/mermaid.min.js
+- [[exists()]] - code - inventree/docs/docs/javascripts/mermaid.min.js
+- [[expired()]] - code - inventree/src/backend/InvenTree/users/models.py
+- [[export_data()]] - code - inventree/src/backend/InvenTree/data_exporter/tasks.py
+- [[extract_column_names()]] - code - inventree/src/backend/InvenTree/importer/operations.py
+- [[extract_int()]] - code - inventree/src/backend/InvenTree/InvenTree/helpers.py
+- [[extract_named_group()]] - code - inventree/src/backend/InvenTree/InvenTree/format.py
+- [[extract_purchase_price()]] - code - inventree/src/backend/InvenTree/stock/migrations/0064_auto_20210621_1724.py
+- [[extract_refs()]] - code - inventree/docs/extract_schema.py
+- [[extract_schema.py]] - code - inventree/docs/extract_schema.py
+- [[extract_serial_numbers()]] - code - inventree/src/backend/InvenTree/InvenTree/helpers.py
+- [[f()]] - code - inventree/docs/docs/javascripts/splide.min.js
+- [[fetch_rtd_versions()]] - code - inventree/docs/docs/hooks.py
+- [[field_definition()]] - code - inventree/src/backend/InvenTree/importer/models.py
+- [[field_mapping()]] - code - inventree/src/backend/InvenTree/importer/models.py
+- [[file()]] - code - inventree/src/backend/InvenTree/plugin/plugin.py
+- [[filter_base_part()]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[filter_bom_item()]] - code - inventree/src/backend/InvenTree/stock/api.py
+- [[filter_company()]] - code - inventree/src/backend/InvenTree/stock/api.py
+- [[filter_content_type()]] - code - inventree/src/backend/InvenTree/common/filters.py
+- [[filter_convert_from()]] - code - inventree/src/backend/InvenTree/part/api.py
+- [[filter_db_model()]] - code - inventree/src/backend/InvenTree/report/templatetags/report.py
+- [[filter_exclude_tree()]] - code - inventree/src/backend/InvenTree/part/api.py
+- [[filter_external_build()]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[filter_in_bom()]] - code - inventree/src/backend/InvenTree/part/api.py
+- [[filter_location()]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[filter_manufacturer()]] - code - inventree/src/backend/InvenTree/stock/api.py
+- [[filter_parameters_by_value()]] - code - inventree/src/backend/InvenTree/common/filters.py
+- [[filter_parametric_data()]] - code - inventree/src/backend/InvenTree/common/filters.py
+- [[filter_part()]] - code - inventree/src/backend/InvenTree/part/api.py
+- [[filter_part_tree()]] - code - inventree/src/backend/InvenTree/stock/api.py
+- [[filter_queryset()]] - code - inventree/src/backend/InvenTree/report/templatetags/report.py
+- [[filter_supplier_part()]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[filter_uses()]] - code - inventree/src/backend/InvenTree/part/api.py
+- [[filters.py]] - code - inventree/src/backend/InvenTree/common/filters.py
+- [[filters.py_4]] - code - inventree/src/backend/InvenTree/company/filters.py
+- [[filters.py_1]] - code - inventree/src/backend/InvenTree/part/filters.py
+- [[filters.py_2]] - code - inventree/src/backend/InvenTree/stock/filters.py
+- [[findOffloadedEvent()]] - code - inventree/src/backend/InvenTree/InvenTree/unit_test.py
+- [[findOffloadedTask()]] - code - inventree/src/backend/InvenTree/InvenTree/unit_test.py
+- [[first()]] - code - inventree/src/backend/InvenTree/report/templatetags/report.py
+- [[fix_purchase_price()]] - code - inventree/src/backend/InvenTree/stock/migrations/0094_auto_20230220_0025.py
+- [[format_date()]] - code - inventree/src/backend/InvenTree/report/templatetags/report.py
+- [[format_datetime()]] - code - inventree/src/backend/InvenTree/report/templatetags/report.py
+- [[format_number()]] - code - inventree/src/backend/InvenTree/report/templatetags/report.py
+- [[forward()]] - code - inventree/src/backend/InvenTree/report/migrations/0023_auto_20240421_0455.py
+- [[forward()_1]] - code - inventree/src/backend/InvenTree/report/migrations/0026_auto_20240422_1301.py
+- [[from_engineering_notation()]] - code - inventree/src/backend/InvenTree/InvenTree/conversion.py
+- [[from_task()]] - code - inventree/src/backend/InvenTree/common/serializers.py
+- [[full_name()]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[generateTestKey()]] - code - inventree/src/backend/InvenTree/InvenTree/helpers.py
+- [[generate_attachment()]] - code - inventree/src/backend/InvenTree/common/test_migrations.py
+- [[generate_barcode()]] - code - inventree/src/backend/InvenTree/plugin/base/barcodes/helper.py
+- [[generate_batch_code()]] - code - inventree/src/backend/InvenTree/stock/generators.py
+- [[generate_index_file()]] - code - inventree/docs/extract_schema.py
+- [[generate_key()]] - code - inventree/src/backend/InvenTree/users/models.py
+- [[generate_next_purchase_order_reference()]] - code - inventree/src/backend/InvenTree/order/validators.py
+- [[generate_next_return_order_reference()]] - code - inventree/src/backend/InvenTree/order/validators.py
+- [[generate_next_sales_order_reference()]] - code - inventree/src/backend/InvenTree/order/validators.py
+- [[generate_reference()]] - code - inventree/src/backend/InvenTree/InvenTree/models.py
+- [[generate_schema_file()]] - code - inventree/docs/extract_schema.py
+- [[generate_serial_number()]] - code - inventree/src/backend/InvenTree/stock/generators.py
+- [[generators.py]] - code - inventree/src/backend/InvenTree/stock/generators.py
+- [[get()_1]] - code - inventree/src/backend/InvenTree/InvenTree/api.py
+- [[getCustomOption()]] - code - inventree/src/backend/InvenTree/InvenTree/helpers.py
+- [[getLogoImage()]] - code - inventree/src/backend/InvenTree/InvenTree/helpers.py
+- [[getMediaUrl()]] - code - inventree/src/backend/InvenTree/InvenTree/helpers.py
+- [[getMigrationFileNames()]] - code - inventree/src/backend/InvenTree/InvenTree/unit_test.py
+- [[getModelInfo()]] - code - inventree/src/frontend/src/components/render/ModelType.tsx
+- [[getModelsWithMixin()]] - code - inventree/src/backend/InvenTree/InvenTree/helpers_model.py
+- [[getNewestMigrationFile()]] - code - inventree/src/backend/InvenTree/InvenTree/unit_test.py
+- [[getNextTreeID()]] - code - inventree/src/backend/InvenTree/InvenTree/models.py
+- [[getOldestMigrationFile()]] - code - inventree/src/backend/InvenTree/InvenTree/unit_test.py
+- [[getPoint()]] - code - inventree/docs/docs/javascripts/splide.js
+- [[getSplashScreen()]] - code - inventree/src/backend/InvenTree/InvenTree/helpers.py
+- [[getStaticUrl()]] - code - inventree/src/backend/InvenTree/InvenTree/helpers.py
+- [[get_admin_errors()]] - code - inventree/src/backend/InvenTree/machine/models.py
+- [[get_api_url()]] - code - inventree/src/backend/InvenTree/company/models.py
+- [[get_backup_connector_options()]] - code - inventree/src/backend/InvenTree/InvenTree/backup.py
+- [[get_backup_dir()]] - code - inventree/src/backend/InvenTree/InvenTree/config.py
+- [[get_backup_storage_backend()]] - code - inventree/src/backend/InvenTree/InvenTree/backup.py
+- [[get_backup_storage_options()]] - code - inventree/src/backend/InvenTree/InvenTree/backup.py
+- [[get_base_dir()]] - code - inventree/src/backend/InvenTree/InvenTree/config.py
+- [[get_base_url()]] - code - inventree/src/backend/InvenTree/InvenTree/helpers_model.py
+- [[get_boolean_setting()]] - code - inventree/src/backend/InvenTree/InvenTree/config.py
+- [[get_build_environment()]] - code - inventree/docs/main.py
+- [[get_cache_config()]] - code - inventree/src/backend/InvenTree/InvenTree/cache.py
+- [[get_cached_content_types()]] - code - inventree/src/backend/InvenTree/InvenTree/cache.py
+- [[get_classes()]] - code - inventree/src/backend/InvenTree/plugin/helpers.py
+- [[get_codes()]] - code - inventree/src/backend/InvenTree/InvenTree/helpers_mfa.py
+- [[get_config_dir()]] - code - inventree/src/backend/InvenTree/InvenTree/config.py
+- [[get_config_file()]] - code - inventree/src/backend/InvenTree/InvenTree/config.py
+- [[get_config_type()]] - code - inventree/src/backend/InvenTree/machine/models.py
+- [[get_content_type()]] - code - inventree/src/backend/InvenTree/InvenTree/models.py
+- [[get_custom_file()]] - code - inventree/src/backend/InvenTree/InvenTree/config.py
+- [[get_custom_status_labels()]] - code - inventree/src/backend/InvenTree/generic/states/custom.py
+- [[get_driver_instance()]] - code - inventree/src/backend/InvenTree/machine/registry.py
+- [[get_driver_types()]] - code - inventree/src/backend/InvenTree/machine/registry.py
+- [[get_drivers()]] - code - inventree/src/backend/InvenTree/machine/registry.py
+- [[get_email_for_user()]] - code - inventree/src/backend/InvenTree/InvenTree/helpers_email.py
+- [[get_entrypoints()]] - code - inventree/src/backend/InvenTree/plugin/helpers.py
+- [[get_expired_filter()]] - code - inventree/src/backend/InvenTree/stock/models.py
+- [[get_field_label()]] - code - inventree/src/backend/InvenTree/importer/operations.py
+- [[get_filters()]] - code - inventree/src/backend/InvenTree/common/models.py
+- [[get_final_methods()]] - code - inventree/src/backend/InvenTree/plugin/plugin.py
+- [[get_frontend_settings()]] - code - inventree/src/backend/InvenTree/InvenTree/config.py
+- [[get_git_log()]] - code - inventree/src/backend/InvenTree/plugin/helpers.py
+- [[get_global_setting()]] - code - inventree/src/backend/InvenTree/common/settings.py
+- [[get_icon_packs()]] - code - inventree/src/backend/InvenTree/common/icons.py
+- [[get_install_info()]] - code - inventree/src/backend/InvenTree/plugin/installer.py
+- [[get_legacy_models()_1]] - code - inventree/src/backend/InvenTree/common/migrations/0026_auto_20240608_1238.py
+- [[get_legacy_models()]] - code - inventree/src/backend/InvenTree/common/test_migrations.py
+- [[get_machine()_1]] - code - inventree/src/backend/InvenTree/machine/api.py
+- [[get_machine()]] - code - inventree/src/backend/InvenTree/machine/registry.py
+- [[get_machine_types()]] - code - inventree/src/backend/InvenTree/machine/registry.py
+- [[get_machines()]] - code - inventree/src/backend/InvenTree/machine/registry.py
+- [[get_media_file_contents()]] - code - inventree/src/backend/InvenTree/report/templatetags/report.py
+- [[get_meta_value()]] - code - inventree/src/backend/InvenTree/plugin/plugin.py
+- [[get_migration_count()]] - code - inventree/src/backend/InvenTree/InvenTree/tasks.py
+- [[get_migration_plan()]] - code - inventree/src/backend/InvenTree/InvenTree/tasks.py
+- [[get_model_fields()]] - code - inventree/src/backend/InvenTree/plugin/base/barcodes/serializers.py
+- [[get_model_for_view()]] - code - inventree/src/backend/InvenTree/InvenTree/permissions.py
+- [[get_model_permission_string()]] - code - inventree/src/backend/InvenTree/users/permissions.py
+- [[get_modules()]] - code - inventree/src/backend/InvenTree/plugin/helpers.py
+- [[get_most_recent_item()]] - code - inventree/src/backend/InvenTree/InvenTree/models.py
+- [[get_next_reference()]] - code - inventree/src/backend/InvenTree/InvenTree/models.py
+- [[get_next_stock_item()]] - code - inventree/src/backend/InvenTree/stock/models.py
+- [[get_objectreference()]] - code - inventree/src/backend/InvenTree/InvenTree/helpers.py
+- [[get_oidc_private_key()]] - code - inventree/src/backend/InvenTree/InvenTree/config.py
+- [[get_overdue_filter()]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[get_owner()]] - code - inventree/src/backend/InvenTree/users/models.py
+- [[get_owners_matching_user()]] - code - inventree/src/backend/InvenTree/users/models.py
+- [[get_parent_categories()]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[get_part_image_directory()]] - code - inventree/src/backend/InvenTree/part/helpers.py
+- [[get_plugin()]] - code - inventree/src/backend/InvenTree/plugin/registry.py
+- [[get_plugin_dir()]] - code - inventree/src/backend/InvenTree/InvenTree/config.py
+- [[get_plugin_file()]] - code - inventree/src/backend/InvenTree/InvenTree/config.py
+- [[get_plugin_urls()]] - code - inventree/src/backend/InvenTree/plugin/urls.py
+- [[get_plugins()]] - code - inventree/src/backend/InvenTree/plugin/helpers.py
+- [[get_previous_stock_item()]] - code - inventree/src/backend/InvenTree/stock/models.py
+- [[get_price()]] - code - inventree/src/backend/InvenTree/common/currency.py
+- [[get_provider_app()]] - code - inventree/src/backend/InvenTree/InvenTree/sso.py
+- [[get_queued_task()]] - code - inventree/src/backend/InvenTree/InvenTree/tasks.py
+- [[get_reference_context()]] - code - inventree/src/backend/InvenTree/InvenTree/models.py
+- [[get_reference_pattern()]] - code - inventree/src/backend/InvenTree/InvenTree/models.py
+- [[get_registered_mixins()]] - code - inventree/src/backend/InvenTree/plugin/plugin.py
+- [[get_release_data()]] - code - inventree/docs/docs/hooks.py
+- [[get_repo_url()]] - code - inventree/docs/main.py
+- [[get_root_dir()]] - code - inventree/src/backend/InvenTree/InvenTree/config.py
+- [[get_ruleset_models()]] - code - inventree/src/backend/InvenTree/users/ruleset.py
+- [[get_secret_key()]] - code - inventree/src/backend/InvenTree/InvenTree/config.py
+- [[get_session_cache()]] - code - inventree/src/backend/InvenTree/InvenTree/cache.py
+- [[get_setting()_1]] - code - inventree/src/backend/InvenTree/InvenTree/config.py
+- [[get_setting_default()]] - code - inventree/src/backend/InvenTree/common/models.py
+- [[get_setting_object()]] - code - inventree/src/backend/InvenTree/common/models.py
+- [[get_spectacular_settings()]] - code - inventree/src/backend/InvenTree/InvenTree/setting/spectacular.py
+- [[get_static_file_contents()]] - code - inventree/src/backend/InvenTree/report/templatetags/report.py
+- [[get_status_class()]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[get_supported_barcode_model_codes_map()]] - code - inventree/src/backend/InvenTree/plugin/base/barcodes/helper.py
+- [[get_supported_barcode_models()]] - code - inventree/src/backend/InvenTree/plugin/base/barcodes/helper.py
+- [[get_supported_barcode_models_map()]] - code - inventree/src/backend/InvenTree/plugin/base/barcodes/helper.py
+- [[get_testfolder_dir()]] - code - inventree/src/backend/InvenTree/InvenTree/config.py
+- [[get_token_from_request()]] - code - inventree/src/backend/InvenTree/InvenTree/middleware.py
+- [[get_unit_registry()]] - code - inventree/src/backend/InvenTree/InvenTree/conversion.py
+- [[get_unit_registry_hash()]] - code - inventree/src/backend/InvenTree/InvenTree/conversion.py
+- [[get_version_file()]] - code - inventree/src/backend/InvenTree/InvenTree/config.py
+- [[getindex()]] - code - inventree/src/backend/InvenTree/report/templatetags/report.py
+- [[getkey()]] - code - inventree/src/backend/InvenTree/report/templatetags/report.py
+- [[global_setting_overrides()]] - code - inventree/src/backend/InvenTree/common/settings.py
+- [[group()]] - code - inventree/docs/docs/javascripts/mermaid.min.js
+- [[handle_error()]] - code - inventree/src/backend/InvenTree/plugin/helpers.py
+- [[handle_pip_error()]] - code - inventree/src/backend/InvenTree/plugin/installer.py
+- [[has_app()]] - code - inventree/src/backend/InvenTree/plugin/base/integration/AppMixin.py
+- [[has_bom()]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[has_children()]] - code - inventree/src/backend/InvenTree/InvenTree/models.py
+- [[has_internal_price_breaks()]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[has_price_breaks()]] - code - inventree/src/backend/InvenTree/company/models.py
+- [[has_trackable_parts()]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[has_tracking_info()]] - code - inventree/src/backend/InvenTree/stock/models.py
+- [[has_variants()]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[hash_barcode()]] - code - inventree/src/backend/InvenTree/InvenTree/helpers.py
+- [[heartbeat()]] - code - inventree/src/backend/InvenTree/InvenTree/tasks.py
+- [[helper.py]] - code - inventree/src/backend/InvenTree/plugin/base/barcodes/helper.py
+- [[helpers.py_4]] - code - inventree/src/backend/InvenTree/InvenTree/helpers.py
+- [[helpers.py_3]] - code - inventree/src/backend/InvenTree/part/helpers.py
+- [[helpers.py_1]] - code - inventree/src/backend/InvenTree/plugin/base/supplier/helpers.py
+- [[helpers.py]] - code - inventree/src/backend/InvenTree/plugin/helpers.py
+- [[helpers.py_2]] - code - inventree/src/backend/InvenTree/report/helpers.py
+- [[helpers_email.py]] - code - inventree/src/backend/InvenTree/InvenTree/helpers_email.py
+- [[helpers_mfa.py]] - code - inventree/src/backend/InvenTree/InvenTree/helpers_mfa.py
+- [[helpers_model.py]] - code - inventree/src/backend/InvenTree/InvenTree/helpers_model.py
+- [[hooks.py]] - code - inventree/docs/docs/hooks.py
+- [[human_name()]] - code - inventree/src/backend/InvenTree/plugin/plugin.py
+- [[icon()_1]] - code - inventree/src/backend/InvenTree/stock/models.py
+- [[icon()]] - code - inventree/src/backend/InvenTree/report/templatetags/report.py
+- [[icons.py]] - code - inventree/src/backend/InvenTree/common/icons.py
+- [[ignore_ready_warning()]] - code - inventree/src/backend/InvenTree/InvenTree/ready.py
+- [[image2name()]] - code - inventree/src/backend/InvenTree/InvenTree/helpers.py
+- [[image_data()]] - code - inventree/src/backend/InvenTree/report/templatetags/barcode.py
+- [[import_data()]] - code - inventree/src/backend/InvenTree/importer/tasks.py
+- [[in_env_context()]] - code - inventree/src/backend/InvenTree/InvenTree/unit_test.py
+- [[in_stock()]] - code - inventree/src/backend/InvenTree/stock/models.py
+- [[include_icon_fonts()]] - code - inventree/src/backend/InvenTree/report/templatetags/report.py
+- [[increment()]] - code - inventree/src/backend/InvenTree/InvenTree/helpers.py
+- [[increment_serial_number()]] - code - inventree/src/backend/InvenTree/InvenTree/helpers.py
+- [[info()]] - code - inventree/tasks.py
+- [[inheritors()]] - code - inventree/src/backend/InvenTree/InvenTree/helpers.py
+- [[initPlugin()]] - code - inventree/src/frontend/lib/functions/Plugins.tsx
+- [[init_sentry()]] - code - inventree/src/backend/InvenTree/InvenTree/sentry.py
+- [[init_storages()]] - code - inventree/src/backend/InvenTree/InvenTree/setting/storages.py
+- [[initialize()_1]] - code - inventree/src/backend/InvenTree/machine/registry.py
+- [[initialize_registry()]] - code - inventree/src/backend/InvenTree/machine/apps.py
+- [[installStockItem()]] - code - inventree/src/backend/InvenTree/stock/models.py
+- [[install_plugin()]] - code - inventree/src/backend/InvenTree/plugin/installer.py
+- [[install_plugins_file()]] - code - inventree/src/backend/InvenTree/plugin/installer.py
+- [[installer.py]] - code - inventree/src/backend/InvenTree/plugin/installer.py
+- [[int()]] - code - inventree/docs/docs/javascripts/mermaid.min.js
+- [[internal_link()]] - code - inventree/src/backend/InvenTree/report/templatetags/report.py
+- [[internal_price_breaks()]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[inventreeApiText()]] - code - inventree/src/backend/InvenTree/InvenTree/version.py
+- [[inventreeApiVersion()]] - code - inventree/src/backend/InvenTree/InvenTree/version.py
+- [[inventreeAppUrl()]] - code - inventree/src/backend/InvenTree/InvenTree/version.py
+- [[inventreeBranch()]] - code - inventree/src/backend/InvenTree/InvenTree/version.py
+- [[inventreeCommitDate()]] - code - inventree/src/backend/InvenTree/InvenTree/version.py
+- [[inventreeCommitHash()]] - code - inventree/src/backend/InvenTree/InvenTree/version.py
+- [[inventreeDatabase()]] - code - inventree/src/backend/InvenTree/InvenTree/version.py
+- [[inventreeDjangoVersion()]] - code - inventree/src/backend/InvenTree/InvenTree/version.py
+- [[inventreeDocUrl()]] - code - inventree/src/backend/InvenTree/InvenTree/version.py
+- [[inventreeDocsVersion()]] - code - inventree/src/backend/InvenTree/InvenTree/version.py
+- [[inventreeGithubUrl()]] - code - inventree/src/backend/InvenTree/InvenTree/version.py
+- [[inventreeInstaller()]] - code - inventree/src/backend/InvenTree/InvenTree/config.py
+- [[inventreeInstanceName()]] - code - inventree/src/backend/InvenTree/InvenTree/version.py
+- [[inventreeInstanceTitle()]] - code - inventree/src/backend/InvenTree/InvenTree/version.py
+- [[inventreePlatform()]] - code - inventree/src/backend/InvenTree/InvenTree/version.py
+- [[inventreePythonVersion()]] - code - inventree/src/backend/InvenTree/InvenTree/version.py
+- [[inventreeTarget()]] - code - inventree/src/backend/InvenTree/InvenTree/version.py
+- [[inventreeVersion()]] - code - inventree/src/backend/InvenTree/InvenTree/version.py
+- [[inventreeVersionTuple()]] - code - inventree/src/backend/InvenTree/InvenTree/version.py
+- [[inventree_commit_date()]] - code - inventree/src/backend/InvenTree/InvenTree/templatetags/inventree_extras.py
+- [[inventree_commit_hash()]] - code - inventree/src/backend/InvenTree/InvenTree/templatetags/inventree_extras.py
+- [[inventree_customize()]] - code - inventree/src/backend/InvenTree/InvenTree/templatetags/inventree_extras.py
+- [[inventree_extras.py]] - code - inventree/src/backend/InvenTree/InvenTree/templatetags/inventree_extras.py
+- [[inventree_identifier()]] - code - inventree/src/backend/InvenTree/InvenTree/version.py
+- [[inventree_installer()]] - code - inventree/src/backend/InvenTree/InvenTree/templatetags/inventree_extras.py
+- [[inventree_instance_name()]] - code - inventree/src/backend/InvenTree/InvenTree/templatetags/inventree_extras.py
+- [[inventree_logo()]] - code - inventree/src/backend/InvenTree/InvenTree/templatetags/inventree_extras.py
+- [[inventree_title()]] - code - inventree/src/backend/InvenTree/InvenTree/templatetags/inventree_extras.py
+- [[inventree_version()]] - code - inventree/src/backend/InvenTree/InvenTree/templatetags/inventree_extras.py
+- [[isAppLoaded()]] - code - inventree/src/backend/InvenTree/InvenTree/ready.py
+- [[isCollectingPlugins()]] - code - inventree/src/backend/InvenTree/InvenTree/ready.py
+- [[isGeneratingSchema()]] - code - inventree/src/backend/InvenTree/InvenTree/ready.py
+- [[isImportingData()]] - code - inventree/src/backend/InvenTree/InvenTree/ready.py
+- [[isInMainThread()]] - code - inventree/src/backend/InvenTree/InvenTree/ready.py
+- [[isInServerThread()]] - code - inventree/src/backend/InvenTree/InvenTree/ready.py
+- [[isInTestMode()]] - code - inventree/src/backend/InvenTree/InvenTree/ready.py
+- [[isInWorkerThread()]] - code - inventree/src/backend/InvenTree/InvenTree/ready.py
+- [[isInvenTreeDevelopmentVersion()]] - code - inventree/src/backend/InvenTree/InvenTree/version.py
+- [[isInvenTreeUpToDate()]] - code - inventree/src/backend/InvenTree/InvenTree/version.py
+- [[isNull()]] - code - inventree/src/backend/InvenTree/InvenTree/helpers.py
+- [[isPluginRegistryLoaded()]] - code - inventree/src/backend/InvenTree/InvenTree/ready.py
+- [[isReadOnlyCommand()]] - code - inventree/src/backend/InvenTree/InvenTree/ready.py
+- [[isRebuildingData()]] - code - inventree/src/backend/InvenTree/InvenTree/ready.py
+- [[isRunningBackup()]] - code - inventree/src/backend/InvenTree/InvenTree/ready.py
+- [[isRunningMigrations()]] - code - inventree/src/backend/InvenTree/InvenTree/ready.py
+- [[isWaitingForDatabase()]] - code - inventree/src/backend/InvenTree/InvenTree/ready.py
+- [[is_active()]] - code - inventree/src/backend/InvenTree/plugin/plugin.py
+- [[is_bool()]] - code - inventree/src/backend/InvenTree/InvenTree/helpers.py
+- [[is_builtin()]] - code - inventree/src/backend/InvenTree/plugin/models.py
+- [[is_builtin()_1]] - code - inventree/src/backend/InvenTree/plugin/plugin.py
+- [[is_complete()]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[is_dimensionless()]] - code - inventree/src/backend/InvenTree/InvenTree/conversion.py
+- [[is_editable()]] - code - inventree/src/backend/InvenTree/plugin/plugin.py
+- [[is_email_configured()]] - code - inventree/src/backend/InvenTree/InvenTree/helpers_email.py
+- [[is_global_cache_enabled()]] - code - inventree/src/backend/InvenTree/InvenTree/cache.py
+- [[is_installed()]] - code - inventree/src/backend/InvenTree/plugin/models.py
+- [[is_line_valid()]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[is_loading()]] - code - inventree/src/backend/InvenTree/plugin/registry.py
+- [[is_mandatory()_1]] - code - inventree/src/backend/InvenTree/plugin/plugin.py
+- [[is_method_like()]] - code - inventree/src/backend/InvenTree/plugin/plugin.py
+- [[is_open()]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[is_overdue()]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[is_package()]] - code - inventree/src/backend/InvenTree/plugin/models.py
+- [[is_pending()]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[is_ready()]] - code - inventree/src/backend/InvenTree/machine/registry.py
+- [[is_received()]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[is_sample()]] - code - inventree/src/backend/InvenTree/plugin/models.py
+- [[is_sample()_1]] - code - inventree/src/backend/InvenTree/plugin/plugin.py
+- [[is_true()_1]] - code - inventree/src/backend/InvenTree/InvenTree/config.py
+- [[is_valid()]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[is_worker_running()]] - code - inventree/src/backend/InvenTree/InvenTree/status.py
+- [[issue_order()]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[item_count()]] - code - inventree/src/backend/InvenTree/stock/models.py
+- [[items()]] - code - inventree/src/backend/InvenTree/generic/states/states.py
+- [[join()_1]] - code - inventree/src/backend/InvenTree/report/templatetags/report.py
+- [[key()_1]] - code - inventree/src/backend/InvenTree/stock/models.py
+- [[keys()_1]] - code - inventree/src/backend/InvenTree/generic/states/states.py
+- [[keyvalue()]] - code - inventree/src/backend/InvenTree/InvenTree/templatetags/inventree_extras.py
+- [[label()]] - code - inventree/src/backend/InvenTree/users/models.py
+- [[label()_1]] - code - inventree/src/backend/InvenTree/generic/states/states.py
+- [[label_model_map()]] - code - inventree/src/backend/InvenTree/report/migrations/0026_auto_20240422_1301.py
+- [[labels()]] - code - inventree/src/backend/InvenTree/generic/states/states.py
+- [[last()]] - code - inventree/src/backend/InvenTree/report/templatetags/report.py
+- [[length()_3]] - code - inventree/src/backend/InvenTree/report/templatetags/report.py
+- [[license()]] - code - inventree/src/backend/InvenTree/plugin/plugin.py
+- [[line_count()]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[link_primary_supplier_part()]] - code - inventree/src/backend/InvenTree/company/migrations/0079_auto_20260212_1054.py
+- [[list()_1]] - code - inventree/src/backend/InvenTree/generic/states/states.py
+- [[load()]] - code - inventree/docs/docs/javascripts/splide.js
+- [[load_config_data()]] - code - inventree/src/backend/InvenTree/InvenTree/config.py
+- [[load_data_file()]] - code - inventree/src/backend/InvenTree/importer/operations.py
+- [[load_machines()]] - code - inventree/src/backend/InvenTree/machine/registry.py
+- [[load_unit_registry()]] - code - inventree/src/backend/InvenTree/InvenTree/apps.py
+- [[load_version_file()]] - code - inventree/src/backend/InvenTree/InvenTree/config.py
+- [[location()]] - code - inventree/src/backend/InvenTree/machine/machine_types/label_printer.py
+- [[log_email_messages()]] - code - inventree/src/backend/InvenTree/common/models.py
+- [[log_error()]] - code - inventree/src/backend/InvenTree/InvenTree/exceptions.py
+- [[log_registry_error()]] - code - inventree/src/backend/InvenTree/plugin/helpers.py
+- [[log_report_error()]] - code - inventree/src/backend/InvenTree/report/models.py
+- [[logo_image()]] - code - inventree/src/backend/InvenTree/report/templatetags/report.py
+- [[lookup_barcode()]] - code - inventree/src/backend/InvenTree/InvenTree/models.py
+- [[lowercase()]] - code - inventree/src/backend/InvenTree/report/templatetags/report.py
+- [[lstrip()]] - code - inventree/src/backend/InvenTree/report/templatetags/report.py
+- [[machine_config()]] - code - inventree/src/backend/InvenTree/machine/machine_type.py
+- [[magic_login.py]] - code - inventree/src/backend/InvenTree/InvenTree/magic_login.py
+- [[mail.py]] - code - inventree/src/backend/InvenTree/plugin/base/mail/mail.py
+- [[main.py]] - code - inventree/docs/main.py
+- [[make_decimal()]] - code - inventree/src/backend/InvenTree/report/templatetags/report.py
+- [[make_empty_email_field_null()]] - code - inventree/src/backend/InvenTree/company/migrations/0024_unique_name_email_constraint.py
+- [[manufacturer_string()]] - code - inventree/src/backend/InvenTree/company/models.py
+- [[mark_final()]] - code - inventree/src/backend/InvenTree/plugin/plugin.py
+- [[media_file_exists()]] - code - inventree/src/backend/InvenTree/report/templatetags/report.py
+- [[merge_stock_items()]] - code - inventree/src/backend/InvenTree/stock/models.py
+- [[metadata_set()]] - code - inventree/src/backend/InvenTree/InvenTree/backup.py
+- [[migrate_currencies()_1]] - code - inventree/src/backend/InvenTree/company/migrations/0026_auto_20201110_1011.py
+- [[migrate_currencies()]] - code - inventree/src/backend/InvenTree/part/migrations/0056_auto_20201110_1125.py
+- [[migrate_part_responsible_owner()]] - code - inventree/src/backend/InvenTree/part/migrations/0116_auto_20231023_0332.py
+- [[migrate_part_units()]] - code - inventree/src/backend/InvenTree/part/migrations/0111_auto_20230521_1350.py
+- [[migrate_userthemes()]] - code - inventree/src/backend/InvenTree/common/migrations/0028_colortheme_user_obj.py
+- [[mixin()]] - code - inventree/src/backend/InvenTree/plugin/plugin.py
+- [[mixin_enabled()_1]] - code - inventree/src/backend/InvenTree/plugin/templatetags/plugin_extras.py
+- [[mixin_enabled()]] - code - inventree/src/backend/InvenTree/plugin/plugin.py
+- [[model_class()]] - code - inventree/src/backend/InvenTree/importer/models.py
+- [[models.py_10]] - code - inventree/src/backend/InvenTree/company/models.py
+- [[models.py_1]] - code - inventree/src/backend/InvenTree/importer/models.py
+- [[models.py_9]] - code - inventree/src/backend/InvenTree/InvenTree/models.py
+- [[models.py]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[models.py_7]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[models.py_2]] - code - inventree/src/backend/InvenTree/plugin/models.py
+- [[models.py_8]] - code - inventree/src/backend/InvenTree/stock/models.py
+- [[models.py_5]] - code - inventree/src/backend/InvenTree/users/models.py
+- [[money_kwargs()]] - code - inventree/src/backend/InvenTree/InvenTree/fields.py
+- [[move()_1]] - code - inventree/src/backend/InvenTree/stock/models.py
+- [[move_address_to_new_model()]] - code - inventree/src/backend/InvenTree/company/migrations/0064_move_address_field_to_address_model.py
+- [[move_mfa()]] - code - inventree/src/backend/InvenTree/users/migrations/0013_migrate_mfa_20240408_1659.py
+- [[name()_1]] - code - inventree/src/backend/InvenTree/company/models.py
+- [[name()]] - code - inventree/src/backend/InvenTree/plugin/plugin.py
+- [[names()]] - code - inventree/src/backend/InvenTree/generic/states/states.py
+- [[net_stock()]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[normalize()]] - code - inventree/src/backend/InvenTree/InvenTree/helpers.py
+- [[notifications.py]] - code - inventree/src/backend/InvenTree/common/notifications.py
+- [[notify_low_stock()]] - code - inventree/src/backend/InvenTree/part/tasks.py
+- [[notify_low_stock_if_required()]] - code - inventree/src/backend/InvenTree/part/tasks.py
+- [[notify_overdue_purchase_order()]] - code - inventree/src/backend/InvenTree/order/tasks.py
+- [[notify_overdue_return_order()]] - code - inventree/src/backend/InvenTree/order/tasks.py
+- [[notify_overdue_sales_order()]] - code - inventree/src/backend/InvenTree/order/tasks.py
+- [[notify_responsible()]] - code - inventree/src/backend/InvenTree/InvenTree/helpers_model.py
+- [[notify_staff_users_of_error()]] - code - inventree/src/backend/InvenTree/InvenTree/models.py
+- [[notify_stale_stock()]] - code - inventree/src/backend/InvenTree/part/tasks.py
+- [[notify_users()]] - code - inventree/src/backend/InvenTree/InvenTree/helpers_model.py
+- [[nunconvert_line_items()]] - code - inventree/src/backend/InvenTree/order/migrations/0064_purchaseorderextraline_salesorderextraline.py
+- [[offload_task()]] - code - inventree/src/backend/InvenTree/InvenTree/tasks.py
+- [[onSave()]] - code - inventree/src/frontend/src/components/items/RoleTable.tsx
+- [[on_config()]] - code - inventree/docs/docs/hooks.py
+- [[on_order()]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[on_post_build()]] - code - inventree/docs/docs/hooks.py
+- [[on_social_account_created()]] - code - inventree/src/backend/InvenTree/InvenTree/sso.py
+- [[operations.py]] - code - inventree/src/backend/InvenTree/importer/operations.py
+- [[optional_transfer_fields()]] - code - inventree/src/backend/InvenTree/stock/models.py
+- [[order_address()]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[order_by_parameter()]] - code - inventree/src/backend/InvenTree/common/filters.py
+- [[overdue_filter()]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[override_values()]] - code - inventree/src/backend/InvenTree/importer/models.py
+- [[package_install_name()]] - code - inventree/src/backend/InvenTree/plugin/plugin.py
+- [[package_path()]] - code - inventree/src/backend/InvenTree/plugin/plugin.py
+- [[page_size()]] - code - inventree/src/backend/InvenTree/report/helpers.py
+- [[page_sizes()]] - code - inventree/src/backend/InvenTree/report/helpers.py
+- [[parameter()]] - code - inventree/src/backend/InvenTree/report/templatetags/report.py
+- [[parameter_model_options()]] - code - inventree/src/backend/InvenTree/common/validators.py
+- [[parameter_model_types()]] - code - inventree/src/backend/InvenTree/common/validators.py
+- [[parameter_template_model_options()]] - code - inventree/src/backend/InvenTree/common/validators.py
+- [[parameter_value()]] - code - inventree/src/backend/InvenTree/report/templatetags/report.py
+- [[parameters()]] - code - inventree/src/backend/InvenTree/InvenTree/models.py
+- [[parentpath()]] - code - inventree/src/backend/InvenTree/InvenTree/models.py
+- [[parse_api_file()]] - code - inventree/docs/extract_schema.py
+- [[parse_docstring()]] - code - inventree/src/backend/InvenTree/InvenTree/management/commands/export_report_context.py
+- [[parse_format_string()]] - code - inventree/src/backend/InvenTree/InvenTree/format.py
+- [[parse_version_text()]] - code - inventree/src/backend/InvenTree/InvenTree/version.py
+- [[part_assembly_default()]] - code - inventree/src/backend/InvenTree/part/settings.py
+- [[part_component_default()]] - code - inventree/src/backend/InvenTree/part/settings.py
+- [[part_image()]] - code - inventree/src/backend/InvenTree/report/templatetags/report.py
+- [[part_parameter()]] - code - inventree/src/backend/InvenTree/report/templatetags/report.py
+- [[part_purchaseable_default()]] - code - inventree/src/backend/InvenTree/part/settings.py
+- [[part_salable_default()]] - code - inventree/src/backend/InvenTree/part/settings.py
+- [[part_template_default()]] - code - inventree/src/backend/InvenTree/part/settings.py
+- [[part_trackable_default()]] - code - inventree/src/backend/InvenTree/part/settings.py
+- [[part_virtual_default()]] - code - inventree/src/backend/InvenTree/part/settings.py
+- [[parts()]] - code - inventree/src/backend/InvenTree/company/models.py
+- [[patch()]] - code - inventree/src/backend/InvenTree/InvenTree/api.py
+- [[path()_2]] - code - inventree/src/backend/InvenTree/InvenTree/models.py
+- [[path()_1]] - code - inventree/src/backend/InvenTree/plugin/plugin.py
+- [[pending_allocation_count()]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[pending_line_count()]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[pending_shipment_count()]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[perform_stocktake()]] - code - inventree/src/backend/InvenTree/part/stocktake.py
+- [[permissions.py]] - code - inventree/src/backend/InvenTree/users/permissions.py
+- [[ping_machines()]] - code - inventree/src/backend/InvenTree/machine/tasks.py
+- [[pip_command()]] - code - inventree/src/backend/InvenTree/plugin/installer.py
+- [[place_order()]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[plugin.py]] - code - inventree/src/backend/InvenTree/plugin/plugin.py
+- [[plugin_config()]] - code - inventree/src/backend/InvenTree/plugin/plugin.py
+- [[plugin_name()]] - code - inventree/src/backend/InvenTree/plugin/plugin.py
+- [[plugin_slug()]] - code - inventree/src/backend/InvenTree/plugin/plugin.py
+- [[plugin_static_file()]] - code - inventree/src/backend/InvenTree/plugin/plugin.py
+- [[plugin_title()]] - code - inventree/src/backend/InvenTree/plugin/plugin.py
+- [[plugins_file_hash()]] - code - inventree/src/backend/InvenTree/plugin/installer.py
+- [[plugins_info()]] - code - inventree/src/backend/InvenTree/InvenTree/helpers.py
+- [[post()_1]] - code - inventree/src/backend/InvenTree/InvenTree/api.py
+- [[post_save_parameter_template()]] - code - inventree/src/backend/InvenTree/common/models.py
+- [[postprocess_print_stats()]] - code - inventree/src/backend/InvenTree/InvenTree/schema.py
+- [[postprocess_required_nullable()]] - code - inventree/src/backend/InvenTree/InvenTree/schema.py
+- [[postprocess_schema_enums()]] - code - inventree/src/backend/InvenTree/InvenTree/schema.py
+- [[prefetch_rule_sets()]] - code - inventree/src/backend/InvenTree/users/permissions.py
+- [[prep_currency_migration()]] - code - inventree/src/backend/InvenTree/common/test_migrations.py
+- [[prep_name()]] - code - inventree/src/backend/InvenTree/InvenTree/management/commands/schema.py
+- [[pretty_name()]] - code - inventree/src/backend/InvenTree/company/models.py
+- [[prevent_build_output_complete_on_incompleted_tests()]] - code - inventree/src/backend/InvenTree/common/settings.py
+- [[price()]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[price_breaks()]] - code - inventree/src/backend/InvenTree/company/models.py
+- [[price_range()]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[pricing()]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[primary_address()]] - code - inventree/src/backend/InvenTree/company/models.py
+- [[print_label()]] - code - inventree/src/backend/InvenTree/plugin/base/label/label.py
+- [[print_labels()]] - code - inventree/src/backend/InvenTree/report/tasks.py
+- [[print_reports()]] - code - inventree/src/backend/InvenTree/report/tasks.py
+- [[process_event()]] - code - inventree/src/backend/InvenTree/plugin/base/event/events.py
+- [[process_mail_in()]] - code - inventree/src/backend/InvenTree/plugin/base/mail/mail.py
+- [[process_mail_out()]] - code - inventree/src/backend/InvenTree/plugin/base/mail/mail.py
+- [[provider_display_name()]] - code - inventree/src/backend/InvenTree/InvenTree/sso.py
+- [[pub_date()]] - code - inventree/src/backend/InvenTree/plugin/plugin.py
+- [[qrcode()]] - code - inventree/src/backend/InvenTree/report/templatetags/barcode.py
+- [[quantity()]] - code - inventree/src/backend/InvenTree/plugin/base/barcodes/mixins.py
+- [[quantity_being_built()]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[quantity_in_production()]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[quantity_to_order()]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[raise_warning()]] - code - inventree/src/backend/InvenTree/InvenTree/tasks.py
+- [[range()]] - code - inventree/docs/docs/javascripts/mermaid.min.js
+- [[read()]] - code - inventree/docs/docs/javascripts/mermaid.min.js
+- [[readOnlyCommands()]] - code - inventree/src/backend/InvenTree/InvenTree/ready.py
+- [[read_license_file()]] - code - inventree/src/backend/InvenTree/InvenTree/api.py
+- [[readall()]] - code - inventree/src/backend/InvenTree/common/api.py
+- [[ready.py]] - code - inventree/src/backend/InvenTree/InvenTree/ready.py
+- [[rebuild_all_permissions()]] - code - inventree/src/backend/InvenTree/users/tasks.py
+- [[rebuild_parameters()]] - code - inventree/src/backend/InvenTree/common/tasks.py
+- [[rebuild_reference_field()]] - code - inventree/src/backend/InvenTree/InvenTree/models.py
+- [[rebuild_stock_item_tree()]] - code - inventree/src/backend/InvenTree/stock/tasks.py
+- [[rebuild_stock_items()]] - code - inventree/src/backend/InvenTree/stock/tasks.py
+- [[rebuild_supplier_parts()]] - code - inventree/src/backend/InvenTree/part/tasks.py
+- [[receive_line_item()]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[receive_line_items()]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[received()]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[record_task_attempt()]] - code - inventree/src/backend/InvenTree/InvenTree/tasks.py
+- [[record_task_success()]] - code - inventree/src/backend/InvenTree/InvenTree/tasks.py
+- [[refresh()]] - code - inventree/src/backend/InvenTree/common/api.py
+- [[regenerate_imagefile()]] - code - inventree/src/backend/InvenTree/InvenTree/helpers.py
+- [[register_event()]] - code - inventree/src/backend/InvenTree/plugin/base/event/events.py
+- [[registered_mixins()]] - code - inventree/src/backend/InvenTree/plugin/plugin.py
+- [[registration_enabled()]] - code - inventree/src/backend/InvenTree/InvenTree/auth_overrides.py
+- [[registry.py_2]] - code - inventree/src/backend/InvenTree/machine/registry.py
+- [[registry.py_1]] - code - inventree/src/backend/InvenTree/plugin/registry.py
+- [[related_count()]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[reload_icon_packs()]] - code - inventree/src/backend/InvenTree/common/icons.py
+- [[reload_plugin_registry()]] - code - inventree/src/backend/InvenTree/plugin/apps.py
+- [[reload_plugin_registry()_1]] - code - inventree/src/backend/InvenTree/common/setting/system.py
+- [[reload_plugins()]] - code - inventree/src/backend/InvenTree/plugin/registry.py
+- [[reload_unit_registry()]] - code - inventree/src/backend/InvenTree/InvenTree/conversion.py
+- [[remove_machine()]] - code - inventree/src/backend/InvenTree/machine/registry.py
+- [[remove_non_printable_characters()]] - code - inventree/src/backend/InvenTree/InvenTree/helpers.py
+- [[remove_null_items()]] - code - inventree/src/backend/InvenTree/stock/migrations/0118_auto_20260205_1218.py
+- [[remove_obsolete_tasks()]] - code - inventree/src/backend/InvenTree/InvenTree/apps.py
+- [[remove_template()]] - code - inventree/src/backend/InvenTree/stock/migrations/0106_auto_20240207_0353.py
+- [[rename_company_image()]] - code - inventree/src/backend/InvenTree/company/models.py
+- [[rename_part_image()]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[rename_stock_item_test_result_attachment()]] - code - inventree/src/backend/InvenTree/stock/models.py
+- [[render()_1]] - code - inventree/src/backend/InvenTree/generic/states/states.py
+- [[render_currency()_1]] - code - inventree/src/backend/InvenTree/InvenTree/helpers_model.py
+- [[render_currency()]] - code - inventree/src/backend/InvenTree/report/templatetags/report.py
+- [[render_date()]] - code - inventree/src/backend/InvenTree/InvenTree/templatetags/inventree_extras.py
+- [[render_html_text()]] - code - inventree/src/backend/InvenTree/report/templatetags/report.py
+- [[render_part_full_name()]] - code - inventree/src/backend/InvenTree/part/helpers.py
+- [[report.py]] - code - inventree/src/backend/InvenTree/report/templatetags/report.py
+- [[report_exception()]] - code - inventree/src/backend/InvenTree/InvenTree/sentry.py
+- [[report_model_from_name()]] - code - inventree/src/backend/InvenTree/report/helpers.py
+- [[report_model_map()]] - code - inventree/src/backend/InvenTree/report/migrations/0023_auto_20240421_0455.py
+- [[report_model_options()]] - code - inventree/src/backend/InvenTree/report/helpers.py
+- [[report_model_types()]] - code - inventree/src/backend/InvenTree/report/helpers.py
+- [[report_page_size_default()]] - code - inventree/src/backend/InvenTree/report/helpers.py
+- [[report_page_size_options()]] - code - inventree/src/backend/InvenTree/report/helpers.py
+- [[required_test_count()]] - code - inventree/src/backend/InvenTree/stock/models.py
+- [[return_from_customer()]] - code - inventree/src/backend/InvenTree/stock/models.py
+- [[return_to_stock()]] - code - inventree/src/backend/InvenTree/stock/models.py
+- [[reverse()_1]] - code - inventree/src/backend/InvenTree/report/migrations/0023_auto_20240421_0455.py
+- [[reverse()_2]] - code - inventree/src/backend/InvenTree/report/migrations/0026_auto_20240422_1301.py
+- [[reverse()]] - code - inventree/src/backend/InvenTree/report/templatetags/report.py
+- [[reverse_add_shipment()]] - code - inventree/src/backend/InvenTree/order/migrations/0055_auto_20211025_0645.py
+- [[reverse_association()]] - code - inventree/src/backend/InvenTree/company/migrations/0019_auto_20200413_0642.py
+- [[reverse_attachments()]] - code - inventree/src/backend/InvenTree/common/migrations/0026_auto_20240608_1238.py
+- [[reverse_currencies()_1]] - code - inventree/src/backend/InvenTree/company/migrations/0026_auto_20201110_1011.py
+- [[reverse_currencies()]] - code - inventree/src/backend/InvenTree/part/migrations/0056_auto_20201110_1125.py
+- [[reverse_empty_email()]] - code - inventree/src/backend/InvenTree/company/migrations/0024_unique_name_email_constraint.py
+- [[reverse_link_primary_supplier_part()]] - code - inventree/src/backend/InvenTree/company/migrations/0079_auto_20260212_1054.py
+- [[reverse_owner_migration()]] - code - inventree/src/backend/InvenTree/part/migrations/0116_auto_20231023_0332.py
+- [[reverse_pack_quantity()]] - code - inventree/src/backend/InvenTree/company/migrations/0060_auto_20230519_0344.py
+- [[reverse_update_category_parameters()]] - code - inventree/src/backend/InvenTree/part/migrations/0145_auto_20251203_1238.py
+- [[reverse_update_parameter()]] - code - inventree/src/backend/InvenTree/part/migrations/0144_auto_20251203_1045.py
+- [[revert_address_move()]] - code - inventree/src/backend/InvenTree/company/migrations/0064_move_address_field_to_address_model.py
+- [[revert_overage()]] - code - inventree/src/backend/InvenTree/part/migrations/0138_auto_20250718_2342.py
+- [[row_count()]] - code - inventree/src/backend/InvenTree/importer/models.py
+- [[rstrip()]] - code - inventree/src/backend/InvenTree/report/templatetags/report.py
+- [[run_backup()]] - code - inventree/src/backend/InvenTree/InvenTree/tasks.py
+- [[run_oauth_maintenance()]] - code - inventree/src/backend/InvenTree/InvenTree/tasks.py
+- [[sanitize_name()]] - code - inventree/src/backend/InvenTree/users/models.py
+- [[save()]] - code - inventree/src/backend/InvenTree/stock/serializers.py
+- [[schedule_task()]] - code - inventree/src/backend/InvenTree/InvenTree/tasks.py
+- [[scheduled_stocktake_reports()]] - code - inventree/src/backend/InvenTree/part/tasks.py
+- [[schema.py_1]] - code - inventree/src/backend/InvenTree/InvenTree/management/commands/schema.py
+- [[schema.py]] - code - inventree/src/backend/InvenTree/InvenTree/schema.py
+- [[schema_for_view_output_options()]] - code - inventree/src/backend/InvenTree/InvenTree/schema.py
+- [[send_email()]] - code - inventree/src/backend/InvenTree/InvenTree/helpers_email.py
+- [[send_simple_login_email()]] - code - inventree/src/backend/InvenTree/InvenTree/magic_login.py
+- [[sentry.py]] - code - inventree/src/backend/InvenTree/InvenTree/sentry.py
+- [[sentry_ignore_errors()]] - code - inventree/src/backend/InvenTree/InvenTree/sentry.py
+- [[serializeStock()]] - code - inventree/src/backend/InvenTree/stock/models.py
+- [[serialized()]] - code - inventree/src/backend/InvenTree/stock/models.py
+- [[serializer_class()]] - code - inventree/src/backend/InvenTree/importer/models.py
+- [[server_timezone()]] - code - inventree/src/backend/InvenTree/InvenTree/helpers.py
+- [[setAppLoaded()]] - code - inventree/src/backend/InvenTree/InvenTree/ready.py
+- [[setUpTestData()_1]] - code - inventree/src/backend/InvenTree/company/test_api.py
+- [[setUpTestData()_5]] - code - inventree/src/backend/InvenTree/plugin/base/barcodes/test_barcode.py
+- [[setUpTestData()_7]] - code - inventree/src/backend/InvenTree/part/test_category.py
+- [[setUpTestData()_6]] - code - inventree/src/backend/InvenTree/part/test_notification_stale.py
+- [[setUpTestData()_8]] - code - inventree/src/backend/InvenTree/part/test_param.py
+- [[setUpTestData()_9]] - code - inventree/src/backend/InvenTree/part/test_part.py
+- [[setUpTestData()]] - code - inventree/src/backend/InvenTree/order/test_sales_order.py
+- [[setUpTestData()_3]] - code - inventree/src/backend/InvenTree/plugin/builtin/suppliers/test_supplier_barcodes.py
+- [[setUpTestData()_10]] - code - inventree/src/backend/InvenTree/InvenTree/unit_test.py
+- [[set_currencies()]] - code - inventree/src/backend/InvenTree/common/migrations/0023_auto_20240602_1332.py
+- [[set_db_options()]] - code - inventree/src/backend/InvenTree/InvenTree/setting/db_backend.py
+- [[set_default_currency()]] - code - inventree/src/backend/InvenTree/common/migrations/0010_migrate_currency_setting.py
+- [[set_global_setting()]] - code - inventree/src/backend/InvenTree/common/settings.py
+- [[set_global_warning()]] - code - inventree/src/backend/InvenTree/common/settings.py
+- [[set_key()]] - code - inventree/src/backend/InvenTree/part/migrations/0121_auto_20240207_0344.py
+- [[set_mysql_options()]] - code - inventree/src/backend/InvenTree/InvenTree/setting/db_backend.py
+- [[set_plugin_state()]] - code - inventree/src/backend/InvenTree/plugin/registry.py
+- [[set_postgres_options()]] - code - inventree/src/backend/InvenTree/InvenTree/setting/db_backend.py
+- [[set_session_cache()]] - code - inventree/src/backend/InvenTree/InvenTree/cache.py
+- [[set_setting()]] - code - inventree/src/backend/InvenTree/common/models.py
+- [[set_sqlite_options()]] - code - inventree/src/backend/InvenTree/InvenTree/setting/db_backend.py
+- [[set_template()]] - code - inventree/src/backend/InvenTree/stock/migrations/0106_auto_20240207_0353.py
+- [[set_testable()]] - code - inventree/src/backend/InvenTree/part/migrations/0129_auto_20240815_0214.py
+- [[set_unit_registry_hash()]] - code - inventree/src/backend/InvenTree/InvenTree/conversion.py
+- [[setting_object()]] - code - inventree/src/backend/InvenTree/InvenTree/templatetags/inventree_extras.py
+- [[settings.py]] - code - inventree/src/backend/InvenTree/common/settings.py
+- [[settings.py_1]] - code - inventree/src/backend/InvenTree/part/settings.py
+- [[settings_group_options()]] - code - inventree/src/backend/InvenTree/common/setting/system.py
+- [[settings_value()]] - code - inventree/src/backend/InvenTree/InvenTree/templatetags/inventree_extras.py
+- [[setup_instruments()]] - code - inventree/src/backend/InvenTree/InvenTree/tracing.py
+- [[setup_tracing()]] - code - inventree/src/backend/InvenTree/InvenTree/tracing.py
+- [[ship_order()]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[shipment_count()]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[slug()]] - code - inventree/src/backend/InvenTree/plugin/plugin.py
+- [[spa_bundle()]] - code - inventree/src/backend/InvenTree/web/templatetags/spa_helper.py
+- [[spectacular.py]] - code - inventree/src/backend/InvenTree/InvenTree/setting/spectacular.py
+- [[split()]] - code - inventree/src/backend/InvenTree/report/templatetags/report.py
+- [[splitStock()]] - code - inventree/src/backend/InvenTree/stock/models.py
+- [[split_model()]] - code - inventree/src/backend/InvenTree/users/permissions.py
+- [[split_permission()]] - code - inventree/src/backend/InvenTree/users/permissions.py
+- [[sso.py]] - code - inventree/src/backend/InvenTree/InvenTree/sso.py
+- [[start_background_tasks()]] - code - inventree/src/backend/InvenTree/InvenTree/apps.py
+- [[states.py]] - code - inventree/src/backend/InvenTree/generic/states/states.py
+- [[static_file_exists()]] - code - inventree/src/backend/InvenTree/report/templatetags/report.py
+- [[staticfiles.py]] - code - inventree/src/backend/InvenTree/plugin/staticfiles.py
+- [[status.py]] - code - inventree/src/backend/InvenTree/InvenTree/status.py
+- [[status_class()]] - code - inventree/src/backend/InvenTree/generic/states/states.py
+- [[status_label()_1]] - code - inventree/src/backend/InvenTree/stock/models.py
+- [[status_label()]] - code - inventree/src/backend/InvenTree/generic/states/tags.py
+- [[status_text()]] - code - inventree/src/backend/InvenTree/stock/models.py
+- [[stock_allocations()]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[stock_expiry_enabled()]] - code - inventree/src/backend/InvenTree/common/settings.py
+- [[stock_items()]] - code - inventree/src/backend/InvenTree/company/models.py
+- [[stocktake()]] - code - inventree/src/backend/InvenTree/stock/models.py
+- [[stocktake.py]] - code - inventree/src/backend/InvenTree/part/stocktake.py
+- [[str]] - code
+- [[str2bool()]] - code - inventree/src/backend/InvenTree/InvenTree/helpers.py
+- [[strip()]] - code - inventree/src/backend/InvenTree/report/templatetags/report.py
+- [[strip_html_tags()]] - code - inventree/src/backend/InvenTree/InvenTree/helpers.py
+- [[sub()]] - code - inventree/docs/docs/javascripts/mermaid.min.js
+- [[sub_component_name()]] - code - inventree/src/backend/InvenTree/InvenTree/management/commands/schema.py
+- [[supplier_company()]] - code - inventree/src/backend/InvenTree/plugin/base/supplier/mixins.py
+- [[supplier_count()]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[supplierpart_make_manufacturer_parts()]] - code - inventree/src/backend/InvenTree/company/migrations/0036_supplierpart_update_2.py
+- [[supplierpart_populate_manufacturer_info()]] - code - inventree/src/backend/InvenTree/company/migrations/0036_supplierpart_update_2.py
+- [[system.py]] - code - inventree/src/backend/InvenTree/common/setting/system.py
+- [[tag()_1]] - code - inventree/src/backend/InvenTree/generic/states/states.py
+- [[take_stock()]] - code - inventree/src/backend/InvenTree/stock/models.py
+- [[task_exception_handler()]] - code - inventree/tasks.py
+- [[tasks.py_3]] - code - inventree/src/backend/InvenTree/common/tasks.py
+- [[tasks.py_2]] - code - inventree/src/backend/InvenTree/importer/tasks.py
+- [[tasks.py_10]] - code - inventree/src/backend/InvenTree/InvenTree/tasks.py
+- [[tasks.py_4]] - code - inventree/src/backend/InvenTree/machine/tasks.py
+- [[tasks.py_1]] - code - inventree/src/backend/InvenTree/order/tasks.py
+- [[tasks.py_8]] - code - inventree/src/backend/InvenTree/part/tasks.py
+- [[tasks.py_6]] - code - inventree/src/backend/InvenTree/report/tasks.py
+- [[tasks.py_9]] - code - inventree/src/backend/InvenTree/stock/tasks.py
+- [[tasks.py_5]] - code - inventree/src/backend/InvenTree/users/tasks.py
+- [[template()]] - code - inventree/src/frontend/vite.config.ts
+- [[template_context()]] - code - inventree/src/backend/InvenTree/generic/states/states.py
+- [[test()_1]] - code - inventree/src/backend/InvenTree/common/api.py
+- [[test_admin_action()]] - code - inventree/src/backend/InvenTree/plugin/test_api.py
+- [[test_api.py_7]] - code - inventree/src/backend/InvenTree/InvenTree/test_api.py
+- [[test_api.py_3]] - code - inventree/src/backend/InvenTree/machine/test_api.py
+- [[test_api.py_1]] - code - inventree/src/backend/InvenTree/plugin/test_api.py
+- [[test_api_call()]] - code - inventree/src/backend/InvenTree/plugin/base/integration/test_mixins.py
+- [[test_api_doc()]] - code - inventree/src/backend/InvenTree/InvenTree/test_views.py
+- [[test_api_part_list()]] - code - inventree/src/backend/InvenTree/part/test_api.py
+- [[test_api_stock_list()]] - code - inventree/src/backend/InvenTree/stock/test_api.py
+- [[test_auth.py]] - code - inventree/src/backend/InvenTree/InvenTree/test_auth.py
+- [[test_barcode.py]] - code - inventree/src/backend/InvenTree/plugin/base/barcodes/test_barcode.py
+- [[test_bom_item.py]] - code - inventree/src/backend/InvenTree/part/test_bom_item.py
+- [[test_bom_pricing()]] - code - inventree/src/backend/InvenTree/part/test_pricing.py
+- [[test_category.py]] - code - inventree/src/backend/InvenTree/part/test_category.py
+- [[test_check_all_settings()]] - code - inventree/src/backend/InvenTree/common/tests.py
+- [[test_check_missing_pricing()]] - code - inventree/src/backend/InvenTree/part/test_pricing.py
+- [[test_check_stale_stock_with_stale_items()]] - code - inventree/src/backend/InvenTree/part/test_notification_stale.py
+- [[test_commands.py]] - code - inventree/src/backend/InvenTree/InvenTree/test_commands.py
+- [[test_defaults()]] - code - inventree/src/backend/InvenTree/common/tests.py
+- [[test_delete_part_with_stock_items()]] - code - inventree/src/backend/InvenTree/part/test_pricing.py
+- [[test_delete_with_pricing()]] - code - inventree/src/backend/InvenTree/part/test_pricing.py
+- [[test_delete_without_pricing()]] - code - inventree/src/backend/InvenTree/part/test_pricing.py
+- [[test_email_api()]] - code - inventree/src/backend/InvenTree/common/test_emails.py
+- [[test_email_send_anymail()]] - code - inventree/src/backend/InvenTree/common/test_emails.py
+- [[test_exteneded_schema()]] - code - inventree/src/backend/InvenTree/stock/tests.py
+- [[test_full_process()]] - code - inventree/src/backend/InvenTree/plugin/test_api.py
+- [[test_function_errors()]] - code - inventree/src/backend/InvenTree/plugin/base/integration/test_mixins.py
+- [[test_instance_url()]] - code - inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[test_internal_pricing()]] - code - inventree/src/backend/InvenTree/part/test_pricing.py
+- [[test_migrations.py_1]] - code - inventree/src/backend/InvenTree/common/test_migrations.py
+- [[test_migrations.py_5]] - code - inventree/src/backend/InvenTree/company/test_migrations.py
+- [[test_migrations.py]] - code - inventree/src/backend/InvenTree/order/test_migrations.py
+- [[test_migrations.py_3]] - code - inventree/src/backend/InvenTree/part/test_migrations.py
+- [[test_migrations.py_4]] - code - inventree/src/backend/InvenTree/stock/test_migrations.py
+- [[test_migrations.py_2]] - code - inventree/src/backend/InvenTree/users/test_migrations.py
+- [[test_multi_level_bom()]] - code - inventree/src/backend/InvenTree/part/test_pricing.py
+- [[test_name()]] - code - inventree/src/backend/InvenTree/stock/models.py
+- [[test_notification_stale.py]] - code - inventree/src/backend/InvenTree/part/test_notification_stale.py
+- [[test_package_loading()]] - code - inventree/src/backend/InvenTree/plugin/test_plugin.py
+- [[test_param.py]] - code - inventree/src/backend/InvenTree/part/test_param.py
+- [[test_pricing.py]] - code - inventree/src/backend/InvenTree/part/test_pricing.py
+- [[test_pricing_data()]] - code - inventree/src/backend/InvenTree/part/test_pricing.py
+- [[test_purchase_pricing()]] - code - inventree/src/backend/InvenTree/part/test_pricing.py
+- [[test_registry_reload()]] - code - inventree/src/backend/InvenTree/plugin/test_plugin.py
+- [[test_remove_groups_overrides_default_group()]] - code - inventree/src/backend/InvenTree/InvenTree/test_auth.py
+- [[test_remove_non_sso_group()]] - code - inventree/src/backend/InvenTree/InvenTree/test_auth.py
+- [[test_return()]] - code - inventree/src/backend/InvenTree/plugin/samples/integration/test_api_caller.py
+- [[test_sales_order.py]] - code - inventree/src/backend/InvenTree/order/test_sales_order.py
+- [[test_search_performance()]] - code - inventree/src/performance/tests.py
+- [[test_simple()]] - code - inventree/src/backend/InvenTree/part/test_pricing.py
+- [[test_stock_item_pricing()]] - code - inventree/src/backend/InvenTree/part/test_pricing.py
+- [[test_supplier_part_pricing()]] - code - inventree/src/backend/InvenTree/part/test_pricing.py
+- [[test_to_local_time()]] - code - inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[test_translations()]] - code - inventree/tasks.py
+- [[test_tz_london()]] - code - inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[test_tz_utc()]] - code - inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[test_view()]] - code - inventree/src/backend/InvenTree/plugin/samples/integration/test_sample.py
+- [[text()_1]] - code - inventree/src/backend/InvenTree/generic/states/states.py
+- [[titlecase()]] - code - inventree/src/backend/InvenTree/report/templatetags/report.py
+- [[to_dict()]] - code - inventree/src/backend/InvenTree/InvenTree/config.py
+- [[to_list()]] - code - inventree/src/backend/InvenTree/InvenTree/config.py
+- [[to_local_time()]] - code - inventree/src/backend/InvenTree/InvenTree/helpers.py
+- [[token()_1]] - code - inventree/src/backend/InvenTree/users/models.py
+- [[top_level_path()]] - code - inventree/docs/extract_schema.py
+- [[total_line_price()]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[total_stock()]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[tracing.py]] - code - inventree/src/backend/InvenTree/InvenTree/tracing.py
+- [[tracking_info_count()]] - code - inventree/src/backend/InvenTree/stock/models.py
+- [[trigger_event()]] - code - inventree/src/backend/InvenTree/plugin/base/event/events.py
+- [[trigger_notification()]] - code - inventree/src/backend/InvenTree/common/notifications.py
+- [[truncate()]] - code - inventree/src/backend/InvenTree/report/templatetags/report.py
+- [[uid_to_barcode()]] - code - inventree/src/backend/InvenTree/stock/migrations/0085_auto_20220903_0225.py
+- [[uninstall_into_location()]] - code - inventree/src/backend/InvenTree/stock/models.py
+- [[uninstall_plugin()]] - code - inventree/src/backend/InvenTree/plugin/installer.py
+- [[unit_pricing()]] - code - inventree/src/backend/InvenTree/company/models.py
+- [[unit_test.py]] - code - inventree/src/backend/InvenTree/InvenTree/unit_test.py
+- [[unlink()]] - code - inventree/docs/docs/javascripts/mermaid.min.js
+- [[update()_2]] - code - inventree/src/backend/InvenTree/part/api.py
+- [[updateQuantity()]] - code - inventree/src/backend/InvenTree/stock/models.py
+- [[update_attachments()]] - code - inventree/src/backend/InvenTree/common/migrations/0026_auto_20240608_1238.py
+- [[update_bom_build_lines()]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[update_bom_item()]] - code - inventree/src/backend/InvenTree/part/migrations/0102_auto_20230314_0112.py
+- [[update_category_parameters()]] - code - inventree/src/backend/InvenTree/part/migrations/0145_auto_20251203_1238.py
+- [[update_exchange_rates()]] - code - inventree/src/backend/InvenTree/InvenTree/tasks.py
+- [[update_global_setting()]] - code - inventree/src/backend/InvenTree/common/migrations/0041_auto_20251203_1244.py
+- [[update_group_roles()]] - code - inventree/src/backend/InvenTree/users/tasks.py
+- [[update_history()]] - code - inventree/src/backend/InvenTree/stock/migrations/0061_auto_20210511_0911.py
+- [[update_instance_name()]] - code - inventree/src/backend/InvenTree/common/setting/system.py
+- [[update_instance_url()]] - code - inventree/src/backend/InvenTree/common/setting/system.py
+- [[update_machine()]] - code - inventree/src/backend/InvenTree/machine/registry.py
+- [[update_news_feed()]] - code - inventree/src/backend/InvenTree/common/tasks.py
+- [[update_news_feed_urls()]] - code - inventree/src/backend/InvenTree/common/migrations/0031_auto_20241026_0024.py
+- [[update_order_on_lineitem_change()]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[update_order_references()]] - code - inventree/src/backend/InvenTree/order/migrations/0074_auto_20220709_0108.py
+- [[update_parameter()]] - code - inventree/src/backend/InvenTree/part/migrations/0144_auto_20251203_1045.py
+- [[update_parameter_values()]] - code - inventree/src/backend/InvenTree/part/migrations/0109_auto_20230517_1048.py
+- [[update_part_pricing()]] - code - inventree/src/backend/InvenTree/part/tasks.py
+- [[update_pathstring()_1]] - code - inventree/src/backend/InvenTree/stock/migrations/0081_auto_20220801_0044.py
+- [[update_pathstring()]] - code - inventree/src/backend/InvenTree/part/migrations/0083_auto_20220731_2357.py
+- [[update_plugins_file()]] - code - inventree/src/backend/InvenTree/plugin/installer.py
+- [[update_pricing_after_delete()]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[update_pricing_after_edit()]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[update_purchase_order_price()]] - code - inventree/src/backend/InvenTree/order/migrations/0079_auto_20230304_0904.py
+- [[update_purchaseorder_reference()]] - code - inventree/src/backend/InvenTree/order/migrations/0074_auto_20220709_0108.py
+- [[update_rates()]] - code - inventree/src/backend/InvenTree/InvenTree/exchange.py
+- [[update_sales_order_price()]] - code - inventree/src/backend/InvenTree/order/migrations/0079_auto_20230304_0904.py
+- [[update_salesorder_reference()]] - code - inventree/src/backend/InvenTree/order/migrations/0074_auto_20220709_0108.py
+- [[update_serials()]] - code - inventree/src/backend/InvenTree/stock/migrations/0069_auto_20211109_2347.py
+- [[update_shipment_date()]] - code - inventree/src/backend/InvenTree/order/migrations/0105_auto_20241128_0431.py
+- [[update_site_url()]] - code - inventree/src/backend/InvenTree/InvenTree/apps.py
+- [[update_stock_history()]] - code - inventree/src/backend/InvenTree/stock/migrations/0096_auto_20230330_1121.py
+- [[update_supplier_part_units()]] - code - inventree/src/backend/InvenTree/company/migrations/0060_auto_20230519_0344.py
+- [[update_template_units()]] - code - inventree/src/backend/InvenTree/part/migrations/0109_auto_20230517_1048.py
+- [[update_templates()]] - code - inventree/src/backend/InvenTree/stock/migrations/0108_auto_20240219_0252.py
+- [[uploaded_image()]] - code - inventree/src/backend/InvenTree/report/templatetags/report.py
+- [[uppercase()]] - code - inventree/src/backend/InvenTree/report/templatetags/report.py
+- [[urls.py_2]] - code - inventree/src/backend/InvenTree/InvenTree/urls.py
+- [[urls.py_1]] - code - inventree/src/backend/InvenTree/plugin/urls.py
+- [[urls.py]] - code - inventree/src/backend/InvenTree/web/urls.py
+- [[used_in_count()]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[user_model_str()]] - code - inventree/src/backend/InvenTree/users/models.py
+- [[validate()_1]] - code - inventree/src/backend/InvenTree/InvenTree/helpers_mixin.py
+- [[validateFilterString()]] - code - inventree/src/backend/InvenTree/InvenTree/helpers.py
+- [[validate_attachment_model_type()]] - code - inventree/src/backend/InvenTree/common/validators.py
+- [[validate_bom()_1]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[validate_bom()]] - code - inventree/src/backend/InvenTree/part/tasks.py
+- [[validate_currency_code()]] - code - inventree/src/backend/InvenTree/InvenTree/validators.py
+- [[validate_currency_codes()]] - code - inventree/src/backend/InvenTree/common/currency.py
+- [[validate_data_file()]] - code - inventree/src/backend/InvenTree/importer/validators.py
+- [[validate_decimal_places_max()]] - code - inventree/src/backend/InvenTree/common/validators.py
+- [[validate_decimal_places_min()]] - code - inventree/src/backend/InvenTree/common/validators.py
+- [[validate_email_domains()]] - code - inventree/src/backend/InvenTree/common/validators.py
+- [[validate_field_defaults()]] - code - inventree/src/backend/InvenTree/importer/validators.py
+- [[validate_filters()]] - code - inventree/src/backend/InvenTree/report/validators.py
+- [[validate_icon()]] - code - inventree/src/backend/InvenTree/common/icons.py
+- [[validate_icon()_1]] - code - inventree/src/backend/InvenTree/common/validators.py
+- [[validate_importer_model_type()]] - code - inventree/src/backend/InvenTree/importer/validators.py
+- [[validate_notes_model_type()]] - code - inventree/src/backend/InvenTree/common/validators.py
+- [[validate_package_plugin()]] - code - inventree/src/backend/InvenTree/plugin/installer.py
+- [[validate_part_name_format()]] - code - inventree/src/backend/InvenTree/common/setting/system.py
+- [[validate_physical_units()]] - code - inventree/src/backend/InvenTree/InvenTree/validators.py
+- [[validate_primary_group_on_delete()]] - code - inventree/src/backend/InvenTree/users/models.py
+- [[validate_primary_group_on_group_change()]] - code - inventree/src/backend/InvenTree/users/models.py
+- [[validate_primary_group_on_save()]] - code - inventree/src/backend/InvenTree/users/models.py
+- [[validate_purchase_order_reference()]] - code - inventree/src/backend/InvenTree/InvenTree/validators.py
+- [[validate_purchase_order_reference_pattern()]] - code - inventree/src/backend/InvenTree/order/validators.py
+- [[validate_reference_field()]] - code - inventree/src/backend/InvenTree/InvenTree/models.py
+- [[validate_reference_pattern()]] - code - inventree/src/backend/InvenTree/InvenTree/models.py
+- [[validate_report_model_type()]] - code - inventree/src/backend/InvenTree/report/validators.py
+- [[validate_restore()]] - code - inventree/src/backend/InvenTree/InvenTree/backup.py
+- [[validate_return_order_reference()]] - code - inventree/src/backend/InvenTree/order/validators.py
+- [[validate_return_order_reference_pattern()]] - code - inventree/src/backend/InvenTree/order/validators.py
+- [[validate_sales_order_reference()]] - code - inventree/src/backend/InvenTree/InvenTree/validators.py
+- [[validate_sales_order_reference_pattern()]] - code - inventree/src/backend/InvenTree/order/validators.py
+- [[validate_tree_name()]] - code - inventree/src/backend/InvenTree/InvenTree/validators.py
+- [[validate_uppercase()]] - code - inventree/src/backend/InvenTree/common/validators.py
+- [[validate_url_no_ssrf()]] - code - inventree/src/backend/InvenTree/InvenTree/helpers_model.py
+- [[validate_variable_string()]] - code - inventree/src/backend/InvenTree/common/validators.py
+- [[validators.py_2]] - code - inventree/src/backend/InvenTree/common/validators.py
+- [[validators.py_1]] - code - inventree/src/backend/InvenTree/importer/validators.py
+- [[validators.py_5]] - code - inventree/src/backend/InvenTree/InvenTree/validators.py
+- [[validators.py]] - code - inventree/src/backend/InvenTree/order/validators.py
+- [[validators.py_4]] - code - inventree/src/backend/InvenTree/report/validators.py
+- [[values()_3]] - code - inventree/src/backend/InvenTree/generic/states/states.py
+- [[variant_stock_query()]] - code - inventree/src/backend/InvenTree/part/filters.py
+- [[version()_2]] - code - inventree/src/backend/InvenTree/plugin/plugin.py
+- [[version.py_1]] - code - inventree/src/backend/InvenTree/InvenTree/version.py
+- [[vite.config.ts]] - code - inventree/src/frontend/vite.config.ts
+- [[warning()]] - code - inventree/tasks.py
+- [[website()]] - code - inventree/src/backend/InvenTree/plugin/plugin.py
+- [[with_mixin()]] - code - inventree/src/backend/InvenTree/plugin/registry.py
+- [[write()]] - code - inventree/docs/docs/javascripts/mermaid.min.js
+
+## Live Query (requires Dataview plugin)
+
+```dataview
+TABLE source_file, type FROM #community/Data_Migrations_&_Schema
+SORT file.name ASC
+```
+
+## Connections to other communities
+- 1057 edges to [[_COMMUNITY_Part Management & Archetypes]]
+- 1041 edges to [[_COMMUNITY_Documentation & FAQ]]
+- 996 edges to [[_COMMUNITY_System Configuration & Settings]]
+- 958 edges to [[_COMMUNITY_Community 2]]
+- 716 edges to [[_COMMUNITY_Stock Management & Tracking]]
+- 472 edges to [[_COMMUNITY_Community 1]]
+- 157 edges to [[_COMMUNITY_Deployment & Docker Architecture]]
+- 50 edges to [[_COMMUNITY_Community 7]]
+- 17 edges to [[_COMMUNITY_Community 13]]
+- 13 edges to [[_COMMUNITY_Community 9]]
+- 12 edges to [[_COMMUNITY_Community 11]]
+- 11 edges to [[_COMMUNITY_Community 10]]
+- 10 edges to [[_COMMUNITY_API & Integration Core]]
+- 4 edges to [[_COMMUNITY_Community 16]]
+- 2 edges to [[_COMMUNITY_Community 22]]
+- 2 edges to [[_COMMUNITY_Community 23]]
+- 2 edges to [[_COMMUNITY_Community 20]]
+- 2 edges to [[_COMMUNITY_Community 14]]
+- 1 edge to [[_COMMUNITY_Community 25]]
+- 1 edge to [[_COMMUNITY_Community 21]]
+- 1 edge to [[_COMMUNITY_Community 29]]
+- 1 edge to [[_COMMUNITY_Community 15]]
+- 1 edge to [[_COMMUNITY_Community 34]]
+
+## Top bridge nodes
+- [[get()_1]] - degree 906, connects to 11 communities
+- [[.filter()_3]] - degree 468, connects to 8 communities
+- [[split()]] - degree 136, connects to 8 communities
+- [[join()_1]] - degree 106, connects to 8 communities
+- [[str]] - degree 387, connects to 7 communities

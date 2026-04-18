@@ -1,0 +1,21 @@
+---
+source_file: "inventree/src/backend/InvenTree/machine/registry.py"
+type: "rationale"
+community: "Community 2"
+location: "L470"
+tags:
+  - graphify/rationale
+  - graphify/INFERRED
+  - community/Community_2
+---
+
+# Save the current registry hash.
+
+## Connections
+- [[._update_registry_hash()]] - `rationale_for` [EXTRACTED]
+- [[BaseDriver]] - `uses` [INFERRED]
+- [[BaseMachineType]] - `uses` [INFERRED]
+- [[MachineConfig]] - `uses` [INFERRED]
+- [[PluginMixinEnum]] - `uses` [INFERRED]
+
+#graphify/rationale #graphify/INFERRED #community/Community_2

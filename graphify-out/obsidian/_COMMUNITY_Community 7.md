@@ -1,0 +1,383 @@
+---
+type: community
+cohesion: 0.01
+members: 332
+---
+
+# Community 7
+
+**Cohesion:** 0.01 - loosely connected
+**Members:** 332 nodes
+
+## Members
+- [[.get_model()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/models.py
+- [[.handle()_5]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/management/commands/remove_mfa.py
+- [[.notify()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/integration/test_core_notifications.py
+- [[.prepare()_8]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/test_migrations.py
+- [[.prepare()_11]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_migrations.py
+- [[.prepare()_2]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/test_migrations.py
+- [[.prepare()_25]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/test_migrations.py
+- [[.prepare()_7]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/test_migrations.py
+- [[.prepare()_19]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_migrations.py
+- [[.prepare()_20]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_migrations.py
+- [[.prepare()_9]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_migrations.py
+- [[.prepare()_5]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/test_migrations.py
+- [[.prepare()_6]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/test_migrations.py
+- [[.prepare()_4]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/test_migrations.py
+- [[.prepare()_23]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/test_migrations.py
+- [[.prepare()_24]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/test_migrations.py
+- [[.prepare()_27]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/test_migrations.py
+- [[.prepare()_10]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_migrations.py
+- [[.prepare()_14]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_migrations.py
+- [[.prepare()_12]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_migrations.py
+- [[.prepare()_13]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_migrations.py
+- [[.prepare()_21]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_migrations.py
+- [[.prepare()_18]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_migrations.py
+- [[.prepare()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/test_migrations.py
+- [[.prepare()_16]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_migrations.py
+- [[.prepare()_15]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_migrations.py
+- [[.prepare()_3]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/test_migrations.py
+- [[.prepare()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/test_migrations.py
+- [[.prepare()_22]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_migrations.py
+- [[.prepare()_26]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/test_migrations.py
+- [[.prepare()_17]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_migrations.py
+- [[.print()_3]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/api.py
+- [[.run_settings_check()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[.test_address_migration()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/test_migrations.py
+- [[.test_backfill_user_profiles()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/test_migrations.py
+- [[.test_company_objects()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/test_migrations.py
+- [[.test_currency_migration()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/test_migrations.py
+- [[.test_currency_migration()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/test_migrations.py
+- [[.test_data_migration()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_migrations.py
+- [[.test_email()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/integration/test_core_notifications.py
+- [[.test_items_exist()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/test_migrations.py
+- [[.test_key_field()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_migrations.py
+- [[.test_manufacturer_part_objects()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/test_migrations.py
+- [[.test_manufacturer_part_parameter_migration()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/test_migrations.py
+- [[.test_migration()_4]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_migrations.py
+- [[.test_migration()_5]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_migrations.py
+- [[.test_migration()_6]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_migrations.py
+- [[.test_migration()_3]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_migrations.py
+- [[.test_migration()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_migrations.py
+- [[.test_migration()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/test_migrations.py
+- [[.test_migration()_7]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_migrations.py
+- [[.test_migration()_2]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_migrations.py
+- [[.test_migrations()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/test_migrations.py
+- [[.test_migrations()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_migrations.py
+- [[.test_models_exist()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_migrations.py
+- [[.test_parameter_deletion()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_migrations.py
+- [[.test_po_migration()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/test_migrations.py
+- [[.test_print()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/tests.py
+- [[.test_print()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/tests.py
+- [[.test_ref_field()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/test_migrations.py
+- [[.test_setting_data()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[.test_shipment_creation()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/test_migrations.py
+- [[.test_supplier_part_quantity()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/test_migrations.py
+- [[.test_units_migration()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_migrations.py
+- [[.test_units_migration()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_migrations.py
+- [[.test_users_exist()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/test_migrations.py
+- [[.test_users_exist()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/test_migrations.py
+- [[.test_validated_field()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_migrations.py
+- [[0023_auto_20240421_0455.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/migrations/0023_auto_20240421_0455.py
+- [[0023_auto_20240602_1332.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/migrations/0023_auto_20240602_1332.py
+- [[0026_auto_20240608_1238.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/migrations/0026_auto_20240608_1238.py
+- [[0036_supplierpart_update_2.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/migrations/0036_supplierpart_update_2.py
+- [[0041_auto_20251203_1244.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/migrations/0041_auto_20251203_1244.py
+- [[0060_auto_20230519_0344.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/migrations/0060_auto_20230519_0344.py
+- [[0061_auto_20210511_0911.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/migrations/0061_auto_20210511_0911.py
+- [[0064_auto_20210621_1724.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/migrations/0064_auto_20210621_1724.py
+- [[0064_purchaseorderextraline_salesorderextraline.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/migrations/0064_purchaseorderextraline_salesorderextraline.py
+- [[0074_auto_20220709_0108.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/migrations/0074_auto_20220709_0108.py
+- [[0079_auto_20260212_1054.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/migrations/0079_auto_20260212_1054.py
+- [[0081_auto_20220801_0044.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/migrations/0081_auto_20220801_0044.py
+- [[0083_auto_20220731_2357.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/migrations/0083_auto_20220731_2357.py
+- [[0085_auto_20220903_0225.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/migrations/0085_auto_20220903_0225.py
+- [[0096_auto_20230330_1121.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/migrations/0096_auto_20230330_1121.py
+- [[0105_auto_20241128_0431.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/migrations/0105_auto_20241128_0431.py
+- [[0108_auto_20240219_0252.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/migrations/0108_auto_20240219_0252.py
+- [[0109_auto_20230517_1048.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/migrations/0109_auto_20230517_1048.py
+- [[0111_auto_20230521_1350.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/migrations/0111_auto_20230521_1350.py
+- [[0116_auto_20231023_0332.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/migrations/0116_auto_20231023_0332.py
+- [[0118_auto_20260205_1218.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/migrations/0118_auto_20260205_1218.py
+- [[0121_auto_20240207_0344.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/migrations/0121_auto_20240207_0344.py
+- [[0129_auto_20240815_0214.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/migrations/0129_auto_20240815_0214.py
+- [[0138_auto_20250718_2342.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/migrations/0138_auto_20250718_2342.py
+- [[0141_auto_20250722_0303.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/migrations/0141_auto_20250722_0303.py
+- [[0144_auto_20251203_1045.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/migrations/0144_auto_20251203_1045.py
+- [[0145_auto_20251203_1238.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/migrations/0145_auto_20251203_1238.py
+- [[Add 'primary' SupplierPart for each Part.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/migrations/0079_auto_20260212_1054.py
+- [[Add links to the Part model for all existing StockItemTracking entries.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/migrations/0118_auto_20260205_1218.py
+- [[Calculate and cache the BOM validity for all parts.          Procedure      - F]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/migrations/0141_auto_20250722_0303.py
+- [[Construct a 'path string' for the given path.      Arguments         path A li]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/helpers.py
+- [[Construct pathstring for all existing PartCategory objects]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/migrations/0083_auto_20220731_2357.py
+- [[Construct pathstring for all existing StockLocation objects]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/migrations/0081_auto_20220801_0044.py
+- [[Convert 'overage' field to 'setup_quantity' and 'attrition' fields.          - T]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/migrations/0138_auto_20250718_2342.py
+- [[Convert ExtraLine instances back to OrderLineItem instances]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/migrations/0064_purchaseorderextraline_salesorderextraline.py
+- [[Convert a value (with units) to a numeric value.      Defaults to zero if the va]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/migrations/0041_auto_20251203_1244.py
+- [[Convert a value (with units) to a numeric value.      Defaults to zero if the va_1]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/migrations/0109_auto_20230517_1048.py
+- [[Convert the OrderLineItem instances if applicable to new ExtraLine instances]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/migrations/0064_purchaseorderextraline_salesorderextraline.py
+- [[Copy ManufacturerPartParameter to Parameter.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/migrations/0041_auto_20251203_1244.py
+- [[Copy existing part.responsible field to part.responsible_owner]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/migrations/0116_auto_20231023_0332.py
+- [[Copy the 'parameter_template' field to the new 'template' field.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/migrations/0145_auto_20251203_1238.py
+- [[Copy the 'template' field back to the 'parameter_template' field.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/migrations/0145_auto_20251203_1238.py
+- [[Create a 'key' value for existing PartTestTemplate objects.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/migrations/0121_auto_20240207_0344.py
+- [[Create an initial SalesOrder.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/test_migrations.py
+- [[Create initial data for this migration.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_migrations.py
+- [[Create initial data set.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/test_migrations.py
+- [[Create initial dataset.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_migrations.py
+- [[Create some existing data before migration.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/test_migrations.py
+- [[Create some initial stock items.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_migrations.py
+- [[Create some parts, and templates with parameters.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_migrations.py
+- [[Create some simple Company data, and ensure that it migrates OK.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/test_migrations.py
+- [[Data migration for making the PartParameterTemplate and PartParameter models gen]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/migrations/0144_auto_20251203_1045.py
+- [[Data migration to fix a 'shortcoming' in the implementation of StockTracking his]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/migrations/0096_auto_20230330_1121.py
+- [[Data migration to update existing PartParameter records.          - Set 'model_t]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/migrations/0144_auto_20251203_1045.py
+- [[Find instances of StockItem which do not have a purchase price set,     but wh]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/migrations/0064_auto_20210621_1724.py
+- [[Generate a file attachment object for test upload.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/test_migrations.py
+- [[MFAMigrations]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/test_migrations.py
+- [[Mark 'primary' SupplierPart for each Part, if one exists.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/migrations/0079_auto_20260212_1054.py
+- [[Migrate any existing attachment models to the new attachment table.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/migrations/0026_auto_20240608_1238.py
+- [[Migrate existing supplier part units to new field]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/migrations/0060_auto_20230519_0344.py
+- [[Migrate new 'barcode_hash' field to old 'uid' field]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/migrations/0085_auto_20220903_0225.py
+- [[Migrate old 'uid' field to new 'barcode_hash' field]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/migrations/0085_auto_20220903_0225.py
+- [[Migrate the reference pattern for the PurchaseOrder model]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/migrations/0074_auto_20220709_0108.py
+- [[Migrate the reference pattern for the SalesOrder model]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/migrations/0074_auto_20220709_0108.py
+- [[Migration_190]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/migrations/0023_auto_20240421_0455.py
+- [[Migration_151]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/migrations/0023_auto_20240602_1332.py
+- [[Migration_140]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/migrations/0026_auto_20240608_1238.py
+- [[Migration_515]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/migrations/0036_supplierpart_update_2.py
+- [[Migration_157]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/migrations/0041_auto_20251203_1244.py
+- [[Migration_539]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/migrations/0060_auto_20230519_0344.py
+- [[Migration_465]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/migrations/0061_auto_20210511_0911.py
+- [[Migration_463]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/migrations/0064_auto_20210621_1724.py
+- [[Migration_112]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/migrations/0064_purchaseorderextraline_salesorderextraline.py
+- [[Migration_80]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/migrations/0074_auto_20220709_0108.py
+- [[Migration_536]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/migrations/0079_auto_20260212_1054.py
+- [[Migration_368]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/migrations/0081_auto_20220801_0044.py
+- [[Migration_219]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/migrations/0083_auto_20220731_2357.py
+- [[Migration_427]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/migrations/0085_auto_20220903_0225.py
+- [[Migration_473]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/migrations/0096_auto_20230330_1121.py
+- [[Migration_92]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/migrations/0105_auto_20241128_0431.py
+- [[Migration_411]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/migrations/0108_auto_20240219_0252.py
+- [[Migration_240]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/migrations/0109_auto_20230517_1048.py
+- [[Migration_228]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/migrations/0111_auto_20230521_1350.py
+- [[Migration_246]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/migrations/0116_auto_20231023_0332.py
+- [[Migration_369]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/migrations/0118_auto_20260205_1218.py
+- [[Migration_340]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/migrations/0121_auto_20240207_0344.py
+- [[Migration_335]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/migrations/0129_auto_20240815_0214.py
+- [[Migration_224]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/migrations/0138_auto_20250718_2342.py
+- [[Migration_260]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/migrations/0141_auto_20250722_0303.py
+- [[Migration_236]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/migrations/0144_auto_20251203_1045.py
+- [[Migration_348]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/migrations/0145_auto_20251203_1238.py
+- [[MigratorTestCase]] - code
+- [[PartUnitsMigrationTest]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_migrations.py
+- [[Perform data migration for the ManufacturerPartParameter model.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/migrations/0041_auto_20251203_1244.py
+- [[Prepare a number of SupplierPart objects.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/test_migrations.py
+- [[Prepare some data.          Changes         - A part to buy         - A supplie]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/test_migrations.py
+- [[Prepare some parts and parameters.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_migrations.py
+- [[Prepare some parts with units.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_migrations.py
+- [[Prepare some parts with units._1]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_migrations.py
+- [[Prepare the database by adding some test data 'before' the change.          Chan]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/test_migrations.py
+- [[Prepare the database by adding some test data 'before' the change.          Chan_1]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/test_migrations.py
+- [[Prepare the environment for the currency migration tests.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/test_migrations.py
+- [[Prepare the environment for the migration test.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/test_migrations.py
+- [[Prepare the environment for the migration test._1]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/test_migrations.py
+- [[Remove MFA for the supplied user (by mail or username).]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/management/commands/remove_mfa.py
+- [[Return a map of model_type report_type keys.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/migrations/0023_auto_20240421_0455.py
+- [[Return a set of legacy attachment models._1]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/migrations/0026_auto_20240608_1238.py
+- [[Return a set of legacy attachment models.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/test_migrations.py
+- [[Reverse data migration to restore existing PartParameter records.          - Set]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/migrations/0144_auto_20251203_1045.py
+- [[Reverse data migration, and map new Attachment model back to legacy models.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/migrations/0026_auto_20240608_1238.py
+- [[Reverse migration - remove any StockItemTracking entries which have a null item]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/migrations/0118_auto_20260205_1218.py
+- [[Reverse the migrations]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/migrations/0060_auto_20230519_0344.py
+- [[Reverse the owner migration      - Set the 'responsible' field to a selected us]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/migrations/0116_auto_20231023_0332.py
+- [[Revert the 'setup_quantity' and 'attrition' fields back to 'overage'.          -]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/migrations/0138_auto_20250718_2342.py
+- [[Run data migration to fix potentially mis-applied data migration.          Ref]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/migrations/0108_auto_20240219_0252.py
+- [[Run forwards migration.           - Create a new ReportTemplate instance for eac]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/migrations/0023_auto_20240421_0455.py
+- [[Run reverse migration.      - Delete any ReportTemplate instances in the databas]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/migrations/0023_auto_20240421_0455.py
+- [[Self that the key field is created and correctly filled.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_migrations.py
+- [[Set the 'testable' status to True for certain parts.      Prior to migration par]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/migrations/0129_auto_20240815_0214.py
+- [[Set the default currency codes.          Ref httpsgithub.cominventreeInven]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/migrations/0023_auto_20240602_1332.py
+- [[Set up some companies with addresses.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/test_migrations.py
+- [[Setup initial database state.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_migrations.py
+- [[Setup the initial state of the database before migrations.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/test_migrations.py
+- [[Test currency migration.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/test_migrations.py
+- [[Test currency migration._1]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/test_migrations.py
+- [[Test data migration for the SalesOrderShipment model.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/test_migrations.py
+- [[Test data migration which fixes empty 'shipment date' on SalesOrder model.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/test_migrations.py
+- [[Test data migration which updates serial numbers.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_migrations.py
+- [[Test database state after applying migrations.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/test_migrations.py
+- [[Test database state after applying the migration.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/test_migrations.py
+- [[Test entire schema migration sequence for the common app.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/test_migrations.py
+- [[Test entire schema migration sequence for the users app.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/test_migrations.py
+- [[Test for PartParameter deletion migration.      Ref httpsgithub.cominventre]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_migrations.py
+- [[Test for data migration of Part.units field.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_migrations.py
+- [[Test for data migration of PartParameterTemplate.      Ref httpsgithub.comi]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_migrations.py
+- [[Test migration of ManufacturerPartParameter data.      Ref httpsgithub.comi]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/test_migrations.py
+- [[Test moving address data into Address model.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/test_migrations.py
+- [[Test that ManufacturerPartParameter data has been migrated correctly.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/test_migrations.py
+- [[Test that PartParameter objects have been deleted.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_migrations.py
+- [[Test that all stock items were actually removed.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_migrations.py
+- [[Test that no currency migration occurs if wrong currencies are set.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/test_migrations.py
+- [[Test that the 'reference_int' field has been created and is filled out correctly]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/test_migrations.py
+- [[Test that the Part model can still be accessed at the end of schema migration.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_migrations.py
+- [[Test that the migration has correctly updated the SalesOrder objects.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/test_migrations.py
+- [[Test that the migrations have been applied correctly.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_migrations.py
+- [[Test that the migrations were applied as expected.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_migrations.py
+- [[Test that the migrations were applied as expected._1]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_migrations.py
+- [[Test that the migrations were applied as expected._2]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_migrations.py
+- [[Test that the migrations were applied as expected._3]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_migrations.py
+- [[Test that the migrations were applied as expected._4]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_migrations.py
+- [[Test that the new companies have been created successfully.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/test_migrations.py
+- [[Test that the new companies have been created successfully._1]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/test_migrations.py
+- [[Test that the new fields have been added correctly.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_migrations.py
+- [[Test that the supplier part quantity is correctly migrated.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/test_migrations.py
+- [[Test that the supplier part quantity is correctly migrated._1]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/test_migrations.py
+- [[Test that the template units and values have been updated correctly.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_migrations.py
+- [[Test that the units have migrated OK.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_migrations.py
+- [[Test that user profiles are created during the migration.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/test_migrations.py
+- [[Test that users exist in the database.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/test_migrations.py
+- [[Test the database state after applying all migrations.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/test_migrations.py
+- [[Test to ensure that the attachments are correctly migrated.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/test_migrations.py
+- [[TestAdditionalLineMigration]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/test_migrations.py
+- [[TestAddressMigration]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/test_migrations.py
+- [[TestBackfillUserProfiles]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/test_migrations.py
+- [[TestBarcodeToUiReversedMigration]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_migrations.py
+- [[TestBarcodeToUidMigration]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_migrations.py
+- [[TestBomItemMigrations]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_migrations.py
+- [[TestCurrencyMigration]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/test_migrations.py
+- [[TestCurrencyMigrationNo]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/test_migrations.py
+- [[TestForwardMigrations]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/test_migrations.py
+- [[TestManufacturerField]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/test_migrations.py
+- [[TestManufacturerPart]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/test_migrations.py
+- [[TestManufacturerPartParameterMigration]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/test_migrations.py
+- [[TestParameterMigrations]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_migrations.py
+- [[TestPartParameterDeletion]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_migrations.py
+- [[TestPartParameterTemplateMigration]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_migrations.py
+- [[TestPartTestParameterMigration]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_migrations.py
+- [[TestPartTestTemplateTreeFixMigration]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_migrations.py
+- [[TestPathstringMigration]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_migrations.py
+- [[TestRefIntMigrations]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/test_migrations.py
+- [[TestScheduledForDeletionMigration]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_migrations.py
+- [[TestSerialNumberMigration]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_migrations.py
+- [[TestShipmentDateMigration]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/test_migrations.py
+- [[TestShipmentMigration]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/test_migrations.py
+- [[TestStockItemTrackingMigration]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_migrations.py
+- [[TestSupplierPartQuantity]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/test_migrations.py
+- [[TestTestResultMigration]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_migrations.py
+- [[Tests for BomItem migrations.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_migrations.py
+- [[Tests for migration 0019 which migrates from old 'manufacturer_name' field to ne]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/test_migrations.py
+- [[Tests for migration 0034-0037 which added and transitioned to the ManufacturerPa]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/test_migrations.py
+- [[Tests for the company model database migrations.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/test_migrations.py
+- [[Tests for upgrade from basic currency support to django-money.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/test_migrations.py
+- [[Unit test for part parameter migrations.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_migrations.py
+- [[Unit testing class for testing 'company' app migrations.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/test_migrations.py
+- [[Unit tests for StockItemTestResult data migrations.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_migrations.py
+- [[Unit tests for StockItemTracking code migrations.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_migrations.py
+- [[Unit tests for StockLocation.Pathstring data migrations.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_migrations.py
+- [[Unit tests for barcode to uid data migrations.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_migrations.py
+- [[Unit tests for barcode to uid data migrations._1]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_migrations.py
+- [[Unit tests for fixing issues with PartTestTemplate tree branch confusion migrati]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_migrations.py
+- [[Update all references of the given model, with the specified prefix]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/migrations/0074_auto_20220709_0108.py
+- [[Update each existing StockItemTracking object,     convert the recorded quantit]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/migrations/0061_auto_20210511_0911.py
+- [[Update the parameter values for all parts      - Calculate the 'data_numeric' v]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/migrations/0109_auto_20230517_1048.py
+- [[Update the shipment date for existing SalesOrderAllocation objects]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/migrations/0105_auto_20241128_0431.py
+- [[Update the units field for each Part object      - Check if the units are valid]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/migrations/0111_auto_20230521_1350.py
+- [[Update the units for each parameter template      - Check if the units are vali]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/migrations/0109_auto_20230517_1048.py
+- [[_convert_model()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/migrations/0064_purchaseorderextraline_salesorderextraline.py
+- [[_reconvert_model()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/migrations/0064_purchaseorderextraline_salesorderextraline.py
+- [[add_part_links()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/migrations/0118_auto_20260205_1218.py
+- [[barcode_to_uid()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/migrations/0085_auto_20220903_0225.py
+- [[cache_bom_valid()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/migrations/0141_auto_20250722_0303.py
+- [[constructPathString()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/helpers.py
+- [[convert_line_items()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/migrations/0064_purchaseorderextraline_salesorderextraline.py
+- [[convert_overage()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/migrations/0138_auto_20250718_2342.py
+- [[convert_to_numeric_value()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/migrations/0041_auto_20251203_1244.py
+- [[convert_to_numeric_value()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/migrations/0109_auto_20230517_1048.py
+- [[copy_manufacturer_part_parameters()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/migrations/0041_auto_20251203_1244.py
+- [[extract_purchase_price()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/migrations/0064_auto_20210621_1724.py
+- [[forward()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/migrations/0023_auto_20240421_0455.py
+- [[generate_attachment()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/test_migrations.py
+- [[get_legacy_models()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/migrations/0026_auto_20240608_1238.py
+- [[get_legacy_models()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/test_migrations.py
+- [[link_primary_supplier_part()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/migrations/0079_auto_20260212_1054.py
+- [[migrate_part_responsible_owner()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/migrations/0116_auto_20231023_0332.py
+- [[migrate_part_units()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/migrations/0111_auto_20230521_1350.py
+- [[nunconvert_line_items()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/migrations/0064_purchaseorderextraline_salesorderextraline.py
+- [[prep_currency_migration()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/test_migrations.py
+- [[remove_null_items()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/migrations/0118_auto_20260205_1218.py
+- [[report_model_map()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/migrations/0023_auto_20240421_0455.py
+- [[reverse()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/migrations/0023_auto_20240421_0455.py
+- [[reverse_attachments()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/migrations/0026_auto_20240608_1238.py
+- [[reverse_link_primary_supplier_part()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/migrations/0079_auto_20260212_1054.py
+- [[reverse_owner_migration()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/migrations/0116_auto_20231023_0332.py
+- [[reverse_pack_quantity()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/migrations/0060_auto_20230519_0344.py
+- [[reverse_update_category_parameters()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/migrations/0145_auto_20251203_1238.py
+- [[reverse_update_parameter()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/migrations/0144_auto_20251203_1045.py
+- [[revert_overage()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/migrations/0138_auto_20250718_2342.py
+- [[set_currencies()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/migrations/0023_auto_20240602_1332.py
+- [[set_key()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/migrations/0121_auto_20240207_0344.py
+- [[set_testable()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/migrations/0129_auto_20240815_0214.py
+- [[supplierpart_make_manufacturer_parts()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/migrations/0036_supplierpart_update_2.py
+- [[supplierpart_populate_manufacturer_info()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/migrations/0036_supplierpart_update_2.py
+- [[test_migrations.py_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/test_migrations.py
+- [[test_migrations.py_5]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/test_migrations.py
+- [[test_migrations.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/test_migrations.py
+- [[test_migrations.py_3]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_migrations.py
+- [[test_migrations.py_4]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_migrations.py
+- [[test_migrations.py_2]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/test_migrations.py
+- [[uid_to_barcode()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/migrations/0085_auto_20220903_0225.py
+- [[update_attachments()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/migrations/0026_auto_20240608_1238.py
+- [[update_category_parameters()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/migrations/0145_auto_20251203_1238.py
+- [[update_history()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/migrations/0061_auto_20210511_0911.py
+- [[update_order_references()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/migrations/0074_auto_20220709_0108.py
+- [[update_parameter()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/migrations/0144_auto_20251203_1045.py
+- [[update_parameter_values()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/migrations/0109_auto_20230517_1048.py
+- [[update_pathstring()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/migrations/0081_auto_20220801_0044.py
+- [[update_pathstring()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/migrations/0083_auto_20220731_2357.py
+- [[update_purchaseorder_reference()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/migrations/0074_auto_20220709_0108.py
+- [[update_salesorder_reference()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/migrations/0074_auto_20220709_0108.py
+- [[update_shipment_date()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/migrations/0105_auto_20241128_0431.py
+- [[update_stock_history()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/migrations/0096_auto_20230330_1121.py
+- [[update_supplier_part_units()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/migrations/0060_auto_20230519_0344.py
+- [[update_template_units()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/migrations/0109_auto_20230517_1048.py
+- [[update_templates()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/migrations/0108_auto_20240219_0252.py
+
+## Live Query (requires Dataview plugin)
+
+```dataview
+TABLE source_file, type FROM #community/Community_7
+SORT file.name ASC
+```
+
+## Connections to other communities
+- 79 edges to [[_COMMUNITY_Inventory & Order Logic]]
+- 56 edges to [[_COMMUNITY_Community 6]]
+- 54 edges to [[_COMMUNITY_Community 13]]
+- 51 edges to [[_COMMUNITY_Community 3]]
+- 37 edges to [[_COMMUNITY_Community 10]]
+- 33 edges to [[_COMMUNITY_Community 14]]
+- 19 edges to [[_COMMUNITY_Core Models & Admin]]
+- 11 edges to [[_COMMUNITY_Utilities & Auth]]
+- 10 edges to [[_COMMUNITY_Community 1]]
+- 6 edges to [[_COMMUNITY_Community 4]]
+- 6 edges to [[_COMMUNITY_Community 16]]
+- 6 edges to [[_COMMUNITY_Community 17]]
+- 4 edges to [[_COMMUNITY_Community 2]]
+- 4 edges to [[_COMMUNITY_Community 12]]
+- 2 edges to [[_COMMUNITY_Community 15]]
+- 2 edges to [[_COMMUNITY_Community 5]]
+- 2 edges to [[_COMMUNITY_Community 25]]
+- 2 edges to [[_COMMUNITY_Community 42]]
+- 2 edges to [[_COMMUNITY_Community 23]]
+- 1 edge to [[_COMMUNITY_Community 19]]
+- 1 edge to [[_COMMUNITY_Community 46]]
+- 1 edge to [[_COMMUNITY_Community 29]]
+- 1 edge to [[_COMMUNITY_Community 43]]
+
+## Top bridge nodes
+- [[.print()_3]] - degree 104, connects to 16 communities
+- [[.get_model()]] - degree 131, connects to 9 communities
+- [[set_currencies()]] - degree 13, connects to 8 communities
+- [[update_template_units()]] - degree 10, connects to 6 communities
+- [[.handle()_5]] - degree 8, connects to 6 communities

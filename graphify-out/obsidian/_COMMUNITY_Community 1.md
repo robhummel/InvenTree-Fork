@@ -1,0 +1,1273 @@
+---
+type: community
+cohesion: 0.00
+members: 1221
+---
+
+# Community 1
+
+**Cohesion:** 0.00 - loosely connected
+**Members:** 1221 nodes
+
+## Members
+- [[TODO Implement tag field export support]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/data_exporter/mixins.py
+- [[TODO Implement this]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/barcodes/mixins.py
+- [[TODO This value should be reduced]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/unit_test.py
+- [[TODO This value should be reduced_1]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/unit_test.py
+- [[.__get_mixin_order()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/registry.py
+- [[.__getstate__()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/models.py
+- [[.__init__()_28]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/APICallMixin.py
+- [[.__init__()_24]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/AppMixin.py
+- [[.__init__()_10]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/broken/bad_actor.py
+- [[.__init__()_9]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/broken/broken_sample.py
+- [[.__init__()_27]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/CurrencyExchangeMixin.py
+- [[.__init__()_8]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/helpers.py
+- [[.__init__()_12]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/labels/inventree_machine.py
+- [[.__init__()_42]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/machine_type.py
+- [[.__init__()_43]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/machine_type.py
+- [[.__init__()_16]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/MachineMixin.py
+- [[.__init__()_30]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/action/mixins.py
+- [[.__init__()_33]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/barcodes/mixins.py
+- [[.__init__()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/importer/mixins.py
+- [[.__init__()_36]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/event/mixins.py
+- [[.__init__()_32]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/icons/mixins.py
+- [[.__init__()_29]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/label/mixins.py
+- [[.__init__()_14]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/locate/mixins.py
+- [[.__init__()_15]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/mail/mixins.py
+- [[.__init__()_34]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/barcodes/mixins.py
+- [[.__init__()_31]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/supplier/mixins.py
+- [[.__init__()_13]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/ui/mixins.py
+- [[.__init__()_2]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/models.py
+- [[.__init__()_23]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/NavigationMixin.py
+- [[.__init__()_7]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/plugin.py
+- [[.__init__()_40]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/registry.py
+- [[.__init__()_3]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/registry.py
+- [[.__init__()_22]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/ScheduleMixin.py
+- [[.__init__()_41]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/serializers.py
+- [[.__init__()_26]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/SettingsMixin.py
+- [[.__init__()_20]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/UrlsMixin.py
+- [[.__repr__()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/machine_type.py
+- [[.__str__()_6]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/helpers.py
+- [[.__str__()_14]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/machine_type.py
+- [[.__str__()_13]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/models.py
+- [[.__str__()_4]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/models.py
+- [[.__str__()_5]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/models.py
+- [[._activate_plugins()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/registry.py
+- [[._calculate_registry_hash()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/registry.py
+- [[._check_reload()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/registry.py
+- [[._clean_installed_apps()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/registry.py
+- [[._clean_registry()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/registry.py
+- [[._deactivate_plugins()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/registry.py
+- [[._get_dummy_request()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/machine_types/label_printer.py
+- [[._load_plugins()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/registry.py
+- [[._reload_apps()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/registry.py
+- [[._reregister_contrib_apps()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/AppMixin.py
+- [[._try_reload()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/registry.py
+- [[._unload_plugins()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/registry.py
+- [[._update_registry_hash()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/registry.py
+- [[._update_urls()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/registry.py
+- [[.action_name()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/action/mixins.py
+- [[.activate_plugin()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/mail/test_mail_sample.py
+- [[.add_report_context()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/report_plugin_sample.py
+- [[.after_printing()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/label/mixins.py
+- [[.before_printing()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/labels/inventree_label.py
+- [[.before_printing()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/label/mixins.py
+- [[.custom_func()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/testing/label_machines.py
+- [[.delete()_6]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/models.py
+- [[.discover_drivers()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/registry.py
+- [[.discover_mixins()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/registry.py
+- [[.export_data()_2]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/exporter/parameter_exporter.py
+- [[.extract_barcode_fields()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/suppliers/digikey.py
+- [[.extract_barcode_fields()_4]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/barcodes/mixins.py
+- [[.extract_barcode_fields()_3]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/suppliers/mouser.py
+- [[.extract_barcode_fields()_2]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/suppliers/tme.py
+- [[.filter_installed()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/api.py
+- [[.format_matched_response()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/barcodes/inventree_barcode.py
+- [[.generate()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/barcodes/inventree_barcode.py
+- [[.generate()_2]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/barcodes/mixins.py
+- [[.generate_batch_code()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/validation_sample.py
+- [[.generate_filename()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/exporter/stocktake_exporter.py
+- [[.get_admin_context()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/plugin.py
+- [[.get_admin_context()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/user_interface_sample.py
+- [[.get_admin_source()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/plugin.py
+- [[.get_default_location()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/models.py
+- [[.get_driver_options()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/labels/inventree_machine.py
+- [[.get_errors()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/serializers.py
+- [[.get_field_value()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/barcodes/mixins.py
+- [[.get_generated_file()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/label/mixins.py
+- [[.get_import_exclude_fields()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/importer/mixins.py
+- [[.get_import_only_fields()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/importer/mixins.py
+- [[.get_importable_fields()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/importer/mixins.py
+- [[.get_info()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/action/mixins.py
+- [[.get_info()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/simpleactionplugin.py
+- [[.get_initialized()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/serializers.py
+- [[.get_is_builtin()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/serializers.py
+- [[.get_is_driver_available()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/serializers.py
+- [[.get_machine_drivers()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/testing/label_machines.py
+- [[.get_machine_drivers()_2]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/integration/machine_types.py
+- [[.get_machine_drivers()_3]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/MachineMixin.py
+- [[.get_machine_drivers()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/machines/sample_printer.py
+- [[.get_machine_types()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/integration/machine_types.py
+- [[.get_machine_types()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/MachineMixin.py
+- [[.get_machines()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/machine_type.py
+- [[.get_manufacturer_part()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/barcodes/mixins.py
+- [[.get_models()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/models.py
+- [[.get_part()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/barcodes/mixins.py
+- [[.get_printer_name()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/labels/inventree_machine.py
+- [[.get_printers()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/machine_types/label_printer.py
+- [[.get_printing_options_serializer()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/machine_types/label_printer.py
+- [[.get_printing_options_serializer()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/label/mixins.py
+- [[.get_provider_file()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/serializers.py
+- [[.get_provider_plugin()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/serializers.py
+- [[.get_purchase_order()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/barcodes/mixins.py
+- [[.get_response()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/action/mixins.py
+- [[.get_restart_required()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/serializers.py
+- [[.get_result()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/action/mixins.py
+- [[.get_result()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/simpleactionplugin.py
+- [[.get_scheduled_tasks()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/ScheduleMixin.py
+- [[.get_setting()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/machine_type.py
+- [[.get_status()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/serializers.py
+- [[.get_status_model()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/serializers.py
+- [[.get_status_text()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/serializers.py
+- [[.get_supplier()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/barcodes/mixins.py
+- [[.get_supplier_part()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/barcodes/mixins.py
+- [[.get_transition_handlers()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/transition.py
+- [[.get_ui_dashboard_items()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/ui/mixins.py
+- [[.get_ui_dashboard_items()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/user_interface_sample.py
+- [[.get_ui_features()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/ui/mixins.py
+- [[.get_ui_navigation_items()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/ui/mixins.py
+- [[.get_ui_navigation_items()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/user_interface_sample.py
+- [[.get_ui_panels()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/ui/mixins.py
+- [[.get_ui_spotlight_actions()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/ui/mixins.py
+- [[.get_ui_spotlight_actions()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/user_interface_sample.py
+- [[.get_ui_template_previews()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/ui/mixins.py
+- [[.get_ui_template_previews()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/user_interface_sample.py
+- [[.handle_error()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/machine_type.py
+- [[.handle_error()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/registry.py
+- [[.icon_packs()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/icons/icon_sample.py
+- [[.icon_packs()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/icons/mixins.py
+- [[.increment_serial_number()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/validation_sample.py
+- [[.init_driver()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/machine_type.py
+- [[.init_machine()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/machine_type.py
+- [[.init_machine()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/machines/sample_printer.py
+- [[.is_active()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/models.py
+- [[.locate_stock_item()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/locate/mixins.py
+- [[.locate_stock_location()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/locate/mixins.py
+- [[.mixins()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/models.py
+- [[.mockDir()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/test_plugin.py
+- [[.perform_action()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/action/mixins.py
+- [[.perform_action()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/simpleactionplugin.py
+- [[.ping_machines()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/machine_type.py
+- [[.plugin_name()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/broken/bad_actor.py
+- [[.plugin_settings_keys()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/registry.py
+- [[.plugin_slug()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/broken/bad_actor.py
+- [[.prefetch_queryset()_2]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/exporter/parameter_exporter.py
+- [[.prefetch_queryset()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/exporter/stocktake_exporter.py
+- [[.print_label()_5]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/labels/inventree_label.py
+- [[.print_label()_2]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/testing/label_machines.py
+- [[.print_label()_3]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/testing/label_machines.py
+- [[.print_label()_4]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/testing/label_machines.py
+- [[.print_label()_7]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/machine_types/label_printer.py
+- [[.print_label()_6]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/label/mixins.py
+- [[.print_label()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/machines/sample_printer.py
+- [[.print_labels()_3]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/machine_types/label_printer.py
+- [[.process_event()_3]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/events/auto_create_builds.py
+- [[.process_event()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/event/event_sample.py
+- [[.process_event()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/event/filtered_event_sample.py
+- [[.process_event()_4]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/event/mixins.py
+- [[.process_mail_in()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/mail/mail_sample.py
+- [[.process_mail_in()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/mail/mixins.py
+- [[.process_mail_out()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/mail/mail_sample.py
+- [[.process_mail_out()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/mail/mixins.py
+- [[.raise_error()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/ValidationMixin.py
+- [[.register()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/importer/registry.py
+- [[.reload_machines()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/registry.py
+- [[.render_to_html()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/machine_types/label_printer.py
+- [[.render_to_html()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/label/mixins.py
+- [[.render_to_pdf()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/machine_types/label_printer.py
+- [[.render_to_pdf_data()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/machine_types/label_printer.py
+- [[.render_to_png()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/machine_types/label_printer.py
+- [[.reset_errors()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/machine_type.py
+- [[.restart()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/machine_type.py
+- [[.restart_machine()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/testing/label_machines.py
+- [[.restart_machine()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/machine_type.py
+- [[.run_package_test()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/test_plugin.py
+- [[.save()_34]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/models.py
+- [[.save()_35]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/models.py
+- [[.save()_22]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/models.py
+- [[.scan()_2]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/barcodes/mixins.py
+- [[.scan()_3]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/barcodes/mixins.py
+- [[.scan_receive_item()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/barcodes/mixins.py
+- [[.setUp()_15]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/action/test_action.py
+- [[.setUp()_14]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/test_mixins.py
+- [[.setUp()_12]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/test_mixins.py
+- [[.setUp()_13]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/test_mixins.py
+- [[.setUp()_10]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/test_mixins.py
+- [[.setUp()_11]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/test_mixins.py
+- [[.setUp()_3]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/test_plugin.py
+- [[.set_properties()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/machine_type.py
+- [[.set_setting()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/SettingsMixin.py
+- [[.set_status()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/machine_type.py
+- [[.set_status_text()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/machine_type.py
+- [[.set_user_setting()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/SettingsMixin.py
+- [[.setup_navigation()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/NavigationMixin.py
+- [[.setup_urls()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/sample.py
+- [[.setup_urls()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/UrlsMixin.py
+- [[.some_custom_function()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/report_plugin_sample.py
+- [[.supports_export()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/exporter/inventree_exporter.py
+- [[.supports_export()_3]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/exporter/parameter_exporter.py
+- [[.supports_export()_2]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/exporter/stocktake_exporter.py
+- [[.test_action_name()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/action/test_action.py
+- [[.test_action_name()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/test_plugin.py
+- [[.test_args()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/test_mixins.py
+- [[.test_base_setup()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/test_mixins.py
+- [[.test_basic_is_active()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/test_plugin.py
+- [[.test_basic_plugin_init()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/test_plugin.py
+- [[.test_basic_plugin_name()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/test_plugin.py
+- [[.test_calling()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/test_scheduled_task.py
+- [[.test_check_reload()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/test_plugin.py
+- [[.test_deactivate_nested_plugin_path()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/test_mixins.py
+- [[.test_depreciation()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/test_plugin.py
+- [[.test_fail()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/test_mixins.py
+- [[.test_folder_loading()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/test_plugin.py
+- [[.test_function()_6]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/action/test_action.py
+- [[.test_function()_4]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/test_mixins.py
+- [[.test_function()_5]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/test_mixins.py
+- [[.test_function()_2]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/test_mixins.py
+- [[.test_function()_3]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/test_mixins.py
+- [[.test_init()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/test_scheduled_task.py
+- [[.test_mixin()_3]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/event/test_event_sample.py
+- [[.test_mixin()_2]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/icons/test_icon_sample.py
+- [[.test_mixin()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/locate/test_locate_sample.py
+- [[.test_mixin()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/mail/test_mail_sample.py
+- [[.test_mixin_available()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/test_plugin.py
+- [[.test_mixin_name()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/test_mixins.py
+- [[.test_name()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/test_simpleactionplugin.py
+- [[.test_not_found()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_api.py
+- [[.test_plugin_override_active()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/test_plugin.py
+- [[.test_plugin_override_mandatory()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/test_plugin.py
+- [[.test_post_errors()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/action/test_action.py
+- [[.test_run_event_in()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/mail/test_mail_sample.py
+- [[.test_run_event_out()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/mail/test_mail_sample.py
+- [[.test_subfolder_loading()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/test_plugin.py
+- [[.test_tag_inactive_plugin_list()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/test_plugin.py
+- [[.test_tag_mixin_enabled()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/test_plugin.py
+- [[.test_tag_plugin_list()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/test_plugin.py
+- [[.test_tag_plugin_settings()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/test_plugin.py
+- [[.test_tag_safe_url()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/test_plugin.py
+- [[.to_dict()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/models.py
+- [[.to_native_value()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/models.py
+- [[.transition()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/transition.py
+- [[.update_exchange_rates()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/integration/currency_exchange.py
+- [[.update_exchange_rates()_2]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/CurrencyExchangeMixin.py
+- [[.update_exchange_rates()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/sample_currency_exchange.py
+- [[.update_headers()_2]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/exporter/parameter_exporter.py
+- [[.update_headers()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/exporter/stocktake_exporter.py
+- [[.update_machine()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/machine_type.py
+- [[.validate_batch_code()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/validation_sample.py
+- [[.validate_model_instance()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/validation_sample.py
+- [[.validate_parameter()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/validation_sample.py
+- [[.validate_part_ipn()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/validation_sample.py
+- [[.validate_part_name()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/validation_sample.py
+- [[.validate_sales_order()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/barcodes/serializers.py
+- [[.validate_serial_number()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/validation_sample.py
+- [[.view_test()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/sample.py
+- [[.wants_process_event()_2]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/events/auto_create_builds.py
+- [[.wants_process_event()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/event/filtered_event_sample.py
+- [[.wants_process_event()_3]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/event/mixins.py
+- [[.wants_process_event()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/integration/part_notifications.py
+- [[A Machine objects represents a physical machine.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/models.py
+- [[A PluginConfig object holds settings for plugins.      Attributes         key]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/models.py
+- [[A basic wrong plugin with urls.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/another_sample.py
+- [[A custom function for the driver.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/testing/label_machines.py
+- [[A dependent field can be used to dynamically return child fields based on the va]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[A full plugin example.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/sample.py
+- [[A list of keys which are used to store plugin settings.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/registry.py
+- [[A mixin class for adding report generation functionality to a model class.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/mixins.py
+- [[A plugin that attempts to override internal methods.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/broken/bad_actor.py
+- [[A sample plugin class for demonstrating custom validation functions.      Simple]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/validation_sample.py
+- [[A sample plugin which demonstrates user interface integrations.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/user_interface_sample.py
+- [[A sample plugin which provides support for scheduled tasks.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/scheduled_task.py
+- [[A sample plugin which provides supports for processing mails.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/mail/mail_sample.py
+- [[A sample plugin which provides supports for triggered events._1]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/event/event_sample.py
+- [[A sample plugin which provides supports for triggered events.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/event/filtered_event_sample.py
+- [[A sample plugin which shows how state transitions might be implemented.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/transition.py
+- [[A simple member function to demonstrate functionality.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/scheduled_task.py
+- [[A small api call sample.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/api_caller.py
+- [[A small version sample.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/version.py
+- [[A test plugin for label printer machines.      This plugin registers multiple dr]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/testing/label_machines.py
+- [[A very broken plugin.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/broken/broken_sample.py
+- [[A very simple example of a 'printer' machine plugin.      This plugin class simp]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/machines/sample_printer.py
+- [[A very simple plugin.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/mock/simple.py
+- [[APICallMixin]] - code
+- [[APICallMixin_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/APICallMixin.py
+- [[APICallMixin.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/APICallMixin.py
+- [[APICallMixinTest]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/test_mixins.py
+- [[APITests]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/action/test_action.py
+- [[Access the machines location instance using this property.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/machine_types/label_printer.py
+- [[Access to key of supplied dict.      Usage     {% mydictkeyvaluemykey %}]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/templatetags/inventree_extras.py
+- [[ActionMixin]] - code
+- [[ActionMixin_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/action/mixins.py
+- [[ActionMixinTests]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/action/test_action.py
+- [[Activate schedules from plugins with the ScheduleMixin.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/ScheduleMixin.py
+- [[Activate the sample mail plugin.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/mail/test_mail_sample.py
+- [[Add a machine to the machine registry.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/registry.py
+- [[Add a specific permission for the provided user.      Arguments         user T]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/unit_test.py
+- [[Add example content to the report instance.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/report_plugin_sample.py
+- [[All defined task names.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/ScheduleMixin.py
+- [[An EXTREMELY simple action plugin which demonstrates the capability of the Actio]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/simpleactionplugin.py
+- [[An intentionally broken plugin to test error handling.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/transition.py
+- [[An very broken plugin.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/broken/broken_file.py
+- [[AppMixin]] - code
+- [[AppMixin_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/AppMixin.py
+- [[AppMixin.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/AppMixin.py
+- [[AppMixinTest]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/test_mixins.py
+- [[Are tasks defined for this plugin.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/ScheduleMixin.py
+- [[Attempt to create a bad actor plugin that overrides internal methods.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/broken/bad_actor.py
+- [[Attempt to locate a particular StockItem.          Arguments             item_p]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/locate/mixins.py
+- [[Attempt to location a particular StockLocation.          Arguments]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/locate/mixins.py
+- [[Attempt to receive an item against a PurchaseOrder via barcode scanning.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/barcodes/mixins.py
+- [[AutoCreateBuildsPlugin]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/events/auto_create_builds.py
+- [[BadActorPlugin]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/broken/bad_actor.py
+- [[BarcodeMixin]] - code
+- [[BarcodeMixin_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/barcodes/mixins.py
+- [[Base class for all machine drivers.      Attributes         SLUG Slug string f]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/machine_type.py
+- [[Base class for machine types.      Attributes         SLUG Slug string for ide]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/machine_type.py
+- [[Base class for representing a set of machine status codes.      Use enum syntax]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/machine_type.py
+- [[Base context for a report model.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/mixins.py
+- [[Base driver __init__ method.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/machine_type.py
+- [[Base driver for label printer machines.      Attributes         USE_BACKGROUND_]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/machine_types/label_printer.py
+- [[Base machine type __init__ function.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/machine_type.py
+- [[Base machine typebase driver.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/machine_type.py
+- [[Base plugin which defines the built-in machine types.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/integration/machine_types.py
+- [[BaseDriver_1]] - code
+- [[BaseDriver]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/machine_type.py
+- [[BaseMachineClassSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/serializers.py
+- [[BaseMachineType_1]] - code
+- [[BaseMachineType]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/machine_type.py
+- [[BaseMixinDefinition]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/test_mixins.py
+- [[BaseReportContext]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/mixins.py
+- [[BomExporterOptionsSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/exporter/bom_exporter.py
+- [[BrokenFileIntegrationPlugin]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/broken/broken_file.py
+- [[BrokenIntegrationPlugin]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/broken/broken_sample.py
+- [[BrokenTransitionPlugin]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/transition.py
+- [[Builtin BarcodePlugin for matching and generating internal barcodes.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/barcodes/inventree_barcode.py
+- [[Builtin plugin for exporting Parameter data.      Extends the export process, to]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/exporter/parameter_exporter.py
+- [[Builtin plugin for exporting part stocktake data.      Extends the part export]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/exporter/stocktake_exporter.py
+- [[Builtin plugin for label printing.      This plugin arrays multiple labels onto]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/labels/label_sheet.py
+- [[Builtin plugin for label printing.      This plugin merges the selected labels i]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/labels/inventree_label.py
+- [[Builtin plugin for machine label printing.      This enables machines to print l]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/labels/inventree_machine.py
+- [[Builtin plugin for performing multi-level BOM exports.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/exporter/bom_exporter.py
+- [[Builtin plugin for requesting exchange rates from an external API.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/integration/currency_exchange.py
+- [[Cache the result of a function, but do not cache falsy results.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/barcodes/helper.py
+- [[Calculate a 'hash' value for the current registry.          This is used to dete]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/registry.py
+- [[Calculate a hash of the machine registry state.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/registry.py
+- [[Call a member function (named by 'func') of the plugin named by 'slug'.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/registry.py
+- [[Call a named function against a machine instance.          Arguments]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/registry.py
+- [[Check all plugins are listed.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/test_plugin.py
+- [[Check if a basic plugin intis.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/test_plugin.py
+- [[Check if a basic plugin is active.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/test_plugin.py
+- [[Check if all required settings for this machine are defined.          Returns]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/machine_type.py
+- [[Check if depreciations raise as expected.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/test_plugin.py
+- [[Check if functions work.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/test_simpleactionplugin.py
+- [[Check if the event is issued._1]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/event/test_event_sample.py
+- [[Check if the event is issued.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/locate/test_locate_sample.py
+- [[Check if the event on received is issued.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/mail/test_mail_sample.py
+- [[Check if the event on send mails is issued.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/mail/test_mail_sample.py
+- [[Check if the machine registry is ready.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/registry.py
+- [[Check if the name of a basic plugin can be set.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/test_plugin.py
+- [[Check if the registry needs to be reloaded, and reload it.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/registry.py
+- [[Check if the scheduling works.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/test_scheduled_task.py
+- [[Check that all MixinImplementationErrors raise.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/test_scheduled_task.py
+- [[Check that mixin enabled functions work.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/test_plugin.py
+- [[Check that mixin_available works.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/test_plugin.py
+- [[Check that the provided scheduled tasks are valid.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/ScheduleMixin.py
+- [[Check the name definition possibilities._1]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/action/test_action.py
+- [[Check the name definition possibilities.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/test_plugin.py
+- [[Check the possible errors with post.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/action/test_action.py
+- [[ClassProviderMixin]] - code
+- [[ClassValidationMixin]] - code
+- [[Classes and functions for plugin controlled object state transitions.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/generic/states/transition.py
+- [[Collect plugins from all possible ways of loading. Returned as list.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/registry.py
+- [[ConfigType]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/models.py
+- [[Construct a list of directories from where plugins can be loaded.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/registry.py
+- [[Construct the printers name.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/labels/inventree_machine.py
+- [[Context manager to check that the number of queries is less than a certain value]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/unit_test.py
+- [[Core notification methods for InvenTree.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/integration/part_notifications.py
+- [[Core set of Notifications as a Plugin._1]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/integration/core_notifications.py
+- [[Core set of Notifications as a Plugin.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/integration/part_notifications.py
+- [[Create a UI notification entry for specified users.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/integration/core_notifications.py
+- [[CurrencyExchangeMixin]] - code
+- [[CurrencyExchangeMixin_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/CurrencyExchangeMixin.py
+- [[CurrencyExchangeMixin.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/CurrencyExchangeMixin.py
+- [[Custom __init__ method to dynamically override the machine choices based on the]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/labels/inventree_machine.py
+- [[Custom data exporter for part stocktake data.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/exporter/stocktake_exporter.py
+- [[Custom event processing._1]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/event/event_sample.py
+- [[Custom event processing.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/event/filtered_event_sample.py
+- [[Custom event processing._2]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/integration/part_notifications.py
+- [[Custom export options for the BOM exporter plugin.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/exporter/bom_exporter.py
+- [[Custom export options for the ParameterExporter plugin.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/exporter/parameter_exporter.py
+- [[Custom export options for the PartStocktakeExporter plugin.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/exporter/stocktake_exporter.py
+- [[Custom exporter for Parameter data.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/exporter/parameter_exporter.py
+- [[Custom init method to make the config_type field read only.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/serializers.py
+- [[Custom mail processing.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/mail/mail_sample.py
+- [[Custom mail processing._1]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/mail/mail_sample.py
+- [[Custom metadata for DRF.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/metadata.py
+- [[Custom printing options for the label sheet plugin.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/labels/label_sheet.py
+- [[Custom save function to capture createsupdates to notify the registry.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/models.py
+- [[Custom save method to notify the registry on changes.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/models.py
+- [[Custom validation for Part name field.          Rules         - Name must be sh]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/validation_sample.py
+- [[CustomDashboardItemOptions]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/ui/mixins.py
+- [[Customize pickling behavior.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/models.py
+- [[Data class to represent a search result from a supplier.      Attributes]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/supplier/helpers.py
+- [[DataExportMixin]] - code
+- [[DataImportSerializerMixin]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/importer/mixins.py
+- [[DataImportSerializerRegister]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/importer/registry.py
+- [[Dataclass for an icon pack.      Attributes         name The name of the icon]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/icons.py
+- [[Decorator for any method which should be registered as a machine registry entryp]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/registry.py
+- [[Decorator function to register a serializer with the importer registry.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/importer/registry.py
+- [[Default InvenTree plugin for currency exchange rates.      Fetches exchange rate]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/integration/currency_exchange.py
+- [[Default label printing plugin (supports PDF generation).]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/labels/inventree_label.py
+- [[Define headers for the Stocktake export.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/exporter/stocktake_exporter.py
+- [[DependentField]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[Deregister the tasks with the database.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/ScheduleMixin.py
+- [[Determine if the registry needs to be reloaded.          Returns True if the reg]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/registry.py
+- [[DigiKeyPlugin]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/suppliers/digikey.py
+- [[Discover all mixins from plugins and register them.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/registry.py
+- [[Discovers all machine drivers by discovering all plugins which implement the Mac]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/registry.py
+- [[Discovers all machine types by discovering all plugins which implement the Machi]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/registry.py
+- [[Do an API call.          Simplest call example         ```python         self.a]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/APICallMixin.py
+- [[Does this plugin define navigation elements.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/NavigationMixin.py
+- [[Does this plugin have everything needed to process a barcode.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/barcodes/mixins.py
+- [[Does this plugin support barcode generation.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/barcodes/mixins.py
+- [[Due to the order in which plugins are loaded, the patterns in urls.py may be out]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/registry.py
+- [[Dummy currency exchange plugin which provides fake exchange rates.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/sample_currency_exchange.py
+- [[Ensure that a particular batch code meets specification.          These examples]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/validation_sample.py
+- [[Ensure that the associated parameters are prefetched.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/exporter/parameter_exporter.py
+- [[Ensure that the plugin registry is ready for tests.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/unit_test.py
+- [[Ensure that this plugin always has handlers.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/transition.py
+- [[Error if mixin was implemented wrong in plugin.      Mostly raised if constant i]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/helpers.py
+- [[Error if necessary mixin function was not overwritten.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/helpers.py
+- [[Error that encapsulates another error and adds the path  reference of the raisi]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/helpers.py
+- [[Event enumeration for the Plugin app.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/events.py
+- [[EventMixin]] - code
+- [[EventMixin_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/event/mixins.py
+- [[EventPluginSample]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/event/event_sample.py
+- [[EventPluginSampleTests]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/event/test_event_sample.py
+- [[Example override function for state transition.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/transition.py
+- [[Example plugin to add custom icons.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/icons/icon_sample.py
+- [[Example validator for json input.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/sample.py
+- [[ExampleScheduledTaskPluginTests]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/test_scheduled_task.py
+- [[Export BOM data from the queryset.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/exporter/bom_exporter.py
+- [[Export parameter data.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/exporter/parameter_exporter.py
+- [[Export the data for the given queryset.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/exporter/stocktake_exporter.py
+- [[Extend save method to reload plugins if the 'active' status changes.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/models.py
+- [[Extra info          Can be a string  dict  etc]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/action/mixins.py
+- [[Extract barcode fields from a DigiKey plugin.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/suppliers/digikey.py
+- [[Extract the Part object from the barcode fields.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/barcodes/mixins.py
+- [[Extract the PurchaseOrder object from the barcode fields.          Inspect the c]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/barcodes/mixins.py
+- [[FilteredEventPluginSample]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/event/filtered_event_sample.py
+- [[Find an offloaded event in the background worker queue.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/unit_test.py
+- [[Find an offloaded tasks in the background worker queue.      Arguments]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/unit_test.py
+- [[Fix reloading of contrib apps - models and admin.          This is needed if plu]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/AppMixin.py
+- [[Format a response for the scanned data.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/barcodes/inventree_barcode.py
+- [[Function decorator for registry entrypoints methods.      - Ensure that the regi]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/registry.py
+- [[Function to handle events.          Must be overridden by plugin]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/event/mixins.py
+- [[Function to subscribe to events.          Return true if you're interested in th]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/event/mixins.py
+- [[General runner for testing package based installs.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/test_plugin.py
+- [[Generate a barcode for a given model instance._2]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/barcodes/helper.py
+- [[Generate a barcode for a given model instance._1]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/barcodes/inventree_barcode.py
+- [[Generate a filename for the exported part stocktake data.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/exporter/stocktake_exporter.py
+- [[Generate a new batch code.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/validation_sample.py
+- [[Generate a single page of labels.          For a single page, generate a simple]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/labels/label_sheet.py
+- [[Generic data export plugin for InvenTree.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/exporter/inventree_exporter.py
+- [[Generic exporter plugin for InvenTree.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/exporter/inventree_exporter.py
+- [[Generic method for splitting barcode data into separate fields.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/barcodes/mixins.py
+- [[Get a nested value from a dictionary.          This method allows for dot notati]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/data_exporter/mixins.py
+- [[Get all drivers for a specific machine type.          Arguments             mac]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/registry.py
+- [[Get all machine types.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/registry.py
+- [[Get all printers that would be available to print this job.          By default]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/machine_types/label_printer.py
+- [[Get loaded machines from registry (By default only initialized machines).]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/registry.py
+- [[Get machine by pk.      Raises         NotFound If machine is not found      R]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/api.py
+- [[Get machine errors for django admin interface.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/models.py
+- [[Get machine from registry by pk.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/registry.py
+- [[Get machine status for django admin interface.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/models.py
+- [[Get supplier_part and barcode_fields from LCSC QR-Code.          Example LCSC QR]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/suppliers/lcsc.py
+- [[Get supplier_part and barcode_fields from Mouser DataMatrix-Code.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/suppliers/mouser.py
+- [[Get supplier_part and barcode_fields from TME QR-Code or DataMatrix-Code.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/suppliers/tme.py
+- [[Get the driver by machine pk and ensure that it is a label printing driver.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/labels/inventree_machine.py
+- [[Get the last used printers for a specific user.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/labels/inventree_machine.py
+- [[Get the supplier for the SUPPLIER_ID set in the plugin settings.          If it']] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/barcodes/mixins.py
+- [[Global helper function to call a specific function on a machine instance.      A]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/registry.py
+- [[Global helper function to call a specific member function of a plugin.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/registry.py
+- [[Handle driver error.          Arguments             error Exception or string]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/machine_type.py
+- [[Handle printing of the provided labels.          Note that we override the entir]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/labels/label_sheet.py
+- [[Helper function for capturing errors with the machine registry.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/registry.py
+- [[Helper function for capturing errors with the machine.          Arguments]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/machine_type.py
+- [[Helper function for resetting the error list for a machine.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/machine_type.py
+- [[Helper function to count the number of queries executed.      Arguments]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/unit_test.py
+- [[Helper function to ensure that plugins are loaded.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/unit_test.py
+- [[Helper function to process and validate a downloaded csv file.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/unit_test.py
+- [[Helper function to replace deprecated & removed imp.load_source.      See https]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/registry.py
+- [[Helper function which generates some exchange rates to work with.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/unit_test.py
+- [[Helper functions for barcode generation.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/barcodes/helper.py
+- [[Helper functions for unit testing  CI.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/unit_test.py
+- [[Helper method to get the correct enum value for easier usage with literal string]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/models.py
+- [[Helper method to render a label to HTML format for a specific item.          Arg]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/machine_types/label_printer.py
+- [[Helper method to render a label to PDF and return it as bytes for a specific ite]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/machine_types/label_printer.py
+- [[Helper method to render a label to PDF format for a specific item.          Argu]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/machine_types/label_printer.py
+- [[Helper method to render a label to PNG format for a specific item.          Argu]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/machine_types/label_printer.py
+- [[Hook method called before printing labels.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/label/mixins.py
+- [[Icon-name for navigation tab.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/NavigationMixin.py
+- [[IconPack]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/icons.py
+- [[IconPackMixin]] - code
+- [[IconPackMixin_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/icons/mixins.py
+- [[In the BaseInvenTreeSetting class, we have a class attribute named 'SETTINGS', w]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/models.py
+- [[In the BaseInvenTreeSetting class, we have a class attribute named 'SETTINGS'.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/models.py
+- [[Increment a serial number.          These examples are silly, but serve to demon]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/validation_sample.py
+- [[Indicates if the machine type is build into the InvenTree source code.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/serializers.py
+- [[Indicator if machine is initialized.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/serializers.py
+- [[Init a plugin.          Set paths and load metadata.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/plugin.py
+- [[Initialise a single plugin.          Args             plugin Plugin module]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/registry.py
+- [[Initialise all found plugins.          Args             disabled (str, optional]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/registry.py
+- [[Initialize machine registry.          Set up all needed references for internal]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/registry.py
+- [[Initialize registry.          Set up all needed references for internal and exte]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/registry.py
+- [[Initialize the machine registry.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/registry.py
+- [[Initialize the mixin and register it.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/MachineMixin.py
+- [[Initialize the plugin.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/broken/bad_actor.py
+- [[Initialized state of the machine.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/machine_type.py
+- [[InstallerTests]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/test_plugin.py
+- [[IntegrationPluginError]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/helpers.py
+- [[Internal reload apps using django internal functions.          Args]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/registry.py
+- [[InvenTreeCurrencyExchange]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/integration/currency_exchange.py
+- [[InvenTreeEmailNotifications]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/integration/core_notifications.py
+- [[InvenTreeExporter]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/exporter/inventree_exporter.py
+- [[InvenTreeInternalBarcodePlugin]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/barcodes/inventree_barcode.py
+- [[InvenTreeLabelPlugin_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/labels/inventree_machine.py
+- [[InvenTreeLabelSheetPlugin]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/labels/label_sheet.py
+- [[InvenTreeMachineTypes]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/integration/machine_types.py
+- [[InvenTreePlugin_1]] - code
+- [[InvenTreePlugin]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/plugin.py
+- [[InvenTreePluginTests]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/test_plugin.py
+- [[InvenTreeSlackNotifications]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/integration/core_notifications.py
+- [[Is the mixin ready to call external APIs]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/APICallMixin.py
+- [[Is the mixin registered and configured in the plugin]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/templatetags/plugin_extras.py
+- [[Is this plugin a sample app]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/models.py
+- [[LCSCPlugin]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/suppliers/lcsc.py
+- [[Label printer machine type, is a direct integration to print labels for various]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/machine_types/label_printer.py
+- [[Label printer status codes.      Attributes         CONNECTED The printer is c]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/machine_types/label_printer.py
+- [[Label printing machine type.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/machine_types/label_printer.py
+- [[Label printing plugin that provides support for printing using a label printer m]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/labels/inventree_machine.py
+- [[Label printing plugin which supports printing multiple labels on a single page.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/labels/label_sheet.py
+- [[LabelPrinterBaseDriver_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/machine_types/label_printer.py
+- [[LabelPrinterBaseDriver]] - code
+- [[LabelPrinterMachine]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/machine_types/label_printer.py
+- [[LabelPrinterMachineTest]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/testing/label_machines.py
+- [[LabelPrinterStatus]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/machine_types/label_printer.py
+- [[LabelPrintingMixin]] - code
+- [[LabelPrintingMixin_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/label/mixins.py
+- [[LabelPrintingOptionsSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/labels/label_sheet.py
+- [[LabelTemplate]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/models.py
+- [[List all machine drivers.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/api.py
+- [[List of all inactive plugins.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/templatetags/plugin_extras.py
+- [[List of all installed plugins.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/templatetags/plugin_extras.py
+- [[List of all settings for the plugin.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/templatetags/plugin_extras.py
+- [[List of driver errors.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/machine_type.py
+- [[List of machine errors._1]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/machine_type.py
+- [[List of machine errors.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/serializers.py
+- [[List of registry errors.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/registry.py
+- [[Load all machines defined in the database into the machine registry.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/registry.py
+- [[Load and activate all IntegrationPlugins.          Args             full_reload]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/registry.py
+- [[Lookup machine setting object, based on the URL.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/api.py
+- [[Lookup plugin by slug (unique key).          Args             slug (str) The s]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/registry.py
+- [[Lougout current user.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/unit_test.py
+- [[Machine Properties are set by the drivermachine to represent specific state.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/serializers.py
+- [[Machine errors getter.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/models.py
+- [[Machine initialization function, gets called after all machines are loaded.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/machine_type.py
+- [[Machine initialization hook.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/machines/sample_printer.py
+- [[Machine instance getter.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/models.py
+- [[Machine registry class.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/registry.py
+- [[Machine registry error.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/serializers.py
+- [[Machine registry status, showing all errors that were registered.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/serializers.py
+- [[Machine restart function, can be used to manually restart the machine from the a]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/machine_type.py
+- [[Machine update function, gets called if the machine itself changes or their sett]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/machine_type.py
+- [[MachineConfig_2]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/machine_type.py
+- [[MachineConfig]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/models.py
+- [[MachineConfigCreateSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/serializers.py
+- [[MachineConfigSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/serializers.py
+- [[MachineDriverMixin]] - code
+- [[MachineDriverMixin_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/MachineMixin.py
+- [[MachineDriverSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/serializers.py
+- [[MachineMixin.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/MachineMixin.py
+- [[MachineProperty]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/machine_type.py
+- [[MachinePropertySerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/serializers.py
+- [[MachineRegistry]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/registry.py
+- [[MachineRegistryErrorSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/serializers.py
+- [[MachineRegistryStatusSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/serializers.py
+- [[MachineRestartSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/serializers.py
+- [[MachineSetting]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/models.py
+- [[MachineSettingSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/serializers.py
+- [[MachineStatus]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/machine_type.py
+- [[MachineStatus_1]] - code
+- [[MachineTypeSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/serializers.py
+- [[Machine_config property which is a reference to the database entry.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/machine_type.py
+- [[MailMixin]] - code
+- [[MailMixin_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/mail/mixins.py
+- [[MailPluginSample]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/mail/mail_sample.py
+- [[MailPluginSampleTests]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/mail/test_mail_sample.py
+- [[Make sure all plugins are installed in the current environment.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/registry.py
+- [[Meta_4]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/mixins.py
+- [[Meta class for MachineDriverMixin.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/MachineMixin.py
+- [[Meta for MachineSetting.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/models.py
+- [[Meta for PluginConfig.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/models.py
+- [[Meta for a serializer.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/serializers.py
+- [[Meta for a serializer._1]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/serializers.py
+- [[Meta for a serializer._2]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/serializers.py
+- [[Meta for a serializer._3]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/serializers.py
+- [[Meta options for this mixin class.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/CurrencyExchangeMixin.py
+- [[Meta options for this mixin._8]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/APICallMixin.py
+- [[Meta options for this mixin._1]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/icons/mixins.py
+- [[Meta options for this mixin._9]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/event/mixins.py
+- [[Meta options for this mixin._6]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/NavigationMixin.py
+- [[Meta options for this mixin._5]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/ScheduleMixin.py
+- [[Metaclass for this plugin mixin.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/ui/mixins.py
+- [[Metaclass options for this mixin.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/mixins.py
+- [[Metaclass options. Abstract ensures no database table is created._3]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/models.py
+- [[Mixin class for adding data export functionality to a DRF serializer.      Provi]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/data_exporter/mixins.py
+- [[Mixin class for generating exchange rate data.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/unit_test.py
+- [[Mixin class for making calls to an external API.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/APICallMixin.py
+- [[Mixin class for registering machine driver types.      This mixin class can be u]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/MachineMixin.py
+- [[Mixin class for testing query counts.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/unit_test.py
+- [[Mixin class to enable state transitions.      This mixin is used to add state tr]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/generic/states/transition.py
+- [[Mixin class which provides support for currency exchange rates.      Nominally t]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/CurrencyExchangeMixin.py
+- [[Mixin that add custom icon packs.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/icons/mixins.py
+- [[Mixin that enables barcode handling.      Custom barcode plugins should use and]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/barcodes/mixins.py
+- [[Mixin that enables custom URLs for the plugin.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/UrlsMixin.py
+- [[Mixin that enables custom actions.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/action/mixins.py
+- [[Mixin that enables custom navigation links with the plugin.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/NavigationMixin.py
+- [[Mixin that enables easier API calls for a plugin.      Steps to set up     1. A]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/APICallMixin.py
+- [[Mixin that enables full django app functions for a plugin.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/AppMixin.py
+- [[Mixin that enables global settings for the plugin.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/SettingsMixin.py
+- [[Mixin that provides default implementations for scan functions for supplier barc]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/barcodes/mixins.py
+- [[Mixin that provides support for processing mails beforeafter going to the sendi]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/mail/mixins.py
+- [[Mixin that provides support for responding to triggered events.      Implementin]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/event/mixins.py
+- [[Mixin that provides support for scheduled tasks.      Implementing classes must]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/ScheduleMixin.py
+- [[Mixin to add context to serializer.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/mixins.py
+- [[Mixin to ensure that the plugin registry is ready for tests.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/unit_test.py
+- [[Mixin to test the meta functions of all mixins.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/test_mixins.py
+- [[MixinImplementationError]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/helpers.py
+- [[MixinMeta_13]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/APICallMixin.py
+- [[MixinMeta_12]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/CurrencyExchangeMixin.py
+- [[MixinMeta_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/MachineMixin.py
+- [[MixinMeta]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/event/mixins.py
+- [[MixinMeta_8]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/NavigationMixin.py
+- [[MixinMeta_7]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/ScheduleMixin.py
+- [[MixinNotImplementedError]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/helpers.py
+- [[Mixins for (API) views in the whole project.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/mixins.py
+- [[MouserPlugin]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/suppliers/mouser.py
+- [[Multi-level BOM exporter plugin.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/exporter/bom_exporter.py
+- [[Name for navigation tab.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/NavigationMixin.py
+- [[NavigationMixin]] - code
+- [[NavigationMixin_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/NavigationMixin.py
+- [[NavigationMixin.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/NavigationMixin.py
+- [[NavigationMixinTest]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/test_mixins.py
+- [[Nice name for printing.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/models.py
+- [[Nice name of printing.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/models.py
+- [[NoIntegrationPlugin]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/another_sample.py
+- [[NotificationMixin]] - code
+- [[Notify the machine about an update.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/registry.py
+- [[Numerical machine status if available, else -1.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/serializers.py
+- [[Only used if not typechecking currently.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/machine_type.py
+- [[Only used if not typechecking currently._1]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/machine_type.py
+- [[Override print_label.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/testing/label_machines.py
+- [[Override print_label._1]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/testing/label_machines.py
+- [[Override print_label._2]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/testing/label_machines.py
+- [[Override restart_machine.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/testing/label_machines.py
+- [[ParameterExportOptionsSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/exporter/parameter_exporter.py
+- [[ParameterExporter]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/exporter/parameter_exporter.py
+- [[Parse a ISOIEC 15434 barcode, returning the split data section.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/barcodes/mixins.py
+- [[Parse a standard ECIA 2D barcode.          Ref httpswww.ecianow.orgassetsd]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/barcodes/mixins.py
+- [[PartNotificationsPlugin]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/integration/part_notifications.py
+- [[PartStocktakeExportOptionsSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/exporter/stocktake_exporter.py
+- [[PartStocktakeExporter]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/exporter/stocktake_exporter.py
+- [[Patch the env to include the given dict.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/unit_test.py
+- [[Perform a data export operation against the provided URL.          Uses the 'dat]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/unit_test.py
+- [[Perform a generic 'scan' operation on a supplier barcode.          The supplier]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/barcodes/mixins.py
+- [[Perform pre-fetch on the provided queryset.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/exporter/bom_exporter.py
+- [[Ping all machines using this driver to check if they are online.          This i]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/machine_type.py
+- [[Plugin mixin class for AppMixin.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/AppMixin.py
+- [[Plugin mixin class for ScheduleMixin.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/ScheduleMixin.py
+- [[Plugin mixin class for UrlsMixin.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/UrlsMixin.py
+- [[Plugin mixin class for supporting Slack notification methods.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/integration/core_notifications.py
+- [[Plugin mixin class for supporting currency exchange data.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/CurrencyExchangeMixin.py
+- [[Plugin mixin class for supporting email notification methods.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/integration/core_notifications.py
+- [[Plugin mixin class which handles injection of custom elements into the front-end]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/ui/mixins.py
+- [[Plugin mixin classes.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/NavigationMixin.py
+- [[Plugin mixin for registering machine drivers.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/MachineMixin.py
+- [[Plugin to automatically create build orders for assemblies.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/events/auto_create_builds.py
+- [[Plugin to integrate the DigiKey API into InvenTree.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/suppliers/digikey.py
+- [[Plugin to integrate the LCSC API into InvenTree.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/suppliers/lcsc.py
+- [[Plugin to integrate the Mouser API into InvenTree.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/suppliers/mouser.py
+- [[Plugin to integrate the TME API into InvenTree.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/suppliers/tme.py
+- [[Plugin which automatically creates build orders for assemblies.      This plugin]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/events/auto_create_builds.py
+- [[Plugin which provides built-in machine type definitions.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/integration/machine_types.py
+- [[Plugin(s) that contain(s) the class definition.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/serializers.py
+- [[PluginConfig]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/models.py
+- [[PluginEvents]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/events.py
+- [[PluginRegistryMixin]] - code
+- [[PluginRegistryMixin_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/unit_test.py
+- [[PluginTagTests]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/test_plugin.py
+- [[Plugins for testing label machines.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/testing/label_machines.py
+- [[PluginsRegistry]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/registry.py
+- [[Prefetch related data for the queryset.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/exporter/stocktake_exporter.py
+- [[Print a single label (blocking).          kwargs             pdf_data Raw PDF]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/label/mixins.py
+- [[Print a single label with the provided template and item.          Arguments]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/machine_types/label_printer.py
+- [[Print a single label.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/labels/inventree_label.py
+- [[Print labels implementation that calls the correct machine driver print_labels m]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/labels/inventree_machine.py
+- [[Print multiple labels against the provided template.      Arguments         tem]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/tasks.py
+- [[Print one or more labels with the provided template and items.          Argument]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/machine_types/label_printer.py
+- [[Printing options serializer that adds a machine select and the machines options.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/labels/inventree_machine.py
+- [[Printing options serializer that implements common options.          This can be]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/machine_types/label_printer.py
+- [[PrintingOptionsSerializer_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/labels/inventree_machine.py
+- [[PrintingOptionsSerializer_2]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/machine_types/label_printer.py
+- [[PrintingOptionsSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/label_sample.py
+- [[Process a build order when it is issued.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/events/auto_create_builds.py
+- [[Process a single BOM row.          Arguments             bom_item The BomItem]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/exporter/bom_exporter.py
+- [[Process the triggered event.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/events/auto_create_builds.py
+- [[Provide status data for the machine registry.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/api.py
+- [[Python representation of a machine.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/machine_type.py
+- [[Raise a KeyError to provoke a range of unit tests and safety mechanisms in the p]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/broken/broken_sample.py
+- [[Raise a ValidationError with the given message.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/ValidationMixin.py
+- [[Rebuild the entire StockItem tree structure.      This may be necessary if the t]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/tasks.py
+- [[Register a new serializer with the importer registry.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/importer/registry.py
+- [[Register custom machine drivers.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/MachineMixin.py
+- [[Register custom machine types.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/MachineMixin.py
+- [[Register the tasks with the database.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/ScheduleMixin.py
+- [[Registry for loading and managing multiple plugins at run-time.  - Holds the cla]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/registry.py
+- [[Registry for supported serializers for data import operations.      To add a new]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/importer/registry.py
+- [[RegistryTests]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/test_plugin.py
+- [[Reload all machines from the database.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/registry.py
+- [[Reload the plugin registry.          This should be considered the single point]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/registry.py
+- [[Remove a machine from the registry.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/registry.py
+- [[Remove all plugins from registry.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/registry.py
+- [[Remove all user roles from the registered user.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/unit_test.py
+- [[Render this label to HTML format.          Arguments             label The Lab]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/label/mixins.py
+- [[Renders a date object as a string.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/templatetags/inventree_extras.py
+- [[ReportMixin]] - code
+- [[Request exchange rate data from external API.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/integration/currency_exchange.py
+- [[Reset the list of label outputs.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/labels/inventree_label.py
+- [[Restart required state of the machine.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/machine_type.py
+- [[Result of the action]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/action/mixins.py
+- [[Return InvenTree git commit date string.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/templatetags/inventree_extras.py
+- [[Return InvenTree git commit hash string.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/templatetags/inventree_extras.py
+- [[Return InvenTree package installer string.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/templatetags/inventree_extras.py
+- [[Return InvenTree version string.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/templatetags/inventree_extras.py
+- [[Return True if the plugin registry is currently loading.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/registry.py
+- [[Return True if the plugin registry is ready to be used.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/registry.py
+- [[Return True if this is a 'builtin' plugin.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/models.py
+- [[Return True if this plugin is active.          Note that 'mandatory' plugins are]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/models.py
+- [[Return a context dictionary for the admin panel settings.          This is an op]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/plugin.py
+- [[Return a dict mapping ECIA field names to internal field names.          Ref ht]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/barcodes/mixins.py
+- [[Return a dict of all machine properties with key as dict key.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/machine_type.py
+- [[Return a dict of all relevant machine properties.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/machine_type.py
+- [[Return a dict of fields which can be exported against this serializer instance.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/data_exporter/mixins.py
+- [[Return a dict of fields which can be imported against this serializer instance.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/importer/mixins.py
+- [[Return a dummy request object to it work with legacy code.          Note this i]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/machine_types/label_printer.py
+- [[Return a list of all migration filenames for provided app.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/unit_test.py
+- [[Return a list of all registered driver types.          Arguments             ma]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/registry.py
+- [[Return a list of custom actions to be injected into the UI spotlight.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/user_interface_sample.py
+- [[Return a list of custom actions to be injected into the UI spotlight.          A]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/ui/mixins.py
+- [[Return a list of custom dashboard items to be injected into the UI.          Arg]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/ui/mixins.py
+- [[Return a list of custom dashboard items.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/user_interface_sample.py
+- [[Return a list of custom features to be injected into the UI.          Arguments]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/ui/mixins.py
+- [[Return a list of custom icon packs.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/icons/icon_sample.py
+- [[Return a list of custom icon packs._1]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/icons/mixins.py
+- [[Return a list of custom navigation items.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/user_interface_sample.py
+- [[Return a list of custom panels to be injected into the UI.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/user_interface_sample.py
+- [[Return a list of custom template editors.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/user_interface_sample.py
+- [[Return a list of custom template previews to be injected into the UI.          A]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/ui/mixins.py
+- [[Return a list of custom template previews.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/user_interface_sample.py
+- [[Return a list of drivers registered by this plugin._1]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/testing/label_machines.py
+- [[Return a list of drivers registered by this plugin.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/machines/sample_printer.py
+- [[Return a list of supported model options for importing data.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/importer/registry.py
+- [[Return a list of supported serializers which can be used for importing data.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/importer/registry.py
+- [[Return a map of supported models to their respective serializers.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/importer/registry.py
+- [[Return a mapping of barcode model type codes to the model class.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/barcodes/helper.py
+- [[Return a mapping of barcode model types to the model class.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/barcodes/helper.py
+- [[Return a path to a JavaScript file which contains custom UI settings.          T]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/plugin.py
+- [[Return a serializer class instance with dynamic printing options.          Argum_1]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/machine_types/label_printer.py
+- [[Return a serializer class instance with dynamic printing options.          Argum]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/label/mixins.py
+- [[Return a setting object specified by the given key.      (Or return None if the]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/templatetags/inventree_extras.py
+- [[Return a settings value specified by the given key.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/templatetags/inventree_extras.py
+- [[Return all built-in machine drivers.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/integration/machine_types.py
+- [[Return all built-in machine types.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/integration/machine_types.py
+- [[Return all machines using this driver (By default only initialized machines).]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/machine_type.py
+- [[Return all settings for a machine config.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/api.py
+- [[Return custom context data which can be rendered in the admin panel.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/user_interface_sample.py
+- [[Return customization values for the user interface.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/templatetags/inventree_extras.py
+- [[Return dummy data for some currencies.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/sample_currency_exchange.py
+- [[Return manufacturer data for a BomItem.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/exporter/bom_exporter.py
+- [[Return or create a driver instance if needed.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/registry.py
+- [[Return parameter data for a BomItem.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/exporter/bom_exporter.py
+- [[Return substitute part data for a BomItem.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/exporter/bom_exporter.py
+- [[Return supplier and manufacturer data for a BomItem.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/exporter/bom_exporter.py
+- [[Return the 'native' value of this setting._1]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/models.py
+- [[Return the 'value' of the setting associated with this machine.          Argumen]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/machine_type.py
+- [[Return the API URL associated with the PluginConfig model.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/models.py
+- [[Return the API URL for this plugin.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/integration/currency_exchange.py
+- [[Return the InstanceName associated with the current database.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/templatetags/inventree_extras.py
+- [[Return the InvenTree logo, or a custom logo if the user has provided one.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/templatetags/inventree_extras.py
+- [[Return the ManufacturerPart object for the scanned barcode.          Returns]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/barcodes/mixins.py
+- [[Return the context data for the admin integration.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/models.py
+- [[Return the customer order number from the barcode fields.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/barcodes/mixins.py
+- [[Return the database tables  models that this ruleset covers.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/models.py
+- [[Return the filename associated with the newest migration.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/unit_test.py
+- [[Return the filename associated with the oldest migration.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/unit_test.py
+- [[Return the generated file for download (or None, if this plugin does not generat]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/label/mixins.py
+- [[Return the generated file, by stitching together the individual label outputs.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/labels/inventree_label.py
+- [[Return the input arguments as list.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/templatetags/inventree_extras.py
+- [[Return the list of field names which are excluded during data import.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/importer/mixins.py
+- [[Return the matching PluginConfig instance for a given plugin.          Arguments]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/registry.py
+- [[Return the name of this plugin.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/broken/bad_actor.py
+- [[Return the path to the javascript file which renders custom admin content for th]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/models.py
+- [[Return the quantity from the barcode fields.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/barcodes/mixins.py
+- [[Return the slug of this plugin.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/broken/bad_actor.py
+- [[Return the supplier part number from the barcode fields.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/barcodes/mixins.py
+- [[Return the title for the current instance - respecting the settings.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/templatetags/inventree_extras.py
+- [[Return the value of a barcode field.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/barcodes/mixins.py
+- [[Return transition handlers for the given instance.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/transition.py
+- [[Return whether given event should be processed or not._2]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/events/auto_create_builds.py
+- [[Return whether given event should be processed or not.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/event/filtered_event_sample.py
+- [[Return whether given event should be processed or not._1]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/integration/part_notifications.py
+- [[ReturnChangeHandler]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/transition.py
+- [[Returns True if there is at least one active plugin which supports the provided]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/templatetags/plugin_extras.py
+- [[Returns `SCHEDULED_TASKS` context.          Override if you want the scheduled t]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/ScheduleMixin.py
+- [[Returns a list of database models which support barcode functionality.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/barcodes/helper.py
+- [[Returns a list of mixin classes, in the order that they should be activated.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/registry.py
+- [[Returns all registered mixins.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/models.py
+- [[Returns an encoded path for the provided dict.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/APICallMixin.py
+- [[Returns data from the sample endpoint.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/api_caller.py
+- [[Returns path to mock dir.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/test_plugin.py
+- [[Returns reference to all plugins that have a specified mixin enabled.          A]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/registry.py
+- [[Returns the builtin machine label printing plugin that manages printing through]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/machine_types/label_printer.py
+- [[Returns the default headers for requests with api_call.          Contains a head]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/APICallMixin.py
+- [[Returns the error message.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/helpers.py
+- [[Returns the selected machines serializer.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/labels/inventree_machine.py
+- [[Run activation functions for all plugins.          Args             force_reloa]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/registry.py
+- [[Run deactivation functions for all plugins.          Args             force_rel]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/registry.py
+- [[Run setup for all tests in a given class.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/unit_test.py
+- [[Run validation against any saved model.          - Check if the instance is a Bo]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/validation_sample.py
+- [[Safe lookup fnc for URLs.      Returns None if not found]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/templatetags/plugin_extras.py
+- [[Sample function that can be called on schedule.      Contents do not matter - th_1]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/scheduled_task.py
+- [[Sample function that can be called on schedule.      Contents do not matter - th]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/scheduled_task.py
+- [[Sample icon pack plugin to add custom icons.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/icons/icon_sample.py
+- [[Sample implementation for ActionMixin.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/simpleactionplugin.py
+- [[Sample implementation for IntegrationPlugin.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/another_sample.py
+- [[Sample implementations for IntegrationPlugin.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/sample.py
+- [[Sample of a broken plugin.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/broken/broken_sample.py
+- [[Sample of a broken python file that will be ignored on import.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/broken/broken_file.py
+- [[Sample plugin for calling an external API.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/api_caller.py
+- [[Sample plugin for extending reporting functionality.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/report_plugin_sample.py
+- [[Sample plugin for providing dummy currency exchange data.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/sample_currency_exchange.py
+- [[Sample plugin for registering custom machines.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/machines/sample_printer.py
+- [[Sample plugin which demonstrates custom validation functionality.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/validation_sample.py
+- [[Sample plugin which demonstrates user interface integrations.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/user_interface_sample.py
+- [[Sample plugin which provides a 'fake' label printer endpoint.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/label_sample.py
+- [[Sample plugin which provides extra context data to a report.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/report_plugin_sample.py
+- [[Sample plugin which responds to events._2]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/event/event_sample.py
+- [[Sample plugin which responds to events._1]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/event/filtered_event_sample.py
+- [[Sample plugin which responds to events.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/mail/mail_sample.py
+- [[Sample plugin which supports task scheduling.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/scheduled_task.py
+- [[Sample printer driver.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/machines/sample_printer.py
+- [[Sample printing step.          Normally here the connection to the printer and t]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/label_sample.py
+- [[SampleApiCallerPlugin]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/api_caller.py
+- [[SampleCurrencyExchangePlugin]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/sample_currency_exchange.py
+- [[SampleIconPackPluginTests]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/icons/test_icon_sample.py
+- [[SampleIconPlugin]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/icons/icon_sample.py
+- [[SampleIntegrationPlugin]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/sample.py
+- [[SampleLabelPrinter]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/label_sample.py
+- [[SampleLocatePluginTests]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/locate/test_locate_sample.py
+- [[SamplePrinterDriver]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/machines/sample_printer.py
+- [[SamplePrinterMachine]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/machines/sample_printer.py
+- [[SampleReportPlugin]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/report_plugin_sample.py
+- [[SampleTransitionPlugin]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/transition.py
+- [[SampleUserInterfacePlugin]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/user_interface_sample.py
+- [[SampleValidatorPlugin]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/validation_sample.py
+- [[Save the current registry hash.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/registry.py
+- [[Scan a barcode against this plugin.          Here we are looking for a dict obje]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/barcodes/inventree_barcode.py
+- [[Scan a barcode against this plugin.          This method is explicitly called fr]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/barcodes/mixins.py
+- [[ScheduleMixin_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/ScheduleMixin.py
+- [[ScheduleMixin.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/ScheduleMixin.py
+- [[ScheduledTaskPlugin]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/scheduled_task.py
+- [[ScheduledTaskPluginTests]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/test_scheduled_task.py
+- [[Send notification to the specified targets.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/integration/core_notifications.py
+- [[Send the label to the printer.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/machines/sample_printer.py
+- [[Send the notifications out via slack.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/integration/core_notifications.py
+- [[Serialize a machine config to a dict including setting.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/models.py
+- [[Serializer for a BaseClass.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/serializers.py
+- [[Serializer for creating a MachineConfig.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/serializers.py
+- [[Serializer to return printing options.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/label_sample.py
+- [[Set plugin setting value by key.          Arguments             key The 'name'_1]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/machine_type.py
+- [[Set plugin setting value by key.          Arguments             key The 'name']] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/SettingsMixin.py
+- [[Set the enabled state of the SimpleActionPlugin.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/test_simpleactionplugin.py
+- [[Set the machine properties. This can be any arbitrary dict with model informatio]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/machine_type.py
+- [[Set the machine status code. There are predefined ones for each MachineType.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/machine_type.py
+- [[Set the machine status text. It can be any arbitrary text.          Arguments]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/machine_type.py
+- [[Set the registry as ready to be used.          This method should only be called]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/registry.py
+- [[Set the state(activeinactive) of a plugin.          Arguments             slug]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/registry.py
+- [[Set the user roles for the registered user.          Arguments             role]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/unit_test.py
+- [[Set user setting value by key.          Arguments             key The 'name' o]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/SettingsMixin.py
+- [[SettingsKeyType_3]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/machine_type.py
+- [[SettingsMixin]] - code
+- [[SettingsMixin_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/SettingsMixin.py
+- [[SettingsMixinTest]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/test_mixins.py
+- [[Setup environment for tests.          Contains multiple sample plugins that are]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/action/test_action.py
+- [[Setup for plugin tests.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/unit_test.py
+- [[Setup navigation links for this plugin.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/NavigationMixin.py
+- [[Setup url endpoints for this plugin.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/UrlsMixin.py
+- [[Shortcut function to overcome the shortcomings of the django templating language]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/templatetags/inventree_extras.py
+- [[Simple sample for a plugin with the LabelPrintingMixin.  This does not function]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/label_sample.py
+- [[SimpleActionPlugin]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/simpleactionplugin.py
+- [[SimpleActionPluginTests]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/test_simpleactionplugin.py
+- [[SimplePlugin]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/mock/simple.py
+- [[Simplified rendering of a decimal number.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/templatetags/inventree_extras.py
+- [[Some custom function which is not required for the plugin to function.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/report_plugin_sample.py
+- [[StateTransitionMixin_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/generic/states/transition.py
+- [[Status if driver for machine is available.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/models.py
+- [[Status if machine has errors.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/models.py
+- [[Status if machine is initialized.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/models.py
+- [[String representation of a machine._1]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/machine_type.py
+- [[String representation of a machine.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/models.py
+- [[SupplierBarcodeMixin_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/barcodes/mixins.py
+- [[SupplierBarcodeMixin]] - code
+- [[Supported if the base model implements the InvenTreeParameterMixin.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/exporter/parameter_exporter.py
+- [[Supported if the base model is Part.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/exporter/stocktake_exporter.py
+- [[TMEPlugin]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/suppliers/tme.py
+- [[Test attributes for PluginConfig objects.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/test_plugin.py
+- [[Test calling of plugin functions by name.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/test_scheduled_task.py
+- [[Test driver for label printing.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/testing/label_machines.py
+- [[Test driver for label printing._1]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/testing/label_machines.py
+- [[Test driver for label printing._2]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/testing/label_machines.py
+- [[Test driver for label printing._3]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/testing/label_machines.py
+- [[Test error handling for plugin installation.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/test_plugin.py
+- [[Test function errors.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/test_mixins.py
+- [[Test if data in custom dir is loaded correctly.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/test_plugin.py
+- [[Test that MixinNotImplementedError is raised._3]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/event/test_event_sample.py
+- [[Test that MixinNotImplementedError is raised._2]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/icons/test_icon_sample.py
+- [[Test that MixinNotImplementedError is raised.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/locate/test_locate_sample.py
+- [[Test that MixinNotImplementedError is raised._1]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/mail/test_mail_sample.py
+- [[Test that _deactivate_mixin uses app_name (not plugin_path) for model deregistra]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/test_mixins.py
+- [[Test that a correct configuration functions.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/test_mixins.py
+- [[Test that a plugin cannot override the is_mandatory method.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/test_plugin.py
+- [[Test that all inactive plugins are listed.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/test_plugin.py
+- [[Test that all plugins are listed.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/test_plugin.py
+- [[Test that api calls work.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/test_mixins.py
+- [[Test that building up args work.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/test_mixins.py
+- [[Test that check_reload works as expected.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/test_plugin.py
+- [[Test that mandatory builtin plugins are always loaded.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/test_plugin.py
+- [[Test that package distributed plugins work.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/test_plugin.py
+- [[Test that plugins in folders outside of BASE_DIR get loaded.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/test_plugin.py
+- [[Test that plugins in subfolders get loaded.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/test_plugin.py
+- [[Test that plugins marked as 'mandatory' are always active.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/test_plugin.py
+- [[Test that the NotFoundView is working with all available methods.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_api.py
+- [[Test that the base settings work.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/test_mixins.py
+- [[Test that the broken samples trigger reloads.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/test_plugin.py
+- [[Test that the mixin functions._1]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/test_mixins.py
+- [[Test that the mixin functions.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/test_mixins.py
+- [[Test that the mixin registers itself correctly.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/test_mixins.py
+- [[Test that the plugin override works as expected.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/test_plugin.py
+- [[Test that the plugin static file lookup works as expected.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/test_plugin.py
+- [[Test that the registry correctly reloads plugin modules.          - Create a sim]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/test_plugin.py
+- [[Test that the safe url tag works expected.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/test_plugin.py
+- [[Test that the sample plugin registers in settings.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/test_mixins.py
+- [[Test that wrong links fail.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/test_mixins.py
+- [[TestQueryMixin]] - code
+- [[TestQueryMixin_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/unit_test.py
+- [[TestingLabelPrinterDriver]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/testing/label_machines.py
+- [[TestingLabelPrinterDriverError1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/testing/label_machines.py
+- [[TestingLabelPrinterDriverError2]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/testing/label_machines.py
+- [[TestingLabelPrinterDriverNotImplemented]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/testing/label_machines.py
+- [[Tests for APICallMixin.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/test_mixins.py
+- [[Tests for ActionMixin.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/action/test_action.py
+- [[Tests for EventPluginSample.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/event/test_event_sample.py
+- [[Tests for InvenTreePlugin.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/test_plugin.py
+- [[Tests for MailPluginSample.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/mail/test_mail_sample.py
+- [[Tests for NavigationMixin.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/test_mixins.py
+- [[Tests for SampleIconPackPlugin.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/icons/test_icon_sample.py
+- [[Tests for SampleIntegrationPlugin._1]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/test_simpleactionplugin.py
+- [[Tests for SampleLocatePlugin.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/locate/test_locate_sample.py
+- [[Tests for ScheduledTaskPluginTests mixin base.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/test_scheduled_task.py
+- [[Tests for SettingsMixin.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/test_mixins.py
+- [[Tests for action api.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/action/test_action.py
+- [[Tests for provided ScheduledTaskPlugin.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/test_scheduled_task.py
+- [[Tests for registry loading methods.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/test_plugin.py
+- [[Tests for the 'with_mixin' registry method.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/test_plugin.py
+- [[Tests for the plugin extras.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/test_plugin.py
+- [[Tests for the plugin installer code.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/test_plugin.py
+- [[Textual machine status name if available, else None.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/serializers.py
+- [[The Company module is responsible for managing Company interactions.  A company]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/__init__.py
+- [[The DigiKeyBarcodePlugin is meant to integrate the DigiKey API into InvenTree.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/suppliers/digikey.py
+- [[The InvenTreeBarcodePlugin validates barcodes generated by InvenTree itself. It]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/barcodes/inventree_barcode.py
+- [[The InvenTreePlugin class is used to integrate with 3rd party software.      DO]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/plugin.py
+- [[The LCSCBarcodePlugin is meant to integrate the LCSC API into InvenTree.  This p]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/suppliers/lcsc.py
+- [[The MouserBarcodePlugin is meant to integrate the Mouser API into InvenTree.  Th]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/suppliers/mouser.py
+- [[The PluginsRegistry class.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/registry.py
+- [[The TMEBarcodePlugin is meant to integrate the TME API into InvenTree.  This plu]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/suppliers/tme.py
+- [[The machines active status.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/machine_type.py
+- [[This exported only supports the BomItem model.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/exporter/bom_exporter.py
+- [[This exporter supports all model classes.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/exporter/inventree_exporter.py
+- [[This method gets called after all machines are created and can be used to initia]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/machine_type.py
+- [[This method gets called for each active machine using that driver while initiali]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/machine_type.py
+- [[This method gets called for each update of a machine.          Note]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/machine_type.py
+- [[This method gets called on manual machine restart e.g. by using the restart mach]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/machine_type.py
+- [[This model represents settings for individual plugins.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/models.py
+- [[This model represents user-specific settings for individual plugins.      In con]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/models.py
+- [[This module provides template tags for extra functionality, over and above the b]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/templatetags/inventree_extras.py
+- [[This module provides template tags for handling plugins.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/templatetags/plugin_extras.py
+- [[Transition method for ReturnOrder objects.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/transition.py
+- [[TransitionMethod]] - code
+- [[TransitionMixin]] - code
+- [[Type definition for machine properties.      Attributes         key Key of the]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/machine_type.py
+- [[UIFeature]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/ui/mixins.py
+- [[Unit tests for action plugins._2]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/action/test_action.py
+- [[Unit tests for action plugins._1]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/test_simpleactionplugin.py
+- [[Unit tests for base mixins for plugins.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/test_mixins.py
+- [[Unit tests for event_sample sample plugins._1]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/event/test_event_sample.py
+- [[Unit tests for event_sample sample plugins.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/mail/test_mail_sample.py
+- [[Unit tests for icon pack sample plugins.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/icons/test_icon_sample.py
+- [[Unit tests for locate_sample sample plugins.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/locate/test_locate_sample.py
+- [[Unit tests for plugins.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/test_plugin.py
+- [[Unit tests for scheduled tasks.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/test_scheduled_task.py
+- [[Unload and deactivate all IntegrationPlugins.          Args             force_r]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/registry.py
+- [[Update currency exchange rates.          This method must be implemented by th]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/CurrencyExchangeMixin.py
+- [[Update headers for the BOM export.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/exporter/bom_exporter.py
+- [[Update headers for the export.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/exporter/parameter_exporter.py
+- [[Urls that are exposed by this plugin.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/sample.py
+- [[UrlsMixin]] - code
+- [[UrlsMixin_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/UrlsMixin.py
+- [[UrlsMixin.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/UrlsMixin.py
+- [[UrlsMixinTest]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/test_mixins.py
+- [[UserInterfaceMixin_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/ui/mixins.py
+- [[UserInterfaceMixin]] - code
+- [[Validate parameter data.          These examples are silly, but serve to demonst]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/validation_sample.py
+- [[Validate part IPN.          These examples are silly, but serve to demonstrate h]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/validation_sample.py
+- [[Validate serial number for a given StockItem.          These examples are silly,]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/validation_sample.py
+- [[ValidationMixin]] - code
+- [[Version information for InvenTree.  Provides information on the current InvenTre]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/version.py
+- [[VersionPlugin]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/version.py
+- [[Very simple sample plugin.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/mock/simple.py
+- [[When the state of the plugin registry changes, update the hash.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/registry.py
+- [[Wrap the generated pages into a single document.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/labels/label_sheet.py
+- [[Wrapper to try reloading the apps.          Throws an custom error that gets han]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/registry.py
+- [[WrongIntegrationPlugin]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/another_sample.py
+- [[__init__.py_63]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/__init__.py
+- [[__init__.py_47]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/generic/__init__.py
+- [[__init__.py_49]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/generic/states/__init__.py
+- [[__init__.py_48]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/generic/templatetags/__init__.py
+- [[__init__.py_60]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/templatetags/__init__.py
+- [[__init__.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/__init__.py
+- [[__init__.py_55]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/__init__.py
+- [[__init__.py_10]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/mixins/__init__.py
+- [[__init__.py_4]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugins/__init__.py
+- [[__init__.py_57]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/__init__.py
+- [[_activate_mixin()_2]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/AppMixin.py
+- [[_activate_mixin()_4]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/icons/mixins.py
+- [[_activate_mixin()_3]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/SettingsMixin.py
+- [[_activate_mixin()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/UrlsMixin.py
+- [[_deactivate_mixin()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/AppMixin.py
+- [[_deactivate_mixin()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/SettingsMixin.py
+- [[active()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/machine_type.py
+- [[add_machine()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/registry.py
+- [[add_mixin()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/plugin.py
+- [[admin_context()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/models.py
+- [[admin_source()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/models.py
+- [[annotate_parameters()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/models.py
+- [[another_sample.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/another_sample.py
+- [[api_caller.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/api_caller.py
+- [[api_headers()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/APICallMixin.py
+- [[api_url()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/APICallMixin.py
+- [[api_url()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/integration/currency_exchange.py
+- [[arrange_export_headers()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/data_exporter/mixins.py
+- [[auto_create_builds.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/events/auto_create_builds.py
+- [[bad_actor.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/broken/bad_actor.py
+- [[base_url()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/UrlsMixin.py
+- [[bom_exporter.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/exporter/bom_exporter.py
+- [[broken_file.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/broken/broken_file.py
+- [[broken_sample.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/broken/broken_sample.py
+- [[cache()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/barcodes/helper.py
+- [[call_machine_function()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/registry.py
+- [[core_notifications.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/integration/core_notifications.py
+- [[currency_exchange.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/integration/currency_exchange.py
+- [[customer_order_number()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/barcodes/mixins.py
+- [[digikey.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/suppliers/digikey.py
+- [[ecia_field_map()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/barcodes/mixins.py
+- [[errors()_2]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/machine_type.py
+- [[errors()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/models.py
+- [[errors()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/registry.py
+- [[event_sample.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/event/event_sample.py
+- [[filtered_event_sample.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/event/filtered_event_sample.py
+- [[get_admin_errors()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/models.py
+- [[get_drivers()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/registry.py
+- [[get_last_used_printers()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/labels/inventree_machine.py
+- [[get_machine()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/registry.py
+- [[get_machine_and_driver()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/labels/inventree_machine.py
+- [[get_machine_status()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/models.py
+- [[get_registered_mixins()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/plugin.py
+- [[get_supported_serializers()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/importer/registry.py
+- [[has_api_call()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/APICallMixin.py
+- [[has_app()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/AppMixin.py
+- [[has_barcode()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/barcodes/mixins.py
+- [[has_barcode_generation()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/barcodes/mixins.py
+- [[has_navigation()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/NavigationMixin.py
+- [[has_scheduled_tasks()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/ScheduleMixin.py
+- [[has_transition_handlers()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/transition.py
+- [[has_urls()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/UrlsMixin.py
+- [[icon_sample.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/icons/icon_sample.py
+- [[inactive_plugin_list()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/templatetags/plugin_extras.py
+- [[initialize()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/registry.py
+- [[initialized()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/machine_type.py
+- [[initialized()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/models.py
+- [[internal_name()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/UrlsMixin.py
+- [[inventree_barcode.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/barcodes/inventree_barcode.py
+- [[inventree_exporter.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/exporter/inventree_exporter.py
+- [[inventree_label.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/labels/inventree_label.py
+- [[inventree_machine.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/labels/inventree_machine.py
+- [[is_builtin()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/models.py
+- [[is_driver_available()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/models.py
+- [[is_installed()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/models.py
+- [[is_mandatory()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/models.py
+- [[is_ready()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/registry.py
+- [[is_sample()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/models.py
+- [[label_machines.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/testing/label_machines.py
+- [[label_printer.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/machine_types/label_printer.py
+- [[label_sample.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/label_sample.py
+- [[label_sheet.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/labels/label_sheet.py
+- [[lcsc.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/suppliers/lcsc.py
+- [[load_machines()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/registry.py
+- [[machine()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/models.py
+- [[machine_plugin()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/machine_types/label_printer.py
+- [[machine_registry_entrypoint()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/registry.py
+- [[machine_type.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/machine_type.py
+- [[machine_types.py_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/integration/machine_types.py
+- [[machine_types.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/machine/machine_types.py
+- [[mail_sample.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/mail/mail_sample.py
+- [[manufacturer_part_number()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/barcodes/mixins.py
+- [[metadata.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/metadata.py
+- [[mixin_available()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/templatetags/plugin_extras.py
+- [[mixin_enabled()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/templatetags/plugin_extras.py
+- [[mixins.py_11]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/data_exporter/mixins.py
+- [[mixins.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/importer/mixins.py
+- [[mixins.py_5]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/action/mixins.py
+- [[mixins.py_8]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/barcodes/mixins.py
+- [[mixins.py_9]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/event/mixins.py
+- [[mixins.py_7]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/icons/mixins.py
+- [[mixins.py_4]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/label/mixins.py
+- [[mixins.py_2]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/locate/mixins.py
+- [[mixins.py_3]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/mail/mixins.py
+- [[mixins.py_6]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/supplier/mixins.py
+- [[mixins.py_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/ui/mixins.py
+- [[mixins.py_10]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/mixins.py
+- [[models.py_4]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/models.py
+- [[models.py_2]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/models.py
+- [[mouser.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/suppliers/mouser.py
+- [[name()_2]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/machine_type.py
+- [[navigation_icon()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/NavigationMixin.py
+- [[navigation_name()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/NavigationMixin.py
+- [[no_errors()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/models.py
+- [[parameter_exporter.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/exporter/parameter_exporter.py
+- [[parse_ecia_barcode2d()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/barcodes/mixins.py
+- [[part_notifications.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/integration/part_notifications.py
+- [[ping_machines()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/tasks.py
+- [[plugin_extras.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/templatetags/plugin_extras.py
+- [[plugin_list()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/templatetags/plugin_extras.py
+- [[plugin_settings()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/templatetags/plugin_extras.py
+- [[print_hello()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/scheduled_task.py
+- [[print_world()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/scheduled_task.py
+- [[properties()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/machine_type.py
+- [[properties_dict()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/machine_type.py
+- [[register_importer()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/importer/registry.py
+- [[registered_mixins()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/plugin.py
+- [[registry.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/importer/registry.py
+- [[registry.py_2]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/registry.py
+- [[registry_entrypoint()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/registry.py
+- [[remove_machine()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/registry.py
+- [[report_plugin_sample.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/report_plugin_sample.py
+- [[restart_machine()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/registry.py
+- [[restart_required()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/machine_type.py
+- [[safe_url()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/templatetags/plugin_extras.py
+- [[sample.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/sample.py
+- [[sample_currency_exchange.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/sample_currency_exchange.py
+- [[sample_printer.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/machines/sample_printer.py
+- [[scheduled_task.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/scheduled_task.py
+- [[serializers.py_7]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/serializers.py
+- [[setUpTestData()_2]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/test_plugin.py
+- [[setup_mixin()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/plugin.py
+- [[simple.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/mock/simple.py
+- [[simpleactionplugin.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/simpleactionplugin.py
+- [[status()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/machine_type.py
+- [[status_text()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/machine_type.py
+- [[stocktake_exporter.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/exporter/stocktake_exporter.py
+- [[supplier_order_number()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/barcodes/mixins.py
+- [[supplier_part_number()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/barcodes/mixins.py
+- [[supported_model_options()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/importer/registry.py
+- [[supported_models()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/importer/registry.py
+- [[tasks.py_3]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/tasks.py
+- [[test_action.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/action/test_action.py
+- [[test_event_sample.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/event/test_event_sample.py
+- [[test_icon_sample.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/icons/test_icon_sample.py
+- [[test_locate_sample.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/locate/test_locate_sample.py
+- [[test_mail_sample.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/mail/test_mail_sample.py
+- [[test_mixins.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/test_mixins.py
+- [[test_plugin.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/test_plugin.py
+- [[test_scheduled_task.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/test_scheduled_task.py
+- [[test_simpleactionplugin.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/test_simpleactionplugin.py
+- [[tme.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/suppliers/tme.py
+- [[to_list()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/templatetags/inventree_extras.py
+- [[transition.py_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/generic/states/transition.py
+- [[transition.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/transition.py
+- [[update_machine()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/registry.py
+- [[urlpatterns()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/UrlsMixin.py
+- [[user_interface_sample.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/user_interface_sample.py
+- [[validate_json()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/sample.py
+- [[validation_sample.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/validation_sample.py
+- [[version.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/version.py
+
+## Live Query (requires Dataview plugin)
+
+```dataview
+TABLE source_file, type FROM #community/Community_1
+SORT file.name ASC
+```
+
+## Connections to other communities
+- 667 edges to [[_COMMUNITY_Core Models & Admin]]
+- 406 edges to [[_COMMUNITY_Community 4]]
+- 285 edges to [[_COMMUNITY_Community 2]]
+- 175 edges to [[_COMMUNITY_Community 3]]
+- 156 edges to [[_COMMUNITY_Community 5]]
+- 117 edges to [[_COMMUNITY_Community 6]]
+- 94 edges to [[_COMMUNITY_Community 15]]
+- 79 edges to [[_COMMUNITY_Community 10]]
+- 49 edges to [[_COMMUNITY_Utilities & Auth]]
+- 37 edges to [[_COMMUNITY_Inventory & Order Logic]]
+- 31 edges to [[_COMMUNITY_Community 16]]
+- 22 edges to [[_COMMUNITY_Community 13]]
+- 21 edges to [[_COMMUNITY_Community 22]]
+- 13 edges to [[_COMMUNITY_Community 20]]
+- 10 edges to [[_COMMUNITY_Community 12]]
+- 10 edges to [[_COMMUNITY_Community 7]]
+- 9 edges to [[_COMMUNITY_Community 14]]
+- 7 edges to [[_COMMUNITY_Community 19]]
+- 4 edges to [[_COMMUNITY_Community 25]]
+- 3 edges to [[_COMMUNITY_Community 23]]
+- 3 edges to [[_COMMUNITY_Community 18]]
+- 2 edges to [[_COMMUNITY_Community 11]]
+- 1 edge to [[_COMMUNITY_Community 28]]
+- 1 edge to [[_COMMUNITY_Community 24]]
+
+## Top bridge nodes
+- [[InvenTreePlugin]] - degree 581, connects to 10 communities
+- [[SettingsMixin_1]] - degree 78, connects to 7 communities
+- [[.scan_receive_item()]] - degree 16, connects to 7 communities
+- [[PluginConfig]] - degree 296, connects to 6 communities
+- [[MachineConfig]] - degree 165, connects to 6 communities

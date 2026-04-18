@@ -1,0 +1,22 @@
+---
+source_file: "/Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/migrations/0060_auto_20230519_0344.py"
+type: "code"
+community: "Community 7"
+location: "L25"
+tags:
+  - graphify/code
+  - graphify/INFERRED
+  - community/Community_7
+---
+
+# reverse_pack_quantity()
+
+## Connections
+- [[.get_model()]] - `calls` [INFERRED]
+- [[.print()_3]] - `calls` [INFERRED]
+- [[.save()_73]] - `calls` [INFERRED]
+- [[0060_auto_20230519_0344.py]] - `contains` [EXTRACTED]
+- [[Reverse the migrations]] - `rationale_for` [EXTRACTED]
+- [[all()]] - `calls` [INFERRED]
+
+#graphify/code #graphify/INFERRED #community/Community_7

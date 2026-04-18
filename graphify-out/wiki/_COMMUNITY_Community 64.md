@@ -1,0 +1,19 @@
+---
+type: community
+members: 2
+---
+
+# Community 64
+
+**Members:** 2 nodes
+
+## Members
+- [[PluginIcon()]] - code - inventree/src/frontend/src/tables/plugin/PluginListTable.tsx
+- [[PluginListTable.tsx]] - code - inventree/src/frontend/src/tables/plugin/PluginListTable.tsx
+
+## Live Query (requires Dataview plugin)
+
+```dataview
+TABLE source_file, type FROM #community/Community_64
+SORT file.name ASC
+```

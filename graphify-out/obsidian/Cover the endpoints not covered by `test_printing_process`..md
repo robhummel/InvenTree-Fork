@@ -1,0 +1,27 @@
+---
+source_file: "/Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/label/test_label_mixin.py"
+type: "rationale"
+community: "Core Models & Admin"
+location: "L273"
+tags:
+  - graphify/rationale
+  - graphify/INFERRED
+  - community/Core_Models_&_Admin
+---
+
+# Cover the endpoints not covered by `test_printing_process`.
+
+## Connections
+- [[.test_printing_endpoints()]] - `rationale_for` [EXTRACTED]
+- [[InvenTreeAPITestCase_1]] - `uses` [INFERRED]
+- [[InvenTreePlugin]] - `uses` [INFERRED]
+- [[LabelPrintingMixin_1]] - `uses` [INFERRED]
+- [[LabelTemplate]] - `uses` [INFERRED]
+- [[MixinNotImplementedError]] - `uses` [INFERRED]
+- [[Part]] - `uses` [INFERRED]
+- [[PluginMixinEnum]] - `uses` [INFERRED]
+- [[PrintTestMixins_1]] - `uses` [INFERRED]
+- [[StockItem]] - `uses` [INFERRED]
+- [[StockLocation]] - `uses` [INFERRED]
+
+#graphify/rationale #graphify/INFERRED #community/Core_Models_&_Admin

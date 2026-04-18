@@ -1,0 +1,88 @@
+---
+source_file: "inventree/src/backend/InvenTree/InvenTree/exceptions.py"
+type: "code"
+community: "Data Migrations & Schema"
+location: "L21"
+tags:
+  - graphify/code
+  - graphify/INFERRED
+  - community/Data_Migrations_&_Schema
+---
+
+# log_error()
+
+## Connections
+- [[.__init__()_54]] - `calls` [INFERRED]
+- [[.authentication_error()]] - `calls` [INFERRED]
+- [[.calculate_total_price()]] - `calls` [INFERRED]
+- [[.clean()_11]] - `calls` [INFERRED]
+- [[.create()_18]] - `calls` [INFERRED]
+- [[.create_default_labels()]] - `calls` [INFERRED]
+- [[.create_default_reports()]] - `calls` [INFERRED]
+- [[.delete()_12]] - `calls` [INFERRED]
+- [[.discover_drivers()]] - `calls` [INFERRED]
+- [[.discover_machine_types()]] - `calls` [INFERRED]
+- [[.export_data()_4]] - `calls` [INFERRED]
+- [[.get_context()_2]] - `calls` [INFERRED]
+- [[.get_latest_serial_number()_1]] - `calls` [INFERRED]
+- [[.get_plugin_context()]] - `calls` [INFERRED]
+- [[.get_required_quantity()]] - `calls` [INFERRED]
+- [[.handle_barcode()_4]] - `calls` [INFERRED]
+- [[.handle_transition()]] - `calls` [INFERRED]
+- [[.log_scan()]] - `calls` [INFERRED]
+- [[.notify_plugins()]] - `calls` [INFERRED]
+- [[.partial_rebuild()]] - `calls` [INFERRED]
+- [[.plugin_dirs()]] - `calls` [INFERRED]
+- [[.post()]] - `calls` [INFERRED]
+- [[.print()_1]] - `calls` [INFERRED]
+- [[.process_exception()]] - `calls` [INFERRED]
+- [[.render_to_html()]] - `calls` [INFERRED]
+- [[.render_to_pdf()]] - `calls` [INFERRED]
+- [[.render_to_png()]] - `calls` [INFERRED]
+- [[.run_plugin_validation()]] - `calls` [INFERRED]
+- [[.save()_68]] - `calls` [INFERRED]
+- [[.scan_barcode()]] - `calls` [INFERRED]
+- [[.scan_receive_item()]] - `calls` [INFERRED]
+- [[.send_mail()]] - `calls` [INFERRED]
+- [[.test_error_exceptions()]] - `calls` [INFERRED]
+- [[.test_error_list()]] - `calls` [INFERRED]
+- [[.validate_batch_code()_2]] - `calls` [INFERRED]
+- [[.validate_ipn()]] - `calls` [INFERRED]
+- [[.validate_name()]] - `calls` [INFERRED]
+- [[.validate_serial_number()_2]] - `calls` [INFERRED]
+- [[Exception]] - `calls` [INFERRED]
+- [[Log an error to the database.      - Uses python exception handling to extract e]] - `rationale_for` [EXTRACTED]
+- [[after_failed_task()]] - `calls` [INFERRED]
+- [[convert_serial_to_int()]] - `calls` [INFERRED]
+- [[error()_2]] - `calls` [INFERRED]
+- [[exception_handler()]] - `calls` [EXTRACTED]
+- [[exceptions.py]] - `contains` [EXTRACTED]
+- [[generate_batch_code()]] - `calls` [INFERRED]
+- [[get()_1]] - `calls` [INFERRED]
+- [[get_icon_packs()]] - `calls` [INFERRED]
+- [[get_install_info()]] - `calls` [INFERRED]
+- [[get_plugin_urls()]] - `calls` [INFERRED]
+- [[handle_pip_error()]] - `calls` [INFERRED]
+- [[increment_serial_number()]] - `calls` [INFERRED]
+- [[install_plugin()]] - `calls` [INFERRED]
+- [[install_plugins_file()]] - `calls` [INFERRED]
+- [[isImportingData()]] - `calls` [INFERRED]
+- [[isRunningBackup()]] - `calls` [INFERRED]
+- [[isRunningMigrations()]] - `calls` [INFERRED]
+- [[join()_1]] - `calls` [INFERRED]
+- [[log_report_error()]] - `calls` [INFERRED]
+- [[offload_task()]] - `calls` [INFERRED]
+- [[plugins_file_hash()]] - `calls` [INFERRED]
+- [[post()_1]] - `calls` [INFERRED]
+- [[print_label()]] - `calls` [INFERRED]
+- [[print_labels()]] - `calls` [INFERRED]
+- [[print_reports()]] - `calls` [INFERRED]
+- [[process_event()]] - `calls` [INFERRED]
+- [[rebuild_stock_item_tree()]] - `calls` [INFERRED]
+- [[rebuild_stock_items()]] - `calls` [INFERRED]
+- [[reload_plugins()]] - `calls` [INFERRED]
+- [[trigger_notification()]] - `calls` [INFERRED]
+- [[uninstall_plugin()]] - `calls` [INFERRED]
+- [[update_plugins_file()]] - `calls` [INFERRED]
+
+#graphify/code #graphify/INFERRED #community/Data_Migrations_&_Schema

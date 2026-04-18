@@ -1,0 +1,1285 @@
+---
+type: community
+members: 1249
+---
+
+# Documentation & FAQ
+
+**Members:** 1249 nodes
+
+## Members
+- [[.__init__()_38]] - code - inventree/src/backend/InvenTree/common/serializers.py
+- [[.__init__()_1]] - code - inventree/src/backend/InvenTree/importer/serializers.py
+- [[.__init__()_37]] - code - inventree/src/backend/InvenTree/common/serializers.py
+- [[.__init__()_52]] - code - inventree/src/backend/InvenTree/report/serializers.py
+- [[.__init__()_55]] - code - inventree/src/backend/InvenTree/part/serializers.py
+- [[.__init__()_56]] - code - inventree/src/backend/InvenTree/part/serializers.py
+- [[.__init__()_51]] - code - inventree/src/backend/InvenTree/report/serializers.py
+- [[.__init__()_59]] - code - inventree/src/backend/InvenTree/stock/serializers.py
+- [[.__init__()_57]] - code - inventree/src/backend/InvenTree/stock/serializers.py
+- [[.__init__()_80]] - code - inventree/src/backend/InvenTree/company/serializers.py
+- [[.__str__()_28]] - code - inventree/src/backend/InvenTree/stock/models.py
+- [[.add_arguments()_4]] - code - inventree/src/backend/InvenTree/InvenTree/management/commands/migrate_icons.py
+- [[.build_optional_field()]] - code - inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[.build_property_field()]] - code - inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[.build_relational_field()]] - code - inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[.build_unknown_field()]] - code - inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[.clean_line_item()_4]] - code - inventree/src/backend/InvenTree/order/serializers.py
+- [[.create()_3]] - code - inventree/src/backend/InvenTree/importer/serializers.py
+- [[.create()_16]] - code - inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[.create()_8]] - code - inventree/src/backend/InvenTree/common/serializers.py
+- [[.get_allocated_to_sales_orders()]] - code - inventree/src/backend/InvenTree/part/serializers.py
+- [[.get_api_url()]] - code - inventree/src/backend/InvenTree/part/serializers.py
+- [[.get_attribute()]] - code - inventree/src/backend/InvenTree/common/serializers.py
+- [[.get_choices()_2]] - code - inventree/src/backend/InvenTree/common/serializers.py
+- [[.get_context_data()]] - code - inventree/src/backend/InvenTree/order/serializers.py
+- [[.get_context_data()_2]] - code - inventree/src/backend/InvenTree/order/serializers.py
+- [[.get_context_data()_1]] - code - inventree/src/backend/InvenTree/order/serializers.py
+- [[.get_initial()]] - code - inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[.get_internal_price()]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[.get_is_plugin()]] - code - inventree/src/backend/InvenTree/common/serializers.py
+- [[.get_parameter_template()]] - code - inventree/src/backend/InvenTree/plugin/base/supplier/serializers.py
+- [[.get_part_name()]] - code - inventree/src/backend/InvenTree/stock/models.py
+- [[.get_queryset()_33]] - code - inventree/src/backend/InvenTree/stock/admin.py
+- [[.get_read_only()]] - code - inventree/src/backend/InvenTree/common/serializers.py
+- [[.get_source()]] - code - inventree/src/backend/InvenTree/common/serializers.py
+- [[.get_starred()]] - code - inventree/src/backend/InvenTree/part/serializers.py
+- [[.get_starred()_1]] - code - inventree/src/backend/InvenTree/part/serializers.py
+- [[.get_stock()]] - code - inventree/src/backend/InvenTree/stock/test_api.py
+- [[.get_url()]] - code - inventree/src/backend/InvenTree/stock/test_api.py
+- [[.handle()_8]] - code - inventree/src/backend/InvenTree/InvenTree/management/commands/rebuild_models.py
+- [[.is_exporting()_1]] - code - inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[.is_field_included()]] - code - inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[.is_starred_by()_1]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[.is_valid()_1]] - code - inventree/src/backend/InvenTree/common/serializers.py
+- [[.is_valid()]] - code - inventree/src/backend/InvenTree/common/serializers.py
+- [[.location_count()]] - code - inventree/src/backend/InvenTree/stock/admin.py
+- [[.make_part()]] - code - inventree/src/backend/InvenTree/part/test_part.py
+- [[.rebuild_models()]] - code - inventree/src/backend/InvenTree/InvenTree/management/commands/rebuild_models.py
+- [[.run_ordering_test()]] - code - inventree/src/backend/InvenTree/InvenTree/unit_test.py
+- [[.save()_58]] - code - inventree/src/backend/InvenTree/stock/serializers.py
+- [[.save()_21]] - code - inventree/src/backend/InvenTree/importer/serializers.py
+- [[.save()_56]] - code - inventree/src/backend/InvenTree/stock/serializers.py
+- [[.save()_70]] - code - inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[.save()_51]] - code - inventree/src/backend/InvenTree/part/serializers.py
+- [[.save()_50]] - code - inventree/src/backend/InvenTree/part/serializers.py
+- [[.save()_48]] - code - inventree/src/backend/InvenTree/part/serializers.py
+- [[.save()_49]] - code - inventree/src/backend/InvenTree/part/serializers.py
+- [[.save()_4]] - code - inventree/src/backend/InvenTree/order/serializers.py
+- [[.save()_5]] - code - inventree/src/backend/InvenTree/order/serializers.py
+- [[.save()_3]] - code - inventree/src/backend/InvenTree/order/serializers.py
+- [[.save()_6]] - code - inventree/src/backend/InvenTree/order/serializers.py
+- [[.save()_7]] - code - inventree/src/backend/InvenTree/order/serializers.py
+- [[.save()_41]] - code - inventree/src/backend/InvenTree/report/serializers.py
+- [[.save()_16]] - code - inventree/src/backend/InvenTree/order/serializers.py
+- [[.save()_17]] - code - inventree/src/backend/InvenTree/order/serializers.py
+- [[.save()_14]] - code - inventree/src/backend/InvenTree/order/serializers.py
+- [[.save()_15]] - code - inventree/src/backend/InvenTree/order/serializers.py
+- [[.save()_11]] - code - inventree/src/backend/InvenTree/order/serializers.py
+- [[.save()_9]] - code - inventree/src/backend/InvenTree/order/serializers.py
+- [[.save()_10]] - code - inventree/src/backend/InvenTree/order/serializers.py
+- [[.save()_8]] - code - inventree/src/backend/InvenTree/order/serializers.py
+- [[.save()_12]] - code - inventree/src/backend/InvenTree/order/serializers.py
+- [[.save()_57]] - code - inventree/src/backend/InvenTree/stock/serializers.py
+- [[.setUp()_34]] - code - inventree/src/backend/InvenTree/part/test_api.py
+- [[.setUp()_19]] - code - inventree/src/backend/InvenTree/common/test_api.py
+- [[.skip_create_fields()_5]] - code - inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[.skip_create_fields()_4]] - code - inventree/src/backend/InvenTree/part/serializers.py
+- [[.skip_create_fields()_1]] - code - inventree/src/backend/InvenTree/order/serializers.py
+- [[.skip_create_fields()]] - code - inventree/src/backend/InvenTree/order/serializers.py
+- [[.skip_create_fields()_6]] - code - inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[.skip_create_fields()_3]] - code - inventree/src/backend/InvenTree/order/serializers.py
+- [[.skip_create_fields()_2]] - code - inventree/src/backend/InvenTree/order/serializers.py
+- [[.test_add()]] - code - inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_add_bom_item()]] - code - inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_attributes()]] - code - inventree/src/backend/InvenTree/part/test_part.py
+- [[.test_barcode()_1]] - code - inventree/src/backend/InvenTree/part/test_part.py
+- [[.test_bom_item()]] - code - inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_bom_list_ordering()]] - code - inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_bom_list_search()]] - code - inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_category_subscription()]] - code - inventree/src/backend/InvenTree/part/test_part.py
+- [[.test_date()]] - code - inventree/src/backend/InvenTree/part/test_part.py
+- [[.test_define()]] - code - inventree/src/backend/InvenTree/part/test_part.py
+- [[.test_filter_available()]] - code - inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_filter_by_batch()]] - code - inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_filter_by_color()]] - code - inventree/src/backend/InvenTree/part/test_param.py
+- [[.test_filter_by_company()]] - code - inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_filter_by_depleted()]] - code - inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_filter_by_exclude_tree()]] - code - inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_filter_by_has_batch()]] - code - inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_filter_by_in_stock()]] - code - inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_filter_by_ionized()]] - code - inventree/src/backend/InvenTree/part/test_param.py
+- [[.test_filter_by_ipn()]] - code - inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_filter_by_length()]] - code - inventree/src/backend/InvenTree/part/test_param.py
+- [[.test_filter_by_location()]] - code - inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_filter_by_part()]] - code - inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_filter_by_serialized()]] - code - inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_filter_by_status()]] - code - inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_filter_by_tracked()]] - code - inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_filter_by_width()]] - code - inventree/src/backend/InvenTree/part/test_param.py
+- [[.test_filter_external()]] - code - inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_filter_has_child_items()]] - code - inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_filter_has_installed()]] - code - inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_filter_has_purchase_price()]] - code - inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_filter_installed()]] - code - inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_filter_manufacturer()]] - code - inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_filter_multiple()]] - code - inventree/src/backend/InvenTree/part/test_param.py
+- [[.test_filter_sent_to_customer()]] - code - inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_filter_stale()]] - code - inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_get_stock_list()]] - code - inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_has_bom()]] - code - inventree/src/backend/InvenTree/part/test_bom_item.py
+- [[.test_hash()]] - code - inventree/src/backend/InvenTree/part/test_part.py
+- [[.test_initial()]] - code - inventree/src/backend/InvenTree/part/test_part.py
+- [[.test_initial_supplier_data()]] - code - inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_internal_pricing()]] - code - inventree/src/backend/InvenTree/part/test_part.py
+- [[.test_inventree_customize()]] - code - inventree/src/backend/InvenTree/part/test_part.py
+- [[.test_inventree_instance_name()]] - code - inventree/src/backend/InvenTree/part/test_part.py
+- [[.test_inventree_title()]] - code - inventree/src/backend/InvenTree/part/test_part.py
+- [[.test_inventree_version()]] - code - inventree/src/backend/InvenTree/part/test_part.py
+- [[.test_invisible_chars()]] - code - inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_key_generation()]] - code - inventree/src/backend/InvenTree/part/test_part.py
+- [[.test_keyvalue()]] - code - inventree/src/backend/InvenTree/part/test_part.py
+- [[.test_list()_7]] - code - inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_list()_8]] - code - inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_location_detail()]] - code - inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_missing_data()]] - code - inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_options()_3]] - code - inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_ordering()_1]] - code - inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_ordering()]] - code - inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_output_options()_8]] - code - inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_paginate()_1]] - code - inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_parent_category_subscription()]] - code - inventree/src/backend/InvenTree/part/test_part.py
+- [[.test_part_subcription()]] - code - inventree/src/backend/InvenTree/part/test_part.py
+- [[.test_path_detail()_1]] - code - inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_pricing_detail()]] - code - inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_rename_img()]] - code - inventree/src/backend/InvenTree/part/test_part.py
+- [[.test_render_date()]] - code - inventree/src/backend/InvenTree/part/test_part.py
+- [[.test_sell_pricing()]] - code - inventree/src/backend/InvenTree/part/test_part.py
+- [[.test_setting_object()]] - code - inventree/src/backend/InvenTree/part/test_part.py
+- [[.test_settings_value()]] - code - inventree/src/backend/InvenTree/part/test_part.py
+- [[.test_stock()]] - code - inventree/src/backend/InvenTree/part/test_part.py
+- [[.test_stock_item_and_include_installed_filters()]] - code - inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_stock_item_barcode_basics()]] - code - inventree/src/backend/InvenTree/stock/tests.py
+- [[.test_str()_2]] - code - inventree/src/backend/InvenTree/part/test_part.py
+- [[.test_str2bool()]] - code - inventree/src/backend/InvenTree/part/test_part.py
+- [[.test_strange_chars()]] - code - inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_to_list()]] - code - inventree/src/backend/InvenTree/part/test_part.py
+- [[.test_used_in()]] - code - inventree/src/backend/InvenTree/part/test_bom_item.py
+- [[.test_variant_subscription()]] - code - inventree/src/backend/InvenTree/part/test_part.py
+- [[.to_internal_value()_1]] - code - inventree/src/backend/InvenTree/common/serializers.py
+- [[.to_representation()_10]] - code - inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[.to_representation()_7]] - code - inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[.to_representation()_6]] - code - inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[.update()_12]] - code - inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[.update()_10]] - code - inventree/src/backend/InvenTree/stock/serializers.py
+- [[.validate()_20]] - code - inventree/src/backend/InvenTree/stock/serializers.py
+- [[.validate()_19]] - code - inventree/src/backend/InvenTree/stock/serializers.py
+- [[.validate()]] - code - inventree/src/backend/InvenTree/order/serializers.py
+- [[.validate()_2]] - code - inventree/src/backend/InvenTree/order/serializers.py
+- [[.validate()_8]] - code - inventree/src/backend/InvenTree/order/serializers.py
+- [[.validate()_5]] - code - inventree/src/backend/InvenTree/order/serializers.py
+- [[.validate()_4]] - code - inventree/src/backend/InvenTree/order/serializers.py
+- [[.validate()_7]] - code - inventree/src/backend/InvenTree/order/serializers.py
+- [[.validate()_3]] - code - inventree/src/backend/InvenTree/order/serializers.py
+- [[.validate()_11]] - code - inventree/src/backend/InvenTree/common/serializers.py
+- [[.validate()_12]] - code - inventree/src/backend/InvenTree/common/serializers.py
+- [[.validate_accept_incomplete()]] - code - inventree/src/backend/InvenTree/order/serializers.py
+- [[.validate_accept_incomplete()_1]] - code - inventree/src/backend/InvenTree/order/serializers.py
+- [[.validate_customer()]] - code - inventree/src/backend/InvenTree/stock/serializers.py
+- [[.validate_field_defaults()]] - code - inventree/src/backend/InvenTree/importer/serializers.py
+- [[.validate_field_filters()]] - code - inventree/src/backend/InvenTree/importer/serializers.py
+- [[.validate_field_overrides()]] - code - inventree/src/backend/InvenTree/importer/serializers.py
+- [[.validate_image()]] - code - inventree/src/backend/InvenTree/part/serializers.py
+- [[.validate_item()]] - code - inventree/src/backend/InvenTree/stock/serializers.py
+- [[.validate_item()_1]] - code - inventree/src/backend/InvenTree/stock/serializers.py
+- [[.validate_items()]] - code - inventree/src/backend/InvenTree/stock/serializers.py
+- [[.validate_line_item()_2]] - code - inventree/src/backend/InvenTree/order/serializers.py
+- [[.validate_line_item()_1]] - code - inventree/src/backend/InvenTree/order/serializers.py
+- [[.validate_line_item()]] - code - inventree/src/backend/InvenTree/order/serializers.py
+- [[.validate_manufacturer()]] - code - inventree/src/backend/InvenTree/part/serializers.py
+- [[.validate_model_type()]] - code - inventree/src/backend/InvenTree/common/serializers.py
+- [[.validate_part()_2]] - code - inventree/src/backend/InvenTree/stock/serializers.py
+- [[.validate_part()]] - code - inventree/src/backend/InvenTree/part/serializers.py
+- [[.validate_part()_1]] - code - inventree/src/backend/InvenTree/stock/serializers.py
+- [[.validate_pk()]] - code - inventree/src/backend/InvenTree/stock/serializers.py
+- [[.validate_purchase_order()]] - code - inventree/src/backend/InvenTree/order/serializers.py
+- [[.validate_quantity()_3]] - code - inventree/src/backend/InvenTree/part/serializers.py
+- [[.validate_quantity()_5]] - code - inventree/src/backend/InvenTree/stock/serializers.py
+- [[.validate_quantity()_1]] - code - inventree/src/backend/InvenTree/order/serializers.py
+- [[.validate_quantity()]] - code - inventree/src/backend/InvenTree/order/serializers.py
+- [[.validate_quantity()_2]] - code - inventree/src/backend/InvenTree/order/serializers.py
+- [[.validate_quantity()_4]] - code - inventree/src/backend/InvenTree/stock/serializers.py
+- [[.validate_quantity()_6]] - code - inventree/src/backend/InvenTree/stock/serializers.py
+- [[.validate_reference()]] - code - inventree/src/backend/InvenTree/order/serializers.py
+- [[.validate_rows()]] - code - inventree/src/backend/InvenTree/importer/serializers.py
+- [[.validate_shipment()]] - code - inventree/src/backend/InvenTree/order/serializers.py
+- [[.validate_shipment()_1]] - code - inventree/src/backend/InvenTree/order/serializers.py
+- [[.validate_supplier()]] - code - inventree/src/backend/InvenTree/part/serializers.py
+- [[.validate_value()]] - code - inventree/src/backend/InvenTree/common/serializers.py
+- [[A serializer for allocating a single stock-item against a SalesOrder shipment.]] - rationale - inventree/src/backend/InvenTree/order/serializers.py
+- [[A serializer for receiving a single purchase order line item against a purchase]] - rationale - inventree/src/backend/InvenTree/order/serializers.py
+- [[API serializer for generic state information.]] - rationale - inventree/src/backend/InvenTree/generic/states/serializers.py
+- [[API serializers for uninstalling an installed item from a stock item.]] - rationale - inventree/src/backend/InvenTree/stock/serializers.py
+- [[API tests for the DataOutput endpoint.]] - rationale - inventree/src/backend/InvenTree/common/test_api.py
+- [[API unit tests for the PartTestTemplate model.]] - rationale - inventree/src/backend/InvenTree/part/test_api.py
+- [[Abstract Meta for ExtraLine.]] - rationale - inventree/src/backend/InvenTree/order/serializers.py
+- [[Abstract Serializer for a ExtraLine object.]] - rationale - inventree/src/backend/InvenTree/order/serializers.py
+- [[AbstractExtraLineMeta]] - code - inventree/src/backend/InvenTree/order/serializers.py
+- [[AbstractExtraLineSerializer]] - code - inventree/src/backend/InvenTree/order/serializers.py
+- [[AbstractLineItemSerializer]] - code - inventree/src/backend/InvenTree/order/serializers.py
+- [[AbstractOrderSerializer]] - code - inventree/src/backend/InvenTree/order/serializers.py
+- [[Actually duplicate the BOM.]] - rationale - inventree/src/backend/InvenTree/part/serializers.py
+- [[Actually perform the stock merging action.          At this point we are confide]] - rationale - inventree/src/backend/InvenTree/stock/serializers.py
+- [[Add an optional 'parameters' field to an API serializer.      Arguments]] - rationale - inventree/src/backend/InvenTree/common/filters.py
+- [[Add an optional 'project_code_detail' field to an API serializer.      Arguments]] - rationale - inventree/src/backend/InvenTree/common/filters.py
+- [[Add an optional 'project_code_label' field to an API serializer.      Arguments]] - rationale - inventree/src/backend/InvenTree/common/filters.py
+- [[Add an optional 'tags' field to an API serializer.      Arguments         defau]] - rationale - inventree/src/backend/InvenTree/common/filters.py
+- [[Add count of entries for each selection list.]] - rationale - inventree/src/backend/InvenTree/common/serializers.py
+- [[Add custom annotations to the queryset.          - last_run The last time the t]] - rationale - inventree/src/backend/InvenTree/common/serializers.py
+- [[Add extra context data to the serializer.]] - rationale - inventree/src/backend/InvenTree/order/serializers.py
+- [[Add extra information to the queryset.          - Number of lines in the Purchas]] - rationale - inventree/src/backend/InvenTree/order/serializers.py
+- [[Add location count to each location type.]] - rationale - inventree/src/backend/InvenTree/stock/serializers.py
+- [[Add some extra annotations to the queryset, performing database queries as effic]] - rationale - inventree/src/backend/InvenTree/stock/serializers.py
+- [[Add some extra annotations to the queryset.          Performing database queries]] - rationale - inventree/src/backend/InvenTree/part/serializers.py
+- [[Add some extra annotations to this queryset.          - overdue status (boolea]] - rationale - inventree/src/backend/InvenTree/order/serializers.py
+- [[Add some extra annotations to this queryset.          - total_price = purchase]] - rationale - inventree/src/backend/InvenTree/order/serializers.py
+- [[AddressBriefSerializer]] - code - inventree/src/backend/InvenTree/company/serializers.py
+- [[Admin class for Location.]] - rationale - inventree/src/backend/InvenTree/stock/admin.py
+- [[Admin class for StockItem.]] - rationale - inventree/src/backend/InvenTree/stock/admin.py
+- [[Admin class for StockItemTestResult.]] - rationale - inventree/src/backend/InvenTree/stock/admin.py
+- [[Admin class for the Contact model.]] - rationale - inventree/src/backend/InvenTree/company/admin.py
+- [[Admin class for the SupplierPart model.]] - rationale - inventree/src/backend/InvenTree/company/admin.py
+- [[AllUnitListResponseSerializer]] - code - inventree/src/backend/InvenTree/common/serializers.py
+- [[Allocate stock items against the sales order.]] - rationale - inventree/src/backend/InvenTree/order/serializers.py
+- [[Annotate extra information to the queryset.]] - rationale - inventree/src/backend/InvenTree/stock/serializers.py
+- [[Annotate queryset to fetch location count.]] - rationale - inventree/src/backend/InvenTree/stock/admin.py
+- [[Annotate the BomItem queryset with extra information.          Annotations]] - rationale - inventree/src/backend/InvenTree/part/serializers.py
+- [[Annotate the SupplierPart queryset with extra fields.          Fields]] - rationale - inventree/src/backend/InvenTree/company/serializers.py
+- [[Annotate the queryset with extra information.]] - rationale - inventree/src/backend/InvenTree/order/serializers.py
+- [[Annotate the queryset with the number of subcategories.]] - rationale - inventree/src/backend/InvenTree/part/serializers.py
+- [[Annotate the queryset with the number of sublocations.]] - rationale - inventree/src/backend/InvenTree/stock/serializers.py
+- [[Annotate the supplied queryset with aggregated information.]] - rationale - inventree/src/backend/InvenTree/company/serializers.py
+- [[AttachmentSerializer]] - code - inventree/src/backend/InvenTree/common/serializers.py
+- [[AttachmentTest_1]] - code - inventree/src/backend/InvenTree/part/test_api.py
+- [[Base class for managing stock adjustment actions via the API.]] - rationale - inventree/src/backend/InvenTree/stock/serializers.py
+- [[Base class for running Stock tests.]] - rationale - inventree/src/backend/InvenTree/stock/tests.py
+- [[Base class for running tests on the Part API endpoints.]] - rationale - inventree/src/backend/InvenTree/part/test_api.py
+- [[Base serializer class for report and label templates.]] - rationale - inventree/src/backend/InvenTree/report/serializers.py
+- [[Base serializer for a settings object.]] - rationale - inventree/src/backend/InvenTree/common/serializers.py
+- [[BomExporterOptionsSerializer]] - code - inventree/src/backend/InvenTree/plugin/builtin/exporter/bom_exporter.py
+- [[BomItemSerializer]] - code - inventree/src/backend/InvenTree/part/serializers.py
+- [[BomItemSubstitute]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[BomItemSubstituteSerializer]] - code - inventree/src/backend/InvenTree/part/serializers.py
+- [[BomItemTest_1]] - code - inventree/src/backend/InvenTree/part/test_api.py
+- [[Brief serializer for SupplierPriceBreak object.      Used to provide a list of p]] - rationale - inventree/src/backend/InvenTree/company/serializers.py
+- [[Brief serializer for a StockLocation object.      Defined here, rather than stoc]] - rationale - inventree/src/backend/InvenTree/part/serializers.py
+- [[Build an optional field, based on the provided field name.]] - rationale - inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[Called when the serializer is saved.]] - rationale - inventree/src/backend/InvenTree/part/serializers.py
+- [[Called when this serializer is saved.]] - rationale - inventree/src/backend/InvenTree/part/serializers.py
+- [[Cannot check in a LineItem with a barcode that is already assigned.]] - rationale - inventree/src/backend/InvenTree/order/serializers.py
+- [[Catch any django ValidationError thrown at the moment `save` is called, and re-t]] - rationale - inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[Catch any django ValidationError, and re-throw as a DRF ValidationError.]] - rationale - inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[CategoryParameterTemplateSerializer]] - code - inventree/src/backend/InvenTree/part/serializers.py
+- [[CategorySerializer]] - code - inventree/src/backend/InvenTree/part/serializers.py
+- [[CategoryTree]] - code - inventree/src/backend/InvenTree/part/serializers.py
+- [[Check all stock items for stale stock.      This function runs daily and checks]] - rationale - inventree/src/backend/InvenTree/part/tasks.py
+- [[Check for parts with missing or outdated pricing information.      Tests for the]] - rationale - inventree/src/backend/InvenTree/part/tasks.py
+- [[Check if the 'accept_incomplete' field is required._1]] - rationale - inventree/src/backend/InvenTree/order/serializers.py
+- [[Check if the 'accept_incomplete' field is required.]] - rationale - inventree/src/backend/InvenTree/order/serializers.py
+- [[Check if the stock quantity has fallen below the minimum threshold of part.]] - rationale - inventree/src/backend/InvenTree/part/tasks.py
+- [[Check that a 'valid' part was selected.]] - rationale - inventree/src/backend/InvenTree/part/serializers.py
+- [[Check that a parent category can be subscribed to.]] - rationale - inventree/src/backend/InvenTree/part/test_part.py
+- [[Check that file is an image.]] - rationale - inventree/src/backend/InvenTree/part/serializers.py
+- [[Check that location_detail can be requested against the serializer.]] - rationale - inventree/src/backend/InvenTree/part/test_api.py
+- [[Check that path_detail can be requested against the serializer.]] - rationale - inventree/src/backend/InvenTree/part/test_api.py
+- [[Check that pathstring updates occur as expected.]] - rationale - inventree/src/backend/InvenTree/stock/tests.py
+- [[Check that the sell pricebreaks were loaded.]] - rationale - inventree/src/backend/InvenTree/part/test_part.py
+- [[Check that the sell pricebreaks were loaded._1]] - rationale - inventree/src/backend/InvenTree/part/test_part.py
+- [[Check that the supplied serial numbers are valid.]] - rationale - inventree/src/backend/InvenTree/stock/serializers.py
+- [[Check that we can add categories.]] - rationale - inventree/src/backend/InvenTree/part/test_api.py
+- [[Check the search api.]] - rationale - inventree/src/backend/InvenTree/plugin/samples/supplier/test_supplier_sample.py
+- [[Class for unit testing BomItem model.]] - rationale - inventree/src/backend/InvenTree/part/test_bom_item.py
+- [[Combination of InvenTreeTaggitSerializer and InvenTreeModelSerializer.]] - rationale - inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[Command_6]] - code - inventree/src/backend/InvenTree/InvenTree/management/commands/migrate_icons.py
+- [[Command_8]] - code - inventree/src/backend/InvenTree/InvenTree/management/commands/rebuild_models.py
+- [[CompanyBriefSerializer]] - code - inventree/src/backend/InvenTree/company/serializers.py
+- [[Complete the provided rows.]] - rationale - inventree/src/backend/InvenTree/importer/serializers.py
+- [[ConfigSerializer]] - code - inventree/src/backend/InvenTree/common/serializers.py
+- [[Construct a pricing URL.]] - rationale - inventree/src/backend/InvenTree/part/test_api.py
+- [[Construct a set of fields for this serializer.]] - rationale - inventree/src/backend/InvenTree/order/serializers.py
+- [[Construct a set of fields for this serializer._1]] - rationale - inventree/src/backend/InvenTree/order/serializers.py
+- [[Construct a set of fields for this serializer._2]] - rationale - inventree/src/backend/InvenTree/order/serializers.py
+- [[Construct initial data for the serializer.          Use the 'default' values spe]] - rationale - inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[Construct the DataExportOptionsSerializer.          - The exact nature of the av]] - rationale - inventree/src/backend/InvenTree/data_exporter/serializers.py
+- [[ContactSerializer]] - code - inventree/src/backend/InvenTree/company/serializers.py
+- [[ContentTypeField]] - code - inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[ContentTypeSerializer]] - code - inventree/src/backend/InvenTree/common/serializers.py
+- [[Convert ContentType instance to string representation.]] - rationale - inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[Convert an empty string to None for the model_type field.]] - rationale - inventree/src/backend/InvenTree/common/serializers.py
+- [[Convert the Money object to a decimal value for representation.]] - rationale - inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[ConvertStockItemSerializer]] - code - inventree/src/backend/InvenTree/stock/serializers.py
+- [[Create a TaskDetailSerializer instance from a django_q Task.          Arguments]] - rationale - inventree/src/backend/InvenTree/common/serializers.py
+- [[Create a new selection list. Save the choices separately.]] - rationale - inventree/src/backend/InvenTree/common/serializers.py
+- [[Create category and part data as part of setup routine.]] - rationale - inventree/src/backend/InvenTree/part/test_part.py
+- [[Create some Part instances as part of init routine.]] - rationale - inventree/src/backend/InvenTree/part/test_part.py
+- [[Create test data as part of setup routine.]] - rationale - inventree/src/backend/InvenTree/part/test_api.py
+- [[CurrencyExchangeSerializer]] - code - inventree/src/backend/InvenTree/common/serializers.py
+- [[Custom annotation for the serializer queryset.]] - rationale - inventree/src/backend/InvenTree/order/serializers.py
+- [[Custom context information for this serializer.]] - rationale - inventree/src/backend/InvenTree/order/serializers.py
+- [[Custom create method which supports field adjustment.]] - rationale - inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[Custom data exporter for part stocktake data.]] - rationale - inventree/src/backend/InvenTree/plugin/builtin/exporter/stocktake_exporter.py
+- [[Custom export options for the BOM exporter plugin.]] - rationale - inventree/src/backend/InvenTree/plugin/builtin/exporter/bom_exporter.py
+- [[Custom export options for the PartStocktakeExporter plugin.]] - rationale - inventree/src/backend/InvenTree/plugin/builtin/exporter/stocktake_exporter.py
+- [[Custom field for DRF with custom scheme validators.]] - rationale - inventree/src/backend/InvenTree/InvenTree/fields.py
+- [[Custom image serializer.      On upload, validate that the file is a valid image]] - rationale - inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[Custom initialization for PartStocktakeSerializer.]] - rationale - inventree/src/backend/InvenTree/part/serializers.py
+- [[Custom initialization method for PartSerializer.          - Allows us to optiona]] - rationale - inventree/src/backend/InvenTree/part/serializers.py
+- [[Custom management command to migrate the old FontAwesome icons.]] - rationale - inventree/src/backend/InvenTree/InvenTree/management/commands/migrate_icons.py
+- [[Custom management command to rebuild all MPTT models.  - This is crucial after i]] - rationale - inventree/src/backend/InvenTree/InvenTree/management/commands/rebuild_models.py
+- [[Custom method for creating a new Part instance using this serializer.]] - rationale - inventree/src/backend/InvenTree/part/serializers.py
+- [[Custom query annotations for the PartTestTemplate serializer.]] - rationale - inventree/src/backend/InvenTree/part/serializers.py
+- [[Custom search filter which allows adjusting of search terms dynamically.]] - rationale - inventree/src/backend/InvenTree/InvenTree/filters.py
+- [[Custom serializer for 'MoneyField', which ensures that passed values are numeric]] - rationale - inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[Custom serializer for decimal fields.      Solves the following issues     - Th]] - rationale - inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[Custom serializers for selecting currency option.]] - rationale - inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[Custom setup routine for this class.]] - rationale - inventree/src/backend/InvenTree/part/test_api.py
+- [[Custom update functionality for the serializer.]] - rationale - inventree/src/backend/InvenTree/company/serializers.py
+- [[Custom update method to pass the user information through to the instance.]] - rationale - inventree/src/backend/InvenTree/stock/serializers.py
+- [[Custom validation for the 'line_item' field.          - Ensure the line_item is]] - rationale - inventree/src/backend/InvenTree/order/serializers.py
+- [[Custom validation for the 'quantity' field.]] - rationale - inventree/src/backend/InvenTree/order/serializers.py
+- [[Custom validation for the serializer.]] - rationale - inventree/src/backend/InvenTree/order/serializers.py
+- [[Custom validation for the serializer.          - Ensure line items are provided]] - rationale - inventree/src/backend/InvenTree/order/serializers.py
+- [[Custom validation for the serializer.          - Ensure the shipment reference i]] - rationale - inventree/src/backend/InvenTree/order/serializers.py
+- [[Custom validation for the serializer.          - Ensure the supplier_part field]] - rationale - inventree/src/backend/InvenTree/order/serializers.py
+- [[Custom validation for the serializer.          - Integer quantity must be provid]] - rationale - inventree/src/backend/InvenTree/order/serializers.py
+- [[CustomStateSerializer]] - code - inventree/src/backend/InvenTree/common/serializers.py
+- [[CustomStockItemStatusTest]] - code - inventree/src/backend/InvenTree/stock/test_api.py
+- [[CustomUnitSerializer]] - code - inventree/src/backend/InvenTree/common/serializers.py
+- [[DRF serializer class for converting a StockItem to a valid variant part.]] - rationale - inventree/src/backend/InvenTree/stock/serializers.py
+- [[DRF serializer for CustomUnit model.]] - rationale - inventree/src/backend/InvenTree/common/serializers.py
+- [[DRF serializer for allocation of serial numbers against a sales order  shipment]] - rationale - inventree/src/backend/InvenTree/order/serializers.py
+- [[DRF serializer for allocation of stock items against a sales order  shipment.]] - rationale - inventree/src/backend/InvenTree/order/serializers.py
+- [[DRF serializer for manually marking a sales order as complete.]] - rationale - inventree/src/backend/InvenTree/order/serializers.py
+- [[DRF serializer for server error messages.]] - rationale - inventree/src/backend/InvenTree/common/serializers.py
+- [[DataClass used to optionally enable a serializer field.      This is used in con]] - rationale - inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[DataExportSerializerMixin_1]] - code
+- [[DataExportSerializerMixin]] - code - inventree/src/backend/InvenTree/data_exporter/mixins.py
+- [[DataImportAcceptRowSerializer]] - code - inventree/src/backend/InvenTree/importer/serializers.py
+- [[DataImportColumnMapSerializer]] - code - inventree/src/backend/InvenTree/importer/serializers.py
+- [[DataImportExportSerializerMixin]] - code
+- [[DataImportExportSerializerMixin_1]] - code - inventree/src/backend/InvenTree/InvenTree/mixins.py
+- [[DataImportRowSerializer]] - code - inventree/src/backend/InvenTree/importer/serializers.py
+- [[DataImportSessionSerializer]] - code - inventree/src/backend/InvenTree/importer/serializers.py
+- [[DataOutputAPITests]] - code - inventree/src/backend/InvenTree/common/test_api.py
+- [[De-stringify the field filters.]] - rationale - inventree/src/backend/InvenTree/importer/serializers.py
+- [[De-stringify the field overrides.]] - rationale - inventree/src/backend/InvenTree/importer/serializers.py
+- [[DefaultLocationSerializer]] - code - inventree/src/backend/InvenTree/part/serializers.py
+- [[Define headers for the Stocktake export.]] - rationale - inventree/src/backend/InvenTree/plugin/builtin/exporter/stocktake_exporter.py
+- [[Detailed information about a stock location.]] - rationale - inventree/src/backend/InvenTree/stock/serializers.py
+- [[Determine at runtime whether an OptionalField should be included.          Argum]] - rationale - inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[Determine if we are exporting data.]] - rationale - inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[Determine which optional fields will be included on this serializer.          No]] - rationale - inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[DuplicateOrderSerializer]] - code - inventree/src/backend/InvenTree/order/serializers.py
+- [[DuplicatePartSerializer]] - code - inventree/src/backend/InvenTree/part/serializers.py
+- [[EmailMessageSerializer]] - code - inventree/src/backend/InvenTree/common/serializers.py
+- [[Empty serializer for use in testing.]] - rationale - inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[Ensure that markdown formatting is retained.]] - rationale - inventree/src/backend/InvenTree/part/test_api.py
+- [[Ensure that the line_item is valid.]] - rationale - inventree/src/backend/InvenTree/order/serializers.py
+- [[Ensure that the provided dataset is valid.]] - rationale - inventree/src/backend/InvenTree/stock/serializers.py
+- [[Ensure that the provided part is a valid option for the stock item.]] - rationale - inventree/src/backend/InvenTree/stock/serializers.py
+- [[Ensure that the selection list is not locked._1]] - rationale - inventree/src/backend/InvenTree/common/serializers.py
+- [[Ensure that the selection list is not locked.]] - rationale - inventree/src/backend/InvenTree/common/serializers.py
+- [[Ensure that the stock item is valid for conversion.          Rules         - If]] - rationale - inventree/src/backend/InvenTree/stock/serializers.py
+- [[Ensure the 'remote_image' field is skipped when creating a new instance.]] - rationale - inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[Ensure the provided Part instance is valid.]] - rationale - inventree/src/backend/InvenTree/stock/serializers.py
+- [[Ensure the stock item is valid.]] - rationale - inventree/src/backend/InvenTree/stock/serializers.py
+- [[ErrorMessageSerializer]] - code - inventree/src/backend/InvenTree/common/serializers.py
+- [[Export the data for the given queryset.]] - rationale - inventree/src/backend/InvenTree/plugin/builtin/exporter/stocktake_exporter.py
+- [[Extra validation for this serializer.]] - rationale - inventree/src/backend/InvenTree/part/serializers.py
+- [[Extract manufacturer data and process ManufacturerPart.]] - rationale - inventree/src/backend/InvenTree/company/serializers.py
+- [[Extract some interesting categories for time-saving.]] - rationale - inventree/src/backend/InvenTree/part/test_category.py
+- [[FailedTaskSerializer]] - code - inventree/src/backend/InvenTree/common/serializers.py
+- [[Filter StockItem by 'in stock' status.]] - rationale - inventree/src/backend/InvenTree/stock/test_api.py
+- [[Filter StockItem by 'status' field.]] - rationale - inventree/src/backend/InvenTree/stock/test_api.py
+- [[Filter StockItem by IPN reference.]] - rationale - inventree/src/backend/InvenTree/stock/test_api.py
+- [[Filter StockItem by Part reference.]] - rationale - inventree/src/backend/InvenTree/stock/test_api.py
+- [[Filter StockItem by StockLocation reference.]] - rationale - inventree/src/backend/InvenTree/stock/test_api.py
+- [[Filter StockItem by available.]] - rationale - inventree/src/backend/InvenTree/stock/test_api.py
+- [[Filter StockItem by batch code.]] - rationale - inventree/src/backend/InvenTree/stock/test_api.py
+- [[Filter StockItem by excluding a StockItem tree.]] - rationale - inventree/src/backend/InvenTree/stock/test_api.py
+- [[Filter StockItem by expiry status.]] - rationale - inventree/src/backend/InvenTree/stock/test_api.py
+- [[Filter StockItem by external.]] - rationale - inventree/src/backend/InvenTree/stock/test_api.py
+- [[Filter StockItem by has_installed.]] - rationale - inventree/src/backend/InvenTree/stock/test_api.py
+- [[Filter StockItem by has_purchase_price.]] - rationale - inventree/src/backend/InvenTree/stock/test_api.py
+- [[Filter StockItem by manufacturer.]] - rationale - inventree/src/backend/InvenTree/stock/test_api.py
+- [[Filter StockItem by sent_to_customer.]] - rationale - inventree/src/backend/InvenTree/stock/test_api.py
+- [[Filter StockItem by serialized status.]] - rationale - inventree/src/backend/InvenTree/stock/test_api.py
+- [[Filter StockItem by stale.]] - rationale - inventree/src/backend/InvenTree/stock/test_api.py
+- [[Filter a queryset by content type.      Arguments         queryset The queryse]] - rationale - inventree/src/backend/InvenTree/common/filters.py
+- [[Filter stock and return JSON object.]] - rationale - inventree/src/backend/InvenTree/stock/test_api.py
+- [[Filter the Parameter model based on the provided template and value.      Argume]] - rationale - inventree/src/backend/InvenTree/common/filters.py
+- [[Filter the provided queryset by parametric data.      Arguments         queryse]] - rationale - inventree/src/backend/InvenTree/common/filters.py
+- [[FilterableSerializerMixin]] - code
+- [[FilterableSerializerMixin_1]] - code - inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[Find all optional fields defined on this serializer.]] - rationale - inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[FlagSerializer]] - code - inventree/src/backend/InvenTree/common/serializers.py
+- [[Function to resolve generic object reference to source.]] - rationale - inventree/src/backend/InvenTree/common/serializers.py
+- [[Generate an icon map from the FontAwesome library to the new icon library.]] - rationale - inventree/src/backend/InvenTree/InvenTree/management/commands/migrate_icons.py
+- [[Generate an icon map from the FontAwesome library to the new icon library._1]] - rationale - inventree/src/backend/InvenTree/InvenTree/management/commands/migrate_icons.py
+- [[GenerateBatchCodeSerializer]] - code - inventree/src/backend/InvenTree/stock/serializers.py
+- [[GenerateSerialNumberSerializer]] - code - inventree/src/backend/InvenTree/stock/serializers.py
+- [[Generic serializer class for adjusting the status of an order.]] - rationale - inventree/src/backend/InvenTree/order/serializers.py
+- [[GenericStateValueSerializer]] - code - inventree/src/backend/InvenTree/generic/states/serializers.py
+- [[Get the detail view for a single BomItem object.]] - rationale - inventree/src/backend/InvenTree/part/test_api.py
+- [[GlobalSettingsSerializer]] - code - inventree/src/backend/InvenTree/common/serializers.py
+- [[Handle a special case where an OptionalField shadows a model relation.]] - rationale - inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[Handle custom initialization for the serializer.]] - rationale - inventree/src/backend/InvenTree/stock/serializers.py
+- [[Helper function for retrieving part data.]] - rationale - inventree/src/backend/InvenTree/part/test_api.py
+- [[Helper function to create a simple part.]] - rationale - inventree/src/backend/InvenTree/part/test_part.py
+- [[Helper function to get stock tracking api url.]] - rationale - inventree/src/backend/InvenTree/stock/test_api.py
+- [[Helper function to get test-result api url.]] - rationale - inventree/src/backend/InvenTree/stock/test_api.py
+- [[IconPackageSerializer]] - code - inventree/src/backend/InvenTree/common/serializers.py
+- [[IconSerializer]] - code - inventree/src/backend/InvenTree/common/serializers.py
+- [[ImportParameterSerializer]] - code - inventree/src/backend/InvenTree/plugin/base/supplier/serializers.py
+- [[Inherits the standard Django ModelSerializer class, but also ensures that the un]] - rationale - inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[InitialStockSerializer]] - code - inventree/src/backend/InvenTree/part/serializers.py
+- [[InitialSupplierSerializer]] - code - inventree/src/backend/InvenTree/part/serializers.py
+- [[Initialize some test data for the StockTracking tests.]] - rationale - inventree/src/backend/InvenTree/stock/test_api.py
+- [[Initialize the serializer.]] - rationale - inventree/src/backend/InvenTree/stock/serializers.py
+- [[Initialize the status selector.]] - rationale - inventree/src/backend/InvenTree/stock/serializers.py
+- [[Initialize this serializer with extra detail fields as required.]] - rationale - inventree/src/backend/InvenTree/company/serializers.py
+- [[Inline for sub-locations.]] - rationale - inventree/src/backend/InvenTree/stock/admin.py
+- [[Install the selected stock item into this one.]] - rationale - inventree/src/backend/InvenTree/stock/serializers.py
+- [[InstallStockItemSerializer]] - code - inventree/src/backend/InvenTree/stock/serializers.py
+- [[Integration test for part notifications.]] - rationale - inventree/src/backend/InvenTree/part/test_part.py
+- [[InvenTreeAPIPerformanceTestCase]] - code
+- [[InvenTreeAPIPerformanceTestCase_1]] - code - inventree/src/backend/InvenTree/InvenTree/unit_test.py
+- [[InvenTreeAttachmentSerializerField]] - code - inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[InvenTreeCurrencySerializer]] - code - inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[InvenTreeCustomStatusSerializerMixin_1]] - code - inventree/src/backend/InvenTree/generic/states/fields.py
+- [[InvenTreeDecimalField]] - code - inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[InvenTreeImageSerializerField]] - code - inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[InvenTreeModelSerializer]] - code
+- [[InvenTreeModelSerializer_1]] - code - inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[InvenTreeMoneySerializer]] - code - inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[InvenTreeRestURLField]] - code - inventree/src/backend/InvenTree/InvenTree/fields.py
+- [[InvenTreeTagModelSerializer]] - code - inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[InvenTreeTaggitSerializer]] - code - inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[JSON serializers for Company app.]] - rationale - inventree/src/backend/InvenTree/company/serializers.py
+- [[LabelPrintSerializer]] - code - inventree/src/backend/InvenTree/report/serializers.py
+- [[LabelTemplateSerializer]] - code - inventree/src/backend/InvenTree/report/serializers.py
+- [[List all StockItem objects.]] - rationale - inventree/src/backend/InvenTree/stock/test_api.py
+- [[Locate a StockItem.          Args             item_pk primary key for item]] - rationale - inventree/src/backend/InvenTree/plugin/samples/locate/locate_sample.py
+- [[Locate a StockLocation.          Args             location_pk primary key for]] - rationale - inventree/src/backend/InvenTree/plugin/samples/locate/locate_sample.py
+- [[LocationAdmin]] - code - inventree/src/backend/InvenTree/stock/admin.py
+- [[LocationBriefSerializer]] - code - inventree/src/backend/InvenTree/stock/serializers.py
+- [[LocationInline]] - code - inventree/src/backend/InvenTree/stock/admin.py
+- [[LocationSerializer]] - code - inventree/src/backend/InvenTree/stock/serializers.py
+- [[LocationTreeSerializer]] - code - inventree/src/backend/InvenTree/stock/serializers.py
+- [[LocationTypeAdmin]] - code - inventree/src/backend/InvenTree/stock/admin.py
+- [[Make sure all needed values are provided and that the items can be merged.]] - rationale - inventree/src/backend/InvenTree/stock/serializers.py
+- [[Make sure item can be merged.]] - rationale - inventree/src/backend/InvenTree/stock/serializers.py
+- [[Make sure items are provided.]] - rationale - inventree/src/backend/InvenTree/stock/serializers.py
+- [[Make sure items were provided.]] - rationale - inventree/src/backend/InvenTree/stock/serializers.py
+- [[Make sure provided company is customer.]] - rationale - inventree/src/backend/InvenTree/stock/serializers.py
+- [[Meta_1]] - code - inventree/src/backend/InvenTree/company/serializers.py
+- [[Meta class for BarcodeUnlinkSerializer.]] - rationale - inventree/src/backend/InvenTree/plugin/base/barcodes/serializers.py
+- [[Meta class for GenericStateClassSerializer.]] - rationale - inventree/src/backend/InvenTree/generic/states/serializers.py
+- [[Meta class for GenericStateValueSerializer.]] - rationale - inventree/src/backend/InvenTree/generic/states/serializers.py
+- [[Meta class options for the serializer._1]] - rationale - inventree/src/backend/InvenTree/importer/serializers.py
+- [[Meta class options for the serializer.]] - rationale - inventree/src/backend/InvenTree/importer/serializers.py
+- [[Meta options for ApiTokenSerializer.]] - rationale - inventree/src/backend/InvenTree/users/serializers.py
+- [[Meta options for BriefUserProfileSerializer.]] - rationale - inventree/src/backend/InvenTree/users/serializers.py
+- [[Meta options for ContentTypeSerializer.]] - rationale - inventree/src/backend/InvenTree/common/serializers.py
+- [[Meta options for CustomStateSerializer.]] - rationale - inventree/src/backend/InvenTree/common/serializers.py
+- [[Meta options for CustomUnitSerializer.]] - rationale - inventree/src/backend/InvenTree/common/serializers.py
+- [[Meta options for EmailMessageSerializer.]] - rationale - inventree/src/backend/InvenTree/common/serializers.py
+- [[Meta options for GlobalSettingsSerializer.]] - rationale - inventree/src/backend/InvenTree/common/serializers.py
+- [[Meta options for NewsFeedEntrySerializer.]] - rationale - inventree/src/backend/InvenTree/common/serializers.py
+- [[Meta options for NotesImageSerializer.]] - rationale - inventree/src/backend/InvenTree/common/serializers.py
+- [[Meta options for NotificationMessageSerializer.]] - rationale - inventree/src/backend/InvenTree/common/serializers.py
+- [[Meta options for ParameterSerializer.]] - rationale - inventree/src/backend/InvenTree/common/serializers.py
+- [[Meta options for ParameterTemplateSerializer.]] - rationale - inventree/src/backend/InvenTree/common/serializers.py
+- [[Meta options for ProjectCodeSerializer.]] - rationale - inventree/src/backend/InvenTree/common/serializers.py
+- [[Meta options for SelectionEntrySerializer.]] - rationale - inventree/src/backend/InvenTree/common/serializers.py
+- [[Meta options for SelectionListSerializer.]] - rationale - inventree/src/backend/InvenTree/common/serializers.py
+- [[Meta options for TestEmailSerializer.]] - rationale - inventree/src/backend/InvenTree/common/serializers.py
+- [[Meta options for UserProfileSerializer.]] - rationale - inventree/src/backend/InvenTree/users/serializers.py
+- [[Meta options for UserSettingsSerializer.]] - rationale - inventree/src/backend/InvenTree/common/serializers.py
+- [[Meta options for the ImportParameterSerializer.]] - rationale - inventree/src/backend/InvenTree/plugin/base/supplier/serializers.py
+- [[Meta options for the ImportResultSerializer.]] - rationale - inventree/src/backend/InvenTree/plugin/base/supplier/serializers.py
+- [[Meta options for the SearchResultSerializer.]] - rationale - inventree/src/backend/InvenTree/plugin/base/supplier/serializers.py
+- [[Metaclass defining serializer fields._7]] - rationale - inventree/src/backend/InvenTree/part/serializers.py
+- [[Metaclass defining serializer fields._8]] - rationale - inventree/src/backend/InvenTree/part/serializers.py
+- [[Metaclass defining serializer fields._9]] - rationale - inventree/src/backend/InvenTree/part/serializers.py
+- [[Metaclass defining serializer fields._10]] - rationale - inventree/src/backend/InvenTree/part/serializers.py
+- [[Metaclass defining serializer fields._11]] - rationale - inventree/src/backend/InvenTree/part/serializers.py
+- [[Metaclass defining serializer fields._2]] - rationale - inventree/src/backend/InvenTree/part/serializers.py
+- [[Metaclass defining serializer fields.]] - rationale - inventree/src/backend/InvenTree/part/serializers.py
+- [[Metaclass defining serializer fields._1]] - rationale - inventree/src/backend/InvenTree/part/serializers.py
+- [[Metaclass defining serializer fields._12]] - rationale - inventree/src/backend/InvenTree/part/serializers.py
+- [[Metaclass defining serializer fields._13]] - rationale - inventree/src/backend/InvenTree/part/serializers.py
+- [[Metaclass defining serializer fields._3]] - rationale - inventree/src/backend/InvenTree/part/serializers.py
+- [[Metaclass defining serializer fields._4]] - rationale - inventree/src/backend/InvenTree/part/serializers.py
+- [[Metaclass defining serializer fields._5]] - rationale - inventree/src/backend/InvenTree/part/serializers.py
+- [[Metaclass defining serializer fields._6]] - rationale - inventree/src/backend/InvenTree/part/serializers.py
+- [[Metaclass options for ErrorMessageSerializer.]] - rationale - inventree/src/backend/InvenTree/common/serializers.py
+- [[Metaclass options for the serializer.]] - rationale - inventree/src/backend/InvenTree/common/serializers.py
+- [[Metaclass options for the serializer._1]] - rationale - inventree/src/backend/InvenTree/common/serializers.py
+- [[Metaclass options for the serializer._2]] - rationale - inventree/src/backend/InvenTree/common/serializers.py
+- [[Metaclass options.          By default, there are no fields required for this se]] - rationale - inventree/src/backend/InvenTree/order/serializers.py
+- [[Mixin class for adding data importexport functionality to a DRF serializer.]] - rationale - inventree/src/backend/InvenTree/InvenTree/mixins.py
+- [[Mixin class which allows downloading an 'image' from a remote URL.      Adds the]] - rationale - inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[Mixin for stock api tests.]] - rationale - inventree/src/backend/InvenTree/stock/test_api.py
+- [[Mixin for testing part images.]] - rationale - inventree/src/backend/InvenTree/part/test_api.py
+- [[Mixin that enables filtering of marked fields on a serializer.      Use the `Opt]] - rationale - inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[Multi-level BOM exporter plugin.]] - rationale - inventree/src/backend/InvenTree/plugin/builtin/exporter/bom_exporter.py
+- [[NewsFeedEntrySerializer]] - code - inventree/src/backend/InvenTree/common/serializers.py
+- [[NotesFieldMixin_1]] - code - inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[NotesImageSerializer]] - code - inventree/src/backend/InvenTree/common/serializers.py
+- [[NotificationMessageSerializer]] - code - inventree/src/backend/InvenTree/common/serializers.py
+- [[Notify a user about all their stale stock items in one consolidated email.]] - rationale - inventree/src/backend/InvenTree/part/tasks.py
+- [[Notify interested users that a part is 'low stock'.      Rules     - Triggered]] - rationale - inventree/src/backend/InvenTree/part/tasks.py
+- [[OptionalField]] - code - inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[Order the provided queryset by a parameter value.      Arguments         querys]] - rationale - inventree/src/backend/InvenTree/common/filters.py
+- [[OrderAdjustSerializer]] - code - inventree/src/backend/InvenTree/order/serializers.py
+- [[Overridden update method to re-add the tagmanager.]] - rationale - inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[Override the DRF native FileField serializer, to remove the leading server path.]] - rationale - inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[Override the constructor for the DataImportSession serializer.]] - rationale - inventree/src/backend/InvenTree/importer/serializers.py
+- [[Override the model_type field to provide dynamic choices.]] - rationale - inventree/src/backend/InvenTree/common/serializers.py
+- [[Override the save method to capture the user information.]] - rationale - inventree/src/backend/InvenTree/report/serializers.py
+- [[Override the save method to handle the model_type field.]] - rationale - inventree/src/backend/InvenTree/common/serializers.py
+- [[OwnerSerializer]] - code - inventree/src/backend/InvenTree/users/serializers.py
+- [[ParameterFilterTest]] - code - inventree/src/backend/InvenTree/part/test_param.py
+- [[ParameterSerializer]] - code - inventree/src/backend/InvenTree/common/serializers.py
+- [[ParameterTemplateSerializer]] - code - inventree/src/backend/InvenTree/common/serializers.py
+- [[ParameterTests]] - code - inventree/src/backend/InvenTree/part/test_api.py
+- [[Part]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[PartAPIAggregationTest]] - code - inventree/src/backend/InvenTree/part/test_api.py
+- [[PartAPITestBase]] - code - inventree/src/backend/InvenTree/part/test_api.py
+- [[PartApiPerformanceTest]] - code - inventree/src/backend/InvenTree/part/test_api.py
+- [[PartBomValidateSerializer]] - code - inventree/src/backend/InvenTree/part/serializers.py
+- [[PartBriefSerializer]] - code - inventree/src/backend/InvenTree/part/serializers.py
+- [[PartCategory]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[PartCategoryAPITest]] - code - inventree/src/backend/InvenTree/part/test_api.py
+- [[PartCategoryParameterTemplate]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[PartCategoryStar]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[PartCopyBOMSerializer]] - code - inventree/src/backend/InvenTree/part/serializers.py
+- [[PartCreationTests]] - code - inventree/src/backend/InvenTree/part/test_api.py
+- [[PartDetailTests]] - code - inventree/src/backend/InvenTree/part/test_api.py
+- [[PartInternalPriceBreakTest]] - code - inventree/src/backend/InvenTree/part/test_api.py
+- [[PartInternalPriceSerializer]] - code - inventree/src/backend/InvenTree/part/serializers.py
+- [[PartListTests]] - code - inventree/src/backend/InvenTree/part/test_api.py
+- [[PartNotesTests]] - code - inventree/src/backend/InvenTree/part/test_api.py
+- [[PartNotificationTest]] - code - inventree/src/backend/InvenTree/part/test_part.py
+- [[PartOptionsAPITest]] - code - inventree/src/backend/InvenTree/part/test_api.py
+- [[PartPricing]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[PartPricingCurrencySerializer]] - code - inventree/src/backend/InvenTree/part/serializers.py
+- [[PartPricingDetailTests]] - code - inventree/src/backend/InvenTree/part/test_api.py
+- [[PartPricingSerializer]] - code - inventree/src/backend/InvenTree/part/serializers.py
+- [[PartRelated]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[PartRelationSerializer]] - code - inventree/src/backend/InvenTree/part/serializers.py
+- [[PartRequirementsSerializer]] - code - inventree/src/backend/InvenTree/part/serializers.py
+- [[PartSalePriceSerializer]] - code - inventree/src/backend/InvenTree/part/serializers.py
+- [[PartSellPriceBreak]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[PartSerialNumberSerializer]] - code - inventree/src/backend/InvenTree/part/serializers.py
+- [[PartSerializer]] - code - inventree/src/backend/InvenTree/part/serializers.py
+- [[PartSettingsTest]] - code - inventree/src/backend/InvenTree/part/test_part.py
+- [[PartStar]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[PartStarSerializer]] - code - inventree/src/backend/InvenTree/part/serializers.py
+- [[PartStockHistoryTest]] - code - inventree/src/backend/InvenTree/part/test_part.py
+- [[PartStocktake]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[PartStocktakeExportOptionsSerializer]] - code - inventree/src/backend/InvenTree/plugin/builtin/exporter/stocktake_exporter.py
+- [[PartStocktakeGenerateSerializer]] - code - inventree/src/backend/InvenTree/part/serializers.py
+- [[PartStocktakeSerializer]] - code - inventree/src/backend/InvenTree/part/serializers.py
+- [[PartSubscriptionTests]] - code - inventree/src/backend/InvenTree/part/test_part.py
+- [[PartTest]] - code - inventree/src/backend/InvenTree/part/test_part.py
+- [[PartTestTemplate]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[PartTestTemplateSerializer]] - code - inventree/src/backend/InvenTree/part/serializers.py
+- [[PartTestTemplateTest]] - code - inventree/src/backend/InvenTree/part/test_api.py
+- [[PartThumbSerializer]] - code - inventree/src/backend/InvenTree/part/serializers.py
+- [[PartThumbSerializerUpdate]] - code - inventree/src/backend/InvenTree/part/serializers.py
+- [[PendingTaskSerializer]] - code - inventree/src/backend/InvenTree/common/serializers.py
+- [[Perform data validation for this serializer.]] - rationale - inventree/src/backend/InvenTree/order/serializers.py
+- [[Perform lazy initialization of OptionalFields.          The DRF framework calls]] - rationale - inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[Perform the allocation of items against this order.]] - rationale - inventree/src/backend/InvenTree/order/serializers.py
+- [[Perform validation for the BomItem quantity field.]] - rationale - inventree/src/backend/InvenTree/part/serializers.py
+- [[Performance tests for the Part API.]] - rationale - inventree/src/backend/InvenTree/part/test_api.py
+- [[Performance tests for the Stock API.]] - rationale - inventree/src/backend/InvenTree/stock/test_api.py
+- [[Permissions associated with the user.]] - rationale - inventree/src/backend/InvenTree/users/serializers.py
+- [[PluginUIFeatureSerializer]] - code - inventree/src/backend/InvenTree/plugin/base/ui/serializers.py
+- [[Post barcode and return results.]] - rationale - inventree/src/backend/InvenTree/plugin/base/barcodes/test_barcode.py
+- [[Post barcode and return results._1]] - rationale - inventree/src/backend/InvenTree/plugin/base/barcodes/test_barcode.py
+- [[Post barcode generation and return barcode contents.]] - rationale - inventree/src/backend/InvenTree/plugin/base/barcodes/test_barcode.py
+- [[Prefetch related fields for the queryset.]] - rationale - inventree/src/backend/InvenTree/company/serializers.py
+- [[ProjectCodeSerializer]] - code - inventree/src/backend/InvenTree/common/serializers.py
+- [[Provides a brief serializer for a StockLocation object.]] - rationale - inventree/src/backend/InvenTree/stock/serializers.py
+- [[PurchaseOrderCancelSerializer]] - code - inventree/src/backend/InvenTree/order/serializers.py
+- [[PurchaseOrderCompleteSerializer]] - code - inventree/src/backend/InvenTree/order/serializers.py
+- [[PurchaseOrderExtraLineSerializer]] - code - inventree/src/backend/InvenTree/order/serializers.py
+- [[PurchaseOrderHoldSerializer]] - code - inventree/src/backend/InvenTree/order/serializers.py
+- [[PurchaseOrderIssueSerializer]] - code - inventree/src/backend/InvenTree/order/serializers.py
+- [[PurchaseOrderLineItemReceiveSerializer]] - code - inventree/src/backend/InvenTree/order/serializers.py
+- [[PurchaseOrderLineItemSerializer]] - code - inventree/src/backend/InvenTree/order/serializers.py
+- [[PurchaseOrderReceiveSerializer]] - code - inventree/src/backend/InvenTree/order/serializers.py
+- [[Rebuild Part tree before running tests.]] - rationale - inventree/src/backend/InvenTree/part/test_part.py
+- [[Rebuild all MPTT models in the database.]] - rationale - inventree/src/backend/InvenTree/InvenTree/management/commands/rebuild_models.py
+- [[Rebuild all SupplierPart objects for a given part.      This function is called]] - rationale - inventree/src/backend/InvenTree/part/tasks.py
+- [[Rebuild all database models which leverage the MPTT structure.]] - rationale - inventree/src/backend/InvenTree/InvenTree/management/commands/rebuild_models.py
+- [[Rebuild all database models which leverage the MPTT structure._1]] - rationale - inventree/src/backend/InvenTree/InvenTree/management/commands/rebuild_models.py
+- [[Rebuild the stock tree structure.      Arguments         tree_id (int) The ID]] - rationale - inventree/src/backend/InvenTree/stock/tasks.py
+- [[Recalculate the BOM checksum for all assemblies which include the specified Part]] - rationale - inventree/src/backend/InvenTree/part/tasks.py
+- [[RemoteImageMixin]] - code - inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[ReportAssetSerializer]] - code - inventree/src/backend/InvenTree/report/serializers.py
+- [[ReportPrintSerializer]] - code - inventree/src/backend/InvenTree/report/serializers.py
+- [[ReportSerializerBase]] - code - inventree/src/backend/InvenTree/report/serializers.py
+- [[ReportSnippetSerializer]] - code - inventree/src/backend/InvenTree/report/serializers.py
+- [[ReportTemplateSerializer]] - code - inventree/src/backend/InvenTree/report/serializers.py
+- [[RestURLField]] - code
+- [[Return true if the part is starred by the current user.]] - rationale - inventree/src/backend/InvenTree/part/serializers.py
+- [[Return True if the category is directly starred by the current user.]] - rationale - inventree/src/backend/InvenTree/part/serializers.py
+- [[Return True if the model is a plugin model.]] - rationale - inventree/src/backend/InvenTree/common/serializers.py
+- [[Return a custom set of options for the StockItem status adjustment field.      I]] - rationale - inventree/src/backend/InvenTree/stock/serializers.py
+- [[Return a list of 'fields' which should be skipped for model creation.          T]] - rationale - inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[Return a list of fields to skip when creating a new object.]] - rationale - inventree/src/backend/InvenTree/order/serializers.py
+- [[Return list of part thumbnails.]] - rationale - inventree/src/backend/InvenTree/part/test_api.py
+- [[Return the API url associated with this serializer.]] - rationale - inventree/src/backend/InvenTree/part/serializers.py
+- [[Return the ID of the parameter template if available.]] - rationale - inventree/src/backend/InvenTree/plugin/base/supplier/serializers.py
+- [[Return the allocated sales order quantity.]] - rationale - inventree/src/backend/InvenTree/part/serializers.py
+- [[Return the configuration data as a dictionary.]] - rationale - inventree/src/backend/InvenTree/common/serializers.py
+- [[Return the internal value of the setting.]] - rationale - inventree/src/backend/InvenTree/common/serializers.py
+- [[Return the object instance, not the attribute value.]] - rationale - inventree/src/backend/InvenTree/common/serializers.py
+- [[Return the order object associated with this serializer.          Note It is pa]] - rationale - inventree/src/backend/InvenTree/order/serializers.py
+- [[Return the provided items into stock.]] - rationale - inventree/src/backend/InvenTree/stock/serializers.py
+- [[Return the value of the setting.          Protected settings are returned as ']] - rationale - inventree/src/backend/InvenTree/common/serializers.py
+- [[ReturnOrderCancelSerializer]] - code - inventree/src/backend/InvenTree/order/serializers.py
+- [[ReturnOrderCompleteSerializer]] - code - inventree/src/backend/InvenTree/order/serializers.py
+- [[ReturnOrderExtraLineSerializer]] - code - inventree/src/backend/InvenTree/order/serializers.py
+- [[ReturnOrderHoldSerializer]] - code - inventree/src/backend/InvenTree/order/serializers.py
+- [[ReturnOrderIssueSerializer]] - code - inventree/src/backend/InvenTree/order/serializers.py
+- [[ReturnOrderLineItemReceiveSerializer]] - code - inventree/src/backend/InvenTree/order/serializers.py
+- [[ReturnOrderLineItemSerializer]] - code - inventree/src/backend/InvenTree/order/serializers.py
+- [[ReturnOrderReceiveSerializer]] - code - inventree/src/backend/InvenTree/order/serializers.py
+- [[Returns the number of locations this location type is assigned to.]] - rationale - inventree/src/backend/InvenTree/stock/admin.py
+- [[Run BOM validation for the specified Part.      Arguments         part_id The]] - rationale - inventree/src/backend/InvenTree/part/tasks.py
+- [[Run a test to check that the results are ordered correctly.          Arguments]] - rationale - inventree/src/backend/InvenTree/InvenTree/unit_test.py
+- [[Run barcode tests for the stock app.]] - rationale - inventree/src/backend/InvenTree/stock/tests.py
+- [[Run ordering tests against the StockItem list endpoint.]] - rationale - inventree/src/backend/InvenTree/stock/test_api.py
+- [[Run validation against the provided shipment instance.]] - rationale - inventree/src/backend/InvenTree/order/serializers.py
+- [[SalesOrderAllocationSerializer]] - code - inventree/src/backend/InvenTree/order/serializers.py
+- [[SalesOrderCancelSerializer]] - code - inventree/src/backend/InvenTree/order/serializers.py
+- [[SalesOrderCompleteSerializer]] - code - inventree/src/backend/InvenTree/order/serializers.py
+- [[SalesOrderExtraLineSerializer]] - code - inventree/src/backend/InvenTree/order/serializers.py
+- [[SalesOrderHoldSerializer]] - code - inventree/src/backend/InvenTree/order/serializers.py
+- [[SalesOrderIssueSerializer]] - code - inventree/src/backend/InvenTree/order/serializers.py
+- [[SalesOrderLineItemSerializer]] - code - inventree/src/backend/InvenTree/order/serializers.py
+- [[SalesOrderSerialAllocationSerializer]] - code - inventree/src/backend/InvenTree/order/serializers.py
+- [[SalesOrderShipmentAllocationItemSerializer]] - code - inventree/src/backend/InvenTree/order/serializers.py
+- [[SalesOrderShipmentAllocationSerializer]] - code - inventree/src/backend/InvenTree/order/serializers.py
+- [[SalesOrderShipmentCompleteSerializer]] - code - inventree/src/backend/InvenTree/order/serializers.py
+- [[SalesOrderShipmentSerializer]] - code - inventree/src/backend/InvenTree/order/serializers.py
+- [[Save the Company instance.]] - rationale - inventree/src/backend/InvenTree/company/serializers.py
+- [[Save the Parameter instance.]] - rationale - inventree/src/backend/InvenTree/common/serializers.py
+- [[Save the Part instance.]] - rationale - inventree/src/backend/InvenTree/part/serializers.py
+- [[Save the serializer to 'cancel' the order._1]] - rationale - inventree/src/backend/InvenTree/order/serializers.py
+- [[Save the serializer to 'cancel' the order.]] - rationale - inventree/src/backend/InvenTree/order/serializers.py
+- [[Save the serializer to 'complete' the order._1]] - rationale - inventree/src/backend/InvenTree/order/serializers.py
+- [[Save the serializer to 'complete' the order.]] - rationale - inventree/src/backend/InvenTree/order/serializers.py
+- [[Save the serializer to 'hold' the order._1]] - rationale - inventree/src/backend/InvenTree/order/serializers.py
+- [[Save the serializer to 'hold' the order.]] - rationale - inventree/src/backend/InvenTree/order/serializers.py
+- [[Save the serializer to 'issue' the order.]] - rationale - inventree/src/backend/InvenTree/order/serializers.py
+- [[Save the serializer to 'issue' the order._1]] - rationale - inventree/src/backend/InvenTree/order/serializers.py
+- [[Save the serializer to cancel the order.]] - rationale - inventree/src/backend/InvenTree/order/serializers.py
+- [[Save the serializer to change the status of the selected stock items.]] - rationale - inventree/src/backend/InvenTree/stock/serializers.py
+- [[Save the serializer to complete the SalesOrder.]] - rationale - inventree/src/backend/InvenTree/order/serializers.py
+- [[Save the serializer to convert the StockItem to the selected Part.]] - rationale - inventree/src/backend/InvenTree/stock/serializers.py
+- [[Save the serializer to place the SalesOrder on hold.]] - rationale - inventree/src/backend/InvenTree/order/serializers.py
+- [[Saving this serializer marks the returned items as received.]] - rationale - inventree/src/backend/InvenTree/order/serializers.py
+- [[Scheduled tasks for creating automated 'stocktake' entries.      A stocktake e]] - rationale - inventree/src/backend/InvenTree/part/tasks.py
+- [[ScheduledTaskSerializer]] - code - inventree/src/backend/InvenTree/common/serializers.py
+- [[SelectionEntrySerializer]] - code - inventree/src/backend/InvenTree/common/serializers.py
+- [[SelectionListSerializer]] - code - inventree/src/backend/InvenTree/common/serializers.py
+- [[Serialize the provided StockItem.          Returns             A list of StockI]] - rationale - inventree/src/backend/InvenTree/stock/serializers.py
+- [[SerializeStockItemSerializer]] - code - inventree/src/backend/InvenTree/stock/serializers.py
+- [[Serializer class for label template model.]] - rationale - inventree/src/backend/InvenTree/report/serializers.py
+- [[Serializer class for printing a label.]] - rationale - inventree/src/backend/InvenTree/report/serializers.py
+- [[Serializer class for printing a report.]] - rationale - inventree/src/backend/InvenTree/report/serializers.py
+- [[Serializer class for report template model.]] - rationale - inventree/src/backend/InvenTree/report/serializers.py
+- [[Serializer class for returning stock item(s) into stock.]] - rationale - inventree/src/backend/InvenTree/stock/serializers.py
+- [[Serializer class for the Attachment model.]] - rationale - inventree/src/backend/InvenTree/common/serializers.py
+- [[Serializer class for the Contact model.]] - rationale - inventree/src/backend/InvenTree/company/serializers.py
+- [[Serializer class for the ReportAsset model.]] - rationale - inventree/src/backend/InvenTree/report/serializers.py
+- [[Serializer class for the ReportSnippet model.]] - rationale - inventree/src/backend/InvenTree/report/serializers.py
+- [[Serializer field for representing a tree path.]] - rationale - inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[Serializer field which represents a ContentType as 'app_label.model_name'.]] - rationale - inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[Serializer for Address Model (limited).]] - rationale - inventree/src/backend/InvenTree/company/serializers.py
+- [[Serializer for BomItem object.]] - rationale - inventree/src/backend/InvenTree/part/serializers.py
+- [[Serializer for Company object (full detail).]] - rationale - inventree/src/backend/InvenTree/company/serializers.py
+- [[Serializer for Company object (limited detail).]] - rationale - inventree/src/backend/InvenTree/company/serializers.py
+- [[Serializer for ManufacturerPart object.]] - rationale - inventree/src/backend/InvenTree/company/serializers.py
+- [[Serializer for Part BOM information.]] - rationale - inventree/src/backend/InvenTree/part/serializers.py
+- [[Serializer for Part pricing information.]] - rationale - inventree/src/backend/InvenTree/part/serializers.py
+- [[Serializer for Part requirements.]] - rationale - inventree/src/backend/InvenTree/part/serializers.py
+- [[Serializer for Part serial number information.]] - rationale - inventree/src/backend/InvenTree/part/serializers.py
+- [[Serializer for PartCategory tree.]] - rationale - inventree/src/backend/InvenTree/part/serializers.py
+- [[Serializer for PartCategory.]] - rationale - inventree/src/backend/InvenTree/part/serializers.py
+- [[Serializer for StockItemTracking model.]] - rationale - inventree/src/backend/InvenTree/stock/serializers.py
+- [[Serializer for StockLocationType model.]] - rationale - inventree/src/backend/InvenTree/stock/serializers.py
+- [[Serializer for SupplierPart object.]] - rationale - inventree/src/backend/InvenTree/company/serializers.py
+- [[Serializer for SupplierPriceBreak object.      Note that this inherits from the]] - rationale - inventree/src/backend/InvenTree/company/serializers.py
+- [[Serializer for a GenericReferencedSetting model.      Args         MODEL model]] - rationale - inventree/src/backend/InvenTree/common/serializers.py
+- [[Serializer for a ImportParameter.]] - rationale - inventree/src/backend/InvenTree/plugin/base/supplier/serializers.py
+- [[Serializer for a PartRelated model.]] - rationale - inventree/src/backend/InvenTree/part/serializers.py
+- [[Serializer for a PartStar object.]] - rationale - inventree/src/backend/InvenTree/part/serializers.py
+- [[Serializer for a PurchaseOrder object.]] - rationale - inventree/src/backend/InvenTree/order/serializers.py
+- [[Serializer for a PurchaseOrderExtraLine object.]] - rationale - inventree/src/backend/InvenTree/order/serializers.py
+- [[Serializer for a ReturnOrderExtraLine object.]] - rationale - inventree/src/backend/InvenTree/order/serializers.py
+- [[Serializer for a ReturnOrderLineItem object.]] - rationale - inventree/src/backend/InvenTree/order/serializers.py
+- [[Serializer for a SalesOrderExtraLine object.]] - rationale - inventree/src/backend/InvenTree/order/serializers.py
+- [[Serializer for a SalesOrderLineItem object.]] - rationale - inventree/src/backend/InvenTree/order/serializers.py
+- [[Serializer for a StockItem.      - Includes serialization for the linked part]] - rationale - inventree/src/backend/InvenTree/stock/serializers.py
+- [[Serializer for a background task detail.]] - rationale - inventree/src/backend/InvenTree/common/serializers.py
+- [[Serializer for a list of icons.]] - rationale - inventree/src/backend/InvenTree/common/serializers.py
+- [[Serializer for a search result.]] - rationale - inventree/src/backend/InvenTree/plugin/base/supplier/serializers.py
+- [[Serializer for a selection entry.]] - rationale - inventree/src/backend/InvenTree/common/serializers.py
+- [[Serializer for a selection list.]] - rationale - inventree/src/backend/InvenTree/common/serializers.py
+- [[Serializer for a simple tree view.]] - rationale - inventree/src/backend/InvenTree/stock/serializers.py
+- [[Serializer for a single StockItem with in StockAssignment request.      Here, th]] - rationale - inventree/src/backend/InvenTree/stock/serializers.py
+- [[Serializer for a single StockItem within a stock adjustment request.      Requir]] - rationale - inventree/src/backend/InvenTree/stock/serializers.py
+- [[Serializer for a single StockItem within the StockMergeSerializer class.      He]] - rationale - inventree/src/backend/InvenTree/stock/serializers.py
+- [[Serializer for adding initial supplier  manufacturer information.]] - rationale - inventree/src/backend/InvenTree/part/serializers.py
+- [[Serializer for adding stock to stock item(s).]] - rationale - inventree/src/backend/InvenTree/stock/serializers.py
+- [[Serializer for an icon.]] - rationale - inventree/src/backend/InvenTree/common/serializers.py
+- [[Serializer for an individual failed task object.]] - rationale - inventree/src/backend/InvenTree/common/serializers.py
+- [[Serializer for an individual pending task object.]] - rationale - inventree/src/backend/InvenTree/common/serializers.py
+- [[Serializer for an individual scheduled task object.]] - rationale - inventree/src/backend/InvenTree/common/serializers.py
+- [[Serializer for assigning one (or more) stock items to a customer.      This is a]] - rationale - inventree/src/backend/InvenTree/stock/serializers.py
+- [[Serializer for background task overview.]] - rationale - inventree/src/backend/InvenTree/common/serializers.py
+- [[Serializer for cancelling a PurchaseOrder.]] - rationale - inventree/src/backend/InvenTree/order/serializers.py
+- [[Serializer for cancelling a ReturnOrder.]] - rationale - inventree/src/backend/InvenTree/order/serializers.py
+- [[Serializer for changing status of multiple StockItem objects.]] - rationale - inventree/src/backend/InvenTree/stock/serializers.py
+- [[Serializer for completing (shipping) a SalesOrderShipment.]] - rationale - inventree/src/backend/InvenTree/order/serializers.py
+- [[Serializer for completing a ReturnOrder.]] - rationale - inventree/src/backend/InvenTree/order/serializers.py
+- [[Serializer for completing a purchase order.]] - rationale - inventree/src/backend/InvenTree/order/serializers.py
+- [[Serializer for copying a BOM from another part.]] - rationale - inventree/src/backend/InvenTree/part/serializers.py
+- [[Serializer for counting stock items.]] - rationale - inventree/src/backend/InvenTree/stock/serializers.py
+- [[Serializer for creating a new User.]] - rationale - inventree/src/backend/InvenTree/users/serializers.py
+- [[Serializer for creating initial stock quantity.]] - rationale - inventree/src/backend/InvenTree/part/serializers.py
+- [[Serializer for extra serial number information about a stock item.]] - rationale - inventree/src/backend/InvenTree/stock/serializers.py
+- [[Serializer for feature flags.]] - rationale - inventree/src/backend/InvenTree/common/serializers.py
+- [[Serializer for generating PartStocktake entries.]] - rationale - inventree/src/backend/InvenTree/part/serializers.py
+- [[Serializer for generating a batch code.      Any of the provided write-only fiel]] - rationale - inventree/src/backend/InvenTree/stock/serializers.py
+- [[Serializer for generating one or multiple serial numbers.      Any of the provid]] - rationale - inventree/src/backend/InvenTree/stock/serializers.py
+- [[Serializer for installing a stock item into a given part.]] - rationale - inventree/src/backend/InvenTree/stock/serializers.py
+- [[Serializer for issuing (sending) a purchase order.]] - rationale - inventree/src/backend/InvenTree/order/serializers.py
+- [[Serializer for issuing a ReturnOrder.]] - rationale - inventree/src/backend/InvenTree/order/serializers.py
+- [[Serializer for issuing a SalesOrder.]] - rationale - inventree/src/backend/InvenTree/order/serializers.py
+- [[Serializer for marking a SalesOrder as cancelled.]] - rationale - inventree/src/backend/InvenTree/order/serializers.py
+- [[Serializer for merging two (or more) stock items together.]] - rationale - inventree/src/backend/InvenTree/stock/serializers.py
+- [[Serializer for placing a PurchaseOrder on hold.]] - rationale - inventree/src/backend/InvenTree/order/serializers.py
+- [[Serializer for placing a SalesOrder on hold.]] - rationale - inventree/src/backend/InvenTree/order/serializers.py
+- [[Serializer for receiving a single line item against a ReturnOrder.]] - rationale - inventree/src/backend/InvenTree/order/serializers.py
+- [[Serializer for receiving items against a ReturnOrder.]] - rationale - inventree/src/backend/InvenTree/order/serializers.py
+- [[Serializer for removing stock from stock item(s).]] - rationale - inventree/src/backend/InvenTree/stock/serializers.py
+- [[Serializer for specifying options when duplicating a Part.      The fields in th]] - rationale - inventree/src/backend/InvenTree/part/serializers.py
+- [[Serializer for the 'image' field of the Part model.      Used to serve and displ]] - rationale - inventree/src/backend/InvenTree/part/serializers.py
+- [[Serializer for the Address Model.]] - rationale - inventree/src/backend/InvenTree/company/serializers.py
+- [[Serializer for the AllUnitList.]] - rationale - inventree/src/backend/InvenTree/common/serializers.py
+- [[Serializer for the AllUnitListResponseSerializer.]] - rationale - inventree/src/backend/InvenTree/common/serializers.py
+- [[Serializer for the BomItemSubstitute class.]] - rationale - inventree/src/backend/InvenTree/part/serializers.py
+- [[Serializer for the DataImportRow model.]] - rationale - inventree/src/backend/InvenTree/importer/serializers.py
+- [[Serializer for the DataImportSession model.]] - rationale - inventree/src/backend/InvenTree/importer/serializers.py
+- [[Serializer for the DataOutput model.]] - rationale - inventree/src/backend/InvenTree/common/serializers.py
+- [[Serializer for the EmailMessage model.]] - rationale - inventree/src/backend/InvenTree/common/serializers.py
+- [[Serializer for the InvenTree configuration.      This is a read-only serializer.]] - rationale - inventree/src/backend/InvenTree/common/serializers.py
+- [[Serializer for the InvenTreeUserSetting model.]] - rationale - inventree/src/backend/InvenTree/common/serializers.py
+- [[Serializer for the NotesImage model.]] - rationale - inventree/src/backend/InvenTree/common/serializers.py
+- [[Serializer for the Parameter model.]] - rationale - inventree/src/backend/InvenTree/common/serializers.py
+- [[Serializer for the ParameterTemplate model.]] - rationale - inventree/src/backend/InvenTree/common/serializers.py
+- [[Serializer for the PartCategoryParameterTemplate model.]] - rationale - inventree/src/backend/InvenTree/part/serializers.py
+- [[Serializer for the PartStocktake model.]] - rationale - inventree/src/backend/InvenTree/part/serializers.py
+- [[Serializer for the ProjectCode model.]] - rationale - inventree/src/backend/InvenTree/common/serializers.py
+- [[Serializer for the ReturnOrder model class.]] - rationale - inventree/src/backend/InvenTree/order/serializers.py
+- [[Serializer for the SalesOrder model class.]] - rationale - inventree/src/backend/InvenTree/order/serializers.py
+- [[Serializer for the SalesOrderShipment class.]] - rationale - inventree/src/backend/InvenTree/order/serializers.py
+- [[Serializer for the custom state model.]] - rationale - inventree/src/backend/InvenTree/common/serializers.py
+- [[Serializer for the machine restart response.]] - rationale - inventree/src/backend/InvenTree/machine/serializers.py
+- [[Serializer for transferring (moving) stock item(s).]] - rationale - inventree/src/backend/InvenTree/stock/serializers.py
+- [[Serializer for updating Part thumbnail.]] - rationale - inventree/src/backend/InvenTree/part/serializers.py
+- [[Serializer metaclass options.]] - rationale - inventree/src/backend/InvenTree/order/serializers.py
+- [[Serializer metaclass._1]] - rationale - inventree/src/backend/InvenTree/stock/serializers.py
+- [[Serializer metaclass.]] - rationale - inventree/src/backend/InvenTree/common/serializers.py
+- [[Serializer mixin for handling 'notes' fields.      The 'notes' field will be hid]] - rationale - inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[Serializer mixin which provides total price fields.]] - rationale - inventree/src/backend/InvenTree/order/serializers.py
+- [[Serializer to allow annotating the schema to use String on currency fields.]] - rationale - inventree/src/backend/InvenTree/part/serializers.py
+- [[Serializer to allow annotating the schema to use int where custom values may be]] - rationale - inventree/src/backend/InvenTree/stock/serializers.py
+- [[Serializer to send a test email.]] - rationale - inventree/src/backend/InvenTree/common/serializers.py
+- [[Serializer validation.]] - rationale - inventree/src/backend/InvenTree/order/serializers.py
+- [[Serializers for holding a ReturnOrder.]] - rationale - inventree/src/backend/InvenTree/order/serializers.py
+- [[Series of API tests for the StockItem API.]] - rationale - inventree/src/backend/InvenTree/stock/test_api.py
+- [[Series of API tests for the StockLocation API.]] - rationale - inventree/src/backend/InvenTree/stock/test_api.py
+- [[Series of tests for the Part DRF API.]] - rationale - inventree/src/backend/InvenTree/part/test_api.py
+- [[Set up some test data for DataOutput API testing.]] - rationale - inventree/src/backend/InvenTree/common/test_api.py
+- [[Set up the test case._3]] - rationale - inventree/src/backend/InvenTree/part/test_api.py
+- [[SettingsSerializer]] - code - inventree/src/backend/InvenTree/common/serializers.py
+- [[SettingsValueField]] - code - inventree/src/backend/InvenTree/common/serializers.py
+- [[Setup method for each test.]] - rationale - inventree/src/backend/InvenTree/plugin/base/barcodes/test_barcode.py
+- [[Setup test data for the filtering tests.]] - rationale - inventree/src/backend/InvenTree/part/test_param.py
+- [[Simple test for the stock quantity.]] - rationale - inventree/src/backend/InvenTree/part/test_api.py
+- [[Simple tests for the StockItem barcode integration.]] - rationale - inventree/src/backend/InvenTree/stock/tests.py
+- [[Simple tests for the StockLocation barcode integration.]] - rationale - inventree/src/backend/InvenTree/stock/tests.py
+- [[Skip these fields when instantiating a new Part instance.]] - rationale - inventree/src/backend/InvenTree/part/serializers.py
+- [[Skip these fields when instantiating a new object._1]] - rationale - inventree/src/backend/InvenTree/order/serializers.py
+- [[Skip these fields when instantiating a new object._2]] - rationale - inventree/src/backend/InvenTree/order/serializers.py
+- [[Skip these fields when instantiating a new object.]] - rationale - inventree/src/backend/InvenTree/order/serializers.py
+- [[StockAPITestCase]] - code - inventree/src/backend/InvenTree/stock/test_api.py
+- [[StockAddSerializer]] - code - inventree/src/backend/InvenTree/stock/serializers.py
+- [[StockAdjustmentItemSerializer]] - code - inventree/src/backend/InvenTree/stock/serializers.py
+- [[StockAdjustmentSerializer]] - code - inventree/src/backend/InvenTree/stock/serializers.py
+- [[StockApiPerformanceTest]] - code - inventree/src/backend/InvenTree/stock/test_api.py
+- [[StockAssignTest]] - code - inventree/src/backend/InvenTree/stock/test_api.py
+- [[StockAssignmentItemSerializer]] - code - inventree/src/backend/InvenTree/stock/serializers.py
+- [[StockAssignmentSerializer]] - code - inventree/src/backend/InvenTree/stock/serializers.py
+- [[StockBarcodeTest]] - code - inventree/src/backend/InvenTree/stock/tests.py
+- [[StockChangeStatusSerializer]] - code - inventree/src/backend/InvenTree/stock/serializers.py
+- [[StockCountSerializer]] - code - inventree/src/backend/InvenTree/stock/serializers.py
+- [[StockItem]] - code - inventree/src/backend/InvenTree/stock/models.py
+- [[StockItemAdmin]] - code - inventree/src/backend/InvenTree/stock/admin.py
+- [[StockItemDeletionTest]] - code - inventree/src/backend/InvenTree/stock/test_api.py
+- [[StockItemListTest]] - code - inventree/src/backend/InvenTree/stock/test_api.py
+- [[StockItemSerialNumbersSerializer]] - code - inventree/src/backend/InvenTree/stock/serializers.py
+- [[StockItemSerializer]] - code - inventree/src/backend/InvenTree/stock/serializers.py
+- [[StockItemTestResult]] - code - inventree/src/backend/InvenTree/stock/models.py
+- [[StockItemTestResultAdmin]] - code - inventree/src/backend/InvenTree/stock/admin.py
+- [[StockItemTestResultSerializer]] - code - inventree/src/backend/InvenTree/stock/serializers.py
+- [[StockItemTracking]] - code - inventree/src/backend/InvenTree/stock/models.py
+- [[StockLocation]] - code - inventree/src/backend/InvenTree/stock/models.py
+- [[StockLocationTest]] - code - inventree/src/backend/InvenTree/stock/test_api.py
+- [[StockLocationTest_1]] - code - inventree/src/backend/InvenTree/stock/tests.py
+- [[StockLocationTreeTest]] - code - inventree/src/backend/InvenTree/stock/tests.py
+- [[StockLocationType]] - code - inventree/src/backend/InvenTree/stock/models.py
+- [[StockLocationTypeSerializer]] - code - inventree/src/backend/InvenTree/stock/serializers.py
+- [[StockLocationTypeTest]] - code - inventree/src/backend/InvenTree/stock/test_api.py
+- [[StockMergeItemSerializer]] - code - inventree/src/backend/InvenTree/stock/serializers.py
+- [[StockMergeSerializer]] - code - inventree/src/backend/InvenTree/stock/serializers.py
+- [[StockMergeTest]] - code - inventree/src/backend/InvenTree/stock/test_api.py
+- [[StockMetadataAPITest]] - code - inventree/src/backend/InvenTree/stock/test_api.py
+- [[StockRemoveSerializer]] - code - inventree/src/backend/InvenTree/stock/serializers.py
+- [[StockReturnSerializer]] - code - inventree/src/backend/InvenTree/stock/serializers.py
+- [[StockStatusCustomSerializer]] - code - inventree/src/backend/InvenTree/stock/serializers.py
+- [[StockTestBase]] - code - inventree/src/backend/InvenTree/stock/tests.py
+- [[StockTestResultTest]] - code - inventree/src/backend/InvenTree/stock/test_api.py
+- [[StockTrackingAdmin]] - code - inventree/src/backend/InvenTree/stock/admin.py
+- [[StockTrackingSerializer]] - code - inventree/src/backend/InvenTree/stock/serializers.py
+- [[StockTrackingTest]] - code - inventree/src/backend/InvenTree/stock/test_api.py
+- [[StockTransferSerializer]] - code - inventree/src/backend/InvenTree/stock/serializers.py
+- [[StockTreeTest]] - code - inventree/src/backend/InvenTree/stock/tests.py
+- [[StocktakeTest]] - code - inventree/src/backend/InvenTree/stock/test_api.py
+- [[SupplierPartSerializer]] - code - inventree/src/backend/InvenTree/company/serializers.py
+- [[SupplierPriceBreakBriefSerializer]] - code - inventree/src/backend/InvenTree/company/serializers.py
+- [[TaggitSerializer]] - code
+- [[TaskDetailSerializer]] - code - inventree/src/backend/InvenTree/common/serializers.py
+- [[TaskOverviewSerializer]] - code - inventree/src/backend/InvenTree/common/serializers.py
+- [[TemplateTagTest_1]] - code - inventree/src/backend/InvenTree/part/test_part.py
+- [[Test API endpoint for setting StockItem status.]] - rationale - inventree/src/backend/InvenTree/stock/test_api.py
+- [[Test BOM aggregation.]] - rationale - inventree/src/backend/InvenTree/part/test_bom_item.py
+- [[Test BOM item hash encoding.]] - rationale - inventree/src/backend/InvenTree/part/test_bom_item.py
+- [[Test OPTIONS information for the Parameter API endpoint.]] - rationale - inventree/src/backend/InvenTree/common/test_api.py
+- [[Test OPTIONS information for the ParameterTemplate API endpoint.]] - rationale - inventree/src/backend/InvenTree/common/test_api.py
+- [[Test Parameter API functionality.]] - rationale - inventree/src/backend/InvenTree/common/test_api.py
+- [[Test ParameterTemplate API functionality.]] - rationale - inventree/src/backend/InvenTree/common/test_api.py
+- [[Test Part attributes.]] - rationale - inventree/src/backend/InvenTree/part/test_part.py
+- [[Test PartCategory path.]] - rationale - inventree/src/backend/InvenTree/part/test_part.py
+- [[Test a complex part templatevariant tree.]] - rationale - inventree/src/backend/InvenTree/part/test_part.py
+- [[Test adding StockLocation.]] - rationale - inventree/src/backend/InvenTree/stock/test_api.py
+- [[Test allocating stock to a customer.]] - rationale - inventree/src/backend/InvenTree/stock/tests.py
+- [[Test an empty barcode scan.          Ensure that all required data is in the res]] - rationale - inventree/src/backend/InvenTree/plugin/base/barcodes/test_barcode.py
+- [[Test an empty pricing detail.]] - rationale - inventree/src/backend/InvenTree/part/test_api.py
+- [[Test annotation of 'category_detail' against a Part instance.]] - rationale - inventree/src/backend/InvenTree/part/test_api.py
+- [[Test annotation of 'parameters' detail against a Part instance.]] - rationale - inventree/src/backend/InvenTree/part/test_api.py
+- [[Test annotation of 'pricing' detail against a Part instance.]] - rationale - inventree/src/backend/InvenTree/part/test_api.py
+- [[Test barcode format functionality.]] - rationale - inventree/src/backend/InvenTree/part/test_part.py
+- [[Test barcode generation for invalid modelpk.]] - rationale - inventree/src/backend/InvenTree/plugin/base/barcodes/test_barcode.py
+- [[Test basic filtering by length parameter.]] - rationale - inventree/src/backend/InvenTree/part/test_param.py
+- [[Test basic filtering by width parameter.]] - rationale - inventree/src/backend/InvenTree/part/test_param.py
+- [[Test basic subscription against a part.]] - rationale - inventree/src/backend/InvenTree/part/test_part.py
+- [[Test bulk creation of test results against the API.]] - rationale - inventree/src/backend/InvenTree/stock/test_api.py
+- [[Test by 'starred' filter.]] - rationale - inventree/src/backend/InvenTree/part/test_api.py
+- [[Test case where there is zero stock.]] - rationale - inventree/src/backend/InvenTree/part/test_part.py
+- [[Test category deletion with different parameters.]] - rationale - inventree/src/backend/InvenTree/part/test_api.py
+- [[Test class for PartCategoryParameterTemplate model.]] - rationale - inventree/src/backend/InvenTree/part/test_param.py
+- [[Test creation of a StockItem via the API, including SupplierPart data.]] - rationale - inventree/src/backend/InvenTree/stock/test_api.py
+- [[Test creation of a StockItem via the API.]] - rationale - inventree/src/backend/InvenTree/stock/test_api.py
+- [[Test creation of a new test result.]] - rationale - inventree/src/backend/InvenTree/stock/test_api.py
+- [[Test data export functionality for Parameter objects.]] - rationale - inventree/src/backend/InvenTree/part/test_api.py
+- [[Test data submission.]] - rationale - inventree/src/backend/InvenTree/plugin/base/barcodes/test_barcode.py
+- [[Test default location propagation through location trees.]] - rationale - inventree/src/backend/InvenTree/part/test_api.py
+- [[Test delete operation for a Part instance.]] - rationale - inventree/src/backend/InvenTree/part/test_part.py
+- [[Test depleted stock deletion.]] - rationale - inventree/src/backend/InvenTree/stock/tests.py
+- [[Test download of part data via the API.]] - rationale - inventree/src/backend/InvenTree/part/test_api.py
+- [[Test duplicate item behaviour.]] - rationale - inventree/src/backend/InvenTree/stock/tests.py
+- [[Test each stocktake action endpoint, for validation.]] - rationale - inventree/src/backend/InvenTree/stock/test_api.py
+- [[Test error messages for invalid filter combinations.]] - rationale - inventree/src/backend/InvenTree/common/test_api.py
+- [[Test expiry date functionality for StockItem model.]] - rationale - inventree/src/backend/InvenTree/stock/tests.py
+- [[Test export of very large dataset.          - Ensure that the time taken to expo]] - rationale - inventree/src/backend/InvenTree/stock/test_api.py
+- [[Test exporting of Stock data via the API.]] - rationale - inventree/src/backend/InvenTree/stock/test_api.py
+- [[Test filtering against top level stock location.]] - rationale - inventree/src/backend/InvenTree/stock/test_api.py
+- [[Test filtering by color parameter.]] - rationale - inventree/src/backend/InvenTree/part/test_param.py
+- [[Test filtering by ionized parameter.]] - rationale - inventree/src/backend/InvenTree/part/test_param.py
+- [[Test filtering by multiple parameters.]] - rationale - inventree/src/backend/InvenTree/part/test_param.py
+- [[Test for 'available_variant_stock' annotation.]] - rationale - inventree/src/backend/InvenTree/part/test_api.py
+- [[Test for exporting BOM data.]] - rationale - inventree/src/backend/InvenTree/part/test_api.py
+- [[Test for listing part parameters.]] - rationale - inventree/src/backend/InvenTree/part/test_param.py
+- [[Test generation of stock history entries.]] - rationale - inventree/src/backend/InvenTree/part/test_part.py
+- [[Test get_absolute_url function.]] - rationale - inventree/src/backend/InvenTree/stock/tests.py
+- [[Test helper API for batch management.]] - rationale - inventree/src/backend/InvenTree/stock/test_api.py
+- [[Test helper API for serial management.]] - rationale - inventree/src/backend/InvenTree/stock/test_api.py
+- [[Test importing a part by supplier.]] - rationale - inventree/src/backend/InvenTree/plugin/samples/supplier/test_supplier_sample.py
+- [[Test integer validation for BomItem.]] - rationale - inventree/src/backend/InvenTree/part/test_bom_item.py
+- [[Test keyvalue template tag.]] - rationale - inventree/src/backend/InvenTree/part/test_part.py
+- [[Test list endpoint with limit = 1.]] - rationale - inventree/src/backend/InvenTree/stock/test_api.py
+- [[Test manual serialization of parts.          Each of these tests should fail]] - rationale - inventree/src/backend/InvenTree/stock/tests.py
+- [[Test merging of multiple stock items.]] - rationale - inventree/src/backend/InvenTree/stock/tests.py
+- [[Test moving stock to its current location.]] - rationale - inventree/src/backend/InvenTree/stock/tests.py
+- [[Test names must be unique for this part and also parts above.]] - rationale - inventree/src/backend/InvenTree/part/test_part.py
+- [[Test ordering options for the StockLocation list endpoint.]] - rationale - inventree/src/backend/InvenTree/stock/test_api.py
+- [[Test pagination of the Part list API.]] - rationale - inventree/src/backend/InvenTree/part/test_api.py
+- [[Test parameter editing for a locked part.]] - rationale - inventree/src/backend/InvenTree/part/test_param.py
+- [[Test part duplication options.]] - rationale - inventree/src/backend/InvenTree/part/test_api.py
+- [[Test partial stock moving.]] - rationale - inventree/src/backend/InvenTree/stock/tests.py
+- [[Test path_detail information.]] - rationale - inventree/src/backend/InvenTree/part/test_api.py
+- [[Test purchase price field.]] - rationale - inventree/src/backend/InvenTree/stock/tests.py
+- [[Test removing previous allocated stock from customer.]] - rationale - inventree/src/backend/InvenTree/stock/tests.py
+- [[Test response for an invalid location.]] - rationale - inventree/src/backend/InvenTree/plugin/base/barcodes/test_barcode.py
+- [[Test response for invalid part.]] - rationale - inventree/src/backend/InvenTree/plugin/base/barcodes/test_barcode.py
+- [[Test response for invalid stock item.]] - rationale - inventree/src/backend/InvenTree/plugin/base/barcodes/test_barcode.py
+- [[Test responses which are missing required data.]] - rationale - inventree/src/backend/InvenTree/stock/test_api.py
+- [[Test scan of an integer barcode.]] - rationale - inventree/src/backend/InvenTree/plugin/base/barcodes/test_barcode.py
+- [[Test scan of barcode with string encoded array.]] - rationale - inventree/src/backend/InvenTree/plugin/base/barcodes/test_barcode.py
+- [[Test serial number uniqueness.]] - rationale - inventree/src/backend/InvenTree/stock/tests.py
+- [[Test stock item deletion.]] - rationale - inventree/src/backend/InvenTree/stock/test_api.py
+- [[Test stock location deletion with different parameters.]] - rationale - inventree/src/backend/InvenTree/stock/test_api.py
+- [[Test stock location icon inheritance from StockLocationType.]] - rationale - inventree/src/backend/InvenTree/stock/test_api.py
+- [[Test stock location icon.]] - rationale - inventree/src/backend/InvenTree/stock/tests.py
+- [[Test stock location list filters.]] - rationale - inventree/src/backend/InvenTree/stock/test_api.py
+- [[Test stock movement functions.]] - rationale - inventree/src/backend/InvenTree/stock/tests.py
+- [[Test stock splitting.]] - rationale - inventree/src/backend/InvenTree/stock/tests.py
+- [[Test stock_item filter with and without include_installed option.]] - rationale - inventree/src/backend/InvenTree/stock/test_api.py
+- [[Test string representation of a Part.]] - rationale - inventree/src/backend/InvenTree/part/test_part.py
+- [[Test subscription against a PartCategory.]] - rationale - inventree/src/backend/InvenTree/part/test_part.py
+- [[Test subscription against a parent part.]] - rationale - inventree/src/backend/InvenTree/part/test_part.py
+- [[Test test results for stock in stock.          Or, test test results for stoc]] - rationale - inventree/src/backend/InvenTree/stock/tests.py
+- [[Test that 'label' values are correctly translated.]] - rationale - inventree/src/backend/InvenTree/part/test_api.py
+- [[Test that BOM line attrition values are calculated correctly.]] - rationale - inventree/src/backend/InvenTree/part/test_bom_item.py
+- [[Test that BomItem objects work correctly for a 'locked' assembly.]] - rationale - inventree/src/backend/InvenTree/part/test_bom_item.py
+- [[Test that Part API queries are performant.]] - rationale - inventree/src/backend/InvenTree/part/test_api.py
+- [[Test that Part instances can be adjusted via the API.]] - rationale - inventree/src/backend/InvenTree/part/test_api.py
+- [[Test that Stock API queries are performant.]] - rationale - inventree/src/backend/InvenTree/stock/test_api.py
+- [[Test that StockItem serialization maintains tree structure.]] - rationale - inventree/src/backend/InvenTree/stock/tests.py
+- [[Test that ValidationError is correctly raised for an invalid BOM item.]] - rationale - inventree/src/backend/InvenTree/part/test_bom_item.py
+- [[Test that a barcode can be associated with a StockItem.]] - rationale - inventree/src/backend/InvenTree/plugin/base/barcodes/test_barcode.py
+- [[Test that a barcode can be generated for a StockItem.]] - rationale - inventree/src/backend/InvenTree/plugin/base/barcodes/test_barcode.py
+- [[Test that a barcode is generated with a scan.]] - rationale - inventree/src/backend/InvenTree/plugin/base/barcodes/test_barcode.py
+- [[Test that a low stocknotification is generated.]] - rationale - inventree/src/backend/InvenTree/part/test_part.py
+- [[Test that an image can be renamed.]] - rationale - inventree/src/backend/InvenTree/part/test_part.py
+- [[Test that associated parameters are correctly deleted when removing the linked m]] - rationale - inventree/src/backend/InvenTree/common/test_api.py
+- [[Test that categories have the correct number of children.]] - rationale - inventree/src/backend/InvenTree/part/test_category.py
+- [[Test that category deletion moves the children properly.]] - rationale - inventree/src/backend/InvenTree/part/test_category.py
+- [[Test that category parameters are correctly applied.]] - rationale - inventree/src/backend/InvenTree/part/test_api.py
+- [[Test that category templates are correctly applied to Part instances.]] - rationale - inventree/src/backend/InvenTree/part/test_param.py
+- [[Test that company list is working.]] - rationale - inventree/src/backend/InvenTree/InvenTree/test_api.py
+- [[Test that deleting a root category works correctly.]] - rationale - inventree/src/backend/InvenTree/part/test_category.py
+- [[Test that extended URL schemes are allowed.]] - rationale - inventree/src/backend/InvenTree/stock/tests.py
+- [[Test that invalid floating point numbers are correctly handled.]] - rationale - inventree/src/backend/InvenTree/part/test_param.py
+- [[Test that invalid requests fail.]] - rationale - inventree/src/backend/InvenTree/plugin/base/barcodes/test_barcode.py
+- [[Test that invisible characters are removed from the input data.]] - rationale - inventree/src/backend/InvenTree/part/test_api.py
+- [[Test that non-standard ASCII chars are accepted.]] - rationale - inventree/src/backend/InvenTree/part/test_api.py
+- [[Test that pagination boundaries are observed correctly.          Ref httpsgi]] - rationale - inventree/src/backend/InvenTree/stock/test_api.py
+- [[Test that parameter choices are correctly validated.]] - rationale - inventree/src/backend/InvenTree/part/test_param.py
+- [[Test that parameters are correctly converted to template units.]] - rationale - inventree/src/backend/InvenTree/part/test_param.py
+- [[Test that parameters are correctly validated against template units.]] - rationale - inventree/src/backend/InvenTree/part/test_param.py
+- [[Test that part parameter template validation routines work correctly.]] - rationale - inventree/src/backend/InvenTree/part/test_param.py
+- [[Test that parts are created with the correct tree structure.]] - rationale - inventree/src/backend/InvenTree/part/test_part.py
+- [[Test that price_breaks parameter works correctly and efficiently.]] - rationale - inventree/src/backend/InvenTree/part/test_api.py
+- [[Test that serialized stock items can be created via the API.]] - rationale - inventree/src/backend/InvenTree/stock/test_api.py
+- [[Test that stock history entries are generated correctly.]] - rationale - inventree/src/backend/InvenTree/part/test_part.py
+- [[Test that stock item can be installed into another item, via the API.]] - rationale - inventree/src/backend/InvenTree/stock/test_api.py
+- [[Test that the default_expiry functionality works via the API.          - If an]] - rationale - inventree/src/backend/InvenTree/stock/test_api.py
+- [[Test that the 'can_build' annotation works as expected.]] - rationale - inventree/src/backend/InvenTree/part/test_api.py
+- [[Test that the 'child_items' annotation works as expected.]] - rationale - inventree/src/backend/InvenTree/stock/test_api.py
+- [[Test that the 'notify_low_stock' task is triggered correctly.]] - rationale - inventree/src/backend/InvenTree/stock/tests.py
+- [[Test that the 'on_order' queryset annotation works as expected.          This qu]] - rationale - inventree/src/backend/InvenTree/part/test_api.py
+- [[Test that the 'part_count' field is annotated correctly.]] - rationale - inventree/src/backend/InvenTree/part/test_api.py
+- [[Test that the 'updated' field is correctly set.]] - rationale - inventree/src/backend/InvenTree/part/test_param.py
+- [[Test that the 'used_in_count' attribute is calculated correctly.]] - rationale - inventree/src/backend/InvenTree/part/test_bom_item.py
+- [[Test that the 'value' field is correctly validated.]] - rationale - inventree/src/backend/InvenTree/stock/test_api.py
+- [[Test that the BOM list results can be ordered.]] - rationale - inventree/src/backend/InvenTree/part/test_api.py
+- [[Test that the BulkDelete endpoint works for this model.]] - rationale - inventree/src/backend/InvenTree/stock/test_api.py
+- [[Test that the Category part count works.]] - rationale - inventree/src/backend/InvenTree/part/test_category.py
+- [[Test that the PartCategory URL works.]] - rationale - inventree/src/backend/InvenTree/part/test_category.py
+- [[Test that the PartCategoryParameterTemplate API function work.]] - rationale - inventree/src/backend/InvenTree/part/test_api.py
+- [[Test that the category path string works correctly.]] - rationale - inventree/src/backend/InvenTree/part/test_category.py
+- [[Test that the commit date template tag returns correctly.]] - rationale - inventree/src/backend/InvenTree/part/test_part.py
+- [[Test that the commit hash template tag returns correctly.]] - rationale - inventree/src/backend/InvenTree/part/test_part.py
+- [[Test that the creation date filters work correctly.]] - rationale - inventree/src/backend/InvenTree/part/test_api.py
+- [[Test that the data cleaning functionality is working.          This helps to pro]] - rationale - inventree/src/backend/InvenTree/part/test_api.py
+- [[Test that the default values for the part settings are correct.]] - rationale - inventree/src/backend/InvenTree/part/test_part.py
+- [[Test that the is_building flag does not count towards stock.]] - rationale - inventree/src/backend/InvenTree/stock/tests.py
+- [[Test that the list endpoint works as expected._1]] - rationale - inventree/src/backend/InvenTree/stock/test_api.py
+- [[Test that the number of queries required to fetch stock items is reasonable.]] - rationale - inventree/src/backend/InvenTree/stock/test_api.py
+- [[Test that the query count is unchanged, independent of query results.]] - rationale - inventree/src/backend/InvenTree/part/test_api.py
+- [[Test that the required details are available.]] - rationale - inventree/src/backend/InvenTree/part/test_api.py
+- [[Test that the returned amount is a valid Decimal.]] - rationale - inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[Test that the unassign endpoint works as expected.]] - rationale - inventree/src/backend/InvenTree/plugin/base/barcodes/test_barcode.py
+- [[Test that tree rebuild works correctly.]] - rationale - inventree/src/backend/InvenTree/stock/tests.py
+- [[Test that various output options work as expected.]] - rationale - inventree/src/backend/InvenTree/part/test_api.py
+- [[Test that very long notes field is rejected.]] - rationale - inventree/src/backend/InvenTree/part/test_api.py
+- [[Test that we can allocate an existing uploaded image to a new Part.]] - rationale - inventree/src/backend/InvenTree/part/test_api.py
+- [[Test that we can annotate parameters against a queryset.]] - rationale - inventree/src/backend/InvenTree/common/test_api.py
+- [[Test that we can bulk create parameters via the API.]] - rationale - inventree/src/backend/InvenTree/part/test_param.py
+- [[Test that we can bulk-change batch code for a set of stock items.]] - rationale - inventree/src/backend/InvenTree/stock/test_api.py
+- [[Test that we can convert a StockItem to a variant part via the API.]] - rationale - inventree/src/backend/InvenTree/stock/test_api.py
+- [[Test that we can correctly filter the Part list by conversion options.]] - rationale - inventree/src/backend/InvenTree/part/test_api.py
+- [[Test that we can correctly read and adjust purchase price information via the AP]] - rationale - inventree/src/backend/InvenTree/stock/test_api.py
+- [[Test that we can create  edit  delete Part objects via the API.]] - rationale - inventree/src/backend/InvenTree/part/test_api.py
+- [[Test that we can create a location type via API.]] - rationale - inventree/src/backend/InvenTree/stock/test_api.py
+- [[Test that we can create a new Attachment instances via the API.]] - rationale - inventree/src/backend/InvenTree/part/test_api.py
+- [[Test that we can create a param via the API.]] - rationale - inventree/src/backend/InvenTree/part/test_param.py
+- [[Test that we can delete a location type via API.]] - rationale - inventree/src/backend/InvenTree/stock/test_api.py
+- [[Test that we can exclude parts by ID using the exclude_id parameter.]] - rationale - inventree/src/backend/InvenTree/part/test_api.py
+- [[Test that we can exclude parts related to a specific part ID.]] - rationale - inventree/src/backend/InvenTree/part/test_api.py
+- [[Test that we can filter by allocated status.          Rules         - Only re]] - rationale - inventree/src/backend/InvenTree/stock/test_api.py
+- [[Test that we can filter by the 'related' status.]] - rationale - inventree/src/backend/InvenTree/part/test_api.py
+- [[Test that we can filter part list by the 'in_bom_for' parameter.]] - rationale - inventree/src/backend/InvenTree/part/test_api.py
+- [[Test that we can filter stock items by company.]] - rationale - inventree/src/backend/InvenTree/stock/test_api.py
+- [[Test that we can lookup a part based on ID.]] - rationale - inventree/src/backend/InvenTree/plugin/base/barcodes/test_barcode.py
+- [[Test that we can lookup a stock item based on ID.]] - rationale - inventree/src/backend/InvenTree/plugin/base/barcodes/test_barcode.py
+- [[Test that we can lookup a stock location based on ID.]] - rationale - inventree/src/backend/InvenTree/plugin/base/barcodes/test_barcode.py
+- [[Test that we can order parts by a specified parameter.]] - rationale - inventree/src/backend/InvenTree/part/test_param.py
+- [[Test that we can paginate results correctly.]] - rationale - inventree/src/backend/InvenTree/stock/test_api.py
+- [[Test that we can retrieve list of part categories, with various filtering option]] - rationale - inventree/src/backend/InvenTree/part/test_api.py
+- [[Test that we can return a StockItem from a customer, via the API.]] - rationale - inventree/src/backend/InvenTree/stock/test_api.py
+- [[Test that we can search the BOM list API endpoint.]] - rationale - inventree/src/backend/InvenTree/part/test_api.py
+- [[Test that we can update a location type via API.]] - rationale - inventree/src/backend/InvenTree/stock/test_api.py
+- [[Test that we can update the image of an existing part with an already existing i]] - rationale - inventree/src/backend/InvenTree/part/test_api.py
+- [[Test that we can upload an image to the part API.]] - rationale - inventree/src/backend/InvenTree/part/test_api.py
+- [[Test that we cannot create a duplicate Part.]] - rationale - inventree/src/backend/InvenTree/part/test_part.py
+- [[Test that we get an appropriate error when we create a BomItem which points to i]] - rationale - inventree/src/backend/InvenTree/part/test_bom_item.py
+- [[Test the 'bom_valid' Part API filter.]] - rationale - inventree/src/backend/InvenTree/part/test_api.py
+- [[Test the 'building' quantity annotations.]] - rationale - inventree/src/backend/InvenTree/part/test_api.py
+- [[Test the 'choices' field for the PartTestTemplate model.]] - rationale - inventree/src/backend/InvenTree/part/test_api.py
+- [[Test the 'define' template tag.]] - rationale - inventree/src/backend/InvenTree/part/test_part.py
+- [[Test the 'has_batch' filter, which tests if the stock item has been assigned a b]] - rationale - inventree/src/backend/InvenTree/stock/test_api.py
+- [[Test the 'initial' default values (no default values have been set).]] - rationale - inventree/src/backend/InvenTree/part/test_part.py
+- [[Test the 'instance name' setting.]] - rationale - inventree/src/backend/InvenTree/part/test_part.py
+- [[Test the 'inventree_customize' template tag.]] - rationale - inventree/src/backend/InvenTree/part/test_part.py
+- [[Test the 'inventree_title' setting.]] - rationale - inventree/src/backend/InvenTree/part/test_part.py
+- [[Test the 'notes' field.]] - rationale - inventree/src/backend/InvenTree/part/test_api.py
+- [[Test the 'render_date' template tag.]] - rationale - inventree/src/backend/InvenTree/part/test_part.py
+- [[Test the 'revision' and 'revision_of' field.]] - rationale - inventree/src/backend/InvenTree/part/test_part.py
+- [[Test the 'rounding_multiple' attribute.]] - rationale - inventree/src/backend/InvenTree/part/test_bom_item.py
+- [[Test the 'setting_object' template tag.]] - rationale - inventree/src/backend/InvenTree/part/test_part.py
+- [[Test the 'settings_value' template tag.]] - rationale - inventree/src/backend/InvenTree/part/test_part.py
+- [[Test the 'setup_quantity' attribute.]] - rationale - inventree/src/backend/InvenTree/part/test_bom_item.py
+- [[Test the 'to_list' template tag.]] - rationale - inventree/src/backend/InvenTree/part/test_part.py
+- [[Test the 'version' setting.]] - rationale - inventree/src/backend/InvenTree/part/test_part.py
+- [[Test the BomItem API OPTIONS endpoint.]] - rationale - inventree/src/backend/InvenTree/part/test_api.py
+- [[Test the DataOutput API list endpoint.]] - rationale - inventree/src/backend/InvenTree/common/test_api.py
+- [[Test the Part API OPTIONS.]] - rationale - inventree/src/backend/InvenTree/part/test_api.py
+- [[Test the Part.get_parameter method.]] - rationale - inventree/src/backend/InvenTree/part/test_param.py
+- [[Test the PartCategoryDetail API endpoint.]] - rationale - inventree/src/backend/InvenTree/part/test_api.py
+- [[Test the PartCategoryList API endpoint.]] - rationale - inventree/src/backend/InvenTree/part/test_api.py
+- [[Test the PartCategoryTree API endpoint.]] - rationale - inventree/src/backend/InvenTree/part/test_api.py
+- [[Test the PartTestTemplate API.]] - rationale - inventree/src/backend/InvenTree/part/test_api.py
+- [[Test the StockItem OPTIONS endpoint to contain custom StockStatuses.]] - rationale - inventree/src/backend/InvenTree/stock/test_api.py
+- [[Test the StockLocationList API endpoint.]] - rationale - inventree/src/backend/InvenTree/stock/test_api.py
+- [[Test the StockLocationTree API endpoint.]] - rationale - inventree/src/backend/InvenTree/stock/test_api.py
+- [[Test the barcode mixin functionality.]] - rationale - inventree/src/backend/InvenTree/part/test_part.py
+- [[Test the category icon.]] - rationale - inventree/src/backend/InvenTree/part/test_category.py
+- [[Test the default location functionality, if a 'location' is not specified in the]] - rationale - inventree/src/backend/InvenTree/stock/test_api.py
+- [[Test the effectiveness of structural categories.          Make sure         - P]] - rationale - inventree/src/backend/InvenTree/part/test_api.py
+- [[Test the effectiveness of structural stock locations.          Make sure]] - rationale - inventree/src/backend/InvenTree/stock/test_api.py
+- [[Test the has_bom attribute.]] - rationale - inventree/src/backend/InvenTree/part/test_bom_item.py
+- [[Test the is_variant filter.]] - rationale - inventree/src/backend/InvenTree/part/test_api.py
+- [[Test the key generation method.]] - rationale - inventree/src/backend/InvenTree/part/test_part.py
+- [[Test the output options for PartList list.]] - rationale - inventree/src/backend/InvenTree/part/test_api.py
+- [[Test the output options for StockItemt detail.]] - rationale - inventree/src/backend/InvenTree/stock/test_api.py
+- [[Test the output options for SupplierPart price break list.]] - rationale - inventree/src/backend/InvenTree/company/test_api.py
+- [[Test the setting which controls duplicate IPN values.]] - rationale - inventree/src/backend/InvenTree/part/test_part.py
+- [[Test the special 'include_child_categories' flag.          If provided, parts ar]] - rationale - inventree/src/backend/InvenTree/part/test_api.py
+- [[Test the str representation of the ParameterTemplate model.]] - rationale - inventree/src/backend/InvenTree/part/test_param.py
+- [[Test the string representation of a BOMItem.]] - rationale - inventree/src/backend/InvenTree/part/test_bom_item.py
+- [[Test traversal for default locations.]] - rationale - inventree/src/backend/InvenTree/part/test_category.py
+- [[Test tree structure for fixtured data.]] - rationale - inventree/src/backend/InvenTree/part/test_part.py
+- [[Test valid merging of stock items.]] - rationale - inventree/src/backend/InvenTree/stock/test_api.py
+- [[Test validation for part templates.]] - rationale - inventree/src/backend/InvenTree/part/test_param.py
+- [[Test variant functions.]] - rationale - inventree/src/backend/InvenTree/stock/tests.py
+- [[Test we can create price breaks at various quantities.]] - rationale - inventree/src/backend/InvenTree/part/test_api.py
+- [[Test when an invalid barcode is provided (does not match stock item).]] - rationale - inventree/src/backend/InvenTree/plugin/base/barcodes/test_barcode.py
+- [[Test when an invalid sales order is provided.]] - rationale - inventree/src/backend/InvenTree/plugin/base/barcodes/test_barcode.py
+- [[Test when no data is provided.]] - rationale - inventree/src/backend/InvenTree/plugin/base/barcodes/test_barcode.py
+- [[TestCategoryTemplates]] - code - inventree/src/backend/InvenTree/part/test_param.py
+- [[TestEmailSerializer]] - code - inventree/src/backend/InvenTree/common/serializers.py
+- [[TestResultTest]] - code - inventree/src/backend/InvenTree/stock/tests.py
+- [[TestTemplateTest]] - code - inventree/src/backend/InvenTree/part/test_part.py
+- [[Tests for 'default' values.          Ensure that unspecified fields revert to d]] - rationale - inventree/src/backend/InvenTree/part/test_api.py
+- [[Tests for API filters against ParameterTemplate endpoint.]] - rationale - inventree/src/backend/InvenTree/common/test_api.py
+- [[Tests for BOM item substitutes.]] - rationale - inventree/src/backend/InvenTree/part/test_bom_item.py
+- [[Tests for BomItem substitutes.]] - rationale - inventree/src/backend/InvenTree/part/test_api.py
+- [[Tests for BomItem use with variants.]] - rationale - inventree/src/backend/InvenTree/part/test_api.py
+- [[Tests for StockTestResult APIs.]] - rationale - inventree/src/backend/InvenTree/stock/test_api.py
+- [[Tests for barcode api.]] - rationale - inventree/src/backend/InvenTree/plugin/base/barcodes/test_barcode.py
+- [[Tests for calculation stock counts against templates  variants.]] - rationale - inventree/src/backend/InvenTree/stock/tests.py
+- [[Tests for creating new Part instances via the API.]] - rationale - inventree/src/backend/InvenTree/part/test_api.py
+- [[Tests for custom stock item statuses.]] - rationale - inventree/src/backend/InvenTree/stock/test_api.py
+- [[Tests for initial creation of supplier  manufacturer data.]] - rationale - inventree/src/backend/InvenTree/part/test_api.py
+- [[Tests for initial stock quantity creation.]] - rationale - inventree/src/backend/InvenTree/part/test_api.py
+- [[Tests for query annotations which add allocation information.          Ref http]] - rationale - inventree/src/backend/InvenTree/part/test_api.py
+- [[Tests for stock item deletion via the API.]] - rationale - inventree/src/backend/InvenTree/stock/test_api.py
+- [[Tests for stock serialization.]] - rationale - inventree/src/backend/InvenTree/stock/tests.py
+- [[Tests for the 'consumable' BomItem field.]] - rationale - inventree/src/backend/InvenTree/part/test_bom_item.py
+- [[Tests for the 'notes' field (markdown field).]] - rationale - inventree/src/backend/InvenTree/part/test_api.py
+- [[Tests for the 'uses' field.]] - rationale - inventree/src/backend/InvenTree/part/test_api.py
+- [[Tests for the BomItem list endpoint.]] - rationale - inventree/src/backend/InvenTree/part/test_api.py
+- [[Tests for the Company detail endpoint.]] - rationale - inventree/src/backend/InvenTree/company/test_api.py
+- [[Tests for the Parameter API.]] - rationale - inventree/src/backend/InvenTree/common/test_api.py
+- [[Tests for the Parameter API._1]] - rationale - inventree/src/backend/InvenTree/part/test_param.py
+- [[Tests for the Parameter detail endpoint.]] - rationale - inventree/src/backend/InvenTree/part/test_param.py
+- [[Tests for the Part model.]] - rationale - inventree/src/backend/InvenTree/part/test_part.py
+- [[Tests for the Part model._1]] - rationale - inventree/src/backend/InvenTree/part/test_part.py
+- [[Tests for the StockItem API LIST endpoint.]] - rationale - inventree/src/backend/InvenTree/stock/test_api.py
+- [[Tests for the StockItemTestResult model.]] - rationale - inventree/src/backend/InvenTree/stock/tests.py
+- [[Tests for the StockLocation model.]] - rationale - inventree/src/backend/InvenTree/stock/tests.py
+- [[Tests for the StockLocationType API endpoints.]] - rationale - inventree/src/backend/InvenTree/stock/test_api.py
+- [[Tests for the StockTracking API endpoints.]] - rationale - inventree/src/backend/InvenTree/stock/test_api.py
+- [[Tests for the custom template tag code.]] - rationale - inventree/src/backend/InvenTree/part/test_part.py
+- [[Tests for the part pricing API endpoint.]] - rationale - inventree/src/backend/InvenTree/part/test_api.py
+- [[Tests for the test template functions.]] - rationale - inventree/src/backend/InvenTree/part/test_part.py
+- [[Tests for the various OPTIONS endpoints in the part API.      Ensure that the]] - rationale - inventree/src/backend/InvenTree/part/test_api.py
+- [[Tests interaction with states.]] - rationale - inventree/src/backend/InvenTree/stock/test_api.py
+- [[Tests to ensure that the relational category tree functions correctly.      Load]] - rationale - inventree/src/backend/InvenTree/part/test_category.py
+- [[Tests to ensure that the user-configurable default values work as expected.]] - rationale - inventree/src/backend/InvenTree/part/test_part.py
+- [[Tests to ensure that the various aggregation annotations are working correctly.]] - rationale - inventree/src/backend/InvenTree/part/test_api.py
+- [[This method tries to convert the data to representation based on the defined to_]] - rationale - inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[TotalPriceMixin_1]] - code - inventree/src/backend/InvenTree/order/serializers.py
+- [[TransactionTestCase]] - code
+- [[TreePathSerializer]] - code - inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[Uninstall stock item.]] - rationale - inventree/src/backend/InvenTree/stock/serializers.py
+- [[UninstallStockItemSerializer]] - code - inventree/src/backend/InvenTree/stock/serializers.py
+- [[Unit]] - code - inventree/src/backend/InvenTree/common/serializers.py
+- [[Unit test class for testing the Parameter model.]] - rationale - inventree/src/backend/InvenTree/part/test_param.py
+- [[Unit test for Parameter API endpoints.]] - rationale - inventree/src/backend/InvenTree/part/test_api.py
+- [[Unit test for StockItem tree structure.]] - rationale - inventree/src/backend/InvenTree/stock/tests.py
+- [[Unit test for the PartRequirements API endpoint.]] - rationale - inventree/src/backend/InvenTree/part/test_api.py
+- [[Unit test for the Part variant tree structure.]] - rationale - inventree/src/backend/InvenTree/part/test_part.py
+- [[Unit test for the StockLocation tree structure.]] - rationale - inventree/src/backend/InvenTree/stock/tests.py
+- [[Unit test for the TestTemplate class.]] - rationale - inventree/src/backend/InvenTree/part/test_part.py
+- [[Unit testing for the company app API functions.]] - rationale - inventree/src/backend/InvenTree/company/test_api.py
+- [[Unit tests for large serial numbers which exceed integer encoding.]] - rationale - inventree/src/backend/InvenTree/stock/tests.py
+- [[Unit tests for API filters related to template parts.          Test         - v]] - rationale - inventree/src/backend/InvenTree/part/test_api.py
+- [[Unit tests for Barcode endpoints.]] - rationale - inventree/src/backend/InvenTree/plugin/base/barcodes/test_barcode.py
+- [[Unit tests for filtering parts by parameter values.]] - rationale - inventree/src/backend/InvenTree/part/test_param.py
+- [[Unit tests for merging stock items via the API.]] - rationale - inventree/src/backend/InvenTree/stock/test_api.py
+- [[Unit tests for part 'subscription'.]] - rationale - inventree/src/backend/InvenTree/part/test_part.py
+- [[Unit tests for stock location tree structure (MPTT).          Ensure that the MP]] - rationale - inventree/src/backend/InvenTree/stock/tests.py
+- [[Unit tests for the 'variant_stock' annotation, which provides a stock count for]] - rationale - inventree/src/backend/InvenTree/part/test_api.py
+- [[Unit tests for the Attachment API endpoint.]] - rationale - inventree/src/backend/InvenTree/part/test_api.py
+- [[Unit tests for the BomItem API.]] - rationale - inventree/src/backend/InvenTree/part/test_api.py
+- [[Unit tests for the BomItem model.]] - rationale - inventree/src/backend/InvenTree/part/test_bom_item.py
+- [[Unit tests for the Part List API endpoint.]] - rationale - inventree/src/backend/InvenTree/part/test_api.py
+- [[Unit tests for the PartCategory API.]] - rationale - inventree/src/backend/InvenTree/part/test_api.py
+- [[Unit tests for the PartInternalPrice API endpoints.]] - rationale - inventree/src/backend/InvenTree/part/test_api.py
+- [[Unit tests for the PartRelated model.]] - rationale - inventree/src/backend/InvenTree/part/test_part.py
+- [[Unit tests for the barcode endpoint for allocating items to a sales order.]] - rationale - inventree/src/backend/InvenTree/plugin/base/barcodes/test_barcode.py
+- [[Unit tests for the metadata field._5]] - rationale - inventree/src/backend/InvenTree/part/test_bom_item.py
+- [[Unit tests for the metadata field._6]] - rationale - inventree/src/backend/InvenTree/part/test_param.py
+- [[Unit tests for the metadata field._7]] - rationale - inventree/src/backend/InvenTree/part/test_part.py
+- [[Unit tests for the metadata field._8]] - rationale - inventree/src/backend/InvenTree/stock/tests.py
+- [[Unit tests for the part category tree structure (MPTT).          Ensure that the]] - rationale - inventree/src/backend/InvenTree/part/test_category.py
+- [[Unit tests for the stock assignment API endpoint, where stock items are manually]] - rationale - inventree/src/backend/InvenTree/stock/test_api.py
+- [[Unit tests for the various metadata endpoints of API.]] - rationale - inventree/src/backend/InvenTree/stock/test_api.py
+- [[Update an existing selection list. Save the choices separately.]] - rationale - inventree/src/backend/InvenTree/common/serializers.py
+- [[Update cached pricing data for the specified PartPricing instance.      Argument]] - rationale - inventree/src/backend/InvenTree/part/tasks.py
+- [[Update some of the part values and re-test.]] - rationale - inventree/src/backend/InvenTree/part/test_part.py
+- [[Updated from httpsgithub.comglemmaPauldjango-taggit-serializer.]] - rationale - inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[UserSerializer]] - code - inventree/src/backend/InvenTree/users/serializers.py
+- [[UserSettingsSerializer]] - code - inventree/src/backend/InvenTree/common/serializers.py
+- [[Validate item.          Ensures         - is in stock         - Is salable]] - rationale - inventree/src/backend/InvenTree/stock/serializers.py
+- [[Validate supplied pricing data.]] - rationale - inventree/src/backend/InvenTree/part/serializers.py
+- [[Validate that the quantity value is correct.]] - rationale - inventree/src/backend/InvenTree/stock/serializers.py
+- [[Validate the quantity value._1]] - rationale - inventree/src/backend/InvenTree/stock/serializers.py
+- [[Validate the quantity value.]] - rationale - inventree/src/backend/InvenTree/stock/serializers.py
+- [[Validate the selected image file.]] - rationale - inventree/src/backend/InvenTree/part/serializers.py
+- [[Validate the selected stock item.]] - rationale - inventree/src/backend/InvenTree/stock/serializers.py
+- [[Validate the selected stock items.]] - rationale - inventree/src/backend/InvenTree/stock/serializers.py
+- [[Validate the selection list. Choices are validated separately.]] - rationale - inventree/src/backend/InvenTree/common/serializers.py
+- [[Validate the shipment.          - Must point to the same order         - Must no]] - rationale - inventree/src/backend/InvenTree/order/serializers.py
+- [[Validate the test result data.]] - rationale - inventree/src/backend/InvenTree/stock/serializers.py
+- [[Validation for a single line item.]] - rationale - inventree/src/backend/InvenTree/order/serializers.py
+- [[Validation for the 'purchase_order' field.]] - rationale - inventree/src/backend/InvenTree/order/serializers.py
+- [[Validation for the 'quantity' field.]] - rationale - inventree/src/backend/InvenTree/order/serializers.py
+- [[Validation for the provided Manufacturer.]] - rationale - inventree/src/backend/InvenTree/part/serializers.py
+- [[Validation for the provided Supplier.]] - rationale - inventree/src/backend/InvenTree/part/serializers.py
+- [[Validation for the serializer.          - Ensure the serial_numbers and quantity]] - rationale - inventree/src/backend/InvenTree/order/serializers.py
+- [[VariantTest]] - code - inventree/src/backend/InvenTree/stock/tests.py
+- [[VariantTreeTest]] - code - inventree/src/backend/InvenTree/part/test_part.py
+- [[Various test for the str2bool template tag.]] - rationale - inventree/src/backend/InvenTree/part/test_part.py
+- [[Various unit tests for Part Parameters.]] - rationale - inventree/src/backend/InvenTree/part/test_param.py
+- [[admin.py_8]] - code - inventree/src/backend/InvenTree/stock/admin.py
+- [[base_fields()]] - code - inventree/src/backend/InvenTree/report/serializers.py
+- [[bom_exporter.py]] - code - inventree/src/backend/InvenTree/plugin/builtin/exporter/bom_exporter.py
+- [[cancel_order()]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[enable_parameters_filter()]] - code - inventree/src/backend/InvenTree/common/filters.py
+- [[enable_project_code_filter()]] - code - inventree/src/backend/InvenTree/common/filters.py
+- [[enable_project_label_filter()]] - code - inventree/src/backend/InvenTree/common/filters.py
+- [[enable_tags_filter()]] - code - inventree/src/backend/InvenTree/common/filters.py
+- [[extra_line_fields()]] - code - inventree/src/backend/InvenTree/order/serializers.py
+- [[hold_order()]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[line_fields()]] - code - inventree/src/backend/InvenTree/order/serializers.py
+- [[migrate_icons.py]] - code - inventree/src/backend/InvenTree/InvenTree/management/commands/migrate_icons.py
+- [[order_fields()]] - code - inventree/src/backend/InvenTree/order/serializers.py
+- [[rebuild_models.py]] - code - inventree/src/backend/InvenTree/InvenTree/management/commands/rebuild_models.py
+- [[serializers.py_6]] - code - inventree/src/backend/InvenTree/common/serializers.py
+- [[serializers.py_15]] - code - inventree/src/backend/InvenTree/company/serializers.py
+- [[serializers.py_11]] - code - inventree/src/backend/InvenTree/data_exporter/serializers.py
+- [[serializers.py_9]] - code - inventree/src/backend/InvenTree/generic/states/serializers.py
+- [[serializers.py_1]] - code - inventree/src/backend/InvenTree/importer/serializers.py
+- [[serializers.py_14]] - code - inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[serializers.py]] - code - inventree/src/backend/InvenTree/order/serializers.py
+- [[serializers.py_12]] - code - inventree/src/backend/InvenTree/part/serializers.py
+- [[serializers.py_3]] - code - inventree/src/backend/InvenTree/plugin/base/ui/serializers.py
+- [[serializers.py_10]] - code - inventree/src/backend/InvenTree/report/serializers.py
+- [[serializers.py_13]] - code - inventree/src/backend/InvenTree/stock/serializers.py
+- [[stock_item_adjust_status_options()]] - code - inventree/src/backend/InvenTree/stock/serializers.py
+- [[stocktake_exporter.py]] - code - inventree/src/backend/InvenTree/plugin/builtin/exporter/stocktake_exporter.py
+- [[test_api.py_2]] - code - inventree/src/backend/InvenTree/common/test_api.py
+- [[test_api.py_5]] - code - inventree/src/backend/InvenTree/part/test_api.py
+- [[test_api.py_6]] - code - inventree/src/backend/InvenTree/stock/test_api.py
+- [[test_part.py]] - code - inventree/src/backend/InvenTree/part/test_part.py
+- [[tests.py_10]] - code - inventree/src/backend/InvenTree/stock/tests.py
+
+## Live Query (requires Dataview plugin)
+
+```dataview
+TABLE source_file, type FROM #community/Documentation_&_FAQ
+SORT file.name ASC
+```
+
+## Connections to other communities
+- 3560 edges to [[_COMMUNITY_Stock Management & Tracking]]
+- 2975 edges to [[_COMMUNITY_System Configuration & Settings]]
+- 2153 edges to [[_COMMUNITY_Part Management & Archetypes]]
+- 1041 edges to [[_COMMUNITY_Data Migrations & Schema]]
+- 558 edges to [[_COMMUNITY_Community 2]]
+- 9 edges to [[_COMMUNITY_Community 1]]
+- 6 edges to [[_COMMUNITY_Community 9]]
+- 3 edges to [[_COMMUNITY_Deployment & Docker Architecture]]
+- 2 edges to [[_COMMUNITY_API & Integration Core]]
+- 1 edge to [[_COMMUNITY_Community 13]]
+
+## Top bridge nodes
+- [[Part]] - degree 1861, connects to 6 communities
+- [[StockItem]] - degree 1215, connects to 6 communities
+- [[StockItemTracking]] - degree 428, connects to 6 communities
+- [[StockLocation]] - degree 1052, connects to 5 communities
+- [[PartCategory]] - degree 824, connects to 5 communities

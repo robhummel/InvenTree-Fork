@@ -1,0 +1,22 @@
+---
+source_file: "/Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/tests.py"
+type: "rationale"
+community: "Core Models & Admin"
+location: "L147"
+tags:
+  - graphify/rationale
+  - graphify/INFERRED
+  - community/Core_Models_&_Admin
+---
+
+# Test that the permission assigning works!
+
+## Connections
+- [[.test_permission_assign()]] - `rationale_for` [EXTRACTED]
+- [[AdminTestCase_1]] - `uses` [INFERRED]
+- [[ApiToken]] - `uses` [INFERRED]
+- [[InvenTreeAPITestCase_1]] - `uses` [INFERRED]
+- [[InvenTreeTestCase_1]] - `uses` [INFERRED]
+- [[Owner]] - `uses` [INFERRED]
+
+#graphify/rationale #graphify/INFERRED #community/Core_Models_&_Admin

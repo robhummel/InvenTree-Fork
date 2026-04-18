@@ -1,0 +1,34 @@
+---
+source_file: "/Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/test_api.py"
+type: "rationale"
+community: "Community 3"
+location: "L1382"
+tags:
+  - graphify/rationale
+  - graphify/INFERRED
+  - community/Community_3
+---
+
+# Tests for the SalesOrder API.
+
+## Connections
+- [[Company]] - `uses` [INFERRED]
+- [[InvenTreeAPITestCase_1]] - `uses` [INFERRED]
+- [[InvenTreeSetting]] - `uses` [INFERRED]
+- [[Owner]] - `uses` [INFERRED]
+- [[Parameter]] - `uses` [INFERRED]
+- [[ParameterTemplate]] - `uses` [INFERRED]
+- [[Part]] - `uses` [INFERRED]
+- [[PurchaseOrderStatus]] - `uses` [INFERRED]
+- [[ReturnOrderLineStatus]] - `uses` [INFERRED]
+- [[ReturnOrderStatus]] - `uses` [INFERRED]
+- [[SalesOrderStatus]] - `uses` [INFERRED]
+- [[SalesOrderStatusGroups]] - `uses` [INFERRED]
+- [[SalesOrderTest_1]] - `rationale_for` [EXTRACTED]
+- [[StockItem]] - `uses` [INFERRED]
+- [[StockLocation]] - `uses` [INFERRED]
+- [[StockStatus]] - `uses` [INFERRED]
+- [[SupplierPart]] - `uses` [INFERRED]
+- [[SupplierPriceBreak]] - `uses` [INFERRED]
+
+#graphify/rationale #graphify/INFERRED #community/Community_3

@@ -1,0 +1,876 @@
+---
+type: community
+cohesion: 0.02
+members: 825
+---
+
+# Community 5
+
+**Cohesion:** 0.02 - loosely connected
+**Members:** 825 nodes
+
+## Members
+- [[.__init__()_38]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/serializers.py
+- [[.__init__()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/importer/serializers.py
+- [[.__init__()_37]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/serializers.py
+- [[.__init__()_52]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/serializers.py
+- [[.__init__()_4]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/serializers.py
+- [[.__init__()_55]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/serializers.py
+- [[.__init__()_56]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/serializers.py
+- [[.__init__()_5]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/serializers.py
+- [[.__init__()_51]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/serializers.py
+- [[.__init__()_59]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/serializers.py
+- [[.__init__()_57]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/serializers.py
+- [[.__init__()_58]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/serializers.py
+- [[.__init__()_80]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/serializers.py
+- [[.build_optional_field()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[.build_property_field()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[.build_relational_field()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[.build_unknown_field()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[.can_delete()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/models.py
+- [[.can_merge()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/models.py
+- [[.clean_line_item()_4]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[.create()_3]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/importer/serializers.py
+- [[.create()_16]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[.create()_8]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/serializers.py
+- [[.get_allocated_to_sales_orders()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/serializers.py
+- [[.get_api_url()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/serializers.py
+- [[.get_attribute()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/serializers.py
+- [[.get_choices()_2]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/serializers.py
+- [[.get_context_data()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[.get_context_data()_2]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[.get_context_data()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[.get_field_names()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[.get_initial()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[.get_is_plugin()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/serializers.py
+- [[.get_parameter_template()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/supplier/serializers.py
+- [[.get_read_only()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/serializers.py
+- [[.get_source()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/serializers.py
+- [[.get_starred()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/serializers.py
+- [[.get_starred()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/serializers.py
+- [[.handle_transition()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/generic/states/transition.py
+- [[.installed_item_count()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/models.py
+- [[.is_completed()_2]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/models.py
+- [[.is_exporting()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[.is_valid()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/serializers.py
+- [[.is_valid()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/serializers.py
+- [[.place_order()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/models.py
+- [[.sample()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_serializers.py
+- [[.save()_58]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/serializers.py
+- [[.save()_21]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/importer/serializers.py
+- [[.save()_56]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/serializers.py
+- [[.save()_70]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[.save()_51]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/serializers.py
+- [[.save()_50]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/serializers.py
+- [[.save()_48]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/serializers.py
+- [[.save()_49]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/serializers.py
+- [[.save()_23]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/serializers.py
+- [[.save()_24]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/serializers.py
+- [[.save()_4]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[.save()_5]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[.save()_3]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[.save()_6]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[.save()_7]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[.save()_41]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/serializers.py
+- [[.save()_16]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[.save()_17]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[.save()_14]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[.save()_15]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[.save()_11]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[.save()_9]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[.save()_10]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[.save()_8]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[.save()_12]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[.save()_13]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[.save()_60]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/serializers.py
+- [[.save()_57]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/serializers.py
+- [[.skip_create_fields()_5]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[.skip_create_fields()_4]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/serializers.py
+- [[.skip_create_fields()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[.skip_create_fields()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[.skip_create_fields()_6]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[.skip_create_fields()_3]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[.skip_create_fields()_2]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[.test_has_bom()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_bom_item.py
+- [[.test_used_in()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_bom_item.py
+- [[.to_internal_value()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/serializers.py
+- [[.to_internal_value()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/serializers.py
+- [[.to_representation()_10]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[.to_representation()_6]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[.to_representation()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/serializers.py
+- [[.update()_12]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[.update()_13]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[.update()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/serializers.py
+- [[.update()_2]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/serializers.py
+- [[.update()_3]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/serializers.py
+- [[.update()_10]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/serializers.py
+- [[.use_pk_only_optimization()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/serializers.py
+- [[.validate()_20]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/serializers.py
+- [[.validate()_15]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/serializers.py
+- [[.validate()_19]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/serializers.py
+- [[.validate()_16]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/serializers.py
+- [[.validate()_10]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/serializers.py
+- [[.validate()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[.validate()_2]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[.validate()_8]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[.validate()_5]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[.validate()_4]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[.validate()_7]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[.validate()_3]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[.validate()_11]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/serializers.py
+- [[.validate()_12]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/serializers.py
+- [[.validate()_23]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/serializers.py
+- [[.validate()_21]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/serializers.py
+- [[.validate()_22]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/serializers.py
+- [[.validate_accept_incomplete()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[.validate_accept_incomplete()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[.validate_customer()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/serializers.py
+- [[.validate_field_defaults()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/importer/serializers.py
+- [[.validate_field_filters()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/importer/serializers.py
+- [[.validate_field_overrides()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/importer/serializers.py
+- [[.validate_image()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/serializers.py
+- [[.validate_is_superuser()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/serializers.py
+- [[.validate_item()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/serializers.py
+- [[.validate_item()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/serializers.py
+- [[.validate_items()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/serializers.py
+- [[.validate_line_item()_2]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[.validate_line_item()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[.validate_line_item()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[.validate_location()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/barcodes/serializers.py
+- [[.validate_manufacturer()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/serializers.py
+- [[.validate_model()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/barcodes/serializers.py
+- [[.validate_model_type()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/serializers.py
+- [[.validate_part()_2]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/serializers.py
+- [[.validate_part()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/serializers.py
+- [[.validate_part()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/serializers.py
+- [[.validate_pk()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/serializers.py
+- [[.validate_purchase_order()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/barcodes/serializers.py
+- [[.validate_purchase_order()_2]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/barcodes/serializers.py
+- [[.validate_purchase_order()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[.validate_quantity()_3]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/serializers.py
+- [[.validate_quantity()_5]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/serializers.py
+- [[.validate_quantity()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[.validate_quantity()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[.validate_quantity()_2]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[.validate_quantity()_4]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/serializers.py
+- [[.validate_quantity()_6]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/serializers.py
+- [[.validate_reference()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[.validate_rows()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/importer/serializers.py
+- [[.validate_shipment()_2]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/barcodes/serializers.py
+- [[.validate_shipment()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[.validate_shipment()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[.validate_stock_item()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/serializers.py
+- [[.validate_supplier()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/serializers.py
+- [[.validate_value()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/serializers.py
+- [[.validate_value()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/serializers.py
+- [[A serializer for allocating a single stock-item against a SalesOrder shipment.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[A serializer for receiving a single purchase order line item against a purchase]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[API serializer for generic state class information.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/generic/states/serializers.py
+- [[API serializer for generic state information.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/generic/states/serializers.py
+- [[API serializer specifically for the 'me' endpoint.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/serializers.py
+- [[API serializers for uninstalling an installed item from a stock item.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/serializers.py
+- [[Abstract Meta for ExtraLine.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[Abstract Serializer for a ExtraLine object.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[AbstractExtraLineMeta]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[AbstractExtraLineSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[AbstractLineItemSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[AbstractOrderSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[Actually duplicate the BOM.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/serializers.py
+- [[Actually perform the stock merging action.          At this point we are confide]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/serializers.py
+- [[Add an optional 'parameters' field to an API serializer.      Arguments]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/filters.py
+- [[Add an optional 'project_code_detail' field to an API serializer.      Arguments]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/filters.py
+- [[Add an optional 'project_code_label' field to an API serializer.      Arguments]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/filters.py
+- [[Add an optional 'tags' field to an API serializer.      Arguments         defau]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/filters.py
+- [[Add count of entries for each selection list.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/serializers.py
+- [[Add custom annotations to the queryset.          - last_run The last time the t]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/serializers.py
+- [[Add extra context data to the serializer.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[Add extra information to the queryset.          - Number of lines in the Purchas]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[Add location count to each location type.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/serializers.py
+- [[Add some extra annotations to the queryset, performing database queries as effic]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/serializers.py
+- [[Add some extra annotations to the queryset.          Performing database queries]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/serializers.py
+- [[Add some extra annotations to this queryset.          - overdue status (boolea]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[Add some extra annotations to this queryset.          - total_price = purchase]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[AddressBriefSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/serializers.py
+- [[AllUnitListResponseSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/serializers.py
+- [[Allocate stock items against the sales order.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[Annotate extra information to the queryset.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/serializers.py
+- [[Annotate the BomItem queryset with extra information.          Annotations]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/serializers.py
+- [[Annotate the SupplierPart queryset with extra fields.          Fields]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/serializers.py
+- [[Annotate the queryset with extra information.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[Annotate the queryset with the number of subcategories.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/serializers.py
+- [[Annotate the queryset with the number of sublocations.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/serializers.py
+- [[Annotate the supplied queryset with aggregated information.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/serializers.py
+- [[AttachmentSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/serializers.py
+- [[BarcodeAssignMixin]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/barcodes/serializers.py
+- [[BarcodeAssignSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/barcodes/serializers.py
+- [[BarcodePOAllocateSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/barcodes/serializers.py
+- [[BarcodePOReceiveSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/barcodes/serializers.py
+- [[BarcodeSOAllocateSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/barcodes/serializers.py
+- [[BarcodeSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/barcodes/serializers.py
+- [[BarcodeUnassignSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/barcodes/serializers.py
+- [[Base class for managing stock adjustment actions via the API.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/serializers.py
+- [[Base serializer class for report and label templates.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/serializers.py
+- [[Base serializer field set.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/serializers.py
+- [[Base serializer for a settings object.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/serializers.py
+- [[BomItemSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/serializers.py
+- [[BomItemSubstitute]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/models.py
+- [[BomItemSubstituteSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/serializers.py
+- [[Brief serializer for SupplierPriceBreak object.      Used to provide a list of p]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/serializers.py
+- [[Brief serializer for a StockLocation object.      Defined here, rather than stoc]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/serializers.py
+- [[Brief serializer for the UserProfile model.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/serializers.py
+- [[BriefUserProfileSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/serializers.py
+- [[Build an optional field, based on the provided field name.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[Called when the serializer is saved.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/serializers.py
+- [[Called when this serializer is saved.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/serializers.py
+- [[Cannot check in a LineItem with a barcode that is already assigned.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[Catch any django ValidationError thrown at the moment `save` is called, and re-t]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[Catch any django ValidationError, and re-throw as a DRF ValidationError.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[CategoryParameterTemplateSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/serializers.py
+- [[CategorySerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/serializers.py
+- [[CategoryTree]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/serializers.py
+- [[Check all stock items for stale stock.      This function runs daily and checks]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/tasks.py
+- [[Check for parts with missing or outdated pricing information.      Tests for the]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/tasks.py
+- [[Check if the 'accept_incomplete' field is required._1]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[Check if the 'accept_incomplete' field is required.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[Check if the stock quantity has fallen below the minimum threshold of part.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/tasks.py
+- [[Check that a 'valid' part was selected.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/serializers.py
+- [[Check that file is an image.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/serializers.py
+- [[Check that the supplied serial numbers are valid.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/serializers.py
+- [[Class for unit testing BomItem model.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_bom_item.py
+- [[Combination of InvenTreeTaggitSerializer and InvenTreeModelSerializer.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[CompanyBriefSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/serializers.py
+- [[Complete the provided rows.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/importer/serializers.py
+- [[ConfigSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/serializers.py
+- [[Construct a set of fields for this serializer.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[Construct a set of fields for this serializer._1]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[Construct a set of fields for this serializer._2]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[Construct initial data for the serializer.          Use the 'default' values spe]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[Construct the DataExportOptionsSerializer.          - The exact nature of the av]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/data_exporter/serializers.py
+- [[ContactSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/serializers.py
+- [[ContentTypeField]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[ContentTypeSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/serializers.py
+- [[Convert ContentType instance to string representation.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[Convert an empty string to None for the model_type field.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/serializers.py
+- [[Convert the Money object to a decimal value for representation.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[ConvertStockItemSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/serializers.py
+- [[Create a TaskDetailSerializer instance from a django_q Task.          Arguments]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/serializers.py
+- [[Create a new selection list. Save the choices separately.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/serializers.py
+- [[CurrencyExchangeSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/serializers.py
+- [[Custom annotation for the serializer queryset.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[Custom context information for this serializer.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[Custom create method which supports field adjustment.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[Custom field for DRF with custom scheme validators.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/fields.py
+- [[Custom image serializer.      On upload, validate that the file is a valid image]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[Custom init routine for the serializer.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/serializers.py
+- [[Custom initialization for PartStocktakeSerializer.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/serializers.py
+- [[Custom initialization method for PartSerializer.          - Allows us to optiona]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/serializers.py
+- [[Custom method for creating a new Part instance using this serializer.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/serializers.py
+- [[Custom query annotations for the PartTestTemplate serializer.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/serializers.py
+- [[Custom query filters for the Company app.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/filters.py
+- [[Custom search filter which allows adjusting of search terms dynamically.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/filters.py
+- [[Custom serializer for 'MoneyField', which ensures that passed values are numeric]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[Custom serializer for decimal fields.      Solves the following issues     - Th]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[Custom serializers for selecting currency option.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[Custom update functionality for the serializer.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/serializers.py
+- [[Custom update method to pass the user information through to the instance.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/serializers.py
+- [[Custom validation for the 'line_item' field.          - Ensure the line_item is]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[Custom validation for the 'quantity' field.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[Custom validation for the serializer.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[Custom validation for the serializer.          - Ensure line items are provided]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[Custom validation for the serializer.          - Ensure the shipment reference i]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[Custom validation for the serializer.          - Ensure the supplier_part field]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[Custom validation for the serializer.          - Integer quantity must be provid]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[CustomStateSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/serializers.py
+- [[CustomUnitSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/serializers.py
+- [[DRF serializer class for converting a StockItem to a valid variant part.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/serializers.py
+- [[DRF serializer for CustomUnit model.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/serializers.py
+- [[DRF serializer for allocation of serial numbers against a sales order  shipment]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[DRF serializer for allocation of stock items against a sales order  shipment.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[DRF serializer for manually marking a sales order as complete.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[DRF serializer for server error messages.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/serializers.py
+- [[DataClass used to optionally enable a serializer field.      This is used in con]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[DataExportSerializerMixin_1]] - code
+- [[DataExportSerializerMixin]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/data_exporter/mixins.py
+- [[DataImportAcceptRowSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/importer/serializers.py
+- [[DataImportColumnMapSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/importer/serializers.py
+- [[DataImportExportSerializerMixin]] - code
+- [[DataImportExportSerializerMixin_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/mixins.py
+- [[DataImportRowSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/importer/serializers.py
+- [[DataImportSessionSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/importer/serializers.py
+- [[De-stringify the field filters.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/importer/serializers.py
+- [[De-stringify the field overrides.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/importer/serializers.py
+- [[DefaultLocationSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/serializers.py
+- [[Detailed information about a stock location.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/serializers.py
+- [[Determine at runtime whether an OptionalField should be included.          Argum]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[Determine if we are exporting data.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[Determine which optional fields will be included on this serializer.          No]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[Disable the PK optimization.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/serializers.py
+- [[DuplicateOrderSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[DuplicatePartSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/serializers.py
+- [[EmailMessageSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/serializers.py
+- [[Empty serializer for use in testing.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[Ensure that the line_item is valid.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[Ensure that the provided dataset is valid.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/serializers.py
+- [[Ensure that the provided part is a valid option for the stock item.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/serializers.py
+- [[Ensure that the selection list is not locked._1]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/serializers.py
+- [[Ensure that the selection list is not locked.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/serializers.py
+- [[Ensure that the stock item is valid for conversion.          Rules         - If]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/serializers.py
+- [[Ensure the 'remote_image' field is skipped when creating a new instance.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[Ensure the provided Part instance is valid.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/serializers.py
+- [[Ensure the stock item is valid.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/serializers.py
+- [[Enumeration of ruleset names.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/ruleset.py
+- [[ErrorMessageSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/serializers.py
+- [[Expanded valiadation for auth.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/serializers.py
+- [[Extra validation for this serializer.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/serializers.py
+- [[Extract manufacturer data and process ManufacturerPart.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/serializers.py
+- [[FailedTaskSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/serializers.py
+- [[File that contains the class definition.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/serializers.py
+- [[Filter a queryset by content type.      Arguments         queryset The queryse]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/filters.py
+- [[Filter the Parameter model based on the provided template and value.      Argume]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/filters.py
+- [[Filter the provided queryset by parametric data.      Arguments         queryse]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/filters.py
+- [[FilterableSerializerMixin]] - code
+- [[FilterableSerializerMixin_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[FilteredSerializers]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_serializers.py
+- [[Find all optional fields defined on this serializer.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[FlagSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/serializers.py
+- [[Function to resolve generic object reference to source.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/serializers.py
+- [[Generate a dictionary of permissions for a given set of permissions.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/serializers.py
+- [[Generate a random password of given length.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/serializers.py
+- [[GenerateBatchCodeSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/serializers.py
+- [[GenerateSerialNumberSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/serializers.py
+- [[Generic serializer class for adjusting the status of an order.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[GenericReferencedSettingSerializer]] - code
+- [[GenericReferencedSettingSerializer_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/serializers.py
+- [[GenericStateValueSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/generic/states/serializers.py
+- [[GlobalSettingsSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/serializers.py
+- [[Handle a special case where an OptionalField shadows a model property.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[Handle a special case where an OptionalField shadows a model relation.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[Handle a state transition for an object.          Args             current_stat]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/generic/states/transition.py
+- [[Handle custom initialization for the serializer.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/serializers.py
+- [[IconPackageSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/serializers.py
+- [[IconSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/serializers.py
+- [[ImportParameterSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/supplier/serializers.py
+- [[Indicator if driver for machine is available.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/serializers.py
+- [[Inherits the standard Django ModelSerializer class, but also ensures that the un]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[InitialStockSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/serializers.py
+- [[InitialSupplierSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/serializers.py
+- [[Initialize the serializer.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/serializers.py
+- [[Initialize the status selector.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/serializers.py
+- [[Initialize this serializer with extra detail fields as required.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/serializers.py
+- [[Install a plugin from a package registry and set operational results as instance]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/serializers.py
+- [[Install the selected stock item into this one.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/serializers.py
+- [[InstallStockItemSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/serializers.py
+- [[InvenTreeAttachmentSerializerField]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[InvenTreeCurrencySerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[InvenTreeCustomStatusSerializerMixin_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/generic/states/fields.py
+- [[InvenTreeDecimalField]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[InvenTreeImageSerializerField]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[InvenTreeModelSerializer]] - code
+- [[InvenTreeModelSerializer_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[InvenTreeMoneySerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[InvenTreeRestURLField]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/fields.py
+- [[InvenTreeTagModelSerializer_1]] - code
+- [[InvenTreeTagModelSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[InvenTreeTaggitSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[JSON serializers for Company app.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/serializers.py
+- [[LabelPrintSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/serializers.py
+- [[LabelTemplateSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/serializers.py
+- [[LocationBriefSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/serializers.py
+- [[LocationSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/serializers.py
+- [[LocationTreeSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/serializers.py
+- [[Lookup the PluginConfig object based on the slug.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/serializers.py
+- [[Low level tests for serializers.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_serializers.py
+- [[Make sure all needed values are provided and that the items can be merged.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/serializers.py
+- [[Make sure item can be merged.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/serializers.py
+- [[Make sure items are provided.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/serializers.py
+- [[Make sure items were provided.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/serializers.py
+- [[Make sure provided company is customer.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/serializers.py
+- [[Meta_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/serializers.py
+- [[Meta_5]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_serializers.py
+- [[Meta class for BarcodeAssignSerializer.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/barcodes/serializers.py
+- [[Meta class for BarcodeUnlinkSerializer.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/barcodes/serializers.py
+- [[Meta class for GenericStateClassSerializer.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/generic/states/serializers.py
+- [[Meta class for GenericStateValueSerializer.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/generic/states/serializers.py
+- [[Meta class options for the serializer._1]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/importer/serializers.py
+- [[Meta class options for the serializer.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/importer/serializers.py
+- [[Meta options for ApiTokenSerializer.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/serializers.py
+- [[Meta options for BriefUserProfileSerializer.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/serializers.py
+- [[Meta options for ContentTypeSerializer.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/serializers.py
+- [[Meta options for CustomStateSerializer.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/serializers.py
+- [[Meta options for CustomUnitSerializer.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/serializers.py
+- [[Meta options for EmailMessageSerializer.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/serializers.py
+- [[Meta options for GetAuthTokenSerializer.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/serializers.py
+- [[Meta options for GlobalSettingsSerializer.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/serializers.py
+- [[Meta options for NewsFeedEntrySerializer.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/serializers.py
+- [[Meta options for NotesImageSerializer.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/serializers.py
+- [[Meta options for NotificationMessageSerializer.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/serializers.py
+- [[Meta options for ParameterSerializer.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/serializers.py
+- [[Meta options for ParameterTemplateSerializer.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/serializers.py
+- [[Meta options for ProjectCodeSerializer.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/serializers.py
+- [[Meta options for SelectionEntrySerializer.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/serializers.py
+- [[Meta options for SelectionListSerializer.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/serializers.py
+- [[Meta options for TestEmailSerializer.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/serializers.py
+- [[Meta options for UserProfileSerializer.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/serializers.py
+- [[Meta options for UserSetPasswordSerializer.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/serializers.py
+- [[Meta options for UserSettingsSerializer.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/serializers.py
+- [[Meta options for the ImportParameterSerializer.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/supplier/serializers.py
+- [[Meta options for the ImportResultSerializer.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/supplier/serializers.py
+- [[Meta options for the SearchResultSerializer.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/supplier/serializers.py
+- [[Metaclass defines serializer fields._1]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/serializers.py
+- [[Metaclass defines serializer fields._2]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/serializers.py
+- [[Metaclass defines serializer fields.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/serializers.py
+- [[Metaclass defines serializer fields._3]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/serializers.py
+- [[Metaclass defining serializer fields._7]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/serializers.py
+- [[Metaclass defining serializer fields._8]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/serializers.py
+- [[Metaclass defining serializer fields._9]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/serializers.py
+- [[Metaclass defining serializer fields._10]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/serializers.py
+- [[Metaclass defining serializer fields._11]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/serializers.py
+- [[Metaclass defining serializer fields._2]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/serializers.py
+- [[Metaclass defining serializer fields.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/serializers.py
+- [[Metaclass defining serializer fields._1]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/serializers.py
+- [[Metaclass defining serializer fields._12]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/serializers.py
+- [[Metaclass defining serializer fields._13]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/serializers.py
+- [[Metaclass defining serializer fields._3]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/serializers.py
+- [[Metaclass defining serializer fields._4]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/serializers.py
+- [[Metaclass defining serializer fields._5]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/serializers.py
+- [[Metaclass defining serializer fields._6]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/serializers.py
+- [[Metaclass for serializer.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/serializers.py
+- [[Metaclass options for ErrorMessageSerializer.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/serializers.py
+- [[Metaclass options for serializer.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/serializers.py
+- [[Metaclass options for the UserCreateSerializer.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/serializers.py
+- [[Metaclass options for the serializer.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/serializers.py
+- [[Metaclass options for the serializer._1]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/serializers.py
+- [[Metaclass options for the serializer._2]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/serializers.py
+- [[Metaclass options for this serializer.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/data_exporter/serializers.py
+- [[Metaclass options.          By default, there are no fields required for this se]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[Metaclass options.          Extends the ExtendedUserSerializer.Meta options,]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/serializers.py
+- [[Mixin class for adding data importexport functionality to a DRF serializer.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/mixins.py
+- [[Mixin class which allows downloading an 'image' from a remote URL.      Adds the]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[Mixin that enables filtering of marked fields on a serializer.      Use the `Opt]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[Mixin to ensure custom status fields are set.      This mixin must be used to en]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/generic/states/fields.py
+- [[NewsFeedEntrySerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/serializers.py
+- [[NotesFieldMixin_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[NotesImageSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/serializers.py
+- [[NotificationMessageSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/serializers.py
+- [[Notify a user about all their stale stock items in one consolidated email.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/tasks.py
+- [[Notify interested users that a part is 'low stock'.      Rules     - Triggered]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/tasks.py
+- [[Only a superuser account can adjust this value!]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/serializers.py
+- [[OptionalField]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[Order the provided queryset by a parameter value.      Arguments         querys]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/filters.py
+- [[OrderAdjustSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[Overridden update method to re-add the tagmanager.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[Override the DRF native FileField serializer, to remove the leading server path.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[Override the constructor for the DataImportSession serializer.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/importer/serializers.py
+- [[Override the model_type field to provide dynamic choices.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/serializers.py
+- [[Override the save method to capture the user information.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/serializers.py
+- [[Override the save method to handle the model_type field.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/serializers.py
+- [[OwnerSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/serializers.py
+- [[ParameterSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/serializers.py
+- [[ParameterTemplateSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/serializers.py
+- [[PartBomValidateSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/serializers.py
+- [[PartBriefSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/serializers.py
+- [[PartCopyBOMSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/serializers.py
+- [[PartInternalPriceSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/serializers.py
+- [[PartPricing]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/models.py
+- [[PartPricingCurrencySerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/serializers.py
+- [[PartPricingSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/serializers.py
+- [[PartRelationSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/serializers.py
+- [[PartRequirementsSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/serializers.py
+- [[PartSalePriceSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/serializers.py
+- [[PartSellPriceBreak]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/models.py
+- [[PartSerialNumberSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/serializers.py
+- [[PartSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/serializers.py
+- [[PartStar]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/models.py
+- [[PartStarSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/serializers.py
+- [[PartStocktake]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/models.py
+- [[PartStocktakeGenerateSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/serializers.py
+- [[PartStocktakeSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/serializers.py
+- [[PartTestTemplateSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/serializers.py
+- [[PartThumbSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/serializers.py
+- [[PartThumbSerializerUpdate]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/serializers.py
+- [[PendingTaskSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/serializers.py
+- [[Perform data validation for this serializer.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[Perform lazy initialization of OptionalFields.          The DRF framework calls]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[Perform the allocation of items against this order.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[Perform validation for the BomItem quantity field.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/serializers.py
+- [[Permissions associated with the user.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/serializers.py
+- [[PluginActivateSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/serializers.py
+- [[PluginAdminDetailSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/serializers.py
+- [[PluginConfigEmptySerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/serializers.py
+- [[PluginConfigInstallSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/serializers.py
+- [[PluginConfigSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/serializers.py
+- [[PluginRegistryErrorSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/serializers.py
+- [[PluginRegistryStatusSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/serializers.py
+- [[PluginRelationSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/serializers.py
+- [[PluginReloadSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/serializers.py
+- [[PluginSettingSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/serializers.py
+- [[PluginUIFeatureSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/ui/serializers.py
+- [[PluginUninstallSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/serializers.py
+- [[PluginUserSetting]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/models.py
+- [[PluginUserSettingSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/serializers.py
+- [[Prefetch related fields for the queryset.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/serializers.py
+- [[ProjectCodeSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/serializers.py
+- [[Provides a brief serializer for a StockLocation object.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/serializers.py
+- [[PurchaseOrderCancelSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[PurchaseOrderCompleteSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[PurchaseOrderExtraLineSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[PurchaseOrderHoldSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[PurchaseOrderIssueSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[PurchaseOrderLineItemReceiveSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[PurchaseOrderLineItemSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[PurchaseOrderReceiveSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[Rebuild all SupplierPart objects for a given part.      This function is called]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/tasks.py
+- [[Recalculate the BOM checksum for all assemblies which include the specified Part]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/tasks.py
+- [[Reload the plugin registry.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/serializers.py
+- [[RemoteImageMixin]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[Remove unused fields before returning field names.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[ReportAssetSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/serializers.py
+- [[ReportPrintSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/serializers.py
+- [[ReportSerializerBase]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/serializers.py
+- [[ReportSnippetSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/serializers.py
+- [[ReportTemplateSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/serializers.py
+- [[RestURLField]] - code
+- [[Return true if the part is starred by the current user.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/serializers.py
+- [[Return True if the category is directly starred by the current user.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/serializers.py
+- [[Return True if the model is a plugin model.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/serializers.py
+- [[Return True if the token is currently used to call the endpoint.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/serializers.py
+- [[Return a custom set of options for the StockItem status adjustment field.      I]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/serializers.py
+- [[Return a list of 'fields' which should be skipped for model creation.          T]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[Return a list of fields to skip when creating a new object.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[Return a list of permissions associated with the group.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/serializers.py
+- [[Return the API url associated with this serializer.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/serializers.py
+- [[Return the ID of the parameter template if available.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/supplier/serializers.py
+- [[Return the allocated sales order quantity.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/serializers.py
+- [[Return the configuration data as a dictionary.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/serializers.py
+- [[Return the internal value of the setting.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/serializers.py
+- [[Return the object instance, not the attribute value.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/serializers.py
+- [[Return the order object associated with this serializer.          Note It is pa]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[Return the provided items into stock.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/serializers.py
+- [[Return the value of the setting.          Protected settings are returned as ']] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/serializers.py
+- [[ReturnOrderCancelSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[ReturnOrderCompleteSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[ReturnOrderExtraLineSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[ReturnOrderHoldSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[ReturnOrderIssueSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[ReturnOrderLineItemReceiveSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[ReturnOrderLineItemSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[ReturnOrderReceiveSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[Roles associated with the user.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/serializers.py
+- [[RuleSetEnum]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/ruleset.py
+- [[Run BOM validation for the specified Part.      Arguments         part_id The]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/tasks.py
+- [[Run validation against the provided shipment instance.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[SalesOrderAllocationSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[SalesOrderCancelSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[SalesOrderCompleteSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[SalesOrderExtraLineSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[SalesOrderHoldSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[SalesOrderIssueSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[SalesOrderLineItemSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[SalesOrderSerialAllocationSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[SalesOrderShipmentAllocationItemSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[SalesOrderShipmentAllocationSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[SalesOrderShipmentCompleteSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[SalesOrderShipmentSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[Sample serializer for testing FilterableSerializerMixin.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_serializers.py
+- [[SampleSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_serializers.py
+- [[Save the Company instance.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/serializers.py
+- [[Save the Parameter instance.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/serializers.py
+- [[Save the Part instance.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/serializers.py
+- [[Save the serializer to 'cancel' the order._1]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[Save the serializer to 'cancel' the order.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[Save the serializer to 'complete' the order._1]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[Save the serializer to 'complete' the order.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[Save the serializer to 'hold' the order._1]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[Save the serializer to 'hold' the order.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[Save the serializer to 'issue' the order.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[Save the serializer to 'issue' the order._1]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[Save the serializer to cancel the order.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[Save the serializer to change the status of the selected stock items.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/serializers.py
+- [[Save the serializer to complete the SalesOrder.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[Save the serializer to convert the StockItem to the selected Part.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/serializers.py
+- [[Save the serializer to place the SalesOrder on hold.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[Saving this serializer marks the returned items as received.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[Scheduled tasks for creating automated 'stocktake' entries.      A stocktake e]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/tasks.py
+- [[ScheduledTask]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tasks.py
+- [[ScheduledTaskSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/serializers.py
+- [[SelectionEntrySerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/serializers.py
+- [[SelectionListSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/serializers.py
+- [[Send an e email to the user after creation.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/serializers.py
+- [[Serialize the provided StockItem.          Returns             A list of StockI]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/serializers.py
+- [[SerializeStockItemSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/serializers.py
+- [[Serializer class for label template model.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/serializers.py
+- [[Serializer class for printing a label.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/serializers.py
+- [[Serializer class for printing a report.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/serializers.py
+- [[Serializer class for report template model.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/serializers.py
+- [[Serializer class for returning stock item(s) into stock.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/serializers.py
+- [[Serializer class for the Attachment model.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/serializers.py
+- [[Serializer class for the Contact model.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/serializers.py
+- [[Serializer class for the ReportAsset model.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/serializers.py
+- [[Serializer class for the ReportSnippet model.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/serializers.py
+- [[Serializer field for representing a tree path.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[Serializer field which represents a ContentType as 'app_label.model_name'.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[Serializer for Address Model (limited).]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/serializers.py
+- [[Serializer for BomItem object.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/serializers.py
+- [[Serializer for Company object (full detail).]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/serializers.py
+- [[Serializer for Company object (limited detail).]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/serializers.py
+- [[Serializer for ManufacturerPart object.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/serializers.py
+- [[Serializer for Part BOM information.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/serializers.py
+- [[Serializer for Part pricing information.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/serializers.py
+- [[Serializer for Part requirements.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/serializers.py
+- [[Serializer for Part serial number information.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/serializers.py
+- [[Serializer for PartCategory tree.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/serializers.py
+- [[Serializer for PartCategory.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/serializers.py
+- [[Serializer for StockItemTracking model.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/serializers.py
+- [[Serializer for StockLocationType model.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/serializers.py
+- [[Serializer for SupplierPart object.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/serializers.py
+- [[Serializer for SupplierPriceBreak object.      Note that this inherits from the]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/serializers.py
+- [[Serializer for a 'Group'.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/serializers.py
+- [[Serializer for a GenericReferencedSetting model.      Args         MODEL model]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/serializers.py
+- [[Serializer for a ImportParameter.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/supplier/serializers.py
+- [[Serializer for a PartRelated model.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/serializers.py
+- [[Serializer for a PartStar object.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/serializers.py
+- [[Serializer for a PluginConfig with admin details.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/serializers.py
+- [[Serializer for a PurchaseOrder object.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[Serializer for a PurchaseOrderExtraLine object.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[Serializer for a ReturnOrderExtraLine object.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[Serializer for a ReturnOrderLineItem object.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[Serializer for a RuleSet.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/serializers.py
+- [[Serializer for a SalesOrderExtraLine object.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[Serializer for a SalesOrderLineItem object.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[Serializer for a StockItem.      - Includes serialization for the linked part]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/serializers.py
+- [[Serializer for a User with a bit more info.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/serializers.py
+- [[Serializer for a User.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/serializers.py
+- [[Serializer for a background task detail.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/serializers.py
+- [[Serializer for a list of icons.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/serializers.py
+- [[Serializer for a plugin field. Uses the 'slug' of the plugin as the lookup.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/serializers.py
+- [[Serializer for a roles associated with a given user.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/serializers.py
+- [[Serializer for a search result.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/supplier/serializers.py
+- [[Serializer for a selection entry.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/serializers.py
+- [[Serializer for a selection list.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/serializers.py
+- [[Serializer for a simple tree view.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/serializers.py
+- [[Serializer for a single StockItem with in StockAssignment request.      Here, th]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/serializers.py
+- [[Serializer for a single StockItem within a stock adjustment request.      Requir]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/serializers.py
+- [[Serializer for a single StockItem within the StockMergeSerializer class.      He]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/serializers.py
+- [[Serializer for activating or deactivating a plugin.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/serializers.py
+- [[Serializer for adding initial supplier  manufacturer information.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/serializers.py
+- [[Serializer for adding stock to stock item(s).]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/serializers.py
+- [[Serializer for an Owner (either a user or a group).]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/serializers.py
+- [[Serializer for an icon.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/serializers.py
+- [[Serializer for an individual failed task object.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/serializers.py
+- [[Serializer for an individual pending task object.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/serializers.py
+- [[Serializer for an individual scheduled task object.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/serializers.py
+- [[Serializer for assigning one (or more) stock items to a customer.      This is a]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/serializers.py
+- [[Serializer for background task overview.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/serializers.py
+- [[Serializer for cancelling a PurchaseOrder.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[Serializer for cancelling a ReturnOrder.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[Serializer for changing status of multiple StockItem objects.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/serializers.py
+- [[Serializer for completing (shipping) a SalesOrderShipment.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[Serializer for completing a ReturnOrder.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[Serializer for completing a purchase order.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[Serializer for copying a BOM from another part.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/serializers.py
+- [[Serializer for counting stock items.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/serializers.py
+- [[Serializer for creating a new User.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/serializers.py
+- [[Serializer for creating initial stock quantity.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/serializers.py
+- [[Serializer for extra serial number information about a stock item.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/serializers.py
+- [[Serializer for feature flags.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/serializers.py
+- [[Serializer for generating PartStocktake entries.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/serializers.py
+- [[Serializer for generating a batch code.      Any of the provided write-only fiel]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/serializers.py
+- [[Serializer for generating one or multiple serial numbers.      Any of the provid]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/serializers.py
+- [[Serializer for installing a new plugin.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/serializers.py
+- [[Serializer for installing a stock item into a given part.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/serializers.py
+- [[Serializer for issuing (sending) a purchase order.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[Serializer for issuing a ReturnOrder.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[Serializer for issuing a SalesOrder.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[Serializer for marking a SalesOrder as cancelled.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[Serializer for merging two (or more) stock items together.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/serializers.py
+- [[Serializer for placing a PurchaseOrder on hold.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[Serializer for placing a SalesOrder on hold.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[Serializer for plugin registry status.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/serializers.py
+- [[Serializer for receiving a single line item against a ReturnOrder.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[Serializer for receiving items against a ReturnOrder.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[Serializer for removing stock from stock item(s).]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/serializers.py
+- [[Serializer for setting a password for a user.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/serializers.py
+- [[Serializer for specifying options when duplicating a Part.      The fields in th]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/serializers.py
+- [[Serializer for the 'image' field of the Part model.      Used to serve and displ]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/serializers.py
+- [[Serializer for the Address Model.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/serializers.py
+- [[Serializer for the AllUnitList.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/serializers.py
+- [[Serializer for the AllUnitListResponseSerializer.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/serializers.py
+- [[Serializer for the ApiToken model.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/serializers.py
+- [[Serializer for the BomItemSubstitute class.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/serializers.py
+- [[Serializer for the DataImportRow model.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/importer/serializers.py
+- [[Serializer for the DataImportSession model.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/importer/serializers.py
+- [[Serializer for the DataOutput model.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/serializers.py
+- [[Serializer for the EmailMessage model.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/serializers.py
+- [[Serializer for the GetAuthToken API endpoint.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/serializers.py
+- [[Serializer for the InvenTree configuration.      This is a read-only serializer.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/serializers.py
+- [[Serializer for the InvenTreeUserSetting model.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/serializers.py
+- [[Serializer for the NotesImage model.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/serializers.py
+- [[Serializer for the Parameter model.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/serializers.py
+- [[Serializer for the ParameterTemplate model.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/serializers.py
+- [[Serializer for the PartCategoryParameterTemplate model.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/serializers.py
+- [[Serializer for the PartStocktake model.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/serializers.py
+- [[Serializer for the PluginUserSetting model.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/serializers.py
+- [[Serializer for the ProjectCode model.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/serializers.py
+- [[Serializer for the ReturnOrder model class.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[Serializer for the SalesOrder model class.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[Serializer for the SalesOrderShipment class.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[Serializer for the UserProfile model.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/serializers.py
+- [[Serializer for the custom state model.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/serializers.py
+- [[Serializer for the machine restart response.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/serializers.py
+- [[Serializer for transferring (moving) stock item(s).]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/serializers.py
+- [[Serializer for updating Part thumbnail.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/serializers.py
+- [[Serializer metaclass options.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[Serializer metaclass._1]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/serializers.py
+- [[Serializer metaclass.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/serializers.py
+- [[Serializer mixin for handling 'notes' fields.      The 'notes' field will be hid]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[Serializer mixin which provides total price fields.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[Serializer to allow annotating the schema to use String on currency fields.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/serializers.py
+- [[Serializer to allow annotating the schema to use int where custom values may be]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/serializers.py
+- [[Serializer to send a test email.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/serializers.py
+- [[Serializer validation.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[Serializers for holding a ReturnOrder.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[SettingsSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/serializers.py
+- [[SettingsValueField]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/serializers.py
+- [[Skip these fields when instantiating a new Part instance.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/serializers.py
+- [[Skip these fields when instantiating a new object._1]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[Skip these fields when instantiating a new object._2]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[Skip these fields when instantiating a new object.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[StockAddSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/serializers.py
+- [[StockAdjustmentItemSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/serializers.py
+- [[StockAdjustmentSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/serializers.py
+- [[StockAssignmentItemSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/serializers.py
+- [[StockAssignmentSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/serializers.py
+- [[StockChangeStatusSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/serializers.py
+- [[StockCountSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/serializers.py
+- [[StockItemSerialNumbersSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/serializers.py
+- [[StockItemSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/serializers.py
+- [[StockItemTestResultSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/serializers.py
+- [[StockLocationTypeSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/serializers.py
+- [[StockMergeItemSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/serializers.py
+- [[StockMergeSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/serializers.py
+- [[StockRemoveSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/serializers.py
+- [[StockReturnSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/serializers.py
+- [[StockStatusCustomSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/serializers.py
+- [[StockTrackingSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/serializers.py
+- [[StockTransferSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/serializers.py
+- [[SupplierPartSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/serializers.py
+- [[SupplierPriceBreakBriefSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/serializers.py
+- [[TaggitSerializer]] - code
+- [[TaskDetailSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/serializers.py
+- [[TaskOverviewSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/serializers.py
+- [[Test BOM item hash encoding.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_bom_item.py
+- [[Test integer validation for BomItem.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_bom_item.py
+- [[Test simple sample setup.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_serializers.py
+- [[Test that BOM line attrition values are calculated correctly.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_bom_item.py
+- [[Test that BomItem objects work correctly for a 'locked' assembly.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_bom_item.py
+- [[Test that ValidationError is correctly raised for an invalid BOM item.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_bom_item.py
+- [[Test that the 'used_in_count' attribute is calculated correctly.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_bom_item.py
+- [[Test that the returned amount is a valid Decimal.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[Test that we get an appropriate error when we create a BomItem which points to i]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_bom_item.py
+- [[Test the 'rounding_multiple' attribute.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_bom_item.py
+- [[Test the 'setup_quantity' attribute.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_bom_item.py
+- [[Test the has_bom attribute.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_bom_item.py
+- [[Test the string representation of a BOMItem.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_bom_item.py
+- [[TestEmailSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/serializers.py
+- [[Tests for BOM item substitutes.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_bom_item.py
+- [[Tests for functionality of FilteredSerializerMixin  adjacent functions.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_serializers.py
+- [[Tests for the 'consumable' BomItem field.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_bom_item.py
+- [[TotalPriceMixin_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[TreePathSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[Uninstall stock item.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/serializers.py
+- [[Uninstall the specified plugin.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/serializers.py
+- [[UninstallStockItemSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/serializers.py
+- [[Unit]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/serializers.py
+- [[Update an existing selection list. Save the choices separately.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/serializers.py
+- [[Update cached pricing data for the specified PartPricing instance.      Argument]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/tasks.py
+- [[Update the user instance with the provided data.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/serializers.py
+- [[Updated from httpsgithub.comglemmaPauldjango-taggit-serializer.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[UserSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/serializers.py
+- [[UserSettingsSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/serializers.py
+- [[Validate item.          Ensures         - is in stock         - Is salable]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/serializers.py
+- [[Validate supplied pricing data.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/serializers.py
+- [[Validate that the quantity value is correct.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/serializers.py
+- [[Validate the data for the serializer.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/serializers.py
+- [[Validate the quantity value._1]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/serializers.py
+- [[Validate the quantity value.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/serializers.py
+- [[Validate the selected image file.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/serializers.py
+- [[Validate the selected stock item.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/serializers.py
+- [[Validate the selected stock items.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/serializers.py
+- [[Validate the selection list. Choices are validated separately.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/serializers.py
+- [[Validate the shipment.          - Must point to the same order         - Must no]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[Validate the test result data.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/serializers.py
+- [[Validation for a single line item.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[Validation for the 'purchase_order' field.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[Validation for the 'quantity' field.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[Validation for the provided Manufacturer.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/serializers.py
+- [[Validation for the provided Supplier.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/serializers.py
+- [[Validation for the serializer.          - Ensure the serial_numbers and quantity]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[base_fields()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/serializers.py
+- [[cancel_order()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/models.py
+- [[complete_order()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/models.py
+- [[enable_parameters_filter()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/filters.py
+- [[enable_project_code_filter()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/filters.py
+- [[enable_project_label_filter()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/filters.py
+- [[enable_tags_filter()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/filters.py
+- [[extra_line_fields()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[filter_content_type()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/filters.py
+- [[filters.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/filters.py
+- [[hold_order()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/models.py
+- [[issue_order()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/models.py
+- [[line_fields()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[order()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[order_fields()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[serializers.py_6]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/serializers.py
+- [[serializers.py_15]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/serializers.py
+- [[serializers.py_11]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/data_exporter/serializers.py
+- [[serializers.py_9]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/generic/states/serializers.py
+- [[serializers.py_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/importer/serializers.py
+- [[serializers.py_14]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[serializers.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[serializers.py_12]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/serializers.py
+- [[serializers.py_5]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/barcodes/serializers.py
+- [[serializers.py_3]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/ui/serializers.py
+- [[serializers.py_2]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/serializers.py
+- [[serializers.py_10]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/serializers.py
+- [[serializers.py_13]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/serializers.py
+- [[stock_item_adjust_status_options()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/serializers.py
+- [[test_serializers.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_serializers.py
+
+## Live Query (requires Dataview plugin)
+
+```dataview
+TABLE source_file, type FROM #community/Community_5
+SORT file.name ASC
+```
+
+## Connections to other communities
+- 1432 edges to [[_COMMUNITY_Community 2]]
+- 1419 edges to [[_COMMUNITY_Core Models & Admin]]
+- 999 edges to [[_COMMUNITY_Community 3]]
+- 319 edges to [[_COMMUNITY_Community 4]]
+- 156 edges to [[_COMMUNITY_Community 1]]
+- 59 edges to [[_COMMUNITY_Community 6]]
+- 45 edges to [[_COMMUNITY_Community 13]]
+- 35 edges to [[_COMMUNITY_Inventory & Order Logic]]
+- 33 edges to [[_COMMUNITY_Community 10]]
+- 29 edges to [[_COMMUNITY_Utilities & Auth]]
+- 25 edges to [[_COMMUNITY_Community 14]]
+- 18 edges to [[_COMMUNITY_Community 21]]
+- 17 edges to [[_COMMUNITY_Community 18]]
+- 16 edges to [[_COMMUNITY_Community 12]]
+- 15 edges to [[_COMMUNITY_Community 19]]
+- 12 edges to [[_COMMUNITY_Community 22]]
+- 11 edges to [[_COMMUNITY_Community 23]]
+- 9 edges to [[_COMMUNITY_Community 17]]
+- 9 edges to [[_COMMUNITY_Community 11]]
+- 3 edges to [[_COMMUNITY_Community 15]]
+- 2 edges to [[_COMMUNITY_Community 7]]
+- 1 edge to [[_COMMUNITY_Community 25]]
+- 1 edge to [[_COMMUNITY_Community 16]]
+
+## Top bridge nodes
+- [[InvenTreeRestURLField]] - degree 77, connects to 11 communities
+- [[BomItemSubstitute]] - degree 402, connects to 9 communities
+- [[FilterableSerializerMixin_1]] - degree 367, connects to 8 communities
+- [[PartSellPriceBreak]] - degree 382, connects to 7 communities
+- [[PartStocktake]] - degree 336, connects to 7 communities

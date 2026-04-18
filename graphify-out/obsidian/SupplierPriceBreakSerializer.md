@@ -1,0 +1,88 @@
+---
+source_file: "/Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/serializers.py"
+type: "code"
+community: "Community 2"
+location: "L569"
+tags:
+  - graphify/code
+  - graphify/INFERRED
+  - community/Community_2
+---
+
+# SupplierPriceBreakSerializer
+
+## Connections
+- [[API endpoint for a single Address object.]] - `uses` [INFERRED]
+- [[API endpoint for accessing a list of Company objects.      Provides two methods]] - `uses` [INFERRED]
+- [[API endpoint for detail of a single Company object.]] - `uses` [INFERRED]
+- [[API endpoint for detail view of ManufacturerPart object.      - GET Retrieve de]] - `uses` [INFERRED]
+- [[API endpoint for detail view of SupplierPart object.      - GET Retrieve detail]] - `uses` [INFERRED]
+- [[API endpoint for list view of Address model.]] - `uses` [INFERRED]
+- [[API endpoint for list view of Company model.]] - `uses` [INFERRED]
+- [[API endpoint for list view of ManufacturerPart object.      - GET Return list o]] - `uses` [INFERRED]
+- [[API endpoint for list view of SupplierPart object.      - GET Return list of Su]] - `uses` [INFERRED]
+- [[API endpoint for list view of SupplierPriceBreak object.      - GET Retrieve li]] - `uses` [INFERRED]
+- [[API filters for the SupplierPartList endpoint.]] - `uses` [INFERRED]
+- [[AddressDetail]] - `uses` [INFERRED]
+- [[AddressList]] - `uses` [INFERRED]
+- [[Available output options for the ManufacturerPart endpoints.]] - `uses` [INFERRED]
+- [[Available output options for the SupplierPart endpoints.]] - `uses` [INFERRED]
+- [[Available output options for the SupplierPriceBreak endpoints.]] - `uses` [INFERRED]
+- [[Company]] - `uses` [INFERRED]
+- [[CompanyDetail]] - `uses` [INFERRED]
+- [[CompanyList]] - `uses` [INFERRED]
+- [[CompanyMixin]] - `uses` [INFERRED]
+- [[Contact]] - `uses` [INFERRED]
+- [[ContactDetail]] - `uses` [INFERRED]
+- [[ContactList]] - `uses` [INFERRED]
+- [[Custom API filters for the ManufacturerPart list endpoint.]] - `uses` [INFERRED]
+- [[Custom API filters for the SupplierPriceBreak list endpoint.]] - `uses` [INFERRED]
+- [[DataImportExportSerializerMixin]] - `inherits` [EXTRACTED]
+- [[DataImportExportSerializerMixin_1]] - `uses` [INFERRED]
+- [[Detail endpoint for Company model.]] - `uses` [INFERRED]
+- [[Detail endpoint for SupplierPriceBreak object.]] - `uses` [INFERRED]
+- [[Filter the queryset based on whether the SupplierPart has stock available.]] - `uses` [INFERRED]
+- [[Filter the queryset by either manufacturer or supplier.]] - `uses` [INFERRED]
+- [[FilterableSerializerMixin_1]] - `uses` [INFERRED]
+- [[InvenTreeCurrencySerializer]] - `uses` [INFERRED]
+- [[InvenTreeDecimalField]] - `uses` [INFERRED]
+- [[InvenTreeImageSerializerField]] - `uses` [INFERRED]
+- [[InvenTreeModelSerializer]] - `inherits` [EXTRACTED]
+- [[InvenTreeModelSerializer_1]] - `uses` [INFERRED]
+- [[InvenTreeMoneySerializer]] - `uses` [INFERRED]
+- [[InvenTreeTagModelSerializer]] - `uses` [INFERRED]
+- [[ManufacturerOutputOptions]] - `uses` [INFERRED]
+- [[ManufacturerPart]] - `uses` [INFERRED]
+- [[ManufacturerPartDetail]] - `uses` [INFERRED]
+- [[ManufacturerPartFilter]] - `uses` [INFERRED]
+- [[ManufacturerPartList]] - `uses` [INFERRED]
+- [[ManufacturerPartMixin]] - `uses` [INFERRED]
+- [[Meta_2]] - `uses` [INFERRED]
+- [[Mixin class for Company API endpoints.]] - `uses` [INFERRED]
+- [[Mixin class for ManufacturerPart API endpoints.]] - `uses` [INFERRED]
+- [[Mixin class for SupplierPart API endpoints.]] - `uses` [INFERRED]
+- [[Mixin class for SupplierPriceBreak API endpoints.]] - `uses` [INFERRED]
+- [[NotesFieldMixin_1]] - `uses` [INFERRED]
+- [[OptionalField]] - `uses` [INFERRED]
+- [[Provides a JSON API for the Company app.]] - `uses` [INFERRED]
+- [[RemoteImageMixin]] - `uses` [INFERRED]
+- [[Return annotated queryset for the ManufacturerPart list endpoint.]] - `uses` [INFERRED]
+- [[Return annotated queryset for the company endpoints.]] - `uses` [INFERRED]
+- [[Return annotated queryset object for the SupplierPart list.]] - `uses` [INFERRED]
+- [[Serializer for SupplierPriceBreak object.      Note that this inherits from the]] - `rationale_for` [EXTRACTED]
+- [[SupplierPart]] - `uses` [INFERRED]
+- [[SupplierPartDetail]] - `uses` [INFERRED]
+- [[SupplierPartFilter]] - `uses` [INFERRED]
+- [[SupplierPartList]] - `uses` [INFERRED]
+- [[SupplierPartMixin]] - `uses` [INFERRED]
+- [[SupplierPartOutputOptions]] - `uses` [INFERRED]
+- [[SupplierPriceBreak]] - `uses` [INFERRED]
+- [[SupplierPriceBreakBriefSerializer]] - `inherits` [EXTRACTED]
+- [[SupplierPriceBreakDetail]] - `uses` [INFERRED]
+- [[SupplierPriceBreakFilter]] - `uses` [INFERRED]
+- [[SupplierPriceBreakList]] - `uses` [INFERRED]
+- [[SupplierPriceBreakMixin]] - `uses` [INFERRED]
+- [[SupplierPriceBreakOutputOptions]] - `uses` [INFERRED]
+- [[serializers.py_15]] - `contains` [EXTRACTED]
+
+#graphify/code #graphify/INFERRED #community/Community_2

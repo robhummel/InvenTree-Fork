@@ -1,0 +1,18 @@
+---
+source_file: "inventree/src/backend/InvenTree/part/test_pricing.py"
+type: "rationale"
+community: "Part Management & Archetypes"
+location: "L371"
+tags:
+  - graphify/rationale
+  - graphify/INFERRED
+  - community/Part_Management_&_Archetypes
+---
+
+# Test for deleting a part which has pricing information.
+
+## Connections
+- [[InvenTreeTestCase_1]] - `uses` [INFERRED]
+- [[PurchaseOrderStatus]] - `uses` [INFERRED]
+
+#graphify/rationale #graphify/INFERRED #community/Part_Management_&_Archetypes

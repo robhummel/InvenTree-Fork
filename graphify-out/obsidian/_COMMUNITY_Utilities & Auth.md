@@ -1,0 +1,347 @@
+---
+type: community
+cohesion: 0.01
+members: 292
+---
+
+# Utilities & Auth
+
+**Cohesion:** 0.01 - loosely connected
+**Members:** 292 nodes
+
+## Members
+- [[TODO Check if the field is a model field]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/importer/operations.py
+- [[TODO Introspect required width]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/format.py
+- [[.__call__()_3]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/validators.py
+- [[.__init__()_77]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/auth_overrides.py
+- [[.__init__()_54]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/data_exporter/serializers.py
+- [[.__str__()_17]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/models.py
+- [[.authentication_error()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/auth_overrides.py
+- [[.base_context()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/models.py
+- [[.base_quantity()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/models.py
+- [[.clean()_24]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/auth_overrides.py
+- [[.clean()_16]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/models.py
+- [[.clean()_13]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/models.py
+- [[.clean_string()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/mixins.py
+- [[.delete()_17]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/models.py
+- [[.delete()_13]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/models.py
+- [[.delete()_15]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/models.py
+- [[.delete()_12]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/models.py
+- [[.export_data()_4]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/data_exporter/mixins.py
+- [[.find_conflicting_serial_numbers()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/models.py
+- [[.generate_filename()_2]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/models.py
+- [[.generate_page_style()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/models.py
+- [[.get()_2]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/data_exporter/mixins.py
+- [[.get_connect_redirect_url()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/auth_overrides.py
+- [[.get_context()_2]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/models.py
+- [[.get_context()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/models.py
+- [[.get_context()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/models.py
+- [[.get_export_options_serializer()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/integration/DataExport.py
+- [[.get_filters()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/models.py
+- [[.get_frontend_url()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/auth_overrides.py
+- [[.get_latest_serial_number()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/models.py
+- [[.get_next_serial_number()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/models.py
+- [[.get_plugin_context()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/models.py
+- [[.get_report_context()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/models.py
+- [[.get_report_size()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/models.py
+- [[.get_required_alternate_scopes()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/permissions.py
+- [[.get_search_terms()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/filters.py
+- [[.get_serializer()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/data_exporter/mixins.py
+- [[.get_serializer_class()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/api.py
+- [[.get_status_class()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/models.py
+- [[.get_value()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[.has_permission()_2]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/permissions.py
+- [[.is_auto_signup_allowed()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/auth_overrides.py
+- [[.is_exporting()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/data_exporter/mixins.py
+- [[.is_open_for_signup()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/auth_overrides.py
+- [[.is_stale()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/models.py
+- [[.mark_complete()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/models.py
+- [[.mark_failure()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/models.py
+- [[.name()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/models.py
+- [[.notify_plugins()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/models.py
+- [[.partial_rebuild()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/models.py
+- [[.post()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/locate/api.py
+- [[.print()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/models.py
+- [[.print()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/models.py
+- [[.print_labels()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/labels/inventree_machine.py
+- [[.print_labels()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/labels/label_sheet.py
+- [[.print_labels()_2]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/label/mixins.py
+- [[.print_page()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/labels/label_sheet.py
+- [[.process_exception()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/middleware.py
+- [[.render()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/models.py
+- [[.render_as_string()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/models.py
+- [[.render_to_pdf()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/label/mixins.py
+- [[.render_to_png()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/label/mixins.py
+- [[.report_context()_9]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/models.py
+- [[.run_validation()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/fields.py
+- [[.save()_68]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/models.py
+- [[.save()_40]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/models.py
+- [[.save()_55]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/serializers.py
+- [[.save_user()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/auth_overrides.py
+- [[.send_mail()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/auth_overrides.py
+- [[.send_password_reset_mail()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/auth_overrides.py
+- [[.test_error_list()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[.test_extract_value()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[.test_instance_id()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[.test_isnull()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[.test_multiline_formatting()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_on_order()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_plugin_static_file_lookup()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/test_plugin.py
+- [[.test_pricing_detail()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_serial_numbers()_2]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/tests.py
+- [[.test_stock_history()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_part.py
+- [[.to_representation()_8]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[.to_representation()_9]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[.update_serial_number()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/models.py
+- [[.url()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[.validate()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[.validate()_6]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/serializers.py
+- [[.validate()_18]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/serializers.py
+- [[.validate_ipn()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/models.py
+- [[.validate_name()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/models.py
+- [[.validate_revision()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/models.py
+- [[.validate_serial_number()_2]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/models.py
+- [[.wrap_pages()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/labels/label_sheet.py
+- [[Attempt to increment an integer (or a string that looks like an integer).      e]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/helpers.py
+- [[Attempt to introspect the 'model' type for an API view.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/permissions.py
+- [[Callback method for authentication errors.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/auth_overrides.py
+- [[Capture a snapshot of stock-on-hand and stock value.      Arguments         par]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/stocktake.py
+- [[Check if a default group is set in settings.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/auth_overrides.py
+- [[Check if a file exists in the static storage.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/helpers.py
+- [[Check if auto signup is enabled in settings.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/auth_overrides.py
+- [[Check if kind is ignored before processing.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/middleware.py
+- [[Check if signup is enabled in settings.          Configure the class variable `R]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/auth_overrides.py
+- [[Check settings to influence which fields are needed.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/auth_overrides.py
+- [[Clean a markdown string.      This function will remove javascript and other pot]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/helpers.py
+- [[Convert an image into HTML renderable data.      Returns a string ``dataimageF]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/templatetags/barcode.py
+- [[Convert the provided time object to the local timezone.      Arguments]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/helpers.py
+- [[Custom exception handler for DRF framework.      Ref httpswww.django-rest-fr]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/exceptions.py
+- [[Custom exception handling for the DRF API.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/exceptions.py
+- [[Custom login form to override default allauth behaviour.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/auth_overrides.py
+- [[Custom string formatting functions and helpers.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/format.py
+- [[CustomAccountAdapter]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/auth_overrides.py
+- [[CustomHeadlessAdapter]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/auth_overrides.py
+- [[CustomLoginForm]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/auth_overrides.py
+- [[CustomSignupForm]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/auth_overrides.py
+- [[CustomSocialAccountAdapter]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/auth_overrides.py
+- [[Data import operational functions.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/importer/operations.py
+- [[DataExportOptionsSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/data_exporter/serializers.py
+- [[DefaultAccountAdapter]] - code
+- [[DefaultHeadlessAdapter]] - code
+- [[DefaultSocialAccountAdapter]] - code
+- [[Defines the owner string representation.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/models.py
+- [[Determine if a string value 'looks' like a boolean.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/helpers.py
+- [[Determine if the current user has the specified permissions.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/permissions.py
+- [[Determine whether user registration is enabled.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/auth_overrides.py
+- [[Extract a list of serial numbers from a provided input string.      The input st]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/helpers.py
+- [[Extract a named value from the provided string, given the provided format string]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/format.py
+- [[Extract an integer out of provided string.      Arguments         reference In]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/helpers.py
+- [[Extract column names from a data file.      Uses the tablib library to extract c]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/importer/operations.py
+- [[Extract formatting information from the provided format string.      Returns a d]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/format.py
+- [[Format a Decimal number as Money.      Args         d A python Decimal object]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/helpers.py
+- [[Format money object according to the currently set local.      Args         mon]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/format.py
+- [[Function to override the default Django User __str__.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/models.py
+- [[Generate a default 'batch code' for a new StockItem.      By default, this uses]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/generators.py
+- [[Generate a default 'serial number' for a new StockItem.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/generators.py
+- [[Generator functions for the stock app.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/generators.py
+- [[Get the frontend URL for the given URL name respecting the request.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/auth_overrides.py
+- [[GetExportFormats()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/helpers.py
+- [[GetExportOptions()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/helpers.py
+- [[Given a serial number, (attempt to) generate the next serial number.      Note]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/helpers.py
+- [[Load data file into a tablib dataset.      Arguments         data_file django]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/importer/operations.py
+- [[Log an error to the database.      - Uses python exception handling to extract e]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/exceptions.py
+- [[LoginForm]] - code
+- [[Make sure the supplied emails match if enabled in settings.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/auth_overrides.py
+- [[MetadataMixin]] - code
+- [[Only send mail if backend configured.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/auth_overrides.py
+- [[Override of adapter to use dynamic settings.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/auth_overrides.py
+- [[Override of adapter to use dynamic settings._1]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/auth_overrides.py
+- [[Override of adapter to use dynamic settings._2]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/auth_overrides.py
+- [[Override to use dynamic settings.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/auth_overrides.py
+- [[Overrides for allauth and adjacent packages to enforce InvenTree specific auth s]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/auth_overrides.py
+- [[Print multiple reports against the provided template.      Arguments         te]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/tasks.py
+- [[Redirect to the frontend after connecting an account.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/auth_overrides.py
+- [[Remove non-printable  control characters from the provided string.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/helpers.py
+- [[Render a 1D barcode.      Arguments         data Data to encode         barcod]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/templatetags/barcode.py
+- [[Render a DataMatrix barcode.      Arguments         data Data to encode      K]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/templatetags/barcode.py
+- [[Render a status label.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/generic/states/tags.py
+- [[Report an exception to sentry.io.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/sentry.py
+- [[ReportTemplateBase]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/models.py
+- [[Return a 'cleaned' string for encoding into a barcode  qrcode.      - This func]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/templatetags/barcode.py
+- [[Return a byte-encoded QR code image.      Arguments         data Data to encod]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/templatetags/barcode.py
+- [[Return a list of allowable file formats for importing or exporting tabular data.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/helpers.py
+- [[Return a set of allowable import  export file formats.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/helpers.py
+- [[Return all classes that are subclasses from the supplied cls.      Args]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/helpers.py
+- [[Return information about activated plugins.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/helpers.py
+- [[Return the InvenTree instance ID.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/version.py
+- [[Return the InvenTree logo image, or a custom logo if available.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/helpers.py
+- [[Return the InvenTree splash screen, or a custom splash if available.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/helpers.py
+- [[Return the current date and time as a datetime object.      - If timezone suppor]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/helpers.py
+- [[Return the label for a field in a serializer class.      Check for labels in the]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/importer/operations.py
+- [[Return the required scopes for the current request.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/permissions.py
+- [[Return the search terms for this search request.          Depending on the reque]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/filters.py
+- [[Return the timezone of the server as a string.      e.g. UTC  AustraliaSydn]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/helpers.py
+- [[Return the value of a custom option from settings.CUSTOMIZE.      Args]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/helpers.py
+- [[Returns a urlpattern that can be integrated into the global urls.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/urls.py
+- [[Send the password reset mail.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/auth_overrides.py
+- [[Serializer class for defining a data export session.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/data_exporter/serializers.py
+- [[SignupForm]] - code
+- [[Stock history functionality.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/stocktake.py
+- [[Strip HTML tags from an input string using the nh3 library.      If raise_error]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/helpers.py
+- [[Strip leading and trailing characters from a string.      Arguments         val]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/templatetags/report.py
+- [[Template tags for rendering various barcodes.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/templatetags/barcode.py
+- [[Test if a string 'looks' like a boolean value.      Args         text Input te]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/helpers.py
+- [[Test if a string 'looks' like a null value. This is useful for querying the API]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/helpers.py
+- [[Test if an image URL (or filename) looks like a valid image format.      Simply]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/helpers.py
+- [[TestIfImageURL()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/helpers.py
+- [[To json-serializable type.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[To json-serializable type._1]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[UpdatedUserMixin_1]] - code
+- [[Validate that the provided string matches the specified format.      Args]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/format.py
+- [[_touch_order_updated_at()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/models.py
+- [[after_error_logged()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/models.py
+- [[after_failed_task()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/models.py
+- [[auth_overrides.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/auth_overrides.py
+- [[barcode()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/templatetags/barcode.py
+- [[barcode.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/templatetags/barcode.py
+- [[checkStaticFile()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/helpers.py
+- [[clean_barcode()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/templatetags/barcode.py
+- [[clean_markdown()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/helpers.py
+- [[construct_format_regex()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/format.py
+- [[convert_serial_to_int()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/models.py
+- [[current_time()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/helpers.py
+- [[datamatrix()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/templatetags/barcode.py
+- [[decimal2money()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/helpers.py
+- [[delete_failed_tasks()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tasks.py
+- [[delete_old_emails()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tasks.py
+- [[delete_old_error_logs()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tasks.py
+- [[delete_old_stock_tracking()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/tasks.py
+- [[delete_successful_tasks()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tasks.py
+- [[exception_handler()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/exceptions.py
+- [[exceptions.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/exceptions.py
+- [[exchange()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/api.py
+- [[extract_column_names()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/importer/operations.py
+- [[extract_int()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/helpers.py
+- [[extract_named_group()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/format.py
+- [[extract_serial_numbers()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/helpers.py
+- [[format.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/format.py
+- [[format_money()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/format.py
+- [[generate_batch_code()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/generators.py
+- [[generate_reference()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/models.py
+- [[generate_serial_number()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/generators.py
+- [[generators.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/generators.py
+- [[getCustomOption()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/helpers.py
+- [[getLogoImage()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/helpers.py
+- [[getSplashScreen()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/helpers.py
+- [[get_custom_status_labels()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/generic/states/custom.py
+- [[get_field_label()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/importer/operations.py
+- [[get_global_setting()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/settings.py
+- [[get_model_for_view()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/permissions.py
+- [[get_most_recent_item()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/models.py
+- [[get_next_reference()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/models.py
+- [[get_plugin_urls()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/urls.py
+- [[get_reference_context()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/models.py
+- [[get_reference_pattern()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/models.py
+- [[helpers.py_4]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/helpers.py
+- [[image_data()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/templatetags/barcode.py
+- [[import_data()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/importer/tasks.py
+- [[increment()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/helpers.py
+- [[increment_serial_number()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/helpers.py
+- [[inheritors()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/helpers.py
+- [[inventree_identifier()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/version.py
+- [[inventree_logo()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/templatetags/inventree_extras.py
+- [[isNull()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/helpers.py
+- [[is_bool()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/helpers.py
+- [[load_data_file()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/importer/operations.py
+- [[log_email_messages()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/models.py
+- [[log_error()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/exceptions.py
+- [[log_report_error()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/models.py
+- [[mail.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/mail/mail.py
+- [[models.py_9]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/models.py
+- [[notify_staff_users_of_error()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/models.py
+- [[on_order()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/models.py
+- [[operations.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/importer/operations.py
+- [[parameters()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/models.py
+- [[parentpath()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/models.py
+- [[parse_format_string()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/format.py
+- [[perform_stocktake()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/stocktake.py
+- [[plugins_info()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/helpers.py
+- [[price_range()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/models.py
+- [[print_labels()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/tasks.py
+- [[print_reports()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/tasks.py
+- [[process_mail_in()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/mail/mail.py
+- [[process_mail_out()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/mail/mail.py
+- [[qrcode()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/templatetags/barcode.py
+- [[rConstruct a regular expression based on a provided format string.      This]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/format.py
+- [[rebuild_reference_field()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/models.py
+- [[rebuild_stock_item_tree()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/tasks.py
+- [[rebuild_stock_items()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/tasks.py
+- [[registration_enabled()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/auth_overrides.py
+- [[remove_non_printable_characters()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/helpers.py
+- [[report_exception()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/sentry.py
+- [[sanitize_name()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/models.py
+- [[scheduled_stocktake_reports()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/tasks.py
+- [[server_timezone()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/helpers.py
+- [[status_label()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/generic/states/tags.py
+- [[stocktake.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/stocktake.py
+- [[str2bool()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/helpers.py
+- [[strip()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/templatetags/report.py
+- [[strip_html_tags()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/helpers.py
+- [[tag()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/generic/states/states.py
+- [[tasks.py_5]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/tasks.py
+- [[tasks.py_8]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/tasks.py
+- [[test_override()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[test_to_local_time()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[test_tz_london()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[test_tz_utc()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[to_local_time()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/helpers.py
+- [[urls.py_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/urls.py
+- [[user_model_str()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/models.py
+- [[validate_filters()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/validators.py
+- [[validate_part_name_format()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/setting/system.py
+- [[validate_reference_field()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/models.py
+- [[validate_string()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/format.py
+- [[with_mixin()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/registry.py
+
+## Live Query (requires Dataview plugin)
+
+```dataview
+TABLE source_file, type FROM #community/Utilities_&_Auth
+SORT file.name ASC
+```
+
+## Connections to other communities
+- 159 edges to [[_COMMUNITY_Community 4]]
+- 102 edges to [[_COMMUNITY_Community 6]]
+- 78 edges to [[_COMMUNITY_Core Models & Admin]]
+- 69 edges to [[_COMMUNITY_Community 10]]
+- 49 edges to [[_COMMUNITY_Community 1]]
+- 46 edges to [[_COMMUNITY_Inventory & Order Logic]]
+- 44 edges to [[_COMMUNITY_Community 12]]
+- 37 edges to [[_COMMUNITY_Community 14]]
+- 31 edges to [[_COMMUNITY_Community 13]]
+- 30 edges to [[_COMMUNITY_Community 3]]
+- 30 edges to [[_COMMUNITY_Community 19]]
+- 29 edges to [[_COMMUNITY_Community 5]]
+- 28 edges to [[_COMMUNITY_Community 16]]
+- 27 edges to [[_COMMUNITY_Community 15]]
+- 25 edges to [[_COMMUNITY_Community 2]]
+- 23 edges to [[_COMMUNITY_Community 22]]
+- 23 edges to [[_COMMUNITY_Community 17]]
+- 16 edges to [[_COMMUNITY_Community 11]]
+- 14 edges to [[_COMMUNITY_Community 21]]
+- 13 edges to [[_COMMUNITY_Community 23]]
+- 11 edges to [[_COMMUNITY_Community 20]]
+- 11 edges to [[_COMMUNITY_Community 7]]
+- 7 edges to [[_COMMUNITY_Community 28]]
+- 6 edges to [[_COMMUNITY_Community 25]]
+- 4 edges to [[_COMMUNITY_Community 18]]
+- 2 edges to [[_COMMUNITY_Community 24]]
+- 1 edge to [[_COMMUNITY_Community 30]]
+
+## Top bridge nodes
+- [[get_global_setting()]] - degree 124, connects to 24 communities
+- [[strip()]] - degree 92, connects to 18 communities
+- [[with_mixin()]] - degree 53, connects to 13 communities
+- [[log_error()]] - degree 71, connects to 12 communities
+- [[models.py_9]] - degree 43, connects to 11 communities

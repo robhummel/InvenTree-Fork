@@ -1,0 +1,28 @@
+---
+source_file: "/Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/serializers.py"
+type: "rationale"
+community: "Community 5"
+location: "L940"
+tags:
+  - graphify/rationale
+  - graphify/INFERRED
+  - community/Community_5
+---
+
+# Serializer for a list of icons.
+
+## Connections
+- [[ContentTypeField]] - `uses` [INFERRED]
+- [[DataImportExportSerializerMixin_1]] - `uses` [INFERRED]
+- [[FilterableSerializerMixin_1]] - `uses` [INFERRED]
+- [[IconPackageSerializer]] - `rationale_for` [EXTRACTED]
+- [[InvenTreeAttachmentMixin]] - `uses` [INFERRED]
+- [[InvenTreeAttachmentSerializerField]] - `uses` [INFERRED]
+- [[InvenTreeImageSerializerField]] - `uses` [INFERRED]
+- [[InvenTreeModelSerializer_1]] - `uses` [INFERRED]
+- [[InvenTreeParameterMixin]] - `uses` [INFERRED]
+- [[OptionalField]] - `uses` [INFERRED]
+- [[OwnerSerializer]] - `uses` [INFERRED]
+- [[UserSerializer]] - `uses` [INFERRED]
+
+#graphify/rationale #graphify/INFERRED #community/Community_5

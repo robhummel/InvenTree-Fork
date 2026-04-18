@@ -1,0 +1,1395 @@
+---
+type: community
+members: 1357
+---
+
+# Stock Management & Tracking
+
+**Members:** 1357 nodes
+
+## Members
+- [[NOTE We are only support basic authentication for now.]] - rationale - inventree/src/backend/InvenTree/order/api.py
+- [[TODO Determine the 'quantity to order' for the supplier part]] - rationale - inventree/src/backend/InvenTree/plugin/base/barcodes/api.py
+- [[.__init__()_44]] - code - inventree/src/backend/InvenTree/users/admin.py
+- [[.__init_subclass__()_1]] - code - inventree/src/backend/InvenTree/InvenTree/mixins.py
+- [[.__str__()_15]] - code - inventree/src/backend/InvenTree/users/models.py
+- [[.__str__()_18]] - code - inventree/src/backend/InvenTree/users/models.py
+- [[._helper_get_flow()]] - code - inventree/src/backend/InvenTree/users/tests.py
+- [[.create()_11]] - code - inventree/src/backend/InvenTree/users/api.py
+- [[.delete()_11]] - code - inventree/src/backend/InvenTree/InvenTree/mixins.py
+- [[.destroy()_1]] - code - inventree/src/backend/InvenTree/part/api.py
+- [[.destroy()_2]] - code - inventree/src/backend/InvenTree/stock/api.py
+- [[.destroy()_3]] - code - inventree/src/backend/InvenTree/InvenTree/mixins.py
+- [[.dispatch()]] - code - inventree/src/backend/InvenTree/InvenTree/api.py
+- [[.dispatch()_1]] - code - inventree/src/backend/InvenTree/InvenTree/api.py
+- [[.filter_allocated()_1]] - code - inventree/src/backend/InvenTree/stock/api.py
+- [[.filter_assigned_to_shipment()]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[.filter_available()]] - code - inventree/src/backend/InvenTree/stock/api.py
+- [[.filter_available_stock()]] - code - inventree/src/backend/InvenTree/part/api.py
+- [[.filter_cascade()]] - code - inventree/src/backend/InvenTree/part/api.py
+- [[.filter_cascade()_1]] - code - inventree/src/backend/InvenTree/part/api.py
+- [[.filter_cascade()_3]] - code - inventree/src/backend/InvenTree/stock/api.py
+- [[.filter_cascade()_2]] - code - inventree/src/backend/InvenTree/stock/api.py
+- [[.filter_category()]] - code - inventree/src/backend/InvenTree/part/api.py
+- [[.filter_checked()]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[.filter_consumed()]] - code - inventree/src/backend/InvenTree/stock/api.py
+- [[.filter_delete_queryset()_1]] - code - inventree/src/backend/InvenTree/InvenTree/api.py
+- [[.filter_delete_queryset()]] - code - inventree/src/backend/InvenTree/common/api.py
+- [[.filter_delivered()]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[.filter_depleted()]] - code - inventree/src/backend/InvenTree/stock/api.py
+- [[.filter_depleted_stock()]] - code - inventree/src/backend/InvenTree/part/api.py
+- [[.filter_exists_for_related_model()]] - code - inventree/src/backend/InvenTree/common/api.py
+- [[.filter_external()]] - code - inventree/src/backend/InvenTree/stock/api.py
+- [[.filter_for_model()]] - code - inventree/src/backend/InvenTree/common/api.py
+- [[.filter_has_child_items()]] - code - inventree/src/backend/InvenTree/stock/api.py
+- [[.filter_has_installed()]] - code - inventree/src/backend/InvenTree/stock/api.py
+- [[.filter_has_location_type()]] - code - inventree/src/backend/InvenTree/stock/api.py
+- [[.filter_has_pricing()]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[.filter_has_purchase_price()]] - code - inventree/src/backend/InvenTree/stock/api.py
+- [[.filter_has_results()]] - code - inventree/src/backend/InvenTree/part/api.py
+- [[.filter_has_revisions()]] - code - inventree/src/backend/InvenTree/part/api.py
+- [[.filter_has_start_date()]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[.filter_has_stock()]] - code - inventree/src/backend/InvenTree/part/api.py
+- [[.filter_has_target_date()]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[.filter_in_stock()]] - code - inventree/src/backend/InvenTree/stock/api.py
+- [[.filter_include_installed()]] - code - inventree/src/backend/InvenTree/stock/api.py
+- [[.filter_include_variants()]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[.filter_include_variants()_4]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[.filter_include_variants()_3]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[.filter_include_variants()_1]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[.filter_include_variants()_2]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[.filter_include_variants()_5]] - code - inventree/src/backend/InvenTree/stock/api.py
+- [[.filter_include_variants()_6]] - code - inventree/src/backend/InvenTree/stock/api.py
+- [[.filter_installed()_1]] - code - inventree/src/backend/InvenTree/stock/api.py
+- [[.filter_is_active()]] - code - inventree/src/backend/InvenTree/users/api.py
+- [[.filter_is_revision()]] - code - inventree/src/backend/InvenTree/part/api.py
+- [[.filter_is_variant()]] - code - inventree/src/backend/InvenTree/part/api.py
+- [[.filter_location()]] - code - inventree/src/backend/InvenTree/stock/api.py
+- [[.filter_mandatory()]] - code - inventree/src/backend/InvenTree/plugin/api.py
+- [[.filter_model_type()_1]] - code - inventree/src/backend/InvenTree/common/api.py
+- [[.filter_model_type()]] - code - inventree/src/backend/InvenTree/common/api.py
+- [[.filter_on_order()]] - code - inventree/src/backend/InvenTree/part/api.py
+- [[.filter_order_complete()]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[.filter_order_complete()_1]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[.filter_order_outstanding()]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[.filter_order_outstanding()_1]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[.filter_outstanding()_1]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[.filter_part()]] - code - inventree/src/backend/InvenTree/part/api.py
+- [[.filter_part()_1]] - code - inventree/src/backend/InvenTree/stock/api.py
+- [[.filter_part()_2]] - code - inventree/src/backend/InvenTree/stock/api.py
+- [[.filter_pending()]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[.filter_queryset()_2]] - code - inventree/src/backend/InvenTree/common/api.py
+- [[.filter_queryset()_1]] - code - inventree/src/backend/InvenTree/common/api.py
+- [[.filter_received()_1]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[.filter_sent_to_customer()]] - code - inventree/src/backend/InvenTree/stock/api.py
+- [[.filter_shipped()]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[.filter_stock_to_build()]] - code - inventree/src/backend/InvenTree/part/api.py
+- [[.filter_top_level()]] - code - inventree/src/backend/InvenTree/part/api.py
+- [[.filter_top_level()_1]] - code - inventree/src/backend/InvenTree/stock/api.py
+- [[.filter_unallocated_stock()]] - code - inventree/src/backend/InvenTree/part/api.py
+- [[.filter_update_queryset()]] - code - inventree/src/backend/InvenTree/InvenTree/api.py
+- [[.filter_variant_of()]] - code - inventree/src/backend/InvenTree/part/api.py
+- [[.get()_1]] - code - inventree/src/backend/InvenTree/users/api.py
+- [[.get()_3]] - code - inventree/src/backend/InvenTree/InvenTree/mixins.py
+- [[.get_default_basename()]] - code - inventree/src/backend/InvenTree/InvenTree/helpers_api.py
+- [[.get_delta_model_map()]] - code - inventree/src/backend/InvenTree/stock/api.py
+- [[.get_fields()]] - code - inventree/src/backend/InvenTree/users/admin.py
+- [[.get_in_use()]] - code - inventree/src/backend/InvenTree/users/serializers.py
+- [[.get_object()_8]] - code - inventree/src/backend/InvenTree/common/api.py
+- [[.get_object()_12]] - code - inventree/src/backend/InvenTree/users/api.py
+- [[.get_object()]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[.get_object()_10]] - code - inventree/src/backend/InvenTree/users/api.py
+- [[.get_object()_11]] - code - inventree/src/backend/InvenTree/users/api.py
+- [[.get_object()_13]] - code - inventree/src/backend/InvenTree/users/api.py
+- [[.get_operation_id()]] - code - inventree/src/backend/InvenTree/InvenTree/schema.py
+- [[.get_permission_model()]] - code - inventree/src/backend/InvenTree/users/api.py
+- [[.get_permissions()_1]] - code - inventree/src/backend/InvenTree/users/serializers.py
+- [[.get_plugin_serializer()]] - code - inventree/src/backend/InvenTree/report/api.py
+- [[.get_queryset()_10]] - code - inventree/src/backend/InvenTree/plugin/base/barcodes/api.py
+- [[.get_queryset()_27]] - code - inventree/src/backend/InvenTree/part/api.py
+- [[.get_queryset()_20]] - code - inventree/src/backend/InvenTree/part/api.py
+- [[.get_queryset()_22]] - code - inventree/src/backend/InvenTree/part/api.py
+- [[.get_queryset()_21]] - code - inventree/src/backend/InvenTree/part/api.py
+- [[.get_queryset()_18]] - code - inventree/src/backend/InvenTree/common/api.py
+- [[.get_queryset()_17]] - code - inventree/src/backend/InvenTree/common/api.py
+- [[.get_queryset()]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[.get_queryset()_15]] - code - inventree/src/backend/InvenTree/common/api.py
+- [[.get_queryset()_13]] - code - inventree/src/backend/InvenTree/common/api.py
+- [[.get_queryset()_25]] - code - inventree/src/backend/InvenTree/part/api.py
+- [[.get_queryset()_26]] - code - inventree/src/backend/InvenTree/part/api.py
+- [[.get_queryset()_23]] - code - inventree/src/backend/InvenTree/part/api.py
+- [[.get_queryset()_24]] - code - inventree/src/backend/InvenTree/part/api.py
+- [[.get_queryset()_2]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[.get_queryset()_1]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[.get_queryset()_8]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[.get_queryset()_7]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[.get_queryset()_5]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[.get_queryset()_4]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[.get_queryset()_3]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[.get_queryset()_6]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[.get_queryset()_14]] - code - inventree/src/backend/InvenTree/common/api.py
+- [[.get_queryset()_16]] - code - inventree/src/backend/InvenTree/common/api.py
+- [[.get_queryset()_32]] - code - inventree/src/backend/InvenTree/stock/api.py
+- [[.get_queryset()_28]] - code - inventree/src/backend/InvenTree/stock/api.py
+- [[.get_queryset()_29]] - code - inventree/src/backend/InvenTree/stock/api.py
+- [[.get_queryset()_31]] - code - inventree/src/backend/InvenTree/stock/api.py
+- [[.get_queryset()_30]] - code - inventree/src/backend/InvenTree/stock/api.py
+- [[.get_queryset()_19]] - code - inventree/src/backend/InvenTree/users/api.py
+- [[.get_queryset()_12]] - code - inventree/src/backend/InvenTree/common/api.py
+- [[.get_queryset()_34]] - code - inventree/src/backend/InvenTree/InvenTree/mixins.py
+- [[.get_readonly_fields()_6]] - code - inventree/src/backend/InvenTree/users/admin.py
+- [[.get_redirect_url()]] - code - inventree/src/backend/InvenTree/users/api.py
+- [[.get_restart_required()]] - code - inventree/src/backend/InvenTree/machine/serializers.py
+- [[.get_result_filters()]] - code - inventree/src/backend/InvenTree/InvenTree/api.py
+- [[.get_result_types()]] - code - inventree/src/backend/InvenTree/InvenTree/api.py
+- [[.get_serializer()_3]] - code - inventree/src/backend/InvenTree/InvenTree/mixins.py
+- [[.get_serializer()_4]] - code - inventree/src/backend/InvenTree/InvenTree/mixins.py
+- [[.get_serializer_context()_4]] - code - inventree/src/backend/InvenTree/importer/api.py
+- [[.get_serializer_context()_5]] - code - inventree/src/backend/InvenTree/part/api.py
+- [[.get_serializer_context()_6]] - code - inventree/src/backend/InvenTree/part/api.py
+- [[.get_serializer_context()]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[.get_serializer_context()_3]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[.get_serializer_context()_1]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[.get_serializer_context()_2]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[.get_serializer_context()_8]] - code - inventree/src/backend/InvenTree/stock/api.py
+- [[.get_serializer_context()_11]] - code - inventree/src/backend/InvenTree/stock/api.py
+- [[.get_serializer_context()_9]] - code - inventree/src/backend/InvenTree/stock/api.py
+- [[.get_serializer_context()_7]] - code - inventree/src/backend/InvenTree/stock/api.py
+- [[.get_serializer_context()_12]] - code - inventree/src/backend/InvenTree/stock/api.py
+- [[.get_serializer_context()_10]] - code - inventree/src/backend/InvenTree/stock/api.py
+- [[.get_status_model()_1]] - code - inventree/src/backend/InvenTree/generic/states/api.py
+- [[.get_ui_template_editors()_1]] - code - inventree/src/backend/InvenTree/plugin/base/ui/mixins.py
+- [[.handle_barcode()]] - code - inventree/src/backend/InvenTree/plugin/base/barcodes/api.py
+- [[.has_object_permission()_1]] - code - inventree/src/backend/InvenTree/InvenTree/permissions.py
+- [[.has_permission()_7]] - code - inventree/src/backend/InvenTree/InvenTree/permissions.py
+- [[.has_permission()_9]] - code - inventree/src/backend/InvenTree/InvenTree/permissions.py
+- [[.has_permission()_5]] - code - inventree/src/backend/InvenTree/InvenTree/permissions.py
+- [[.has_permission()_4]] - code - inventree/src/backend/InvenTree/InvenTree/permissions.py
+- [[.has_permission()_8]] - code - inventree/src/backend/InvenTree/InvenTree/permissions.py
+- [[.is_bulk_action()]] - code - inventree/src/backend/InvenTree/InvenTree/schema.py
+- [[.is_exporting()]] - code - inventree/src/backend/InvenTree/data_exporter/mixins.py
+- [[.item_class()]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[.item_created()]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[.item_description()]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[.item_end_datetime()]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[.item_guid()]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[.item_start_datetime()]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[.item_title()]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[.items()]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[.list()]] - code - inventree/src/backend/InvenTree/common/api.py
+- [[.list()_1]] - code - inventree/src/backend/InvenTree/common/api.py
+- [[.patch()]] - code - inventree/src/backend/InvenTree/InvenTree/mixins.py
+- [[.perform_create()_3]] - code - inventree/src/backend/InvenTree/common/api.py
+- [[.perform_create()_2]] - code - inventree/src/backend/InvenTree/common/api.py
+- [[.perform_create()]] - code - inventree/src/backend/InvenTree/plugin/api.py
+- [[.perform_destroy()_1]] - code - inventree/src/backend/InvenTree/users/api.py
+- [[.perform_destroy()]] - code - inventree/src/backend/InvenTree/users/api.py
+- [[.perform_destroy()_2]] - code - inventree/src/backend/InvenTree/InvenTree/mixins.py
+- [[.perform_update()_1]] - code - inventree/src/backend/InvenTree/plugin/api.py
+- [[.print()_2]] - code - inventree/src/backend/InvenTree/report/api.py
+- [[.product_id()]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[.put()_2]] - code - inventree/src/backend/InvenTree/InvenTree/api.py
+- [[.put()]] - code - inventree/src/backend/InvenTree/InvenTree/mixins.py
+- [[.queryset()_1]] - code - inventree/src/backend/InvenTree/plugin/base/barcodes/api.py
+- [[.save()_38]] - code - inventree/src/backend/InvenTree/users/admin.py
+- [[.save_m2m()]] - code - inventree/src/backend/InvenTree/users/admin.py
+- [[.update()_5]] - code - inventree/src/backend/InvenTree/users/serializers.py
+- [[.update()]] - code - inventree/src/backend/InvenTree/plugin/serializers.py
+- [[.validate()_13]] - code - inventree/src/backend/InvenTree/users/serializers.py
+- [[.validate()_14]] - code - inventree/src/backend/InvenTree/users/serializers.py
+- [[.validate_delete()_1]] - code - inventree/src/backend/InvenTree/part/api.py
+- [[.validate_delete()_2]] - code - inventree/src/backend/InvenTree/InvenTree/api.py
+- [[.validate_is_superuser()]] - code - inventree/src/backend/InvenTree/users/serializers.py
+- [[.validate_update()]] - code - inventree/src/backend/InvenTree/InvenTree/api.py
+- [[A RuleSet is somewhat like a superset of the django permission class, in that in]] - rationale - inventree/src/backend/InvenTree/users/models.py
+- [[A class decorator that automatically generates schema parameters for a view.]] - rationale - inventree/src/backend/InvenTree/InvenTree/schema.py
+- [[A filter that only accepts numeric values for 'in' queries.      This filter ens]] - rationale - inventree/src/backend/InvenTree/InvenTree/filters.py
+- [[A general-purpose 'search' API endpoint.      Returns hits against a number of d]] - rationale - inventree/src/backend/InvenTree/InvenTree/api.py
+- [[A generic class for handling stocktake actions.      Subclasses exist for]] - rationale - inventree/src/backend/InvenTree/stock/api.py
+- [[API detail endpoint for SalesOrderShipment model.]] - rationale - inventree/src/backend/InvenTree/order/api.py
+- [[API detail endpoint for a StockLocationType object.      - GET return a single]] - rationale - inventree/src/backend/InvenTree/stock/api.py
+- [[API detail endpoint for a single StockItem instance.]] - rationale - inventree/src/backend/InvenTree/stock/api.py
+- [[API endpoint detailing 'requirements' information for a particular part.      Th]] - rationale - inventree/src/backend/InvenTree/part/api.py
+- [[API endpoint for 'validating' the BOM for a given Part.]] - rationale - inventree/src/backend/InvenTree/part/api.py
+- [[API endpoint for a list of StockLocationType objects.      - GET Return a list]] - rationale - inventree/src/backend/InvenTree/stock/api.py
+- [[API endpoint for a single ReportAsset object.]] - rationale - inventree/src/backend/InvenTree/report/api.py
+- [[API endpoint for a single ReportSnippet object.]] - rationale - inventree/src/backend/InvenTree/report/api.py
+- [[API endpoint for accessing a list of BomItem objects.      - GET Return list of]] - rationale - inventree/src/backend/InvenTree/part/api.py
+- [[API endpoint for accessing a list of BomItemSubstitute objects.]] - rationale - inventree/src/backend/InvenTree/part/api.py
+- [[API endpoint for accessing a list of Part objects, or creating a new Part instan]] - rationale - inventree/src/backend/InvenTree/part/api.py
+- [[API endpoint for accessing a list of PartCategory objects ready for rendering a]] - rationale - inventree/src/backend/InvenTree/part/api.py
+- [[API endpoint for accessing a list of PartCategoryParameterTemplate objects.]] - rationale - inventree/src/backend/InvenTree/part/api.py
+- [[API endpoint for accessing a list of PartRelated objects.]] - rationale - inventree/src/backend/InvenTree/part/api.py
+- [[API endpoint for accessing a list of PurchaseOrderExtraLine objects.]] - rationale - inventree/src/backend/InvenTree/order/api.py
+- [[API endpoint for accessing a list of PurchaseOrderLineItem objects.      - GET]] - rationale - inventree/src/backend/InvenTree/order/api.py
+- [[API endpoint for accessing a list of ReturnOrder objects.]] - rationale - inventree/src/backend/InvenTree/order/api.py
+- [[API endpoint for accessing a list of ReturnOrderExtraLine objects.]] - rationale - inventree/src/backend/InvenTree/order/api.py
+- [[API endpoint for accessing a list of ReturnOrderLineItemList objects.]] - rationale - inventree/src/backend/InvenTree/order/api.py
+- [[API endpoint for accessing a list of SalesOrderExtraLine objects.]] - rationale - inventree/src/backend/InvenTree/order/api.py
+- [[API endpoint for accessing a list of SalesOrderLineItem objects.]] - rationale - inventree/src/backend/InvenTree/order/api.py
+- [[API endpoint for accessing a list of StockLocation objects, ready for rendering]] - rationale - inventree/src/backend/InvenTree/stock/api.py
+- [[API endpoint for accessing detail view of a PartRelated object.]] - rationale - inventree/src/backend/InvenTree/part/api.py
+- [[API endpoint for completing (shipping) a SalesOrderShipment.]] - rationale - inventree/src/backend/InvenTree/order/api.py
+- [[API endpoint for detail view of ManufacturerPart object.      - GET Retrieve de]] - rationale - inventree/src/backend/InvenTree/company/api.py
+- [[API endpoint for detail view of StockLocation object.]] - rationale - inventree/src/backend/InvenTree/stock/api.py
+- [[API endpoint for detail view of a PurchaseOrder object.]] - rationale - inventree/src/backend/InvenTree/order/api.py
+- [[API endpoint for detail view of a PurchaseOrderExtraLine object.]] - rationale - inventree/src/backend/InvenTree/order/api.py
+- [[API endpoint for detail view of a ReturnOrderExtraLine object.]] - rationale - inventree/src/backend/InvenTree/order/api.py
+- [[API endpoint for detail view of a ReturnOrderLineItem object.]] - rationale - inventree/src/backend/InvenTree/order/api.py
+- [[API endpoint for detail view of a SalesOrder object.]] - rationale - inventree/src/backend/InvenTree/order/api.py
+- [[API endpoint for detail view of a SalesOrderExtraLine object.]] - rationale - inventree/src/backend/InvenTree/order/api.py
+- [[API endpoint for detail view of a SalesOrderLineItem object.]] - rationale - inventree/src/backend/InvenTree/order/api.py
+- [[API endpoint for detail view of a single BomItem object.]] - rationale - inventree/src/backend/InvenTree/part/api.py
+- [[API endpoint for detail view of a single BomItemSubstitute object.]] - rationale - inventree/src/backend/InvenTree/part/api.py
+- [[API endpoint for detail view of a single Part object.]] - rationale - inventree/src/backend/InvenTree/part/api.py
+- [[API endpoint for detail view of a single PartCategory object.]] - rationale - inventree/src/backend/InvenTree/part/api.py
+- [[API endpoint for detail view of a single ReturnOrder object.]] - rationale - inventree/src/backend/InvenTree/order/api.py
+- [[API endpoint for duplicating a BOM.]] - rationale - inventree/src/backend/InvenTree/part/api.py
+- [[API endpoint for generating a PartStocktake instance.]] - rationale - inventree/src/backend/InvenTree/part/api.py
+- [[API endpoint for generating batch codes.]] - rationale - inventree/src/backend/InvenTree/stock/api.py
+- [[API endpoint for generating serial numbers.]] - rationale - inventree/src/backend/InvenTree/stock/api.py
+- [[API endpoint for installing a particular stock item into this stock item.      -]] - rationale - inventree/src/backend/InvenTree/stock/api.py
+- [[API endpoint for list of Machine objects.      - GET Return a list of all Machi]] - rationale - inventree/src/backend/InvenTree/machine/api.py
+- [[API endpoint for list of PluginConfig objects.      - GET Return a list of all]] - rationale - inventree/src/backend/InvenTree/plugin/api.py
+- [[API endpoint for list view of Company model.]] - rationale - inventree/src/backend/InvenTree/company/api.py
+- [[API endpoint for list view of PartInternalPriceBreak model.]] - rationale - inventree/src/backend/InvenTree/part/api.py
+- [[API endpoint for list view of PartSalePriceBreak model.]] - rationale - inventree/src/backend/InvenTree/part/api.py
+- [[API endpoint for list view of Stock objects.      - GET Return a list of all St]] - rationale - inventree/src/backend/InvenTree/stock/api.py
+- [[API endpoint for list view of StockItemTracking objects.      StockItemTracking]] - rationale - inventree/src/backend/InvenTree/stock/api.py
+- [[API endpoint for list view of StockLocation objects.      - GET Return list of]] - rationale - inventree/src/backend/InvenTree/stock/api.py
+- [[API endpoint for list view of SupplierPriceBreak object.      - GET Retrieve li]] - rationale - inventree/src/backend/InvenTree/company/api.py
+- [[API endpoint for listing (and creating) a PartTestTemplate.]] - rationale - inventree/src/backend/InvenTree/part/api.py
+- [[API endpoint for listing (and creating) a StockItemTestResult object.]] - rationale - inventree/src/backend/InvenTree/stock/api.py
+- [[API endpoint for listing ReportAsset objects.]] - rationale - inventree/src/backend/InvenTree/report/api.py
+- [[API endpoint for listing ReportSnippet objects.]] - rationale - inventree/src/backend/InvenTree/report/api.py
+- [[API endpoint for listing SalesOrderAllocation objects.]] - rationale - inventree/src/backend/InvenTree/order/api.py
+- [[API endpoint for listing part stocktake information.]] - rationale - inventree/src/backend/InvenTree/part/api.py
+- [[API endpoint for manually marking a SalesOrder as complete.]] - rationale - inventree/src/backend/InvenTree/order/api.py
+- [[API endpoint for merging multiple stock items.]] - rationale - inventree/src/backend/InvenTree/stock/api.py
+- [[API endpoint for performing stock movements.]] - rationale - inventree/src/backend/InvenTree/stock/api.py
+- [[API endpoint for printing labels.]] - rationale - inventree/src/backend/InvenTree/report/api.py
+- [[API endpoint for printing reports.]] - rationale - inventree/src/backend/InvenTree/report/api.py
+- [[API endpoint for removing (uninstalling) items from this item.]] - rationale - inventree/src/backend/InvenTree/stock/api.py
+- [[API endpoint for retrieving information on available Part thumbnails.]] - rationale - inventree/src/backend/InvenTree/part/api.py
+- [[API endpoint for returning extra serial number information about a particular pa]] - rationale - inventree/src/backend/InvenTree/part/api.py
+- [[API endpoint for returning items into stock.      This API endpoint is for items]] - rationale - inventree/src/backend/InvenTree/stock/api.py
+- [[API endpoint for serializing a stock item.]] - rationale - inventree/src/backend/InvenTree/stock/api.py
+- [[API endpoint for updating Part thumbnails.]] - rationale - inventree/src/backend/InvenTree/part/api.py
+- [[API endpoint for validating a BomItem.]] - rationale - inventree/src/backend/InvenTree/part/api.py
+- [[API endpoint for viewing list of LabelTemplate objects.]] - rationale - inventree/src/backend/InvenTree/report/api.py
+- [[API endpoint for viewing part pricing data.]] - rationale - inventree/src/backend/InvenTree/part/api.py
+- [[API endpoint to 'cancel' a purchase order.      The purchase order must be in a]] - rationale - inventree/src/backend/InvenTree/order/api.py
+- [[API endpoint to accept the field mapping for a DataImportSession.]] - rationale - inventree/src/backend/InvenTree/importer/api.py
+- [[API endpoint to allocate stock items against a SalesOrder.      - The SalesOrder]] - rationale - inventree/src/backend/InvenTree/order/api.py
+- [[API endpoint to allocation stock items against a SalesOrder, by specifying seria]] - rationale - inventree/src/backend/InvenTree/order/api.py
+- [[API endpoint to cancel a ReturnOrder.]] - rationale - inventree/src/backend/InvenTree/order/api.py
+- [[API endpoint to cancel a SalesOrder.]] - rationale - inventree/src/backend/InvenTree/order/api.py
+- [[API endpoint to change the status code of multiple StockItem objects.]] - rationale - inventree/src/backend/InvenTree/stock/api.py
+- [[API endpoint to complete a ReturnOrder.]] - rationale - inventree/src/backend/InvenTree/order/api.py
+- [[API endpoint to hold a ReturnOrder.]] - rationale - inventree/src/backend/InvenTree/order/api.py
+- [[API endpoint to issue (place) a ReturnOrder.]] - rationale - inventree/src/backend/InvenTree/order/api.py
+- [[API endpoint to issue a SalesOrder.]] - rationale - inventree/src/backend/InvenTree/order/api.py
+- [[API endpoint to place a SalesOrder on hold.]] - rationale - inventree/src/backend/InvenTree/order/api.py
+- [[API endpoint to receive items against a ReturnOrder.]] - rationale - inventree/src/backend/InvenTree/order/api.py
+- [[API endpoint to receive stock items against a PurchaseOrder.      - The purchase]] - rationale - inventree/src/backend/InvenTree/order/api.py
+- [[API endpoint which lists the available role permissions for the current user.]] - rationale - inventree/src/backend/InvenTree/users/api.py
+- [[API filter for the StockItemTestResult list.]] - rationale - inventree/src/backend/InvenTree/stock/api.py
+- [[API filter options for the StockTrackingList endpoint.]] - rationale - inventree/src/backend/InvenTree/stock/api.py
+- [[API filters for the SupplierPartList endpoint.]] - rationale - inventree/src/backend/InvenTree/company/api.py
+- [[API list endpoint for SalesOrderShipment model.]] - rationale - inventree/src/backend/InvenTree/order/api.py
+- [[API serializer for generic state class information.]] - rationale - inventree/src/backend/InvenTree/generic/states/serializers.py
+- [[API serializer specifically for the 'me' endpoint.]] - rationale - inventree/src/backend/InvenTree/users/serializers.py
+- [[APISearchView]] - code - inventree/src/backend/InvenTree/InvenTree/api.py
+- [[APISearchViewSerializer]] - code - inventree/src/backend/InvenTree/InvenTree/api.py
+- [[APIView]] - code
+- [[ActionPluginView]] - code - inventree/src/backend/InvenTree/plugin/base/action/api.py
+- [[Add InvenTree specific extensions to the schema.]] - rationale - inventree/src/backend/InvenTree/InvenTree/schema.py
+- [[Add custom information to the serializer context for this endpoint.]] - rationale - inventree/src/backend/InvenTree/part/api.py
+- [[Add the InvenTree version header to the response.]] - rationale - inventree/src/backend/InvenTree/InvenTree/middleware.py
+- [[Add the PurchaseOrder object to the serializer context._1]] - rationale - inventree/src/backend/InvenTree/order/api.py
+- [[Add the PurchaseOrder object to the serializer context.]] - rationale - inventree/src/backend/InvenTree/order/api.py
+- [[Add the import session object to the serializer context.]] - rationale - inventree/src/backend/InvenTree/importer/api.py
+- [[Add the users to the Group.]] - rationale - inventree/src/backend/InvenTree/users/admin.py
+- [[Admin class for the ReportAsset model.]] - rationale - inventree/src/backend/InvenTree/report/admin.py
+- [[All accessedin-use configurations.]] - rationale - inventree/src/backend/InvenTree/common/api.py
+- [[AllStatusViews]] - code - inventree/src/backend/InvenTree/generic/states/api.py
+- [[Allow read-only access to any user, but write access is restricted to superuser]] - rationale - inventree/src/backend/InvenTree/InvenTree/permissions.py
+- [[AllowAnyOrReadScope]] - code - inventree/src/backend/InvenTree/InvenTree/permissions.py
+- [[Allows access only to admin users or admin scope tokens.]] - rationale - inventree/src/backend/InvenTree/InvenTree/permissions.py
+- [[Allows access only to authenticated users or read scope tokens.]] - rationale - inventree/src/backend/InvenTree/InvenTree/permissions.py
+- [[Allows access only to superuser users.]] - rationale - inventree/src/backend/InvenTree/InvenTree/permissions.py
+- [[Allows access to any user or read scope tokens.]] - rationale - inventree/src/backend/InvenTree/InvenTree/permissions.py
+- [[Allows read-only access to any authenticated user, but write access is restricte]] - rationale - inventree/src/backend/InvenTree/InvenTree/permissions.py
+- [[Allows superusers to set the password for a user.]] - rationale - inventree/src/backend/InvenTree/users/api.py
+- [[Always return the current user object.]] - rationale - inventree/src/backend/InvenTree/users/api.py
+- [[An API view mixin for directly exporting selected data.      To perform a data e]] - rationale - inventree/src/backend/InvenTree/data_exporter/mixins.py
+- [[Annotate the queryset for this endpoint.]] - rationale - inventree/src/backend/InvenTree/order/api.py
+- [[ApiToken]] - code - inventree/src/backend/InvenTree/users/models.py
+- [[ApiTokenAdmin]] - code - inventree/src/backend/InvenTree/users/admin.py
+- [[ApiTokenSerializer]] - code - inventree/src/backend/InvenTree/users/serializers.py
+- [[AttachmentDetail]] - code - inventree/src/backend/InvenTree/common/api.py
+- [[AttachmentFilter]] - code - inventree/src/backend/InvenTree/common/api.py
+- [[AttachmentList]] - code - inventree/src/backend/InvenTree/common/api.py
+- [[AttachmentMixin]] - code - inventree/src/backend/InvenTree/common/api.py
+- [[Attempt to find a ContentType object with the provided key.]] - rationale - inventree/src/backend/InvenTree/common/api.py
+- [[Attempt to find a config object with the provided key.]] - rationale - inventree/src/backend/InvenTree/common/api.py
+- [[Attempt to find a global setting object with the provided key.]] - rationale - inventree/src/backend/InvenTree/common/api.py
+- [[Attempt to find a user setting object with the provided key.]] - rationale - inventree/src/backend/InvenTree/common/api.py
+- [[AuthToken]] - code
+- [[AutoSchema]] - code
+- [[Automatically attaches OpenAPI schema parameters for its output options.]] - rationale - inventree/src/backend/InvenTree/InvenTree/mixins.py
+- [[Backend E-Mail management for administrative purposes.]] - rationale - inventree/src/backend/InvenTree/common/api.py
+- [[BackgroundTaskDetail]] - code - inventree/src/backend/InvenTree/common/api.py
+- [[BackgroundTaskOverview]] - code - inventree/src/backend/InvenTree/common/api.py
+- [[BarcodeAssign]] - code - inventree/src/backend/InvenTree/plugin/base/barcodes/api.py
+- [[BarcodeGenerate]] - code - inventree/src/backend/InvenTree/plugin/base/barcodes/api.py
+- [[BarcodePOAllocate]] - code - inventree/src/backend/InvenTree/plugin/base/barcodes/api.py
+- [[BarcodePOReceive]] - code - inventree/src/backend/InvenTree/plugin/base/barcodes/api.py
+- [[BarcodeSOAllocate]] - code - inventree/src/backend/InvenTree/plugin/base/barcodes/api.py
+- [[BarcodeScan]] - code - inventree/src/backend/InvenTree/plugin/base/barcodes/api.py
+- [[BarcodeScanResult]] - code - inventree/src/backend/InvenTree/common/models.py
+- [[BarcodeScanResultDetail]] - code - inventree/src/backend/InvenTree/plugin/base/barcodes/api.py
+- [[BarcodeScanResultFilter]] - code - inventree/src/backend/InvenTree/plugin/base/barcodes/api.py
+- [[BarcodeScanResultList]] - code - inventree/src/backend/InvenTree/plugin/base/barcodes/api.py
+- [[BarcodeScanResultMixin]] - code - inventree/src/backend/InvenTree/plugin/base/barcodes/api.py
+- [[BarcodeUnassign]] - code - inventree/src/backend/InvenTree/plugin/base/barcodes/api.py
+- [[BarcodeView]] - code - inventree/src/backend/InvenTree/plugin/base/barcodes/api.py
+- [[Base class for custom API filters for order line item list(s).]] - rationale - inventree/src/backend/InvenTree/order/api.py
+- [[Base class for custom API filters for the StockLocation endpoint.]] - rationale - inventree/src/backend/InvenTree/stock/api.py
+- [[Base filter class for label and report templates.]] - rationale - inventree/src/backend/InvenTree/report/api.py
+- [[BomDetail]] - code - inventree/src/backend/InvenTree/part/api.py
+- [[BomFilter]] - code - inventree/src/backend/InvenTree/part/api.py
+- [[BomItem]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[BomItemSubstituteDetail]] - code - inventree/src/backend/InvenTree/part/api.py
+- [[BomItemSubstituteList]] - code - inventree/src/backend/InvenTree/part/api.py
+- [[BomItemValidate]] - code - inventree/src/backend/InvenTree/part/api.py
+- [[BomItemValidationSerializer]] - code - inventree/src/backend/InvenTree/part/api.py
+- [[BomList]] - code - inventree/src/backend/InvenTree/part/api.py
+- [[BomMixin]] - code - inventree/src/backend/InvenTree/part/api.py
+- [[BomOutputOptions]] - code - inventree/src/backend/InvenTree/part/api.py
+- [[Brief serializer for the UserProfile model.]] - rationale - inventree/src/backend/InvenTree/users/serializers.py
+- [[BriefUserProfileSerializer]] - code - inventree/src/backend/InvenTree/users/serializers.py
+- [[BulkCreateMixin_1]] - code - inventree/src/backend/InvenTree/InvenTree/api.py
+- [[BulkCreateMixin]] - code
+- [[BulkDeleteMixin_1]] - code - inventree/src/backend/InvenTree/InvenTree/api.py
+- [[BulkDeleteMixin]] - code
+- [[BulkDeleteViewsetMixin_1]] - code - inventree/src/backend/InvenTree/InvenTree/api.py
+- [[BulkDeleteViewsetMixin]] - code
+- [[BulkOperationMixin]] - code - inventree/src/backend/InvenTree/InvenTree/api.py
+- [[BulkRequestSerializer]] - code - inventree/src/backend/InvenTree/InvenTree/api.py
+- [[BulkUpdateMixin_1]] - code - inventree/src/backend/InvenTree/InvenTree/api.py
+- [[BulkUpdateMixin]] - code
+- [[Calendar export for PurchaseSales Orders.      Optional parameters     - inclu]] - rationale - inventree/src/backend/InvenTree/order/api.py
+- [[CategoryDetail]] - code - inventree/src/backend/InvenTree/part/api.py
+- [[CategoryFilter]] - code - inventree/src/backend/InvenTree/part/api.py
+- [[CategoryList]] - code - inventree/src/backend/InvenTree/part/api.py
+- [[CategoryMixin]] - code - inventree/src/backend/InvenTree/part/api.py
+- [[CategoryOutputOption]] - code - inventree/src/backend/InvenTree/part/api.py
+- [[CategoryParameterDetail]] - code - inventree/src/backend/InvenTree/part/api.py
+- [[CategoryParameterList]] - code - inventree/src/backend/InvenTree/part/api.py
+- [[CategoryTree_1]] - code - inventree/src/backend/InvenTree/part/api.py
+- [[Check if kind is ignored before processing.]] - rationale - inventree/src/backend/InvenTree/InvenTree/middleware.py
+- [[Check if the user is a superuser.]] - rationale - inventree/src/backend/InvenTree/InvenTree/permissions.py
+- [[Check if the user is a superuser._1]] - rationale - inventree/src/backend/InvenTree/InvenTree/permissions.py
+- [[Check if the user is authenticated via token.]] - rationale - inventree/src/backend/InvenTree/InvenTree/middleware.py
+- [[Check if the user that requested is also the object owner.]] - rationale - inventree/src/backend/InvenTree/InvenTree/permissions.py
+- [[Check if user is authenticated via a token in the header.]] - rationale - inventree/src/backend/InvenTree/InvenTree/api.py
+- [[Check that a plugin for the provided slug exists and get the config.      Args]] - rationale - inventree/src/backend/InvenTree/plugin/api.py
+- [[Check that the requesting user is 'admin'.]] - rationale - inventree/src/backend/InvenTree/InvenTree/permissions.py
+- [[Check that the requesting user is authenticated.]] - rationale - inventree/src/backend/InvenTree/InvenTree/permissions.py
+- [[Check the class of the current view for the bulk mixins.]] - rationale - inventree/src/backend/InvenTree/InvenTree/schema.py
+- [[Check the host settings.]] - rationale - inventree/src/backend/InvenTree/InvenTree/middleware.py
+- [[Class for displaying inline RuleSet data in the Group admin page.]] - rationale - inventree/src/backend/InvenTree/users/admin.py
+- [[Clean  sanitize a single input string.]] - rationale - inventree/src/backend/InvenTree/InvenTree/mixins.py
+- [[Clean  sanitize data.          This uses nh3 under the hood to disable certain]] - rationale - inventree/src/backend/InvenTree/InvenTree/mixins.py
+- [[CleanMixin]] - code - inventree/src/backend/InvenTree/InvenTree/mixins.py
+- [[CommonBulkDeleteMixin]] - code - inventree/src/backend/InvenTree/InvenTree/api.py
+- [[CompanySerializer]] - code - inventree/src/backend/InvenTree/company/serializers.py
+- [[ConfigViewSet]] - code - inventree/src/backend/InvenTree/common/api.py
+- [[Construct a list of search types we can return.]] - rationale - inventree/src/backend/InvenTree/InvenTree/api.py
+- [[ContactDetail]] - code - inventree/src/backend/InvenTree/company/api.py
+- [[ContentTypeDetail]] - code - inventree/src/backend/InvenTree/common/api.py
+- [[ContentTypeList]] - code - inventree/src/backend/InvenTree/common/api.py
+- [[ContentTypeModelDetail]] - code - inventree/src/backend/InvenTree/common/api.py
+- [[Create (upload) a new notes image.]] - rationale - inventree/src/backend/InvenTree/common/api.py
+- [[Create a new StockItem object via the API.          We override the default 'cre]] - rationale - inventree/src/backend/InvenTree/stock/api.py
+- [[Create a new StockItemTracking object.          Here we override the default 'cr]] - rationale - inventree/src/backend/InvenTree/stock/api.py
+- [[Create a new test result object.          Also, check if an attachment was uploa]] - rationale - inventree/src/backend/InvenTree/stock/api.py
+- [[Create or update a new PurchaseOrderLineItem object.]] - rationale - inventree/src/backend/InvenTree/order/api.py
+- [[Create token and show key to user.]] - rationale - inventree/src/backend/InvenTree/users/api.py
+- [[CreateAPI]] - code
+- [[CreateAPI_1]] - code - inventree/src/backend/InvenTree/InvenTree/mixins.py
+- [[CreateAPIView]] - code
+- [[CsrfExemptMixin]] - code - inventree/src/backend/InvenTree/common/api.py
+- [[CurrencyViewSet]] - code - inventree/src/backend/InvenTree/common/api.py
+- [[Custom API endpoint which provides BulkDelete functionality in addition to List]] - rationale - inventree/src/backend/InvenTree/InvenTree/api.py
+- [[Custom API filters for the ManufacturerPart list endpoint.]] - rationale - inventree/src/backend/InvenTree/company/api.py
+- [[Custom API filters for the PurchaseOrderList endpoint.]] - rationale - inventree/src/backend/InvenTree/order/api.py
+- [[Custom API filters for the ReturnOrderList endpoint.]] - rationale - inventree/src/backend/InvenTree/order/api.py
+- [[Custom DateFilter class which handles timezones correctly.]] - rationale - inventree/src/backend/InvenTree/InvenTree/filters.py
+- [[Custom NumberFilter that allows filtering by numeric values or the literal strin]] - rationale - inventree/src/backend/InvenTree/InvenTree/filters.py
+- [[Custom URL validator to allow for custom schemes.]] - rationale - inventree/src/backend/InvenTree/InvenTree/validators.py
+- [[Custom admin form for the Group model.      Adds the ability for editing user me]] - rationale - inventree/src/backend/InvenTree/users/admin.py
+- [[Custom admin interface for the Owner model.]] - rationale - inventree/src/backend/InvenTree/users/admin.py
+- [[Custom admin page for the User model.      Hides the permissions view as this]] - rationale - inventree/src/backend/InvenTree/users/admin.py
+- [[Custom delete method to pass kwargs.]] - rationale - inventree/src/backend/InvenTree/InvenTree/mixins.py
+- [[Custom destroy method to pass kwargs.]] - rationale - inventree/src/backend/InvenTree/InvenTree/mixins.py
+- [[Custom destroy method to pass kwargs._1]] - rationale - inventree/src/backend/InvenTree/InvenTree/mixins.py
+- [[Custom filter for the PartStocktakeList endpoint.]] - rationale - inventree/src/backend/InvenTree/part/api.py
+- [[Custom filtering.          Rules         - Allow filtering by null parent to]] - rationale - inventree/src/backend/InvenTree/part/api.py
+- [[Custom filters for SalesOrderLineItemList endpoint.]] - rationale - inventree/src/backend/InvenTree/order/api.py
+- [[Custom filters for the BOM list.]] - rationale - inventree/src/backend/InvenTree/part/api.py
+- [[Custom filters for the ParameterList API endpoint.]] - rationale - inventree/src/backend/InvenTree/common/api.py
+- [[Custom filters for the PartList endpoint.      Uses the django_filters extension]] - rationale - inventree/src/backend/InvenTree/part/api.py
+- [[Custom filters for the PurchaseOrderLineItemList endpoint.]] - rationale - inventree/src/backend/InvenTree/order/api.py
+- [[Custom filters for the ReturnOrderLineItemList endpoint.]] - rationale - inventree/src/backend/InvenTree/order/api.py
+- [[Custom filterset class for the PartCategoryList endpoint.]] - rationale - inventree/src/backend/InvenTree/part/api.py
+- [[Custom filterset class for the PartTestTemplateList endpoint.]] - rationale - inventree/src/backend/InvenTree/part/api.py
+- [[Custom filterset for the BarcodeScanResult API.]] - rationale - inventree/src/backend/InvenTree/plugin/base/barcodes/api.py
+- [[Custom filterset for the SalesOrderShipmentList endpoint.]] - rationale - inventree/src/backend/InvenTree/order/api.py
+- [[Custom get method to pass kwargs.]] - rationale - inventree/src/backend/InvenTree/InvenTree/mixins.py
+- [[Custom implementation of a 'notes' field.]] - rationale - inventree/src/backend/InvenTree/InvenTree/fields.py
+- [[Custom operation handling, falling back to default behavior.]] - rationale - inventree/src/backend/InvenTree/InvenTree/schema.py
+- [[Custom patch method to pass kwargs.]] - rationale - inventree/src/backend/InvenTree/InvenTree/mixins.py
+- [[Custom path handling overrides, falling back to default behavior.]] - rationale - inventree/src/backend/InvenTree/InvenTree/schema.py
+- [[Custom put method to pass kwargs.]] - rationale - inventree/src/backend/InvenTree/InvenTree/mixins.py
+- [[Custom router which adds various specific functions.      Currently adds the fol]] - rationale - inventree/src/backend/InvenTree/InvenTree/helpers_api.py
+- [[Custom save method for Group admin form.]] - rationale - inventree/src/backend/InvenTree/users/admin.py
+- [[Custom update functionality for Part instance.          - If the 'starred' field]] - rationale - inventree/src/backend/InvenTree/part/api.py
+- [[CustomDestroyModelMixin]] - code - inventree/src/backend/InvenTree/InvenTree/mixins.py
+- [[CustomRetrieveUpdateDestroyAPI]] - code
+- [[CustomRetrieveUpdateDestroyAPI_1]] - code - inventree/src/backend/InvenTree/InvenTree/mixins.py
+- [[CustomRetrieveUpdateDestroyAPIView]] - code - inventree/src/backend/InvenTree/InvenTree/mixins.py
+- [[CustomStateDetail]] - code - inventree/src/backend/InvenTree/generic/states/api.py
+- [[CustomStateList]] - code - inventree/src/backend/InvenTree/generic/states/api.py
+- [[CustomUnitViewset]] - code - inventree/src/backend/InvenTree/common/api.py
+- [[CustomizeSerializer]] - code - inventree/src/backend/InvenTree/InvenTree/api.py
+- [[DataExportViewMixin]] - code
+- [[DataExportViewMixin_1]] - code - inventree/src/backend/InvenTree/data_exporter/mixins.py
+- [[DataImportColumnMappingDetail]] - code - inventree/src/backend/InvenTree/importer/api.py
+- [[DataImportColumnMappingList]] - code - inventree/src/backend/InvenTree/importer/api.py
+- [[DataImportRowDetail]] - code - inventree/src/backend/InvenTree/importer/api.py
+- [[DataImportRowList]] - code - inventree/src/backend/InvenTree/importer/api.py
+- [[DataImportSessionAcceptFields]] - code - inventree/src/backend/InvenTree/importer/api.py
+- [[DataImportSessionAcceptRows]] - code - inventree/src/backend/InvenTree/importer/api.py
+- [[DataImportSessionDetail]] - code - inventree/src/backend/InvenTree/importer/api.py
+- [[DataImportSessionList]] - code - inventree/src/backend/InvenTree/importer/api.py
+- [[DataImportSessionMixin]] - code - inventree/src/backend/InvenTree/importer/api.py
+- [[DataImporterModelList]] - code - inventree/src/backend/InvenTree/importer/api.py
+- [[DataImporterModelSerializer]] - code - inventree/src/backend/InvenTree/importer/api.py
+- [[DataImporterPermissionMixin]] - code - inventree/src/backend/InvenTree/importer/api.py
+- [[DataOutput]] - code - inventree/src/backend/InvenTree/common/models.py
+- [[DataOutputSerializer]] - code - inventree/src/backend/InvenTree/common/serializers.py
+- [[DataOutputViewSet]] - code - inventree/src/backend/InvenTree/common/api.py
+- [[Delete a Part category instance via the API.]] - rationale - inventree/src/backend/InvenTree/part/api.py
+- [[Delete a Stock location instance via the API.]] - rationale - inventree/src/backend/InvenTree/stock/api.py
+- [[DestroyAPIView]] - code
+- [[Detail API endpoint for Attachment objects.]] - rationale - inventree/src/backend/InvenTree/common/api.py
+- [[Detail API endpoint for Owner model.      Cannot edit or delete]] - rationale - inventree/src/backend/InvenTree/users/api.py
+- [[Detail API endpoint for Parameter objects.]] - rationale - inventree/src/backend/InvenTree/common/api.py
+- [[Detail API endpoint for StockItemTracking model.]] - rationale - inventree/src/backend/InvenTree/stock/api.py
+- [[Detail API endpoint for a single PartStocktake instance.      Note Only staff (]] - rationale - inventree/src/backend/InvenTree/part/api.py
+- [[Detail API endpoint for label template model.]] - rationale - inventree/src/backend/InvenTree/report/api.py
+- [[Detail endpoint for Company model.]] - rationale - inventree/src/backend/InvenTree/company/api.py
+- [[Detail endpoint for PartInternalPriceBreak model.]] - rationale - inventree/src/backend/InvenTree/part/api.py
+- [[Detail endpoint for PartSellPriceBreak model.]] - rationale - inventree/src/backend/InvenTree/part/api.py
+- [[Detail endpoint for PartTestTemplate model.]] - rationale - inventree/src/backend/InvenTree/part/api.py
+- [[Detail endpoint for StockItemTestResult.]] - rationale - inventree/src/backend/InvenTree/stock/api.py
+- [[Detail endpoint for a BarcodeScan object.]] - rationale - inventree/src/backend/InvenTree/plugin/base/barcodes/api.py
+- [[Detail endpoint for a particular RuleSet instance.]] - rationale - inventree/src/backend/InvenTree/users/api.py
+- [[Detail endpoint for a particular auth group.]] - rationale - inventree/src/backend/InvenTree/users/api.py
+- [[Detail endpoint for a plugin-specific setting.]] - rationale - inventree/src/backend/InvenTree/plugin/api.py
+- [[Detail endpoint for a plugin-specific user setting.]] - rationale - inventree/src/backend/InvenTree/plugin/api.py
+- [[Detail endpoint for a single DataImportColumnMap object.]] - rationale - inventree/src/backend/InvenTree/importer/api.py
+- [[Detail endpoint for a single DataImportRow object.]] - rationale - inventree/src/backend/InvenTree/importer/api.py
+- [[Detail endpoint for a single user.      Permissions     - Staff users (who also]] - rationale - inventree/src/backend/InvenTree/users/api.py
+- [[Detail endpoint for the PartCategoryParameterTemplate model.]] - rationale - inventree/src/backend/InvenTree/part/api.py
+- [[Detail endpoint for the user profile.      Permissions     - Any authenticated]] - rationale - inventree/src/backend/InvenTree/users/api.py
+- [[Detail view for a ContentType model.]] - rationale - inventree/src/backend/InvenTree/common/api.py
+- [[Detail view for a ContentType model._1]] - rationale - inventree/src/backend/InvenTree/common/api.py
+- [[Detail view for a ContentType model._2]] - rationale - inventree/src/backend/InvenTree/common/api.py
+- [[Detail view for a ParameterTemplate object.]] - rationale - inventree/src/backend/InvenTree/common/api.py
+- [[Detail view for a SelectionEntry object.]] - rationale - inventree/src/backend/InvenTree/common/api.py
+- [[Detail view for a particular custom states.]] - rationale - inventree/src/backend/InvenTree/generic/states/api.py
+- [[Detail view for a particular project code.]] - rationale - inventree/src/backend/InvenTree/common/api.py
+- [[Detail view for a single background task.]] - rationale - inventree/src/backend/InvenTree/common/api.py
+- [[Detail view for an individual global setting object.      - User must have 'st]] - rationale - inventree/src/backend/InvenTree/common/api.py
+- [[Detail view for an individual user setting object.      - User can only view]] - rationale - inventree/src/backend/InvenTree/common/api.py
+- [[Detail view for an individual feature flag.]] - rationale - inventree/src/backend/InvenTree/common/api.py
+- [[Determine if the view is currently exporting data.]] - rationale - inventree/src/backend/InvenTree/data_exporter/mixins.py
+- [[DjangoOAuthToolkitScheme]] - code
+- [[Dummy filter method for 'cascade'.          - Ensures 'cascade' appears in API d]] - rationale - inventree/src/backend/InvenTree/part/api.py
+- [[Dummy filter method for 'cascade'.          - Ensures 'cascade' appears in API d_1]] - rationale - inventree/src/backend/InvenTree/stock/api.py
+- [[Dummy filter method for 'include_installed'.          - Ensures 'include_install]] - rationale - inventree/src/backend/InvenTree/stock/api.py
+- [[EmailViewSet]] - code - inventree/src/backend/InvenTree/common/api.py
+- [[EmptySerializer]] - code - inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[Endpoint for activating a plugin.      - PATCH Activate a plugin      Pass a bo]] - rationale - inventree/src/backend/InvenTree/plugin/api.py
+- [[Endpoint for adding a quantity of stock to an existing StockItem.]] - rationale - inventree/src/backend/InvenTree/stock/api.py
+- [[Endpoint for allocating parts to a purchase order by scanning their barcode.]] - rationale - inventree/src/backend/InvenTree/plugin/base/barcodes/api.py
+- [[Endpoint for allocating stock to a sales order, by scanning barcode.      The sc]] - rationale - inventree/src/backend/InvenTree/plugin/base/barcodes/api.py
+- [[Endpoint for counting stock (performing a stocktake).]] - rationale - inventree/src/backend/InvenTree/stock/api.py
+- [[Endpoint for handling generic barcode scan requests.      Barcode data are decod]] - rationale - inventree/src/backend/InvenTree/plugin/base/barcodes/api.py
+- [[Endpoint for observability tools.]] - rationale - inventree/src/backend/InvenTree/common/api.py
+- [[Endpoint for receiving webhooks.]] - rationale - inventree/src/backend/InvenTree/common/api.py
+- [[Endpoint for reloading all plugins.]] - rationale - inventree/src/backend/InvenTree/plugin/api.py
+- [[Endpoint for removing a quantity of stock from an existing StockItem.]] - rationale - inventree/src/backend/InvenTree/stock/api.py
+- [[Endpoint for uninstalling a single plugin.]] - rationale - inventree/src/backend/InvenTree/plugin/api.py
+- [[Endpoint for unlinking  unassigning a custom barcode from a database object.]] - rationale - inventree/src/backend/InvenTree/plugin/base/barcodes/api.py
+- [[Ensure all global settings are created.]] - rationale - inventree/src/backend/InvenTree/common/api.py
+- [[Ensure that a given unit is a valid physical unit.]] - rationale - inventree/src/backend/InvenTree/InvenTree/validators.py
+- [[Ensure that the user can only delete their own notifications.]] - rationale - inventree/src/backend/InvenTree/common/api.py
+- [[Ensure that there are no 'locked' items.]] - rationale - inventree/src/backend/InvenTree/part/api.py
+- [[EntryMixin]] - code - inventree/src/backend/InvenTree/common/api.py
+- [[Enumeration of ruleset names.]] - rationale - inventree/src/backend/InvenTree/users/ruleset.py
+- [[ErrorMessageViewSet]] - code - inventree/src/backend/InvenTree/common/api.py
+- [[Exclude a StockItem and all of its descendants from the queryset.]] - rationale - inventree/src/backend/InvenTree/stock/api.py
+- [[Exclude all parts and variants 'down' from the specified part from the queryset.]] - rationale - inventree/src/backend/InvenTree/part/api.py
+- [[Exclude all sub-categories under the specified category.]] - rationale - inventree/src/backend/InvenTree/part/api.py
+- [[Exclude parts related to the specified part ID.]] - rationale - inventree/src/backend/InvenTree/part/api.py
+- [[Expanded valiadation for auth.]] - rationale - inventree/src/backend/InvenTree/users/serializers.py
+- [[Export the data in the specified format.          Arguments             export_]] - rationale - inventree/src/backend/InvenTree/data_exporter/mixins.py
+- [[Extend drf-spectacular to allow customizing the schema to match the actual API b]] - rationale - inventree/src/backend/InvenTree/InvenTree/schema.py
+- [[Extend drf-spectacular to allow customizing the schema to match the actual API b_1]] - rationale - inventree/src/backend/InvenTree/InvenTree/schema.py
+- [[Extend serializer context data.]] - rationale - inventree/src/backend/InvenTree/part/api.py
+- [[Extend serializer context._3]] - rationale - inventree/src/backend/InvenTree/stock/api.py
+- [[Extend serializer context._4]] - rationale - inventree/src/backend/InvenTree/stock/api.py
+- [[Extend serializer context._1]] - rationale - inventree/src/backend/InvenTree/stock/api.py
+- [[Extend serializer context.]] - rationale - inventree/src/backend/InvenTree/stock/api.py
+- [[Extend serializer context._2]] - rationale - inventree/src/backend/InvenTree/stock/api.py
+- [[Extended schema generator.]] - rationale - inventree/src/backend/InvenTree/InvenTree/management/commands/schema.py
+- [[ExtendedAutoSchema]] - code - inventree/src/backend/InvenTree/InvenTree/schema.py
+- [[ExtendedOAuth2Scheme]] - code - inventree/src/backend/InvenTree/InvenTree/schema.py
+- [[ExtendedUserSerializer]] - code - inventree/src/backend/InvenTree/users/serializers.py
+- [[Extends the default token model provided by djangorestframework.authtoken.]] - rationale - inventree/src/backend/InvenTree/users/models.py
+- [[Extract license information from the provided file.      Arguments         path]] - rationale - inventree/src/backend/InvenTree/InvenTree/api.py
+- [[Extract the default base name from the viewset.]] - rationale - inventree/src/backend/InvenTree/InvenTree/helpers_api.py
+- [[Extract the shipment from the provided kwargs, or guess.          Raises]] - rationale - inventree/src/backend/InvenTree/plugin/base/barcodes/api.py
+- [[Extract token information from a request object.]] - rationale - inventree/src/backend/InvenTree/InvenTree/middleware.py
+- [[FailedTaskList]] - code - inventree/src/backend/InvenTree/common/api.py
+- [[Filter SalesOrder by selected 'part'.          Note         - If 'include_varia]] - rationale - inventree/src/backend/InvenTree/order/api.py
+- [[Filter SalesOrder list by 'delivered' status (boolean).]] - rationale - inventree/src/backend/InvenTree/order/api.py
+- [[Filter SalesOrder list by 'shipped' status (boolean).]] - rationale - inventree/src/backend/InvenTree/order/api.py
+- [[Filter SalesOrderLineItem by selected 'part'.          Note         - If 'inclu]] - rationale - inventree/src/backend/InvenTree/order/api.py
+- [[Filter SalesOrderShipment list by 'checked' status (boolean).]] - rationale - inventree/src/backend/InvenTree/order/api.py
+- [[Filter StockItem list by provided Part instance.          Note         - If pa]] - rationale - inventree/src/backend/InvenTree/stock/api.py
+- [[Filter StockTracking entries by the linked part.          Note         - This f]] - rationale - inventree/src/backend/InvenTree/stock/api.py
+- [[Filter applied to map parameter templates to a particular model relation against]] - rationale - inventree/src/backend/InvenTree/common/api.py
+- [[Filter attachments based on whether they are a file or not.]] - rationale - inventree/src/backend/InvenTree/common/api.py
+- [[Filter based on BOM item.]] - rationale - inventree/src/backend/InvenTree/stock/api.py
+- [[Filter based on ancestor stock item.]] - rationale - inventree/src/backend/InvenTree/stock/api.py
+- [[Filter based on part tree.]] - rationale - inventree/src/backend/InvenTree/stock/api.py
+- [[Filter by low stock status.]] - rationale - inventree/src/backend/InvenTree/part/api.py
+- [[Filter by pending status (order status = pending).]] - rationale - inventree/src/backend/InvenTree/order/api.py
+- [[Filter by 'installed' flag.]] - rationale - inventree/src/backend/InvenTree/plugin/api.py
+- [[Filter by 'received' field.]] - rationale - inventree/src/backend/InvenTree/order/api.py
+- [[Filter by 'sample' flag.]] - rationale - inventree/src/backend/InvenTree/plugin/api.py
+- [[Filter by active status.]] - rationale - inventree/src/backend/InvenTree/users/api.py
+- [[Filter by company (either manufacturer or supplier).]] - rationale - inventree/src/backend/InvenTree/stock/api.py
+- [[Filter by depleted items.]] - rationale - inventree/src/backend/InvenTree/stock/api.py
+- [[Filter by having a purchase price.]] - rationale - inventree/src/backend/InvenTree/stock/api.py
+- [[Filter by if item is in stock.]] - rationale - inventree/src/backend/InvenTree/stock/api.py
+- [[Filter by implement mixin.          - A comma-separated list of mixin names can]] - rationale - inventree/src/backend/InvenTree/plugin/api.py
+- [[Filter by lines which are completed.          A line is 'completed' when shipp]] - rationale - inventree/src/backend/InvenTree/order/api.py
+- [[Filter by lines which are received (or not received).          A line is con]] - rationale - inventree/src/backend/InvenTree/order/api.py
+- [[Filter by linked SalesOrder status.]] - rationale - inventree/src/backend/InvenTree/order/api.py
+- [[Filter by manufacturer.]] - rationale - inventree/src/backend/InvenTree/stock/api.py
+- [[Filter by parent category.          Note that the filtering behaviour here varie]] - rationale - inventree/src/backend/InvenTree/part/api.py
+- [[Filter by parent location.          Note that the filtering behavior here varies]] - rationale - inventree/src/backend/InvenTree/stock/api.py
+- [[Filter by selected 'part'.          Note         - If 'include_variants' is set]] - rationale - inventree/src/backend/InvenTree/order/api.py
+- [[Filter by sent to customer.]] - rationale - inventree/src/backend/InvenTree/stock/api.py
+- [[Filter by stale stock items.]] - rationale - inventree/src/backend/InvenTree/stock/api.py
+- [[Filter by test name.          This method is provided for legacy support,]] - rationale - inventree/src/backend/InvenTree/stock/api.py
+- [[Filter by the depth of the PartCategory.          - This filter is used to lim]] - rationale - inventree/src/backend/InvenTree/part/api.py
+- [[Filter by the depth of the StockLocation.          - This filter is used to li]] - rationale - inventree/src/backend/InvenTree/stock/api.py
+- [[Filter by the 'part' attribute.          Note         - If include_variants i]] - rationale - inventree/src/backend/InvenTree/order/api.py
+- [[Filter by the 'part' field.          Note If the 'include_inherited' query para]] - rationale - inventree/src/backend/InvenTree/part/api.py
+- [[Filter by the location of the allocated StockItem.]] - rationale - inventree/src/backend/InvenTree/order/api.py
+- [[Filter by top-level locations.]] - rationale - inventree/src/backend/InvenTree/stock/api.py
+- [[Filter by whether or not the allocation has been assigned to a shipment.]] - rationale - inventree/src/backend/InvenTree/order/api.py
+- [[Filter by whether or not the line item has pricing information.]] - rationale - inventree/src/backend/InvenTree/order/api.py
+- [[Filter by whether or not the location has a location type.]] - rationale - inventree/src/backend/InvenTree/stock/api.py
+- [[Filter by whether or not the order has a target date.]] - rationale - inventree/src/backend/InvenTree/order/api.py
+- [[Filter by whether or not the stock item has expired.]] - rationale - inventree/src/backend/InvenTree/stock/api.py
+- [[Filter by whether or not the stock item is 'allocated'.]] - rationale - inventree/src/backend/InvenTree/stock/api.py
+- [[Filter by whether or not to include part variants.          Note         - This]] - rationale - inventree/src/backend/InvenTree/stock/api.py
+- [[Filter by whether or not to include variants of the selected part.          Note_3]] - rationale - inventree/src/backend/InvenTree/order/api.py
+- [[Filter by whether or not to include variants of the selected part.          Note]] - rationale - inventree/src/backend/InvenTree/order/api.py
+- [[Filter by whether or not to include variants of the selected part.          Note_4]] - rationale - inventree/src/backend/InvenTree/stock/api.py
+- [[Filter by whether or not to include variants of the selected part.          Note_1]] - rationale - inventree/src/backend/InvenTree/order/api.py
+- [[Filter by whether or not to include variants of the selected part.          Note_2]] - rationale - inventree/src/backend/InvenTree/order/api.py
+- [[Filter by whether the Part has an IPN (internal part number) or not.]] - rationale - inventree/src/backend/InvenTree/part/api.py
+- [[Filter by whether the Part has any revisions or not.]] - rationale - inventree/src/backend/InvenTree/part/api.py
+- [[Filter by whether the Part has any stock.]] - rationale - inventree/src/backend/InvenTree/part/api.py
+- [[Filter by whether the Part has unallocated stock.]] - rationale - inventree/src/backend/InvenTree/part/api.py
+- [[Filter by whether the Part is 'starred' by the current user.]] - rationale - inventree/src/backend/InvenTree/part/api.py
+- [[Filter by whether the Part is a revision or not.]] - rationale - inventree/src/backend/InvenTree/part/api.py
+- [[Filter by whether the Part is a variant or not.]] - rationale - inventree/src/backend/InvenTree/part/api.py
+- [[Filter by whether the PartTestTemplate has any associated test results.]] - rationale - inventree/src/backend/InvenTree/part/api.py
+- [[Filter by whether the StockItem has a batch code (or not).]] - rationale - inventree/src/backend/InvenTree/stock/api.py
+- [[Filter by whether the StockItem has a serial number (or not).]] - rationale - inventree/src/backend/InvenTree/stock/api.py
+- [[Filter by whether the StockItem is available or not.          Here, available]] - rationale - inventree/src/backend/InvenTree/stock/api.py
+- [[Filter by whether the order is 'complete' or not.]] - rationale - inventree/src/backend/InvenTree/order/api.py
+- [[Filter by whether the order is 'complete' or not._1]] - rationale - inventree/src/backend/InvenTree/order/api.py
+- [[Filter by whether the order is 'outstanding' or not.]] - rationale - inventree/src/backend/InvenTree/order/api.py
+- [[Filter by whether the order is 'outstanding' or not._1]] - rationale - inventree/src/backend/InvenTree/order/api.py
+- [[Filter by whether the stock item has been consumed by a build order.]] - rationale - inventree/src/backend/InvenTree/stock/api.py
+- [[Filter by whether this stock item is tracked.          Meaning either]] - rationale - inventree/src/backend/InvenTree/stock/api.py
+- [[Filter by whether to include sub-locations in the filtered results.          Not]] - rationale - inventree/src/backend/InvenTree/stock/api.py
+- [[Filter class for label template list.]] - rationale - inventree/src/backend/InvenTree/report/api.py
+- [[Filter for category that also applies cascade logic.]] - rationale - inventree/src/backend/InvenTree/part/api.py
+- [[Filter for location that also applies cascade logic.]] - rationale - inventree/src/backend/InvenTree/stock/api.py
+- [[Filter for stock_item that also applies include_installed logic.]] - rationale - inventree/src/backend/InvenTree/stock/api.py
+- [[Filter for the PluginConfig model.      Provides custom filtering options for th]] - rationale - inventree/src/backend/InvenTree/plugin/api.py
+- [[Filter parts related to the specified part ID.]] - rationale - inventree/src/backend/InvenTree/part/api.py
+- [[Filter queryset to include only ParameterTemplates of the given model type.]] - rationale - inventree/src/backend/InvenTree/common/api.py
+- [[Filter queryset to include only ParameterTemplates which apply to the given mode]] - rationale - inventree/src/backend/InvenTree/common/api.py
+- [[Filter queryset to include only ParameterTemplates which have at least one Param]] - rationale - inventree/src/backend/InvenTree/common/api.py
+- [[Filter queryset to include only ParameterTemplates which have at least one Param_1]] - rationale - inventree/src/backend/InvenTree/common/api.py
+- [[Filter queryset to include only ParameterTemplates which have at least one Param_2]] - rationale - inventree/src/backend/InvenTree/common/api.py
+- [[Filter queryset to include only Parameters of the given model type.]] - rationale - inventree/src/backend/InvenTree/common/api.py
+- [[Filter queryset to include only PartParameterTemplates with choices.]] - rationale - inventree/src/backend/InvenTree/common/api.py
+- [[Filter queryset to include only PartParameterTemplates with units.]] - rationale - inventree/src/backend/InvenTree/common/api.py
+- [[Filter queryset to include only PartRelated objects which reference the specifie]] - rationale - inventree/src/backend/InvenTree/part/api.py
+- [[Filter stock items by belongs_to field being empty.]] - rationale - inventree/src/backend/InvenTree/stock/api.py
+- [[Filter stock items by belongs_to field being empty._1]] - rationale - inventree/src/backend/InvenTree/stock/api.py
+- [[Filter stock items by belongs_to field being empty._2]] - rationale - inventree/src/backend/InvenTree/stock/api.py
+- [[Filter the queryset based on the specified PartCategory.]] - rationale - inventree/src/backend/InvenTree/part/api.py
+- [[Filter the queryset based on the specified part.]] - rationale - inventree/src/backend/InvenTree/part/api.py
+- [[Filter the queryset based on the specified part._1]] - rationale - inventree/src/backend/InvenTree/part/api.py
+- [[Filter the queryset based on whether each line item has any available stock.]] - rationale - inventree/src/backend/InvenTree/part/api.py
+- [[Filter the queryset based on whether each line item has any stock on order.]] - rationale - inventree/src/backend/InvenTree/part/api.py
+- [[Filter the queryset based on whether part stock is required for a pending BuildO]] - rationale - inventree/src/backend/InvenTree/part/api.py
+- [[Filter the queryset based on whether pricing information is available for the su_1]] - rationale - inventree/src/backend/InvenTree/part/api.py
+- [[Filter the queryset based on whether pricing information is available for the su]] - rationale - inventree/src/backend/InvenTree/part/api.py
+- [[Filter the queryset based on whether the SupplierPart has stock available.]] - rationale - inventree/src/backend/InvenTree/company/api.py
+- [[Filter the queryset based on whether the part is fully depleted of stock.]] - rationale - inventree/src/backend/InvenTree/part/api.py
+- [[Filter the queryset by either manufacturer or supplier.]] - rationale - inventree/src/backend/InvenTree/company/api.py
+- [[Filter the queryset to include orders before a specified date.          This i]] - rationale - inventree/src/backend/InvenTree/order/api.py
+- [[Filter to only include orders which fill fulfil the provided Build Order.]] - rationale - inventree/src/backend/InvenTree/order/api.py
+- [[FilterSet]] - code
+- [[FilterSet class for the ParameterTemplateList API endpoint.]] - rationale - inventree/src/backend/InvenTree/common/api.py
+- [[FilterSet for PartRelated objects.]] - rationale - inventree/src/backend/InvenTree/part/api.py
+- [[FilterSet for StockItem LIST API.]] - rationale - inventree/src/backend/InvenTree/stock/api.py
+- [[FlagDetail]] - code - inventree/src/backend/InvenTree/common/api.py
+- [[FlagList]] - code - inventree/src/backend/InvenTree/common/api.py
+- [[General template for ExtraLine API classes.]] - rationale - inventree/src/backend/InvenTree/order/api.py
+- [[GeneralExtraLineList]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[GeneralExtraLineListOutputOptions]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[Generate a dictionary of permissions for a given set of permissions.]] - rationale - inventree/src/backend/InvenTree/users/serializers.py
+- [[Generate a list of default headers for the exported data.          Returns an or]] - rationale - inventree/src/backend/InvenTree/data_exporter/mixins.py
+- [[Generate a new batch code._1]] - rationale - inventree/src/backend/InvenTree/stock/api.py
+- [[Generate a new serial number.]] - rationale - inventree/src/backend/InvenTree/stock/api.py
+- [[Generate a random password of given length.]] - rationale - inventree/src/backend/InvenTree/users/serializers.py
+- [[Generate the next available ReturnOrder reference.]] - rationale - inventree/src/backend/InvenTree/order/validators.py
+- [[Generate the next available SalesOrder reference.]] - rationale - inventree/src/backend/InvenTree/order/validators.py
+- [[GenerateBatchCode]] - code - inventree/src/backend/InvenTree/stock/api.py
+- [[GenerateSerialNumber]] - code - inventree/src/backend/InvenTree/stock/api.py
+- [[Generic API endpoint for discovering information on 'status codes' for a particu]] - rationale - inventree/src/backend/InvenTree/generic/states/api.py
+- [[Generic filter for determining if an order is 'overdue'.          Note that the]] - rationale - inventree/src/backend/InvenTree/order/api.py
+- [[GenericAPIView]] - code
+- [[GenericMetadataView]] - code - inventree/src/backend/InvenTree/InvenTree/api.py
+- [[GenericStateClassSerializer]] - code - inventree/src/backend/InvenTree/generic/states/serializers.py
+- [[Get all settings for a plugin config.]] - rationale - inventree/src/backend/InvenTree/plugin/api.py
+- [[Get all user settings for a plugin config.]] - rationale - inventree/src/backend/InvenTree/plugin/api.py
+- [[Get the security requirement for the current view.]] - rationale - inventree/src/backend/InvenTree/InvenTree/schema.py
+- [[GetAuthToken]] - code - inventree/src/backend/InvenTree/users/api.py
+- [[GetAuthTokenSerializer]] - code - inventree/src/backend/InvenTree/users/serializers.py
+- [[GlobalSettingsDetail]] - code - inventree/src/backend/InvenTree/common/api.py
+- [[GlobalSettingsList]] - code - inventree/src/backend/InvenTree/common/api.py
+- [[GlobalSettingsPermissions]] - code - inventree/src/backend/InvenTree/InvenTree/permissions.py
+- [[GroupDetail]] - code - inventree/src/backend/InvenTree/users/api.py
+- [[GroupList]] - code - inventree/src/backend/InvenTree/users/api.py
+- [[GroupMixin]] - code - inventree/src/backend/InvenTree/users/api.py
+- [[GroupOutputOptions]] - code - inventree/src/backend/InvenTree/users/api.py
+- [[GroupSerializer]] - code - inventree/src/backend/InvenTree/users/serializers.py
+- [[Handle DELETE request for a PluginConfig instance.          We only allow plugin]] - rationale - inventree/src/backend/InvenTree/plugin/api.py
+- [[Handle a barcode scan for a purchase order item.]] - rationale - inventree/src/backend/InvenTree/plugin/base/barcodes/api.py
+- [[Handle barcode scan for sales order allocation.          Arguments]] - rationale - inventree/src/backend/InvenTree/plugin/base/barcodes/api.py
+- [[Handle barcode scan.          Arguments             barcode Raw barcode value]] - rationale - inventree/src/backend/InvenTree/plugin/base/barcodes/api.py
+- [[Handle create method - override default create.]] - rationale - inventree/src/backend/InvenTree/plugin/base/barcodes/api.py
+- [[HealthCheckStatusSerializer]] - code - inventree/src/backend/InvenTree/common/api.py
+- [[HealthCheckView]] - code - inventree/src/backend/InvenTree/common/api.py
+- [[Helper for creating bulk delete operation on classic cbv and viewsets.]] - rationale - inventree/src/backend/InvenTree/InvenTree/api.py
+- [[Helper function for constructing metadata path for a given model.      Arguments]] - rationale - inventree/src/backend/InvenTree/InvenTree/api.py
+- [[Helper to run a test on flow response.]] - rationale - inventree/src/backend/InvenTree/users/tests.py
+- [[Helpers for InvenTrees way of using drf viewset.]] - rationale - inventree/src/backend/InvenTree/InvenTree/helpers_api.py
+- [[Holds all available output options for a view.      This class is responsible fo]] - rationale - inventree/src/backend/InvenTree/InvenTree/fields.py
+- [[ICalFeed]] - code
+- [[IconList]] - code - inventree/src/backend/InvenTree/common/api.py
+- [[InfoApiSerializer]] - code - inventree/src/backend/InvenTree/InvenTree/api.py
+- [[InfoView]] - code - inventree/src/backend/InvenTree/InvenTree/api.py
+- [[Initialize the validator.]] - rationale - inventree/src/backend/InvenTree/generic/states/validators.py
+- [[Install a plugin via the API.]] - rationale - inventree/src/backend/InvenTree/plugin/api.py
+- [[InvenTree server information - some information might be blanked if called witho]] - rationale - inventree/src/backend/InvenTree/InvenTree/api.py
+- [[InvenTreeApiRouter]] - code - inventree/src/backend/InvenTree/InvenTree/helpers_api.py
+- [[InvenTreeCustomStatusSerializerMixin]] - code
+- [[InvenTreeDateFilter]] - code - inventree/src/backend/InvenTree/InvenTree/filters.py
+- [[InvenTreeGroupAdminForm]] - code - inventree/src/backend/InvenTree/users/admin.py
+- [[InvenTreeLabelPlugin]] - code - inventree/src/backend/InvenTree/plugin/builtin/labels/inventree_label.py
+- [[InvenTreeNotesField]] - code - inventree/src/backend/InvenTree/InvenTree/fields.py
+- [[InvenTreeOutputOption]] - code - inventree/src/backend/InvenTree/InvenTree/fields.py
+- [[InvenTreeSearchFilter]] - code - inventree/src/backend/InvenTree/InvenTree/filters.py
+- [[InvenTreeUserAdmin]] - code - inventree/src/backend/InvenTree/users/admin.py
+- [[IsAdminOrAdminScope]] - code - inventree/src/backend/InvenTree/InvenTree/permissions.py
+- [[IsAuthenticatedOrReadScope]] - code - inventree/src/backend/InvenTree/InvenTree/permissions.py
+- [[IsStaffOrReadOnlyScope]] - code - inventree/src/backend/InvenTree/InvenTree/permissions.py
+- [[IsSuperuserOrReadOnlyOrScope]] - code - inventree/src/backend/InvenTree/InvenTree/permissions.py
+- [[IsSuperuserOrSuperScope]] - code - inventree/src/backend/InvenTree/InvenTree/permissions.py
+- [[JSON endpoint for InvenTree server information.      Use to confirm that the ser]] - rationale - inventree/src/backend/InvenTree/InvenTree/api.py
+- [[LabelFilter]] - code - inventree/src/backend/InvenTree/report/api.py
+- [[LabelPrint]] - code - inventree/src/backend/InvenTree/report/api.py
+- [[LabelTemplateDetail]] - code - inventree/src/backend/InvenTree/report/api.py
+- [[LabelTemplateList]] - code - inventree/src/backend/InvenTree/report/api.py
+- [[LabelTemplateMixin]] - code - inventree/src/backend/InvenTree/report/api.py
+- [[LicenseView]] - code - inventree/src/backend/InvenTree/InvenTree/api.py
+- [[LicenseViewSerializer]] - code - inventree/src/backend/InvenTree/InvenTree/api.py
+- [[Limit queryset to descendants of the specified ancestor part.]] - rationale - inventree/src/backend/InvenTree/part/api.py
+- [[Limit queryset to direct children (variants) of the specified part.]] - rationale - inventree/src/backend/InvenTree/part/api.py
+- [[Limit queryset to parts in the BOM for the specified part.]] - rationale - inventree/src/backend/InvenTree/part/api.py
+- [[Limit the queryset to valid conversion options for the specified part.]] - rationale - inventree/src/backend/InvenTree/part/api.py
+- [[LineItemFilter]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[LinkSerializer]] - code - inventree/src/backend/InvenTree/InvenTree/api.py
+- [[List API Endpoint for all discovered machine types.      - GET List all machine]] - rationale - inventree/src/backend/InvenTree/machine/api.py
+- [[List API endpoint for Attachment objects.]] - rationale - inventree/src/backend/InvenTree/common/api.py
+- [[List API endpoint for Parameter objects.]] - rationale - inventree/src/backend/InvenTree/common/api.py
+- [[List all machine drivers.]] - rationale - inventree/src/backend/InvenTree/machine/api.py
+- [[List all stock tracking entries.]] - rationale - inventree/src/backend/InvenTree/stock/api.py
+- [[List endpoint for all RuleSet instances.]] - rationale - inventree/src/backend/InvenTree/users/api.py
+- [[List endpoint for all auth groups.]] - rationale - inventree/src/backend/InvenTree/users/api.py
+- [[List endpoint for all user settings for a specific plugin.      - GET return al]] - rationale - inventree/src/backend/InvenTree/plugin/api.py
+- [[List endpoint for detail on all users.      Permissions     - Staff users (who]] - rationale - inventree/src/backend/InvenTree/users/api.py
+- [[List endpoint sample.]] - rationale - inventree/src/backend/InvenTree/InvenTree/test_serializers.py
+- [[List of user tokens for current user.]] - rationale - inventree/src/backend/InvenTree/users/api.py
+- [[List of user tokens for current user._1]] - rationale - inventree/src/backend/InvenTree/users/api.py
+- [[List view for ContentTypes.]] - rationale - inventree/src/backend/InvenTree/common/api.py
+- [[List view for ParameterTemplate objects.]] - rationale - inventree/src/backend/InvenTree/common/api.py
+- [[List view for SelectionList objects.]] - rationale - inventree/src/backend/InvenTree/common/api.py
+- [[List view for all notes images.]] - rationale - inventree/src/backend/InvenTree/common/api.py
+- [[List view for available icon packages.]] - rationale - inventree/src/backend/InvenTree/common/api.py
+- [[List view for custom units.]] - rationale - inventree/src/backend/InvenTree/common/api.py
+- [[List view for feature flags.]] - rationale - inventree/src/backend/InvenTree/common/api.py
+- [[List view for server error messages.]] - rationale - inventree/src/backend/InvenTree/common/api.py
+- [[ListAPI]] - code
+- [[ListAPI_1]] - code - inventree/src/backend/InvenTree/InvenTree/mixins.py
+- [[ListCreateAPI]] - code
+- [[ListCreateAPI_1]] - code - inventree/src/backend/InvenTree/InvenTree/mixins.py
+- [[ListCreateDestroyAPIView_1]] - code - inventree/src/backend/InvenTree/InvenTree/api.py
+- [[LocatePluginView]] - code - inventree/src/backend/InvenTree/plugin/base/locate/api.py
+- [[LoginRedirect]] - code - inventree/src/backend/InvenTree/users/api.py
+- [[Lookup the plugin user setting object, based on the URL.]] - rationale - inventree/src/backend/InvenTree/plugin/api.py
+- [[MachineDetail]] - code - inventree/src/backend/InvenTree/machine/api.py
+- [[MachineDriverList]] - code - inventree/src/backend/InvenTree/machine/api.py
+- [[MachineList]] - code - inventree/src/backend/InvenTree/machine/api.py
+- [[MachineRestart]] - code - inventree/src/backend/InvenTree/machine/api.py
+- [[MachineSettingDetail]] - code - inventree/src/backend/InvenTree/machine/api.py
+- [[MachineSettingList]] - code - inventree/src/backend/InvenTree/machine/api.py
+- [[MachineTypesList]] - code - inventree/src/backend/InvenTree/machine/api.py
+- [[ManufacturerPartDetail]] - code - inventree/src/backend/InvenTree/company/api.py
+- [[ManufacturerPartFilter]] - code - inventree/src/backend/InvenTree/company/api.py
+- [[Mark a view function as being exempt from auth requirements.]] - rationale - inventree/src/backend/InvenTree/InvenTree/permissions.py
+- [[MeUserDetail]] - code - inventree/src/backend/InvenTree/users/api.py
+- [[MeUserSerializer]] - code - inventree/src/backend/InvenTree/users/serializers.py
+- [[Meta_3]] - code - inventree/src/backend/InvenTree/part/admin.py
+- [[Meta_2]] - code - inventree/src/backend/InvenTree/company/api.py
+- [[Meta class for owner filter.]] - rationale - inventree/src/backend/InvenTree/users/api.py
+- [[Meta class for the BarcodeScanResultFilter.]] - rationale - inventree/src/backend/InvenTree/plugin/base/barcodes/api.py
+- [[Meta class options for this filterset.]] - rationale - inventree/src/backend/InvenTree/stock/api.py
+- [[Meta options for UserSetPasswordSerializer.]] - rationale - inventree/src/backend/InvenTree/users/serializers.py
+- [[Metaclass defines extra fields.]] - rationale - inventree/src/backend/InvenTree/users/admin.py
+- [[Metaclass defines serializer fields._1]] - rationale - inventree/src/backend/InvenTree/users/serializers.py
+- [[Metaclass defines serializer fields._2]] - rationale - inventree/src/backend/InvenTree/users/serializers.py
+- [[Metaclass defines serializer fields.]] - rationale - inventree/src/backend/InvenTree/users/serializers.py
+- [[Metaclass defines serializer fields._3]] - rationale - inventree/src/backend/InvenTree/users/serializers.py
+- [[Metaclass options for the UserCreateSerializer.]] - rationale - inventree/src/backend/InvenTree/users/serializers.py
+- [[Metaclass options for the filterset.]] - rationale - inventree/src/backend/InvenTree/common/api.py
+- [[Metaclass options for this filterset.]] - rationale - inventree/src/backend/InvenTree/part/api.py
+- [[Metaclass options for this filterset._1]] - rationale - inventree/src/backend/InvenTree/stock/api.py
+- [[Metaclass options.          Extends the ExtendedUserSerializer.Meta options,]] - rationale - inventree/src/backend/InvenTree/users/serializers.py
+- [[Metadata for specific instance; see httpsdocs.inventree.orgenstableplugins]] - rationale - inventree/src/backend/InvenTree/InvenTree/api.py
+- [[MetadataRedirectView]] - code - inventree/src/backend/InvenTree/InvenTree/api.py
+- [[MetadataSerializer]] - code - inventree/src/backend/InvenTree/plugin/serializers.py
+- [[Mixin class for Attachment views.]] - rationale - inventree/src/backend/InvenTree/common/api.py
+- [[Mixin class for BarcodeScan API endpoints.]] - rationale - inventree/src/backend/InvenTree/plugin/base/barcodes/api.py
+- [[Mixin class for BomItem API endpoints.]] - rationale - inventree/src/backend/InvenTree/part/api.py
+- [[Mixin class for Company API endpoints.]] - rationale - inventree/src/backend/InvenTree/company/api.py
+- [[Mixin class for DataImportSession API views.]] - rationale - inventree/src/backend/InvenTree/importer/api.py
+- [[Mixin class for DataOutput endpoints.]] - rationale - inventree/src/backend/InvenTree/common/api.py
+- [[Mixin class for Parameter views.]] - rationale - inventree/src/backend/InvenTree/common/api.py
+- [[Mixin class for ParameterTemplate views.]] - rationale - inventree/src/backend/InvenTree/common/api.py
+- [[Mixin class for Part API endpoints.]] - rationale - inventree/src/backend/InvenTree/part/api.py
+- [[Mixin class for PartCategory endpoints.]] - rationale - inventree/src/backend/InvenTree/part/api.py
+- [[Mixin class for PartRelated API endpoints.]] - rationale - inventree/src/backend/InvenTree/part/api.py
+- [[Mixin class for PartStocktake API endpoints.]] - rationale - inventree/src/backend/InvenTree/part/api.py
+- [[Mixin class for PurchaseOrder endpoints.]] - rationale - inventree/src/backend/InvenTree/order/api.py
+- [[Mixin class for PurchaseOrderLineItem endpoints.]] - rationale - inventree/src/backend/InvenTree/order/api.py
+- [[Mixin class for ReturnOrder endpoints.]] - rationale - inventree/src/backend/InvenTree/order/api.py
+- [[Mixin class for ReturnOrderLineItem endpoints.]] - rationale - inventree/src/backend/InvenTree/order/api.py
+- [[Mixin class for SalesOrder endpoints.]] - rationale - inventree/src/backend/InvenTree/order/api.py
+- [[Mixin class for SalesOrderAllocation endpoints.]] - rationale - inventree/src/backend/InvenTree/order/api.py
+- [[Mixin class for SalesOrderLineItem endpoints.]] - rationale - inventree/src/backend/InvenTree/order/api.py
+- [[Mixin class for SalesOrderShipment endpoints.]] - rationale - inventree/src/backend/InvenTree/order/api.py
+- [[Mixin class for StockItem API endpoints.]] - rationale - inventree/src/backend/InvenTree/stock/api.py
+- [[Mixin class for StockLocation API endpoints.]] - rationale - inventree/src/backend/InvenTree/stock/api.py
+- [[Mixin class for SupplierPriceBreak API endpoints.]] - rationale - inventree/src/backend/InvenTree/company/api.py
+- [[Mixin class for adding StockItem object to serializer context.]] - rationale - inventree/src/backend/InvenTree/stock/api.py
+- [[Mixin class for enabling 'bulk create' operations for various models.      Bulk]] - rationale - inventree/src/backend/InvenTree/InvenTree/api.py
+- [[Mixin class for enabling 'bulk delete' operations for various models.      Bulk]] - rationale - inventree/src/backend/InvenTree/InvenTree/api.py
+- [[Mixin class for enabling 'bulk delete' operations for viewsets.]] - rationale - inventree/src/backend/InvenTree/InvenTree/api.py
+- [[Mixin class for enabling 'bulk update' operations for various models.      Bulk]] - rationale - inventree/src/backend/InvenTree/InvenTree/api.py
+- [[Mixin class for handling bulk data operations.      Bulk operations are implemen]] - rationale - inventree/src/backend/InvenTree/InvenTree/api.py
+- [[Mixin class for report template API views.]] - rationale - inventree/src/backend/InvenTree/report/api.py
+- [[Mixin class for the PartTestTemplate API endpoints.]] - rationale - inventree/src/backend/InvenTree/part/api.py
+- [[Mixin class for the StockItemTestResult API endpoints.]] - rationale - inventree/src/backend/InvenTree/stock/api.py
+- [[Mixin class which handles order creation via API.]] - rationale - inventree/src/backend/InvenTree/order/api.py
+- [[Mixin class which supports filtering against parametric fields.]] - rationale - inventree/src/backend/InvenTree/InvenTree/api.py
+- [[Mixin for API token endpoints.]] - rationale - inventree/src/backend/InvenTree/users/api.py
+- [[Mixin for Group API endpoints to add permissions filter.      Permissions     -]] - rationale - inventree/src/backend/InvenTree/users/api.py
+- [[Mixin for RuleSet API endpoints.]] - rationale - inventree/src/backend/InvenTree/users/api.py
+- [[Mixin for SelectionEntry views.]] - rationale - inventree/src/backend/InvenTree/common/api.py
+- [[Mixin that combines the permissions of normal classes and token classes.]] - rationale - inventree/src/backend/InvenTree/InvenTree/permissions.py
+- [[Mixin to add sales order object as serializer context variable.]] - rationale - inventree/src/backend/InvenTree/order/api.py
+- [[Mixin to handle output options for API endpoints.]] - rationale - inventree/src/backend/InvenTree/InvenTree/mixins.py
+- [[Model mixin class which cleans inputs using nh3.]] - rationale - inventree/src/backend/InvenTree/InvenTree/mixins.py
+- [[Model references to map info that might get imported.]] - rationale - inventree/src/backend/InvenTree/importer/api.py
+- [[NewsFeedViewSet]] - code - inventree/src/backend/InvenTree/common/api.py
+- [[Newsfeed from the official inventree.org website.]] - rationale - inventree/src/backend/InvenTree/common/api.py
+- [[NotFoundView]] - code - inventree/src/backend/InvenTree/InvenTree/api.py
+- [[NotesFieldMixin]] - code
+- [[NotesImageList]] - code - inventree/src/backend/InvenTree/common/api.py
+- [[NotificationMessageViewSet]] - code - inventree/src/backend/InvenTree/common/api.py
+- [[NumberOrNullFilter]] - code - inventree/src/backend/InvenTree/InvenTree/filters.py
+- [[NumericInFilter]] - code - inventree/src/backend/InvenTree/InvenTree/filters.py
+- [[OASTokenMixin]] - code - inventree/src/backend/InvenTree/InvenTree/permissions.py
+- [[ObservabilityEnd]] - code - inventree/src/backend/InvenTree/common/api.py
+- [[ObservabilityEndSerializer]] - code - inventree/src/backend/InvenTree/common/api.py
+- [[Only a superuser account can adjust this value!]] - rationale - inventree/src/backend/InvenTree/users/serializers.py
+- [[Only list notifications which apply to the current user.]] - rationale - inventree/src/backend/InvenTree/common/api.py
+- [[Only list settings which apply to the current user.]] - rationale - inventree/src/backend/InvenTree/common/api.py
+- [[Only return data for current user.]] - rationale - inventree/src/backend/InvenTree/users/api.py
+- [[Optional method to arrange the export headers.          By default, the headers]] - rationale - inventree/src/backend/InvenTree/data_exporter/mixins.py
+- [[OrderCalendarExport]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[OrderCreateMixin]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[OrderFilter]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[Output option for PartCategory endpoints.]] - rationale - inventree/src/backend/InvenTree/part/api.py
+- [[Output options for BOM endpoints.]] - rationale - inventree/src/backend/InvenTree/part/api.py
+- [[Output options for Part endpoints.]] - rationale - inventree/src/backend/InvenTree/part/api.py
+- [[Output options for StockItem serializers.]] - rationale - inventree/src/backend/InvenTree/stock/api.py
+- [[Output options for StockItemTestResult endpoint.]] - rationale - inventree/src/backend/InvenTree/stock/api.py
+- [[Output options for StockItemTracking endpoint.]] - rationale - inventree/src/backend/InvenTree/stock/api.py
+- [[Output options for StockLocation serializers.]] - rationale - inventree/src/backend/InvenTree/stock/api.py
+- [[Output options for the GeneralExtraLineList endpoint.]] - rationale - inventree/src/backend/InvenTree/order/api.py
+- [[Output options for the PurchaseOrderLineItem endpoint.]] - rationale - inventree/src/backend/InvenTree/order/api.py
+- [[Output options for the ReturnOrder endpoint.]] - rationale - inventree/src/backend/InvenTree/order/api.py
+- [[Output options for the ReturnOrderLineItem endpoint.]] - rationale - inventree/src/backend/InvenTree/order/api.py
+- [[Output options for the SalesOrder endpoint.]] - rationale - inventree/src/backend/InvenTree/order/api.py
+- [[Output options for the SalesOrderAllocation endpoint.]] - rationale - inventree/src/backend/InvenTree/order/api.py
+- [[OutputConfiguration_1]] - code - inventree/src/backend/InvenTree/InvenTree/fields.py
+- [[OutputConfiguration]] - code
+- [[OutputOptionsMixin_1]] - code - inventree/src/backend/InvenTree/InvenTree/mixins.py
+- [[OutputOptionsMixin]] - code
+- [[Overload call in order to check for authentication.          This is required to]] - rationale - inventree/src/backend/InvenTree/order/api.py
+- [[Override call to drf-spectacular's enum postprocessor to filter out specific war]] - rationale - inventree/src/backend/InvenTree/InvenTree/schema.py
+- [[Override dispatch to set lookup field dynamically.]] - rationale - inventree/src/backend/InvenTree/InvenTree/api.py
+- [[Override dispatch to set lookup field to 'pk'.]] - rationale - inventree/src/backend/InvenTree/InvenTree/api.py
+- [[Override the GET method to determine export options.]] - rationale - inventree/src/backend/InvenTree/data_exporter/mixins.py
+- [[Override the perform_update method to auto-update pricing if required.]] - rationale - inventree/src/backend/InvenTree/order/api.py
+- [[Override the post method to handle shipment completion.]] - rationale - inventree/src/backend/InvenTree/order/api.py
+- [[Override the queryset method to include location count._1]] - rationale - inventree/src/backend/InvenTree/stock/api.py
+- [[Override the queryset method to include location count.]] - rationale - inventree/src/backend/InvenTree/stock/api.py
+- [[Override to clean data before processing it._1]] - rationale - inventree/src/backend/InvenTree/InvenTree/mixins.py
+- [[Overwritten to always return current user.]] - rationale - inventree/src/backend/InvenTree/users/api.py
+- [[OwnerAdmin]] - code - inventree/src/backend/InvenTree/users/admin.py
+- [[OwnerDetail]] - code - inventree/src/backend/InvenTree/users/api.py
+- [[OwnerFilter]] - code - inventree/src/backend/InvenTree/users/api.py
+- [[OwnerList]] - code - inventree/src/backend/InvenTree/users/api.py
+- [[POST action for printing a report.]] - rationale - inventree/src/backend/InvenTree/report/api.py
+- [[POST action for printing labels.]] - rationale - inventree/src/backend/InvenTree/report/api.py
+- [[ParameterDetail]] - code - inventree/src/backend/InvenTree/common/api.py
+- [[ParameterFilter]] - code - inventree/src/backend/InvenTree/common/api.py
+- [[ParameterList]] - code - inventree/src/backend/InvenTree/common/api.py
+- [[ParameterListMixin_1]] - code - inventree/src/backend/InvenTree/InvenTree/api.py
+- [[ParameterMixin]] - code - inventree/src/backend/InvenTree/common/api.py
+- [[ParameterTemplateDetail]] - code - inventree/src/backend/InvenTree/common/api.py
+- [[ParameterTemplateFilter]] - code - inventree/src/backend/InvenTree/common/api.py
+- [[ParameterTemplateList]] - code - inventree/src/backend/InvenTree/common/api.py
+- [[ParameterTemplateMixin]] - code - inventree/src/backend/InvenTree/common/api.py
+- [[Parameters for selecting items for bulk operations.]] - rationale - inventree/src/backend/InvenTree/InvenTree/api.py
+- [[Parse a unit from the registry.]] - rationale - inventree/src/backend/InvenTree/common/api.py
+- [[PartCopyBOM]] - code - inventree/src/backend/InvenTree/part/api.py
+- [[PartDetail]] - code - inventree/src/backend/InvenTree/part/api.py
+- [[PartFilter]] - code - inventree/src/backend/InvenTree/part/api.py
+- [[PartInternalPriceBreak]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[PartInternalPriceDetail]] - code - inventree/src/backend/InvenTree/part/api.py
+- [[PartInternalPriceList]] - code - inventree/src/backend/InvenTree/part/api.py
+- [[PartList]] - code - inventree/src/backend/InvenTree/part/api.py
+- [[PartMixin]] - code - inventree/src/backend/InvenTree/part/api.py
+- [[PartOutputOptions]] - code - inventree/src/backend/InvenTree/part/api.py
+- [[PartPricingDetail]] - code - inventree/src/backend/InvenTree/part/api.py
+- [[PartRelatedDetail]] - code - inventree/src/backend/InvenTree/part/api.py
+- [[PartRelatedFilter]] - code - inventree/src/backend/InvenTree/part/api.py
+- [[PartRelatedList]] - code - inventree/src/backend/InvenTree/part/api.py
+- [[PartRelatedMixin]] - code - inventree/src/backend/InvenTree/part/api.py
+- [[PartRequirements]] - code - inventree/src/backend/InvenTree/part/api.py
+- [[PartSalePriceDetail]] - code - inventree/src/backend/InvenTree/part/api.py
+- [[PartSalePriceList]] - code - inventree/src/backend/InvenTree/part/api.py
+- [[PartSerialNumberDetail]] - code - inventree/src/backend/InvenTree/part/api.py
+- [[PartStocktakeDetail]] - code - inventree/src/backend/InvenTree/part/api.py
+- [[PartStocktakeFilter]] - code - inventree/src/backend/InvenTree/part/api.py
+- [[PartStocktakeGenerate]] - code - inventree/src/backend/InvenTree/part/api.py
+- [[PartStocktakeList]] - code - inventree/src/backend/InvenTree/part/api.py
+- [[PartStocktakeMixin]] - code - inventree/src/backend/InvenTree/part/api.py
+- [[PartTestTemplateDetail]] - code - inventree/src/backend/InvenTree/part/api.py
+- [[PartTestTemplateFilter]] - code - inventree/src/backend/InvenTree/part/api.py
+- [[PartTestTemplateList]] - code - inventree/src/backend/InvenTree/part/api.py
+- [[PartTestTemplateMixin]] - code - inventree/src/backend/InvenTree/part/api.py
+- [[PartThumbs]] - code - inventree/src/backend/InvenTree/part/api.py
+- [[PartThumbsUpdate]] - code - inventree/src/backend/InvenTree/part/api.py
+- [[PartValidateBOM]] - code - inventree/src/backend/InvenTree/part/api.py
+- [[Pass the request object to the serializer.]] - rationale - inventree/src/backend/InvenTree/order/api.py
+- [[PendingTaskList]] - code - inventree/src/backend/InvenTree/common/api.py
+- [[Perform 'update' function and mark this part as 'starred' (or not).]] - rationale - inventree/src/backend/InvenTree/part/api.py
+- [[Perform a DELETE operation against this list endpoint.          Note that the ty]] - rationale - inventree/src/backend/InvenTree/InvenTree/api.py
+- [[Perform a DELETE operation against this list endpoint.          Note that the ty_1]] - rationale - inventree/src/backend/InvenTree/InvenTree/api.py
+- [[Perform a GET request to retrieve metadata for the given object.]] - rationale - inventree/src/backend/InvenTree/InvenTree/api.py
+- [[Perform a PATCH operation against this list endpoint.          Note that the typ]] - rationale - inventree/src/backend/InvenTree/InvenTree/api.py
+- [[Perform a PATCH request to partially update metadata for the given object.]] - rationale - inventree/src/backend/InvenTree/InvenTree/api.py
+- [[Perform a POST operation against this list endpoint.]] - rationale - inventree/src/backend/InvenTree/InvenTree/api.py
+- [[Perform a PUT operation against this list endpoint.          Simply redirects to]] - rationale - inventree/src/backend/InvenTree/InvenTree/api.py
+- [[Perform a PUT request to update metadata for the given object.]] - rationale - inventree/src/backend/InvenTree/InvenTree/api.py
+- [[Perform a bulk delete operation.          Provide either a list of ids (via `ite]] - rationale - inventree/src/backend/InvenTree/InvenTree/api.py
+- [[Perform a generic 'scan' of the provided barcode data.          Check each loade]] - rationale - inventree/src/backend/InvenTree/plugin/base/barcodes/api.py
+- [[Perform barcode scan action.          Arguments             barcode Raw barcod]] - rationale - inventree/src/backend/InvenTree/plugin/base/barcodes/api.py
+- [[Perform filtering against parametric fields.]] - rationale - inventree/src/backend/InvenTree/InvenTree/api.py
+- [[Perform search query against available models.]] - rationale - inventree/src/backend/InvenTree/InvenTree/api.py
+- [[Perform stocktake generation on POST request.]] - rationale - inventree/src/backend/InvenTree/part/api.py
+- [[Perform validation right before deletion.          Arguments             querys]] - rationale - inventree/src/backend/InvenTree/InvenTree/api.py
+- [[Perform validation right before updating.          Arguments             querys]] - rationale - inventree/src/backend/InvenTree/InvenTree/api.py
+- [[Performing a POST request will update currency exchange rates.]] - rationale - inventree/src/backend/InvenTree/common/api.py
+- [[Permission mixin for report and label templates.]] - rationale - inventree/src/backend/InvenTree/report/api.py
+- [[Placeholder for legacy function used in migrations.]] - rationale - inventree/src/backend/InvenTree/InvenTree/validators.py
+- [[PluginActivate]] - code - inventree/src/backend/InvenTree/plugin/api.py
+- [[PluginAdminDetail]] - code - inventree/src/backend/InvenTree/plugin/api.py
+- [[PluginAllSettingList]] - code - inventree/src/backend/InvenTree/plugin/api.py
+- [[PluginDetail]] - code - inventree/src/backend/InvenTree/plugin/api.py
+- [[PluginFilter]] - code - inventree/src/backend/InvenTree/plugin/api.py
+- [[PluginInstall]] - code - inventree/src/backend/InvenTree/plugin/api.py
+- [[PluginList]] - code - inventree/src/backend/InvenTree/plugin/api.py
+- [[PluginReload]] - code - inventree/src/backend/InvenTree/plugin/api.py
+- [[PluginSettingDetail]] - code - inventree/src/backend/InvenTree/plugin/api.py
+- [[PluginSettingList]] - code - inventree/src/backend/InvenTree/plugin/api.py
+- [[PluginUninstall]] - code - inventree/src/backend/InvenTree/plugin/api.py
+- [[PluginUserSetting]] - code - inventree/src/backend/InvenTree/plugin/models.py
+- [[PluginUserSettingDetail]] - code - inventree/src/backend/InvenTree/plugin/api.py
+- [[PluginUserSettingList]] - code - inventree/src/backend/InvenTree/plugin/api.py
+- [[Prefetch related fields.]] - rationale - inventree/src/backend/InvenTree/common/api.py
+- [[Prints statistics against schema.]] - rationale - inventree/src/backend/InvenTree/InvenTree/schema.py
+- [[Process incoming webhook.]] - rationale - inventree/src/backend/InvenTree/common/api.py
+- [[ProjectCodeDetail]] - code - inventree/src/backend/InvenTree/common/api.py
+- [[ProjectCodeList]] - code - inventree/src/backend/InvenTree/common/api.py
+- [[Provide custom filtering for the queryset before it is deleted.          The d]] - rationale - inventree/src/backend/InvenTree/InvenTree/api.py
+- [[Provide custom filtering for the queryset before it is updated.          The d]] - rationale - inventree/src/backend/InvenTree/InvenTree/api.py
+- [[Provide extra filtering options for particular search groups.]] - rationale - inventree/src/backend/InvenTree/InvenTree/api.py
+- [[Provide status data for the machine registry.]] - rationale - inventree/src/backend/InvenTree/machine/api.py
+- [[Provides a JSON API for the Company app.]] - rationale - inventree/src/backend/InvenTree/company/api.py
+- [[Provides a read-only list of currently failed tasks.]] - rationale - inventree/src/backend/InvenTree/common/api.py
+- [[Provides a read-only list of currently pending tasks.]] - rationale - inventree/src/backend/InvenTree/common/api.py
+- [[Provides a read-only list of currently scheduled tasks.]] - rationale - inventree/src/backend/InvenTree/common/api.py
+- [[PurchaseOrder]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[PurchaseOrderCancel]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[PurchaseOrderComplete]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[PurchaseOrderContextMixin]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[PurchaseOrderDetail]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[PurchaseOrderExtraLineDetail]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[PurchaseOrderExtraLineList]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[PurchaseOrderFilter]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[PurchaseOrderHold]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[PurchaseOrderIssue]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[PurchaseOrderLineItemDetail]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[PurchaseOrderLineItemFilter]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[PurchaseOrderLineItemList]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[PurchaseOrderLineItemMixin]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[PurchaseOrderLineItemOutputOptions]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[PurchaseOrderList]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[PurchaseOrderMixin]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[PurchaseOrderOutputOptions]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[PurchaseOrderReceive]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[PurchaseOrderSerializer]] - code - inventree/src/backend/InvenTree/order/serializers.py
+- [[Rebuild all user permissions.      This function is called when a user is create]] - rationale - inventree/src/backend/InvenTree/users/tasks.py
+- [[Redirect to the correct starting page after backend login.]] - rationale - inventree/src/backend/InvenTree/users/api.py
+- [[Redirect to the generic metadata view for a given model.]] - rationale - inventree/src/backend/InvenTree/InvenTree/api.py
+- [[RedirectView]] - code
+- [[RegistryStatusView]] - code - inventree/src/backend/InvenTree/machine/api.py
+- [[RemoteImageMixin_1]] - code
+- [[ReportAssetDetail]] - code - inventree/src/backend/InvenTree/report/api.py
+- [[ReportAssetList]] - code - inventree/src/backend/InvenTree/report/api.py
+- [[ReportFilter]] - code - inventree/src/backend/InvenTree/report/api.py
+- [[ReportFilterBase]] - code - inventree/src/backend/InvenTree/report/api.py
+- [[ReportPrint]] - code - inventree/src/backend/InvenTree/report/api.py
+- [[ReportSnippetDetail]] - code - inventree/src/backend/InvenTree/report/api.py
+- [[ReportSnippetList]] - code - inventree/src/backend/InvenTree/report/api.py
+- [[ReportTemplateDetail]] - code - inventree/src/backend/InvenTree/report/api.py
+- [[ReportTemplateList]] - code - inventree/src/backend/InvenTree/report/api.py
+- [[ReportTemplateMixin]] - code - inventree/src/backend/InvenTree/report/api.py
+- [[Represents an available output option with description, flag name, and default v]] - rationale - inventree/src/backend/InvenTree/InvenTree/fields.py
+- [[Respond to a barcode unassign request.]] - rationale - inventree/src/backend/InvenTree/plugin/base/barcodes/api.py
+- [[Restart machine by pk.]] - rationale - inventree/src/backend/InvenTree/machine/api.py
+- [[RetrieveAPI_1]] - code - inventree/src/backend/InvenTree/InvenTree/mixins.py
+- [[RetrieveAPI]] - code
+- [[RetrieveDestroyAPI_1]] - code - inventree/src/backend/InvenTree/InvenTree/mixins.py
+- [[RetrieveDestroyAPI]] - code
+- [[RetrieveDestroyModelViewSet_1]] - code - inventree/src/backend/InvenTree/InvenTree/helpers_api.py
+- [[RetrieveDestroyModelViewSet]] - code
+- [[RetrieveUpdateAPI_1]] - code - inventree/src/backend/InvenTree/InvenTree/mixins.py
+- [[RetrieveUpdateAPI]] - code
+- [[RetrieveUpdateDestroyAPI_1]] - code - inventree/src/backend/InvenTree/InvenTree/mixins.py
+- [[RetrieveUpdateDestroyAPI]] - code
+- [[RetrieveUpdateDestroyModelViewSet_1]] - code - inventree/src/backend/InvenTree/InvenTree/helpers_api.py
+- [[RetrieveUpdateDestroyModelViewSet]] - code
+- [[Return MetadataSerializer instance.]] - rationale - inventree/src/backend/InvenTree/InvenTree/api.py
+- [[Return True if the token is currently used to call the endpoint.]] - rationale - inventree/src/backend/InvenTree/users/serializers.py
+- [[Return a dictionary of child fields for a given field.          Only child field]] - rationale - inventree/src/backend/InvenTree/data_exporter/mixins.py
+- [[Return a list of Orders.          Filters         - Only return those which hav]] - rationale - inventree/src/backend/InvenTree/order/api.py
+- [[Return a list of all available icon packages.]] - rationale - inventree/src/backend/InvenTree/common/api.py
+- [[Return a list of all available units.]] - rationale - inventree/src/backend/InvenTree/common/api.py
+- [[Return a list of models available for import.]] - rationale - inventree/src/backend/InvenTree/importer/api.py
+- [[Return a list of permissions associated with the group.]] - rationale - inventree/src/backend/InvenTree/users/serializers.py
+- [[Return a mapping of delta models to their respective models and serializers.]] - rationale - inventree/src/backend/InvenTree/stock/api.py
+- [[Return a queryset based on the selection made in the request.          Selection]] - rationale - inventree/src/backend/InvenTree/InvenTree/api.py
+- [[Return a queryset which excludes any parts without images.]] - rationale - inventree/src/backend/InvenTree/part/api.py
+- [[Return a set of part IDs which are related to the specified part.]] - rationale - inventree/src/backend/InvenTree/part/api.py
+- [[Return a single matching SupplierPart (or else raise an exception).          Arg]] - rationale - inventree/src/backend/InvenTree/plugin/base/barcodes/api.py
+- [[Return all settings for a machine config.]] - rationale - inventree/src/backend/InvenTree/machine/api.py
+- [[Return an API token if the user is authenticated.          - If the user already]] - rationale - inventree/src/backend/InvenTree/users/api.py
+- [[Return an annotated queryset for the CategoryDetail endpoint.]] - rationale - inventree/src/backend/InvenTree/part/api.py
+- [[Return an annotated queryset for the CategoryTree endpoint.]] - rationale - inventree/src/backend/InvenTree/part/api.py
+- [[Return an annotated queryset for the PartRelatedDetail endpoint.]] - rationale - inventree/src/backend/InvenTree/part/api.py
+- [[Return an annotated queryset object for the PartDetail endpoint.]] - rationale - inventree/src/backend/InvenTree/part/api.py
+- [[Return annotated queryset for the ManufacturerPart list endpoint.]] - rationale - inventree/src/backend/InvenTree/company/api.py
+- [[Return annotated queryset for the StockLocationList endpoint.]] - rationale - inventree/src/backend/InvenTree/stock/api.py
+- [[Return annotated queryset for the StockLocationTree endpoint.]] - rationale - inventree/src/backend/InvenTree/stock/api.py
+- [[Return annotated queryset for the company endpoints.]] - rationale - inventree/src/backend/InvenTree/company/api.py
+- [[Return annotated queryset for this endpoint._1]] - rationale - inventree/src/backend/InvenTree/order/api.py
+- [[Return annotated queryset for this endpoint._2]] - rationale - inventree/src/backend/InvenTree/order/api.py
+- [[Return annotated queryset for this endpoint._3]] - rationale - inventree/src/backend/InvenTree/order/api.py
+- [[Return annotated queryset for this endpoint._4]] - rationale - inventree/src/backend/InvenTree/order/api.py
+- [[Return annotated queryset for this endpoint.]] - rationale - inventree/src/backend/InvenTree/order/api.py
+- [[Return calendar product id.]] - rationale - inventree/src/backend/InvenTree/order/api.py
+- [[Return calendar title.]] - rationale - inventree/src/backend/InvenTree/order/api.py
+- [[Return globally unique UID for event.]] - rationale - inventree/src/backend/InvenTree/order/api.py
+- [[Return information about the InvenTree server._2]] - rationale - inventree/src/backend/InvenTree/InvenTree/api.py
+- [[Return information about the InvenTree server._1]] - rationale - inventree/src/backend/InvenTree/InvenTree/api.py
+- [[Return information about the InvenTree server.]] - rationale - inventree/src/backend/InvenTree/InvenTree/api.py
+- [[Return information about the current status of the background task queue.]] - rationale - inventree/src/backend/InvenTree/common/api.py
+- [[Return information on available currency conversions.]] - rationale - inventree/src/backend/InvenTree/common/api.py
+- [[Return prefetched queryset.]] - rationale - inventree/src/backend/InvenTree/common/api.py
+- [[Return serializer information for the label print endpoint.]] - rationale - inventree/src/backend/InvenTree/report/api.py
+- [[Return serializer instance with output options applied.]] - rationale - inventree/src/backend/InvenTree/InvenTree/mixins.py
+- [[Return the 'permission' model associated with this view.]] - rationale - inventree/src/backend/InvenTree/InvenTree/api.py
+- [[Return the PartPricing object associated with the linked Part.]] - rationale - inventree/src/backend/InvenTree/part/api.py
+- [[Return the StatusCode model based on extra parameters passed to the view.]] - rationale - inventree/src/backend/InvenTree/generic/states/api.py
+- [[Return the URL to redirect to.]] - rationale - inventree/src/backend/InvenTree/users/api.py
+- [[Return the annotated queryset for this endpoint.]] - rationale - inventree/src/backend/InvenTree/order/api.py
+- [[Return the current number of outstanding background tasks.]] - rationale - inventree/src/backend/InvenTree/InvenTree/api.py
+- [[Return the list of allowable URL schemes.      In addition to the default scheme]] - rationale - inventree/src/backend/InvenTree/InvenTree/validators.py
+- [[Return the matching line item for the provided stock item.          Raises]] - rationale - inventree/src/backend/InvenTree/plugin/base/barcodes/api.py
+- [[Return the model class for the given label.]] - rationale - inventree/src/backend/InvenTree/common/validators.py
+- [[Return the model for the permission check.          Note that for this endpoint,]] - rationale - inventree/src/backend/InvenTree/users/api.py
+- [[Return the plugin class for the given plugin key.]] - rationale - inventree/src/backend/InvenTree/report/api.py
+- [[Return the plugin instance associated with the export request.          Argument]] - rationale - inventree/src/backend/InvenTree/data_exporter/mixins.py
+- [[Return the profile of the current user.]] - rationale - inventree/src/backend/InvenTree/users/api.py
+- [[Return the queryset for this endpoint.]] - rationale - inventree/src/backend/InvenTree/InvenTree/api.py
+- [[Return the queryset object for this endpoint.]] - rationale - inventree/src/backend/InvenTree/part/api.py
+- [[Return the queryset with output options applied.          This automatically app]] - rationale - inventree/src/backend/InvenTree/InvenTree/mixins.py
+- [[Return the redirect URL for this view.]] - rationale - inventree/src/backend/InvenTree/InvenTree/api.py
+- [[Return the serializer for the given plugin.]] - rationale - inventree/src/backend/InvenTree/report/api.py
+- [[Return the serializer instance for the view.          - Only applies for OPTIONS]] - rationale - inventree/src/backend/InvenTree/data_exporter/mixins.py
+- [[Return the set of DataImportSession objects that the user has permission to view]] - rationale - inventree/src/backend/InvenTree/importer/api.py
+- [[Return the set of DataOutput objects which the user has permission to view.]] - rationale - inventree/src/backend/InvenTree/common/api.py
+- [[Return the shipment associated with this endpoint.]] - rationale - inventree/src/backend/InvenTree/order/api.py
+- [[ReturnOrder]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[ReturnOrderCancel]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[ReturnOrderComplete]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[ReturnOrderContextMixin]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[ReturnOrderDetail]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[ReturnOrderExtraLineDetail]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[ReturnOrderExtraLineList]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[ReturnOrderFilter]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[ReturnOrderHold]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[ReturnOrderIssue]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[ReturnOrderLineItemDetail]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[ReturnOrderLineItemFilter]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[ReturnOrderLineItemList]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[ReturnOrderLineItemMixin]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[ReturnOrderLineItemOutputOptions]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[ReturnOrderList]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[ReturnOrderMixin]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[ReturnOrderOutputOptions]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[ReturnOrderReceive]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[ReturnOrderSerializer]] - code - inventree/src/backend/InvenTree/order/serializers.py
+- [[Returns the object for the view.]] - rationale - inventree/src/backend/InvenTree/plugin/api.py
+- [[RoleDetails]] - code - inventree/src/backend/InvenTree/users/api.py
+- [[RoleSerializer]] - code - inventree/src/backend/InvenTree/users/serializers.py
+- [[Roles associated with the user.]] - rationale - inventree/src/backend/InvenTree/users/serializers.py
+- [[RuleSet]] - code - inventree/src/backend/InvenTree/users/models.py
+- [[RuleSetDetail]] - code - inventree/src/backend/InvenTree/users/api.py
+- [[RuleSetEnum]] - code - inventree/src/backend/InvenTree/users/ruleset.py
+- [[RuleSetInline]] - code - inventree/src/backend/InvenTree/users/admin.py
+- [[RuleSetList]] - code - inventree/src/backend/InvenTree/users/api.py
+- [[RuleSetMixin]] - code - inventree/src/backend/InvenTree/users/api.py
+- [[RuleSetSerializer]] - code - inventree/src/backend/InvenTree/users/serializers.py
+- [[Ruleset definitions which control the InvenTree user permissions.]] - rationale - inventree/src/backend/InvenTree/users/ruleset.py
+- [[SalesOrder]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[SalesOrderAllocate]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[SalesOrderAllocateSerials]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[SalesOrderAllocationDetail]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[SalesOrderAllocationFilter]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[SalesOrderAllocationList]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[SalesOrderAllocationMixin]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[SalesOrderAllocationOutputOptions]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[SalesOrderCancel]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[SalesOrderComplete]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[SalesOrderContextMixin]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[SalesOrderDetail]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[SalesOrderExtraLineDetail]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[SalesOrderExtraLineList]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[SalesOrderFilter]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[SalesOrderHold]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[SalesOrderIssue]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[SalesOrderLineItemDetail]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[SalesOrderLineItemFilter]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[SalesOrderLineItemList]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[SalesOrderLineItemMixin]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[SalesOrderLineItemOutputOptions]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[SalesOrderList]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[SalesOrderMixin]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[SalesOrderOutputOptions]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[SalesOrderSerializer]] - code - inventree/src/backend/InvenTree/order/serializers.py
+- [[SalesOrderShipmentComplete]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[SalesOrderShipmentDetail]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[SalesOrderShipmentFilter]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[SalesOrderShipmentList]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[SalesOrderShipmentMixin]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[SampleList]] - code - inventree/src/backend/InvenTree/InvenTree/test_serializers.py
+- [[Save the user information when a file is uploaded.]] - rationale - inventree/src/backend/InvenTree/common/api.py
+- [[Scan the provided barcode data.]] - rationale - inventree/src/backend/InvenTree/plugin/base/barcodes/api.py
+- [[ScheduledTaskList]] - code - inventree/src/backend/InvenTree/common/api.py
+- [[SelectionEntryDetail]] - code - inventree/src/backend/InvenTree/common/api.py
+- [[SelectionEntryList]] - code - inventree/src/backend/InvenTree/common/api.py
+- [[SelectionListDetail]] - code - inventree/src/backend/InvenTree/common/api.py
+- [[SelectionListList]] - code - inventree/src/backend/InvenTree/common/api.py
+- [[Send an e email to the user after creation.]] - rationale - inventree/src/backend/InvenTree/users/serializers.py
+- [[Serialize the available Part images.          - Images may be used for multiple]] - rationale - inventree/src/backend/InvenTree/part/api.py
+- [[Serialize the provided StockItem.]] - rationale - inventree/src/backend/InvenTree/stock/api.py
+- [[Serializer for InfoApiSerializer.]] - rationale - inventree/src/backend/InvenTree/InvenTree/api.py
+- [[Serializer for a 'Group'.]] - rationale - inventree/src/backend/InvenTree/users/serializers.py
+- [[Serializer for a RuleSet.]] - rationale - inventree/src/backend/InvenTree/users/serializers.py
+- [[Serializer for a User with a bit more info.]] - rationale - inventree/src/backend/InvenTree/users/serializers.py
+- [[Serializer for a User.]] - rationale - inventree/src/backend/InvenTree/users/serializers.py
+- [[Serializer for a roles associated with a given user.]] - rationale - inventree/src/backend/InvenTree/users/serializers.py
+- [[Serializer for a single version._1]] - rationale - inventree/src/backend/InvenTree/InvenTree/api.py
+- [[Serializer for a single version.]] - rationale - inventree/src/backend/InvenTree/InvenTree/api.py
+- [[Serializer for all possible links.]] - rationale - inventree/src/backend/InvenTree/InvenTree/api.py
+- [[Serializer for an Owner (either a user or a group).]] - rationale - inventree/src/backend/InvenTree/users/serializers.py
+- [[Serializer for customize field.]] - rationale - inventree/src/backend/InvenTree/InvenTree/api.py
+- [[Serializer for observability end endpoint.]] - rationale - inventree/src/backend/InvenTree/common/api.py
+- [[Serializer for server version.]] - rationale - inventree/src/backend/InvenTree/InvenTree/api.py
+- [[Serializer for setting a password for a user.]] - rationale - inventree/src/backend/InvenTree/users/serializers.py
+- [[Serializer for the APISearchView.]] - rationale - inventree/src/backend/InvenTree/InvenTree/api.py
+- [[Serializer for the ApiToken model.]] - rationale - inventree/src/backend/InvenTree/users/serializers.py
+- [[Serializer for the GetAuthToken API endpoint.]] - rationale - inventree/src/backend/InvenTree/users/serializers.py
+- [[Serializer for the StatusView responses.]] - rationale - inventree/src/backend/InvenTree/generic/states/api.py
+- [[Serializer for the UserProfile model.]] - rationale - inventree/src/backend/InvenTree/users/serializers.py
+- [[SerializerContextMixin_1]] - code - inventree/src/backend/InvenTree/InvenTree/mixins.py
+- [[SerializerContextMixin]] - code
+- [[Serve current server information.]] - rationale - inventree/src/backend/InvenTree/InvenTree/api.py
+- [[Set event end to target date. Goal is all-day event.]] - rationale - inventree/src/backend/InvenTree/order/api.py
+- [[Set event start to target date. Goal is all-day event.]] - rationale - inventree/src/backend/InvenTree/order/api.py
+- [[Set item class to PUBLIC.]] - rationale - inventree/src/backend/InvenTree/order/api.py
+- [[Set the event description.]] - rationale - inventree/src/backend/InvenTree/order/api.py
+- [[Set the event title to the order reference.]] - rationale - inventree/src/backend/InvenTree/order/api.py
+- [[SettingsList]] - code - inventree/src/backend/InvenTree/common/api.py
+- [[SettingsSerializer_1]] - code - inventree/src/backend/InvenTree/InvenTree/api.py
+- [[Show plugin registry status information.]] - rationale - inventree/src/backend/InvenTree/plugin/api.py
+- [[Simple JSON endpoint for InvenTree health check.      Intended to be used by ext]] - rationale - inventree/src/backend/InvenTree/common/api.py
+- [[Simple JSON endpoint for InvenTree license information.]] - rationale - inventree/src/backend/InvenTree/InvenTree/api.py
+- [[Simple JSON endpoint for InvenTree version information.]] - rationale - inventree/src/backend/InvenTree/InvenTree/api.py
+- [[Simple JSON endpoint for InvenTree version text.]] - rationale - inventree/src/backend/InvenTree/InvenTree/api.py
+- [[Simple JSON view when accessing an invalid API view.]] - rationale - inventree/src/backend/InvenTree/InvenTree/api.py
+- [[Simple health check endpoint for monitoring purposes.          Use the root API]] - rationale - inventree/src/backend/InvenTree/common/api.py
+- [[Simple mixin class to add a ReturnOrder to the serializer context.]] - rationale - inventree/src/backend/InvenTree/order/api.py
+- [[Simple serializer for passing a single boolean field.]] - rationale - inventree/src/backend/InvenTree/part/api.py
+- [[SimpleGenericMetadataView]] - code - inventree/src/backend/InvenTree/InvenTree/api.py
+- [[Simplified version of GenericMetadataView which always uses 'pk' as the lookup f]] - rationale - inventree/src/backend/InvenTree/InvenTree/api.py
+- [[Some fields are read-only after creation.]] - rationale - inventree/src/backend/InvenTree/users/admin.py
+- [[Special permission class to determine if the user can view  edit a particular s]] - rationale - inventree/src/backend/InvenTree/InvenTree/permissions.py
+- [[Special permission class to determine if the user is staff.]] - rationale - inventree/src/backend/InvenTree/InvenTree/permissions.py
+- [[Status API endpoint for the machine registry.      - GET Provide status data fo]] - rationale - inventree/src/backend/InvenTree/machine/api.py
+- [[Status of the overall system health.]] - rationale - inventree/src/backend/InvenTree/common/api.py
+- [[StatusView]] - code - inventree/src/backend/InvenTree/generic/states/api.py
+- [[StatusViewSerializer]] - code - inventree/src/backend/InvenTree/generic/states/api.py
+- [[StockAdd]] - code - inventree/src/backend/InvenTree/stock/api.py
+- [[StockAdjustView]] - code - inventree/src/backend/InvenTree/stock/api.py
+- [[StockApiMixin]] - code - inventree/src/backend/InvenTree/stock/api.py
+- [[StockAssign]] - code - inventree/src/backend/InvenTree/stock/api.py
+- [[StockChangeStatus]] - code - inventree/src/backend/InvenTree/stock/api.py
+- [[StockCount]] - code - inventree/src/backend/InvenTree/stock/api.py
+- [[StockDetail]] - code - inventree/src/backend/InvenTree/stock/api.py
+- [[StockFilter]] - code - inventree/src/backend/InvenTree/stock/api.py
+- [[StockItemContextMixin]] - code - inventree/src/backend/InvenTree/stock/api.py
+- [[StockItemConvert]] - code - inventree/src/backend/InvenTree/stock/api.py
+- [[StockItemInstall]] - code - inventree/src/backend/InvenTree/stock/api.py
+- [[StockItemSerialNumbers]] - code - inventree/src/backend/InvenTree/stock/api.py
+- [[StockItemSerialize]] - code - inventree/src/backend/InvenTree/stock/api.py
+- [[StockItemTestResultDetail]] - code - inventree/src/backend/InvenTree/stock/api.py
+- [[StockItemTestResultFilter]] - code - inventree/src/backend/InvenTree/stock/api.py
+- [[StockItemTestResultList]] - code - inventree/src/backend/InvenTree/stock/api.py
+- [[StockItemTestResultMixin]] - code - inventree/src/backend/InvenTree/stock/api.py
+- [[StockItemTestResultOutputOptions]] - code - inventree/src/backend/InvenTree/stock/api.py
+- [[StockItemUninstall]] - code - inventree/src/backend/InvenTree/stock/api.py
+- [[StockList]] - code - inventree/src/backend/InvenTree/stock/api.py
+- [[StockLocationDetail]] - code - inventree/src/backend/InvenTree/stock/api.py
+- [[StockLocationFilter]] - code - inventree/src/backend/InvenTree/stock/api.py
+- [[StockLocationList]] - code - inventree/src/backend/InvenTree/stock/api.py
+- [[StockLocationMixin]] - code - inventree/src/backend/InvenTree/stock/api.py
+- [[StockLocationOutputOptions]] - code - inventree/src/backend/InvenTree/stock/api.py
+- [[StockLocationTree]] - code - inventree/src/backend/InvenTree/stock/api.py
+- [[StockLocationTypeDetail]] - code - inventree/src/backend/InvenTree/stock/api.py
+- [[StockLocationTypeList]] - code - inventree/src/backend/InvenTree/stock/api.py
+- [[StockMerge]] - code - inventree/src/backend/InvenTree/stock/api.py
+- [[StockOutputOptions]] - code - inventree/src/backend/InvenTree/stock/api.py
+- [[StockRemove]] - code - inventree/src/backend/InvenTree/stock/api.py
+- [[StockReturn]] - code - inventree/src/backend/InvenTree/stock/api.py
+- [[StockTrackingDetail]] - code - inventree/src/backend/InvenTree/stock/api.py
+- [[StockTrackingFilter]] - code - inventree/src/backend/InvenTree/stock/api.py
+- [[StockTrackingList]] - code - inventree/src/backend/InvenTree/stock/api.py
+- [[StockTrackingOutputOptions]] - code - inventree/src/backend/InvenTree/stock/api.py
+- [[StockTransfer]] - code - inventree/src/backend/InvenTree/stock/api.py
+- [[String representation uses the redacted token.]] - rationale - inventree/src/backend/InvenTree/users/models.py
+- [[SupplierPartFilter]] - code - inventree/src/backend/InvenTree/company/api.py
+- [[SupplierPriceBreakList]] - code - inventree/src/backend/InvenTree/company/api.py
+- [[TemplatePermissionMixin]] - code - inventree/src/backend/InvenTree/report/api.py
+- [[Test simple sample setup.]] - rationale - inventree/src/backend/InvenTree/InvenTree/test_serializers.py
+- [[Test that token generation is only available to users with the correct permissio]] - rationale - inventree/src/backend/InvenTree/users/test_api.py
+- [[Test the 'api_url' attribute in related API endpoints.          Ref httpsgit]] - rationale - inventree/src/backend/InvenTree/users/test_api.py
+- [[Test the GroupDetail API endpoint.]] - rationale - inventree/src/backend/InvenTree/users/test_api.py
+- [[Test the UserDetail API endpoint.]] - rationale - inventree/src/backend/InvenTree/users/test_api.py
+- [[Test the set-password endpoint.]] - rationale - inventree/src/backend/InvenTree/users/test_api.py
+- [[Test the user 'roles' API endpoint.]] - rationale - inventree/src/backend/InvenTree/users/test_api.py
+- [[Test user token authentication.]] - rationale - inventree/src/backend/InvenTree/users/test_api.py
+- [[Test user token generation.]] - rationale - inventree/src/backend/InvenTree/users/test_api.py
+- [[Tests for User API endpoints.]] - rationale - inventree/src/backend/InvenTree/users/test_api.py
+- [[Tests for the Group API endpoints.]] - rationale - inventree/src/backend/InvenTree/users/test_api.py
+- [[Tests for the User OPTIONS request.]] - rationale - inventree/src/backend/InvenTree/users/test_api.py
+- [[Tests for user token functionality.]] - rationale - inventree/src/backend/InvenTree/users/test_api.py
+- [[This API view does not have a queryset.]] - rationale - inventree/src/backend/InvenTree/plugin/base/barcodes/api.py
+- [[This APIView was created pass the kwargs from the API to the models.]] - rationale - inventree/src/backend/InvenTree/InvenTree/mixins.py
+- [[This APIView was created pass the kwargs from the API to the models._1]] - rationale - inventree/src/backend/InvenTree/InvenTree/mixins.py
+- [[This is where settings from the URL etc will be obtained.]] - rationale - inventree/src/backend/InvenTree/order/api.py
+- [[This mixin was created pass the kwargs from the API to the models.]] - rationale - inventree/src/backend/InvenTree/InvenTree/mixins.py
+- [[TokenDetailView]] - code - inventree/src/backend/InvenTree/users/api.py
+- [[TokenListView]] - code - inventree/src/backend/InvenTree/users/api.py
+- [[TokenMixin]] - code - inventree/src/backend/InvenTree/users/api.py
+- [[Top-level URL lookup for InvenTree application.  Passes URL lookup downstream to]] - rationale - inventree/src/backend/InvenTree/InvenTree/urls.py
+- [[Un-require nullable fields.      Read-only values are all marked as required by]] - rationale - inventree/src/backend/InvenTree/InvenTree/schema.py
+- [[Uninstall the plugin.]] - rationale - inventree/src/backend/InvenTree/plugin/api.py
+- [[Update the user instance with the provided data.]] - rationale - inventree/src/backend/InvenTree/users/serializers.py
+- [[UpdateAPI_1]] - code - inventree/src/backend/InvenTree/InvenTree/mixins.py
+- [[UpdateAPI]] - code
+- [[Use creation date of PO as creation date of event.]] - rationale - inventree/src/backend/InvenTree/order/api.py
+- [[UserAdmin]] - code
+- [[UserCreateSerializer]] - code - inventree/src/backend/InvenTree/users/serializers.py
+- [[UserDetail]] - code - inventree/src/backend/InvenTree/users/api.py
+- [[UserDetailSetPassword]] - code - inventree/src/backend/InvenTree/users/api.py
+- [[UserList]] - code - inventree/src/backend/InvenTree/users/api.py
+- [[UserProfile]] - code - inventree/src/backend/InvenTree/users/models.py
+- [[UserProfileDetail]] - code - inventree/src/backend/InvenTree/users/api.py
+- [[UserProfileSerializer]] - code - inventree/src/backend/InvenTree/users/serializers.py
+- [[UserSetPasswordSerializer]] - code - inventree/src/backend/InvenTree/users/serializers.py
+- [[UserSettingsDetail]] - code - inventree/src/backend/InvenTree/common/api.py
+- [[UserSettingsList]] - code - inventree/src/backend/InvenTree/common/api.py
+- [[UserSettingsPermissionsOrScope]] - code - inventree/src/backend/InvenTree/InvenTree/permissions.py
+- [[Validate that the PurchaseOrder reference field matches the required pattern.]] - rationale - inventree/src/backend/InvenTree/order/validators.py
+- [[Validate that the SalesOrder reference field matches the required pattern.]] - rationale - inventree/src/backend/InvenTree/order/validators.py
+- [[Validate the 'reference' field of a PurchaseOrder.]] - rationale - inventree/src/backend/InvenTree/InvenTree/validators.py
+- [[Validate the 'reference' field of a SalesOrder.]] - rationale - inventree/src/backend/InvenTree/InvenTree/validators.py
+- [[Validate the PurchaseOrder reference 'pattern' setting.]] - rationale - inventree/src/backend/InvenTree/order/validators.py
+- [[Validate the ReturnOrder reference 'pattern' setting.]] - rationale - inventree/src/backend/InvenTree/order/validators.py
+- [[Validate the SalesOrder reference 'pattern' setting.]] - rationale - inventree/src/backend/InvenTree/order/validators.py
+- [[Validate the data for the serializer.]] - rationale - inventree/src/backend/InvenTree/users/serializers.py
+- [[Validate the referenced BomItem instance.          As this task if offloaded to]] - rationale - inventree/src/backend/InvenTree/part/api.py
+- [[VersionInformationSerializer]] - code - inventree/src/backend/InvenTree/InvenTree/api.py
+- [[VersionSerializer]] - code - inventree/src/backend/InvenTree/InvenTree/api.py
+- [[VersionTextView]] - code - inventree/src/backend/InvenTree/InvenTree/api.py
+- [[VersionView]] - code - inventree/src/backend/InvenTree/InvenTree/api.py
+- [[VersionViewSerializer]] - code - inventree/src/backend/InvenTree/InvenTree/api.py
+- [[View extra serial number information for a given stock item.      Provides infor]] - rationale - inventree/src/backend/InvenTree/stock/api.py
+- [[View for list and create API.]] - rationale - inventree/src/backend/InvenTree/InvenTree/mixins.py
+- [[View for retrieve API.]] - rationale - inventree/src/backend/InvenTree/InvenTree/mixins.py
+- [[View for retrieve and destroy API.]] - rationale - inventree/src/backend/InvenTree/InvenTree/mixins.py
+- [[View for retrieve and update API.]] - rationale - inventree/src/backend/InvenTree/InvenTree/mixins.py
+- [[View for retrieve, update and destroy API.]] - rationale - inventree/src/backend/InvenTree/InvenTree/mixins.py
+- [[Viewset for currency exchange information.]] - rationale - inventree/src/backend/InvenTree/common/api.py
+- [[Viewset which provides 'retrieve', 'destroy' and 'list' actions.]] - rationale - inventree/src/backend/InvenTree/InvenTree/helpers_api.py
+- [[Viewset which provides 'retrieve', 'update', 'destroy' and 'list' actions.]] - rationale - inventree/src/backend/InvenTree/InvenTree/helpers_api.py
+- [[__init__.py_39]] - code - inventree/src/backend/InvenTree/plugin/base/barcodes/__init__.py
+- [[admin.py_5]] - code - inventree/src/backend/InvenTree/users/admin.py
+- [[api.py_8]] - code - inventree/src/backend/InvenTree/common/api.py
+- [[api.py_11]] - code - inventree/src/backend/InvenTree/generic/states/api.py
+- [[api.py_1]] - code - inventree/src/backend/InvenTree/importer/api.py
+- [[api.py_15]] - code - inventree/src/backend/InvenTree/InvenTree/api.py
+- [[api.py_9]] - code - inventree/src/backend/InvenTree/machine/api.py
+- [[api.py]] - code - inventree/src/backend/InvenTree/order/api.py
+- [[api.py_13]] - code - inventree/src/backend/InvenTree/part/api.py
+- [[api.py_2]] - code - inventree/src/backend/InvenTree/plugin/api.py
+- [[api.py_7]] - code - inventree/src/backend/InvenTree/plugin/base/barcodes/api.py
+- [[api.py_4]] - code - inventree/src/backend/InvenTree/plugin/base/locate/api.py
+- [[api.py_12]] - code - inventree/src/backend/InvenTree/report/api.py
+- [[api.py_14]] - code - inventree/src/backend/InvenTree/stock/api.py
+- [[api.py_10]] - code - inventree/src/backend/InvenTree/users/api.py
+- [[auth_exempt()]] - code - inventree/src/backend/InvenTree/InvenTree/permissions.py
+- [[bulk_delete()]] - code - inventree/src/backend/InvenTree/InvenTree/api.py
+- [[dispatch()]] - code - inventree/src/backend/InvenTree/common/api.py
+- [[field()]] - code - inventree/src/backend/InvenTree/InvenTree/filters.py
+- [[filter set for OwnerList.]] - rationale - inventree/src/backend/InvenTree/users/api.py
+- [[filter_ancestor()]] - code - inventree/src/backend/InvenTree/stock/api.py
+- [[filter_category()]] - code - inventree/src/backend/InvenTree/stock/api.py
+- [[filters.py_3]] - code - inventree/src/backend/InvenTree/InvenTree/filters.py
+- [[format_params()]] - code - inventree/src/backend/InvenTree/InvenTree/fields.py
+- [[generate_permission_dict()]] - code - inventree/src/backend/InvenTree/users/serializers.py
+- [[helpers_api.py]] - code - inventree/src/backend/InvenTree/InvenTree/helpers_api.py
+- [[make_random_password()]] - code - inventree/src/backend/InvenTree/users/serializers.py
+- [[meta_path()]] - code - inventree/src/backend/InvenTree/InvenTree/api.py
+- [[mixins.py_12]] - code - inventree/src/backend/InvenTree/InvenTree/mixins.py
+- [[permissions.py_1]] - code - inventree/src/backend/InvenTree/InvenTree/permissions.py
+- [[put()]] - code - inventree/src/backend/InvenTree/InvenTree/api.py
+- [[ruleset.py]] - code - inventree/src/backend/InvenTree/users/ruleset.py
+- [[serializers.py_8]] - code - inventree/src/backend/InvenTree/users/serializers.py
+- [[str2bool()_1]] - code - inventree/src/backend/InvenTree/InvenTree/templatetags/inventree_extras.py
+
+## Live Query (requires Dataview plugin)
+
+```dataview
+TABLE source_file, type FROM #community/Stock_Management_&_Tracking
+SORT file.name ASC
+```
+
+## Connections to other communities
+- 3560 edges to [[_COMMUNITY_Documentation & FAQ]]
+- 3161 edges to [[_COMMUNITY_System Configuration & Settings]]
+- 716 edges to [[_COMMUNITY_Data Migrations & Schema]]
+- 516 edges to [[_COMMUNITY_Community 2]]
+- 284 edges to [[_COMMUNITY_Part Management & Archetypes]]
+- 26 edges to [[_COMMUNITY_Community 11]]
+- 26 edges to [[_COMMUNITY_Community 10]]
+- 11 edges to [[_COMMUNITY_Community 1]]
+- 3 edges to [[_COMMUNITY_Community 9]]
+- 2 edges to [[_COMMUNITY_Community 7]]
+- 1 edge to [[_COMMUNITY_Community 13]]
+- 1 edge to [[_COMMUNITY_Community 33]]
+
+## Top bridge nodes
+- [[BomItem]] - degree 567, connects to 6 communities
+- [[ApiToken]] - degree 297, connects to 6 communities
+- [[CreateAPI_1]] - degree 684, connects to 5 communities
+- [[SalesOrder]] - degree 339, connects to 5 communities
+- [[DataOutput]] - degree 330, connects to 5 communities

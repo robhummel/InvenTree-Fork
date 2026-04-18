@@ -1,0 +1,20 @@
+---
+source_file: "/Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/models.py"
+type: "code"
+community: "Utilities & Auth"
+location: "L279"
+tags:
+  - graphify/code
+  - graphify/EXTRACTED
+  - community/Utilities_&_Auth
+---
+
+# get_reference_context()
+
+## Connections
+- [[generate_reference()]] - `calls` [EXTRACTED]
+- [[get_next_reference()]] - `calls` [EXTRACTED]
+- [[models.py_9]] - `contains` [EXTRACTED]
+- [[validate_reference_pattern()]] - `calls` [EXTRACTED]
+
+#graphify/code #graphify/EXTRACTED #community/Utilities_&_Auth

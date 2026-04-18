@@ -1,0 +1,244 @@
+---
+type: community
+cohesion: 0.02
+members: 192
+---
+
+# Community 14
+
+**Cohesion:** 0.02 - loosely connected
+**Members:** 192 nodes
+
+## Members
+- [[._get_related_part_ids()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/api.py
+- [[.api_url()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/models.py
+- [[.clean()_14]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/models.py
+- [[.clean()_17]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/models.py
+- [[.completed_line_items()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/models.py
+- [[.destroy()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/api.py
+- [[.destroy()_2]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/api.py
+- [[.filter()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/filters.py
+- [[.filter()_2]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/filters.py
+- [[.filter()_3]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/filters.py
+- [[.filter_allocated()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/api.py
+- [[.filter_allocated()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/api.py
+- [[.filter_assigned_to_me()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/api.py
+- [[.filter_assigned_to_shipment()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/api.py
+- [[.filter_available()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/api.py
+- [[.filter_available_stock()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/api.py
+- [[.filter_cascade()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/api.py
+- [[.filter_cascade()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/api.py
+- [[.filter_cascade()_3]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/api.py
+- [[.filter_cascade()_2]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/api.py
+- [[.filter_category()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/api.py
+- [[.filter_checked()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/api.py
+- [[.filter_completed()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/api.py
+- [[.filter_consumed()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/api.py
+- [[.filter_delivered()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/api.py
+- [[.filter_depleted()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/api.py
+- [[.filter_depleted_stock()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/api.py
+- [[.filter_depth()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/api.py
+- [[.filter_depth()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/api.py
+- [[.filter_exclude_related_parts()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/api.py
+- [[.filter_exclude_tree()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/api.py
+- [[.filter_exists_for_model()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/api.py
+- [[.filter_exists_for_model_id()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/api.py
+- [[.filter_exists_for_related_model_id()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/api.py
+- [[.filter_expired()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/api.py
+- [[.filter_external()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/api.py
+- [[.filter_has_batch()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/api.py
+- [[.filter_has_child_items()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/api.py
+- [[.filter_has_choices()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/api.py
+- [[.filter_has_installed()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/api.py
+- [[.filter_has_ipn()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/api.py
+- [[.filter_has_location_type()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/api.py
+- [[.filter_has_pricing()_2]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/api.py
+- [[.filter_has_pricing()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/api.py
+- [[.filter_has_pricing()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/api.py
+- [[.filter_has_project_code()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/api.py
+- [[.filter_has_purchase_price()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/api.py
+- [[.filter_has_results()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/api.py
+- [[.filter_has_revisions()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/api.py
+- [[.filter_has_start_date()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/api.py
+- [[.filter_has_stock()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/api.py
+- [[.filter_has_target_date()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/api.py
+- [[.filter_has_units()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/api.py
+- [[.filter_has_units()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/api.py
+- [[.filter_in_stock()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/api.py
+- [[.filter_include_variants()_5]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/api.py
+- [[.filter_installed()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/api.py
+- [[.filter_is_revision()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/api.py
+- [[.filter_is_variant()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/api.py
+- [[.filter_location()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/api.py
+- [[.filter_low_stock()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/api.py
+- [[.filter_mandatory()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/api.py
+- [[.filter_on_order()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/api.py
+- [[.filter_order_complete()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/api.py
+- [[.filter_order_complete()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/api.py
+- [[.filter_order_outstanding()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/api.py
+- [[.filter_order_outstanding()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/api.py
+- [[.filter_outstanding()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/api.py
+- [[.filter_outstanding()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/api.py
+- [[.filter_overdue()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/api.py
+- [[.filter_parent()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/api.py
+- [[.filter_parent()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/api.py
+- [[.filter_part()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/api.py
+- [[.filter_part()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/api.py
+- [[.filter_part()_2]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/api.py
+- [[.filter_pending()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/api.py
+- [[.filter_queryset()_4]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/api.py
+- [[.filter_received()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/api.py
+- [[.filter_received()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/api.py
+- [[.filter_related_parts()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/api.py
+- [[.filter_sent_to_customer()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/api.py
+- [[.filter_serialized()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/api.py
+- [[.filter_shipped()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/api.py
+- [[.filter_stale()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/api.py
+- [[.filter_starred()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/api.py
+- [[.filter_starred()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/api.py
+- [[.filter_status()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/api.py
+- [[.filter_stock_item()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/api.py
+- [[.filter_stock_to_build()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/api.py
+- [[.filter_test_name()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/api.py
+- [[.filter_top_level()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/api.py
+- [[.filter_top_level()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/api.py
+- [[.filter_tracked()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/api.py
+- [[.filter_unallocated_stock()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/api.py
+- [[.filter_variant_of()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/api.py
+- [[.getRequiredTests()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/models.py
+- [[.getTestResults()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/models.py
+- [[.getTestTemplateMap()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/models.py
+- [[.getTestTemplates()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/models.py
+- [[.getUniqueChildren()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/models.py
+- [[.get_absolute_url()_4]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/models.py
+- [[.get_bulk_queryset()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/api.py
+- [[.get_conversion_options()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/models.py
+- [[.get_installed_items()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/models.py
+- [[.get_items()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/models.py
+- [[.get_parameter_templates()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/models.py
+- [[.get_parts()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/models.py
+- [[.get_permission_model()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/api.py
+- [[.get_queryset()_22]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/api.py
+- [[.get_queryset()_35]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/api.py
+- [[.get_search_fields()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/filters.py
+- [[.get_test_keys()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/models.py
+- [[.list()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/api.py
+- [[.list()_2]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/api.py
+- [[.list()_3]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/api.py
+- [[.list()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/api.py
+- [[.model_class()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/models.py
+- [[.parameters_map()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/models.py
+- [[.partcount()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/models.py
+- [[.passedAllRequiredTests()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/models.py
+- [[.pending_line_items()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/models.py
+- [[.purchase_orders()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/models.py
+- [[.report_context()_6]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/models.py
+- [[.report_context()_8]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/models.py
+- [[.requiredTestStatus()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/models.py
+- [[.testResultList()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/models.py
+- [[.testResultMap()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/models.py
+- [[.test_children()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/tests.py
+- [[.test_filter_queryset()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/test_tags.py
+- [[.test_filters()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/tests.py
+- [[.test_installed_tests()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/tests.py
+- [[.test_part_count()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_category.py
+- [[.test_template_count()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_part.py
+- [[.test_test_count()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/tests.py
+- [[.test_test_key()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[.test_test_results()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/tests.py
+- [[.test_tree()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_part.py
+- [[.test_valid_merge()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[.to_internal_value()_5]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[.validate()_17]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/serializers.py
+- [[.validate_unique()_7]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/models.py
+- [[.validate_unique()_5]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/models.py
+- [[.validate_unique()_6]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/models.py
+- [[0013_migrate_mfa_20240408_1659.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/migrations/0013_migrate_mfa_20240408_1659.py
+- [[0058_auto_20211126_1210.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/migrations/0058_auto_20211126_1210.py
+- [[0071_auto_20211205_1733.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/migrations/0071_auto_20211205_1733.py
+- [[Convert a string to a boolean value.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/templatetags/inventree_extras.py
+- [[Convert string representation back to ContentType instance.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/serializers.py
+- [[Data migration to switch to django-allauth's new built-in MFA.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/migrations/0013_migrate_mfa_20240408_1659.py
+- [[Delete all stock items which are marked as 'scheduled_for_deletion'.      The is]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/migrations/0071_auto_20211205_1733.py
+- [[Filter the queryset based on numeric values only.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/filters.py
+- [[Generate a test 'key' for a given test name. This must not have illegal chars as]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/helpers.py
+- [[In migration 0057 we added a new field 'shipped' to the SalesOrderLineItem model]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/migrations/0058_auto_20211126_1210.py
+- [[Migration_173]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/migrations/0013_migrate_mfa_20240408_1659.py
+- [[Migration_37]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/migrations/0058_auto_20211126_1210.py
+- [[Migration_454]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/migrations/0071_auto_20211205_1733.py
+- [[Override the filter method to handle timezones correctly.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/filters.py
+- [[PartFilter]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/api.py
+- [[Return a flat set of all child items that exist under this node.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/models.py
+- [[Return a map (dict) of parameter values associated with this Part instance, of t]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/models.py
+- [[Return a set of search fields for the request, adjusted based on request params.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/filters.py
+- [[Return queryset filtered by value or NULL if 'null' is passed.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/filters.py
+- [[StockFilter]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/api.py
+- [[Validate that a provided filter string looks like a list of comma-separated key=]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/helpers.py
+- [[build_default_values()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/models.py
+- [[calculate_shipped_quantity()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/migrations/0058_auto_20211126_1210.py
+- [[can_convert()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/models.py
+- [[delete_scheduled()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/migrations/0071_auto_20211205_1733.py
+- [[determine_content_type()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/filters.py
+- [[filter_base_part()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/api.py
+- [[filter_company()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/api.py
+- [[filter_convert_from()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/api.py
+- [[filter_external_build()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/api.py
+- [[filter_location()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/api.py
+- [[filter_manufacturer()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/api.py
+- [[filter_parameters_by_value()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/filters.py
+- [[filter_parametric_data()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/filters.py
+- [[filter_part()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/api.py
+- [[filter_part_tree()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/api.py
+- [[filter_supplier_part()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/api.py
+- [[generateTestKey()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/helpers.py
+- [[get_status_class()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/models.py
+- [[has_children()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/models.py
+- [[is_overdue()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/models.py
+- [[key()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/models.py
+- [[move_mfa()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/migrations/0013_migrate_mfa_20240408_1659.py
+- [[order_by_parameter()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/filters.py
+- [[overdue_filter()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/models.py
+- [[required_test_count()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/models.py
+- [[setUpTestData()_10]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/unit_test.py
+- [[str2bool()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/templatetags/inventree_extras.py
+- [[validateFilterString()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/helpers.py
+
+## Live Query (requires Dataview plugin)
+
+```dataview
+TABLE source_file, type FROM #community/Community_14
+SORT file.name ASC
+```
+
+## Connections to other communities
+- 244 edges to [[_COMMUNITY_Community 2]]
+- 96 edges to [[_COMMUNITY_Community 6]]
+- 66 edges to [[_COMMUNITY_Inventory & Order Logic]]
+- 61 edges to [[_COMMUNITY_Core Models & Admin]]
+- 57 edges to [[_COMMUNITY_Community 13]]
+- 50 edges to [[_COMMUNITY_Community 3]]
+- 44 edges to [[_COMMUNITY_Community 4]]
+- 41 edges to [[_COMMUNITY_Community 10]]
+- 37 edges to [[_COMMUNITY_Utilities & Auth]]
+- 33 edges to [[_COMMUNITY_Community 7]]
+- 25 edges to [[_COMMUNITY_Community 5]]
+- 22 edges to [[_COMMUNITY_Community 12]]
+- 14 edges to [[_COMMUNITY_Community 22]]
+- 13 edges to [[_COMMUNITY_Community 19]]
+- 12 edges to [[_COMMUNITY_Community 21]]
+- 10 edges to [[_COMMUNITY_Community 15]]
+- 9 edges to [[_COMMUNITY_Community 23]]
+- 9 edges to [[_COMMUNITY_Community 1]]
+- 7 edges to [[_COMMUNITY_Community 17]]
+- 3 edges to [[_COMMUNITY_Community 16]]
+- 2 edges to [[_COMMUNITY_Community 25]]
+- 2 edges to [[_COMMUNITY_Community 20]]
+- 2 edges to [[_COMMUNITY_Community 18]]
+- 1 edge to [[_COMMUNITY_Community 33]]
+
+## Top bridge nodes
+- [[.filter()_3]] - degree 440, connects to 22 communities
+- [[str2bool()_1]] - degree 105, connects to 13 communities
+- [[.clean()_17]] - degree 9, connects to 7 communities
+- [[.model_class()]] - degree 17, connects to 6 communities
+- [[generateTestKey()]] - degree 15, connects to 5 communities

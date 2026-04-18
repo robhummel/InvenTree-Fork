@@ -1,0 +1,18 @@
+---
+source_file: "inventree/src/backend/InvenTree/InvenTree/conversion.py"
+type: "rationale"
+community: "Data Migrations & Schema"
+location: "L1"
+tags:
+  - graphify/rationale
+  - graphify/EXTRACTED
+  - community/Data_Migrations_&_Schema
+---
+
+# Helper functions for converting between units.
+
+## Connections
+- [[CustomUnit]] - `uses` [INFERRED]
+- [[conversion.py]] - `rationale_for` [EXTRACTED]
+
+#graphify/rationale #graphify/EXTRACTED #community/Data_Migrations_&_Schema

@@ -1,0 +1,18 @@
+---
+source_file: "/Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/fields.py"
+type: "rationale"
+community: "Community 11"
+location: "L115"
+tags:
+  - graphify/rationale
+  - graphify/EXTRACTED
+  - community/Community_11
+---
+
+# Override form class to use own function.
+
+## Connections
+- [[.formfield()]] - `rationale_for` [EXTRACTED]
+- [[AllowedURLValidator]] - `uses` [INFERRED]
+
+#graphify/rationale #graphify/EXTRACTED #community/Community_11

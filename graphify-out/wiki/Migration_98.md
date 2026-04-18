@@ -1,0 +1,17 @@
+---
+source_file: "inventree/src/backend/InvenTree/order/migrations/0030_auto_20200426_0551.py"
+type: "code"
+community: "Community 222"
+location: "L7"
+tags:
+  - graphify/code
+  - graphify/EXTRACTED
+  - community/Community_222
+---
+
+# Migration
+
+## Connections
+- [[0030_auto_20200426_0551.py]] - `contains` [EXTRACTED]
+
+#graphify/code #graphify/EXTRACTED #community/Community_222

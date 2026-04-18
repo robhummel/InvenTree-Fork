@@ -1,0 +1,24 @@
+---
+source_file: "inventree/src/backend/InvenTree/importer/tests.py"
+type: "rationale"
+community: "Part Management & Archetypes"
+location: "L78"
+tags:
+  - graphify/rationale
+  - graphify/INFERRED
+  - community/Part_Management_&_Archetypes
+---
+
+# End-to-end tests for the importer API.
+
+## Connections
+- [[AdminTestCase_1]] - `uses` [INFERRED]
+- [[Company]] - `uses` [INFERRED]
+- [[DataImportRow]] - `uses` [INFERRED]
+- [[DataImportSession]] - `uses` [INFERRED]
+- [[ImportAPITest]] - `rationale_for` [EXTRACTED]
+- [[InvenTreeAPITestCase_1]] - `uses` [INFERRED]
+- [[InvenTreeTestCase_1]] - `uses` [INFERRED]
+- [[PartCategory]] - `uses` [INFERRED]
+
+#graphify/rationale #graphify/INFERRED #community/Part_Management_&_Archetypes

@@ -1,0 +1,34 @@
+---
+source_file: "inventree/src/backend/InvenTree/stock/test_api.py"
+type: "rationale"
+community: "Documentation & FAQ"
+location: "L541"
+tags:
+  - graphify/rationale
+  - graphify/INFERRED
+  - community/Documentation_&_FAQ
+---
+
+# Test that we can update a location type via API.
+
+## Connections
+- [[.test_plugin_filters()]] - `rationale_for` [EXTRACTED]
+- [[.test_update()_2]] - `rationale_for` [EXTRACTED]
+- [[InvenTreeAPIPerformanceTestCase_1]] - `uses` [INFERRED]
+- [[InvenTreeAPITestCase_1]] - `uses` [INFERRED]
+- [[InvenTreeCustomUserStateModel]] - `uses` [INFERRED]
+- [[InvenTreeSetting]] - `uses` [INFERRED]
+- [[Part]] - `uses` [INFERRED]
+- [[PartTestTemplate]] - `uses` [INFERRED]
+- [[PluginConfig]] - `uses` [INFERRED]
+- [[PluginMixin_1]] - `uses` [INFERRED]
+- [[PluginMixinEnum]] - `uses` [INFERRED]
+- [[StockHistoryCode]] - `uses` [INFERRED]
+- [[StockItem]] - `uses` [INFERRED]
+- [[StockItemTestResult]] - `uses` [INFERRED]
+- [[StockItemTracking]] - `uses` [INFERRED]
+- [[StockLocation]] - `uses` [INFERRED]
+- [[StockLocationType]] - `uses` [INFERRED]
+- [[StockStatus]] - `uses` [INFERRED]
+
+#graphify/rationale #graphify/INFERRED #community/Documentation_&_FAQ

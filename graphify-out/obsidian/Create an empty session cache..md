@@ -1,0 +1,17 @@
+---
+source_file: "/Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/cache.py"
+type: "rationale"
+community: "Community 24"
+location: "L145"
+tags:
+  - graphify/rationale
+  - graphify/EXTRACTED
+  - community/Community_24
+---
+
+# Create an empty session cache.
+
+## Connections
+- [[create_session_cache()]] - `rationale_for` [EXTRACTED]
+
+#graphify/rationale #graphify/EXTRACTED #community/Community_24

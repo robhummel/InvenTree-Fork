@@ -1,0 +1,33 @@
+---
+source_file: "inventree/src/backend/InvenTree/part/models.py"
+type: "rationale"
+community: "Community 2"
+location: "L1826"
+tags:
+  - graphify/rationale
+  - graphify/INFERRED
+  - community/Community_2
+---
+
+# Returns a query filter for all BOM items associated with this Part.          Arg
+
+## Connections
+- [[.get_bom_item_filter()]] - `rationale_for` [EXTRACTED]
+- [[.validate_unique()_2]] - `rationale_for` [EXTRACTED]
+- [[ColorEnum]] - `uses` [INFERRED]
+- [[InvenTreeAttachmentMixin]] - `uses` [INFERRED]
+- [[InvenTreeParameterMixin]] - `uses` [INFERRED]
+- [[InvenTreeSettingsKeyType]] - `uses` [INFERRED]
+- [[InvenTreeURLField]] - `uses` [INFERRED]
+- [[Parameter]] - `uses` [INFERRED]
+- [[PluginMixinEnum]] - `uses` [INFERRED]
+- [[PurchaseOrderLineItem]] - `uses` [INFERRED]
+- [[PurchaseOrderStatus]] - `uses` [INFERRED]
+- [[PurchaseOrderStatusGroups]] - `uses` [INFERRED]
+- [[SalesOrderStatusGroups]] - `uses` [INFERRED]
+- [[SettingsKeyType_2]] - `uses` [INFERRED]
+- [[StatusCode_1]] - `uses` [INFERRED]
+- [[StockItem]] - `uses` [INFERRED]
+- [[StringEnum_1]] - `uses` [INFERRED]
+
+#graphify/rationale #graphify/INFERRED #community/Community_2

@@ -1,0 +1,19 @@
+---
+type: community
+members: 2
+---
+
+# Community 307
+
+**Members:** 2 nodes
+
+## Members
+- [[0007_auto_20210204_1617.py]] - code - inventree/src/backend/InvenTree/report/migrations/0007_auto_20210204_1617.py
+- [[Migration_188]] - code - inventree/src/backend/InvenTree/report/migrations/0007_auto_20210204_1617.py
+
+## Live Query (requires Dataview plugin)
+
+```dataview
+TABLE source_file, type FROM #community/Community_307
+SORT file.name ASC
+```

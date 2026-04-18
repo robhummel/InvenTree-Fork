@@ -1,0 +1,1505 @@
+---
+type: community
+cohesion: 0.01
+members: 1441
+---
+
+# Core Models & Admin
+
+**Cohesion:** 0.01 - loosely connected
+**Members:** 1441 nodes
+
+## Members
+- [[TODO Work out why...]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/test_api.py
+- [[.GHI()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/generic/states/tests.py
+- [[._helper_get_flow()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/tests.py
+- [[._helper_meta_val()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/tests.py
+- [[.add_arguments()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/management/commands/export_settings_definitions.py
+- [[.add_arguments()_4]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/management/commands/migrate_icons.py
+- [[.age_human()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/models.py
+- [[.assertDictContainsSubset()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/unit_test.py
+- [[.assert_api_change()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_views.py
+- [[.assert_ownership()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_views.py
+- [[.check_ownership()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/models.py
+- [[.check_response()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/unit_test.py
+- [[.cors_headers()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[.create_result_structure()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[.delete()_18]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/unit_test.py
+- [[.download_file()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/unit_test.py
+- [[.email_args()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_auth.py
+- [[.enable_ownership()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_views.py
+- [[.format_barcode()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/models.py
+- [[.fully_qualified_url()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/models.py
+- [[.generateBarcode()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/barcodes/test_barcode.py
+- [[.generate_file()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[.get()_4]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/unit_test.py
+- [[.getActions()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/unit_test.py
+- [[.get_item_owner()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/models.py
+- [[.get_location_owner()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/models.py
+- [[.get_part_data()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[.get_part_name()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/models.py
+- [[.get_queryset()_33]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/admin.py
+- [[.get_stock()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[.get_tasks()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_tasks.py
+- [[.get_url()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[.handle()_8]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/management/commands/rebuild_models.py
+- [[.handle()_2]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/management/commands/rebuild_thumbnails.py
+- [[.location_count()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/admin.py
+- [[.login()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/unit_test.py
+- [[.make_part()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_part.py
+- [[.node_string()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[.options()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/unit_test.py
+- [[.patch()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/unit_test.py
+- [[.post()_4]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/unit_test.py
+- [[.postBarcode()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/barcodes/test_barcode.py
+- [[.preflight()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[.put()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/unit_test.py
+- [[.query()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/unit_test.py
+- [[.rebuild_models()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/management/commands/rebuild_models.py
+- [[.rebuild_thumbnail()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/management/commands/rebuild_thumbnails.py
+- [[.run_ordering_test()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/unit_test.py
+- [[.run_output_test()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/unit_test.py
+- [[.run_tree_test()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[.setUp()_34]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[.setUp()_19]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/test_api.py
+- [[.setUp()_16]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/barcodes/test_barcode.py
+- [[.setUp()_17]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/barcodes/test_barcode.py
+- [[.setUp()_7]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/integration/test_core_notifications.py
+- [[.setUp()_9]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/locate/test_locate.py
+- [[.setUp()_20]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[.setUp()_29]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/tests.py
+- [[.setUp()_21]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[.setUp()_28]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/tests.py
+- [[.setUp()_24]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[.setUp()_30]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/tests.py
+- [[.setUp()_37]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/unit_test.py
+- [[.tearDown()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/tests.py
+- [[.test()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[.test1()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[.test2()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[.testMediaUrl()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[.test_GeneratingSchema()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[.test_Importing()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[.test_TestMode()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[.test_add()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_add_task()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_tasks.py
+- [[.test_allValues()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[.test_all_settings()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[.test_array_barcode()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/barcodes/test_barcode.py
+- [[.test_attributes()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_part.py
+- [[.test_bad_method()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[.test_bad_token()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[.test_bad_url()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[.test_barcode()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_part.py
+- [[.test_barcode()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/test_tags.py
+- [[.test_barcode_generation()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/barcodes/test_barcode.py
+- [[.test_barcode_generation_invalid()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/barcodes/test_barcode.py
+- [[.test_barcode_mixin()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_part.py
+- [[.test_barcode_model_type()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[.test_barcode_scan()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/barcodes/test_barcode.py
+- [[.test_basic()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[.test_bom_item()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_build()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[.test_call_function()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/tests.py
+- [[.test_check_notification_entries()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[.test_check_system_health()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[.test_children_count()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_category.py
+- [[.test_clean_barcode()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/test_tags.py
+- [[.test_code_definition()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/generic/states/tests.py
+- [[.test_combinations()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[.test_comparison()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[.test_create_regex()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[.test_currency_formatting()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[.test_datamatrix()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/test_tags.py
+- [[.test_default_expiry()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_define()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_part.py
+- [[.test_download()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[.test_empty()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/barcodes/test_barcode.py
+- [[.test_failures()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[.test_field_defaults()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/importer/tests.py
+- [[.test_filter_available()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_filter_by_batch()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_filter_by_color()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_param.py
+- [[.test_filter_by_company()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_filter_by_depleted()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_filter_by_exclude_tree()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_filter_by_has_batch()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_filter_by_in_stock()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_filter_by_ionized()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_param.py
+- [[.test_filter_by_ipn()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_filter_by_length()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_param.py
+- [[.test_filter_by_location()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_filter_by_part()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_filter_by_serialized()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_filter_by_status()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_filter_by_tracked()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_filter_by_width()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_param.py
+- [[.test_filter_external()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_filter_has_child_items()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_filter_has_installed()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_filter_has_purchase_price()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_filter_installed()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_filter_manufacturer()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_filter_multiple()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_param.py
+- [[.test_filter_sent_to_customer()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_filter_stale()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_find_location()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/barcodes/test_barcode.py
+- [[.test_fully_qualified_url()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[.test_get_is_builtin()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[.test_get_provider_file()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[.test_get_stock_list()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_hash()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_part.py
+- [[.test_image_url()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[.test_imperial_lengths()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[.test_initial()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_part.py
+- [[.test_initial_supplier_data()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_installed()_2]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/label/test_label_mixin.py
+- [[.test_installed()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/locate/test_locate.py
+- [[.test_integer_barcode()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/barcodes/test_barcode.py
+- [[.test_internal_pricing()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_part.py
+- [[.test_invalid()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/barcodes/test_barcode.py
+- [[.test_invalid_class()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[.test_invalid_item()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/barcodes/test_barcode.py
+- [[.test_invalid_location()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/barcodes/test_barcode.py
+- [[.test_invalid_part()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/barcodes/test_barcode.py
+- [[.test_invalid_sales_order()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/barcodes/test_barcode.py
+- [[.test_invalid_values()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[.test_inventree_customize()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_part.py
+- [[.test_inventree_instance_name()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_part.py
+- [[.test_inventree_title()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_part.py
+- [[.test_key_generation()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_part.py
+- [[.test_keyvalue()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_part.py
+- [[.test_list()_7]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_list()_4]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[.test_list()_3]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[.test_logo_image()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[.test_mdl_build()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/tests.py
+- [[.test_mdl_returnorder()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/tests.py
+- [[.test_missing_token()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[.test_mixin()_4]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[.test_mixin_locate()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/locate/test_locate.py
+- [[.test_model_meta()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[.test_model_mixin()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[.test_no_data()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/barcodes/test_barcode.py
+- [[.test_no_origin()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[.test_offloading()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_tasks.py
+- [[.test_options()_3]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_ordering()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_ordering()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_output_options()_8]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_output_options()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_output_options()_3]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_output_options()_10]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_output_options()_9]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_output_options()_11]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_output_options()_12]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_output_options()_15]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/test_api.py
+- [[.test_owner_no_ownership()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_views.py
+- [[.test_ownership_as_superuser()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_views.py
+- [[.test_ownership_functions()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_views.py
+- [[.test_paginate()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_param_template_validation()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_param.py
+- [[.test_parents()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_category.py
+- [[.test_parse()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[.test_part()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[.test_postprocess_required_nullable()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[.test_provider_plugin()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[.test_qrcode()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/test_tags.py
+- [[.test_query_count()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_registration()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_auth.py
+- [[.test_render_date()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_part.py
+- [[.test_scientific_notation()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[.test_scope_names()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/tests.py
+- [[.test_sell_pricing()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_part.py
+- [[.test_setting_object()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_part.py
+- [[.test_simple()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[.test_stock()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_part.py
+- [[.test_stock()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[.test_stock_quantity()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[.test_str2bool()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_part.py
+- [[.test_str2bool()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[.test_svg_sanitizer()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[.test_tag_display_status_label()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/generic/states/tests.py
+- [[.test_tag_status_label()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/generic/states/tests.py
+- [[.test_task_heartbeat()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_tasks.py
+- [[.test_temperature_units()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[.test_to_list()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_part.py
+- [[.test_top_level_filtering()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[.test_unique_children()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_category.py
+- [[.test_unique_parents()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_category.py
+- [[.test_unit_validation()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_param.py
+- [[.test_update_instance_name_no_multi()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/setting/tests.py
+- [[.test_url()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_category.py
+- [[.test_valid_class()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[.test_validate_format()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[.test_validate_icon()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[.test_validate_part_name_format()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/setting/tests.py
+- [[.test_validation_key()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[.test_validation_key_unique()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[.test_validation_logical_key_exsists()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[.test_validation_logical_unique()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[.test_validation_logicalkey()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[.test_validation_model()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[.test_validation_reference()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[.test_validation_reference_exsists()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[.test_wrong_implementation()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/label/test_label_mixin.py
+- [[.tests()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[A mixin class for adding barcode functionality to a model class.      Two types]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/models.py
+- [[A mixin class for adding notes functionality to a model class.      The followin]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/models.py
+- [[A mixin for keeping track of numerical copies of the reference field.      Her]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/models.py
+- [[A valid class that inherits from ClassValidationMixin.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[A very simple example of the 'locate' plugin.      This plugin class simply prin]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/locate/locate_sample.py
+- [[API tests for the DataOutput endpoint.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/test_api.py
+- [[API unit tests for the PartTestTemplate model.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[APITestCase]] - code
+- [[Activate the 'samplelabel' plugin.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/tests.py
+- [[Add custom arguments for this command.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/management/commands/export_settings_definitions.py
+- [[Admin class for Location.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/admin.py
+- [[Admin class for StockItem.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/admin.py
+- [[Admin class for StockItemTestResult.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/admin.py
+- [[Admin class for the Contact model.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/admin.py
+- [[Admin class for the SupplierPart model.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/admin.py
+- [[AdminTest]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/tests.py
+- [[AdminTestCase]] - code
+- [[AdminTestCase_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/unit_test.py
+- [[All status code items.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/generic/states/states.py
+- [[All status code keys.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/generic/states/states.py
+- [[All status code labels.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/generic/states/states.py
+- [[An invalid class that does not inherit from ClassValidationMixin.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[Annotate queryset to fetch location count.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/admin.py
+- [[Another test for ALLOWED_HOSTS functionality.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[ApiTests]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/generic/states/tests.py
+- [[Assert that dictionary 'a' is a subset of dictionary 'b'.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/unit_test.py
+- [[Assign an external (third-party) barcode to this object.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/models.py
+- [[Attachment]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/models.py
+- [[AttachmentTest_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[AttachmentTest]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[BarcodeAPITest]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/barcodes/test_barcode.py
+- [[BarcodeMixinTest]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[BarcodeTagTest]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/test_tags.py
+- [[Base class for InvenTree API performance tests.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/unit_test.py
+- [[Base class for running InvenTree API tests.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/unit_test.py
+- [[Base class for running Stock tests.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/tests.py
+- [[Base class for running tests on the Part API endpoints.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[Base class for unit testing reporting models.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/tests.py
+- [[Base unit test class for order views.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/test_views.py
+- [[BaseCommand]] - code
+- [[BaseTestClass]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[BomItemTest_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[BulkDeleteTests]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_api.py
+- [[Call the 'refresh currencies' endpoint.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[Callback when a new task failure log is generated.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/models.py
+- [[Callback when a server error is logged.      - Send a UI notification to all use]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/models.py
+- [[CategoryTest]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_category.py
+- [[Check London timezone.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[Check if a model instance exists with the specified third-party barcode hash.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/models.py
+- [[Check if the supplied value is a valid status code.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/generic/states/states.py
+- [[Check if the user has permission to perform the specified action on the attachme]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/models.py
+- [[Check that a new SSO group is added to the user.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_auth.py
+- [[Check that a parent category can be subscribed to.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_part.py
+- [[Check that any group not provided by IDP is removed.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_auth.py
+- [[Check that existing SSO group is not modified.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_auth.py
+- [[Check that location_detail can be requested against the serializer.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[Check that path_detail can be requested against the serializer.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[Check that pathstring updates occur as expected.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/tests.py
+- [[Check that the provided 'reference' value matches the requisite pattern.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/models.py
+- [[Check that the sell pricebreaks were loaded.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_part.py
+- [[Check that the sell pricebreaks were loaded._1]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_part.py
+- [[Check that we can add categories.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[Check the SettingsMixin.check_settings function.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/test_sample.py
+- [[Check the function of the custom  sample plugin.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/test_sample.py
+- [[Check the search api.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/supplier/test_supplier_sample.py
+- [[Check without ownership control enabled. Should always return True.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_views.py
+- [[Class for unit testing machine API endpoints.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/test_api.py
+- [[ClassProviderMixin_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/helpers_mixin.py
+- [[ClassProviderMixinTest]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[ClassValidationMixin_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/helpers_mixin.py
+- [[ClassValidationMixinTest]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[Cleanup old (undefined) settings in the database.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/management/commands/clean_settings.py
+- [[Cleanup old (undefined) settings in the database._1]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/management/commands/clean_settings.py
+- [[Command_7]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/management/commands/clean_settings.py
+- [[Command]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/management/commands/export_settings_definitions.py
+- [[Command_6]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/management/commands/migrate_icons.py
+- [[Command_8]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/management/commands/rebuild_models.py
+- [[Command_2]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/management/commands/rebuild_thumbnails.py
+- [[CommonTest]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[Construct a pricing URL.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[Construct a string representation of a tree node.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[Construct sociallogin object for test cases.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_auth.py
+- [[Construct some initial test fixture data.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[ContactSimpleTest]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/tests.py
+- [[ContentTypeAPITest]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[Context manager to enable email settings for tests.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_auth.py
+- [[ConversionTest]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[Copy all parameters from another model instance.          Arguments]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/models.py
+- [[CoreNotificationTestTests]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/integration/test_core_notifications.py
+- [[CorsTest]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[Cover the endpoints not covered by `test_printing_process`.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/label/test_label_mixin.py
+- [[Create a new label printing machine.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/tests.py
+- [[Create a schema dict structure representative of the spectacular-generated on.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[Create category and part data as part of setup routine.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_part.py
+- [[Create some Part instances as part of init routine.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_part.py
+- [[Create some email messages for testing.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_tasks.py
+- [[Create some initial project codes.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[Create stock items with various expiry dates for testing.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_notification_stale.py
+- [[Create supplier part and purchase_order.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/suppliers/test_supplier_barcodes.py
+- [[Create supplier parts for barcodes.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/suppliers/test_supplier_barcodes.py
+- [[Create test data as part of initialization.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_notification_stale.py
+- [[Create test data as part of setup routine.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[CurrencyAPITests]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[CurrencyTests]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[Custom delete method for InvenTreeNotesMixin.          - Before deleting the obj]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/models.py
+- [[Custom management command to cleanup old settings that are not defined anymore.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/management/commands/clean_settings.py
+- [[Custom management command to export settings definitions.  This is used to gener]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/management/commands/export_settings_definitions.py
+- [[Custom management command to migrate the old FontAwesome icons.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/management/commands/migrate_icons.py
+- [[Custom management command to rebuild all MPTT models.  - This is crucial after i]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/management/commands/rebuild_models.py
+- [[Custom management command to rebuild thumbnail images.  - May be required after]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/management/commands/rebuild_thumbnails.py
+- [[Custom save method for InvenTreeTree abstract model.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/models.py
+- [[Custom setup routine for this class.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[CustomStatusTest]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[CustomStockItemStatusTest]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[CustomUnit]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/models.py
+- [[CustomUnitAPITest]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[DataOutputAPITests]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/test_api.py
+- [[Debug output for an unexpected response.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/unit_test.py
+- [[Defines a set of status codes for tests.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/generic/states/tests.py
+- [[Demo function for test_offloading.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_tasks.py
+- [[Download a file from the server, and return an in-memory file.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/unit_test.py
+- [[Dummy]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_auth.py
+- [[EmailSettingsContext]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_auth.py
+- [[Enable or disable debug mode for reports.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/test_tags.py
+- [[Enable or disable the SampleValidatorPlugin.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/test_validation_sample.py
+- [[End-to-end tests for the importer API.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/importer/tests.py
+- [[Ensure cache is cleared as part of test setup._2]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/tests.py
+- [[Ensure cache is cleared as part of test setup._1]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/tests.py
+- [[Ensure cache is cleared as part of test setup.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[Ensure plugin is activated.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[Ensure that duplicate tasks cannot be added.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_tasks.py
+- [[Ensure that markdown formatting is retained.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[Ensure that the email notifications run.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/integration/test_core_notifications.py
+- [[ErrorReportTest]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[Export settings information to a JSON file.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/management/commands/export_settings_definitions.py
+- [[Extract integer out of reference for sorting.          If the 'integer' portion]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/models.py
+- [[Extract settings information, and export to a JSON file.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/management/commands/export_settings_definitions.py
+- [[Extract some interesting categories for time-saving.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_category.py
+- [[Filter StockItem by 'in stock' status.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[Filter StockItem by 'status' field.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[Filter StockItem by IPN reference.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[Filter StockItem by Part reference.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[Filter StockItem by StockLocation reference.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[Filter StockItem by available.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[Filter StockItem by batch code.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[Filter StockItem by excluding a StockItem tree.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[Filter StockItem by expiry status.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[Filter StockItem by external.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[Filter StockItem by has_installed.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[Filter StockItem by has_purchase_price.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[Filter StockItem by manufacturer.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[Filter StockItem by sent_to_customer.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[Filter StockItem by serialized status.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[Filter StockItem by stale.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[Filter stock and return JSON object.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[FormatTest]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[GeneralStateTest]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/generic/states/tests.py
+- [[GeneralStatus]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/generic/states/tests.py
+- [[Generate an icon map from the FontAwesome library to the new icon library.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/management/commands/migrate_icons.py
+- [[Generate an icon map from the FontAwesome library to the new icon library._1]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/management/commands/migrate_icons.py
+- [[Generate registration arguments.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_auth.py
+- [[Get a mixin class that provides shared state for classes across the main applica]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/helpers_mixin.py
+- [[Get the complete part of this category.          e.g. Top, Second, Third,]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/models.py
+- [[Get the detail view for a single BomItem object.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[Get the parent path of this category.          Returns             List of cate]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/models.py
+- [[GlobalSettingsApiTest]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[GlobalWarningCode]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/settings.py
+- [[Handle the deletion of a model instance.          Before deleting the model inst]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/models.py
+- [[Handle the deletion of a tree node.          kwargs             delete_children]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/models.py
+- [[Helper function for retrieving part data.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[Helper function to check ownership control.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_views.py
+- [[Helper function to create a simple part.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_part.py
+- [[Helper function to get a Schedule object.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_tasks.py
+- [[Helper function to get response to API change.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_views.py
+- [[Helper function to get stock tracking api url.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[Helper function to get test-result api url.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[Helper function to notify staff users of an error.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/models.py
+- [[Helper function to reload InvenTree.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[Helper function to turn on ownership control.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_views.py
+- [[Helper to run a test on flow response.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/tests.py
+- [[Helper to run a test on meta response.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/tests.py
+- [[HostTest]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[IconAPITest]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[If no SSO group is specified, the default group should be applied.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_auth.py
+- [[If no SSO group is specified, the default group should not be added if SSO_REMOV]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_auth.py
+- [[If the mapped group does not exist, a new group with the same name should be cre]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_auth.py
+- [[ImportAPITest]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/importer/tests.py
+- [[ImporterMixin]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/importer/tests.py
+- [[ImporterTest]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/importer/tests.py
+- [[Initialize some test data for the StockTracking tests.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[Inline for sub-locations.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/admin.py
+- [[Integration test for part notifications.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_part.py
+- [[InvalidClass]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[InvenTreeAPIPerformanceTestCase]] - code
+- [[InvenTreeAPIPerformanceTestCase_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/unit_test.py
+- [[InvenTreeAPITestCase]] - code
+- [[InvenTreeAPITestCase_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/unit_test.py
+- [[InvenTreeBarcodeMixin]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/models.py
+- [[InvenTreeCustomUserStateModel]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/models.py
+- [[InvenTreeNotesMixin]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/models.py
+- [[InvenTreeSetting]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/models.py
+- [[InvenTreeTaskTests]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_tasks.py
+- [[InvenTreeTestCase]] - code
+- [[InvenTreeTestCase_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/unit_test.py
+- [[InvenTreeUserSetting]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/models.py
+- [[Issue a DELETE request.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/unit_test.py
+- [[Issue a PATCH request.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/unit_test.py
+- [[Issue a POST request.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/unit_test.py
+- [[Issue an OPTIONS request.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/unit_test.py
+- [[LabelMixinTests]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/label/test_label_mixin.py
+- [[LabelTest]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/tests.py
+- [[List all StockItem objects.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[List installed plugins via API.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[Locate a StockItem.          Args             item_pk primary key for item]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/locate/locate_sample.py
+- [[Locate a StockLocation.          Args             location_pk primary key for]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/locate/locate_sample.py
+- [[LocateMixin]] - code
+- [[LocateMixin_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/locate/mixins.py
+- [[LocatePluginSerializer]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/locate/api.py
+- [[LocatePluginTests]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/locate/test_locate.py
+- [[LocationAdmin]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/admin.py
+- [[LocationInline]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/admin.py
+- [[LocationTypeAdmin]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/admin.py
+- [[Login with the current user credentials.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/unit_test.py
+- [[MFALoginTest]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/tests.py
+- [[MPTT metaclass options._1]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/models.py
+- [[MagicLoginTest]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[MaintenanceModeTest]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[Make a CORS preflight request to the specified URL.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[Make sure that the all_settings function returns correctly.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[Make sure that the check_all_settings function returns correctly.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[Make sure that the validator function gets called on set setting.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[Meta for MetadataMixin._1]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/models.py
+- [[Meta options for this mixin.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/action/mixins.py
+- [[Metaclass defines extra model properties._4]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/models.py
+- [[Metaclass options for InvenTreeParameterMixin.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/models.py
+- [[Metaclass options for this mixin.          Note abstract must be true, as this]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/models.py
+- [[Metaclass options for this mixin.          Note abstract must be true, as this_1]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/models.py
+- [[Metaclass options for this mixin.          Note abstract must be true, as this_2]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/models.py
+- [[Metaclass options for this mixin.          Note abstract must be true, as this_3]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/models.py
+- [[Mixin for StockView tests.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_views.py
+- [[Mixin for stock api tests.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[Mixin for testing part images.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[Mixin that enables e2e printing tests.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/tests.py
+- [[Mixin to check if registration should be enabled.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/auth_overrides.py
+- [[Mixin to ensure that all plugins are loaded for tests.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/unit_test.py
+- [[Mixin to get metadata about a class itself, e.g. the plugin that provided that c]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/helpers_mixin.py
+- [[Mixin to setup a user and login for tests.      Use parameters to set username,]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/unit_test.py
+- [[Mixin to validate class attributes and overrides.      Class attributes]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/helpers_mixin.py
+- [[MockRegistrationMixin]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_auth.py
+- [[Mocked implementation of the RegistrationMixin.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_auth.py
+- [[Move an item to a different tree.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[NotesImage]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/models.py
+- [[NotesImageTest]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[NotificationEntry]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/models.py
+- [[NotificationMessage]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/models.py
+- [[NotificationTest]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[OrderViewTestCase]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/test_views.py
+- [[ParameterFilterTest]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_param.py
+- [[ParameterTemplate]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/models.py
+- [[ParameterTest]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_param.py
+- [[ParameterTests]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[ParameterTests_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_param.py
+- [[Part]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/models.py
+- [[PartAPIAggregationTest]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[PartAPITestBase]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[PartApiPerformanceTest]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[PartCategory]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/models.py
+- [[PartCategoryAPITest]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[PartCategoryParameterTemplate]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/models.py
+- [[PartCategoryStar]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/models.py
+- [[PartCreationTests]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[PartDetailTests]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[PartImageTestMixin_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[PartInternalPriceBreakTest]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[PartListTests]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[PartNotesTests]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[PartNotificationTest]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_part.py
+- [[PartOptionsAPITest]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[PartPricingDetailTests]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[PartRelated]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/models.py
+- [[PartSettingsTest]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_part.py
+- [[PartStockHistoryTest]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_part.py
+- [[PartSubscriptionTests]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_part.py
+- [[PartTest]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_part.py
+- [[PartTestTemplate]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/models.py
+- [[PartTestTemplateTest]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[Perform a generic API query.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/unit_test.py
+- [[Perform an API request.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/tests.py
+- [[Performance tests for the Part API.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[Performance tests for the Stock API.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[PluginFullAPITest]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/test_api.py
+- [[PluginMixin]] - code
+- [[PluginMixin_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/unit_test.py
+- [[PluginSetting]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/models.py
+- [[PluginSettingsApiTest]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[PluginUserSettingsApiTest]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[Populate the settings with default values.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[Post barcode and return results.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/barcodes/test_barcode.py
+- [[Post barcode and return results._1]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/barcodes/test_barcode.py
+- [[Post barcode generation and return barcode contents.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/barcodes/test_barcode.py
+- [[PrintTestMixins]] - code
+- [[PrintTestMixins_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/tests.py
+- [[Printing tests for the TestReport.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/tests.py
+- [[ProjectCode]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/models.py
+- [[ProjectCodesTest]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[Provides helper mixins that are used throughout the InvenTree project.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/helpers_mixin.py
+- [[Rebuild Part tree before running tests.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_part.py
+- [[Rebuild all MPTT models in the database.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/management/commands/rebuild_models.py
+- [[Rebuild all database models which leverage the MPTT structure.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/management/commands/rebuild_models.py
+- [[Rebuild all database models which leverage the MPTT structure._1]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/management/commands/rebuild_models.py
+- [[Rebuild all parameters for a given template.      This function is called when a]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tasks.py
+- [[Rebuild all thumbnail images.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/management/commands/rebuild_thumbnails.py
+- [[Rebuild all thumbnail images._1]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/management/commands/rebuild_thumbnails.py
+- [[Rebuild the stock tree structure.      Arguments         tree_id (int) The ID]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/tasks.py
+- [[Rebuild the thumbnail specified by the image field of the provided model.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/management/commands/rebuild_thumbnails.py
+- [[ReferenceIndexingMixin]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/models.py
+- [[RegistrationMixin_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/auth_overrides.py
+- [[RegistrationMixin]] - code
+- [[Remove old data outputs from the database.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tasks.py
+- [[Remove old notes images from the database.      Anything older than ~3 months is]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tasks.py
+- [[Remove old notifications from the database.      Anything older than ~3 months i]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tasks.py
+- [[Remove old stock tracking entries before a certain date.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/tasks.py
+- [[Render the value as a HTML label.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/generic/states/states.py
+- [[ReportTemplate]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/models.py
+- [[ReportTest]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/tests.py
+- [[Return a Parameter instance for the given parameter name.          Args]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/models.py
+- [[Return a dict of the 'actions' available at a given endpoint.          Makes use]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/unit_test.py
+- [[Return a dict representation containing all required information for templates.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/generic/states/states.py
+- [[Return a dict representation containing all required information.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/generic/states/states.py
+- [[Return a dict representation containing all required information._1]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/generic/states/states.py
+- [[Return a list of CORS headers.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[Return a map of all 'names' of status codes in this class.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/generic/states/states.py
+- [[Return a queryset containing all attachments for this model.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/models.py
+- [[Return a queryset of all custom values for this status class.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/generic/states/states.py
+- [[Return all user-defined custom values for this status class.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/generic/states/states.py
+- [[Return list of part thumbnails.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[Return tag for this status code.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/generic/states/states.py
+- [[Return the API endpoint for the CustomUnit list.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[Return the ContentType object associated with this model.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/models.py
+- [[Return the SampleValidatorPlugin instance.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/test_validation_sample.py
+- [[Return the StatusCode options as a list of mapped key  value items.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/generic/states/states.py
+- [[Return the URL for the project code list endpoint.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[Return the item which is 'most recent'.          In practice, this means the ite]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/models.py
+- [[Return the label printing URL.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/label/test_label_mixin.py
+- [[Return the model 'type' for creating a custom QR code.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/models.py
+- [[Return the next available tree_id for this model class.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/models.py
+- [[Return the status class associated with this model.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/generic/states/states.py
+- [[Return the status code label associated with the provided value.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/generic/states/states.py
+- [[Return the value of a global setting using the provided key.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/settings.py
+- [[Returns True if the completion of the build outputs is disabled until the requir]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/settings.py
+- [[Returns True if the stock expiry feature is enabled.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/settings.py
+- [[Returns the number of locations this location type is assigned to.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/admin.py
+- [[Returns the reference pattern associated with this model.          This is defin]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/models.py
+- [[RuleSetModelTest]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/tests.py
+- [[Run MPTT test for a given model type.          The intent here is to check that]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[Run a series of tests against the provided URL.          Arguments]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/unit_test.py
+- [[Run a test to check that the results are ordered correctly.          Arguments]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/unit_test.py
+- [[Run barcode tests for the stock app.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/tests.py
+- [[Run ordering tests against the StockItem list endpoint.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[Run setup for individual test methods.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/unit_test.py
+- [[Run tests for currency specific settings.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[SOAllocateTest]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/barcodes/test_barcode.py
+- [[Sample plugin for locating stock items  locations.  Note This plugin does not]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/locate/locate_sample.py
+- [[SampleIntegrationPluginTests]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/test_sample.py
+- [[SampleLocatePlugin]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/locate/locate_sample.py
+- [[SampleSupplierTest]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/supplier/test_supplier_sample.py
+- [[SanitizerTest]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[ScheduledTaskTests]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_tasks.py
+- [[SchemaPostprocessingTest]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[SelectionList]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/models.py
+- [[SelectionListEntry]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/models.py
+- [[SelectionListTest]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[Send an email notification.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/integration/test_core_notifications.py
+- [[Serializer for the LocatePluginView API endpoint.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/locate/api.py
+- [[Series of API tests for the StockItem API.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[Series of API tests for the StockLocation API.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[Series of tests for the Part DRF API.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[Series of tests for the Stocktake API.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[Set a global warning for a code.      Args         key (str) The key for the w]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/settings.py
+- [[Set the value of a global setting using the provided key.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/settings.py
+- [[Set up some test data for DataOutput API testing.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/test_api.py
+- [[Set up the test case._3]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[Set up the test case.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/integration/test_core_notifications.py
+- [[Set up the test case._2]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/locate/test_locate.py
+- [[Set up the test environment.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/test_validation_sample.py
+- [[SettingsTest]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[SettingsValidatorTests]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/setting/tests.py
+- [[Setup function for the stock item TestReport.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/tests.py
+- [[Setup method for each test.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/barcodes/test_barcode.py
+- [[Setup some testing driversmachines.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/test_api.py
+- [[Setup some testing driversmachines._1]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/tests.py
+- [[Setup test data for the filtering tests.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_param.py
+- [[Simple test for the stock quantity.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[Simple tests for custom field validators.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[Simple tests for list manipulation tags.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/test_tags.py
+- [[Simple tests for mathematical operator tags.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/test_tags.py
+- [[Simple tests for number formatting tags.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/test_tags.py
+- [[Simple tests for sanitizer functions.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[Simple tests for the StockItem barcode integration.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/tests.py
+- [[Simple tests for the StockLocation barcode integration.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/tests.py
+- [[Simple tests for the string manipulation tags.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/test_tags.py
+- [[Simulate super class of RegistrationMixin.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_auth.py
+- [[Some simplistic tests to ensure that MFA is working.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/tests.py
+- [[Some simplistic tests to ensure the RuleSet model is setup correctly.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/tests.py
+- [[StockAPITestCase]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[StockApiPerformanceTest]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[StockAssignTest]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[StockBarcodeTest]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/tests.py
+- [[StockItem]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/models.py
+- [[StockItemAdmin]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/admin.py
+- [[StockItemDeletionTest]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[StockItemListTest]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[StockItemTest]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[StockItemTestResult]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/models.py
+- [[StockItemTestResultAdmin]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/admin.py
+- [[StockItemTracking]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/models.py
+- [[StockLocation]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/models.py
+- [[StockLocationTest]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[StockLocationTest_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/tests.py
+- [[StockLocationTreeTest]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/tests.py
+- [[StockLocationType]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/models.py
+- [[StockLocationTypeTest]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[StockMergeTest]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[StockMetadataAPITest]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[StockOwnershipTest]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_views.py
+- [[StockTestBase]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/tests.py
+- [[StockTestResultTest]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[StockTrackingAdmin]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/admin.py
+- [[StockTrackingTest]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[StockTreeTest]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/tests.py
+- [[StockViewTestCase]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_views.py
+- [[StocktakeExporterTest]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/exporter/test_exporter.py
+- [[StocktakeTest]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[Superuser should have all roles assigned.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_api.py
+- [[SupplierPartPackUnitsTests]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/test_supplier_parts.py
+- [[SystemSetId]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/setting/system.py
+- [[TaskListApiTests]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[TemplateTagTest_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_part.py
+- [[Test 'intelligent' incrementing function.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[Test API detail functionality.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[Test API endpoint for setting StockItem status.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[Test API endpoint which details the list of import sessions.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/importer/tests.py
+- [[Test API list functionality.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[Test API list functionality._1]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[Test API list functionality._2]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[Test MPTT tree structure for Build model.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[Test MPTT tree structure for Part model.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[Test MPTT tree structure for Stock model.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[Test OPTIONS information for the Parameter API endpoint.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/test_api.py
+- [[Test OPTIONS information for the ParameterTemplate API endpoint.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/test_api.py
+- [[Test Parameter API functionality.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/test_api.py
+- [[Test ParameterTemplate API functionality.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/test_api.py
+- [[Test Part attributes.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_part.py
+- [[Test PartCategory path.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_part.py
+- [[Test StatusView API view.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/generic/states/tests.py
+- [[Test TME DataMatrix-Code.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/suppliers/test_supplier_barcodes.py
+- [[Test a complex part templatevariant tree.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_part.py
+- [[Test a integer user setting value.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[Test a settings object lifecycle e2e.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[Test a user setting with an invalid key.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[Test a user setting with choices.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[Test adding StockLocation.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[Test adding an admin user via env variables.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[Test adding and editing via the SelectionList.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[Test allocating stock to a customer.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/tests.py
+- [[Test an empty barcode scan.          Ensure that all required data is in the res]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/barcodes/test_barcode.py
+- [[Test an empty pricing detail.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[Test annotation of 'category_detail' against a Part instance.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[Test annotation of 'parameters' detail against a Part instance.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[Test annotation of 'pricing' detail against a Part instance.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[Test arbitrary function calls against a machine.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/tests.py
+- [[Test authentication functionality.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_auth.py
+- [[Test barcode format functionality.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_part.py
+- [[Test barcode generation for invalid modelpk.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/barcodes/test_barcode.py
+- [[Test basic filtering by length parameter.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_param.py
+- [[Test basic filtering by width parameter.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_param.py
+- [[Test basic maintenance mode operation.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[Test basic subscription against a part.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_part.py
+- [[Test bulk creation of test results against the API.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[Test by 'starred' filter.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[Test caching operation for the user settings class.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[Test caching operations for the global settings class.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[Test case where there is zero stock.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_part.py
+- [[Test category deletion with different parameters.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[Test check_plugin function.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/test_api.py
+- [[Test check_stale_stock when STOCK_STALE_DAYS is 0.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_notification_stale.py
+- [[Test check_stale_stock when no stale items exist.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_notification_stale.py
+- [[Test check_stale_stock when stale items exist.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_notification_stale.py
+- [[Test check_stale_stock when stock expiry is disabled.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_notification_stale.py
+- [[Test class for PartCategoryParameterTemplate model.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_param.py
+- [[Test clean_barcode tag.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/test_tags.py
+- [[Test complex serial number combinations.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[Test conversion of invalid inputs.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[Test conversion of temperature units.          Ref httpsgithub.cominventree]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[Test conversion to specified base units.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[Test conversion with bad units.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[Test creation of a StockItem via the API, including SupplierPart data.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[Test creation of a StockItem via the API.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[Test creation of a new test result.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[Test data export functionality for Parameter objects.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[Test data submission.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/barcodes/test_barcode.py
+- [[Test deactivating a mandatory plugin.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/test_api.py
+- [[Test default location propagation through location trees.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[Test delete operation for a Part instance.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_part.py
+- [[Test deletion of a ManufacturerPart.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/tests.py
+- [[Test depleted stock deletion.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/tests.py
+- [[Test digikey barcode which is invalid.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/suppliers/test_supplier_barcodes.py
+- [[Test digikey barcode which uses 30P instead of P.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/suppliers/test_supplier_barcodes.py
+- [[Test digikey barcode.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/suppliers/test_supplier_barcodes.py
+- [[Test direct comparison of version numbers.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[Test download of part data via the API.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[Test duplicate item behaviour.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/tests.py
+- [[Test each stocktake action endpoint, for validation.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[Test edit permissions for CustomUnit model.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[Test editing with lockedunlocked list.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[Test error cases for validate_part_name_format.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/setting/tests.py
+- [[Test error messages for invalid filter combinations.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/test_api.py
+- [[Test exchange rate update.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[Test expiry date functionality for StockItem model.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/tests.py
+- [[Test export of very large dataset.          - Ensure that the time taken to expo]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[Test exporting of Stock data via the API.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[Test filtering against top level stock location.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[Test filtering by color parameter.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_param.py
+- [[Test filtering by ionized parameter.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_param.py
+- [[Test filtering by multiple parameters.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_param.py
+- [[Test filtering plugins by mixin.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/test_api.py
+- [[Test for 'available_variant_stock' annotation.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[Test for AllowedURLValidator.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[Test for custom report tags.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/test_tags.py
+- [[Test for date formatting tags.          - Source timezone is AustraliaSydney]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/test_tags.py
+- [[Test for exporting BOM data.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[Test for host configuration.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[Test for listing part parameters.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_param.py
+- [[Test for retrieving logo image.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[Test for settings data.          - Ensure that every setting has a name, which i]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[Test for task duplication.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_tasks.py
+- [[Test for the generateTestKey function.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[Test full e2e webhook call.          The message should go through and save the]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[Test full import process via the API.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/importer/tests.py
+- [[Test function for creating a regex from a format string.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[Test function for downloading image from remote URL.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[Test generation of stock history entries.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_part.py
+- [[Test get_absolute_url function.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/tests.py
+- [[Test get_config_file.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[Test get_instance_id.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[Test get_oidc_private_key.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[Test get_plugin_file.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[Test health check URL.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[Test helper API for batch management.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[Test helper API for serial management.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[Test helper function for generating an absolute URL.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[Test if a filename looks like an image.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[Test if install of plugins on startup works.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[Test importing a part by supplier.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/supplier/test_supplier_sample.py
+- [[Test individual result types.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_api.py
+- [[Test inputs where prefixes are used.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[Test instance name settings.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[Test instance url settings.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[Test inventreeVersionTuple.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[Test isGeneratingSchema check.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[Test isImportingData check.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[Test isInTestMode check.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[Test keyvalue template tag.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_part.py
+- [[Test list URL for global settings.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[Test list URL for user settings.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[Test list endpoint with limit = 1.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[Test machine detail API endpoint.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/test_api.py
+- [[Test machine detail settings API endpoint.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/test_api.py
+- [[Test machine driver list API endpoint.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/test_api.py
+- [[Test machine restart API endpoint.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/test_api.py
+- [[Test machine settings list API endpoint.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/test_api.py
+- [[Test machine status API endpoint.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/test_api.py
+- [[Test machine types list API endpoint.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/test_api.py
+- [[Test magic login token generation.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[Test manual printing of label templates.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/tests.py
+- [[Test manual serialization of parts.          Each of these tests should fail]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/tests.py
+- [[Test merging of multiple stock items.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/tests.py
+- [[Test model meta functions.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[Test mouser barcode with custom order number.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/suppliers/test_supplier_barcodes.py
+- [[Test moving stock to its current location.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/tests.py
+- [[Test names must be unique for this part and also parts above.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_part.py
+- [[Test notify_stale_stock with a single stale item.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_notification_stale.py
+- [[Test notify_stale_stock with empty stale_items list.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_notification_stale.py
+- [[Test notify_stale_stock with multiple stale items.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_notification_stale.py
+- [[Test old mouser barcode with messed up header.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/suppliers/test_supplier_barcodes.py
+- [[Test ordering options for the StockLocation list endpoint.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[Test pagination of the Part list API.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[Test parameter editing for a locked part.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_param.py
+- [[Test part duplication options.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[Test partial stock moving.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/tests.py
+- [[Test path_detail information.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[Test plugin settings access via the API.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/test_api.py
+- [[Test plugin uninstall command.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/test_api.py
+- [[Test printing options.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/label/test_label_mixin.py
+- [[Test purchase price field.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/tests.py
+- [[Test receiving an item from a barcode with a custom order number.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/suppliers/test_supplier_barcodes.py
+- [[Test receiving an item from a barcode.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/suppliers/test_supplier_barcodes.py
+- [[Test receiving an item from a specific order into a specific location.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/suppliers/test_supplier_barcodes.py
+- [[Test receiving an item into the default line_item location.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/suppliers/test_supplier_barcodes.py
+- [[Test receiving an item into the default part location.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/suppliers/test_supplier_barcodes.py
+- [[Test receiving an item when the location is provided.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/suppliers/test_supplier_barcodes.py
+- [[Test receiving an with missing quantity information.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/suppliers/test_supplier_barcodes.py
+- [[Test registry endpoint for plugin.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/test_api.py
+- [[Test removing previous allocated stock from customer.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/tests.py
+- [[Test response for an invalid location.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/barcodes/test_barcode.py
+- [[Test response for invalid part.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/barcodes/test_barcode.py
+- [[Test response for invalid stock item.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/barcodes/test_barcode.py
+- [[Test responses which are missing required data.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[Test retrieving the user profile.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/tests.py
+- [[Test scan of an integer barcode.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/barcodes/test_barcode.py
+- [[Test scan of barcode with string encoded array.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/barcodes/test_barcode.py
+- [[Test serial number uniqueness.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/tests.py
+- [[Test set_global_warning function.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[Test settings endpoint for plugin.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/test_api.py
+- [[Test settings functions and properties.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[Test settings validator for plugins.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/test_sample.py
+- [[Test simple serial numbers.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[Test static URL helpers.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[Test stock item deletion.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[Test stock location deletion with different parameters.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[Test stock location icon inheritance from StockLocationType.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[Test stock location icon.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/tests.py
+- [[Test stock location list filters.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[Test stock movement functions.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/tests.py
+- [[Test stock splitting.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/tests.py
+- [[Test stock_item filter with and without include_installed option.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[Test string representation of a Part.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_part.py
+- [[Test string to boolean conversion.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[Test subscription against a PartCategory.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_part.py
+- [[Test subscription against a parent part.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_part.py
+- [[Test support of imperial length measurements.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[Test task offloading.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_tasks.py
+- [[Test test results for stock in stock.          Or, test test results for stoc]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/tests.py
+- [[Test that 'label' values are correctly translated.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[Test that CORS regexes work as expected.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[Test that CORS requests work for the auth view.          Here, we are not auth]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[Test that LOGIN_SIGNUP_MAIL_RESTRICTION works.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_auth.py
+- [[Test that NotificationMessage can be marked as read.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[Test that Part API queries are performant.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[Test that Part instances can be adjusted via the API.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[Test that SVGs are sanitized accordingly.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[Test that Stock API queries are performant.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[Test that StockItem serialization maintains tree structure.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/tests.py
+- [[Test that a barcode can be associated with a StockItem.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/barcodes/test_barcode.py
+- [[Test that a barcode can be generated for a StockItem.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/barcodes/test_barcode.py
+- [[Test that a barcode is generated with a scan.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/barcodes/test_barcode.py
+- [[Test that a endpoint without a token set does not require one.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[Test that a failed task will generate a notification.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_tasks.py
+- [[Test that a label can be printed.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/label/test_label_mixin.py
+- [[Test that a locate plugin is actually installed.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/locate/test_locate.py
+- [[Test that a low stocknotification is generated.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_part.py
+- [[Test that a malformed HMAC does not pass.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[Test that a notification is not created if it was already sent recently.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[Test that a notification with an invalid target raises an error.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[Test that a object without a reference is raising an issue.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[Test that a simple notification can be created.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[Test that a valid class passes the validation.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[Test that a wrong implementation raises an error.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/label/test_label_mixin.py
+- [[Test that a wrong token is not working.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[Test that a wrongly formed url is not working.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[Test that all settings are valid.          - Ensure that a name is set and that]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[Test that an image can be renamed.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_part.py
+- [[Test that an invalid class fails the validation.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[Test that an valid plugin slug runs through.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[Test that api version text is correctly parsed.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_api.py
+- [[Test that associated parameters are correctly deleted when removing the linked m]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/test_api.py
+- [[Test that categories have the correct number of children.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_category.py
+- [[Test that category deletion moves the children properly.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_category.py
+- [[Test that category parameters are correctly applied.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[Test that category templates are correctly applied to Part instances.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_param.py
+- [[Test that changes in LOGIN_ENFORCE_MFA are handled correctly.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[Test that check_stale_stock properly filters stock items.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_notification_stale.py
+- [[Test that company list is working.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_api.py
+- [[Test that conversion works with engineering notation.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[Test that creating a new report works for each report.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/tests.py
+- [[Test that currency formatting works correctly for multiple currencies.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[Test that deleting a root category works correctly.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_category.py
+- [[Test that each model defined in the rulesets is valid, based on the database sch]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/tests.py
+- [[Test that extended URL schemes are allowed.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/tests.py
+- [[Test that invalid files are rejected.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[Test that invalid floating point numbers are correctly handled.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_param.py
+- [[Test that invalid requests fail.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/barcodes/test_barcode.py
+- [[Test that invisible characters are removed from the input data.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[Test that magic login tokens are generated correctly.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[Test that malformed JSON is not accepted.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[Test that model is present.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[Test that non-staff users have read-only access.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[Test that non-standard ASCII chars are accepted.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[Test that notification entries can be created.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[Test that ownership is working correctly for StockItemStockLocation.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_views.py
+- [[Test that pagination boundaries are observed correctly.          Ref httpsgi]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[Test that parameter choices are correctly validated.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_param.py
+- [[Test that parameters are correctly converted to template units.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_param.py
+- [[Test that parameters are correctly validated against template units.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_param.py
+- [[Test that part list is working.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_api.py
+- [[Test that part parameter template validation routines work correctly.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_param.py
+- [[Test that parts are created with the correct tree structure.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_part.py
+- [[Test that price_breaks parameter works correctly and efficiently.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[Test that requesting an uninitialized setting creates the setting.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[Test that scientific notation is handled correctly.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[Test that serialized stock items can be created via the API.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[Test that stock history entries are generated correctly.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_part.py
+- [[Test that stock item can be installed into another item, via the API.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[Test that stock list is working.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_api.py
+- [[Test that stock splitting works correctly.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/tests.py
+- [[Test that string validation works as expected.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[Test that superuser are always allowed to access items.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_views.py
+- [[Test that template filters are correctly validated.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/tests.py
+- [[Test that the default_expiry functionality works via the API.          - If an]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[Test that the 'can_build' annotation works as expected.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[Test that the 'child_items' annotation works as expected.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[Test that the 'notify_low_stock' task is triggered correctly.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/tests.py
+- [[Test that the 'on_order' queryset annotation works as expected.          This qu]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[Test that the 'part_count' field is annotated correctly.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[Test that the 'updated' field is correctly set.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_param.py
+- [[Test that the 'value' field is correctly validated.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[Test that the ALLOWED_HOSTS functions as expected.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[Test that the API is working.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/tests.py
+- [[Test that the API text is correct.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_api.py
+- [[Test that the BOM list results can be ordered.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[Test that the BulkDelete endpoint works for this model.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[Test that the Category parameters are correctly fetched.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_category.py
+- [[Test that the Category part count works.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_category.py
+- [[Test that the DETAIL endpoint works for each report.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/tests.py
+- [[Test that the LIST endpoint works for each report.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/tests.py
+- [[Test that the Label mixin operates correctly.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/label/test_label_mixin.py
+- [[Test that the PartCategory URL works.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_category.py
+- [[Test that the PartCategoryParameterTemplate API function work.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[Test that the StatusCode class works.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/generic/states/tests.py
+- [[Test that the api-doc view works.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_views.py
+- [[Test that the barcode hashing function provides correct results.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[Test that the barcode_model_type property works for each class.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[Test that the category path string works correctly.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_category.py
+- [[Test that the commit date template tag returns correctly.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_part.py
+- [[Test that the commit hash template tag returns correctly.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_part.py
+- [[Test that the correct errors are thrown.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_api.py
+- [[Test that the creation date filters work correctly.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[Test that the currency exchange endpoint works as expected.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[Test that the data cleaning functionality is working.          This helps to pro]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[Test that the default values for the part settings are correct.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_part.py
+- [[Test that the filename validation works as expected.          The django file-up]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[Test that the fully qualified URL is returned correctly.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[Test that the git commit information is extracted successfully.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[Test that the inventreeApiText function works expected.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_api.py
+- [[Test that the is_building flag does not count towards stock.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/tests.py
+- [[Test that the license endpoint is working.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_api.py
+- [[Test that the list endpoint works as expected._1]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[Test that the list endpoint works as expected.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[Test that the local time conversion works as expected.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[Test that the mixin class works as expected.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[Test that the number of queries required to fetch stock items is reasonable.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[Test that the parent fields are properly set, based on the test fixtures.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_category.py
+- [[Test that the permission assigning works!]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/tests.py
+- [[Test that the plugin correctly 'locates' a StockItem.          As the background]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/locate/test_locate.py
+- [[Test that the plugin correctly 'locates' a StockLocation.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/locate/test_locate.py
+- [[Test that the query count is unchanged, independent of query results.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[Test that the required details are available.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[Test that the restart flag is reset on start.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[Test that the sample UI plugin provides custom panels.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/ui/tests.py
+- [[Test that the sample UI plugin provides template editor features.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/ui/tests.py
+- [[Test that the sample printing plugin is installed.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/label/test_label_mixin.py
+- [[Test that the scheduled tasks endpoint is available.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[Test that the status code class has been defined correctly.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/generic/states/tests.py
+- [[Test that the system health check is false in testing - background worker not r]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[Test that the timestamp value is interpreted correctly.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[Test that the unassign endpoint works as expected.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/barcodes/test_barcode.py
+- [[Test that the user permissions are correctly applied.          - For all apire]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/tests.py
+- [[Test that tree rebuild works correctly.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/tests.py
+- [[Test that users with insufficient permissions are handled correctly.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_api.py
+- [[Test that validation works as expected.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[Test that values are cast to the correct type.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[Test that various output options work as expected.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[Test that very long notes field is rejected.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[Test that we can access the 'roles' view for the logged in user.          Also t]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_api.py
+- [[Test that we can access the REST API endpoints via the HTML interface.      Hist]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_api.py
+- [[Test that we can access the detail view for a setting based on the key.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[Test that we can allocate an existing uploaded image to a new Part.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[Test that we can annotate parameters against a queryset.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/test_api.py
+- [[Test that we can bulk create parameters via the API.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_param.py
+- [[Test that we can bulk-change batch code for a set of stock items.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[Test that we can convert a StockItem to a variant part via the API.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[Test that we can correctly filter the Part list by conversion options.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[Test that we can correctly read and adjust purchase price information via the AP]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[Test that we can create  edit  delete Part objects via the API.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[Test that we can create a location type via API.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[Test that we can create a new Attachment instances via the API.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[Test that we can create a param via the API.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_param.py
+- [[Test that we can delete a location type via API.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[Test that we can exclude parts by ID using the exclude_id parameter.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[Test that we can exclude parts related to a specific part ID.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[Test that we can extract named values based on a format string.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[Test that we can filter by allocated status.          Rules         - Only re]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[Test that we can filter by the 'related' status.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[Test that we can filter part list by the 'in_bom_for' parameter.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[Test that we can filter stock items by company.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[Test that we can filter the API endpoint by mixin.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/label/test_label_mixin.py
+- [[Test that we can lookup a part based on ID.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/barcodes/test_barcode.py
+- [[Test that we can lookup a stock item based on ID.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/barcodes/test_barcode.py
+- [[Test that we can lookup a stock location based on ID.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/barcodes/test_barcode.py
+- [[Test that we can offload various tasks to the background worker thread.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[Test that we can order parts by a specified parameter.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_param.py
+- [[Test that we can paginate results correctly.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[Test that we can read the 'info-view' endpoint.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_api.py
+- [[Test that we can retrieve list of part categories, with various filtering option]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[Test that we can return a StockItem from a customer, via the API.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[Test that we can search the BOM list API endpoint.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[Test that we can update a location type via API.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[Test that we can update the image of an existing part with an already existing i]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[Test that we can upload an image to the part API.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[Test that we can upload attachments via the API.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[Test that we cannot create a duplicate Part.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_part.py
+- [[Test that we cannot create two project codes with the same code.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[Test that we cannot set a child as parent.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[Test that we cannot set self as parent.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[Test the 'bom_valid' Part API filter.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[Test the 'building' quantity annotations.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[Test the 'choices' field for the PartTestTemplate model.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[Test the 'define' template tag.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_part.py
+- [[Test the 'has_batch' filter, which tests if the stock item has been assigned a b]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[Test the 'initial' default values (no default values have been set).]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_part.py
+- [[Test the 'instance name' setting.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_part.py
+- [[Test the 'inventree_customize' template tag.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_part.py
+- [[Test the 'inventree_title' setting.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_part.py
+- [[Test the 'notes' field.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[Test the 'render_date' template tag.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_part.py
+- [[Test the 'revision' and 'revision_of' field.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_part.py
+- [[Test the 'setting_object' template tag.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_part.py
+- [[Test the 'settings_value' template tag.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_part.py
+- [[Test the 'to_list' template tag.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_part.py
+- [[Test the 'unique_children' functionality.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_category.py
+- [[Test the 'unique_parents' functionality.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_category.py
+- [[Test the 'version' setting.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_part.py
+- [[Test the API for the generic states module.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/generic/states/tests.py
+- [[Test the BackgroundTaskDetail API endpoint.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[Test the BomItem API OPTIONS endpoint.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[Test the Build model.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/tests.py
+- [[Test the CustomUnit API.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[Test the DataOutput API list endpoint.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/test_api.py
+- [[Test the Part API OPTIONS.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[Test the Part.get_parameter method.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_param.py
+- [[Test the PartCategoryDetail API endpoint.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[Test the PartCategoryList API endpoint.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[Test the PartCategoryTree API endpoint.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[Test the PartTestTemplate API.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[Test the PluginConfig action commands.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/test_api.py
+- [[Test the PluginConfig model.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/test_api.py
+- [[Test the PluginUserSetting API endpoints.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/test_api.py
+- [[Test the SalesOrder model.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/tests.py
+- [[Test the SelectionList and SelctionListEntry API endpoints.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[Test the SelectionList parameter.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[Test the StockItem OPTIONS endpoint to contain custom StockStatuses.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[Test the StockLocationList API endpoint.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[Test the StockLocationTree API endpoint.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[Test the UserInterfaceMixin plugin mixin class.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/ui/tests.py
+- [[Test the auth_request view.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_auth.py
+- [[Test the barcode generation tag.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/test_tags.py
+- [[Test the barcode mixin functionality.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_part.py
+- [[Test the batch code validation API.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/test_validation_sample.py
+- [[Test the built-in token authentication.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_auth.py
+- [[Test the category icon.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_category.py
+- [[Test the company image upload functionality.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/tests.py
+- [[Test the convert_currency template tag.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/test_tags.py
+- [[Test the create_currency template tag.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/test_tags.py
+- [[Test the datamatrix generation tag.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/test_tags.py
+- [[Test the default location functionality, if a 'location' is not specified in the]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[Test the delete_old_emails task.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_tasks.py
+- [[Test the detail URL for a company.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/tests.py
+- [[Test the effectiveness of structural categories.          Make sure         - P]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[Test the effectiveness of structural stock locations.          Make sure]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[Test the encode_svg_image template tag.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/test_tags.py
+- [[Test the filter_db_model template tag.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/test_tags.py
+- [[Test the filter_queryset template tag.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/test_tags.py
+- [[Test the format_date template tag.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/test_tags.py
+- [[Test the full plugin installuninstall process via API.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/test_api.py
+- [[Test the generate_batch_code function.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/test_validation_sample.py
+- [[Test the getModelsWithMixin function.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[Test the get_is_builtin function.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[Test the get_provider_file function.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[Test the icon template tag.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/test_tags.py
+- [[Test the include_icon_fonts template tag.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/test_tags.py
+- [[Test the is_variant filter.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[Test the key generation method.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_part.py
+- [[Test the machine lifecycle.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/tests.py
+- [[Test the output options for PartList list.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[Test the output options for StockItemt detail.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[Test the output options for SupplierPart price break list.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/test_api.py
+- [[Test the part_parameter template tag.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/test_tags.py
+- [[Test the plugin activation API endpoint.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/test_api.py
+- [[Test the plugin values are cast appropriately.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[Test the provider_plugin function.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[Test the qrcode generation tag.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/test_tags.py
+- [[Test the registration process.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_auth.py
+- [[Test the render_currency template tag.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/test_tags.py
+- [[Test the render_html_text template tag.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/test_tags.py
+- [[Test the sample mixin redirection.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/locate/test_locate.py
+- [[Test the setting which controls duplicate IPN values.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_part.py
+- [[Test the special 'include_child_categories' flag.          If provided, parts ar]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[Test the sso and auth module functionality.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_auth.py
+- [[Test the stocktake exporter plugin.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/exporter/test_exporter.py
+- [[Test the stocktake exporter plugin._1]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/exporter/test_exporter.py
+- [[Test the str representation of the ParameterTemplate model.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_param.py
+- [[Test the task check_for_migrations.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_tasks.py
+- [[Test the task check_for_updates.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_tasks.py
+- [[Test the task delete_old_error_logs.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_tasks.py
+- [[Test the task delete_successful_tasks.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_tasks.py
+- [[Test the task heartbeat.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_tasks.py
+- [[Test the validate_icon function.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[Test the validate_ipn function.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/test_validation_sample.py
+- [[Test the validate_model_instance function.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/test_validation_sample.py
+- [[Test the validate_part_name function.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/test_validation_sample.py
+- [[Test token mechanisms.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/tests.py
+- [[Test token resolve endpoint does not work without basic auth.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_api.py
+- [[Test traversal for default locations.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_category.py
+- [[Test tree structure for fixtured data.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_part.py
+- [[Test type casting for plugin settings.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[Test updating the user profile.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/tests.py
+- [[Test upload of a valid image file.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[Test valid merging of stock items.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[Test validate_primary_group_on_delete signal handler.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/tests.py
+- [[Test validate_primary_group_on_save signal handler.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/tests.py
+- [[Test validation for part templates.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_param.py
+- [[Test validation of 'units' field for ParameterTemplate.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_param.py
+- [[Test variant functions.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/tests.py
+- [[Test various API failure modes.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/locate/test_locate.py
+- [[Test we can create price breaks at various quantities.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[Test we can delete a project code via the API.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[Test we can retrieve a setting which has not yet been initialized.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[Test when an invalid barcode is provided (does not match stock item).]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/barcodes/test_barcode.py
+- [[Test when an invalid sales order is provided.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/barcodes/test_barcode.py
+- [[Test when no data is provided.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/barcodes/test_barcode.py
+- [[Test with a valid HMAC provided.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[Test with auto_allocate explicitly disabled.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/suppliers/test_supplier_barcodes.py
+- [[Test wrong serial numbers.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[TestAuth]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_auth.py
+- [[TestCase]] - code
+- [[TestCategoryTemplates]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_param.py
+- [[TestClass]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[TestDownloadFile]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[TestDriverMachineInterface]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/tests.py
+- [[TestHelpers]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[TestIncrement]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[TestInstanceName]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[TestLabelPrinterMachineType]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/tests.py
+- [[TestMPTT]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[TestMachineRegistryMixin_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/tests.py
+- [[TestOffloadTask]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[TestParams]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_param.py
+- [[TestQuoteWrap]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[TestReportTest]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/tests.py
+- [[TestResultTest]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/tests.py
+- [[TestSerialNumberExtraction]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[TestSettings]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[TestStatus]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[TestTemplateTest]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_part.py
+- [[TestTimeFormat]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[TestVersionNumber]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[Testcase with user setup build in.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/unit_test.py
+- [[Tests Key must be different from the logical keys of the reference.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[Tests Logical key must be in the logical keys of the reference status.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[Tests Logical key must be present.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[Tests Logical key must be unique.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[Tests Model must have a key.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[Tests Reference status must be present.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[Tests Reference status set not found.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[Tests barcode parsing for all suppliers.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/suppliers/test_supplier_barcodes.py
+- [[Tests barcode parsing for all suppliers._1]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/suppliers/test_supplier_barcodes.py
+- [[Tests barcode scanning to receive a purchase order item.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/suppliers/test_supplier_barcodes.py
+- [[Tests for 'default' values.          Ensure that unspecified fields revert to d]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[Tests for 'dimensionless' unit quantities.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[Tests for API filters against ParameterTemplate endpoint.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/test_api.py
+- [[Tests for BomItem substitutes.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[Tests for BomItem use with variants.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[Tests for CoreNotificationsPlugin.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/integration/test_core_notifications.py
+- [[Tests for DownloadFile.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[Tests for DownloadFile._1]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[Tests for InvenTree helper functions.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[Tests for LocateMixin.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/locate/test_locate.py
+- [[Tests for NotificationEntry.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[Tests for SampleIntegrationPlugin.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/test_sample.py
+- [[Tests for SampleSupplierPlugin.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/supplier/test_supplier_sample.py
+- [[Tests for StockTestResult APIs.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[Tests for asset files.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/test_tags.py
+- [[Tests for barcode api.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/barcodes/test_barcode.py
+- [[Tests for bulk deletion of user notifications.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[Tests for calculation stock counts against templates  variants.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/tests.py
+- [[Tests for conversion of physical units.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[Tests for core_notifications.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/integration/test_core_notifications.py
+- [[Tests for creating new Part instances via the API.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[Tests for custom stock item statuses.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[Tests for custom unit conversion.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[Tests for daily task holdoff helper functions.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[Tests for increment function.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[Tests for initial creation of supplier  manufacturer data.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[Tests for initial stock quantity creation.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[Tests for mathematical operator tags with Decimal inputs.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/test_tags.py
+- [[Tests for mathematical operator tags with Money inputs.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/test_tags.py
+- [[Tests for mathematical operator tags with invalid inputs.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/test_tags.py
+- [[Tests for mathematical operator tags with string inputs.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/test_tags.py
+- [[Tests for media and static file access.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/test_tags.py
+- [[Tests for offloading tasks to the background worker.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[Tests for query annotations which add allocation information.          Ref http]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[Tests for retrieving uploaded images.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/test_tags.py
+- [[Tests for schema postprocessing functions.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[Tests for serial number extraction code.      Note that while serial number extr]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[Tests for stock item deletion via the API.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[Tests for stock ownership views.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_views.py
+- [[Tests for stock serialization.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/tests.py
+- [[Tests for string wrapping.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[Tests for the 'getindex' template tag.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/test_tags.py
+- [[Tests for the 'getkey' template tag.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/test_tags.py
+- [[Tests for the 'notes' field (markdown field).]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[Tests for the 'owner' model.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/tests.py
+- [[Tests for the 'parse_format_string' function.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[Tests for the 'settings' model.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[Tests for the 'uses' field.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[Tests for the BomItem list endpoint.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[Tests for the ClassProviderMixin class.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[Tests for the ClassValidationMixin class.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[Tests for the Company detail endpoint.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/test_api.py
+- [[Tests for the InvenTreeBarcodeMixin mixin class.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[Tests for the MPTT tree models.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[Tests for the Parameter API.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/test_api.py
+- [[Tests for the Parameter API._1]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_param.py
+- [[Tests for the Parameter detail endpoint.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_param.py
+- [[Tests for the Part model.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_part.py
+- [[Tests for the Part model._1]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_part.py
+- [[Tests for the SSO group sync feature.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_auth.py
+- [[Tests for the SampleValidatonPlugin class.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/test_validation_sample.py
+- [[Tests for the SelectionList and SelectionListEntry model and API endpoints.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[Tests for the StockItem API LIST endpoint.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[Tests for the StockItemTestResult model.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/tests.py
+- [[Tests for the StockLocation model.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/tests.py
+- [[Tests for the StockLocationType API endpoints.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[Tests for the StockTracking API endpoints.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[Tests for the admin interface integration._1]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/tests.py
+- [[Tests for the admin interface integration._2]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[Tests for the admin interface integration._3]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/tests.py
+- [[Tests for the admin interface integration._4]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/tests.py
+- [[Tests for the admin interface integration._5]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/tests.py
+- [[Tests for the admin interface integration._6]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/unit_test.py
+- [[Tests for the custom template tag code.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_part.py
+- [[Tests for the global settings API.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[Tests for the plugin settings API.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[Tests for the plugin user settings API.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[Tests for the test template functions.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_part.py
+- [[Tests for the user profile API endpoints.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/tests.py
+- [[Tests for the user settings API.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[Tests for the various OPTIONS endpoints in the part API.      Ensure that the]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[Tests for uploading images to be used in markdown notes.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[Tests for various api endpoints.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_api.py
+- [[Tests interaction with states.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[Tests settings validators.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/setting/tests.py
+- [[Tests that token checks work.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[Tests the plugin API endpoints.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/test_api.py
+- [[Tests to ensure that the relational category tree functions correctly.      Load]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_category.py
+- [[Tests to ensure that the user-configurable default values work as expected.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_part.py
+- [[Tests to ensure that the various aggregation annotations are working correctly.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[Text for supplied status code.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/generic/states/states.py
+- [[The default group should be overridden if SSO groups are available.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_auth.py
+- [[This class is a dummy class to test the ClassProviderMixin.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[This method is only used that the super() call of RegistrationMixin does not fai]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_auth.py
+- [[Top-level URL should redirect to index page.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_views.py
+- [[TreeFixtureTest]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[True if there are any children under this item.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/models.py
+- [[URLCompatibilityTest]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[Unit test class for testing the Parameter model.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_param.py
+- [[Unit test for Parameter API endpoints.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[Unit test for StockItem tree structure.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/tests.py
+- [[Unit test for legacy URL compatibility.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[Unit test for the PartRequirements API endpoint.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[Unit test for the Part variant tree structure.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_part.py
+- [[Unit test for the StockLocation tree structure.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/tests.py
+- [[Unit test for the TestTemplate class.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_part.py
+- [[Unit test for the exporter plugins.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/exporter/test_exporter.py
+- [[Unit test for time formatting functionality.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[Unit testing class for the stock item TestReport model.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/tests.py
+- [[Unit testing for our MPTT fixture data.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[Unit testing for the company app API functions.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/test_api.py
+- [[Unit tests for large serial numbers which exceed integer encoding.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/tests.py
+- [[Unit tests for API filters related to template parts.          Test         - v]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[Unit tests for Barcode endpoints.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/barcodes/test_barcode.py
+- [[Unit tests for Part stale stock notification functionality.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_notification_stale.py
+- [[Unit tests for action plugins.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/test_sample.py
+- [[Unit tests for currency  exchange rate functionality.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[Unit tests for custom string formatting functionality.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[Unit tests for filtering parts by parameter values.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_param.py
+- [[Unit tests for global search endpoint.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_api.py
+- [[Unit tests for instance name.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[Unit tests for label templates.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/tests.py
+- [[Unit tests for locate_sample sample plugins._1]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/supplier/test_supplier_sample.py
+- [[Unit tests for maintenance mode.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[Unit tests for merging stock items via the API.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[Unit tests for parameter validation.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_param.py
+- [[Unit tests for part 'subscription'.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_part.py
+- [[Unit tests for price breaks.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/tests.py
+- [[Unit tests for scheduled tasks._1]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_tasks.py
+- [[Unit tests for settings.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[Unit tests for stale stock notification functionality.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_notification_stale.py
+- [[Unit tests for status functions.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[Unit tests for stock location tree structure (MPTT).          Ensure that the MP]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/tests.py
+- [[Unit tests for task management.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_tasks.py
+- [[Unit tests for tasks.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_tasks.py
+- [[Unit tests for the 'company_image' tag.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/test_tags.py
+- [[Unit tests for the 'internal_link' tag.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/test_tags.py
+- [[Unit tests for the 'locate' plugin mixin class.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/locate/test_locate.py
+- [[Unit tests for the 'logo_image' tag.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/test_tags.py
+- [[Unit tests for the 'part_image' tag.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/test_tags.py
+- [[Unit tests for the 'variant_stock' annotation, which provides a stock count for]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[Unit tests for the Attachment API endpoint.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[Unit tests for the BomItem API.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[Unit tests for the BulkDelete endpoints.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_api.py
+- [[Unit tests for the Contact model.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/tests.py
+- [[Unit tests for the ContentType API.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[Unit tests for the CustomUnit API.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[Unit tests for the Icons API.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[Unit tests for the Part List API endpoint.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[Unit tests for the PartCategory API.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[Unit tests for the PartCategory model.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_category.py
+- [[Unit tests for the PartInternalPrice API endpoints.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[Unit tests for the PartRelated model.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_part.py
+- [[Unit tests for the SampleValidatorPlugin class.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/test_validation_sample.py
+- [[Unit tests for the SupplierPart pack_quantity field.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/test_supplier_parts.py
+- [[Unit tests for the background task API endpoints.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[Unit tests for the barcode endpoint for allocating items to a sales order.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/barcodes/test_barcode.py
+- [[Unit tests for the barcode template tags.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/test_tags.py
+- [[Unit tests for the custom status model.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[Unit tests for the custom validators.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[Unit tests for the error report API.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[Unit tests for the label printing mixin.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/label/test_label_mixin.py
+- [[Unit tests for the main web views.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_views.py
+- [[Unit tests for the metadata field._6]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_param.py
+- [[Unit tests for the metadata field._7]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_part.py
+- [[Unit tests for the metadata field._3]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/tests.py
+- [[Unit tests for the metadata field._4]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/tests.py
+- [[Unit tests for the metadata field._2]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/tests.py
+- [[Unit tests for the metadata field._8]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/tests.py
+- [[Unit tests for the models in the 'company' app.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/tests.py
+- [[Unit tests for the part category tree structure (MPTT).          Ensure that the]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_category.py
+- [[Unit tests for the report template tags.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/test_tags.py
+- [[Unit tests for the stock assignment API endpoint, where stock items are manually]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[Unit tests for the various metadata endpoints of API.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[Unit tests for version number functions.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[Unit tests specific to the SupplierPart model.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/test_supplier_parts.py
+- [[Units tests for the ProjectCodes model and API endpoints.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[Update some of the part values and re-test.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_part.py
+- [[UserMixin]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/unit_test.py
+- [[UserSettingsApiTest]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[ValidatorTest]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[ValidatorsTest]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[VariantTest]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/tests.py
+- [[VariantTreeTest]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_part.py
+- [[Various test for the str2bool template tag.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_part.py
+- [[Various unit tests for Part Parameters.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_param.py
+- [[Verify that only selected elements are removed from required list.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[Warning codes that reflect to the status of the instance.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/settings.py
+- [[WebhookEndpoint]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/models.py
+- [[WebhookMessage]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/models.py
+- [[WebhookMessageTests]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[WebhookView]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/api.py
+- [[admin.py_8]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/admin.py
+- [[barcode()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/models.py
+- [[clean_settings.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/management/commands/clean_settings.py
+- [[clear()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/migrations/0019_auto_20200413_0642.py
+- [[export_settings_definitions.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/management/commands/export_settings_definitions.py
+- [[get_is_builtin()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/helpers_mixin.py
+- [[get_provider_file()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/helpers_mixin.py
+- [[get_provider_plugin()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/helpers_mixin.py
+- [[get_result()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_tasks.py
+- [[get_shared_class_instance_state_mixin()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/helpers_mixin.py
+- [[helpers_mixin.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/helpers_mixin.py
+- [[locate_sample.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/locate/locate_sample.py
+- [[migrate_icons.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/management/commands/migrate_icons.py
+- [[rReturn a 'short' code for the model type.          This is used to generate]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/models.py
+- [[rebuild_models.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/management/commands/rebuild_models.py
+- [[rebuild_thumbnails.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/management/commands/rebuild_thumbnails.py
+- [[setUpTestData()_4]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/tests.py
+- [[test_api.py_2]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/test_api.py
+- [[test_api.py_5]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_api.py
+- [[test_api.py_6]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_api.py
+- [[test_auth.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_auth.py
+- [[test_auth_view()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[test_barcode.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/barcodes/test_barcode.py
+- [[test_category.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_category.py
+- [[test_core_notifications.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/integration/test_core_notifications.py
+- [[test_cors_regex()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[test_exporter.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/builtin/exporter/test_exporter.py
+- [[test_label_mixin.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/label/test_label_mixin.py
+- [[test_locate.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/locate/test_locate.py
+- [[test_param.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_param.py
+- [[test_part.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/test_part.py
+- [[test_sample.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/integration/test_sample.py
+- [[test_supplier_parts.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/test_supplier_parts.py
+- [[test_supplier_sample.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/samples/supplier/test_supplier_sample.py
+- [[test_tasks.py_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/test_tasks.py
+- [[test_views.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/test_views.py
+- [[test_views.py_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/test_views.py
+- [[tests.py_5]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/setting/tests.py
+- [[tests.py_4]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/tests.py
+- [[tests.py_12]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/company/tests.py
+- [[tests.py_8]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/generic/states/tests.py
+- [[tests.py_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/importer/tests.py
+- [[tests.py_11]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/tests.py
+- [[tests.py_6]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/tests.py
+- [[tests.py_3]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/base/ui/tests.py
+- [[tests.py_9]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/tests.py
+- [[tests.py_10]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/stock/tests.py
+- [[tests.py_7]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/users/tests.py
+
+## Live Query (requires Dataview plugin)
+
+```dataview
+TABLE source_file, type FROM #community/Core_Models_&_Admin
+SORT file.name ASC
+```
+
+## Connections to other communities
+- 2567 edges to [[_COMMUNITY_Community 3]]
+- 2539 edges to [[_COMMUNITY_Community 2]]
+- 1419 edges to [[_COMMUNITY_Community 5]]
+- 723 edges to [[_COMMUNITY_Community 4]]
+- 667 edges to [[_COMMUNITY_Community 1]]
+- 621 edges to [[_COMMUNITY_Community 6]]
+- 315 edges to [[_COMMUNITY_Inventory & Order Logic]]
+- 134 edges to [[_COMMUNITY_Community 10]]
+- 84 edges to [[_COMMUNITY_Community 13]]
+- 78 edges to [[_COMMUNITY_Community 17]]
+- 78 edges to [[_COMMUNITY_Utilities & Auth]]
+- 61 edges to [[_COMMUNITY_Community 14]]
+- 53 edges to [[_COMMUNITY_Community 16]]
+- 46 edges to [[_COMMUNITY_Community 19]]
+- 43 edges to [[_COMMUNITY_Community 21]]
+- 37 edges to [[_COMMUNITY_Community 15]]
+- 34 edges to [[_COMMUNITY_Community 12]]
+- 27 edges to [[_COMMUNITY_Community 11]]
+- 19 edges to [[_COMMUNITY_Community 7]]
+- 18 edges to [[_COMMUNITY_Community 22]]
+- 16 edges to [[_COMMUNITY_Community 20]]
+- 13 edges to [[_COMMUNITY_Community 26]]
+- 12 edges to [[_COMMUNITY_Community 23]]
+- 8 edges to [[_COMMUNITY_Community 28]]
+- 6 edges to [[_COMMUNITY_Community 31]]
+- 5 edges to [[_COMMUNITY_Community 37]]
+- 2 edges to [[_COMMUNITY_Community 18]]
+- 2 edges to [[_COMMUNITY_Community 42]]
+- 1 edge to [[_COMMUNITY_Community 44]]
+- 1 edge to [[_COMMUNITY_Community 25]]
+- 1 edge to [[_COMMUNITY_Community 53]]
+- 1 edge to [[_COMMUNITY_Community 38]]
+- 1 edge to [[_COMMUNITY_Community 43]]
+- 1 edge to [[_COMMUNITY_Community 39]]
+- 1 edge to [[_COMMUNITY_Community 40]]
+- 1 edge to [[_COMMUNITY_Community 41]]
+
+## Top bridge nodes
+- [[Part]] - degree 1861, connects to 17 communities
+- [[StockItem]] - degree 1215, connects to 15 communities
+- [[StockLocation]] - degree 1052, connects to 10 communities
+- [[InvenTreeSetting]] - degree 971, connects to 10 communities
+- [[InvenTreeAPITestCase_1]] - degree 905, connects to 10 communities

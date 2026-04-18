@@ -1,0 +1,17 @@
+---
+source_file: "inventree/src/backend/InvenTree/stock/migrations/0063_auto_20210511_2343.py"
+type: "code"
+community: "Community 511"
+location: "L6"
+tags:
+  - graphify/code
+  - graphify/EXTRACTED
+  - community/Community_511
+---
+
+# Migration
+
+## Connections
+- [[0063_auto_20210511_2343.py]] - `contains` [EXTRACTED]
+
+#graphify/code #graphify/EXTRACTED #community/Community_511

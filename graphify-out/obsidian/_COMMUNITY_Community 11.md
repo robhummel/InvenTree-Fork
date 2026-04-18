@@ -1,0 +1,296 @@
+---
+type: community
+cohesion: 0.01
+members: 253
+---
+
+# Community 11
+
+**Cohesion:** 0.01 - loosely connected
+**Members:** 253 nodes
+
+## Members
+- [[.__init__()_45]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/generic/states/fields.py
+- [[.__init__()_65]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/fields.py
+- [[.__init__()_47]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/generic/states/fields.py
+- [[.__init__()_46]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/generic/states/fields.py
+- [[.__init__()_63]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/fields.py
+- [[.__init__()_64]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/fields.py
+- [[.__init__()_66]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/fields.py
+- [[.__init__()_67]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/fields.py
+- [[.__init__()_61]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/fields.py
+- [[.__init__()_62]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/fields.py
+- [[.__init__()_48]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/generic/states/validators.py
+- [[.__init_subclass__()_2]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/fields.py
+- [[.add_field()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/generic/states/fields.py
+- [[.clean()_12]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/generic/states/fields.py
+- [[.contribute_to_class()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/generic/states/fields.py
+- [[.deconstruct()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/generic/states/fields.py
+- [[.formfield()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/fields.py
+- [[.formfield()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/fields.py
+- [[.formfield_for_dbfield()_2]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/admin.py
+- [[.formfield_for_dbfield()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/importer/admin.py
+- [[.get_readonly_fields()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/importer/admin.py
+- [[.get_readonly_fields()_2]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/importer/admin.py
+- [[.get_readonly_fields()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/importer/admin.py
+- [[.get_readonly_fields()_5]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/admin.py
+- [[.get_readonly_fields()_3]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/admin.py
+- [[.get_readonly_fields()_4]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/admin.py
+- [[.has_add_permission()_3]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/admin.py
+- [[.has_add_permission()_2]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/admin.py
+- [[.has_add_permission()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/admin.py
+- [[.has_add_permission()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/admin.py
+- [[.prepare_value()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/fields.py
+- [[.prepare_value()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/fields.py
+- [[.to_internal_value()_2]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/generic/states/fields.py
+- [[.to_python()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/fields.py
+- [[.to_python()_2]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/fields.py
+- [[.to_python()_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/fields.py
+- [[.to_representation()_4]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/generic/states/fields.py
+- [[Activate a set of plugins.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/admin.py
+- [[Adds custom_key_field to the model class to save additional status information.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/generic/states/fields.py
+- [[Admin class for PartPricing model.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/admin.py
+- [[Admin class for PartStocktake model.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/admin.py
+- [[Admin class for ReturnOrderLine model.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/admin.py
+- [[Admin class for the BomItem model.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/admin.py
+- [[Admin class for the Part model.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/admin.py
+- [[Admin class for the PartCategory model.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/admin.py
+- [[Admin class for the PartInternalPriceBreak model.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/admin.py
+- [[Admin class for the PartSellPriceBreak model.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/admin.py
+- [[Admin class for the PartTestTemplate model.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/admin.py
+- [[Admin class for the PurchaseOrderExtraLine model.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/admin.py
+- [[Admin class for the PurchaseOrderLine model.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/admin.py
+- [[Admin class for the ReturnOrder model.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/admin.py
+- [[Admin class for the ReturnOrderExtraLine model.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/admin.py
+- [[Admin class for the SalesOrderAllocation model.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/admin.py
+- [[Admin class for the SalesOrderExtraLine model.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/admin.py
+- [[Admin class for the SalesOrderShipment model.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/admin.py
+- [[Admin interface for Attachment objects.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/admin.py
+- [[Admin interface for BarcodeScanResult objects.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/admin.py
+- [[Admin interface for SelectionList objects.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/admin.py
+- [[Admin interface for the DataImportRow model.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/importer/admin.py
+- [[Admin interface for the Rate class.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/admin.py
+- [[Admin settings for InvenTreeUserSetting.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/admin.py
+- [[Admin settings for NewsFeedEntry.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/admin.py
+- [[Admin settings for NotificationEntry.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/admin.py
+- [[Admin settings for NotificationMessage.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/admin.py
+- [[Admin settings for ProjectCode.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/admin.py
+- [[Admin settings for Webhook.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/admin.py
+- [[AllowedURLValidator]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/validators.py
+- [[AttachmentAdmin]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/admin.py
+- [[BarcodeScanResultAdmin]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/admin.py
+- [[BaseValidator]] - code
+- [[BomItemAdmin]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/admin.py
+- [[Check that a given code is a valid currency code.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/validators.py
+- [[Class to manage PartRelated objects.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/admin.py
+- [[Configure default initial values for this field.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/fields.py
+- [[Convert query parameters into a dictionary of output flags with boolean values.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/fields.py
+- [[Convert value to python type.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/fields.py
+- [[Convert value to python type._1]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/fields.py
+- [[Convert value to python type._2]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/fields.py
+- [[Custom Choice Field that returns value of status if empty.      This is not inte]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/generic/states/fields.py
+- [[Custom Choice Field.      This is not intended to be used directly.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/generic/states/fields.py
+- [[Custom Field that automatically rounds inputs.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/fields.py
+- [[Custom FormField that automatically rounds inputs.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/fields.py
+- [[Custom MoneyField for clean migrations while using dynamic currency settings._1]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/fields.py
+- [[Custom MoneyField for clean migrations while using dynamic currency settings.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/fields.py
+- [[Custom URL field which has custom scheme validators.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/fields.py
+- [[Custom URL validator to allow for custom schemes.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/validators.py
+- [[Custom admin with restricted id fields._1]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/admin.py
+- [[Custom admin with restricted id fields.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/admin.py
+- [[Custom date-picker field.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/fields.py
+- [[Custom field used to detect custom extenteded fields.      This is not intended]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/generic/states/fields.py
+- [[Custom field validators for InvenTree.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/validators.py
+- [[Custom fields used in InvenTree.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/fields.py
+- [[Custom implementation of a 'notes' field.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/fields.py
+- [[Custom model field for extendable status codes.      Adds a secondary _custom_k]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/generic/states/fields.py
+- [[CustomChoiceField]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/generic/states/fields.py
+- [[CustomRateAdmin]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/admin.py
+- [[CustomStatusCodeValidator]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/generic/states/validators.py
+- [[DataImportColumnMapAdmin]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/importer/admin.py
+- [[DataImportRowAdmin]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/importer/admin.py
+- [[DataImportSessionAdmin]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/importer/admin.py
+- [[DataOutputAdmin]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/admin.py
+- [[DatePickerFormField]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/fields.py
+- [[Deactivate a set of plugins.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/admin.py
+- [[Deconstruct the field for migrations.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/generic/states/fields.py
+- [[Disable the 'add' permission for Rate objects.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/admin.py
+- [[Ensure custom state fields are not served empty.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/generic/states/fields.py
+- [[Ensure that the provided attachment model is valid.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/validators.py
+- [[Ensure that the provided model type is valid.      The provided value must map t]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/validators.py
+- [[Ensure that the provided value is uppercase.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/validators.py
+- [[Ensure that the selected model type is valid.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/validators.py
+- [[Ensure that the value is not an empty string.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/generic/states/fields.py
+- [[Ensure the custom field is updated if the leader was changed.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/generic/states/fields.py
+- [[ExtraCustomChoiceField]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/generic/states/fields.py
+- [[ExtraInvenTreeCustomStatusModelField]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/generic/states/fields.py
+- [[Gather all custom fields on the serializer.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/generic/states/fields.py
+- [[GeneralExtraLineAdmin]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/admin.py
+- [[GeneralExtraLineMeta]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/admin.py
+- [[Holds all available output options for a view.      This class is responsible fo]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/fields.py
+- [[If update, don't allow changes on machine_type and driver.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/admin.py
+- [[Initialization method for InvenTreeURLField.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/fields.py
+- [[Initialize the field._1]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/generic/states/fields.py
+- [[Initialize the field._2]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/generic/states/fields.py
+- [[Initialize the field.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/generic/states/fields.py
+- [[Initialize the output option.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/fields.py
+- [[Inline admin class for MachineSetting.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/admin.py
+- [[Inline admin class for PluginSetting.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/admin.py
+- [[InvenTreeMoneyField]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/fields.py
+- [[MachineConfigAdmin]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/admin.py
+- [[MachineSettingInline]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/admin.py
+- [[Map the choice (that might be a custom one) back to the logical value.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/generic/states/fields.py
+- [[MoneyField]] - code
+- [[NewsFeedEntryAdmin]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/admin.py
+- [[NotificationEntryAdmin]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/admin.py
+- [[NotificationMessageAdmin]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/admin.py
+- [[Override default validation behavior for this field type.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/fields.py
+- [[Override form class to use own function.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/fields.py
+- [[Override initial values with the real info from database.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/fields.py
+- [[Override the 'prepare_value' method, to remove trailing zeros when displaying.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/fields.py
+- [[Override the 'prepare_value' method, to remove trailing zeros when displaying._1]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/fields.py
+- [[Overwrite default values and validators.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/fields.py
+- [[ParameterAdmin]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/admin.py
+- [[ParameterTemplateAdmin]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/admin.py
+- [[PartAdmin]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/admin.py
+- [[PartCategoryAdmin]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/admin.py
+- [[PartInternalPriceBreakAdmin]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/admin.py
+- [[PartPricingAdmin]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/admin.py
+- [[PartRelatedAdmin]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/admin.py
+- [[PartSellPriceBreakAdmin]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/admin.py
+- [[PartStocktakeAdmin]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/admin.py
+- [[PartTestTemplateAdmin]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/admin.py
+- [[Placeholder for legacy function used in migrations.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/validators.py
+- [[PluginConfigAdmin]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/admin.py
+- [[PluginSettingInline]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/admin.py
+- [[PluginUserSettingInline]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/admin.py
+- [[Prevent the 'key' field being edited once the setting is created.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/admin.py
+- [[Prevent the 'key' field being edited once the setting is created._1]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/admin.py
+- [[ProjectCodeAdmin]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/admin.py
+- [[Provide custom choices for 'model_type' field.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/admin.py
+- [[PurchaseOrderAdmin]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/admin.py
+- [[PurchaseOrderExtraLineAdmin]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/admin.py
+- [[PurchaseOrderLineItemAdmin]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/admin.py
+- [[PurchaseOrderLineItemInlineAdmin]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/admin.py
+- [[RateAdmin]] - code
+- [[Represents an available output option with description, flag name, and default v]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/fields.py
+- [[Return a Field instance for this field.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/fields.py
+- [[Return a list of options for models which support attachments.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/validators.py
+- [[Return a list of options for models which support parameters.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/validators.py
+- [[Return a list of valid parameter model choices.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/validators.py
+- [[Return the field information for the given item.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/generic/states/fields.py
+- [[Return the list of allowable URL schemes.      In addition to the default scheme]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/validators.py
+- [[Return the readonly fields for the admin interface._1]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/importer/admin.py
+- [[Return the readonly fields for the admin interface.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/importer/admin.py
+- [[Return the value of the status if it is empty.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/generic/states/fields.py
+- [[ReturnOrdeerExtraLineAdmin]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/admin.py
+- [[ReturnOrderAdmin]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/admin.py
+- [[ReturnOrderLineItemAdmin]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/admin.py
+- [[Returns the database settings for MoneyFields.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/fields.py
+- [[Round value to the specified number of places.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/fields.py
+- [[RoundingDecimalFormField]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/fields.py
+- [[SalesOrderAdmin]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/admin.py
+- [[SalesOrderAllocationAdmin]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/admin.py
+- [[SalesOrderExtraLineAdmin]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/admin.py
+- [[SalesOrderLineItemAdmin]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/admin.py
+- [[SalesOrderLineItemInlineAdmin]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/admin.py
+- [[SalesOrderShipmentAdmin]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/admin.py
+- [[SelectionListAdmin]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/admin.py
+- [[SelectionListEntryInlineAdmin]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/admin.py
+- [[Set up custom values.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/fields.py
+- [[SettingsAdmin]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/admin.py
+- [[The passed value must be a valid variable identifier string.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/validators.py
+- [[The plugin settings should not be meddled with manually.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/admin.py
+- [[The plugin user settings should not be meddled with manually.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/admin.py
+- [[Use custom field for custom status model.          This is required because of D]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/generic/states/fields.py
+- [[UserSettingsAdmin]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/admin.py
+- [[Validate that the given model type is supported for importing.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/importer/validators.py
+- [[Validate that the provided value is a valid dict.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/importer/validators.py
+- [[Validate the 'reference' field of a PurchaseOrder.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/validators.py
+- [[Validate the 'reference' field of a SalesOrder.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/validators.py
+- [[Validate the email domains setting.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/validators.py
+- [[Validate the provided data file.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/importer/validators.py
+- [[Validates that subclass defines OPTIONS attribute with correct type.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/fields.py
+- [[Validator for PRICING_DECIMAL_PLACES_MAX setting.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/validators.py
+- [[Validator for PRICING_DECIMAL_PLACES_MIN setting.]] - rationale - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/validators.py
+- [[WebhookAdmin]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/admin.py
+- [[admin.py_3]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/admin.py
+- [[admin.py_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/importer/admin.py
+- [[admin.py_9]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/admin.py
+- [[admin.py_4]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/machine/admin.py
+- [[admin.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/admin.py
+- [[admin.py_7]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/part/admin.py
+- [[admin.py_2]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/admin.py
+- [[allowable_url_schemes()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/validators.py
+- [[api_defaults()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/models.py
+- [[attachment_model_options()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/validators.py
+- [[fields.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/generic/states/fields.py
+- [[fields.py_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/fields.py
+- [[generate_next_purchase_order_reference()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/validators.py
+- [[generate_next_return_order_reference()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/validators.py
+- [[generate_next_sales_order_reference()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/validators.py
+- [[money_kwargs()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/fields.py
+- [[parameter_model_options()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/validators.py
+- [[parameter_model_types()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/validators.py
+- [[parameter_template_model_options()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/validators.py
+- [[plugin_activate()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/admin.py
+- [[plugin_deactivate()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/admin.py
+- [[plugin_update()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/plugin/admin.py
+- [[round_decimal()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/fields.py
+- [[validate_attachment_model_type()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/validators.py
+- [[validate_currency_code()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/validators.py
+- [[validate_data_file()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/importer/validators.py
+- [[validate_decimal_places_max()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/validators.py
+- [[validate_decimal_places_min()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/validators.py
+- [[validate_email_domains()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/validators.py
+- [[validate_field_defaults()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/importer/validators.py
+- [[validate_importer_model_type()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/importer/validators.py
+- [[validate_notes_model_type()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/validators.py
+- [[validate_purchase_order_reference()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/validators.py
+- [[validate_purchase_order_reference_pattern()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/validators.py
+- [[validate_reference_pattern()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/models.py
+- [[validate_report_model_type()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/validators.py
+- [[validate_return_order_reference()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/validators.py
+- [[validate_return_order_reference_pattern()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/validators.py
+- [[validate_sales_order_reference()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/validators.py
+- [[validate_sales_order_reference_pattern()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/validators.py
+- [[validate_tree_name()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/validators.py
+- [[validate_uppercase()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/validators.py
+- [[validate_variable_string()]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/validators.py
+- [[validators.py_2]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/common/validators.py
+- [[validators.py_3]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/generic/states/validators.py
+- [[validators.py_1]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/importer/validators.py
+- [[validators.py_5]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/InvenTree/validators.py
+- [[validators.py]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/order/validators.py
+- [[validators.py_4]] - code - /Users/Rob/Services/inventree-source/inventree/src/backend/InvenTree/report/validators.py
+
+## Live Query (requires Dataview plugin)
+
+```dataview
+TABLE source_file, type FROM #community/Community_11
+SORT file.name ASC
+```
+
+## Connections to other communities
+- 41 edges to [[_COMMUNITY_Community 2]]
+- 28 edges to [[_COMMUNITY_Community 3]]
+- 27 edges to [[_COMMUNITY_Core Models & Admin]]
+- 16 edges to [[_COMMUNITY_Utilities & Auth]]
+- 16 edges to [[_COMMUNITY_Community 10]]
+- 13 edges to [[_COMMUNITY_Community 4]]
+- 9 edges to [[_COMMUNITY_Community 5]]
+- 5 edges to [[_COMMUNITY_Community 6]]
+- 3 edges to [[_COMMUNITY_Community 12]]
+- 2 edges to [[_COMMUNITY_Community 1]]
+- 2 edges to [[_COMMUNITY_Community 23]]
+- 1 edge to [[_COMMUNITY_Community 15]]
+- 1 edge to [[_COMMUNITY_Inventory & Order Logic]]
+- 1 edge to [[_COMMUNITY_Community 25]]
+- 1 edge to [[_COMMUNITY_Community 18]]
+
+## Top bridge nodes
+- [[AllowedURLValidator]] - degree 44, connects to 4 communities
+- [[fields.py_1]] - degree 15, connects to 4 communities
+- [[CustomStatusCodeValidator]] - degree 32, connects to 3 communities
+- [[.add_field()]] - degree 8, connects to 3 communities
+- [[fields.py]] - degree 7, connects to 3 communities

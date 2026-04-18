@@ -1,0 +1,1239 @@
+---
+type: community
+members: 1203
+---
+
+# System Configuration & Settings
+
+**Members:** 1203 nodes
+
+## Members
+- [[TODO Implement this]] - rationale - inventree/src/backend/InvenTree/plugin/base/barcodes/mixins.py
+- [[TODO Perhaps control this with a global setting]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[.__init__()_62]] - code - inventree/src/backend/InvenTree/InvenTree/fields.py
+- [[.__init__()_79]] - code - inventree/src/backend/InvenTree/company/models.py
+- [[.__init__()_11]] - code - inventree/src/backend/InvenTree/plugin/samples/supplier/supplier_sample.py
+- [[.__str__()_25]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[.__str__()_31]] - code - inventree/src/backend/InvenTree/company/models.py
+- [[.__str__()_33]] - code - inventree/src/backend/InvenTree/company/models.py
+- [[.__str__()_23]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[.__str__()_22]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[.__str__()_26]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[.__str__()_24]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[.__str__()]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[.__str__()_2]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[.__str__()_3]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[.__str__()_1]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[.__str__()_29]] - code - inventree/src/backend/InvenTree/stock/models.py
+- [[.__str__()_27]] - code - inventree/src/backend/InvenTree/stock/models.py
+- [[.__str__()_34]] - code - inventree/src/backend/InvenTree/company/models.py
+- [[.__str__()_35]] - code - inventree/src/backend/InvenTree/company/models.py
+- [[._refresh()]] - code - inventree/src/backend/InvenTree/order/tests.py
+- [[.api_instance_filters()]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[.api_instance_filters()_1]] - code - inventree/src/backend/InvenTree/stock/models.py
+- [[.api_instance_filters()_3]] - code - inventree/src/backend/InvenTree/company/models.py
+- [[.auto_issue_build_orders()]] - code - inventree/src/backend/InvenTree/plugin/builtin/events/auto_issue_orders.py
+- [[.auto_issue_orders()]] - code - inventree/src/backend/InvenTree/plugin/builtin/events/auto_issue_orders.py
+- [[.auto_issue_purchase_orders()]] - code - inventree/src/backend/InvenTree/plugin/builtin/events/auto_issue_orders.py
+- [[.auto_issue_return_orders()]] - code - inventree/src/backend/InvenTree/plugin/builtin/events/auto_issue_orders.py
+- [[.auto_issue_sales_orders()]] - code - inventree/src/backend/InvenTree/plugin/builtin/events/auto_issue_orders.py
+- [[.check_complete()]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[.check_locked()]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[.check_parameter_delete()]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[.check_parameter_save()]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[.check_save()]] - code - inventree/src/backend/InvenTree/common/models.py
+- [[.clean()]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[.clean()_1]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[.clean()_5]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[.clean()_2]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[.clean()_3]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[.clean_line_item()]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[.clean_line_item()_1]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[.clean_line_item()_3]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[.clean_line_item()_2]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[.contribute_to_class()]] - code - inventree/src/backend/InvenTree/generic/states/fields.py
+- [[.delete()]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[.formfield()]] - code - inventree/src/backend/InvenTree/InvenTree/fields.py
+- [[.formfield()_1]] - code - inventree/src/backend/InvenTree/InvenTree/fields.py
+- [[.generate()_2]] - code - inventree/src/backend/InvenTree/plugin/base/barcodes/mixins.py
+- [[.get_absolute_url()_8]] - code - inventree/src/backend/InvenTree/company/models.py
+- [[.get_absolute_url()_4]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[.get_absolute_url()_3]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[.get_absolute_url()]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[.get_absolute_url()_2]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[.get_absolute_url()_1]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[.get_absolute_url()_6]] - code - inventree/src/backend/InvenTree/stock/models.py
+- [[.get_absolute_url()_7]] - code - inventree/src/backend/InvenTree/stock/models.py
+- [[.get_absolute_url()_5]] - code - inventree/src/backend/InvenTree/stock/models.py
+- [[.get_base_part()]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[.get_destination()]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[.get_import_data()]] - code - inventree/src/backend/InvenTree/plugin/samples/supplier/supplier_sample.py
+- [[.get_item_owner()]] - code - inventree/src/backend/InvenTree/stock/models.py
+- [[.get_items()_1]] - code - inventree/src/backend/InvenTree/stock/models.py
+- [[.get_location()]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[.get_location_owner()]] - code - inventree/src/backend/InvenTree/stock/models.py
+- [[.get_parameter_templates()]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[.get_parameters()]] - code - inventree/src/backend/InvenTree/plugin/samples/supplier/supplier_sample.py
+- [[.get_po()]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[.get_pricing_data()]] - code - inventree/src/backend/InvenTree/plugin/samples/supplier/supplier_sample.py
+- [[.get_queryset()_36]] - code - inventree/src/backend/InvenTree/company/api.py
+- [[.get_queryset()_37]] - code - inventree/src/backend/InvenTree/company/api.py
+- [[.get_queryset()_38]] - code - inventree/src/backend/InvenTree/company/api.py
+- [[.get_stock_items()]] - code - inventree/src/backend/InvenTree/stock/models.py
+- [[.get_suppliers()]] - code - inventree/src/backend/InvenTree/plugin/samples/supplier/supplier_sample.py
+- [[.hasRequiredTests()]] - code - inventree/src/backend/InvenTree/stock/models.py
+- [[.import_manufacturer_part()]] - code - inventree/src/backend/InvenTree/plugin/samples/supplier/supplier_sample.py
+- [[.import_supplier_part()]] - code - inventree/src/backend/InvenTree/plugin/samples/supplier/supplier_sample.py
+- [[.is_completed()_1]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[.is_delivered()]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[.is_starred_by()]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[.is_stock_item_valid()]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[.issue_func()]] - code - inventree/src/backend/InvenTree/plugin/builtin/events/auto_issue_orders.py
+- [[.label()]] - code - inventree/src/backend/InvenTree/users/models.py
+- [[.name()]] - code - inventree/src/backend/InvenTree/users/models.py
+- [[.on_order()]] - code - inventree/src/backend/InvenTree/company/models.py
+- [[.open_orders()]] - code - inventree/src/backend/InvenTree/company/models.py
+- [[.place_order()]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[.prepare_value()]] - code - inventree/src/backend/InvenTree/InvenTree/fields.py
+- [[.prepare_value()_1]] - code - inventree/src/backend/InvenTree/InvenTree/fields.py
+- [[.report_context()]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[.report_context()_1]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[.report_context()_4]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[.report_context()_2]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[.report_context()_3]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[.report_context()_7]] - code - inventree/src/backend/InvenTree/stock/models.py
+- [[.save()_30]] - code - inventree/src/backend/InvenTree/common/models.py
+- [[.save()]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[.scan()_2]] - code - inventree/src/backend/InvenTree/plugin/base/barcodes/mixins.py
+- [[.setUp()_41]] - code - inventree/src/backend/InvenTree/company/tests.py
+- [[.setUp()_40]] - code - inventree/src/backend/InvenTree/company/tests.py
+- [[.test_company_create()]] - code - inventree/src/backend/InvenTree/company/test_api.py
+- [[.test_company_list()_1]] - code - inventree/src/backend/InvenTree/company/test_api.py
+- [[.test_company_model()]] - code - inventree/src/backend/InvenTree/company/tests.py
+- [[.test_company_parameters()]] - code - inventree/src/backend/InvenTree/company/test_api.py
+- [[.test_company_search()]] - code - inventree/src/backend/InvenTree/company/test_api.py
+- [[.test_create()_4]] - code - inventree/src/backend/InvenTree/company/tests.py
+- [[.test_currency_validation()]] - code - inventree/src/backend/InvenTree/company/tests.py
+- [[.test_detail()]] - code - inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_digikey_2_barcode()]] - code - inventree/src/backend/InvenTree/plugin/builtin/suppliers/test_supplier_barcodes.py
+- [[.test_digikey_3_barcode()]] - code - inventree/src/backend/InvenTree/plugin/builtin/suppliers/test_supplier_barcodes.py
+- [[.test_digikey_barcode()]] - code - inventree/src/backend/InvenTree/plugin/builtin/suppliers/test_supplier_barcodes.py
+- [[.test_download_line_items()]] - code - inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_download_xlsx()]] - code - inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_exists()]] - code - inventree/src/backend/InvenTree/company/tests.py
+- [[.test_exists()_1]] - code - inventree/src/backend/InvenTree/company/tests.py
+- [[.test_filter_list()]] - code - inventree/src/backend/InvenTree/company/test_api.py
+- [[.test_first_address_is_primary()]] - code - inventree/src/backend/InvenTree/company/tests.py
+- [[.test_list()_12]] - code - inventree/src/backend/InvenTree/company/test_api.py
+- [[.test_list()_11]] - code - inventree/src/backend/InvenTree/company/test_api.py
+- [[.test_manufacturer_part_search()]] - code - inventree/src/backend/InvenTree/company/test_api.py
+- [[.test_model_str()]] - code - inventree/src/backend/InvenTree/company/tests.py
+- [[.test_mouser_barcode()]] - code - inventree/src/backend/InvenTree/plugin/builtin/suppliers/test_supplier_barcodes.py
+- [[.test_on_order()]] - code - inventree/src/backend/InvenTree/order/tests.py
+- [[.test_output_options()_13]] - code - inventree/src/backend/InvenTree/company/test_api.py
+- [[.test_output_options()_6]] - code - inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_output_options()_4]] - code - inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_output_options()_3]] - code - inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_overdue()_3]] - code - inventree/src/backend/InvenTree/order/tests.py
+- [[.test_po_line_list()]] - code - inventree/src/backend/InvenTree/order/test_api.py
+- [[.test_quantity_pricing()]] - code - inventree/src/backend/InvenTree/company/tests.py
+- [[.test_rebuild_reference()_1]] - code - inventree/src/backend/InvenTree/order/tests.py
+- [[.test_shipment_delivery()]] - code - inventree/src/backend/InvenTree/order/test_sales_order.py
+- [[.test_supplier_part_create()]] - code - inventree/src/backend/InvenTree/company/test_api.py
+- [[.test_tme_barcode2d()]] - code - inventree/src/backend/InvenTree/plugin/builtin/suppliers/test_supplier_barcodes.py
+- [[.test_updated_at_changes_on_save()]] - code - inventree/src/backend/InvenTree/order/tests.py
+- [[.test_updated_at_on_extra_line_add()]] - code - inventree/src/backend/InvenTree/order/tests.py
+- [[.test_updated_at_on_extra_line_delete()]] - code - inventree/src/backend/InvenTree/order/tests.py
+- [[.test_updated_at_on_extra_line_update()]] - code - inventree/src/backend/InvenTree/order/tests.py
+- [[.test_updated_at_on_line_item_add()]] - code - inventree/src/backend/InvenTree/order/tests.py
+- [[.test_updated_at_on_line_item_delete()]] - code - inventree/src/backend/InvenTree/order/tests.py
+- [[.test_updated_at_on_line_item_update()]] - code - inventree/src/backend/InvenTree/order/tests.py
+- [[.test_updated_at_set_on_save()]] - code - inventree/src/backend/InvenTree/order/tests.py
+- [[.to_python()]] - code - inventree/src/backend/InvenTree/InvenTree/fields.py
+- [[.to_python()_2]] - code - inventree/src/backend/InvenTree/InvenTree/fields.py
+- [[.to_python()_1]] - code - inventree/src/backend/InvenTree/InvenTree/fields.py
+- [[.update_pricing()_1]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[.update_total_price()]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[.validate_shipment()_2]] - code - inventree/src/backend/InvenTree/plugin/base/barcodes/serializers.py
+- [[0028_auto_20200423_0956.py]] - code - inventree/src/backend/InvenTree/order/migrations/0028_auto_20200423_0956.py
+- [[0084_auto_20230321_1111.py]] - code - inventree/src/backend/InvenTree/order/migrations/0084_auto_20230321_1111.py
+- [[0087_alter_salesorder_status.py]] - code - inventree/src/backend/InvenTree/order/migrations/0087_alter_salesorder_status.py
+- [[2021-08-25.          For some (unknown) reason, prior to fix httpsgithub.com]] - rationale - inventree/src/backend/InvenTree/stock/test_api.py
+- [[A BomItem links a part to its component items.      A part can have a BOM (bill]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[A BomItemSubstitute provides a specification for alternative parts, which can be]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[A Company object represents an external company.      It may be a supplier or a]] - rationale - inventree/src/backend/InvenTree/company/models.py
+- [[A Contact represents a person who works at a particular company. A Company may h]] - rationale - inventree/src/backend/InvenTree/company/models.py
+- [[A ParameterTemplate provides a template for defining parameter values against va]] - rationale - inventree/src/backend/InvenTree/common/models.py
+- [[A PartCategoryParameterTemplate creates a unique relationship between a PartCate]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[A PartCategoryStar creates a subscription relationship between a User and a Part]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[A PartStar object creates a subscription relationship between a User and a Part.]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[A PartTestTemplate defines a 'template' for a test which is required to be run a]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[A PurchaseOrder can only be cancelled under the following circumstances.]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[A PurchaseOrder represents goods shipped inwards from an external supplier.]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[A ReturnOrder represents goods returned from a customer, e.g. an RMA or warranty]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[A SalesOrder represents a list of goods shipped outwards to a customer.]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[A StockItem object represents a quantity of physical instances of a part.      A]] - rationale - inventree/src/backend/InvenTree/stock/models.py
+- [[A StockItemTestResult records results of custom tests against individual StockIt]] - rationale - inventree/src/backend/InvenTree/stock/models.py
+- [[A generic implementation of an 'overdue' filter for the Model class.          It]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[A mixin class for adding image functionality to a model class.      The followin]] - rationale - inventree/src/backend/InvenTree/InvenTree/models.py
+- [[A query filter which can be used to filter StockItem objects which have expired.]] - rationale - inventree/src/backend/InvenTree/stock/models.py
+- [[A type of stock location like Warehouse, room, shelf, drawer.      Attributes]] - rationale - inventree/src/backend/InvenTree/stock/models.py
+- [[API endpoint for a single Address object.]] - rationale - inventree/src/backend/InvenTree/company/api.py
+- [[API endpoint for accessing a list of Company objects.      Provides two methods]] - rationale - inventree/src/backend/InvenTree/company/api.py
+- [[API endpoint for detail of a single Company object.]] - rationale - inventree/src/backend/InvenTree/company/api.py
+- [[API endpoint for detail view of SupplierPart object.      - GET Retrieve detail]] - rationale - inventree/src/backend/InvenTree/company/api.py
+- [[API endpoint for list view of Address model.]] - rationale - inventree/src/backend/InvenTree/company/api.py
+- [[API endpoint for list view of ManufacturerPart object.      - GET Return list o]] - rationale - inventree/src/backend/InvenTree/company/api.py
+- [[API endpoint for list view of SupplierPart object.      - GET Return list of Su]] - rationale - inventree/src/backend/InvenTree/company/api.py
+- [[Abstract Model for a single ExtraLine in a Order.      Attributes         price]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Abstract model for an order line item.      Attributes         quantity Number]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Accessor helper for Order base class._1]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Accessor helper for Order base class.]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Add a history tracking entry for this StockItem.          Args             entr]] - rationale - inventree/src/backend/InvenTree/stock/models.py
+- [[Add a specified quantity of stock to this item.          Arguments]] - rationale - inventree/src/backend/InvenTree/stock/models.py
+- [[Add context to serializer.]] - rationale - inventree/src/backend/InvenTree/InvenTree/mixins.py
+- [[Add two numbers (or number like values) together.      Arguments         x The]] - rationale - inventree/src/backend/InvenTree/report/templatetags/report.py
+- [[Adding a duplicate line item to a SalesOrder is accepted.]] - rationale - inventree/src/backend/InvenTree/order/test_sales_order.py
+- [[AddressAdmin]] - code - inventree/src/backend/InvenTree/company/admin.py
+- [[AddressDetail]] - code - inventree/src/backend/InvenTree/company/api.py
+- [[AddressList]] - code - inventree/src/backend/InvenTree/company/api.py
+- [[AddressSerializer]] - code - inventree/src/backend/InvenTree/company/serializers.py
+- [[AddressTest]] - code - inventree/src/backend/InvenTree/company/test_api.py
+- [[AddressTest_1]] - code - inventree/src/backend/InvenTree/company/tests.py
+- [[Admin class for ManufacturerPart model.]] - rationale - inventree/src/backend/InvenTree/company/admin.py
+- [[Admin class for the 'company' app.]] - rationale - inventree/src/backend/InvenTree/company/admin.py
+- [[Admin class for the Address model.]] - rationale - inventree/src/backend/InvenTree/company/admin.py
+- [[Admin class for the Company model.]] - rationale - inventree/src/backend/InvenTree/company/admin.py
+- [[Admin class for the SupplierPriceBreak model.]] - rationale - inventree/src/backend/InvenTree/company/admin.py
+- [[Allocate a StockItem to a customer.          This action can be called by the fo]] - rationale - inventree/src/backend/InvenTree/stock/models.py
+- [[Allocate a variant of the designated item.]] - rationale - inventree/src/backend/InvenTree/order/test_sales_order.py
+- [[Allocate line items then cancel the order.]] - rationale - inventree/src/backend/InvenTree/order/test_sales_order.py
+- [[Allocate line items, then ship the order.]] - rationale - inventree/src/backend/InvenTree/order/test_sales_order.py
+- [[Allocate stock to the order.]] - rationale - inventree/src/backend/InvenTree/order/test_sales_order.py
+- [[AllowedURLValidator]] - code - inventree/src/backend/InvenTree/InvenTree/validators.py
+- [[An InvenTreeSetting object with a user context.]] - rationale - inventree/src/backend/InvenTree/common/models.py
+- [[Annotate 'total stock' quantity against a queryset.      - This function calcula]] - rationale - inventree/src/backend/InvenTree/part/filters.py
+- [[Annotate the 'can_build' quantity for each BomItem in a queryset.      Arguments]] - rationale - inventree/src/backend/InvenTree/part/filters.py
+- [[Annotate the 'on order' quantity for each part in a queryset.      Sum the 'rema]] - rationale - inventree/src/backend/InvenTree/part/filters.py
+- [[Annotate the 'scheduled to build' quantity for each part in a queryset.      - T]] - rationale - inventree/src/backend/InvenTree/part/filters.py
+- [[Annotate the total quantity of each part allocated to build orders.      - This]] - rationale - inventree/src/backend/InvenTree/part/filters.py
+- [[Annotate the total quantity of each part allocated to sales orders.      - This]] - rationale - inventree/src/backend/InvenTree/part/filters.py
+- [[Annotate the total quantity of each part required for build orders.      - Only]] - rationale - inventree/src/backend/InvenTree/part/filters.py
+- [[Annotate the total quantity of each part required for sales orders.      - Only]] - rationale - inventree/src/backend/InvenTree/part/filters.py
+- [[Attempt to convert money value to default currency.          If a MissingRate er]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Attempt to receive an item against a PurchaseOrder via barcode scanning.]] - rationale - inventree/src/backend/InvenTree/plugin/base/barcodes/mixins.py
+- [[Attempt to transition to CANCELLED status._1]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Attempt to transition to CANCELLED status.]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Attempt to transition to COMPLETE status.]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Attempt to transition to IN_PROGRESS status.]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Attempt to transition to IN_PROGRESS status._1]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Attempt to transition to ON_HOLD status.]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Attempt to transition to ON_HOLD status._1]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Attempt to transition to PLACED status.]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Attempt to transition to SHIPPED status.]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[AutoIssueOrdersPlugin]] - code - inventree/src/backend/InvenTree/plugin/builtin/events/auto_issue_orders.py
+- [[Automatically issue build orders on the assigned target date.]] - rationale - inventree/src/backend/InvenTree/plugin/builtin/events/auto_issue_orders.py
+- [[Automatically issue orders on the assigned target date.]] - rationale - inventree/src/backend/InvenTree/plugin/builtin/events/auto_issue_orders.py
+- [[Automatically issue purchase orders on the assigned target date.]] - rationale - inventree/src/backend/InvenTree/plugin/builtin/events/auto_issue_orders.py
+- [[Automatically issue return orders on the assigned target date.]] - rationale - inventree/src/backend/InvenTree/plugin/builtin/events/auto_issue_orders.py
+- [[Automatically issue sales orders on the assigned target date.]] - rationale - inventree/src/backend/InvenTree/plugin/builtin/events/auto_issue_orders.py
+- [[Available output options for the ManufacturerPart endpoints.]] - rationale - inventree/src/backend/InvenTree/company/api.py
+- [[Available output options for the SupplierPart endpoints.]] - rationale - inventree/src/backend/InvenTree/company/api.py
+- [[Available output options for the SupplierPriceBreak endpoints.]] - rationale - inventree/src/backend/InvenTree/company/api.py
+- [[BarcodeGenerateSerializer]] - code - inventree/src/backend/InvenTree/plugin/base/barcodes/serializers.py
+- [[BarcodeMixin_1]] - code - inventree/src/backend/InvenTree/plugin/base/barcodes/mixins.py
+- [[BarcodeSOAllocateSerializer]] - code - inventree/src/backend/InvenTree/plugin/base/barcodes/serializers.py
+- [[BarcodeScanResultSerializer]] - code - inventree/src/backend/InvenTree/plugin/base/barcodes/serializers.py
+- [[Base class for InvenTree models, which provides some common functionality.]] - rationale - inventree/src/backend/InvenTree/InvenTree/models.py
+- [[Base context for all order models.      Attributes         description The des]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[BaseEventEnum]] - code
+- [[BaseEventEnum_1]] - code - inventree/src/backend/InvenTree/generic/events.py
+- [[BaseOrderReportContext]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[Bump updated_at on the parent order without triggering a full save.]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Calculate a numeric value for the parameter data.          - If a 'units' field]] - rationale - inventree/src/backend/InvenTree/common/models.py
+- [[Calculate the base unit quantity for a given quantity.]] - rationale - inventree/src/backend/InvenTree/company/models.py
+- [[Calculate the checksum hash of this BOM line item.]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Calculate the number of assemblies that can be built with the available stock.]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Calculate the number of items remaining to be received.]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Calculate the purchase price for this part at the specified quantity.          -]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Calculate the required part quantity, based on the supplied build_quantity.]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Callback function to be executed after a SalesOrder is saved.      - If the SALE]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Callback function when a SupplierPriceBreak is created or updated.]] - rationale - inventree/src/backend/InvenTree/company/models.py
+- [[Callback function when a SupplierPriceBreak is deleted.]] - rationale - inventree/src/backend/InvenTree/company/models.py
+- [[Callback function when a part price break is created or updated.]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Callback function when a part price break is deleted.]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Can this stock item be deleted          It can NOT be deleted under the followi]] - rationale - inventree/src/backend/InvenTree/stock/models.py
+- [[Cancel this order (only if it is open).          Executes         - Mark the]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Change this order from 'PENDING' to 'IN_PROGRESS'.]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Check if ManufacturerPart instance does not already exist then create it.]] - rationale - inventree/src/backend/InvenTree/company/models.py
+- [[Check if a media file exists at the specified path.      Arguments         path]] - rationale - inventree/src/backend/InvenTree/report/templatetags/report.py
+- [[Check if a static file exists at the specified path.      Arguments         pat]] - rationale - inventree/src/backend/InvenTree/report/templatetags/report.py
+- [[Check if any of the provided arguments is null.      Raises         ValueError]] - rationale - inventree/src/backend/InvenTree/report/templatetags/report.py
+- [[Check if any outstanding PurchaseOrders have just become overdue.      Rules]] - rationale - inventree/src/backend/InvenTree/order/tasks.py
+- [[Check if any outstanding SalesOrders have just become overdue.      - This check]] - rationale - inventree/src/backend/InvenTree/order/tasks.py
+- [[Check if any outstanding return orders have just become overdue.      - This che]] - rationale - inventree/src/backend/InvenTree/order/tasks.py
+- [[Check if the other_part is in the BOM for this part.          Note]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Check if the provided StockItem object is valid for assignment against this Bo]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Check if the user owns (is one of the owners of) the location.]] - rationale - inventree/src/backend/InvenTree/stock/models.py
+- [[Check if the user owns (or is one of the owners of) the item.]] - rationale - inventree/src/backend/InvenTree/stock/models.py
+- [[Check if this Part can be converted to a different variant.          It can be]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Check if this Part can be added to the BOM of another part.          This will f]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Check if this Part object has variants underneath it.]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Check if this item can be deleted.]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Check if this line item has been validated by the user.]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Check if this order is shipped (all line items delivered).          Note Any]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Check if this parameter can be saved.          The linked content_object can imp]] - rationale - inventree/src/backend/InvenTree/common/models.py
+- [[Check if this shipment is able to be completed.          Arguments]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Check if this stock item can be merged into another stock item.]] - rationale - inventree/src/backend/InvenTree/stock/models.py
+- [[Check the 'revision' and 'revision_of' fields.]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Check validity of the BomItem model.          Performs model checks beyond simpl]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Class representing the ReportTemplate database model.]] - rationale - inventree/src/backend/InvenTree/report/models.py
+- [[Clean a line item for this PurchaseOrder.]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Clean a line item for this ReturnOrder.]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Clean a line item for this SalesOrder.]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Clean a line item for this order.          Used when duplicating an existing lin]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Clean fields for the PartTestTemplate model.]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Clear all order allocations for this StockItem.          Clears         - Sales]] - rationale - inventree/src/backend/InvenTree/stock/models.py
+- [[Clear the BOM items for the part (delete all BOM lines).          Note Does NO]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Command_2]] - code - inventree/src/backend/InvenTree/InvenTree/management/commands/rebuild_thumbnails.py
+- [[Company]] - code - inventree/src/backend/InvenTree/company/models.py
+- [[Company database model definitions.]] - rationale - inventree/src/backend/InvenTree/company/models.py
+- [[CompanyAdmin]] - code - inventree/src/backend/InvenTree/company/admin.py
+- [[CompanyDetail]] - code - inventree/src/backend/InvenTree/company/api.py
+- [[CompanyList]] - code - inventree/src/backend/InvenTree/company/api.py
+- [[CompanyMixin]] - code - inventree/src/backend/InvenTree/company/api.py
+- [[CompanyReportContext]] - code - inventree/src/backend/InvenTree/company/models.py
+- [[CompanySimpleTest]] - code - inventree/src/backend/InvenTree/company/tests.py
+- [[CompanyTest]] - code - inventree/src/backend/InvenTree/company/test_api.py
+- [[Complete allocations for a pending shipment against a SalesOrder.      Arguments]] - rationale - inventree/src/backend/InvenTree/order/tasks.py
+- [[Complete this ReturnOrder (if not already completed).]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Complete this allocation (called when the parent SalesOrder is marked as shippe]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Complete this particular shipment.          Executes         1. Update any stoc]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Construct a queryset annotation which returns the number of parts in a particula]] - rationale - inventree/src/backend/InvenTree/part/filters.py
+- [[Construct a queryset annotation which returns the number of subcategories for ea]] - rationale - inventree/src/backend/InvenTree/part/filters.py
+- [[Construct a queryset that finds the closest default location in the part's categ]] - rationale - inventree/src/backend/InvenTree/part/filters.py
+- [[Contact]] - code - inventree/src/backend/InvenTree/company/models.py
+- [[ContactAdmin]] - code - inventree/src/backend/InvenTree/company/admin.py
+- [[ContactList]] - code - inventree/src/backend/InvenTree/company/api.py
+- [[ContactSimpleTest]] - code - inventree/src/backend/InvenTree/company/tests.py
+- [[ContactTest]] - code - inventree/src/backend/InvenTree/company/test_api.py
+- [[Context for the SalesOrderShipment model.      Attributes         allocations]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Context for the purchase order model.      Attributes         description The]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Context for the return order model.      Attributes         description The de]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Convert a Money object to the specified currency.      Arguments         money]] - rationale - inventree/src/backend/InvenTree/report/templatetags/report.py
+- [[Convert a string to lowercase.      Arguments         value The string to be c]] - rationale - inventree/src/backend/InvenTree/report/templatetags/report.py
+- [[Convert a string to title case.      Arguments         value The string to be]] - rationale - inventree/src/backend/InvenTree/report/templatetags/report.py
+- [[Convert a string to uppercase.      Arguments         value The string to be c]] - rationale - inventree/src/backend/InvenTree/report/templatetags/report.py
+- [[Convert an input value into a Decimal.      - Converts string, int, float type]] - rationale - inventree/src/backend/InvenTree/report/templatetags/report.py
+- [[Convert query parameters into a dictionary of output flags with boolean values.]] - rationale - inventree/src/backend/InvenTree/InvenTree/fields.py
+- [[Convert the provided serial number to an integer value.          This function h]] - rationale - inventree/src/backend/InvenTree/stock/models.py
+- [[Convert the unit-price at this price break to the specified currency code.]] - rationale - inventree/src/backend/InvenTree/common/models.py
+- [[Convert this StockItem instance to a variant, i.e. change the part reference]] - rationale - inventree/src/backend/InvenTree/stock/models.py
+- [[Convert value to python type.]] - rationale - inventree/src/backend/InvenTree/InvenTree/fields.py
+- [[Convert value to python type._1]] - rationale - inventree/src/backend/InvenTree/InvenTree/fields.py
+- [[Convert value to python type._2]] - rationale - inventree/src/backend/InvenTree/InvenTree/fields.py
+- [[Copy all test results from another StockItem.]] - rationale - inventree/src/backend/InvenTree/stock/models.py
+- [[Copy all test templates from another Part instance.          Note We only copy]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Copy parameter templates from the specified PartCategory.          This function]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Copy stock history from another StockItem.]] - rationale - inventree/src/backend/InvenTree/stock/models.py
+- [[Copy the BOM from another part.          Args             other The part to co]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Create a Money object, with the provided amount and currency.      Arguments]] - rationale - inventree/src/backend/InvenTree/report/templatetags/report.py
+- [[Create a new price break for this part.          Args             quantity Num_1]] - rationale - inventree/src/backend/InvenTree/company/models.py
+- [[Create a queryset to retrieve all stock items for variant parts under the specif]] - rationale - inventree/src/backend/InvenTree/part/filters.py
+- [[Create a subquery annotation for all variant part stock items on the given paren]] - rationale - inventree/src/backend/InvenTree/part/filters.py
+- [[Create multiple stock items with the provided serial numbers.          Arguments]] - rationale - inventree/src/backend/InvenTree/stock/models.py
+- [[Create supplier part and purchase_order.]] - rationale - inventree/src/backend/InvenTree/plugin/builtin/suppliers/test_supplier_barcodes.py
+- [[Create supplier parts for barcodes.]] - rationale - inventree/src/backend/InvenTree/plugin/builtin/suppliers/test_supplier_barcodes.py
+- [[Custom API filters for the SupplierPriceBreak list endpoint.]] - rationale - inventree/src/backend/InvenTree/company/api.py
+- [[Custom API instance filters.]] - rationale - inventree/src/backend/InvenTree/stock/models.py
+- [[Custom Field that automatically rounds inputs.]] - rationale - inventree/src/backend/InvenTree/InvenTree/fields.py
+- [[Custom FormField that automatically rounds inputs.]] - rationale - inventree/src/backend/InvenTree/InvenTree/fields.py
+- [[Custom MoneyField for clean migrations while using dynamic currency settings._1]] - rationale - inventree/src/backend/InvenTree/InvenTree/fields.py
+- [[Custom MoneyField for clean migrations while using dynamic currency settings.]] - rationale - inventree/src/backend/InvenTree/InvenTree/fields.py
+- [[Custom URL field which has custom scheme validators.]] - rationale - inventree/src/backend/InvenTree/InvenTree/fields.py
+- [[Custom clean action for the PartCategory model.          Ensure that the structu]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Custom clean action for the StockLocation model.          Ensure stock location]] - rationale - inventree/src/backend/InvenTree/stock/models.py
+- [[Custom clean action for the SupplierPart model.          Rules         - Ensure]] - rationale - inventree/src/backend/InvenTree/company/models.py
+- [[Custom clean method for the PurchaseOrderLineItem model.          Raises]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Custom clean method for the SalesOrderShipment class.          Raises]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Custom date-picker field.]] - rationale - inventree/src/backend/InvenTree/InvenTree/fields.py
+- [[Custom delete check for Paramteter instances associated with this Part.]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Custom delete method for the OrderLineItem model.          Calls save method on]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Custom delete method for the Part model.          Prevents deletion of a Part if]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Custom fields used in InvenTree.]] - rationale - inventree/src/backend/InvenTree/InvenTree/fields.py
+- [[Custom init function.]] - rationale - inventree/src/backend/InvenTree/company/models.py
+- [[Custom management command to rebuild thumbnail images.  - May be required after]] - rationale - inventree/src/backend/InvenTree/InvenTree/management/commands/rebuild_thumbnails.py
+- [[Custom model deletion routine, which updates any child locations or items.]] - rationale - inventree/src/backend/InvenTree/stock/models.py
+- [[Custom save check for Parameter instances associated with this Part.]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Custom save method for Parameter model.          - Update the numeric data field]] - rationale - inventree/src/backend/InvenTree/common/models.py
+- [[Custom save method for the OrderLineItem model.          Calls save method on th]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Custom save method for the order models.          Enforces various business logi]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Custom template tags for report generation.]] - rationale - inventree/src/backend/InvenTree/report/templatetags/report.py
+- [[Data class to represent a supplier.      Note that one plugin can connect to mul]] - rationale - inventree/src/backend/InvenTree/plugin/base/supplier/helpers.py
+- [[DatePickerFormField]] - code - inventree/src/backend/InvenTree/InvenTree/fields.py
+- [[Default set of notifications for InvenTree.      Contains regularly used notific]] - rationale - inventree/src/backend/InvenTree/common/notifications.py
+- [[Defines string representation of address to supple a one-line to API calls.]] - rationale - inventree/src/backend/InvenTree/company/models.py
+- [[Deprecated version of 'issue_order'.]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Deprecated version of 'issue_order.]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Detail endpoint for SupplierPriceBreak object.]] - rationale - inventree/src/backend/InvenTree/company/api.py
+- [[Determine if this line item has been fully received.]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Download PurchaseOrder data as .csv.]] - rationale - inventree/src/backend/InvenTree/order/test_api.py
+- [[Enforce 'clean' operation when saving a BomItem instance.]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Enforce 'clean' operation when saving a PartTestTemplate instance.]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Enforce a 'clean' operation when saving a PartRelated instance.]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Enforce a full_clean when saving the BomItemSubstitute model.]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Ensure that the 'part' link is always correct.]] - rationale - inventree/src/backend/InvenTree/stock/models.py
+- [[Ensure that the IPN (internal part number) is valid for this Part.          - V]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Ensure that the batch code is valid for this StockItem.          - Validation is]] - rationale - inventree/src/backend/InvenTree/stock/models.py
+- [[Ensure that the provided pattern is valid.]] - rationale - inventree/src/backend/InvenTree/InvenTree/models.py
+- [[Ensure that this BomItemSubstitute is unique.          Ensure         - It ca]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Ensure that trackable is set correctly downstream.]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Equivalent to 'place_order'.]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Event definitions and triggers for the stock app.]] - rationale - inventree/src/backend/InvenTree/stock/events.py
+- [[Event enumeration for the Return models.]] - rationale - inventree/src/backend/InvenTree/order/events.py
+- [[Event enumeration for the SalesOrder models.]] - rationale - inventree/src/backend/InvenTree/order/events.py
+- [[Event enumeration for the Stock app.]] - rationale - inventree/src/backend/InvenTree/stock/events.py
+- [[Example plugin to integrate with a dummy supplier.]] - rationale - inventree/src/backend/InvenTree/plugin/samples/supplier/supplier_sample.py
+- [[ExchangeRateMixin]] - code
+- [[ExchangeRateMixin_1]] - code - inventree/src/backend/InvenTree/InvenTree/unit_test.py
+- [[Extract the PurchaseOrder object from the barcode fields.          Inspect the c]] - rationale - inventree/src/backend/InvenTree/plugin/base/barcodes/mixins.py
+- [[Extract the user object from kwargs, if provided.]] - rationale - inventree/src/backend/InvenTree/common/models.py
+- [[Filter StockItem by depleted status.]] - rationale - inventree/src/backend/InvenTree/stock/test_api.py
+- [[Filter StockItem by has_child_items.]] - rationale - inventree/src/backend/InvenTree/stock/test_api.py
+- [[Filter StockItem by installed.]] - rationale - inventree/src/backend/InvenTree/stock/test_api.py
+- [[Filter a database model based on the provided keyword arguments.      Arguments]] - rationale - inventree/src/backend/InvenTree/report/templatetags/report.py
+- [[Filter a database queryset based on the provided keyword arguments.      Argumen]] - rationale - inventree/src/backend/InvenTree/report/templatetags/report.py
+- [[Filter for determining if a particular PurchaseOrderLineItem is overdue.]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Filter for determining if a particular SalesOrderLineItem is overdue.]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Find the 'latest' serial number for this Part.          Here we attempt to find]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[For a provided list of serials, return a list of those which are conflicting.]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Format a 'full name' for this Part based on the format PART_NAME_FORMAT defined]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Format a 'pretty' name for this SupplierPart.]] - rationale - inventree/src/backend/InvenTree/company/models.py
+- [[Format a MPN string for this SupplierPart.          Concatenates manufacture nam]] - rationale - inventree/src/backend/InvenTree/company/models.py
+- [[Format a date object for display.      Arguments         dt The date to format]] - rationale - inventree/src/backend/InvenTree/report/templatetags/report.py
+- [[Format a datetime object for display.      Arguments         dt The datetime o]] - rationale - inventree/src/backend/InvenTree/report/templatetags/report.py
+- [[Format a standard response for a matched barcode.]] - rationale - inventree/src/backend/InvenTree/InvenTree/models.py
+- [[Format a string representation of a ManufacturerPart.]] - rationale - inventree/src/backend/InvenTree/company/models.py
+- [[Format a string representation of a SupplierPart.]] - rationale - inventree/src/backend/InvenTree/company/models.py
+- [[Format a string representation of a SupplierPriceBreak instance.]] - rationale - inventree/src/backend/InvenTree/company/models.py
+- [[Format a string representation of this PartTestTemplate.]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Fully allocate stock.]] - rationale - inventree/src/backend/InvenTree/order/test_sales_order.py
+- [[Function for renaming a part image file.      Args         instance Instance o]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Function to be executed after a Part is saved.]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Function to be executed after a StockItem object is deleted.]] - rationale - inventree/src/backend/InvenTree/stock/models.py
+- [[Function to rename a company image after upload.      Args         instance Co]] - rationale - inventree/src/backend/InvenTree/company/models.py
+- [[Generate a barcode for a given model instance._2]] - rationale - inventree/src/backend/InvenTree/plugin/base/barcodes/helper.py
+- [[Generate a default value for the token.]] - rationale - inventree/src/backend/InvenTree/users/models.py
+- [[Generate context data for the reporting interface._1]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Generate context data for the reporting interface.]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Generate custom report context data for this StockItem.]] - rationale - inventree/src/backend/InvenTree/stock/models.py
+- [[Generate report context data for this ReturnOrder.]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Generate serializer fields for each supported model type.]] - rationale - inventree/src/backend/InvenTree/plugin/base/barcodes/serializers.py
+- [[Generic method for splitting barcode data into separate fields.]] - rationale - inventree/src/backend/InvenTree/plugin/base/barcodes/mixins.py
+- [[Generic serializer for receiving barcode data.]] - rationale - inventree/src/backend/InvenTree/plugin/base/barcodes/serializers.py
+- [[Get a nested value from a dictionary.          This method allows for dot notati]] - rationale - inventree/src/backend/InvenTree/data_exporter/mixins.py
+- [[Get all unique parameter names for all parts from this category.]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Get string representation of a Company.]] - rationale - inventree/src/backend/InvenTree/company/models.py
+- [[Get the next serial number for the part this stock item references.          e]] - rationale - inventree/src/backend/InvenTree/stock/models.py
+- [[Get the 'web' URL for this order.]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Get the closest owner for this location.          Start at this location, and]] - rationale - inventree/src/backend/InvenTree/stock/models.py
+- [[Get the current icon used for this location.          The icon field on this mod]] - rationale - inventree/src/backend/InvenTree/stock/models.py
+- [[Get the default location for a Part (may be None).          If the Part does not]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Get the supplier for the SUPPLIER_ID set in the plugin settings.          If it']] - rationale - inventree/src/backend/InvenTree/plugin/base/barcodes/mixins.py
+- [[Get the web URL for the detail view for this Company.]] - rationale - inventree/src/backend/InvenTree/company/models.py
+- [[Helper function to add a new StockItemTestResult.          The main purpose of t]] - rationale - inventree/src/backend/InvenTree/stock/models.py
+- [[Helper function to issue orders of a given model and status.]] - rationale - inventree/src/backend/InvenTree/plugin/builtin/events/auto_issue_orders.py
+- [[Helper function to schedule a pricing update.          Importantly, catches any]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Helper functions for barcode generation.]] - rationale - inventree/src/backend/InvenTree/plugin/base/barcodes/helper.py
+- [[Hook function to be executed after StockItem object is savedupdated.]] - rationale - inventree/src/backend/InvenTree/stock/models.py
+- [[How many tracking entries are available]] - rationale - inventree/src/backend/InvenTree/stock/models.py
+- [[Import a manufacturer part based on the provided data.]] - rationale - inventree/src/backend/InvenTree/plugin/samples/supplier/supplier_sample.py
+- [[Import a part based on the provided data.]] - rationale - inventree/src/backend/InvenTree/plugin/samples/supplier/supplier_sample.py
+- [[Import a supplier part based on the provided data.]] - rationale - inventree/src/backend/InvenTree/plugin/samples/supplier/supplier_sample.py
+- [[Included for backwards compatibility - use 'parameter' tag instead.      Ref ht]] - rationale - inventree/src/backend/InvenTree/report/templatetags/report.py
+- [[Init routine for this unit test class.]] - rationale - inventree/src/backend/InvenTree/order/test_api.py
+- [[Init routine for this unit test class._1]] - rationale - inventree/src/backend/InvenTree/order/test_api.py
+- [[Init routines for this unit test class.]] - rationale - inventree/src/backend/InvenTree/order/test_api.py
+- [[Init routines for this unit testing class.]] - rationale - inventree/src/backend/InvenTree/order/test_api.py
+- [[Initial setup for this set of unit tests.]] - rationale - inventree/src/backend/InvenTree/order/test_sales_order.py
+- [[Initialization for the tests in this class.]] - rationale - inventree/src/backend/InvenTree/company/tests.py
+- [[Initialization for the tests in this class._1]] - rationale - inventree/src/backend/InvenTree/company/tests.py
+- [[Initialization for the unit tests in this class.]] - rationale - inventree/src/backend/InvenTree/company/tests.py
+- [[Initialization method for InvenTreeURLField.]] - rationale - inventree/src/backend/InvenTree/InvenTree/fields.py
+- [[Initialize the sample supplier plugin.]] - rationale - inventree/src/backend/InvenTree/plugin/samples/supplier/supplier_sample.py
+- [[Inline for supplier-part pricing.]] - rationale - inventree/src/backend/InvenTree/company/admin.py
+- [[Install another stock item into this stock item.          Args             othe]] - rationale - inventree/src/backend/InvenTree/stock/models.py
+- [[InvenTreeCustomStatusModelField]] - code - inventree/src/backend/InvenTree/generic/states/fields.py
+- [[InvenTreeModelMoneyField]] - code - inventree/src/backend/InvenTree/InvenTree/fields.py
+- [[InvenTreeMoneyField]] - code - inventree/src/backend/InvenTree/InvenTree/fields.py
+- [[InvenTreeNotificationBodies]] - code - inventree/src/backend/InvenTree/common/notifications.py
+- [[InvenTreeTagModelSerializer_1]] - code
+- [[InvenTreeURLField]] - code - inventree/src/backend/InvenTree/InvenTree/fields.py
+- [[Is tracking info available]] - rationale - inventree/src/backend/InvenTree/stock/models.py
+- [[Issue this ReturnOrder (if currently pending).]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[ListCreateDestroyAPIView]] - code
+- [[MPTT metaclass options.]] - rationale - inventree/src/backend/InvenTree/stock/models.py
+- [[MPTTMeta]] - code - inventree/src/backend/InvenTree/InvenTree/models.py
+- [[Make a aa href which points to an InvenTree URL.      Uses the InvenTree.he]] - rationale - inventree/src/backend/InvenTree/report/templatetags/report.py
+- [[Make sure all values - including for templates - are provided.]] - rationale - inventree/src/backend/InvenTree/stock/models.py
+- [[ManufacturerOutputOptions]] - code - inventree/src/backend/InvenTree/company/api.py
+- [[ManufacturerPart]] - code - inventree/src/backend/InvenTree/company/models.py
+- [[ManufacturerPartAdmin]] - code - inventree/src/backend/InvenTree/company/admin.py
+- [[ManufacturerPartList]] - code - inventree/src/backend/InvenTree/company/api.py
+- [[ManufacturerPartMixin]] - code - inventree/src/backend/InvenTree/company/api.py
+- [[ManufacturerPartSerializer]] - code - inventree/src/backend/InvenTree/company/serializers.py
+- [[ManufacturerPartSimpleTest]] - code - inventree/src/backend/InvenTree/company/tests.py
+- [[ManufacturerTest]] - code - inventree/src/backend/InvenTree/company/test_api.py
+- [[Mark this item as 'valid' (store the checksum hash).          Args]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Mark this order as 'on hold' (if allowed).]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Mark this purchase order as 'on hold'.]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Mark this sales order as 'on hold'.]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Marks the PurchaseOrder as CANCELLED.]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Marks the PurchaseOrder as COMPLETE.          Order must be currently PLACED.]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Marks the PurchaseOrder as PLACED.          Order must be currently PENDING.]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Merge another stock item into this one; the two become one!          This stoc]] - rationale - inventree/src/backend/InvenTree/stock/models.py
+- [[Meta]] - code - inventree/src/backend/InvenTree/company/models.py
+- [[Meta class for BarcodeAssignSerializer.]] - rationale - inventree/src/backend/InvenTree/plugin/base/barcodes/serializers.py
+- [[Meta data for the StockItemTestResult class.]] - rationale - inventree/src/backend/InvenTree/stock/models.py
+- [[Meta data for the StockItemTracking class.]] - rationale - inventree/src/backend/InvenTree/stock/models.py
+- [[Meta for MachineSetting.]] - rationale - inventree/src/backend/InvenTree/machine/models.py
+- [[Meta for MetadataMixin.]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Metaclass defines extra model options._6]] - rationale - inventree/src/backend/InvenTree/company/models.py
+- [[Metaclass defines extra model options._3]] - rationale - inventree/src/backend/InvenTree/company/models.py
+- [[Metaclass defines extra model options._1]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Metaclass defines extra model options._2]] - rationale - inventree/src/backend/InvenTree/company/models.py
+- [[Metaclass defines extra model options._4]] - rationale - inventree/src/backend/InvenTree/company/models.py
+- [[Metaclass defines extra model options._5]] - rationale - inventree/src/backend/InvenTree/company/models.py
+- [[Metaclass defines extra model options.]] - rationale - inventree/src/backend/InvenTree/company/models.py
+- [[Metaclass defines extra model properties._3]] - rationale - inventree/src/backend/InvenTree/stock/models.py
+- [[Metaclass defines extra model properties._2]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Metaclass defines extra model properties._1]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Metaclass defines extra model properties.]] - rationale - inventree/src/backend/InvenTree/stock/models.py
+- [[Metaclass defines model properties.]] - rationale - inventree/src/backend/InvenTree/users/models.py
+- [[Metaclass options for the PartTestTemplate model.]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Metaclass options for this model.]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Metaclass options. Abstract ensures no database table is created._1]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Metaclass options. Abstract ensures no database table is created._2]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Metaclass options. Abstract ensures no database table is created.]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Metaclass providing extra model definition._1]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Metaclass providing extra model definition._2]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Metaclass providing extra model definition._3]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Metaclass providing extra model definition._4]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Metaclass providing extra model definition.]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Metaclass providing extra model definition._5]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Metaclass providing extra model definition._6]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Method to determine if this order is overdue.          Makes use of the overdue_]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Migrate from the 'old' method of handling currencies,     to the new method whic_1]] - rationale - inventree/src/backend/InvenTree/company/migrations/0026_auto_20201110_1011.py
+- [[Migrate from the 'old' method of handling currencies,     to the new method whic]] - rationale - inventree/src/backend/InvenTree/part/migrations/0056_auto_20201110_1125.py
+- [[Migration_501]] - code - inventree/src/backend/InvenTree/company/migrations/0026_auto_20201110_1011.py
+- [[Migration_74]] - code - inventree/src/backend/InvenTree/order/migrations/0028_auto_20200423_0956.py
+- [[Migration_266]] - code - inventree/src/backend/InvenTree/part/migrations/0056_auto_20201110_1125.py
+- [[Migration_62]] - code - inventree/src/backend/InvenTree/order/migrations/0084_auto_20230321_1111.py
+- [[Migration_27]] - code - inventree/src/backend/InvenTree/order/migrations/0087_alter_salesorder_status.py
+- [[Mixin class for ManufacturerPart API endpoints.]] - rationale - inventree/src/backend/InvenTree/company/api.py
+- [[Mixin class for SupplierPart API endpoints.]] - rationale - inventree/src/backend/InvenTree/company/api.py
+- [[Mixin class for generating exchange rate data.]] - rationale - inventree/src/backend/InvenTree/InvenTree/unit_test.py
+- [[Mixin class which handles custom 'status' fields.      - Implements a 'set_stutu]] - rationale - inventree/src/backend/InvenTree/generic/states/states.py
+- [[Mixin that enables barcode handling.      Custom barcode plugins should use and]] - rationale - inventree/src/backend/InvenTree/plugin/base/barcodes/mixins.py
+- [[Mixin which provides 'total_price' field for an order.]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Model for a purchase order line item.      Attributes         order Reference]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Model for a single ExtraLine in a PurchaseOrder.      Attributes         order]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Model for a single ExtraLine in a ReturnOrder.]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Model for a single ExtraLine in a SalesOrder.      Attributes         order Li]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Model for a single LineItem in a SalesOrder.      Attributes         order Lin]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Model for caching minmax pricing information for a particular Part.      It is]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Model representing a 'stock history' entry for a particular Part.      A 'stockt]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[ModelMoneyField]] - code
+- [[MoneyField]] - code
+- [[Move part to a new location.          If less than the available quantity is to]] - rationale - inventree/src/backend/InvenTree/stock/models.py
+- [[Notify appropriate users that a ReturnOrder has just become 'overdue'.]] - rationale - inventree/src/backend/InvenTree/order/tasks.py
+- [[Notify appropriate users that a SalesOrder has just become 'overdue'.]] - rationale - inventree/src/backend/InvenTree/order/tasks.py
+- [[Notify users that a PurchaseOrder has just become 'overdue'.      Arguments]] - rationale - inventree/src/backend/InvenTree/order/tasks.py
+- [[Order]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[Order a database queryset based on the provided arguments.      Arguments]] - rationale - inventree/src/backend/InvenTree/report/templatetags/report.py
+- [[OrderExtraLine]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[OrderLineItem]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[OrderTest]] - code - inventree/src/backend/InvenTree/order/test_api.py
+- [[OrderTest_1]] - code - inventree/src/backend/InvenTree/order/tests.py
+- [[OrderUpdatedAtTest]] - code - inventree/src/backend/InvenTree/order/tests.py
+- [[Organization tree for StockItem objects.      A StockLocation can be considere]] - rationale - inventree/src/backend/InvenTree/stock/models.py
+- [[Override form class to use own function.]] - rationale - inventree/src/backend/InvenTree/InvenTree/fields.py
+- [[Override the 'prepare_value' method, to remove trailing zeros when displaying.]] - rationale - inventree/src/backend/InvenTree/InvenTree/fields.py
+- [[Override the 'prepare_value' method, to remove trailing zeros when displaying._1]] - rationale - inventree/src/backend/InvenTree/InvenTree/fields.py
+- [[Overrides the save function for the Part model.          If the part image has b]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Overriding save method to connect an existing ManufacturerPart.]] - rationale - inventree/src/backend/InvenTree/company/models.py
+- [[Overwrite clean method to check that relation is unique.]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Owner]] - code - inventree/src/backend/InvenTree/users/models.py
+- [[Parameter]] - code - inventree/src/backend/InvenTree/common/models.py
+- [[ParameterListMixin]] - code
+- [[Parse a ISOIEC 15434 barcode, returning the split data section.]] - rationale - inventree/src/backend/InvenTree/plugin/base/barcodes/mixins.py
+- [[Parse a standard ECIA 2D barcode.          Ref httpswww.ecianow.orgassetsd]] - rationale - inventree/src/backend/InvenTree/plugin/base/barcodes/mixins.py
+- [[PartEvents]] - code - inventree/src/backend/InvenTree/part/events.py
+- [[PartReportContext]] - code - inventree/src/backend/InvenTree/part/models.py
+- [[Partially allocate stock.]] - rationale - inventree/src/backend/InvenTree/order/test_sales_order.py
+- [[Perform a generic 'scan' operation on a supplier barcode.          The supplier]] - rationale - inventree/src/backend/InvenTree/plugin/base/barcodes/mixins.py
+- [[Perform a partial rebuild of the tree structure.          If a failure occurs, l]] - rationale - inventree/src/backend/InvenTree/InvenTree/models.py
+- [[Perform cleaning operations for the Part model.          - Check if the PartCate]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Perform extra validation steps for the ReturnOrderLineItem model.]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Perform extra validation steps for this SalesOrderLineItem instance.          Ra]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Perform init for this test class.]] - rationale - inventree/src/backend/InvenTree/company/test_api.py
+- [[Perform initialization for the tests in this class.]] - rationale - inventree/src/backend/InvenTree/company/tests.py
+- [[Perform initialization for the unit test class.]] - rationale - inventree/src/backend/InvenTree/company/test_api.py
+- [[Perform initialization for this test class.]] - rationale - inventree/src/backend/InvenTree/company/test_api.py
+- [[Perform item stocktake.          Arguments             count The new quantity]] - rationale - inventree/src/backend/InvenTree/stock/models.py
+- [[Perform key lookup in the provided dict object.      This function is provided t]] - rationale - inventree/src/backend/InvenTree/report/templatetags/report.py
+- [[Perform valid stock serializations.]] - rationale - inventree/src/backend/InvenTree/stock/tests.py
+- [[Plugin to automatically issue orders on the assigned target date.]] - rationale - inventree/src/backend/InvenTree/plugin/builtin/events/auto_issue_orders.py
+- [[Plugin to automatically issue orders on the assigned target date._1]] - rationale - inventree/src/backend/InvenTree/plugin/builtin/events/auto_issue_orders.py
+- [[Prefectch parts parameters.]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Process a payload.          Args             message DB entry for this message]] - rationale - inventree/src/backend/InvenTree/common/models.py
+- [[PurchaseOrderDownloadTest]] - code - inventree/src/backend/InvenTree/order/test_api.py
+- [[PurchaseOrderEvents]] - code - inventree/src/backend/InvenTree/order/events.py
+- [[PurchaseOrderExtraLine]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[PurchaseOrderLineItem]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[PurchaseOrderLineItemTest]] - code - inventree/src/backend/InvenTree/order/test_api.py
+- [[PurchaseOrderReportContext]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[PurchaseOrderStatus]] - code - inventree/src/backend/InvenTree/order/status_codes.py
+- [[PurchaseOrderStatusGroups]] - code - inventree/src/backend/InvenTree/order/status_codes.py
+- [[Quantity of this part currently actively in production.          Arguments]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Rebuild all thumbnail images.]] - rationale - inventree/src/backend/InvenTree/InvenTree/management/commands/rebuild_thumbnails.py
+- [[Rebuild all thumbnail images._1]] - rationale - inventree/src/backend/InvenTree/InvenTree/management/commands/rebuild_thumbnails.py
+- [[Rebuild the thumbnail specified by the image field of the provided model.]] - rationale - inventree/src/backend/InvenTree/InvenTree/management/commands/rebuild_thumbnails.py
+- [[Recalculate BOM cost for the referenced Part instance.          Iterate through]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Recalculate all cost data for the referenced Part instance.          Arguments]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Recalculate cached pricing for this Part instance.]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Recalculate historical purchase cost for the referenced Part instance.]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Recalculate internal cost for the referenced Part instance.]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Recalculate sale cost data.]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Recalculate supplier cost for the referenced Part instance.          - The limit]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Receive a line item against this ReturnOrder.          Arguments             li]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Receive multiple line items against this PurchaseOrder.          Arguments]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Remove all test results.]] - rationale - inventree/src/backend/InvenTree/stock/models.py
+- [[Remove the specified quantity from this StockItem.          Arguments]] - rationale - inventree/src/backend/InvenTree/stock/models.py
+- [[Render a number with optional formatting options.      Arguments         number]] - rationale - inventree/src/backend/InvenTree/report/templatetags/report.py
+- [[Render a string representation of a PurchaseOrderLineItem instance.]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Render a string representation of this SalesOrder.]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Render a text item with some simple html tags.      kwargs         bold Boolea]] - rationale - inventree/src/backend/InvenTree/report/templatetags/report.py
+- [[Render an icon from the icon packs.      Arguments         name The name of th]] - rationale - inventree/src/backend/InvenTree/report/templatetags/report.py
+- [[Report context for the Company model.      Attributes         company The Comp]] - rationale - inventree/src/backend/InvenTree/company/models.py
+- [[Report context for the Part model.      Attributes         bom_items Query set]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Report context for the StockItem model.      Attributes         barcode_data G]] - rationale - inventree/src/backend/InvenTree/stock/models.py
+- [[Report context for the StockLocation model.      Attributes         location T]] - rationale - inventree/src/backend/InvenTree/stock/models.py
+- [[Represents a price break for internally selling this part.]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Represents a price break for selling this part.]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Represents a quantity price break for a SupplierPart.      - Suppliers can offer]] - rationale - inventree/src/backend/InvenTree/company/models.py
+- [[Represents a unique part as provided by a Manufacturer Each ManufacturerPart is]] - rationale - inventree/src/backend/InvenTree/company/models.py
+- [[Represents a unique part as provided by a Supplier Each SupplierPart is identifi]] - rationale - inventree/src/backend/InvenTree/company/models.py
+- [[Return API query filters for limiting field results against this instance.]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Return SupplierPart objects which are supplied or manufactured by this company.]] - rationale - inventree/src/backend/InvenTree/company/models.py
+- [[Return True if all line items are fully allocated.]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Return True if all line items have been received.]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Return True if any parts linked in the Bill of Materials are trackable.]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Return True if the PurchaseOrder is 'open'.]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Return True if the PurchaseOrder is 'pending'.]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Return True if the cached pricing is valid.]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Return True if the specified user subscribes to this part.]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Return True if there are any 'required tests' associated with this StockItem.]] - rationale - inventree/src/backend/InvenTree/stock/models.py
+- [[Return True if this Part has internal pricing information.]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Return True if this Part instance has any BOM items.]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Return True if this StockItem is in stock.          Arguments             che]] - rationale - inventree/src/backend/InvenTree/stock/models.py
+- [[Return True if this StockItem is allocated to a SalesOrder or a Build.]] - rationale - inventree/src/backend/InvenTree/stock/models.py
+- [[Return True if this StockItem is serialized.]] - rationale - inventree/src/backend/InvenTree/stock/models.py
+- [[Return True if this SupplierPart has associated price breaks.]] - rationale - inventree/src/backend/InvenTree/company/models.py
+- [[Return True if this line item is completed (has been fully shipped).]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Return True if this line item is over allocated.]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Return True if this order can be cancelled.]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Return True if this order can be issued._1]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Return True if this order can be issued._2]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Return True if this order can be issued.]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Return True if this order can be placed on hold._1]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Return True if this order can be placed on hold.]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Return True if this order is 'open' (either 'pending' or 'in_progress').]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Return True if this order is 'pending'.]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Return True if this order is outstanding.]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Return True if this order is pending.]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Return True if this part has sale price breaks.]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Return True if this shipment has already been delivered.]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Return True if this shipment has been checked.]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Return a BomItem queryset which returns all BomItem instances which refer to th]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Return a Field instance for this field.]] - rationale - inventree/src/backend/InvenTree/InvenTree/fields.py
+- [[Return a NoDeleteQuerySet.]] - rationale - inventree/src/backend/InvenTree/common/models.py
+- [[Return a Parameter object for the given part and parameter name.      Arguments]] - rationale - inventree/src/backend/InvenTree/report/templatetags/report.py
+- [[Return a base64-encoded svg image data string.]] - rationale - inventree/src/backend/InvenTree/report/templatetags/report.py
+- [[Return a checksum hash for the BOM for this part.          Used to determine if]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Return a database query for PurchaseOrder line items for this SupplierPart, limi]] - rationale - inventree/src/backend/InvenTree/company/models.py
+- [[Return a default value for the 'delete_on_deplete' field.      Prior to 2022-12-]] - rationale - inventree/src/backend/InvenTree/stock/models.py
+- [[Return a dict mapping ECIA field names to internal field names.          Ref ht]] - rationale - inventree/src/backend/InvenTree/plugin/base/barcodes/mixins.py
+- [[Return a dict object of the 'default' values for this row.]] - rationale - inventree/src/backend/InvenTree/importer/models.py
+- [[Return a dict of fields which can be exported against this serializer instance.]] - rationale - inventree/src/backend/InvenTree/data_exporter/mixins.py
+- [[Return a fresh copy of the instance from the database.]] - rationale - inventree/src/backend/InvenTree/order/tests.py
+- [[Return a fully-qualified path for a company image.      Arguments         compa]] - rationale - inventree/src/backend/InvenTree/report/templatetags/report.py
+- [[Return a fully-qualified path for a part image.      Arguments         part A]] - rationale - inventree/src/backend/InvenTree/report/templatetags/report.py
+- [[Return a fully-qualified path for the logo image.      - If a custom logo has be]] - rationale - inventree/src/backend/InvenTree/report/templatetags/report.py
+- [[Return a list containing all parts this part is used in.          Includes consi]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Return a list of all parts in the BOM for this part.          Takes into account]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Return a list of all stock items supplied or manufactured by this company.]] - rationale - inventree/src/backend/InvenTree/company/models.py
+- [[Return a list of all test templates associated with this Part.          These ar]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Return a list of assemblies which use this BomItem.]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Return a list of available suppliers.]] - rationale - inventree/src/backend/InvenTree/plugin/samples/supplier/supplier_sample.py
+- [[Return a list of fields to be used for hashing this BOM item.          These fie]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Return a list of model fields.]] - rationale - inventree/src/backend/InvenTree/plugin/base/barcodes/serializers.py
+- [[Return a list of outstanding builds.          Builds marked as 'complete' or 'ca]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Return a list of parameters for the given part data.]] - rationale - inventree/src/backend/InvenTree/plugin/samples/supplier/supplier_sample.py
+- [[Return a list of parts required to make this part (i.e. BOM items).          Arg]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Return a list of purchase orders which reference this part.]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Return a list of sales orders which reference this part.]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Return a list of sales orders which require this part.          Arguments]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Return a list of search results based on the search term.]] - rationale - inventree/src/backend/InvenTree/plugin/samples/supplier/supplier_sample.py
+- [[Return a list of test-result objects for this StockItem.]] - rationale - inventree/src/backend/InvenTree/stock/models.py
+- [[Return a list of the child items which have been split from this stock item.]] - rationale - inventree/src/backend/InvenTree/stock/models.py
+- [[Return a list of users subscribed to this PurchaseOrder.          By this, we me]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Return a list of users subscribed to this ReturnOrder.          By this, we mean]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Return a list of users subscribed to this SalesOrder.          By this, we mean]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Return a list of users who are 'subscribed' to this part.          Arguments]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Return a list of users who subscribe to this PartCategory.          Arguments]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Return a list of valid choices for this test template.]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Return a list of valid parts which can be allocated against this BomItem.]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Return a map of all test templates associated with this Part.]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Return a map of test-results using the test name as the key.          Where mult]] - rationale - inventree/src/backend/InvenTree/stock/models.py
+- [[Return a mapping of barcode model type codes to the model class.]] - rationale - inventree/src/backend/InvenTree/plugin/base/barcodes/helper.py
+- [[Return a mapping of barcode model types to the model class.]] - rationale - inventree/src/backend/InvenTree/plugin/base/barcodes/helper.py
+- [[Return a queryset containing all BOM items for this part.          Arguments]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Return a queryset containing all allocations for this order.]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Return a queryset containing the parts which exist in this category.]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Return a queryset filter for selecting StockItems which match this BomItem.]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Return a queryset for SalesOrderAllocations against this StockItem, with optiona]] - rationale - inventree/src/backend/InvenTree/stock/models.py
+- [[Return a queryset for all stock items under this category.]] - rationale - inventree/src/backend/InvenTree/stock/models.py
+- [[Return a queryset for all stock items under this category.          Args]] - rationale - inventree/src/backend/InvenTree/stock/models.py
+- [[Return a queryset of all allocations for this order.]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Return a queryset of all trackable parts in the BOM for this part.]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Return a queryset of any pending allocations for this order.          Allocation]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Return a queryset of the completed line items for this order.]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Return a queryset of the completed shipments for this order.]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Return a queryset of the pending line items for this order.          Note We ex]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Return a queryset of the pending shipments for this order.]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Return a set of all Parts which can be installed into this part, based on the]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Return a set of all related parts for this part.]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Return a simplified pricing string for this part.          Args             qua]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Return a string for formatting a QR code for this model instance.]] - rationale - inventree/src/backend/InvenTree/InvenTree/models.py
+- [[Return a string representation of the Part (for use in the admin interface).]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Return a string representation of this BomItem instance.]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Return a string representation of this Part-Part relationship.]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Return a truncated version of the provided list.      Arguments         value]] - rationale - inventree/src/backend/InvenTree/report/templatetags/report.py
+- [[Return all 'BuildItem' objects which allocate this part to Build objects.]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Return all Part object which exist as a variant under this part.]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Return all stock entries for this Part.          Arguments             include_]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Return all stock items which are installed in this one!          Note This fu]] - rationale - inventree/src/backend/InvenTree/stock/models.py
+- [[Return all test results associated with this StockItem.          Optionally can]] - rationale - inventree/src/backend/InvenTree/stock/models.py
+- [[Return annotated queryset object for the SupplierPart list.]] - rationale - inventree/src/backend/InvenTree/company/api.py
+- [[Return custom API filters for this particular instance.]] - rationale - inventree/src/backend/InvenTree/company/models.py
+- [[Return custom report context information.]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Return default values for this model when issuing an API OPTIONS request._1]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Return default values for this model when issuing an API OPTIONS request.]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Return fully-qualified path for an upload report asset file.      Arguments]] - rationale - inventree/src/backend/InvenTree/report/templatetags/report.py
+- [[Return import data for a specific part ID.]] - rationale - inventree/src/backend/InvenTree/plugin/samples/supplier/supplier_sample.py
+- [[Return list of outstanding build orders which require this part.          Argume]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Return parameter templates associated to category.]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Return pricing data for the given part data.]] - rationale - inventree/src/backend/InvenTree/plugin/samples/supplier/supplier_sample.py
+- [[Return raw image data from an 'uploaded' image.      Arguments         filename]] - rationale - inventree/src/backend/InvenTree/report/templatetags/report.py
+- [[Return report context data for this PurchaseOrder.]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Return stock item from customer, back into the specified location.          Argu]] - rationale - inventree/src/backend/InvenTree/stock/models.py
+- [[Return stock item into stock, removing any consumption status.          Argument]] - rationale - inventree/src/backend/InvenTree/stock/models.py
+- [[Return string representation of own name.]] - rationale - inventree/src/backend/InvenTree/company/models.py
+- [[Return string representation.]] - rationale - inventree/src/backend/InvenTree/stock/models.py
+- [[Return the 'name' of this owner.]] - rationale - inventree/src/backend/InvenTree/users/models.py
+- [[Return the 'net' stock.          It takes into account         - Stock on hand]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Return the 'next' serial number in sequence.]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Return the 'next' stock item (based on serial number).]] - rationale - inventree/src/backend/InvenTree/stock/models.py
+- [[Return the 'previous' stock item (based on serial number).]] - rationale - inventree/src/backend/InvenTree/stock/models.py
+- [[Return the 'sale_price' field as 'price'.]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Return the 'type' label of this owner i.e. 'user' or 'group'.]] - rationale - inventree/src/backend/InvenTree/users/models.py
+- [[Return the API URL associated with the Company model.]] - rationale - inventree/src/backend/InvenTree/company/models.py
+- [[Return the API URL associated with the Contact model._1]] - rationale - inventree/src/backend/InvenTree/company/models.py
+- [[Return the API URL associated with the Contact model.]] - rationale - inventree/src/backend/InvenTree/company/models.py
+- [[Return the API URL associated with the ManufacturerPart instance.]] - rationale - inventree/src/backend/InvenTree/company/models.py
+- [[Return the API URL associated with the PurchaseOrder model.]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Return the API URL associated with the PurchaseOrderExtraLine model.]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Return the API URL associated with the PurchaseOrderLineItem model.]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Return the API URL associated with the ReturnOrderExtraLine model.]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Return the API URL associated with the SalesOrder model.]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Return the API URL associated with the SalesOrderAllocation model.]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Return the API URL associated with the SalesOrderExtraLine model.]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Return the API URL associated with the SalesOrderLineItem model.]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Return the API URL associated with the SupplierPart model.]] - rationale - inventree/src/backend/InvenTree/company/models.py
+- [[Return the API URL associated with the SupplierPriceBreak model.]] - rationale - inventree/src/backend/InvenTree/company/models.py
+- [[Return the API URL associated with this model.]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Return the API endpoint URL associated with the PartCategoryParameterTemplate mo]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Return the API url associated with the PartCategory model.]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Return the Address associated with this order.]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Return the CSS font-face rule for the icon fonts used on the current page (or al]] - rationale - inventree/src/backend/InvenTree/report/templatetags/report.py
+- [[Return the ManufacturerPart object for the scanned barcode.          Returns]] - rationale - inventree/src/backend/InvenTree/plugin/base/barcodes/mixins.py
+- [[Return the PartPricing information for this Part instance.          If there is]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Return the PurchaseOrderStatus class.]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Return the ReturnOrderStatus class.]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Return the SalesOrderStatus class.]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Return the URL for a web subpath.]] - rationale - inventree/src/backend/InvenTree/InvenTree/helpers.py
+- [[Return the appropriate status class for this custom state.]] - rationale - inventree/src/backend/InvenTree/common/models.py
+- [[Return the associated barcode model type code for this model._3]] - rationale - inventree/src/backend/InvenTree/stock/models.py
+- [[Return the associated barcode model type code for this model.]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Return the associated barcode model type code for this model._1]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Return the associated barcode model type code for this model._6]] - rationale - inventree/src/backend/InvenTree/stock/models.py
+- [[Return the associated barcode model type code for this model._2]] - rationale - inventree/src/backend/InvenTree/company/models.py
+- [[Return the associated barcode model type code for this model._5]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Return the associated price breaks in the correct order.]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Return the associated price breaks in the correct order._1]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Return the associated price breaks in the correct order._2]] - rationale - inventree/src/backend/InvenTree/company/models.py
+- [[Return the available choices for this setting (or None if no choices are defined]] - rationale - inventree/src/backend/InvenTree/common/models.py
+- [[Return the base part.Part object for the line item.          Note Returns None]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Return the category path of this Part instance.]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Return the closest owner for this StockItem.          - If the item has an own]] - rationale - inventree/src/backend/InvenTree/stock/models.py
+- [[Return the contents of a static file.      Arguments         path The path to]] - rationale - inventree/src/backend/InvenTree/report/templatetags/report.py
+- [[Return the currency associated with this order instance.          Rules]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Return the currency code associated with this company.          - If the currenc]] - rationale - inventree/src/backend/InvenTree/company/models.py
+- [[Return the current number of parts currently being built.          Arguments]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Return the customer order number from the barcode fields.]] - rationale - inventree/src/backend/InvenTree/plugin/base/barcodes/mixins.py
+- [[Return the default (primary) SupplierPart for this Part.          This function]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Return the first item in a list, or a default value if the list is empty.      A]] - rationale - inventree/src/backend/InvenTree/report/templatetags/report.py
+- [[Return the fully qualified file path to an uploaded media file.      Arguments]] - rationale - inventree/src/backend/InvenTree/report/templatetags/report.py
+- [[Return the icon associated with this PartCategory or the default icon.]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Return the internal price of this Part at the specified quantity.]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Return the last item in a list, or a default value if the list is empty.      Ar]] - rationale - inventree/src/backend/InvenTree/report/templatetags/report.py
+- [[Return the length of a list or string.      Arguments         value The value]] - rationale - inventree/src/backend/InvenTree/report/templatetags/report.py
+- [[Return the list API endpoint URL associated with the BomItem model.]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Return the list API endpoint URL associated with the Part model.]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Return the list API endpoint URL associated with the PartInternalPriceBreak mode]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Return the list API endpoint URL associated with the PartSellPriceBreak model.]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Return the list API endpoint URL associated with the PartTestTemplate model.]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Return the manufacturer part number from the barcode fields.]] - rationale - inventree/src/backend/InvenTree/plugin/base/barcodes/mixins.py
+- [[Return the name of the template.]] - rationale - inventree/src/backend/InvenTree/common/models.py
+- [[Return the number of 'child' items associated with this StockItem.          A ch]] - rationale - inventree/src/backend/InvenTree/stock/models.py
+- [[Return the number of 'required tests' for this StockItem.]] - rationale - inventree/src/backend/InvenTree/stock/models.py
+- [[Return the number of StockItem objects which live in or under this category.]] - rationale - inventree/src/backend/InvenTree/stock/models.py
+- [[Return the number of complete line items associated with this order.]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Return the number of completed lines for this order.]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Return the number of completed shipments associated with this order.]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Return the number of items contained in the BOM for this part.]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Return the number of part BOMs that this part appears in.]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Return the number of pending (incomplete) lines associated with this order.]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Return the number of pending (non-shipped) allocations.]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Return the number of pending line items associated with this order.]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Return the number of pending shipments associated with this order.]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Return the number of stock items installed inside this one.]] - rationale - inventree/src/backend/InvenTree/stock/models.py
+- [[Return the number of supplier parts available for this part.]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Return the number of units that can be build with available stock.]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Return the price range for this part.          This price can be either]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Return the price range of the BOM for this part.          Adds the minimum price]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Return the price-range for this BOM item.]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Return the quantity from the barcode fields.]] - rationale - inventree/src/backend/InvenTree/plugin/base/barcodes/mixins.py
+- [[Return the quantity needing to be ordered for this part.          Here, an orde]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Return the quantity of this StockItem which is not allocated.]] - rationale - inventree/src/backend/InvenTree/stock/models.py
+- [[Return the quantity of this part required for active build orders.          Argu]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Return the shipping address for this shipment.          Lookup priority]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Return the single-quantity pricing for this SupplierPart.]] - rationale - inventree/src/backend/InvenTree/company/models.py
+- [[Return the status of the tests required for this StockItem.          Return]] - rationale - inventree/src/backend/InvenTree/stock/models.py
+- [[Return the string representation for the primary address.          This property]] - rationale - inventree/src/backend/InvenTree/company/models.py
+- [[Return the supplier part number from the barcode fields.]] - rationale - inventree/src/backend/InvenTree/plugin/base/barcodes/mixins.py
+- [[Return the supplier price range of this part.          Actions         - Checks]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Return the test name of the associated test template.]] - rationale - inventree/src/backend/InvenTree/stock/models.py
+- [[Return the tests which are required by this part.          Arguments]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Return the text representation of the status field._1]] - rationale - inventree/src/backend/InvenTree/stock/models.py
+- [[Return the text representation of the status field.]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Return the total in stock count for this part.]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Return the total amount of this part allocated to build orders.]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Return the total number of items on order for this part.          Note that some]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Return the total number of line items associated with this order.]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Return the total number of lines associated with this order.]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Return the total number of shipments associated with this order.]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Return the total part count under this category (including children of child cat]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Return the total price for this line item.]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Return the total quantity allocated to SalesOrders.]] - rationale - inventree/src/backend/InvenTree/stock/models.py
+- [[Return the total quantity allocated to builds or orders.]] - rationale - inventree/src/backend/InvenTree/stock/models.py
+- [[Return the total quantity allocated to builds, with optional filters.]] - rationale - inventree/src/backend/InvenTree/stock/models.py
+- [[Return the total quantity of items currently on order.          Subtract partial]] - rationale - inventree/src/backend/InvenTree/company/models.py
+- [[Return the total quantity of stock allocated for this part, against both build o]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Return the total quantity of this part allocated to sales orders.]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Return the total stock quantity allocated to this LineItem.          This is a s]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Return the total stock quantity for this part.          - Part may be stored in]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Return the total stock quantity fulfilled against this line item.]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Return the units associated with the template.]] - rationale - inventree/src/backend/InvenTree/common/models.py
+- [[Return the value contained at the specified index of the list.      This functio]] - rationale - inventree/src/backend/InvenTree/report/templatetags/report.py
+- [[Return the value of a Parameter for the given part and parameter name.      Argu]] - rationale - inventree/src/backend/InvenTree/report/templatetags/report.py
+- [[Return the web URL associated with the detail view for this PartCategory instanc]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Return the web URL for viewing this part.]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Return total required to fulfil orders.]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Return true if any lines in the order are over-allocated.]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Return tuple list of parent (root) categories.]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Return url for instance.]] - rationale - inventree/src/backend/InvenTree/stock/models.py
+- [[Return url for instance._2]] - rationale - inventree/src/backend/InvenTree/stock/models.py
+- [[Return url for instance._1]] - rationale - inventree/src/backend/InvenTree/stock/models.py
+- [[ReturnOrderEvents]] - code - inventree/src/backend/InvenTree/order/events.py
+- [[ReturnOrderExtraLine]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[ReturnOrderLineItem]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[ReturnOrderLineItemTests]] - code - inventree/src/backend/InvenTree/order/test_api.py
+- [[ReturnOrderLineStatus]] - code - inventree/src/backend/InvenTree/order/status_codes.py
+- [[ReturnOrderReportContext]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[ReturnOrderStatus]] - code - inventree/src/backend/InvenTree/order/status_codes.py
+- [[ReturnOrderStatusGroups]] - code - inventree/src/backend/InvenTree/order/status_codes.py
+- [[Returns True if the stock location can be adjusted for this part.          Can]] - rationale - inventree/src/backend/InvenTree/stock/models.py
+- [[Returns True if the total stock for this part is less than the minimum stock lev]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Returns True if this Stock item is stale.          To be stale, the followin]] - rationale - inventree/src/backend/InvenTree/stock/models.py
+- [[Returns True if this StockItem has passed all required tests.]] - rationale - inventree/src/backend/InvenTree/stock/models.py
+- [[Returns True if this StockItem is expired.          To be expired, the follo]] - rationale - inventree/src/backend/InvenTree/stock/models.py
+- [[Returns True if this item is in stock.          See also StockItem.IN_STOCK_FIL]] - rationale - inventree/src/backend/InvenTree/stock/models.py
+- [[Returns a list of database models which support barcode functionality.]] - rationale - inventree/src/backend/InvenTree/plugin/base/barcodes/helper.py
+- [[Returns a list of optional fields for a stock transfer.]] - rationale - inventree/src/backend/InvenTree/stock/models.py
+- [[Returns a list of purchase orders relating to this supplier part.]] - rationale - inventree/src/backend/InvenTree/company/models.py
+- [[Returns address object of primary address for this Company.]] - rationale - inventree/src/backend/InvenTree/company/models.py
+- [[Returns the list API endpoint URL associated with this model.]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Reverse the update process.      Here we may be in the situation that the lega_1]] - rationale - inventree/src/backend/InvenTree/company/migrations/0026_auto_20201110_1011.py
+- [[Reverse the update process.      Here we may be in the situation that the lega]] - rationale - inventree/src/backend/InvenTree/part/migrations/0056_auto_20201110_1125.py
+- [[Round value to the specified number of places.]] - rationale - inventree/src/backend/InvenTree/InvenTree/fields.py
+- [[RoundingDecimalField]] - code - inventree/src/backend/InvenTree/InvenTree/fields.py
+- [[RoundingDecimalFormField]] - code - inventree/src/backend/InvenTree/InvenTree/fields.py
+- [[Run checks when saving an address.          Rules         - If this address is]] - rationale - inventree/src/backend/InvenTree/company/models.py
+- [[Run tests to ensure that the SalesOrder model is working correctly.]] - rationale - inventree/src/backend/InvenTree/order/test_sales_order.py
+- [[SalesOrderAllocateTest]] - code - inventree/src/backend/InvenTree/order/test_api.py
+- [[SalesOrderAllocation]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[SalesOrderDownloadTest]] - code - inventree/src/backend/InvenTree/order/test_api.py
+- [[SalesOrderEvents]] - code - inventree/src/backend/InvenTree/order/events.py
+- [[SalesOrderExtraLine]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[SalesOrderLineItem]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[SalesOrderLineItemTest]] - code - inventree/src/backend/InvenTree/order/test_api.py
+- [[SalesOrderReportContext]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[SalesOrderShipment]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[SalesOrderShipmentReportContext]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[SalesOrderStatus]] - code - inventree/src/backend/InvenTree/order/status_codes.py
+- [[SalesOrderStatusGroups]] - code - inventree/src/backend/InvenTree/order/status_codes.py
+- [[Sample supplier plugin.]] - rationale - inventree/src/backend/InvenTree/plugin/samples/supplier/supplier_sample.py
+- [[SampleSupplierPlugin]] - code - inventree/src/backend/InvenTree/plugin/samples/supplier/supplier_sample.py
+- [[SampleSupplierTest]] - code - inventree/src/backend/InvenTree/plugin/samples/supplier/test_supplier_sample.py
+- [[Save the model instance, and perform validation on the metadata field.]] - rationale - inventree/src/backend/InvenTree/InvenTree/models.py
+- [[Save this StockItem to the database.          Performs a number of checks]] - rationale - inventree/src/backend/InvenTree/stock/models.py
+- [[Scan a barcode against this plugin.          Here we are looking for a dict obje]] - rationale - inventree/src/backend/InvenTree/plugin/builtin/barcodes/inventree_barcode.py
+- [[Scan a barcode against this plugin.          This method is explicitly called fr]] - rationale - inventree/src/backend/InvenTree/plugin/base/barcodes/mixins.py
+- [[Schedule this pricing to be updated.          Arguments             counter Re]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Schedule updates for any assemblies which use this part.]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Schedule updates for any template parts above this part.]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[ScheduleMixin]] - code
+- [[Serializer for barcode scan results.]] - rationale - inventree/src/backend/InvenTree/plugin/base/barcodes/serializers.py
+- [[Serializer for generating a barcode.]] - rationale - inventree/src/backend/InvenTree/plugin/base/barcodes/serializers.py
+- [[Serializer for linking and unlinking barcode to an internal class.]] - rationale - inventree/src/backend/InvenTree/plugin/base/barcodes/serializers.py
+- [[Serializr for allocating stock items to a sales order.      The scanned barcode]] - rationale - inventree/src/backend/InvenTree/plugin/base/barcodes/serializers.py
+- [[Series of tests for the Company DRF API.]] - rationale - inventree/src/backend/InvenTree/company/test_api.py
+- [[Series of tests for the Manufacturer DRF API.]] - rationale - inventree/src/backend/InvenTree/company/test_api.py
+- [[Series of tests for the Stocktake API.]] - rationale - inventree/src/backend/InvenTree/stock/test_api.py
+- [[Set the subscription status of this Part against the specified user.]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Set the subscription status of this PartCategory against the specified user.]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Set up objects for all three order types.]] - rationale - inventree/src/backend/InvenTree/order/tests.py
+- [[Setter to keep model API compatibility.          But be careful         If the]] - rationale - inventree/src/backend/InvenTree/stock/models.py
+- [[Show where the line item is or should be placed.          1. If a destination is]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Simple test for quantity pricing.]] - rationale - inventree/src/backend/InvenTree/company/tests.py
+- [[Simply returns the number of stock items in this location.          Required for]] - rationale - inventree/src/backend/InvenTree/stock/models.py
+- [[Split a string into a list, using the provided separator (default = ',').      A]] - rationale - inventree/src/backend/InvenTree/report/templatetags/report.py
+- [[Split this stock item into two items, in the same location.          Stock track]] - rationale - inventree/src/backend/InvenTree/stock/models.py
+- [[Split this stock item into unique serial numbers.          - Quantity can be les]] - rationale - inventree/src/backend/InvenTree/stock/models.py
+- [[StateTransitionMixin]] - code
+- [[Status codes for StockHistory.]] - rationale - inventree/src/backend/InvenTree/stock/status_codes.py
+- [[StatusCode]] - code
+- [[StatusCodeMixin_1]] - code - inventree/src/backend/InvenTree/generic/states/states.py
+- [[StatusCodeMixin]] - code
+- [[Stock tracking entry - used for tracking history of a particular StockItem.]] - rationale - inventree/src/backend/InvenTree/stock/models.py
+- [[StockEvents]] - code - inventree/src/backend/InvenTree/stock/events.py
+- [[StockHistoryCode]] - code - inventree/src/backend/InvenTree/stock/status_codes.py
+- [[StockItemReportContext]] - code - inventree/src/backend/InvenTree/stock/models.py
+- [[StockLocationReportContext]] - code - inventree/src/backend/InvenTree/stock/models.py
+- [[StockStatus]] - code - inventree/src/backend/InvenTree/stock/status_codes.py
+- [[StockStatusGroups]] - code - inventree/src/backend/InvenTree/stock/status_codes.py
+- [[Store and handle related parts (eg. mating connector, crimps, etc.).]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[String representation of a StockLocationType.]] - rationale - inventree/src/backend/InvenTree/stock/models.py
+- [[Strip leading and trailing characters from a string.      Arguments         val]] - rationale - inventree/src/backend/InvenTree/report/templatetags/report.py
+- [[Strip leading characters from a string.      Arguments         value The strin]] - rationale - inventree/src/backend/InvenTree/report/templatetags/report.py
+- [[Strip trailing characters from a string.      Arguments         value The stri]] - rationale - inventree/src/backend/InvenTree/report/templatetags/report.py
+- [[Supplier]] - code - inventree/src/backend/InvenTree/plugin/base/supplier/helpers.py
+- [[SupplierBarcodeTests]] - code - inventree/src/backend/InvenTree/plugin/builtin/suppliers/test_supplier_barcodes.py
+- [[SupplierMixin]] - code
+- [[SupplierPart]] - code - inventree/src/backend/InvenTree/company/models.py
+- [[SupplierPartAdmin]] - code - inventree/src/backend/InvenTree/company/admin.py
+- [[SupplierPartDetail]] - code - inventree/src/backend/InvenTree/company/api.py
+- [[SupplierPartList]] - code - inventree/src/backend/InvenTree/company/api.py
+- [[SupplierPartMixin]] - code - inventree/src/backend/InvenTree/company/api.py
+- [[SupplierPartOutputOptions]] - code - inventree/src/backend/InvenTree/company/api.py
+- [[SupplierPartTest]] - code - inventree/src/backend/InvenTree/company/test_api.py
+- [[SupplierPriceBreak]] - code - inventree/src/backend/InvenTree/company/models.py
+- [[SupplierPriceBreakAPITest]] - code - inventree/src/backend/InvenTree/company/test_api.py
+- [[SupplierPriceBreakAdmin]] - code - inventree/src/backend/InvenTree/company/admin.py
+- [[SupplierPriceBreakDetail]] - code - inventree/src/backend/InvenTree/company/api.py
+- [[SupplierPriceBreakFilter]] - code - inventree/src/backend/InvenTree/company/api.py
+- [[SupplierPriceBreakInline]] - code - inventree/src/backend/InvenTree/company/admin.py
+- [[SupplierPriceBreakMixin]] - code - inventree/src/backend/InvenTree/company/api.py
+- [[SupplierPriceBreakOutputOptions]] - code - inventree/src/backend/InvenTree/company/api.py
+- [[SupplierPriceBreakSerializer]] - code - inventree/src/backend/InvenTree/company/serializers.py
+- [[Test overdue status._1]] - rationale - inventree/src/backend/InvenTree/order/test_api.py
+- [[Test overdue status.]] - rationale - inventree/src/backend/InvenTree/order/test_api.py
+- [[Test API endpoint for cancelling a SalesOrder.]] - rationale - inventree/src/backend/InvenTree/order/test_api.py
+- [[Test API endpoint for setting StockItem custom status.]] - rationale - inventree/src/backend/InvenTree/stock/test_api.py
+- [[Test Address deletion.]] - rationale - inventree/src/backend/InvenTree/company/tests.py
+- [[Test POST with invalid data.]] - rationale - inventree/src/backend/InvenTree/order/test_api.py
+- [[Test SalesOrder duplication via the API.]] - rationale - inventree/src/backend/InvenTree/order/test_api.py
+- [[Test TME DataMatrix-Code.]] - rationale - inventree/src/backend/InvenTree/plugin/builtin/suppliers/test_supplier_barcodes.py
+- [[Test a SupplierPart can be created via the API.]] - rationale - inventree/src/backend/InvenTree/company/test_api.py
+- [[Test cases for Address API endpoints.]] - rationale - inventree/src/backend/InvenTree/company/test_api.py
+- [[Test company list API endpoint.]] - rationale - inventree/src/backend/InvenTree/company/test_api.py
+- [[Test completion of a shipment with many items.          Here, we create a shipme]] - rationale - inventree/src/backend/InvenTree/order/test_sales_order.py
+- [[Test creating a new address.]] - rationale - inventree/src/backend/InvenTree/company/test_api.py
+- [[Test data export for the ReturnOrder API endpoints.]] - rationale - inventree/src/backend/InvenTree/order/test_api.py
+- [[Test deleting an object.]] - rationale - inventree/src/backend/InvenTree/company/test_api.py
+- [[Test deletion of a Contact instance.]] - rationale - inventree/src/backend/InvenTree/company/tests.py
+- [[Test delivery date functions via API.]] - rationale - inventree/src/backend/InvenTree/order/test_api.py
+- [[Test detail endpoint.]] - rationale - inventree/src/backend/InvenTree/order/test_api.py
+- [[Test digikey barcode which is invalid.]] - rationale - inventree/src/backend/InvenTree/plugin/builtin/suppliers/test_supplier_barcodes.py
+- [[Test digikey barcode which uses 30P instead of P.]] - rationale - inventree/src/backend/InvenTree/plugin/builtin/suppliers/test_supplier_barcodes.py
+- [[Test digikey barcode.]] - rationale - inventree/src/backend/InvenTree/plugin/builtin/suppliers/test_supplier_barcodes.py
+- [[Test editing an Address object.]] - rationale - inventree/src/backend/InvenTree/company/test_api.py
+- [[Test for an empty order.]] - rationale - inventree/src/backend/InvenTree/order/test_sales_order.py
+- [[Test for annotation of 'parameters' field in Company API.]] - rationale - inventree/src/backend/InvenTree/company/test_api.py
+- [[Test for supplier parts which do exist but do not match the order supplier.]] - rationale - inventree/src/backend/InvenTree/order/test_api.py
+- [[Test for the 'primary' field in the SupplierPart model.]] - rationale - inventree/src/backend/InvenTree/company/test_api.py
+- [[Test for validation of date fields.]] - rationale - inventree/src/backend/InvenTree/order/tests.py
+- [[Test for validation of linked Contact.]] - rationale - inventree/src/backend/InvenTree/order/tests.py
+- [[Test functions for adding line items to an order including price-breaks.]] - rationale - inventree/src/backend/InvenTree/order/tests.py
+- [[Test if this SalesOrder can be completed.          Arguments             raise_]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Test inclusionexclusion of optional API fields.]] - rationale - inventree/src/backend/InvenTree/company/test_api.py
+- [[Test listing addresses filtered on company.]] - rationale - inventree/src/backend/InvenTree/company/test_api.py
+- [[Test listing all addresses without filtering.]] - rationale - inventree/src/backend/InvenTree/company/test_api.py
+- [[Test login redirect endpoint.]] - rationale - inventree/src/backend/InvenTree/users/test_api.py
+- [[Test mouser barcode with custom order number.]] - rationale - inventree/src/backend/InvenTree/plugin/builtin/suppliers/test_supplier_barcodes.py
+- [[Test old mouser barcode with messed up header.]] - rationale - inventree/src/backend/InvenTree/plugin/builtin/suppliers/test_supplier_barcodes.py
+- [[Test order receiving functions.]] - rationale - inventree/src/backend/InvenTree/order/tests.py
+- [[Test output options for detail endpoint.]] - rationale - inventree/src/backend/InvenTree/order/test_api.py
+- [[Test output options for single item retrieval.]] - rationale - inventree/src/backend/InvenTree/stock/test_api.py
+- [[Test overdue sales order notification.]] - rationale - inventree/src/backend/InvenTree/order/test_sales_order.py
+- [[Test overdue status functionality.]] - rationale - inventree/src/backend/InvenTree/order/tests.py
+- [[Test pack_quantity for a part with a specified dimension.]] - rationale - inventree/src/backend/InvenTree/company/test_supplier_parts.py
+- [[Test receipt of virtual items (i.e. items which do not create a StockItem).]] - rationale - inventree/src/backend/InvenTree/order/test_api.py
+- [[Test receipt of a large number of items.]] - rationale - inventree/src/backend/InvenTree/order/test_api.py
+- [[Test receipt of valid data.]] - rationale - inventree/src/backend/InvenTree/order/test_api.py
+- [[Test receiving an item from a barcode with a custom order number.]] - rationale - inventree/src/backend/InvenTree/plugin/builtin/suppliers/test_supplier_barcodes.py
+- [[Test receiving an item from a barcode.]] - rationale - inventree/src/backend/InvenTree/plugin/builtin/suppliers/test_supplier_barcodes.py
+- [[Test receiving an item from a specific order into a specific location.]] - rationale - inventree/src/backend/InvenTree/plugin/builtin/suppliers/test_supplier_barcodes.py
+- [[Test receiving an item into the default line_item location.]] - rationale - inventree/src/backend/InvenTree/plugin/builtin/suppliers/test_supplier_barcodes.py
+- [[Test receiving an item into the default part location.]] - rationale - inventree/src/backend/InvenTree/plugin/builtin/suppliers/test_supplier_barcodes.py
+- [[Test receiving an item when the location is provided.]] - rationale - inventree/src/backend/InvenTree/plugin/builtin/suppliers/test_supplier_barcodes.py
+- [[Test receiving an with missing quantity information.]] - rationale - inventree/src/backend/InvenTree/plugin/builtin/suppliers/test_supplier_barcodes.py
+- [[Test receiving orders with different currencies.]] - rationale - inventree/src/backend/InvenTree/order/tests.py
+- [[Test responses which have invalid data.]] - rationale - inventree/src/backend/InvenTree/stock/test_api.py
+- [[Test sales order default shipment creation.]] - rationale - inventree/src/backend/InvenTree/order/test_sales_order.py
+- [[Test search functionality in company list.]] - rationale - inventree/src/backend/InvenTree/company/test_api.py
+- [[Test search functionality in manufacturer list.]] - rationale - inventree/src/backend/InvenTree/company/test_api.py
+- [[Test shipment of virtual parts against an order.]] - rationale - inventree/src/backend/InvenTree/order/test_sales_order.py
+- [[Test stock transfers.]] - rationale - inventree/src/backend/InvenTree/stock/test_api.py
+- [[Test stocktake function.]] - rationale - inventree/src/backend/InvenTree/stock/tests.py
+- [[Test than a null barcode field can be provided.]] - rationale - inventree/src/backend/InvenTree/order/test_api.py
+- [[Test than errors are returned as expected for invalid data.]] - rationale - inventree/src/backend/InvenTree/order/test_api.py
+- [[Test that 'active' status filtering works correctly.]] - rationale - inventree/src/backend/InvenTree/company/test_api.py
+- [[Test that a notification is sent when a new PurchaseOrder is created.          -]] - rationale - inventree/src/backend/InvenTree/order/tests.py
+- [[Test that a notification is sent when a new SalesOrder is issued.          - The]] - rationale - inventree/src/backend/InvenTree/order/test_sales_order.py
+- [[Test that a reference with a too big  small reference is handled correctly.]] - rationale - inventree/src/backend/InvenTree/order/test_api.py
+- [[Test that a reference with a wildcard default.]] - rationale - inventree/src/backend/InvenTree/order/test_api.py
+- [[Test that build list is working.]] - rationale - inventree/src/backend/InvenTree/InvenTree/test_api.py
+- [[Test that contacts exist.]] - rationale - inventree/src/backend/InvenTree/company/tests.py
+- [[Test that downloading without the 'export' option fails.]] - rationale - inventree/src/backend/InvenTree/order/test_api.py
+- [[Test that first address related to company is always set to primary.]] - rationale - inventree/src/backend/InvenTree/company/tests.py
+- [[Test that object creation with only company supplied is successful.]] - rationale - inventree/src/backend/InvenTree/company/tests.py
+- [[Test that objects are properly returned from a get.]] - rationale - inventree/src/backend/InvenTree/company/test_api.py
+- [[Test that over allocation logic works.]] - rationale - inventree/src/backend/InvenTree/order/test_sales_order.py
+- [[Test that the 'active' value and filter works.]] - rationale - inventree/src/backend/InvenTree/company/test_api.py
+- [[Test that the 'reference_int' field gets rebuilt when the model is saved.]] - rationale - inventree/src/backend/InvenTree/order/test_sales_order.py
+- [[Test that the PurchaseOrderLineItems can be downloaded to a file.]] - rationale - inventree/src/backend/InvenTree/order/test_api.py
+- [[Test that the allocation endpoint acts as expected, when provided with valid dat]] - rationale - inventree/src/backend/InvenTree/order/test_api.py
+- [[Test that the list of sales orders can be downloaded as a .csv file.]] - rationale - inventree/src/backend/InvenTree/order/test_api.py
+- [[Test that the reference_int field is correctly updated when the model is saved.]] - rationale - inventree/src/backend/InvenTree/order/tests.py
+- [[Test that the status code class functions work correctly.]] - rationale - inventree/src/backend/InvenTree/generic/states/tests.py
+- [[Test that there can only be one company-'primary=true' pair.]] - rationale - inventree/src/backend/InvenTree/company/tests.py
+- [[Test that this StockItem is unique.          If the StockItem is serialized, t]] - rationale - inventree/src/backend/InvenTree/stock/models.py
+- [[Test that this test template is 'unique' within this part tree.]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Test that we can bulk delete multiple PurchaseOrderLineItems via the API.]] - rationale - inventree/src/backend/InvenTree/order/test_api.py
+- [[Test that we can complete a shipment via the API.]] - rationale - inventree/src/backend/InvenTree/order/test_api.py
+- [[Test that we can create  edit and delete a PurchaseOrder via the API.]] - rationale - inventree/src/backend/InvenTree/order/test_api.py
+- [[Test that we can create  edit and delete a SalesOrder via the API.]] - rationale - inventree/src/backend/InvenTree/order/test_api.py
+- [[Test that we can create a company via the API!]] - rationale - inventree/src/backend/InvenTree/company/test_api.py
+- [[Test that we can create a new Contact object via the API.]] - rationale - inventree/src/backend/InvenTree/company/test_api.py
+- [[Test that we can create a new PurchaseOrder via the API.]] - rationale - inventree/src/backend/InvenTree/order/test_api.py
+- [[Test that we can create a new PurchaseOrderLineItem via the API.]] - rationale - inventree/src/backend/InvenTree/order/test_api.py
+- [[Test that we can create a new SalesOrder via the API.]] - rationale - inventree/src/backend/InvenTree/order/test_api.py
+- [[Test that we can create set the creation_date field of PurchaseOrder via the API]] - rationale - inventree/src/backend/InvenTree/order/test_api.py
+- [[Test that we can duplicate a PurchaseOrder via the API.]] - rationale - inventree/src/backend/InvenTree/order/test_api.py
+- [[Test that we can edit a Contact via the API.]] - rationale - inventree/src/backend/InvenTree/company/test_api.py
+- [[Test that we can receive items against a ReturnOrder.]] - rationale - inventree/src/backend/InvenTree/order/test_api.py
+- [[Test that we can receive untracked items against a ReturnOrder.          Ref ht]] - rationale - inventree/src/backend/InvenTree/order/test_api.py
+- [[Test that we can supply a 'batch code' when receiving items.]] - rationale - inventree/src/backend/InvenTree/order/test_api.py
+- [[Test that we can supply a 'packaging' value when receiving items.]] - rationale - inventree/src/backend/InvenTree/order/test_api.py
+- [[Test that we can supply a 'serial number' when receiving items.]] - rationale - inventree/src/backend/InvenTree/order/test_api.py
+- [[Test that we can update a ReturnOrder via the API.]] - rationale - inventree/src/backend/InvenTree/order/test_api.py
+- [[Test the 'issue' order for a ReturnOrder.]] - rationale - inventree/src/backend/InvenTree/order/test_api.py
+- [[Test the 'project_code' serializer field.]] - rationale - inventree/src/backend/InvenTree/order/test_api.py
+- [[Test the (auto)locking functionality of the (Purchase)Order model.]] - rationale - inventree/src/backend/InvenTree/order/tests.py
+- [[Test the ManufacturerPart API list functionality.]] - rationale - inventree/src/backend/InvenTree/company/test_api.py
+- [[Test the OPTIONS endpoint.]] - rationale - inventree/src/backend/InvenTree/order/test_api.py
+- [[Test the OPTIONS endpoint._1]] - rationale - inventree/src/backend/InvenTree/order/test_api.py
+- [[Test the PartCategory API OPTIONS endpoint.]] - rationale - inventree/src/backend/InvenTree/part/test_api.py
+- [[Test the PurchaseOrder OPTIONS endpoint.]] - rationale - inventree/src/backend/InvenTree/order/test_api.py
+- [[Test the PurchaseOrder list API endpoint.]] - rationale - inventree/src/backend/InvenTree/order/test_api.py
+- [[Test the PurchaseOrderCancel API endpoint.]] - rationale - inventree/src/backend/InvenTree/order/test_api.py
+- [[Test the PurchaseOrderComplete API endpoint.]] - rationale - inventree/src/backend/InvenTree/order/test_api.py
+- [[Test the PurchaseOrderIssue API endpoint.]] - rationale - inventree/src/backend/InvenTree/order/test_api.py
+- [[Test the PurchaseOrderLine list API endpoint.]] - rationale - inventree/src/backend/InvenTree/order/test_api.py
+- [[Test the SalesOrder detail endpoint.]] - rationale - inventree/src/backend/InvenTree/order/test_api.py
+- [[Test the SalesOrder list API endpoint.]] - rationale - inventree/src/backend/InvenTree/order/test_api.py
+- [[Test the SupplierPart API list functionality.]] - rationale - inventree/src/backend/InvenTree/company/test_api.py
+- [[Test the SupplierPriceBreak API list functionality.]] - rationale - inventree/src/backend/InvenTree/company/test_api.py
+- [[Test the calendar export endpoint._1]] - rationale - inventree/src/backend/InvenTree/order/test_api.py
+- [[Test the calendar export endpoint.]] - rationale - inventree/src/backend/InvenTree/order/test_api.py
+- [[Test the list API endpoint for the Company model.]] - rationale - inventree/src/backend/InvenTree/company/test_api.py
+- [[Test the list endpoint for the PurchaseOrderAttachment model.]] - rationale - inventree/src/backend/InvenTree/order/test_api.py
+- [[Test the list endpoint for the SalesOrderAttachment model.]] - rationale - inventree/src/backend/InvenTree/order/test_api.py
+- [[Test the markdown 'notes' field for the Company model.]] - rationale - inventree/src/backend/InvenTree/company/test_api.py
+- [[Test the output options for SupplierPart detail.]] - rationale - inventree/src/backend/InvenTree/company/test_api.py
+- [[Test the output options for SupplierPart detail._1]] - rationale - inventree/src/backend/InvenTree/company/test_api.py
+- [[Test the output options for the SalesOrder detail endpoint.]] - rationale - inventree/src/backend/InvenTree/order/test_api.py
+- [[Test the shipment delivery settings.]] - rationale - inventree/src/backend/InvenTree/order/test_sales_order.py
+- [[Test the various output options for the PurchaseOrder detail endpoint.]] - rationale - inventree/src/backend/InvenTree/order/test_api.py
+- [[Test the various output options for the ReturnOrder detail endpoint.]] - rationale - inventree/src/backend/InvenTree/order/test_api.py
+- [[Test the various output options for the SalesOrderAllocation detail endpoint.]] - rationale - inventree/src/backend/InvenTree/order/test_api.py
+- [[Test updating ReturnOrderLineItem.]] - rationale - inventree/src/backend/InvenTree/order/test_api.py
+- [[Test valid values for the 'pack_quantity' field.]] - rationale - inventree/src/backend/InvenTree/company/test_supplier_parts.py
+- [[Test validation for currency selection.]] - rationale - inventree/src/backend/InvenTree/company/tests.py
+- [[Test validation of the linked Address.]] - rationale - inventree/src/backend/InvenTree/order/test_sales_order.py
+- [[Test value of __str__.]] - rationale - inventree/src/backend/InvenTree/company/tests.py
+- [[Test we can export the SalesOrder list.]] - rationale - inventree/src/backend/InvenTree/order/test_api.py
+- [[Test with an empty list of items.]] - rationale - inventree/src/backend/InvenTree/order/test_api.py
+- [[Test with an invalid StockStatus value.]] - rationale - inventree/src/backend/InvenTree/order/test_api.py
+- [[Test with auto_allocate explicitly disabled.]] - rationale - inventree/src/backend/InvenTree/plugin/builtin/suppliers/test_supplier_barcodes.py
+- [[Test without any POST data.]] - rationale - inventree/src/backend/InvenTree/order/test_api.py
+- [[Test xlsx file download.]] - rationale - inventree/src/backend/InvenTree/order/test_api.py
+- [[Tests barcode parsing for all suppliers.]] - rationale - inventree/src/backend/InvenTree/plugin/builtin/suppliers/test_supplier_barcodes.py
+- [[Tests barcode parsing for all suppliers._1]] - rationale - inventree/src/backend/InvenTree/plugin/builtin/suppliers/test_supplier_barcodes.py
+- [[Tests barcode scanning to receive a purchase order item.]] - rationale - inventree/src/backend/InvenTree/plugin/builtin/suppliers/test_supplier_barcodes.py
+- [[Tests for SampleSupplierPlugin.]] - rationale - inventree/src/backend/InvenTree/plugin/samples/supplier/test_supplier_sample.py
+- [[Tests for checking in items with invalid barcodes.          - Cannot check in d]] - rationale - inventree/src/backend/InvenTree/order/test_api.py
+- [[Tests for marking a SalesOrder as complete.]] - rationale - inventree/src/backend/InvenTree/order/test_api.py
+- [[Tests for overdue functionality.]] - rationale - inventree/src/backend/InvenTree/order/test_sales_order.py
+- [[Tests for the Contact models.]] - rationale - inventree/src/backend/InvenTree/company/test_api.py
+- [[Tests for the ManufacturerPart detail endpoint.]] - rationale - inventree/src/backend/InvenTree/company/test_api.py
+- [[Tests for the PurchaseOrder API.]] - rationale - inventree/src/backend/InvenTree/order/test_api.py
+- [[Tests for the SalesOrder API.]] - rationale - inventree/src/backend/InvenTree/order/test_api.py
+- [[Tests for the SalesOrderLineItem API.]] - rationale - inventree/src/backend/InvenTree/order/test_api.py
+- [[Tests for the admin interface integration.]] - rationale - inventree/src/backend/InvenTree/importer/tests.py
+- [[Tests for the company model data.]] - rationale - inventree/src/backend/InvenTree/company/tests.py
+- [[Tests for the list endpoint.]] - rationale - inventree/src/backend/InvenTree/order/test_api.py
+- [[Tests for updating the 'available' field.]] - rationale - inventree/src/backend/InvenTree/company/test_api.py
+- [[Tests that we can delete a Contact via the API.]] - rationale - inventree/src/backend/InvenTree/company/test_api.py
+- [[Tests to ensure that the stock location tree functions correctly.]] - rationale - inventree/src/backend/InvenTree/stock/tests.py
+- [[Tests to verify that the updated_at field is correctly maintained on all order t]] - rationale - inventree/src/backend/InvenTree/order/tests.py
+- [[That that a ManufacturerPart has been created.]] - rationale - inventree/src/backend/InvenTree/company/tests.py
+- [[The Owner class is a proxy for a Group or User instance.      Owner can be assoc]] - rationale - inventree/src/backend/InvenTree/users/models.py
+- [[The Part object represents an abstract part, the 'concept' of an actual entity.]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[The SalesOrderShipment model represents a physical shipment made against a Sales]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[This model is used to 'allocate' stock items to a SalesOrder. Items that are al]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[TotalPriceMixin]] - code - inventree/src/backend/InvenTree/order/models.py
+- [[TypedDict]] - code
+- [[Unassign custom barcode from this model.]] - rationale - inventree/src/backend/InvenTree/InvenTree/models.py
+- [[Uninstall this stock item from another item, into a location.          Args]] - rationale - inventree/src/backend/InvenTree/stock/models.py
+- [[Unit tests for PurchaseOrderLineItems.]] - rationale - inventree/src/backend/InvenTree/order/test_api.py
+- [[Unit tests for ReturnOrder API endpoints.]] - rationale - inventree/src/backend/InvenTree/order/test_api.py
+- [[Unit tests for ReturnOrderLineItem API endpoints.]] - rationale - inventree/src/backend/InvenTree/order/test_api.py
+- [[Unit tests for SalesOrderShipment address field.]] - rationale - inventree/src/backend/InvenTree/order/test_sales_order.py
+- [[Unit tests for downloading SalesOrder data via the API endpoint.]] - rationale - inventree/src/backend/InvenTree/order/test_api.py
+- [[Unit tests for locate_sample sample plugins._1]] - rationale - inventree/src/backend/InvenTree/plugin/samples/supplier/test_supplier_sample.py
+- [[Unit tests for receiving items against a PurchaseOrder.]] - rationale - inventree/src/backend/InvenTree/order/test_api.py
+- [[Unit tests for sales order generation.]] - rationale - inventree/src/backend/InvenTree/order/test_sales_order.py
+- [[Unit tests for supplier part pricing.]] - rationale - inventree/src/backend/InvenTree/company/tests.py
+- [[Unit tests for the 'total_price' field._1]] - rationale - inventree/src/backend/InvenTree/order/test_api.py
+- [[Unit tests for the 'total_price' field.]] - rationale - inventree/src/backend/InvenTree/order/test_api.py
+- [[Unit tests for the Address model.]] - rationale - inventree/src/backend/InvenTree/company/tests.py
+- [[Unit tests for the Company model.]] - rationale - inventree/src/backend/InvenTree/company/tests.py
+- [[Unit tests for the ManufacturerPart model.]] - rationale - inventree/src/backend/InvenTree/company/tests.py
+- [[Unit tests for the SalesOrder models.]] - rationale - inventree/src/backend/InvenTree/order/test_sales_order.py
+- [[Unit tests for the SupplierPart API endpoints.]] - rationale - inventree/src/backend/InvenTree/company/test_api.py
+- [[Unit tests for the SupplierPart price break API.]] - rationale - inventree/src/backend/InvenTree/company/test_api.py
+- [[Unit tests for the metadata field.]] - rationale - inventree/src/backend/InvenTree/order/test_sales_order.py
+- [[Unit tests for the metadata field._1]] - rationale - inventree/src/backend/InvenTree/order/tests.py
+- [[Update existing build orders when a BomItem is created or edited.]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Update overall cost values.          Here we simply take the minimum  maximum v]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Update parent order updated_at when any line item is saved or deleted.]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Update stock quantity for this item.          If the quantity has reached zero,]] - rationale - inventree/src/backend/InvenTree/stock/models.py
+- [[Update the 'serial_int' field, to be an integer representation of the serial num]] - rationale - inventree/src/backend/InvenTree/stock/models.py
+- [[Update the available quantity for this SupplierPart.]] - rationale - inventree/src/backend/InvenTree/company/models.py
+- [[Update variant cost values.          Here we track the minmax costs of any vari]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Validate a serial number against this Part instance.          Note This functio]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Validate primary_group on user profiles when a group is created or updated.]] - rationale - inventree/src/backend/InvenTree/users/models.py
+- [[Validate result is unique before saving.]] - rationale - inventree/src/backend/InvenTree/stock/models.py
+- [[Validate that this Part instance is 'unique'.          Uniqueness is checked acr]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Validate the BOM (mark the BOM as validated by the given User.          Argument]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Validate the SalesOrderAllocation object.          Executes         - Cannot al]] - rationale - inventree/src/backend/InvenTree/order/models.py
+- [[Validate the StockItem object (separate to field validation).          The follo]] - rationale - inventree/src/backend/InvenTree/stock/models.py
+- [[Validate the metadata field.]] - rationale - inventree/src/backend/InvenTree/InvenTree/models.py
+- [[Validate the name field for this Part instance.          This function is expose]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[Validate the provided order.]] - rationale - inventree/src/backend/InvenTree/plugin/base/barcodes/serializers.py
+- [[Validate the provided order._1]] - rationale - inventree/src/backend/InvenTree/plugin/base/barcodes/serializers.py
+- [[Validate this PartCategoryParameterTemplate instance.          Checks the provid]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[When editing or deleting a BOM item, check if the assembly is locked.          I]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[When saving a global setting, check to see if it requires a server restart.]] - rationale - inventree/src/backend/InvenTree/common/models.py
+- [[Whenever pricing model is saved, automatically update overall prices.]] - rationale - inventree/src/backend/InvenTree/part/models.py
+- [[admin.py_10]] - code - inventree/src/backend/InvenTree/company/admin.py
+- [[api.py_16]] - code - inventree/src/backend/InvenTree/company/api.py
+- [[auto_issue_orders.py]] - code - inventree/src/backend/InvenTree/plugin/builtin/events/auto_issue_orders.py
+- [[events.py_3]] - code - inventree/src/backend/InvenTree/generic/events.py
+- [[events.py]] - code - inventree/src/backend/InvenTree/order/events.py
+- [[events.py_4]] - code - inventree/src/backend/InvenTree/part/events.py
+- [[events.py_1]] - code - inventree/src/backend/InvenTree/plugin/events.py
+- [[events.py_5]] - code - inventree/src/backend/InvenTree/stock/events.py
+- [[fields.py]] - code - inventree/src/backend/InvenTree/generic/states/fields.py
+- [[fields.py_1]] - code - inventree/src/backend/InvenTree/InvenTree/fields.py
+- [[order_queryset()]] - code - inventree/src/backend/InvenTree/report/templatetags/report.py
+- [[pui_url()]] - code - inventree/src/backend/InvenTree/InvenTree/helpers.py
+- [[rebuild_thumbnails.py]] - code - inventree/src/backend/InvenTree/InvenTree/management/commands/rebuild_thumbnails.py
+- [[round_decimal()]] - code - inventree/src/backend/InvenTree/InvenTree/fields.py
+- [[settings_url()]] - code - inventree/src/backend/InvenTree/plugin/plugin.py
+- [[status_codes.py]] - code - inventree/src/backend/InvenTree/order/status_codes.py
+- [[status_codes.py_2]] - code - inventree/src/backend/InvenTree/stock/status_codes.py
+- [[supplier_sample.py]] - code - inventree/src/backend/InvenTree/plugin/samples/supplier/supplier_sample.py
+- [[test_api.py_8]] - code - inventree/src/backend/InvenTree/company/test_api.py
+- [[test_api.py]] - code - inventree/src/backend/InvenTree/order/test_api.py
+- [[test_supplier_barcodes.py]] - code - inventree/src/backend/InvenTree/plugin/builtin/suppliers/test_supplier_barcodes.py
+- [[test_supplier_sample.py]] - code - inventree/src/backend/InvenTree/plugin/samples/supplier/test_supplier_sample.py
+- [[tests.py_12]] - code - inventree/src/backend/InvenTree/company/tests.py
+- [[tests.py]] - code - inventree/src/backend/InvenTree/order/tests.py
+- [[updated_at should advance on the parent order when a regular line item is added.]] - rationale - inventree/src/backend/InvenTree/order/tests.py
+- [[updated_at should advance on the parent order when a regular line item is delete]] - rationale - inventree/src/backend/InvenTree/order/tests.py
+- [[updated_at should advance on the parent order when a regular line item is update]] - rationale - inventree/src/backend/InvenTree/order/tests.py
+- [[updated_at should advance on the parent order when an extra line is added.]] - rationale - inventree/src/backend/InvenTree/order/tests.py
+- [[updated_at should advance on the parent order when an extra line is updated.]] - rationale - inventree/src/backend/InvenTree/order/tests.py
+- [[updated_at should advance when the order is saved again.]] - rationale - inventree/src/backend/InvenTree/order/tests.py
+- [[updated_at should be populated after the order is saved.]] - rationale - inventree/src/backend/InvenTree/order/tests.py
+
+## Live Query (requires Dataview plugin)
+
+```dataview
+TABLE source_file, type FROM #community/System_Configuration_&_Settings
+SORT file.name ASC
+```
+
+## Connections to other communities
+- 3161 edges to [[_COMMUNITY_Stock Management & Tracking]]
+- 2975 edges to [[_COMMUNITY_Documentation & FAQ]]
+- 996 edges to [[_COMMUNITY_Data Migrations & Schema]]
+- 906 edges to [[_COMMUNITY_Community 2]]
+- 853 edges to [[_COMMUNITY_Part Management & Archetypes]]
+- 9 edges to [[_COMMUNITY_Community 9]]
+- 7 edges to [[_COMMUNITY_Community 1]]
+- 4 edges to [[_COMMUNITY_Community 13]]
+- 1 edge to [[_COMMUNITY_Deployment & Docker Architecture]]
+- 1 edge to [[_COMMUNITY_API & Integration Core]]
+
+## Top bridge nodes
+- [[Company]] - degree 1003, connects to 6 communities
+- [[Owner]] - degree 674, connects to 6 communities
+- [[SalesOrderStatusGroups]] - degree 1029, connects to 5 communities
+- [[PurchaseOrderStatusGroups]] - degree 999, connects to 5 communities
+- [[StockStatus]] - degree 983, connects to 5 communities
